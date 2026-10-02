@@ -115,6 +115,27 @@
     updateStickyBar();
   }
 
+  // ---------- Welcome splash ----------
+  function dismissWelcome() {
+    if (!els.welcomeScreen || els.welcomeScreen.hidden) return;
+    els.welcomeScreen.classList.add("is-hiding");
+    document.body.style.overflow = "";
+    window.setTimeout(() => { els.welcomeScreen.hidden = true; }, 350);
+  }
+
+  function showWelcome() {
+    els.welcomeBusinessName.textContent = state.config.businessName || "our catalog";
+    els.welcomeTagline.textContent = state.config.tagline || "";
+    els.welcomeScreen.hidden = false;
+    document.body.style.overflow = "hidden";
+    els.welcomeScreen.addEventListener("click", dismissWelcome, { once: true });
+    document.addEventListener("keydown", function onKey(e) {
+      dismissWelcome();
+      document.removeEventListener("keydown", onKey);
+    }, { once: true });
+    window.setTimeout(dismissWelcome, 2600);
+  }
+
   // ---------- Theme ----------
   function initTheme() {
     let saved = null;
@@ -651,6 +672,9 @@
   async function init() {
     els.businessName = qs("business-name");
     els.businessTagline = qs("business-tagline");
+    els.welcomeScreen = qs("welcome-screen");
+    els.welcomeBusinessName = qs("welcome-business-name");
+    els.welcomeTagline = qs("welcome-tagline");
     els.themeToggle = qs("theme-toggle");
     els.clientBanner = qs("client-banner");
     els.homeView = qs("home-view");
@@ -713,6 +737,7 @@
     document.title = config.businessName || "Gift Catalog";
     els.businessName.textContent = config.businessName || "Catalog";
     els.businessTagline.textContent = config.tagline || "";
+    showWelcome();
 
     applyClientFilter();
     loadShortlist();
