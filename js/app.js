@@ -169,12 +169,17 @@
     return state.visibleProducts.filter((p) => p.category === categoryId).length;
   }
 
+  function categoriesByCountDesc() {
+    return state.visibleCategories
+      .map((cat) => ({ cat, count: categoryProductCount(cat.id) }))
+      .filter((entry) => entry.count > 0)
+      .sort((a, b) => b.count - a.count);
+  }
+
   function renderCategoryGrid() {
     const tpl = qs("category-tile-template");
     els.categoryGrid.innerHTML = "";
-    state.visibleCategories.forEach((cat) => {
-      const count = categoryProductCount(cat.id);
-      if (count === 0) return;
+    categoriesByCountDesc().forEach(({ cat, count }) => {
       const node = tpl.content.firstElementChild.cloneNode(true);
       node.querySelector(".category-emoji").textContent = cat.emoji || "🎁";
       node.querySelector(".category-label").textContent = cat.label;
@@ -188,9 +193,7 @@
   function renderChips() {
     const tpl = qs("chip-template");
     els.chipRow.innerHTML = "";
-    state.visibleCategories.forEach((cat) => {
-      const count = categoryProductCount(cat.id);
-      if (count === 0) return;
+    categoriesByCountDesc().forEach(({ cat }) => {
       const node = tpl.content.firstElementChild.cloneNode(true);
       node.textContent = cat.label;
       node.setAttribute("aria-selected", String(cat.id === state.activeCategory));
