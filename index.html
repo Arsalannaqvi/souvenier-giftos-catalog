@@ -34,8 +34,13 @@
       <span aria-hidden="true">←</span> All categories
     </button>
     <div id="chip-row" class="chip-row" role="tablist" aria-label="Categories"></div>
+    <button id="filters-btn" class="filters-btn" type="button">
+      <span aria-hidden="true">⚙︎</span> Filters
+      <span id="filters-badge" class="filters-badge" hidden>0</span>
+    </button>
     <div id="product-grid" class="product-grid"></div>
     <p id="empty-state" class="empty-state" hidden>No products in this category yet.</p>
+    <p id="filtered-empty-state" class="empty-state" hidden>No products match these filters. Try widening your price range or clearing a brand.</p>
   </section>
 </main>
 
@@ -158,6 +163,38 @@
 <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Product image">
   <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Close">✕</button>
   <img id="lightbox-img" class="lightbox-img" src="" alt="">
+</div>
+
+<div id="filter-sheet-overlay" class="sheet-overlay" hidden></div>
+
+<div id="filter-sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="filter-sheet-title">
+  <div class="sheet-handle" aria-hidden="true"></div>
+  <div class="sheet-header">
+    <h2 id="filter-sheet-title">Filters</h2>
+    <button id="close-filter-sheet-btn" class="icon-btn" type="button" aria-label="Close filters">✕</button>
+  </div>
+
+  <div class="sheet-body">
+    <div class="field">
+      <span>Price range</span>
+      <div class="price-range-inputs">
+        <input id="filter-price-min" type="number" inputmode="numeric" min="0" placeholder="Min">
+        <span aria-hidden="true">–</span>
+        <input id="filter-price-max" type="number" inputmode="numeric" min="0" placeholder="Max">
+      </div>
+    </div>
+
+    <div class="field">
+      <span>Brand</span>
+      <div id="brand-filter-list" class="brand-filter-list"></div>
+      <p id="brand-filter-empty" class="filter-note" hidden>Brand data isn't available for this category yet.</p>
+    </div>
+  </div>
+
+  <div class="sheet-footer">
+    <button id="apply-filters-btn" class="send-btn" type="button">Apply Filters</button>
+    <button id="clear-filters-btn" class="send-btn send-btn--secondary" type="button">Clear All</button>
+  </div>
 </div>
 
 <script src="js/app.js" defer></script>

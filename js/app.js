@@ -18,6 +18,8 @@
     shortlist: new Map(), // productId -> qty
     clientKey: null,
     selectedRep: null, // { name, number } from config.salesTeam
+    brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
+    filters: { minPrice: null, maxPrice: null, brands: new Set() },
   };
 
   const els = {};
@@ -178,6 +180,10 @@
 
   function openCategory(categoryId) {
     state.activeCategory = categoryId;
+    state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    qs("filter-price-min").value = "";
+    qs("filter-price-max").value = "";
+    updateFiltersBadge();
     els.homeView.hidden = true;
     els.categoryView.hidden = false;
     renderChips();
@@ -192,12 +198,105 @@
     renderCategoryGrid();
   }
 
+  // ---------- Filters (price range + brand) ----------
+  function categoryItems() {
+    return state.visibleProducts.filter((p) => p.category === state.activeCategory);
+  }
+
+  function matchesFilters(product) {
+    const { minPrice, maxPrice, brands } = state.filters;
+    if (minPrice != null && (product.price == null || product.price < minPrice)) return false;
+    if (maxPrice != null && (product.price == null || product.price > maxPrice)) return false;
+    if (brands.size > 0) {
+      const brand = state.brandByProduct[product.id];
+      if (!brand || !brands.has(brand)) return false;
+    }
+    return true;
+  }
+
+  function updateFiltersBadge() {
+    const { minPrice, maxPrice, brands } = state.filters;
+    let count = 0;
+    if (minPrice != null) count += 1;
+    if (maxPrice != null) count += 1;
+    count += brands.size;
+    els.filtersBadge.textContent = String(count);
+    els.filtersBadge.hidden = count === 0;
+  }
+
+  function renderBrandFilterList() {
+    const counts = new Map();
+    categoryItems().forEach((p) => {
+      const brand = state.brandByProduct[p.id];
+      if (brand) counts.set(brand, (counts.get(brand) || 0) + 1);
+    });
+    const brands = Array.from(counts.keys()).sort((a, b) => a.localeCompare(b));
+
+    els.brandFilterList.innerHTML = "";
+    els.brandFilterEmpty.hidden = brands.length > 0;
+
+    brands.forEach((brand) => {
+      const label = document.createElement("label");
+      label.className = "brand-filter-item";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = brand;
+      input.checked = state.filters.brands.has(brand);
+      const text = document.createElement("span");
+      text.textContent = brand;
+      const count = document.createElement("span");
+      count.className = "brand-count";
+      count.textContent = String(counts.get(brand));
+      label.appendChild(input);
+      label.appendChild(text);
+      label.appendChild(count);
+      els.brandFilterList.appendChild(label);
+    });
+  }
+
+  function openFilterSheet() {
+    renderBrandFilterList();
+    els.filterSheetOverlay.hidden = false;
+    els.filterSheet.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeFilterSheet() {
+    els.filterSheetOverlay.hidden = true;
+    els.filterSheet.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  function applyFilters() {
+    const minVal = qs("filter-price-min").value.trim();
+    const maxVal = qs("filter-price-max").value.trim();
+    state.filters.minPrice = minVal ? Number(minVal) : null;
+    state.filters.maxPrice = maxVal ? Number(maxVal) : null;
+    state.filters.brands = new Set(
+      Array.from(els.brandFilterList.querySelectorAll("input:checked")).map((el) => el.value)
+    );
+    updateFiltersBadge();
+    renderProducts();
+    closeFilterSheet();
+  }
+
+  function clearFilters() {
+    state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    qs("filter-price-min").value = "";
+    qs("filter-price-max").value = "";
+    renderBrandFilterList();
+    updateFiltersBadge();
+    renderProducts();
+  }
+
   // ---------- Rendering: products ----------
   function renderProducts() {
     const tpl = qs("product-card-template");
     els.productGrid.innerHTML = "";
-    const items = state.visibleProducts.filter((p) => p.category === state.activeCategory);
-    els.emptyState.hidden = items.length > 0;
+    const baseItems = categoryItems();
+    const items = baseItems.filter(matchesFilters);
+    els.emptyState.hidden = baseItems.length > 0;
+    els.filteredEmptyState.hidden = !(baseItems.length > 0 && items.length === 0);
 
     items.forEach((product) => {
       const node = tpl.content.firstElementChild.cloneNode(true);
@@ -575,6 +674,13 @@
     els.salesPicker = qs("sales-picker");
     els.lightbox = qs("lightbox");
     els.lightboxImg = qs("lightbox-img");
+    els.filtersBtn = qs("filters-btn");
+    els.filtersBadge = qs("filters-badge");
+    els.filterSheetOverlay = qs("filter-sheet-overlay");
+    els.filterSheet = qs("filter-sheet");
+    els.brandFilterList = qs("brand-filter-list");
+    els.brandFilterEmpty = qs("brand-filter-empty");
+    els.filteredEmptyState = qs("filtered-empty-state");
 
     initTheme();
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
@@ -597,6 +703,12 @@
     state.config = config;
     state.categories = data.categories || [];
     state.products = data.products || [];
+
+    try {
+      state.brandByProduct = await fetchJSON("data/brands.json");
+    } catch (err) {
+      state.brandByProduct = {}; // optional file; brand filter just stays empty if absent
+    }
 
     document.title = config.businessName || "Gift Catalog";
     els.businessName.textContent = config.businessName || "Catalog";
@@ -623,6 +735,11 @@
     els.stickyBar.addEventListener("click", openSheet);
     els.closeSheetBtn.addEventListener("click", closeSheet);
     els.sheetOverlay.addEventListener("click", closeSheet);
+    els.filtersBtn.addEventListener("click", openFilterSheet);
+    els.filterSheetOverlay.addEventListener("click", closeFilterSheet);
+    qs("close-filter-sheet-btn").addEventListener("click", closeFilterSheet);
+    qs("apply-filters-btn").addEventListener("click", applyFilters);
+    qs("clear-filters-btn").addEventListener("click", clearFilters);
     els.sendBtn.addEventListener("click", sendWhatsApp);
     els.submitBtn.addEventListener("click", submitEnquiry);
     qs("client-name").addEventListener("input", updateStickyBar);
