@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+"""Generates a static, shareable landing page per product under product/<id>/index.html.
+
+Static (not client-rendered) so each page can carry its own real OG tags --
+when a product link is pasted into WhatsApp, the preview card shows that
+product's actual photo, name and price, not the generic site icon.
+
+Run from the repo root: python3 scripts/generate_product_pages.py
+"""
+import html
+import json
+import shutil
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+OUT_ROOT = ROOT / "product"
+
+PAGE_TEMPLATE = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<title>{title}</title>
+<meta name="description" content="{description}">
+<meta property="og:type" content="product">
+<meta property="og:title" content="{og_title}">
+<meta property="og:description" content="{description}">
+<meta property="og:image" content="{image}">
+<meta property="og:site_name" content="{business_name}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>{business_name}</h1>
+      <p class="tagline">{tagline}</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main">
+  <a href="../../" class="pd-back"><span aria-hidden="true">←</span> All categories</a>
+
+  <div class="pd-gallery">
+    <div id="pd-gallery-track" class="pd-gallery-track"></div>
+    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+  </div>
+  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+
+  <p class="pd-breadcrumb">{category_label}</p>
+  <h2 class="pd-title">{name}</h2>
+  {brand_html}
+  {price_html}
+
+  <div class="pd-action">
+    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+    <div id="pd-stepper" class="stepper" hidden>
+      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+    </div>
+  </div>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__PRODUCT__ = {product_json};</script>
+<script src="../../js/product.js" defer></script>
+</body>
+</html>
+"""
+
+
+def main():
+    products = json.loads((DATA / "products.json").read_text())
+    config = json.loads((DATA / "config.json").read_text())
+    try:
+        brands = json.loads((DATA / "brands.json").read_text())
+    except FileNotFoundError:
+        brands = {}
+
+    category_labels = {c["id"]: c["label"] for c in products["categories"]}
+    business_name = config.get("businessName", "Catalog")
+    tagline = config.get("tagline", "")
+    currency = config.get("currency", "₹")
+    show_prices = config.get("showPrices", True)
+
+    if OUT_ROOT.exists():
+        shutil.rmtree(OUT_ROOT)
+    OUT_ROOT.mkdir(parents=True)
+
+    count = 0
+    for p in products["products"]:
+        pid = p["id"]
+        name = p["name"]
+        price = p.get("price")
+        image = p.get("image") or ""
+        category_label = category_labels.get(p["category"], p["category"])
+        brand = brands.get(pid)
+
+        desc_parts = []
+        if brand:
+            desc_parts.append(brand)
+        desc_parts.append(category_label)
+        if show_prices and price is not None:
+            desc_parts.append(f"{currency}{price}")
+        description = html.escape(" — ".join(desc_parts))
+
+        brand_html = (
+            f'<p class="pd-brand">Brand: <strong>{html.escape(brand)}</strong></p>' if brand else ""
+        )
+        price_html = (
+            f'<p class="pd-price">{html.escape(currency)}{price}</p>'
+            if show_prices and price is not None
+            else ""
+        )
+
+        product_payload = {
+            "id": pid,
+            "name": name,
+            "price": price if show_prices else None,
+            "image": image,
+            "category": p["category"],
+            "categoryLabel": category_label,
+            "brand": brand,
+        }
+
+        page = PAGE_TEMPLATE.format(
+            title=html.escape(f"{name} — {business_name}"),
+            og_title=html.escape(name),
+            description=description,
+            image=html.escape(image, quote=True),
+            business_name=html.escape(business_name),
+            tagline=html.escape(tagline),
+            category_label=html.escape(category_label),
+            name=html.escape(name),
+            brand_html=brand_html,
+            price_html=price_html,
+            product_json=json.dumps(product_payload),
+        )
+
+        page_dir = OUT_ROOT / pid
+        page_dir.mkdir(parents=True, exist_ok=True)
+        (page_dir / "index.html").write_text(page)
+        count += 1
+
+    print(f"Generated {count} product pages under {OUT_ROOT}")
+
+
+if __name__ == "__main__":
+    main()

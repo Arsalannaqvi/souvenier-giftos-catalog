@@ -321,6 +321,39 @@
   }
 
   // ---------- Rendering: products ----------
+
+  // Auto-cycles through a product's photos on hover/press, so extra angles
+  // (once sourced) preview without opening the product page. A no-op today
+  // for any product with only one photo.
+  function bindImageHoverCycle(imageWrap, img, product) {
+    const images = (product.images && product.images.length ? product.images : [product.image]).filter(Boolean);
+    if (images.length <= 1) return;
+    let timer = null;
+    let index = 0;
+    const advance = () => {
+      index = (index + 1) % images.length;
+      img.classList.add("is-fading");
+      window.setTimeout(() => {
+        img.src = images[index];
+        img.classList.remove("is-fading");
+      }, 120);
+    };
+    const start = () => {
+      if (timer) return;
+      timer = window.setInterval(advance, 900);
+    };
+    const stop = () => {
+      if (timer) { window.clearInterval(timer); timer = null; }
+      index = 0;
+      img.classList.remove("is-fading");
+      img.src = images[0];
+    };
+    imageWrap.addEventListener("mouseenter", start);
+    imageWrap.addEventListener("mouseleave", stop);
+    imageWrap.addEventListener("touchstart", start, { passive: true });
+    imageWrap.addEventListener("touchend", stop);
+  }
+
   function renderProducts() {
     const tpl = qs("product-card-template");
     els.productGrid.innerHTML = "";
@@ -342,7 +375,8 @@
         imageWrap.innerHTML = "";
         imageWrap.appendChild(img);
         imageWrap.classList.add("has-photo");
-        imageWrap.addEventListener("click", () => openLightbox(product.image, product.name));
+        imageWrap.addEventListener("click", () => openLightbox(img.src, product.name));
+        bindImageHoverCycle(imageWrap, img, product);
       } else {
         const cat = state.categories.find((c) => c.id === product.category);
         node.querySelector(".product-emoji").textContent = (cat && cat.emoji) || "🎁";
@@ -351,7 +385,9 @@
           : "";
       }
 
-      node.querySelector(".product-name").textContent = product.name;
+      const nameLink = node.querySelector(".product-name-link");
+      nameLink.textContent = product.name;
+      nameLink.href = `product/${product.id}/`;
       node.querySelector(".product-desc").textContent = product.desc || "";
       const priceEl = node.querySelector(".product-price");
       if (state.config.showPrices) {
