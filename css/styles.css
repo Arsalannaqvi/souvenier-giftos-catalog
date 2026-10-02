@@ -1,5 +1,5 @@
 :root {
-  --bg: #f7f8fa;
+  --bg: #f6f0e3;
   --surface: #ffffff;
   --text: #16181d;
   --text-muted: #6b7280;
@@ -18,7 +18,7 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #0f1115;
+  --bg: #15120f;
   --surface: #1b1e25;
   --text: #f1f2f4;
   --text-muted: #9aa1ac;
@@ -33,7 +33,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0f1115;
+    --bg: #15120f;
     --surface: #1b1e25;
     --text: #f1f2f4;
     --text-muted: #9aa1ac;
