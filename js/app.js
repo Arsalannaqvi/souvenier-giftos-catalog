@@ -146,12 +146,19 @@
     updateThemeIcon();
   }
 
-  function updateThemeIcon() {
+  function isDarkMode() {
     const explicit = document.documentElement.getAttribute("data-theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const isDark = explicit === "dark" || (!explicit && prefersDark);
+    return explicit === "dark" || (!explicit && prefersDark);
+  }
+
+  function updateThemeIcon() {
+    const isDark = isDarkMode();
     els.themeToggle.textContent = isDark ? "☀️" : "🌙";
     els.themeToggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+    if (els.brandLogo) {
+      els.brandLogo.src = isDark ? "assets/logo-white.png" : "assets/logo.png";
+    }
   }
 
   function toggleTheme() {
@@ -679,6 +686,7 @@
     els.welcomeBusinessName = qs("welcome-business-name");
     els.welcomeTagline = qs("welcome-tagline");
     els.themeToggle = qs("theme-toggle");
+    els.brandLogo = qs("brand-logo");
     els.clientBanner = qs("client-banner");
     els.homeView = qs("home-view");
     els.categoryView = qs("category-view");
