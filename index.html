@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<title>Souvenier Giftos Catalog</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <img src="assets/logo.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1 id="business-name">Catalog</h1>
+      <p id="business-tagline" class="tagline"></p>
+    </div>
+  </div>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<div id="client-banner" class="client-banner" hidden></div>
+
+<main id="main">
+  <section id="home-view" class="view">
+    <h2 class="section-title">Browse Categories</h2>
+    <div id="category-grid" class="category-grid"></div>
+  </section>
+
+  <section id="category-view" class="view" hidden>
+    <button id="back-btn" class="back-btn" type="button">
+      <span aria-hidden="true">←</span> All categories
+    </button>
+    <div id="chip-row" class="chip-row" role="tablist" aria-label="Categories"></div>
+    <div id="product-grid" class="product-grid"></div>
+    <p id="empty-state" class="empty-state" hidden>No products in this category yet.</p>
+  </section>
+</main>
+
+<button id="sticky-bar" class="sticky-bar" type="button" hidden>
+  <span id="sticky-summary">0 items · 0 pcs</span>
+  <span class="sticky-cta">View shortlist →</span>
+</button>
+
+<div id="sheet-overlay" class="sheet-overlay" hidden></div>
+
+<div id="shortlist-sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <div class="sheet-handle" aria-hidden="true"></div>
+  <div class="sheet-header">
+    <h2 id="sheet-title">Your Shortlist</h2>
+    <button id="close-sheet-btn" class="icon-btn" type="button" aria-label="Close shortlist">✕</button>
+  </div>
+
+  <div class="sheet-body">
+    <div id="sheet-items" class="sheet-items"></div>
+    <p id="sheet-empty" class="empty-state" hidden>Your shortlist is empty. Tap "Add to enquiry" on any product.</p>
+
+    <div class="sheet-total" id="sheet-total" hidden></div>
+
+    <form id="client-form" class="client-form">
+      <label class="field">
+        <span>Your name <em>*</em></span>
+        <input id="client-name" name="name" type="text" autocomplete="name" required>
+      </label>
+      <label class="field">
+        <span>Company</span>
+        <input id="client-company" name="company" type="text" autocomplete="organization">
+      </label>
+      <label class="field">
+        <span>Your WhatsApp number <em>(optional)</em></span>
+        <input id="client-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+91 XXXXX XXXXX">
+      </label>
+      <label class="field">
+        <span>Notes</span>
+        <textarea id="client-notes" name="notes" rows="2" placeholder="Delivery date, branding, budget..."></textarea>
+      </label>
+
+      <div class="field">
+        <span>Send this enquiry to <em>(for the WhatsApp option)</em></span>
+        <div id="sales-picker" class="sales-picker" role="radiogroup" aria-label="Choose who to send this enquiry to"></div>
+      </div>
+    </form>
+
+    <p id="enquiry-status" class="enquiry-status" hidden></p>
+  </div>
+
+  <div class="sheet-footer">
+    <button id="submit-enquiry-btn" class="send-btn" type="button" disabled>
+      Submit Enquiry
+    </button>
+    <button id="send-whatsapp-btn" class="send-btn send-btn--secondary" type="button" disabled>
+      Send on WhatsApp
+    </button>
+  </div>
+</div>
+
+<!-- Static copy for Netlify's build-time form detection; the real submission
+     happens via fetch() in app.js since the visible form above is JS-driven. -->
+<form name="enquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name">
+  <input type="text" name="company">
+  <input type="text" name="whatsapp">
+  <textarea name="message"></textarea>
+  <input type="text" name="bot-field">
+</form>
+
+<template id="category-tile-template">
+  <button class="category-tile" type="button">
+    <span class="category-emoji" aria-hidden="true"></span>
+    <span class="category-label"></span>
+    <span class="category-count"></span>
+  </button>
+</template>
+
+<template id="chip-template">
+  <button class="chip" type="button" role="tab"></button>
+</template>
+
+<template id="product-card-template">
+  <article class="product-card">
+    <div class="product-image" aria-hidden="true">
+      <span class="product-emoji"></span>
+    </div>
+    <div class="product-info">
+      <h3 class="product-name"></h3>
+      <p class="product-desc"></p>
+      <p class="product-price"></p>
+    </div>
+    <div class="product-action">
+      <button class="add-btn" type="button">Add to enquiry</button>
+      <div class="stepper" hidden>
+        <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+        <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+        <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      </div>
+    </div>
+  </article>
+</template>
+
+<template id="sheet-item-template">
+  <div class="sheet-item">
+    <div class="sheet-item-image" aria-hidden="true"><span class="sheet-item-emoji"></span></div>
+    <div class="sheet-item-info">
+      <p class="sheet-item-name"></p>
+      <p class="sheet-item-price"></p>
+    </div>
+    <div class="stepper">
+      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+    </div>
+    <button class="remove-btn" type="button" aria-label="Remove item">✕</button>
+  </div>
+</template>
+
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Product image">
+  <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Close">✕</button>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="">
+</div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

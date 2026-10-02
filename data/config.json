@@ -1,0 +1,12 @@
+{
+  "businessName": "Souvenier Giftos",
+  "tagline": "Corporate Gifts, Curated",
+  "salesTeam": [
+    { "name": "Sagar", "number": "919912661011" },
+    { "name": "Raj", "number": "919959000655" },
+    { "name": "Arsalan", "number": "917207547275" }
+  ],
+  "currency": "₹",
+  "showPrices": true,
+  "clients": {}
+}
