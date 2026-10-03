@@ -62,6 +62,7 @@ PAGE_TEMPLATE = """<!doctype html>
   {price_html}
   {specs_html}
   {description_html}
+  {source_html}
 
   <div class="pd-action">
     <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
@@ -114,7 +115,11 @@ def main():
         subcategory = p.get("subcategory")
         real_description = p.get("description")
         colours = p.get("colours") or []
+        web_colours = p.get("webColours") or []
         sizes = p.get("sizes") or []
+        dimensions = p.get("dimensions")
+        warranty = p.get("warranty")
+        source_url = p.get("sourceUrl")
 
         meta_parts = []
         if brand:
@@ -145,10 +150,22 @@ def main():
             colour_names = ", ".join(html.escape(c.get("label", "")) for c in colours if c.get("label"))
             if colour_names:
                 spec_rows.append(f'<p class="pd-spec"><strong>Colours:</strong> {colour_names}</p>')
+        elif web_colours:
+            colour_names = ", ".join(html.escape(str(c)) for c in web_colours)
+            spec_rows.append(f'<p class="pd-spec"><strong>Colours:</strong> {colour_names}</p>')
         if sizes:
             size_names = ", ".join(html.escape(str(s)) for s in sizes)
             spec_rows.append(f'<p class="pd-spec"><strong>Sizes:</strong> {size_names}</p>')
+        if dimensions:
+            spec_rows.append(f'<p class="pd-spec"><strong>Dimensions:</strong> {html.escape(dimensions)}</p>')
+        if warranty:
+            spec_rows.append(f'<p class="pd-spec"><strong>Warranty:</strong> {html.escape(warranty)}</p>')
         specs_html = "\n  ".join(spec_rows)
+
+        source_html = (
+            f'<p class="pd-source"><a href="{html.escape(source_url, quote=True)}" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>'
+            if source_url else ""
+        )
 
         product_payload = {
             "id": pid,
@@ -163,6 +180,8 @@ def main():
             "description": real_description,
             "colours": colours,
             "sizes": sizes,
+            "dimensions": dimensions,
+            "warranty": warranty,
         }
 
         page = PAGE_TEMPLATE.format(
@@ -178,6 +197,7 @@ def main():
             price_html=price_html,
             specs_html=specs_html,
             description_html=description_html,
+            source_html=source_html,
             product_json=json.dumps(product_payload),
         )
 

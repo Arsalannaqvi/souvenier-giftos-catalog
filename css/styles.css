@@ -793,6 +793,10 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 
 .pd-description { font-size: 14px; line-height: 1.55; color: var(--text); margin: 4px 0 18px; }
 
+.pd-source { margin: -8px 0 18px; }
+.pd-source a { font-size: 12px; color: var(--accent); text-decoration: none; }
+.pd-source a:active { text-decoration: underline; }
+
 .pd-action { display: flex; }
 .pd-action .add-btn { width: 100%; justify-content: center; }
 .pd-action .stepper { width: 100%; justify-content: center; }
