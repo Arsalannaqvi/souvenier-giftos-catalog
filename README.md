@@ -5,6 +5,8 @@ send an enquiry via WhatsApp or straight to the sales team's dashboard.
 
 Deployed via Netlify's continuous deployment from this repo's `main` branch.
 
+**Live site:** https://rococo-cobbler-ad20cf.netlify.app
+
 This is a deliberately slim, public mirror of just the catalog site — the
 business's internal working repo (pricing rules, scraping notes, Notion
 config, etc.) stays separate and private.
