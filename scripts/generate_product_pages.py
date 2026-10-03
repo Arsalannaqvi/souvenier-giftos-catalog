@@ -60,6 +60,8 @@ PAGE_TEMPLATE = """<!doctype html>
   <h2 class="pd-title">{name}</h2>
   {brand_html}
   {price_html}
+  {specs_html}
+  {description_html}
 
   <div class="pd-action">
     <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
@@ -109,14 +111,22 @@ def main():
         image = p.get("image") or ""
         category_label = category_labels.get(p["category"], p["category"])
         brand = brands.get(pid)
+        subcategory = p.get("subcategory")
+        real_description = p.get("description")
+        colours = p.get("colours") or []
+        sizes = p.get("sizes") or []
 
-        desc_parts = []
+        meta_parts = []
         if brand:
-            desc_parts.append(brand)
-        desc_parts.append(category_label)
+            meta_parts.append(brand)
+        meta_parts.append(category_label)
         if show_prices and price is not None:
-            desc_parts.append(f"{currency}{price}")
-        description = html.escape(" — ".join(desc_parts))
+            meta_parts.append(f"{currency}{price}")
+        meta_description = html.escape(" — ".join(meta_parts))
+
+        breadcrumb = category_label
+        if subcategory and subcategory.strip().lower() != category_label.strip().lower():
+            breadcrumb = f"{category_label} · {subcategory}"
 
         brand_html = (
             f'<p class="pd-brand">Brand: <strong>{html.escape(brand)}</strong></p>' if brand else ""
@@ -126,28 +136,48 @@ def main():
             if show_prices and price is not None
             else ""
         )
+        description_html = (
+            f'<p class="pd-description">{html.escape(real_description)}</p>' if real_description else ""
+        )
+
+        spec_rows = []
+        if colours:
+            colour_names = ", ".join(html.escape(c.get("label", "")) for c in colours if c.get("label"))
+            if colour_names:
+                spec_rows.append(f'<p class="pd-spec"><strong>Colours:</strong> {colour_names}</p>')
+        if sizes:
+            size_names = ", ".join(html.escape(str(s)) for s in sizes)
+            spec_rows.append(f'<p class="pd-spec"><strong>Sizes:</strong> {size_names}</p>')
+        specs_html = "\n  ".join(spec_rows)
 
         product_payload = {
             "id": pid,
             "name": name,
             "price": price if show_prices else None,
             "image": image,
+            "images": p.get("images") or ([image] if image else []),
             "category": p["category"],
             "categoryLabel": category_label,
+            "subcategory": subcategory,
             "brand": brand,
+            "description": real_description,
+            "colours": colours,
+            "sizes": sizes,
         }
 
         page = PAGE_TEMPLATE.format(
             title=html.escape(f"{name} — {business_name}"),
             og_title=html.escape(name),
-            description=description,
+            description=meta_description,
             image=html.escape(image, quote=True),
             business_name=html.escape(business_name),
             tagline=html.escape(tagline),
-            category_label=html.escape(category_label),
+            category_label=html.escape(breadcrumb),
             name=html.escape(name),
             brand_html=brand_html,
             price_html=price_html,
+            specs_html=specs_html,
+            description_html=description_html,
             product_json=json.dumps(product_payload),
         )
 

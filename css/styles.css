@@ -788,6 +788,11 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .pd-brand strong { color: var(--text); }
 .pd-price { font-size: 22px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
 
+.pd-spec { font-size: 13px; color: var(--text-muted); margin: 0 0 6px; }
+.pd-spec strong { color: var(--text); }
+
+.pd-description { font-size: 14px; line-height: 1.55; color: var(--text); margin: 4px 0 18px; }
+
 .pd-action { display: flex; }
 .pd-action .add-btn { width: 100%; justify-content: center; }
 .pd-action .stepper { width: 100%; justify-content: center; }
