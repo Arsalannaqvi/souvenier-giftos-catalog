@@ -548,7 +548,6 @@
     els.stickySummary.textContent = `${itemCount} item${itemCount === 1 ? "" : "s"} · ${totalQty} pcs`;
     const canSubmit = itemCount > 0 && !!qs("client-name").value.trim();
     els.sendBtn.disabled = !canSubmit || !state.selectedRep;
-    els.submitBtn.disabled = !canSubmit;
   }
 
   // ---------- Sheet ----------
@@ -705,51 +704,6 @@
     window.open(url, "_blank", "noopener");
   }
 
-  // ---------- Enquiry submission (Netlify Forms — no WhatsApp number needed) ----------
-  function setEnquiryStatus(text, kind) {
-    els.enquiryStatus.textContent = text;
-    els.enquiryStatus.hidden = !text;
-    els.enquiryStatus.className = "enquiry-status" + (kind ? ` enquiry-status--${kind}` : "");
-  }
-
-  async function submitEnquiry() {
-    if (els.submitBtn.disabled || els.submitBtn.dataset.busy === "true") return;
-    saveClientInfo();
-
-    const name = qs("client-name").value.trim();
-    const company = qs("client-company").value.trim();
-    const whatsapp = qs("client-whatsapp").value.trim();
-    const message = buildMessage();
-
-    els.submitBtn.dataset.busy = "true";
-    els.submitBtn.textContent = "Submitting…";
-    setEnquiryStatus("", null);
-
-    const body = new URLSearchParams({
-      "form-name": "enquiry",
-      name,
-      company,
-      whatsapp,
-      message,
-    }).toString();
-
-    try {
-      const res = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body,
-      });
-      if (!res.ok) throw new Error(`Submit failed: ${res.status}`);
-      setEnquiryStatus("Thanks! Your enquiry has been sent — we'll be in touch.", "success");
-    } catch (err) {
-      console.error(err);
-      setEnquiryStatus("Couldn't submit right now. Please try \"Send on WhatsApp\" instead, or try again.", "error");
-    } finally {
-      els.submitBtn.dataset.busy = "false";
-      els.submitBtn.textContent = "Submit Enquiry";
-    }
-  }
-
   // ---------- Client curation (?client=) ----------
   function applyClientFilter() {
     const params = new URLSearchParams(window.location.search);
@@ -796,8 +750,6 @@
     els.sheetEmpty = qs("sheet-empty");
     els.sheetTotal = qs("sheet-total");
     els.sendBtn = qs("send-whatsapp-btn");
-    els.submitBtn = qs("submit-enquiry-btn");
-    els.enquiryStatus = qs("enquiry-status");
     els.salesPicker = qs("sales-picker");
     els.lightbox = qs("lightbox");
     els.lightboxImg = qs("lightbox-img");
@@ -892,7 +844,6 @@
       goToPage(state.pagination.page + 1);
     });
     els.sendBtn.addEventListener("click", sendWhatsApp);
-    els.submitBtn.addEventListener("click", submitEnquiry);
     qs("client-name").addEventListener("input", updateStickyBar);
     els.lightbox.addEventListener("click", closeLightbox);
     qs("lightbox-close").addEventListener("click", closeLightbox);

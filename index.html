@@ -116,33 +116,19 @@
       </label>
 
       <div class="field">
-        <span>Send this enquiry to <em>(for the WhatsApp option)</em></span>
+        <span>Send this enquiry to</span>
         <div id="sales-picker" class="sales-picker" role="radiogroup" aria-label="Choose who to send this enquiry to"></div>
       </div>
     </form>
 
-    <p id="enquiry-status" class="enquiry-status" hidden></p>
   </div>
 
   <div class="sheet-footer">
-    <button id="submit-enquiry-btn" class="send-btn" type="button" disabled>
-      Submit Enquiry
-    </button>
-    <button id="send-whatsapp-btn" class="send-btn send-btn--secondary" type="button" disabled>
+    <button id="send-whatsapp-btn" class="send-btn" type="button" disabled>
       Send on WhatsApp
     </button>
   </div>
 </div>
-
-<!-- Static copy for Netlify's build-time form detection; the real submission
-     happens via fetch() in app.js since the visible form above is JS-driven. -->
-<form name="enquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name">
-  <input type="text" name="company">
-  <input type="text" name="whatsapp">
-  <textarea name="message"></textarea>
-  <input type="text" name="bot-field">
-</form>
 
 <template id="category-tile-template">
   <button class="category-tile" type="button">

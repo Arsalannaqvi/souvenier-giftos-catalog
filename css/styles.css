@@ -650,16 +650,6 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   font-size: 14px;
 }
 
-.enquiry-status {
-  margin: 0 0 4px;
-  padding: 10px 12px;
-  border-radius: 10px;
-  font-size: 13.5px;
-  text-align: center;
-}
-.enquiry-status--success { background: color-mix(in srgb, var(--success) 18%, var(--surface)); color: var(--success); font-weight: 600; }
-.enquiry-status--error { background: color-mix(in srgb, var(--danger) 18%, var(--surface)); color: var(--danger); font-weight: 600; }
-
 
 /* ---------- Lightbox ---------- */
 .lightbox {
