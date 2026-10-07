@@ -20,6 +20,7 @@
     selectedRep: null, // { name, number } from config.salesTeam
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
+    pagination: { page: 1, pageSize: 24, sort: "newest" },
   };
 
   const els = {};
@@ -212,6 +213,7 @@
   function openCategory(categoryId) {
     state.activeCategory = categoryId;
     state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    state.pagination.page = 1;
     qs("filter-price-min").value = "";
     qs("filter-price-max").value = "";
     updateFiltersBadge();
@@ -306,6 +308,7 @@
     state.filters.brands = new Set(
       Array.from(els.brandFilterList.querySelectorAll("input:checked")).map((el) => el.value)
     );
+    state.pagination.page = 1;
     updateFiltersBadge();
     renderProducts();
     closeFilterSheet();
@@ -313,11 +316,51 @@
 
   function clearFilters() {
     state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    state.pagination.page = 1;
     qs("filter-price-min").value = "";
     qs("filter-price-max").value = "";
     renderBrandFilterList();
     updateFiltersBadge();
     renderProducts();
+  }
+
+  // ---------- Sorting + pagination ----------
+  function sortItems(items) {
+    const sorted = items.slice();
+    switch (state.pagination.sort) {
+      case "price-low":
+        sorted.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
+        break;
+      case "price-high":
+        sorted.sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
+        break;
+      case "name":
+        sorted.sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case "newest":
+      default:
+        // No creation-date field in the data; catalog order is append order,
+        // so reversing approximates newest-added-first.
+        sorted.reverse();
+        break;
+    }
+    return sorted;
+  }
+
+  function updateToolbar(total, startIdx, endIdx, totalPages, page) {
+    els.resultsSummary.textContent = total === 0
+      ? "No products"
+      : `Showing ${startIdx + 1}–${endIdx} of ${total} Products`;
+    els.pager.hidden = totalPages <= 1;
+    els.pagerLabel.textContent = `Page ${page} of ${totalPages}`;
+    els.pagerPrev.disabled = page <= 1;
+    els.pagerNext.disabled = page >= totalPages;
+  }
+
+  function goToPage(page) {
+    state.pagination.page = page;
+    renderProducts();
+    els.productGrid.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
   // ---------- Rendering: products ----------
@@ -358,11 +401,24 @@
     const tpl = qs("product-card-template");
     els.productGrid.innerHTML = "";
     const baseItems = categoryItems();
-    const items = baseItems.filter(matchesFilters);
+    const filtered = baseItems.filter(matchesFilters);
+    const items = sortItems(filtered);
     els.emptyState.hidden = baseItems.length > 0;
     els.filteredEmptyState.hidden = !(baseItems.length > 0 && items.length === 0);
 
-    items.forEach((product) => {
+    const total = items.length;
+    const pageSize = state.pagination.pageSize;
+    const totalPages = Math.max(1, Math.ceil(total / pageSize));
+    if (state.pagination.page > totalPages) state.pagination.page = totalPages;
+    if (state.pagination.page < 1) state.pagination.page = 1;
+    const page = state.pagination.page;
+    const startIdx = total === 0 ? 0 : (page - 1) * pageSize;
+    const endIdx = Math.min(startIdx + pageSize, total);
+    const pageItems = items.slice(startIdx, endIdx);
+
+    updateToolbar(total, startIdx, endIdx, totalPages, page);
+
+    pageItems.forEach((product) => {
       const node = tpl.content.firstElementChild.cloneNode(true);
       node.dataset.productId = product.id;
 
@@ -752,6 +808,13 @@
     els.brandFilterList = qs("brand-filter-list");
     els.brandFilterEmpty = qs("brand-filter-empty");
     els.filteredEmptyState = qs("filtered-empty-state");
+    els.resultsSummary = qs("results-summary");
+    els.pageSizeSelect = qs("page-size-select");
+    els.sortSelect = qs("sort-select");
+    els.pager = qs("pager");
+    els.pagerPrev = qs("pager-prev");
+    els.pagerNext = qs("pager-next");
+    els.pagerLabel = qs("pager-label");
 
     initTheme();
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
@@ -812,6 +875,22 @@
     qs("close-filter-sheet-btn").addEventListener("click", closeFilterSheet);
     qs("apply-filters-btn").addEventListener("click", applyFilters);
     qs("clear-filters-btn").addEventListener("click", clearFilters);
+    els.pageSizeSelect.addEventListener("change", () => {
+      state.pagination.pageSize = Number(els.pageSizeSelect.value);
+      state.pagination.page = 1;
+      renderProducts();
+    });
+    els.sortSelect.addEventListener("change", () => {
+      state.pagination.sort = els.sortSelect.value;
+      state.pagination.page = 1;
+      renderProducts();
+    });
+    els.pagerPrev.addEventListener("click", () => {
+      if (state.pagination.page > 1) goToPage(state.pagination.page - 1);
+    });
+    els.pagerNext.addEventListener("click", () => {
+      goToPage(state.pagination.page + 1);
+    });
     els.sendBtn.addEventListener("click", sendWhatsApp);
     els.submitBtn.addEventListener("click", submitEnquiry);
     qs("client-name").addEventListener("input", updateStickyBar);

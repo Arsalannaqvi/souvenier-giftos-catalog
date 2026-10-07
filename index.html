@@ -49,9 +49,31 @@
       <span aria-hidden="true">⚙︎</span> Filters
       <span id="filters-badge" class="filters-badge" hidden>0</span>
     </button>
+    <div id="grid-toolbar" class="grid-toolbar">
+      <p id="results-summary" class="results-summary"></p>
+      <div class="toolbar-controls">
+        <select id="page-size-select" class="toolbar-select" aria-label="Products per page">
+          <option value="12">12 / page</option>
+          <option value="24" selected>24 / page</option>
+          <option value="48">48 / page</option>
+          <option value="96">96 / page</option>
+        </select>
+        <select id="sort-select" class="toolbar-select" aria-label="Sort products">
+          <option value="newest" selected>Newest First</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="name">Name: A to Z</option>
+        </select>
+      </div>
+    </div>
     <div id="product-grid" class="product-grid"></div>
     <p id="empty-state" class="empty-state" hidden>No products in this category yet.</p>
     <p id="filtered-empty-state" class="empty-state" hidden>No products match these filters. Try widening your price range or clearing a brand.</p>
+    <div id="pager" class="pager" hidden>
+      <button id="pager-prev" class="pager-btn" type="button">← Prev</button>
+      <span id="pager-label" class="pager-label"></span>
+      <button id="pager-next" class="pager-btn" type="button">Next →</button>
+    </div>
   </section>
 </main>
 
