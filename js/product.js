@@ -161,6 +161,54 @@
     if (nextBtn) nextBtn.addEventListener("click", () => goTo(index + 1));
   }
 
+  // ---------- Size options (merged size-variant products) ----------
+  function money2(price) {
+    const currency = product.currency || "₹";
+    return price == null ? "" : `${currency}${price}`;
+  }
+
+  function applySizeOption(opt) {
+    const priceEl = qs("pd-price");
+    if (priceEl) priceEl.textContent = opt.price != null ? money2(opt.price) : "";
+
+    const dimEl = qs("pd-dimensions");
+    if (dimEl && opt.dimensions) {
+      dimEl.innerHTML = `<strong>Dimensions:</strong> ${opt.dimensions}`;
+    }
+
+    const sourceEl = qs("pd-source");
+    if (sourceEl) {
+      sourceEl.innerHTML = opt.sourceUrl
+        ? `<a href="${opt.sourceUrl}" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a>`
+        : "";
+    }
+
+    if (opt.images && opt.images.length) {
+      product.images = opt.images;
+      product.image = opt.images[0];
+      initGallery();
+    }
+    // Cart/enquiry identity always stays product.id (the one surviving
+    // catalog record) -- the shared shortlist is keyed by id against the
+    // main products.json, which no longer has separate per-size entries.
+  }
+
+  function initSizeOptions() {
+    const sizeOptions = product.sizeOptions;
+    const row = qs("pd-size-row");
+    if (!row || !sizeOptions || !sizeOptions.length) return;
+
+    Array.from(row.children).forEach((pill) => {
+      pill.addEventListener("click", () => {
+        const opt = sizeOptions.find((o) => o.id === pill.dataset.sizeId);
+        if (!opt) return;
+        Array.from(row.children).forEach((p2) => p2.classList.remove("on"));
+        pill.classList.add("on");
+        applySizeOption(opt);
+      });
+    });
+  }
+
   // ---------- "You might also like" suggestion row ----------
   function money(price) {
     return price == null ? "" : `₹${price}`;
@@ -255,6 +303,7 @@
 
     initGallery();
     initActions();
+    initSizeOptions();
     initSuggestions();
     updateStickyBar();
   }

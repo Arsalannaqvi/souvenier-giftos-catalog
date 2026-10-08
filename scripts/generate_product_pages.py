@@ -64,10 +64,11 @@ PAGE_TEMPLATE = """<!doctype html>
       <p class="pd-breadcrumb">{category_label}</p>
       <h2 class="pd-title">{name}</h2>
       {brand_html}
-      {price_html}
+      {size_html}
+      <p class="pd-price" id="pd-price">{price_html_inner}</p>
       {specs_html}
       {description_html}
-      {source_html}
+      <p class="pd-source" id="pd-source">{source_html_inner}</p>
 
       <div class="pd-action">
         <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
@@ -172,17 +173,33 @@ def main():
         if subcategory and subcategory.strip().lower() != category_label.strip().lower():
             breadcrumb = f"{category_label} · {subcategory}"
 
+        size_options = p.get("sizeOptions")
+
         brand_html = (
             f'<p class="pd-brand">Brand: <strong>{html.escape(brand)}</strong></p>' if brand else ""
         )
-        price_html = (
-            f'<p class="pd-price">{html.escape(currency)}{price}</p>'
-            if show_prices and price is not None
-            else ""
+        price_html_inner = (
+            f'{html.escape(currency)}{price}' if show_prices and price is not None else ""
         )
         description_html = (
             f'<p class="pd-description">{html.escape(real_description)}</p>' if real_description else ""
         )
+
+        size_html = ""
+        if size_options:
+            pills = []
+            for opt in size_options:
+                active = " on" if opt.get("default") else ""
+                pills.append(
+                    f'<button class="pd-size-pill{active}" type="button" '
+                    f'data-size-id="{html.escape(opt["id"], quote=True)}">{html.escape(opt["label"])}</button>'
+                )
+            size_html = (
+                '<div class="pd-sizes">'
+                '<span class="pd-sizes-label">Size available</span>'
+                f'<div class="pd-size-row" id="pd-size-row">{"".join(pills)}</div>'
+                '</div>'
+            )
 
         spec_rows = []
         if colours:
@@ -195,14 +212,19 @@ def main():
         if sizes:
             size_names = ", ".join(html.escape(str(s)) for s in sizes)
             spec_rows.append(f'<p class="pd-spec"><strong>Sizes:</strong> {size_names}</p>')
-        if dimensions:
-            spec_rows.append(f'<p class="pd-spec"><strong>Dimensions:</strong> {html.escape(dimensions)}</p>')
+        if dimensions and not size_options:
+            spec_rows.append(f'<p class="pd-spec" id="pd-dimensions"><strong>Dimensions:</strong> {html.escape(dimensions)}</p>')
+        elif size_options:
+            first_dim = next((opt.get("dimensions") for opt in size_options if opt.get("default")), None) \
+                or (size_options[0].get("dimensions") if size_options else None)
+            if first_dim:
+                spec_rows.append(f'<p class="pd-spec" id="pd-dimensions"><strong>Dimensions:</strong> {html.escape(first_dim)}</p>')
         if warranty:
             spec_rows.append(f'<p class="pd-spec"><strong>Warranty:</strong> {html.escape(warranty)}</p>')
         specs_html = "\n  ".join(spec_rows)
 
-        source_html = (
-            f'<p class="pd-source"><a href="{html.escape(source_url, quote=True)}" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>'
+        source_html_inner = (
+            f'<a href="{html.escape(source_url, quote=True)}" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a>'
             if source_url else ""
         )
 
@@ -224,6 +246,8 @@ def main():
             "sizes": sizes,
             "dimensions": dimensions,
             "warranty": warranty,
+            "sizeOptions": size_options,
+            "currency": currency if show_prices else None,
             "related": related_products(p),
         }
 
@@ -237,10 +261,11 @@ def main():
             category_label=html.escape(breadcrumb),
             name=html.escape(name),
             brand_html=brand_html,
-            price_html=price_html,
+            size_html=size_html,
+            price_html_inner=price_html_inner,
             specs_html=specs_html,
             description_html=description_html,
-            source_html=source_html,
+            source_html_inner=source_html_inner,
             back_href=back_href,
             back_label=html.escape(back_label),
             product_json=json.dumps(product_payload),

@@ -917,6 +917,36 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .pd-brand { font-size: 13px; color: var(--text-muted); margin: 0 0 10px; }
 .pd-brand strong { color: var(--text); }
 .pd-price { font-size: 22px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
+.pd-price:empty { display: none; }
+
+.pd-sizes { margin: 0 0 14px; }
+.pd-sizes-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.pd-size-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.pd-size-pill {
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.pd-size-pill:hover { border-color: var(--gold); }
+.pd-size-pill.on {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #1a1200;
+}
 
 .pd-spec { font-size: 13px; color: var(--text-muted); margin: 0 0 6px; }
 .pd-spec strong { color: var(--text); }
@@ -924,6 +954,7 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .pd-description { font-size: 14px; line-height: 1.55; color: var(--text); margin: 4px 0 18px; }
 
 .pd-source { margin: -8px 0 18px; }
+.pd-source:empty { display: none; margin: 0; }
 .pd-source a { font-size: 12px; color: var(--accent); text-decoration: none; }
 .pd-source a:active { text-decoration: underline; }
 
