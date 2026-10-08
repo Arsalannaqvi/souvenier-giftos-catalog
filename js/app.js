@@ -5,6 +5,7 @@
     shortlist: "wa-catalog:shortlist",
     client: "wa-catalog:client-info",
     theme: "wa-catalog:theme",
+    seenWelcome: "wa-catalog:seen-welcome",
   };
 
   /** @type {{config: any, categories: any[], products: any[], visibleCategories: any[], visibleProducts: any[]}} */
@@ -135,7 +136,23 @@
     window.setTimeout(() => { els.welcomeScreen.hidden = true; }, 350);
   }
 
+  function hasSeenWelcome() {
+    try { return sessionStorage.getItem(STORAGE_KEYS.seenWelcome) === "1"; } catch (_) { return false; }
+  }
+
+  function markWelcomeSeen() {
+    try { sessionStorage.setItem(STORAGE_KEYS.seenWelcome, "1"); } catch (_) { /* ignore */ }
+  }
+
   function showWelcome() {
+    if (hasSeenWelcome()) {
+      // Element has no "hidden" attribute in the markup by default (it's
+      // normally shown then auto-dismissed) — explicitly hide it when
+      // skipping, instead of just not-showing-it.
+      els.welcomeScreen.hidden = true;
+      return;
+    }
+    markWelcomeSeen();
     els.welcomeBusinessName.textContent = state.config.businessName || "our catalog";
     els.welcomeTagline.textContent = state.config.tagline || "";
     els.welcomeScreen.hidden = false;
@@ -932,6 +949,13 @@
     renderSalesPicker();
     renderCategoryGrid();
     updateStickyBar();
+
+    // Deep link from a product page's "back to <category>" link, e.g.
+    // product/electronics-404/ links to ../../?category=electronics.
+    const requestedCategory = new URLSearchParams(window.location.search).get("category");
+    if (requestedCategory && state.visibleCategories.some((c) => c.id === requestedCategory)) {
+      openCategory(requestedCategory);
+    }
 
     els.themeToggle.addEventListener("click", toggleTheme);
     els.backBtn.addEventListener("click", goHome);

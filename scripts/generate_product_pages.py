@@ -47,7 +47,7 @@ PAGE_TEMPLATE = """<!doctype html>
 </header>
 
 <main class="pd-main">
-  <a href="../../" class="pd-back"><span aria-hidden="true">←</span> All categories</a>
+  <a href="{back_href}" class="pd-back"><span aria-hidden="true">←</span> {back_label}</a>
 
   <div class="pd-gallery">
     <div id="pd-gallery-track" class="pd-gallery-track"></div>
@@ -167,6 +167,9 @@ def main():
             if source_url else ""
         )
 
+        back_href = f"../../?category={html.escape(p['category'], quote=True)}"
+        back_label = category_label
+
         product_payload = {
             "id": pid,
             "name": name,
@@ -198,6 +201,8 @@ def main():
             specs_html=specs_html,
             description_html=description_html,
             source_html=source_html,
+            back_href=back_href,
+            back_label=html.escape(back_label),
             product_json=json.dumps(product_payload),
         )
 
