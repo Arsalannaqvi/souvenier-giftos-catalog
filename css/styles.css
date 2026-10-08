@@ -228,6 +228,11 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   color: var(--accent-text);
   border-color: var(--accent);
 }
+.chip--ghost {
+  background: transparent;
+  color: var(--text-muted);
+  border-style: dashed;
+}
 
 /* Chip row */
 .chip-row {

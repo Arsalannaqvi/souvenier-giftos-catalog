@@ -18,6 +18,7 @@
     browsingAll: false, // true = viewing/searching across every category at once
     searchQuery: "",
     budgetKey: "all", // which budget chip is active, for chip UI sync
+    brandKey: "", // which brand chip is active ("" = All Brands), for chip UI sync
     shortlist: new Map(), // productId -> qty
     clientKey: null,
     selectedRep: null, // { name, number } from config.salesTeam
@@ -248,12 +249,14 @@
   function resetDiscovery() {
     state.searchQuery = "";
     state.budgetKey = "all";
+    state.brandKey = "";
     state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
     els.searchInput.value = "";
     qs("filter-price-min").value = "";
     qs("filter-price-max").value = "";
     updateFiltersBadge();
     updateBudgetChipsUI();
+    updateBrandChipsUI();
   }
 
   // Switches from the home view into the shared "browsing all categories"
@@ -284,6 +287,26 @@
     updateBudgetChipsUI();
 
     if (key !== "all" && !els.homeView.hidden) {
+      enterBrowseAll();
+    }
+    state.pagination.page = 1;
+    renderProducts();
+  }
+
+  function updateBrandChipsUI() {
+    els.brandChips.querySelectorAll(".chip[data-brand]").forEach((btn) => {
+      btn.setAttribute("aria-pressed", String(btn.dataset.brand === state.brandKey));
+    });
+  }
+
+  function selectBrand(brand) {
+    // Clicking the already-active brand chip clears it back to "All Brands".
+    state.brandKey = state.brandKey === brand ? "" : brand;
+    state.filters.brands = state.brandKey ? new Set([state.brandKey]) : new Set();
+    updateFiltersBadge();
+    updateBrandChipsUI();
+
+    if (state.brandKey && !els.homeView.hidden) {
       enterBrowseAll();
     }
     state.pagination.page = 1;
@@ -382,6 +405,11 @@
     });
     state.budgetKey = matchedKey || null;
     updateBudgetChipsUI();
+    // A manual brand-checkbox edit may no longer match a single quick-chip
+    // brand (none checked, or more than one) — only keep a chip highlighted
+    // when exactly one brand is selected and it has its own quick chip.
+    state.brandKey = state.filters.brands.size === 1 ? Array.from(state.filters.brands)[0] : "";
+    updateBrandChipsUI();
     state.pagination.page = 1;
     updateFiltersBadge();
     renderProducts();
@@ -391,10 +419,12 @@
   function clearFilters() {
     state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
     state.budgetKey = "all";
+    state.brandKey = "";
     state.pagination.page = 1;
     qs("filter-price-min").value = "";
     qs("filter-price-max").value = "";
     updateBudgetChipsUI();
+    updateBrandChipsUI();
     renderBrandFilterList();
     updateFiltersBadge();
     renderProducts();
@@ -851,6 +881,8 @@
     els.searchInput = qs("search-input");
     els.budgetChips = qs("budget-chips");
     els.occasionChips = qs("occasion-chips");
+    els.brandChips = qs("brand-chips");
+    els.moreBrandsBtn = qs("more-brands-btn");
 
     initTheme();
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
@@ -965,6 +997,18 @@
       const btn = e.target.closest(".chip");
       if (!btn) return;
       openCategory(btn.dataset.occasionCategory);
+    });
+    els.brandChips.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip[data-brand]");
+      if (!btn) return;
+      selectBrand(btn.dataset.brand);
+    });
+    els.moreBrandsBtn.addEventListener("click", () => {
+      if (!els.homeView.hidden) {
+        enterBrowseAll();
+        renderProducts();
+      }
+      openFilterSheet();
     });
     els.sendBtn.addEventListener("click", sendWhatsApp);
     qs("client-name").addEventListener("input", updateStickyBar);
