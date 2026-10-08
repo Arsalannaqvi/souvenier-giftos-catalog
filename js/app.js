@@ -39,6 +39,10 @@
 
   function qs(id) { return document.getElementById(id); }
 
+  function isDesktop() {
+    try { return window.matchMedia("(min-width: 1024px)").matches; } catch (_) { return false; }
+  }
+
   async function fetchJSON(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
@@ -238,6 +242,26 @@
     });
   }
 
+  // Persistent desktop-sidebar equivalent of the category grid/chip row —
+  // kept in sync everywhere renderChips()/renderCategoryGrid() are.
+  function renderSidebarCategories() {
+    if (!els.sidebarCategories) return;
+    const allActive = state.browsingAll && !state.activeCategory;
+    const parts = [
+      `<button type="button" class="sidebar-cat-item${allActive ? " on" : ""}" data-all="1">` +
+        `<span>All Products</span><span class="n">${state.visibleProducts.length}</span></button>`,
+    ];
+    categoriesByCountDesc().forEach(({ cat, count }) => {
+      const active = cat.id === state.activeCategory;
+      const emoji = cat.emoji ? `${cat.emoji} ` : "";
+      parts.push(
+        `<button type="button" class="sidebar-cat-item${active ? " on" : ""}" data-cat="${cat.id}">` +
+          `<span>${emoji}${cat.label}</span><span class="n">${count}</span></button>`
+      );
+    });
+    els.sidebarCategories.innerHTML = parts.join("");
+  }
+
   function openCategory(categoryId) {
     state.activeCategory = categoryId;
     state.browsingAll = false;
@@ -247,17 +271,37 @@
     els.categoryView.hidden = false;
     els.chipRow.hidden = false;
     renderChips();
+    renderSidebarCategories();
     renderProducts();
     els.categoryView.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
+  // Desktop has no separate home-grid screen — "All Products" in the
+  // sidebar (or landing on the site at all) lands here instead.
+  function browseAllProducts() {
+    resetDiscovery();
+    state.activeCategory = null;
+    state.browsingAll = true;
+    state.pagination.page = 1;
+    els.homeView.hidden = true;
+    els.categoryView.hidden = false;
+    els.chipRow.hidden = true;
+    renderSidebarCategories();
+    renderProducts();
+  }
+
   function goHome() {
+    if (isDesktop()) {
+      browseAllProducts();
+      return;
+    }
     state.activeCategory = null;
     state.browsingAll = false;
     resetDiscovery();
     els.categoryView.hidden = true;
     els.homeView.hidden = false;
     renderCategoryGrid();
+    renderSidebarCategories();
   }
 
   // ---------- Search / budget discovery (shared across home + category view) ----------
@@ -274,6 +318,7 @@
     updateFiltersBadge();
     updateBudgetChipsUI();
     updateBrandChipsUI();
+    hideSuggestions();
   }
 
   // Switches from the home view into the shared "browsing all categories"
@@ -285,6 +330,86 @@
     els.homeView.hidden = true;
     els.categoryView.hidden = false;
     els.chipRow.hidden = true;
+    renderSidebarCategories();
+  }
+
+  // ---------- Search: price-phrase parsing + brand/category autocomplete ----------
+  // Matches "under 500", "below ₹2000", "over 1500", "above 500",
+  // "500-1500", "between 500 and 1500" etc. anywhere in the query, and
+  // returns the remaining text with that phrase removed.
+  const PRICE_PHRASE_RE =
+    /\b(?:under|below|less than|max)\s*₹?\s*([\d,]+)\b|\b(?:above|over|more than|min)\s*₹?\s*([\d,]+)\b|\bbetween\s*₹?\s*([\d,]+)\s*(?:and|to|-)\s*₹?\s*([\d,]+)\b|₹?\s*([\d,]+)\s*-\s*₹?\s*([\d,]+)\b/i;
+
+  function parseSearchQuery(raw) {
+    const m = raw.match(PRICE_PHRASE_RE);
+    if (!m) return { text: raw.trim(), minPrice: null, maxPrice: null };
+    let minPrice = null;
+    let maxPrice = null;
+    const num = (s) => Number(s.replace(/,/g, ""));
+    if (m[1] !== undefined) maxPrice = num(m[1]);
+    else if (m[2] !== undefined) minPrice = num(m[2]);
+    else if (m[3] !== undefined && m[4] !== undefined) { minPrice = num(m[3]); maxPrice = num(m[4]); }
+    else if (m[5] !== undefined && m[6] !== undefined) { minPrice = num(m[5]); maxPrice = num(m[6]); }
+    const text = (raw.slice(0, m.index) + raw.slice(m.index + m[0].length)).replace(/\s+/g, " ").trim();
+    return { text, minPrice, maxPrice };
+  }
+
+  // Flat {type, label, value}[] of every brand + category, built once the
+  // catalog data is loaded. Used for the type-ahead suggestion dropdown.
+  let searchIndex = [];
+  function buildSearchIndex() {
+    const brandCounts = new Map();
+    state.visibleProducts.forEach((p) => {
+      const b = state.brandByProduct[p.id];
+      if (b) brandCounts.set(b, (brandCounts.get(b) || 0) + 1);
+    });
+    const brandEntries = Array.from(brandCounts.entries())
+      .map(([label, count]) => ({ type: "Brand", label, value: label, count }))
+      .sort((a, b) => b.count - a.count);
+    const catEntries = categoriesByCountDesc().map(({ cat, count }) => ({
+      type: "Category", label: cat.label, value: cat.id, count,
+    }));
+    searchIndex = [...brandEntries, ...catEntries];
+  }
+
+  let suggestActiveIndex = -1;
+  let suggestItems = [];
+
+  function hideSuggestions() {
+    els.searchSuggest.hidden = true;
+    els.searchSuggest.innerHTML = "";
+    els.searchInput.setAttribute("aria-expanded", "false");
+    suggestItems = [];
+    suggestActiveIndex = -1;
+  }
+
+  function renderSuggestions(rawQuery) {
+    const q = rawQuery.trim().toLowerCase();
+    if (!q) { hideSuggestions(); return; }
+    suggestItems = searchIndex
+      .filter((entry) => entry.label.toLowerCase().startsWith(q))
+      .slice(0, 8);
+    if (!suggestItems.length) { hideSuggestions(); return; }
+    suggestActiveIndex = -1;
+    els.searchSuggest.innerHTML = suggestItems.map((entry, i) => (
+      `<li class="search-suggest-item" id="suggest-${i}" role="option" data-index="${i}">` +
+        `<span class="search-suggest-label">${entry.label}</span>` +
+        `<span class="search-suggest-type">${entry.type} · ${entry.count}</span>` +
+      `</li>`
+    )).join("");
+    els.searchSuggest.hidden = false;
+    els.searchInput.setAttribute("aria-expanded", "true");
+  }
+
+  function applySuggestion(entry) {
+    hideSuggestions();
+    els.searchInput.value = "";
+    state.searchQuery = "";
+    if (entry.type === "Brand") {
+      selectBrand(entry.value);
+    } else {
+      openCategory(entry.value);
+    }
   }
 
   function updateBudgetChipsUI() {
@@ -337,7 +462,15 @@
       : state.visibleProducts.filter((p) => p.category === state.activeCategory);
     if (state.searchQuery) {
       const q = state.searchQuery.toLowerCase();
-      items = items.filter((p) => p.name.toLowerCase().includes(q));
+      items = items.filter((p) => {
+        if (p.name.toLowerCase().includes(q)) return true;
+        const brand = state.brandByProduct[p.id];
+        if (brand && brand.toLowerCase().includes(q)) return true;
+        if (p.subcategory && p.subcategory.toLowerCase().includes(q)) return true;
+        const cat = state.categories.find((c) => c.id === p.category);
+        if (cat && cat.label.toLowerCase().includes(q)) return true;
+        return false;
+      });
     }
     return items;
   }
@@ -674,6 +807,10 @@
     state.shortlist.forEach((qty) => { totalQty += qty; });
     els.stickyBar.hidden = itemCount === 0;
     els.stickySummary.textContent = `${itemCount} item${itemCount === 1 ? "" : "s"} · ${totalQty} pcs`;
+    if (els.desktopCartBadge) {
+      els.desktopCartBadge.textContent = String(itemCount);
+      els.desktopCartBadge.hidden = itemCount === 0;
+    }
     const canSubmit = itemCount > 0 && !!qs("client-name").value.trim();
     els.sendBtn.disabled = !canSubmit || !state.selectedRep;
   }
@@ -900,6 +1037,10 @@
     els.occasionChips = qs("occasion-chips");
     els.brandChips = qs("brand-chips");
     els.moreBrandsBtn = qs("more-brands-btn");
+    els.sidebarCategories = qs("sidebar-categories");
+    els.desktopCartBtn = qs("desktop-cart-btn");
+    els.desktopCartBadge = qs("desktop-cart-badge");
+    els.searchSuggest = qs("search-suggest");
 
     initTheme();
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
@@ -948,14 +1089,35 @@
 
     renderSalesPicker();
     renderCategoryGrid();
+    renderSidebarCategories();
     updateStickyBar();
+    buildSearchIndex();
 
     // Deep link from a product page's "back to <category>" link, e.g.
     // product/electronics-404/ links to ../../?category=electronics.
     const requestedCategory = new URLSearchParams(window.location.search).get("category");
     if (requestedCategory && state.visibleCategories.some((c) => c.id === requestedCategory)) {
       openCategory(requestedCategory);
+    } else if (isDesktop()) {
+      // Desktop has no separate home-grid screen — land straight in "All Products".
+      browseAllProducts();
     }
+
+    const desktopQuery = window.matchMedia("(min-width: 1024px)");
+    const onBreakpointChange = (e) => {
+      // Only auto-switch when the shopper hasn't gone anywhere yet (idle on
+      // the mobile home grid) — never yank them out of a search/category/cart.
+      if (e.matches && !els.homeView.hidden) browseAllProducts();
+    };
+    if (desktopQuery.addEventListener) desktopQuery.addEventListener("change", onBreakpointChange);
+
+    els.sidebarCategories.addEventListener("click", (e) => {
+      const btn = e.target.closest(".sidebar-cat-item");
+      if (!btn) return;
+      if (btn.dataset.all) browseAllProducts();
+      else openCategory(btn.dataset.cat);
+    });
+    els.desktopCartBtn.addEventListener("click", openSheet);
 
     els.themeToggle.addEventListener("click", toggleTheme);
     els.backBtn.addEventListener("click", goHome);
@@ -984,11 +1146,30 @@
       goToPage(state.pagination.page + 1);
     });
     els.searchInput.addEventListener("input", () => {
-      const q = els.searchInput.value.trim();
+      const raw = els.searchInput.value;
+      const rawTrimmed = raw.trim();
       const wasSearching = !!state.searchQuery;
-      state.searchQuery = q;
 
-      if (!q) {
+      const { text, minPrice, maxPrice } = parseSearchQuery(rawTrimmed);
+      state.searchQuery = text;
+      // A price phrase in the query (e.g. "bags under 1500") drives price
+      // filtering the same way a budget chip does, for as long as the box
+      // has text in it; clearing just the phrase clears the price filter.
+      if (rawTrimmed) {
+        state.filters.minPrice = minPrice;
+        state.filters.maxPrice = maxPrice;
+        const matchedKey = Object.keys(BUDGET_PRESETS).find((key) => {
+          const preset = BUDGET_PRESETS[key];
+          return preset.min === minPrice && preset.max === maxPrice;
+        });
+        state.budgetKey = matchedKey || null;
+        updateBudgetChipsUI();
+        updateFiltersBadge();
+      }
+
+      renderSuggestions(text);
+
+      if (!rawTrimmed) {
         // Search cleared: if nothing else (a budget chip) is keeping us in
         // the all-categories view, go back to the home screen.
         if (state.browsingAll && state.budgetKey === "all") {
@@ -1008,9 +1189,48 @@
         state.activeCategory = null;
         state.browsingAll = true;
         els.chipRow.hidden = true;
+        renderSidebarCategories();
       }
       state.pagination.page = 1;
       renderProducts();
+    });
+
+    els.searchInput.addEventListener("keydown", (e) => {
+      if (els.searchSuggest.hidden) return;
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        suggestActiveIndex = Math.min(suggestActiveIndex + 1, suggestItems.length - 1);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        suggestActiveIndex = Math.max(suggestActiveIndex - 1, -1);
+      } else if (e.key === "Enter" && suggestActiveIndex >= 0) {
+        e.preventDefault();
+        applySuggestion(suggestItems[suggestActiveIndex]);
+        return;
+      } else if (e.key === "Escape") {
+        hideSuggestions();
+        return;
+      } else {
+        return;
+      }
+      Array.from(els.searchSuggest.children).forEach((li, i) => {
+        li.classList.toggle("is-active", i === suggestActiveIndex);
+      });
+    });
+
+    els.searchSuggest.addEventListener("mousedown", (e) => {
+      // mousedown (not click) so this fires before the input's blur handler
+      const item = e.target.closest(".search-suggest-item");
+      if (!item) return;
+      e.preventDefault();
+      applySuggestion(suggestItems[Number(item.dataset.index)]);
+    });
+
+    els.searchInput.addEventListener("blur", () => {
+      window.setTimeout(hideSuggestions, 120);
+    });
+    els.searchInput.addEventListener("focus", () => {
+      if (els.searchInput.value.trim()) renderSuggestions(els.searchInput.value);
     });
     els.budgetChips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip");

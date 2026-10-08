@@ -949,3 +949,143 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   text-decoration: none;
   min-height: var(--tap);
 }
+
+/* ===== Search suggestions dropdown ===== */
+.search-box-wrap { position: relative; }
+.search-suggest {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0; right: 0;
+  z-index: 25;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  max-height: 320px;
+  overflow-y: auto;
+}
+.search-suggest-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13.5px;
+}
+.search-suggest-item:hover,
+.search-suggest-item.is-active { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.search-suggest-label { font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.search-suggest-type {
+  flex-shrink: 0;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+/* ===== Desktop cart button (header) ===== */
+.desktop-cart-btn { display: none; position: relative; }
+.desktop-cart-badge {
+  position: absolute;
+  top: -4px; right: -4px;
+  min-width: 17px; height: 17px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-text);
+  font-size: 10px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Sidebar categories (desktop only) ===== */
+.sidebar-only { display: none; }
+.sidebar-categories { display: flex; flex-direction: column; gap: 2px; }
+.sidebar-cat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 13.5px;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+.sidebar-cat-item:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.sidebar-cat-item.on { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent); font-weight: 650; }
+.sidebar-cat-item .n { color: var(--text-muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+.sidebar-cat-item.on .n { color: inherit; }
+
+/* ===== Desktop layout (>=1024px): persistent sidebar + wide grid ===== */
+@media (min-width: 1024px) {
+  body {
+    display: grid;
+    grid-template-columns: 272px 1fr;
+    grid-template-areas:
+      "header header"
+      "banner banner"
+      "sidebar main";
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .topbar { grid-area: header; }
+  .client-banner { grid-area: banner; }
+  .desktop-cart-btn { display: flex; }
+
+  #discovery-bar {
+    grid-area: sidebar;
+    position: sticky;
+    top: 73px;
+    align-self: start;
+    max-height: calc(100vh - 73px);
+    overflow-y: auto;
+    padding: 20px 18px 32px;
+    border-right: 1px solid var(--border);
+  }
+  .quick-row { display: block; }
+  .quick-row + .quick-row { margin-top: 22px; }
+  .quick-label { display: block; margin-bottom: 8px; }
+  .chip-row--nowrap { flex-wrap: wrap; overflow: visible; padding-bottom: 0; margin-bottom: 0; }
+  .sidebar-only { display: block; }
+
+  /* The in-category chip row is redundant with the always-visible sidebar list */
+  #chip-row { display: none !important; }
+
+  main#main { grid-area: main; max-width: none; margin: 0; padding: 24px 28px; }
+  .product-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; }
+
+  .sticky-bar { display: none; }
+
+  #shortlist-sheet {
+    left: auto; right: 0; top: 0; bottom: 0;
+    width: 400px; max-width: 92vw; height: 100%; max-height: none;
+    border-radius: 20px 0 0 20px;
+    animation: sheet-right 0.22s ease-out;
+  }
+}
+
+@media (min-width: 1440px) {
+  .product-grid { grid-template-columns: repeat(5, 1fr); }
+}
+
+@keyframes sheet-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}

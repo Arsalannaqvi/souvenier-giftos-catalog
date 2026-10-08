@@ -30,14 +30,24 @@
     </div>
   </div>
   <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+  <button id="desktop-cart-btn" class="icon-btn desktop-cart-btn" type="button" aria-label="View shortlist">
+    🛍️<span id="desktop-cart-badge" class="desktop-cart-badge" hidden>0</span>
+  </button>
 </header>
 
 <div id="client-banner" class="client-banner" hidden></div>
 
 <div id="discovery-bar" class="discovery-bar">
-  <div class="search-box">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-    <input id="search-input" type="search" placeholder="Search products…" autocomplete="off" aria-label="Search products">
+  <div class="search-box-wrap">
+    <div class="search-box">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search-input" type="search" placeholder="Search products, brands, or try &quot;bags under 1500&quot;…" autocomplete="off" aria-label="Search products" role="combobox" aria-expanded="false" aria-controls="search-suggest" aria-autocomplete="list">
+    </div>
+    <ul id="search-suggest" class="search-suggest" hidden role="listbox"></ul>
+  </div>
+  <div class="quick-row sidebar-only" id="sidebar-categories-row">
+    <span class="quick-label">Categories</span>
+    <div id="sidebar-categories" class="sidebar-categories"></div>
   </div>
   <div class="quick-row">
     <span class="quick-label">Budget</span>
