@@ -15,12 +15,22 @@
     visibleCategories: [],
     visibleProducts: [],
     activeCategory: null,
+    browsingAll: false, // true = viewing/searching across every category at once
+    searchQuery: "",
+    budgetKey: "all", // which budget chip is active, for chip UI sync
     shortlist: new Map(), // productId -> qty
     clientKey: null,
     selectedRep: null, // { name, number } from config.salesTeam
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
     pagination: { page: 1, pageSize: 24, sort: "newest" },
+  };
+
+  const BUDGET_PRESETS = {
+    all: { min: null, max: null },
+    low: { min: null, max: 500 },
+    mid: { min: 500, max: 2000 },
+    high: { min: 2000, max: null },
   };
 
   const els = {};
@@ -212,13 +222,12 @@
 
   function openCategory(categoryId) {
     state.activeCategory = categoryId;
-    state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    state.browsingAll = false;
+    resetDiscovery();
     state.pagination.page = 1;
-    qs("filter-price-min").value = "";
-    qs("filter-price-max").value = "";
-    updateFiltersBadge();
     els.homeView.hidden = true;
     els.categoryView.hidden = false;
+    els.chipRow.hidden = false;
     renderChips();
     renderProducts();
     els.categoryView.scrollIntoView({ behavior: "instant", block: "start" });
@@ -226,14 +235,71 @@
 
   function goHome() {
     state.activeCategory = null;
+    state.browsingAll = false;
+    resetDiscovery();
     els.categoryView.hidden = true;
     els.homeView.hidden = false;
     renderCategoryGrid();
   }
 
+  // ---------- Search / budget discovery (shared across home + category view) ----------
+  // Clears search text, budget chip, and price/brand filters back to defaults.
+  // Does not touch activeCategory/browsingAll/view visibility — callers own that.
+  function resetDiscovery() {
+    state.searchQuery = "";
+    state.budgetKey = "all";
+    state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    els.searchInput.value = "";
+    qs("filter-price-min").value = "";
+    qs("filter-price-max").value = "";
+    updateFiltersBadge();
+    updateBudgetChipsUI();
+  }
+
+  // Switches from the home view into the shared "browsing all categories"
+  // view (used when search or a budget chip is used from the home screen,
+  // with no specific category selected yet).
+  function enterBrowseAll() {
+    state.activeCategory = null;
+    state.browsingAll = true;
+    els.homeView.hidden = true;
+    els.categoryView.hidden = false;
+    els.chipRow.hidden = true;
+  }
+
+  function updateBudgetChipsUI() {
+    els.budgetChips.querySelectorAll(".chip").forEach((btn) => {
+      btn.setAttribute("aria-pressed", String(btn.dataset.budget === state.budgetKey));
+    });
+  }
+
+  function selectBudget(key) {
+    state.budgetKey = key;
+    const preset = BUDGET_PRESETS[key];
+    state.filters.minPrice = preset.min;
+    state.filters.maxPrice = preset.max;
+    qs("filter-price-min").value = preset.min ?? "";
+    qs("filter-price-max").value = preset.max ?? "";
+    updateFiltersBadge();
+    updateBudgetChipsUI();
+
+    if (key !== "all" && !els.homeView.hidden) {
+      enterBrowseAll();
+    }
+    state.pagination.page = 1;
+    renderProducts();
+  }
+
   // ---------- Filters (price range + brand) ----------
   function categoryItems() {
-    return state.visibleProducts.filter((p) => p.category === state.activeCategory);
+    let items = state.browsingAll
+      ? state.visibleProducts
+      : state.visibleProducts.filter((p) => p.category === state.activeCategory);
+    if (state.searchQuery) {
+      const q = state.searchQuery.toLowerCase();
+      items = items.filter((p) => p.name.toLowerCase().includes(q));
+    }
+    return items;
   }
 
   function matchesFilters(product) {
@@ -308,6 +374,14 @@
     state.filters.brands = new Set(
       Array.from(els.brandFilterList.querySelectorAll("input:checked")).map((el) => el.value)
     );
+    // A manual price edit may no longer match any budget preset exactly —
+    // only keep a chip highlighted when the typed range still matches it.
+    const matchedKey = Object.keys(BUDGET_PRESETS).find((key) => {
+      const preset = BUDGET_PRESETS[key];
+      return preset.min === state.filters.minPrice && preset.max === state.filters.maxPrice;
+    });
+    state.budgetKey = matchedKey || null;
+    updateBudgetChipsUI();
     state.pagination.page = 1;
     updateFiltersBadge();
     renderProducts();
@@ -316,9 +390,11 @@
 
   function clearFilters() {
     state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    state.budgetKey = "all";
     state.pagination.page = 1;
     qs("filter-price-min").value = "";
     qs("filter-price-max").value = "";
+    updateBudgetChipsUI();
     renderBrandFilterList();
     updateFiltersBadge();
     renderProducts();
@@ -403,6 +479,11 @@
     const baseItems = categoryItems();
     const filtered = baseItems.filter(matchesFilters);
     const items = sortItems(filtered);
+    els.emptyState.textContent = state.searchQuery
+      ? `No products match "${state.searchQuery}".`
+      : state.browsingAll
+        ? "No products match this filter."
+        : "No products in this category yet.";
     els.emptyState.hidden = baseItems.length > 0;
     els.filteredEmptyState.hidden = !(baseItems.length > 0 && items.length === 0);
 
@@ -767,6 +848,9 @@
     els.pagerPrev = qs("pager-prev");
     els.pagerNext = qs("pager-next");
     els.pagerLabel = qs("pager-label");
+    els.searchInput = qs("search-input");
+    els.budgetChips = qs("budget-chips");
+    els.occasionChips = qs("occasion-chips");
 
     initTheme();
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
@@ -842,6 +926,45 @@
     });
     els.pagerNext.addEventListener("click", () => {
       goToPage(state.pagination.page + 1);
+    });
+    els.searchInput.addEventListener("input", () => {
+      const q = els.searchInput.value.trim();
+      const wasSearching = !!state.searchQuery;
+      state.searchQuery = q;
+
+      if (!q) {
+        // Search cleared: if nothing else (a budget chip) is keeping us in
+        // the all-categories view, go back to the home screen.
+        if (state.browsingAll && state.budgetKey === "all") {
+          goHome();
+        } else if (state.browsingAll) {
+          state.pagination.page = 1;
+          renderProducts();
+        }
+        return;
+      }
+
+      if (!wasSearching && !els.homeView.hidden) {
+        enterBrowseAll();
+      } else if (!wasSearching && state.activeCategory != null) {
+        // Typing a search while inside a specific category searches the
+        // whole catalog, same as typing it from the home screen.
+        state.activeCategory = null;
+        state.browsingAll = true;
+        els.chipRow.hidden = true;
+      }
+      state.pagination.page = 1;
+      renderProducts();
+    });
+    els.budgetChips.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      selectBudget(btn.dataset.budget);
+    });
+    els.occasionChips.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      openCategory(btn.dataset.occasionCategory);
     });
     els.sendBtn.addEventListener("click", sendWhatsApp);
     qs("client-name").addEventListener("input", updateStickyBar);

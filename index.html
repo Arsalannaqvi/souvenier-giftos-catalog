@@ -34,6 +34,29 @@
 
 <div id="client-banner" class="client-banner" hidden></div>
 
+<div id="discovery-bar" class="discovery-bar">
+  <div class="search-box">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="search-input" type="search" placeholder="Search products…" autocomplete="off" aria-label="Search products">
+  </div>
+  <div class="quick-row">
+    <span class="quick-label">Budget</span>
+    <div id="budget-chips" class="chip-row chip-row--nowrap">
+      <button class="chip" type="button" data-budget="all" aria-pressed="true">All prices</button>
+      <button class="chip" type="button" data-budget="low">Under ₹500</button>
+      <button class="chip" type="button" data-budget="mid">₹500–2,000</button>
+      <button class="chip" type="button" data-budget="high">₹2,000+</button>
+    </div>
+  </div>
+  <div class="quick-row">
+    <span class="quick-label">Occasion</span>
+    <div id="occasion-chips" class="chip-row chip-row--nowrap">
+      <button class="chip" type="button" data-occasion-category="diwaliHampers">🪔 Diwali Hampers</button>
+      <button class="chip" type="button" data-occasion-category="trophiesMedalsAwards">🏆 Recognition &amp; Awards</button>
+    </div>
+  </div>
+</div>
+
 <main id="main">
   <section id="home-view" class="view">
     <h2 class="section-title">Browse Categories</h2>

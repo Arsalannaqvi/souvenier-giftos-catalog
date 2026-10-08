@@ -171,6 +171,64 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   min-height: var(--tap);
 }
 
+/* Discovery bar: search + quick budget/occasion chips, shown above both
+   the home category grid and the category/search results view */
+.discovery-bar {
+  padding: 0 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 999px;
+  padding: 10px 16px;
+  box-shadow: var(--shadow);
+}
+.search-box:focus-within { border-color: var(--accent); }
+.search-box svg { flex-shrink: 0; color: var(--text-muted); }
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14.5px;
+  color: var(--text);
+  width: 100%;
+  min-height: 24px;
+}
+.search-box input::placeholder { color: var(--text-muted); }
+.search-box input::-webkit-search-cancel-button { cursor: pointer; }
+
+.quick-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.quick-label {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.chip-row--nowrap {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+.chip[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--accent-text);
+  border-color: var(--accent);
+}
+
 /* Chip row */
 .chip-row {
   display: flex;
