@@ -31,31 +31,45 @@
 <main class="pd-main">
   <a href="../../?category=drinkware" class="pd-back"><span aria-hidden="true">←</span> Drinkware</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Drinkware · Water Bottles &amp; Sippers</p>
-  <h2 class="pd-title">Borosil SS Hydra Nova 500ml Bottle</h2>
-  <p class="pd-brand">Brand: <strong>Borosil</strong></p>
-  <p class="pd-price">₹729</p>
-  <p class="pd-spec"><strong>Colours:</strong> Blue</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Drinkware · Water Bottles &amp; Sippers</p>
+      <h2 class="pd-title">Borosil SS Hydra Nova 500ml Bottle</h2>
+      <p class="pd-brand">Brand: <strong>Borosil</strong></p>
+      <p class="pd-price">₹729</p>
+      <p class="pd-spec"><strong>Colours:</strong> Blue</p>
   <p class="pd-spec"><strong>Dimensions:</strong> dimensions_cm: 6.8 x 6.8 x 26; weight_g: 290; capacity_ml: 500</p>
   <p class="pd-spec"><strong>Warranty:</strong> 1 year warranty against manufacturing defects.</p>
-  <p class="pd-description">The Nova bottle has double-wall vacuum insulation with copper coating, keeping drinks hot for 16 hours and cold for 20 hours. It is made of 18/8 food-grade stainless steel, is leakproof with a condensation-free exterior, and has a smooth push-button lid with an easy-drink sipper.</p>
-  <p class="pd-source"><a href="https://myborosil.com/products/hydra-thermoflask-steel-water-bottle-nova-blue" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">The Nova bottle has double-wall vacuum insulation with copper coating, keeping drinks hot for 16 hours and cold for 20 hours. It is made of 18/8 food-grade stainless steel, is leakproof with a condensation-free exterior, and has a smooth push-button lid with an easy-drink sipper.</p>
+      <p class="pd-source"><a href="https://myborosil.com/products/hydra-thermoflask-steel-water-bottle-nova-blue" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -63,7 +77,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "drinkware-199", "name": "Borosil SS Hydra Nova 500ml Bottle", "price": 729, "image": "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29838173372554.jpg", "images": ["https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29838173372554.jpg", "https://myborosil.com/cdn/shop/files/my-borosil-drinkware-500-ml-nova-blue-29838173372554_2024-05-24T10_27_44.731Z.png", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920346439818.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-31338761945226.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920344735882.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920344834186.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920346701962.jpg"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers", "brand": "Borosil", "description": "The Nova bottle has double-wall vacuum insulation with copper coating, keeping drinks hot for 16 hours and cold for 20 hours. It is made of 18/8 food-grade stainless steel, is leakproof with a condensation-free exterior, and has a smooth push-button lid with an easy-drink sipper.", "colours": [], "sizes": [], "dimensions": "dimensions_cm: 6.8 x 6.8 x 26; weight_g: 290; capacity_ml: 500", "warranty": "1 year warranty against manufacturing defects."};</script>
+<script>window.__PRODUCT__ = {"id": "drinkware-199", "name": "Borosil SS Hydra Nova 500ml Bottle", "price": 729, "image": "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29838173372554.jpg", "images": ["https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29838173372554.jpg", "https://myborosil.com/cdn/shop/files/my-borosil-drinkware-500-ml-nova-blue-29838173372554_2024-05-24T10_27_44.731Z.png", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920346439818.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-31338761945226.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920344735882.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920344834186.jpg", "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29920346701962.jpg"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers", "brand": "Borosil", "description": "The Nova bottle has double-wall vacuum insulation with copper coating, keeping drinks hot for 16 hours and cold for 20 hours. It is made of 18/8 food-grade stainless steel, is leakproof with a condensation-free exterior, and has a smooth push-button lid with an easy-drink sipper.", "colours": [], "sizes": [], "dimensions": "dimensions_cm: 6.8 x 6.8 x 26; weight_g: 290; capacity_ml: 500", "warranty": "1 year warranty against manufacturing defects.", "related": [{"id": "drinkware-195", "name": "Borosil Vacuum Insulated Hike Tumbler 480ml", "price": 729, "image": "https://myborosil.com/cdn/shop/files/my-borosil-insulated-mug-480-ml-hike-tumbler-480-ml-32973723041930.jpg", "brand": "Borosil"}, {"id": "drinkware-196", "name": "Borosil Hydra GoSports Bottle 900ml", "price": 1097, "image": "https://myborosil.com/cdn/shop/files/my-borosil-stainless-steel-bottles-900-ml-borosil-gosport-green-33297704517770_2024-05-24T10_24_53.609Z.png", "brand": "Borosil"}, {"id": "drinkware-197", "name": "Borosil Trek 700ml Bottle", "price": 884, "image": "https://tintbox.in/cdn/shop/files/0_24f00d9a-1a54-4053-8248-afe1f70ee8fe.jpg", "brand": "Borosil"}, {"id": "drinkware-198", "name": "Grip-N-Sip 750 Bottle", "price": 370, "image": "https://myborosil.com/cdn/shop/files/my-borosil-stainless-steel-bottles-750-ml-grip-n-sip-black-32307477184650_cec1595b-5863-4a3c-93d6-427d28cb0fda.jpg", "brand": "Borosil"}, {"id": "drinkware-202", "name": "Borosil Hydra Trek Black 500ml Bottle", "price": 749, "image": "https://tintbox.in/cdn/shop/files/0_24f00d9a-1a54-4053-8248-afe1f70ee8fe.jpg", "brand": "Borosil"}, {"id": "drinkware-1", "name": "Tamta Tura #V010 950ml Bottle", "price": 935, "image": "https://d39bd3o2tztcvw.cloudfront.net/c9600117-f022-42e4-b157-3e42103d9ca2.jpeg", "brand": "Tamta"}, {"id": "drinkware-2", "name": "Tamta Tura #V009 950ml Bottle", "price": 1332, "image": "https://d39bd3o2tztcvw.cloudfront.net/4a3f64bf-085e-4675-8375-94e2ec1ccbd2.jpeg", "brand": "Tamta"}, {"id": "drinkware-3", "name": "Tamta Tura #V008 950ml Bottle", "price": 1037, "image": "https://d39bd3o2tztcvw.cloudfront.net/099217e7-ebe5-410c-bad3-68ee1e2a56b3.jpeg", "brand": "Tamta"}, {"id": "drinkware-4", "name": "Tamta Tura #V007 950ml Bottle", "price": 1124, "image": "https://d39bd3o2tztcvw.cloudfront.net/acc39e9c-f5c2-4188-8891-005128d92953.jpeg", "brand": "Tamta"}, {"id": "drinkware-5", "name": "Tamta Tura #V004 1100ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/f5e8c9c4-a868-4407-a7d5-0d9395f68f15.jpeg", "brand": "Tamta"}, {"id": "drinkware-6", "name": "Tamta Tura #V003 1200ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/1c4a1255-9092-46d8-ba9a-c3a4ca242cf7.jpeg", "brand": "Tamta"}, {"id": "drinkware-7", "name": "Tamta Tura #V002 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/19e99fe3-8abc-492a-9aba-2382945b2f75.jpeg", "brand": "Tamta"}, {"id": "drinkware-8", "name": "Tamta Tura #V001 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/0181f1c6-7ad7-424c-9902-86a9bfa0586b.jpeg", "brand": "Tamta"}, {"id": "drinkware-9", "name": "Tamta Tivra #T024 950ml Bottle", "price": 1181, "image": "https://d39bd3o2tztcvw.cloudfront.net/000f44df-ea2b-4848-9009-fef868268e75.jpeg", "brand": "Tamta"}, {"id": "drinkware-10", "name": "Tamta Tivra #T023 950ml Bottle", "price": 953, "image": "https://d39bd3o2tztcvw.cloudfront.net/5c8d67c9-bd32-4e11-bfcb-cd6e468ba839.jpeg", "brand": "Tamta"}, {"id": "drinkware-11", "name": "Tamta Tivra #T022 950ml Bottle", "price": 3441, "image": "https://d39bd3o2tztcvw.cloudfront.net/60b5d2d9-a39c-4d96-9bf9-2bc3bdfa46bd.jpeg", "brand": "Tamta"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

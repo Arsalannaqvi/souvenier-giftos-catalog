@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=kitchenAppliances" class="pd-back"><span aria-hidden="true">←</span> Kitchen Appliances</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Kitchen Appliances · Steamers</p>
-  <h2 class="pd-title">Franke Faber FMC 1.2L Pro Steamer SS</h2>
-  <p class="pd-brand">Brand: <strong>Franke Faber</strong></p>
-  <p class="pd-price">₹1911</p>
-  <p class="pd-spec"><strong>Colours:</strong> Black</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Kitchen Appliances · Steamers</p>
+      <h2 class="pd-title">Franke Faber FMC 1.2L Pro Steamer SS</h2>
+      <p class="pd-brand">Brand: <strong>Franke Faber</strong></p>
+      <p class="pd-price">₹1911</p>
+      <p class="pd-spec"><strong>Colours:</strong> Black</p>
   <p class="pd-spec"><strong>Warranty:</strong> 1 year</p>
-  <p class="pd-description">Now you don’t need to invest on multiple appliances to fulfill your kitchen needs, just get the smart and innovative Faber Multi Cooker that not just cooks, but also steams and boils. The electric cooker effortlessly eliminates the use of buying gas, pots, and pans. Hence, making it a must for nuclear families, bachelors, and hostelers. You can boil noodles to enjoy delicious Chinese food or boil 6 protein-rich eggs to keep your health in check.</p>
-  <p class="pd-source"><a href="https://faberindia.com/products/multicooker-fmc-1-2-bk" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Now you don’t need to invest on multiple appliances to fulfill your kitchen needs, just get the smart and innovative Faber Multi Cooker that not just cooks, but also steams and boils. The electric cooker effortlessly eliminates the use of buying gas, pots, and pans. Hence, making it a must for nuclear families, bachelors, and hostelers. You can boil noodles to enjoy delicious Chinese food or boil 6 protein-rich eggs to keep your health in check.</p>
+      <p class="pd-source"><a href="https://faberindia.com/products/multicooker-fmc-1-2-bk" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-489", "name": "Franke Faber FMC 1.2L Pro Steamer SS", "price": 1911, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/product-7.jpg?v=1739253589", "images": ["https://cdn.shopify.com/s/files/1/0561/3450/0492/products/product-7.jpg?v=1739253589", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/1_75024c5f-fcdd-43b9-aa28-dfba3094189a.jpg?v=1739253589", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/product-feature.jpg?v=1725524667", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/2_19f927f8-4c86-401c-8089-d20e13969385.jpg?v=1716966236", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/dimention.jpg?v=1716966236", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/3_1826c7d3-bbbc-47cb-8499-417ac110e994.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/4_573b4ea8-0d5b-47ab-aebe-b64e96873880.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/5_318d3d17-1d75-4d91-9f57-ef29052ebff5.jpg?v=1651218329", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/6_1bf976d7-503f-4bad-9c65-331564be5575.jpg?v=1651218329", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/7_7c07a4bf-e849-4f48-aae2-d08b54a2c622.jpg?v=1651218329", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/8_796e7a53-d40e-46ee-ba57-2461fe7a3721.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/9_809e72fe-c2c4-4871-9969-70ce0cf848d6.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/10_71d235dd-bae8-4c48-ac2a-83fc7dd07873.jpg?v=1651218329"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Steamers", "brand": "Franke Faber", "description": "Now you don\u2019t need to invest on multiple appliances to fulfill your kitchen needs, just get the smart and innovative Faber Multi Cooker that not just cooks, but also steams and boils. The electric cooker effortlessly eliminates the use of buying gas, pots, and pans. Hence, making it a must for nuclear families, bachelors, and hostelers. You can boil noodles to enjoy delicious Chinese food or boil 6 protein-rich eggs to keep your health in check.", "colours": [], "sizes": [], "dimensions": null, "warranty": "1 year"};</script>
+<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-489", "name": "Franke Faber FMC 1.2L Pro Steamer SS", "price": 1911, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/product-7.jpg?v=1739253589", "images": ["https://cdn.shopify.com/s/files/1/0561/3450/0492/products/product-7.jpg?v=1739253589", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/1_75024c5f-fcdd-43b9-aa28-dfba3094189a.jpg?v=1739253589", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/product-feature.jpg?v=1725524667", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/2_19f927f8-4c86-401c-8089-d20e13969385.jpg?v=1716966236", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/dimention.jpg?v=1716966236", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/3_1826c7d3-bbbc-47cb-8499-417ac110e994.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/4_573b4ea8-0d5b-47ab-aebe-b64e96873880.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/5_318d3d17-1d75-4d91-9f57-ef29052ebff5.jpg?v=1651218329", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/6_1bf976d7-503f-4bad-9c65-331564be5575.jpg?v=1651218329", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/7_7c07a4bf-e849-4f48-aae2-d08b54a2c622.jpg?v=1651218329", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/8_796e7a53-d40e-46ee-ba57-2461fe7a3721.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/9_809e72fe-c2c4-4871-9969-70ce0cf848d6.jpg?v=1651218328", "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/10_71d235dd-bae8-4c48-ac2a-83fc7dd07873.jpg?v=1651218329"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Steamers", "brand": "Franke Faber", "description": "Now you don\u2019t need to invest on multiple appliances to fulfill your kitchen needs, just get the smart and innovative Faber Multi Cooker that not just cooks, but also steams and boils. The electric cooker effortlessly eliminates the use of buying gas, pots, and pans. Hence, making it a must for nuclear families, bachelors, and hostelers. You can boil noodles to enjoy delicious Chinese food or boil 6 protein-rich eggs to keep your health in check.", "colours": [], "sizes": [], "dimensions": null, "warranty": "1 year", "related": [{"id": "homeKitchenAppliances-440", "name": "Franke Faber FFSD 6PR 12S", "price": 34006, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A9813.jpg?v=1744617724", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-441", "name": "Franke Faber FFSD 6PR 8S Dishwasher", "price": 31145, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A9376.jpg?v=1744619139", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-442", "name": "Franke Faber FSJ 200 BK-M Slow Juicer", "price": 13208, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/SlowJuicer.jpg?v=1739338260", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-443", "name": "Franke Faber FSJ 150 R Slow Juicer", "price": 7839, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/4-7.jpg?v=1739338218", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-444", "name": "Franke Faber FWP Genius Pro RO", "price": 11935, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A0962_ba86c719-8c05-4cad-978b-90c90765d6c6.jpg?v=1739778973", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-445", "name": "Franke Faber FWP XUV 7000 Water Purifier", "price": 8658, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/FWPXUV7000.jpg?v=1733211743", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-446", "name": "Franke Faber FWP XUV 8000(UV + UF + Alkaline) Water Purifier", "price": 9100, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/P5A7028.jpg?v=1723461222", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-447", "name": "Franke Faber Hood Zest IN HC SC FL BK 60", "price": 15523, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/P5A6234.jpg?v=1693470119", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-448", "name": "Franke Faber Hood Class Pro PB BK LTW 60", "price": 8788, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/P5A5314_4031a6c2-ac1d-4085-aac2-f4e0ff58503f.jpg?v=1739170582", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-449", "name": "Franke Faber Hood Pluto PB BF BK 60", "price": 7475, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/image_5_52399cc5-99d4-4d03-aa82-1e90e4e7e41b.png?v=1739180290", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-450", "name": "Franke Faber FMW Insta Cook 30C", "price": 19552, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A3440.jpg?v=1696929136", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-451", "name": "Franke Faber FMW Instacook 20_S Digital Microwave", "price": 8518, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A3396.jpg?v=1696926529", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-452", "name": "Franke Faber FMW Insta Cook 20_S Standalone Microwave", "price": 7787, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A3427.jpg?v=1696926351", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-453", "name": "Franke Faber Oven Toaster Griller FOTG 45 Litre", "price": 9736, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/45l_2.jpg?v=1739338181", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-454", "name": "Franke Faber FOTG 34 Litre BK Double Glaze", "price": 11089, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/1.jpg?v=1716967181", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-456", "name": "Franke Faber FOTG BK 24 Litre RC", "price": 6720, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/24l.jpg?v=1716967235", "brand": "Franke Faber"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

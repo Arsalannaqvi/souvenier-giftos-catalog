@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=drinkware" class="pd-back"><span aria-hidden="true">←</span> Drinkware</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Drinkware · Tumbler</p>
-  <h2 class="pd-title">Solara Echo Insulated Tumbler</h2>
-  <p class="pd-brand">Brand: <strong>Solara</strong></p>
-  <p class="pd-price">₹1256</p>
-  <p class="pd-spec"><strong>Colours:</strong> Blue Hawaii, Morrocan Blue, Black Knight</p>
-  
-  <p class="pd-source"><a href="https://www.solara.in/products/solara-echo-insulated-water-bottle" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Drinkware · Tumbler</p>
+      <h2 class="pd-title">Solara Echo Insulated Tumbler</h2>
+      <p class="pd-brand">Brand: <strong>Solara</strong></p>
+      <p class="pd-price">₹1256</p>
+      <p class="pd-spec"><strong>Colours:</strong> Blue Hawaii, Morrocan Blue, Black Knight</p>
+      
+      <p class="pd-source"><a href="https://www.solara.in/products/solara-echo-insulated-water-bottle" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "drinkware-158", "name": "Solara Echo Insulated Tumbler", "price": 1256, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_3_copy.jpg?v=1765175259", "images": ["https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_3_copy.jpg?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_1_copy.jpg?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Futures_2f9702af-d4a1-4414-8e90-8a5243ce1b20.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_1_bed966ce-5ae6-42e2-b19f-ef4ea260bd5c.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_2_cf7a5f81-6875-4249-a551-bd94e02fdb9d.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_3_714fdbb0-3176-4ad2-a84a-b392303602d0.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_2_copy.jpg?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_4_45168c84-c7eb-4aa4-9b3d-146909a4994d.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_5_e768e11f-6fd1-4d9d-951d-1fb9dc0bd536.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_6.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Futures_239b3d23-d95d-4cfd-a0ff-323eb03acbd7.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_1_857ceff8-6ad2-470f-892d-87c39a108175.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_2_7ff4d204-d062-4a2f-9cf5-7af199d1b3aa.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_3_53981ff4-df84-44ee-b4f7-4074aedca80f.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_4_c79dcf2b-a52c-4daf-a803-ee15154d5c7e.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_5_f9f6b609-244e-4f5c-a510-e7bcb48e8ab6.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_6_eaa382bc-6ec6-4b12-8ced-35e471f61e16.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Morrocan_Blue_weight_image.png?v=1784634108", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Futures_dd84e22a-6938-4712-8f00-8fdb79d1172b.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_1_2e8c3d1e-de8d-4a87-ab3e-3540127dc520.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_2_105e3b8b-38db-4034-adf8-edcece76a1ae.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_3_ea333914-6c84-45ce-9ce8-00be23b19a1f.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_4_65c2f36c-cfa5-49be-9e57-e72e079b54eb.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_5_6f3a1bc5-e08f-4aa1-a7df-bb87aac6fb3b.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_6_57fe22b5-f342-4f1d-be31-41d7f9990c69.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Blue_Hawaii_weight_image.png?v=1784634108"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Tumbler", "brand": "Solara", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "drinkware-158", "name": "Solara Echo Insulated Tumbler", "price": 1256, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_3_copy.jpg?v=1765175259", "images": ["https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_3_copy.jpg?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_1_copy.jpg?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Futures_2f9702af-d4a1-4414-8e90-8a5243ce1b20.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_1_bed966ce-5ae6-42e2-b19f-ef4ea260bd5c.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_2_cf7a5f81-6875-4249-a551-bd94e02fdb9d.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_3_714fdbb0-3176-4ad2-a84a-b392303602d0.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_2_copy.jpg?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_4_45168c84-c7eb-4aa4-9b3d-146909a4994d.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_5_e768e11f-6fd1-4d9d-951d-1fb9dc0bd536.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_6.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Futures_239b3d23-d95d-4cfd-a0ff-323eb03acbd7.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_1_857ceff8-6ad2-470f-892d-87c39a108175.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_2_7ff4d204-d062-4a2f-9cf5-7af199d1b3aa.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_3_53981ff4-df84-44ee-b4f7-4074aedca80f.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_4_c79dcf2b-a52c-4daf-a803-ee15154d5c7e.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_5_f9f6b609-244e-4f5c-a510-e7bcb48e8ab6.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_6_eaa382bc-6ec6-4b12-8ced-35e471f61e16.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Morrocan_Blue_weight_image.png?v=1784634108", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Futures_dd84e22a-6938-4712-8f00-8fdb79d1172b.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_1_2e8c3d1e-de8d-4a87-ab3e-3540127dc520.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_2_105e3b8b-38db-4034-adf8-edcece76a1ae.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_3_ea333914-6c84-45ce-9ce8-00be23b19a1f.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_4_65c2f36c-cfa5-49be-9e57-e72e079b54eb.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_5_6f3a1bc5-e08f-4aa1-a7df-bb87aac6fb3b.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Slide_6_57fe22b5-f342-4f1d-be31-41d7f9990c69.png?v=1765175259", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Blue_Hawaii_weight_image.png?v=1784634108"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Tumbler", "brand": "Solara", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "drinkware-156", "name": "Solara Insulated water bottles", "price": 1204, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/IWB_Angle_pink_001_1.jpg?v=1751479056", "brand": "Solara"}, {"id": "drinkware-157", "name": "Solara Single wall Water Bottle", "price": 361, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/71nKR_bKhWL._SX679.jpg?v=1723541219", "brand": "Solara"}, {"id": "drinkware-159", "name": "Solara Glass Tumbler with Bamboo Lid", "price": 489, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/613Mq-D4y8L._SX679.jpg?v=1767676623", "brand": "Solara"}, {"id": "drinkware-160", "name": "Solara Single Wall Stainless Steel Water Bottle 1 Ltr", "price": 321, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/71nKR_bKhWL._SX679.jpg?v=1723541219", "brand": "Solara"}, {"id": "drinkware-161", "name": "Solara Motiavtional Water Bottle 1 Ltr", "price": 761, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Cool_Aqua_1L_1.webp?v=1788779420", "brand": "Solara"}, {"id": "drinkware-162", "name": "Solara Insulated water bottles 1 Ltr", "price": 1571, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/IWB_Angle_pink_001_1.jpg?v=1751479056", "brand": "Solara"}, {"id": "drinkware-163", "name": "Solara Insulated water bottle 650 ml", "price": 1204, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/1_10_d9d1b300-431c-403a-b232-a479fa35d01b.jpg?v=1739530384", "brand": "Solara"}, {"id": "drinkware-1", "name": "Tamta Tura #V010 950ml Bottle", "price": 935, "image": "https://d39bd3o2tztcvw.cloudfront.net/c9600117-f022-42e4-b157-3e42103d9ca2.jpeg", "brand": "Tamta"}, {"id": "drinkware-2", "name": "Tamta Tura #V009 950ml Bottle", "price": 1332, "image": "https://d39bd3o2tztcvw.cloudfront.net/4a3f64bf-085e-4675-8375-94e2ec1ccbd2.jpeg", "brand": "Tamta"}, {"id": "drinkware-3", "name": "Tamta Tura #V008 950ml Bottle", "price": 1037, "image": "https://d39bd3o2tztcvw.cloudfront.net/099217e7-ebe5-410c-bad3-68ee1e2a56b3.jpeg", "brand": "Tamta"}, {"id": "drinkware-4", "name": "Tamta Tura #V007 950ml Bottle", "price": 1124, "image": "https://d39bd3o2tztcvw.cloudfront.net/acc39e9c-f5c2-4188-8891-005128d92953.jpeg", "brand": "Tamta"}, {"id": "drinkware-5", "name": "Tamta Tura #V004 1100ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/f5e8c9c4-a868-4407-a7d5-0d9395f68f15.jpeg", "brand": "Tamta"}, {"id": "drinkware-6", "name": "Tamta Tura #V003 1200ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/1c4a1255-9092-46d8-ba9a-c3a4ca242cf7.jpeg", "brand": "Tamta"}, {"id": "drinkware-7", "name": "Tamta Tura #V002 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/19e99fe3-8abc-492a-9aba-2382945b2f75.jpeg", "brand": "Tamta"}, {"id": "drinkware-8", "name": "Tamta Tura #V001 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/0181f1c6-7ad7-424c-9902-86a9bfa0586b.jpeg", "brand": "Tamta"}, {"id": "drinkware-9", "name": "Tamta Tivra #T024 950ml Bottle", "price": 1181, "image": "https://d39bd3o2tztcvw.cloudfront.net/000f44df-ea2b-4848-9009-fef868268e75.jpeg", "brand": "Tamta"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

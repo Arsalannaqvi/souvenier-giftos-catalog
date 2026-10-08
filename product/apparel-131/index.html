@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=apparel" class="pd-back"><span aria-hidden="true">←</span> Apparel</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Apparel · Polo T-shirt</p>
-  <h2 class="pd-title">M&amp;S Plain Polo T-shirt</h2>
-  <p class="pd-brand">Brand: <strong>Marks &amp; Spencer&#x27;s</strong></p>
-  <p class="pd-price">₹851</p>
-  <p class="pd-spec"><strong>Colours:</strong> Navy Blue, Black, White, Sky Blue, Red</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Apparel · Polo T-shirt</p>
+      <h2 class="pd-title">M&amp;S Plain Polo T-shirt</h2>
+      <p class="pd-brand">Brand: <strong>Marks &amp; Spencer&#x27;s</strong></p>
+      <p class="pd-price">₹851</p>
+      <p class="pd-spec"><strong>Colours:</strong> Navy Blue, Black, White, Sky Blue, Red</p>
   <p class="pd-spec"><strong>Sizes:</strong> XS, S, M, L, XL, 2XL, 3XL</p>
-  
-  
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "apparel-131", "name": "M&S Plain Polo T-shirt", "price": 851, "image": "https://d39bd3o2tztcvw.cloudfront.net/15c2d834-5e79-45d6-befe-731cac8c6899.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/15c2d834-5e79-45d6-befe-731cac8c6899.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/8e9127c4-7b5b-4d35-a7d8-3c300cc690f1.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/ba19df04-36c1-4814-8905-94618eed4f8a.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/6cf664c5-a3d4-46fa-abf0-48bf01f6c74e.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/dbbec19c-188f-4bb0-aa94-b75fc14cf43a.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/23476711-c2d9-4d88-96a2-fb8ce15ef248.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt", "brand": "Marks & Spencer's", "description": null, "colours": [{"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/8e9127c4-7b5b-4d35-a7d8-3c300cc690f1.jpeg"]}, {"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/ba19df04-36c1-4814-8905-94618eed4f8a.jpeg"]}, {"label": "White", "colorHex": "#F3F2F7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6cf664c5-a3d4-46fa-abf0-48bf01f6c74e.jpeg"]}, {"label": "Sky Blue", "colorHex": "#72C3CF", "images": ["https://d39bd3o2tztcvw.cloudfront.net/dbbec19c-188f-4bb0-aa94-b75fc14cf43a.jpeg"]}, {"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/23476711-c2d9-4d88-96a2-fb8ce15ef248.jpeg"]}], "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "apparel-131", "name": "M&S Plain Polo T-shirt", "price": 851, "image": "https://d39bd3o2tztcvw.cloudfront.net/15c2d834-5e79-45d6-befe-731cac8c6899.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/15c2d834-5e79-45d6-befe-731cac8c6899.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/8e9127c4-7b5b-4d35-a7d8-3c300cc690f1.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/ba19df04-36c1-4814-8905-94618eed4f8a.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/6cf664c5-a3d4-46fa-abf0-48bf01f6c74e.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/dbbec19c-188f-4bb0-aa94-b75fc14cf43a.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/23476711-c2d9-4d88-96a2-fb8ce15ef248.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt", "brand": "Marks & Spencer's", "description": null, "colours": [{"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/8e9127c4-7b5b-4d35-a7d8-3c300cc690f1.jpeg"]}, {"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/ba19df04-36c1-4814-8905-94618eed4f8a.jpeg"]}, {"label": "White", "colorHex": "#F3F2F7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6cf664c5-a3d4-46fa-abf0-48bf01f6c74e.jpeg"]}, {"label": "Sky Blue", "colorHex": "#72C3CF", "images": ["https://d39bd3o2tztcvw.cloudfront.net/dbbec19c-188f-4bb0-aa94-b75fc14cf43a.jpeg"]}, {"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/23476711-c2d9-4d88-96a2-fb8ce15ef248.jpeg"]}], "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"], "dimensions": null, "warranty": null, "related": [{"id": "apparel-112", "name": "M&S Tipping Polo T-shirt", "price": 921, "image": "https://d39bd3o2tztcvw.cloudfront.net/d737021e-be81-4ce7-9fc7-e41779edbfa9.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-113", "name": "M&S Sweatshirt", "price": 1706, "image": "https://d39bd3o2tztcvw.cloudfront.net/050143b9-e3dd-4533-b082-77ba892fe8f7.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-120", "name": "M&S Round Neck T-shirt", "price": 595, "image": "https://d39bd3o2tztcvw.cloudfront.net/b9f93f85-f3a2-42a0-8d4f-af646515ab88.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-122", "name": "M&S Plain Polo T-shirt", "price": 851, "image": "https://d39bd3o2tztcvw.cloudfront.net/ba0bd7ba-f97a-475c-961a-a0d08506185c.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-123", "name": "M&S Jacquard Polo T-shirt", "price": 886, "image": "https://d39bd3o2tztcvw.cloudfront.net/35fdbdcc-6d76-4f68-bbf3-b984a9e36087.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-124", "name": "M&S Active Wear Jacket", "price": 1502, "image": "https://d39bd3o2tztcvw.cloudfront.net/87817524-abbf-43c1-9697-468a4af03190.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-125", "name": "M&S Hoodie", "price": 1843, "image": "https://d39bd3o2tztcvw.cloudfront.net/3bb0eab0-c15b-4070-bb08-0df17558394f.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-126", "name": "M&S Formal Shirts", "price": 1297, "image": "https://d39bd3o2tztcvw.cloudfront.net/35e9e3f4-99e2-43a8-bfa3-58335b1db517.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-148", "name": "Marks And Spencers Round Neck T- Shirt", "price": 595, "image": "https://d39bd3o2tztcvw.cloudfront.net/da8398c0-63cb-4c0b-8216-ea0bd9c7edd4.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-150", "name": "M&S Plain Polo T-shirt", "price": 851, "image": "https://d39bd3o2tztcvw.cloudfront.net/bd999dfa-ef79-434e-abfb-5d7fdd05f136.jpeg", "brand": "Marks & Spencer's"}, {"id": "apparel-1", "name": "Decathlon Short Sleeve Polo Shirt WW500", "price": 1272, "image": "https://d39bd3o2tztcvw.cloudfront.net/753fe84b-bb4c-4a03-9a88-51b74a612fa3.png", "brand": "Decathlon"}, {"id": "apparel-2", "name": "Decathlon IN Polo SS MW500", "price": 924, "image": "https://d39bd3o2tztcvw.cloudfront.net/699f98b0-4c82-4886-9c91-8832df977ac0.jpeg", "brand": "Decathlon"}, {"id": "apparel-3", "name": "Decathlon Men's Golf Cotton Short Sleeve Polo Shirt MW500", "price": 924, "image": "https://d39bd3o2tztcvw.cloudfront.net/911dae50-726d-4176-8ad3-804a07eb30da.jpeg", "brand": "Decathlon"}, {"id": "apparel-4", "name": "Decathlon Men's Golf Short Sleeve Polo Shirt WW500", "price": 1272, "image": "https://d39bd3o2tztcvw.cloudfront.net/ed2f0d1b-9f8a-4b75-9858-f123e4523748.jpeg", "brand": "Decathlon"}, {"id": "apparel-5", "name": "Decathlon Polo WW500 T-Shirt", "price": 1272, "image": "https://d39bd3o2tztcvw.cloudfront.net/2ca9feb7-84b7-4be1-bf9a-4669e0432f29.jpeg", "brand": "Decathlon"}, {"id": "apparel-7", "name": "Decathlon Men Golf Polo T-Shirt 500", "price": 450, "image": "https://d39bd3o2tztcvw.cloudfront.net/261cbe44-6600-4577-8646-1d0e4ea39eeb.jpeg", "brand": "Decathlon"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

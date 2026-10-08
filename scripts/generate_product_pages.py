@@ -49,29 +49,43 @@ PAGE_TEMPLATE = """<!doctype html>
 <main class="pd-main">
   <a href="{back_href}" class="pd-back"><span aria-hidden="true">←</span> {back_label}</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">{category_label}</p>
-  <h2 class="pd-title">{name}</h2>
-  {brand_html}
-  {price_html}
-  {specs_html}
-  {description_html}
-  {source_html}
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">{category_label}</p>
+      <h2 class="pd-title">{name}</h2>
+      {brand_html}
+      {price_html}
+      {specs_html}
+      {description_html}
+      {source_html}
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -99,6 +113,31 @@ def main():
     tagline = config.get("tagline", "")
     currency = config.get("currency", "₹")
     show_prices = config.get("showPrices", True)
+
+    # Index products by category once, so "You might also like" is cheap
+    # to compute per page instead of re-scanning the whole catalog each time.
+    by_category = {}
+    for p in products["products"]:
+        by_category.setdefault(p["category"], []).append(p)
+
+    def related_products(p, limit=16):
+        pid = p["id"]
+        brand = brands.get(pid)
+        same_cat = [p2 for p2 in by_category.get(p["category"], []) if p2["id"] != pid and p2.get("image")]
+        same_brand = [p2 for p2 in same_cat if brand and brands.get(p2["id"]) == brand]
+        same_brand_ids = {p2["id"] for p2 in same_brand}
+        other = [p2 for p2 in same_cat if p2["id"] not in same_brand_ids]
+        picked = (same_brand + other)[:limit]
+        return [
+            {
+                "id": p2["id"],
+                "name": p2["name"],
+                "price": p2.get("price") if show_prices else None,
+                "image": p2.get("image"),
+                "brand": brands.get(p2["id"]),
+            }
+            for p2 in picked
+        ]
 
     if OUT_ROOT.exists():
         shutil.rmtree(OUT_ROOT)
@@ -185,6 +224,7 @@ def main():
             "sizes": sizes,
             "dimensions": dimensions,
             "warranty": warranty,
+            "related": related_products(p),
         }
 
         page = PAGE_TEMPLATE.format(

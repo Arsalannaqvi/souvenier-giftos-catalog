@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=kitchenAppliances" class="pd-back"><span aria-hidden="true">←</span> Kitchen Appliances</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Kitchen Appliances · Toaster</p>
-  <h2 class="pd-title">Franke Faber FSTG Ultra 900 SSBK Toaster</h2>
-  <p class="pd-brand">Brand: <strong>Franke Faber</strong></p>
-  <p class="pd-price">₹2210</p>
-  <p class="pd-spec"><strong>Colours:</strong> Black</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Kitchen Appliances · Toaster</p>
+      <h2 class="pd-title">Franke Faber FSTG Ultra 900 SSBK Toaster</h2>
+      <p class="pd-brand">Brand: <strong>Franke Faber</strong></p>
+      <p class="pd-price">₹2210</p>
+      <p class="pd-spec"><strong>Colours:</strong> Black</p>
   <p class="pd-spec"><strong>Warranty:</strong> 1 year</p>
-  <p class="pd-description">A 900W sandwich maker with non-stick grill plates, 180° grilling function, auto-off and a cool-touch handle, in a stainless-steel finish.</p>
-  <p class="pd-source"><a href="https://faberindia.com/products/fstg-ultra-900-ssbk" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">A 900W sandwich maker with non-stick grill plates, 180° grilling function, auto-off and a cool-touch handle, in a stainless-steel finish.</p>
+      <p class="pd-source"><a href="https://faberindia.com/products/fstg-ultra-900-ssbk" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-485", "name": "Franke Faber FSTG Ultra 900 SSBK Toaster", "price": 2210, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7095.jpg?v=1757491952", "images": ["https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7095.jpg?v=1757491952", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7101_e803c60c-6e80-4760-ade3-dba0259ab662.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7099.jpg?v=1757491953", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7086_811c45e9-ce32-452e-83bf-1259205e0b17.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7087_4b6a8a40-3d24-4f2e-991a-7c47f8a3768d.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7092_89889330-0694-405c-a2cd-4944dd7485b9.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7093_22296ed8-9a04-4d3c-8f77-fbbff472c6f1.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7098.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7102_0059f7a6-7155-4dd7-b7f5-5f1724786803.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7103.jpg?v=1757491951"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Toaster", "brand": "Franke Faber", "description": "A 900W sandwich maker with non-stick grill plates, 180\u00b0 grilling function, auto-off and a cool-touch handle, in a stainless-steel finish.", "colours": [], "sizes": [], "dimensions": null, "warranty": "1 year"};</script>
+<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-485", "name": "Franke Faber FSTG Ultra 900 SSBK Toaster", "price": 2210, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7095.jpg?v=1757491952", "images": ["https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7095.jpg?v=1757491952", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7101_e803c60c-6e80-4760-ade3-dba0259ab662.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7099.jpg?v=1757491953", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7086_811c45e9-ce32-452e-83bf-1259205e0b17.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7087_4b6a8a40-3d24-4f2e-991a-7c47f8a3768d.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7092_89889330-0694-405c-a2cd-4944dd7485b9.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7093_22296ed8-9a04-4d3c-8f77-fbbff472c6f1.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7098.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7102_0059f7a6-7155-4dd7-b7f5-5f1724786803.jpg?v=1757491951", "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A7103.jpg?v=1757491951"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Toaster", "brand": "Franke Faber", "description": "A 900W sandwich maker with non-stick grill plates, 180\u00b0 grilling function, auto-off and a cool-touch handle, in a stainless-steel finish.", "colours": [], "sizes": [], "dimensions": null, "warranty": "1 year", "related": [{"id": "homeKitchenAppliances-440", "name": "Franke Faber FFSD 6PR 12S", "price": 34006, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A9813.jpg?v=1744617724", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-441", "name": "Franke Faber FFSD 6PR 8S Dishwasher", "price": 31145, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A9376.jpg?v=1744619139", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-442", "name": "Franke Faber FSJ 200 BK-M Slow Juicer", "price": 13208, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/SlowJuicer.jpg?v=1739338260", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-443", "name": "Franke Faber FSJ 150 R Slow Juicer", "price": 7839, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/4-7.jpg?v=1739338218", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-444", "name": "Franke Faber FWP Genius Pro RO", "price": 11935, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A0962_ba86c719-8c05-4cad-978b-90c90765d6c6.jpg?v=1739778973", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-445", "name": "Franke Faber FWP XUV 7000 Water Purifier", "price": 8658, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/FWPXUV7000.jpg?v=1733211743", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-446", "name": "Franke Faber FWP XUV 8000(UV + UF + Alkaline) Water Purifier", "price": 9100, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/P5A7028.jpg?v=1723461222", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-447", "name": "Franke Faber Hood Zest IN HC SC FL BK 60", "price": 15523, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/P5A6234.jpg?v=1693470119", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-448", "name": "Franke Faber Hood Class Pro PB BK LTW 60", "price": 8788, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/P5A5314_4031a6c2-ac1d-4085-aac2-f4e0ff58503f.jpg?v=1739170582", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-449", "name": "Franke Faber Hood Pluto PB BF BK 60", "price": 7475, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/image_5_52399cc5-99d4-4d03-aa82-1e90e4e7e41b.png?v=1739180290", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-450", "name": "Franke Faber FMW Insta Cook 30C", "price": 19552, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A3440.jpg?v=1696929136", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-451", "name": "Franke Faber FMW Instacook 20_S Digital Microwave", "price": 8518, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A3396.jpg?v=1696926529", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-452", "name": "Franke Faber FMW Insta Cook 20_S Standalone Microwave", "price": 7787, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/0P5A3427.jpg?v=1696926351", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-453", "name": "Franke Faber Oven Toaster Griller FOTG 45 Litre", "price": 9736, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/45l_2.jpg?v=1739338181", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-454", "name": "Franke Faber FOTG 34 Litre BK Double Glaze", "price": 11089, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/1.jpg?v=1716967181", "brand": "Franke Faber"}, {"id": "homeKitchenAppliances-456", "name": "Franke Faber FOTG BK 24 Litre RC", "price": 6720, "image": "https://cdn.shopify.com/s/files/1/0561/3450/0492/products/24l.jpg?v=1716967235", "brand": "Franke Faber"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

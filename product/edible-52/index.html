@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=edible" class="pd-back"><span aria-hidden="true">←</span> Edible</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Edible · chocolates</p>
-  <h2 class="pd-title">Ferrero Rocher T8</h2>
-  <p class="pd-brand">Brand: <strong>Fererro Rocher</strong></p>
-  <p class="pd-price">₹393</p>
-  <p class="pd-spec"><strong>Dimensions:</strong> netWeight: 100g (8 x 12.5g); servingsPerPack: 8</p>
-  <p class="pd-description">A golden gift box of 8 Ferrero Rocher pieces, positioned as a gift between two people, especially for occasions like Rakhi or Valentine&#x27;s Day. Milk chocolate (30%) and hazelnuts (28.5%) are the leading ingredients; serving size is 12.5g (1 piece), 8 servings per pack.</p>
-  <p class="pd-source"><a href="https://www.ferrerorocher.com/in/en/our-products/ferrero-rocher/gift-box-with-8-pieces" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Edible · chocolates</p>
+      <h2 class="pd-title">Ferrero Rocher T8</h2>
+      <p class="pd-brand">Brand: <strong>Fererro Rocher</strong></p>
+      <p class="pd-price">₹393</p>
+      <p class="pd-spec"><strong>Dimensions:</strong> netWeight: 100g (8 x 12.5g); servingsPerPack: 8</p>
+      <p class="pd-description">A golden gift box of 8 Ferrero Rocher pieces, positioned as a gift between two people, especially for occasions like Rakhi or Valentine&#x27;s Day. Milk chocolate (30%) and hazelnuts (28.5%) are the leading ingredients; serving size is 12.5g (1 piece), 8 servings per pack.</p>
+      <p class="pd-source"><a href="https://www.ferrerorocher.com/in/en/our-products/ferrero-rocher/gift-box-with-8-pieces" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "edible-52", "name": "Ferrero Rocher T8", "price": 393, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_.png?t=1787906682", "images": ["https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_.png?t=1787906682", "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8.jpeg?t=1787906682", "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_mo_0.png?t=1787906682"], "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates", "brand": "Fererro Rocher", "description": "A golden gift box of 8 Ferrero Rocher pieces, positioned as a gift between two people, especially for occasions like Rakhi or Valentine's Day. Milk chocolate (30%) and hazelnuts (28.5%) are the leading ingredients; serving size is 12.5g (1 piece), 8 servings per pack.", "colours": [], "sizes": [], "dimensions": "netWeight: 100g (8 x 12.5g); servingsPerPack: 8", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "edible-52", "name": "Ferrero Rocher T8", "price": 393, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_.png?t=1787906682", "images": ["https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_.png?t=1787906682", "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8.jpeg?t=1787906682", "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_mo_0.png?t=1787906682"], "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates", "brand": "Fererro Rocher", "description": "A golden gift box of 8 Ferrero Rocher pieces, positioned as a gift between two people, especially for occasions like Rakhi or Valentine's Day. Milk chocolate (30%) and hazelnuts (28.5%) are the leading ingredients; serving size is 12.5g (1 piece), 8 servings per pack.", "colours": [], "sizes": [], "dimensions": "netWeight: 100g (8 x 12.5g); servingsPerPack: 8", "warranty": null, "related": [{"id": "edible-49", "name": "Ferrero Rocher T32", "price": 618, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t32.png?t=1787906682", "brand": "Fererro Rocher"}, {"id": "edible-50", "name": "Ferrero Rocher T16", "price": 332, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t16_0.png?t=1787906682", "brand": "Fererro Rocher"}, {"id": "edible-51", "name": "Ferrero Rocher T4", "price": 209, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t4-608x548.png?t=1787906682", "brand": "Fererro Rocher"}, {"id": "edible-53", "name": "Ferrero Rocher T16", "price": 618, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t16_0.png?t=1787906682", "brand": "Fererro Rocher"}, {"id": "edible-54", "name": "Ferrero Rocher T24", "price": 972, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t24.png?t=1787906682", "brand": "Fererro Rocher"}, {"id": "edible-1", "name": "Danko Festival Delight", "price": 320, "image": "https://d39bd3o2tztcvw.cloudfront.net/bd1b141f-0b06-4fab-8c51-215e72b34436.jpeg", "brand": "Loyka"}, {"id": "edible-2", "name": "Loyka Almond Brittle Assorted Pack (3 Pcs)", "price": 145, "image": "https://d39bd3o2tztcvw.cloudfront.net/362d63c7-9a89-4028-9355-7e8eda4405af.jpeg", "brand": "Loyka"}, {"id": "edible-3", "name": "Loyka Cashew Brittle Brownie Pack (3 Pcs)", "price": 145, "image": "https://d39bd3o2tztcvw.cloudfront.net/c24f5d8c-db50-4cdc-b899-c15d20240067.jpeg", "brand": "Loyka"}, {"id": "edible-4", "name": "Loyka Almond Brittle Coffee Pack (3 Pcs)", "price": 145, "image": "https://d39bd3o2tztcvw.cloudfront.net/afedb9f4-3a57-485b-ba15-ba347c263475.jpeg", "brand": "Loyka"}, {"id": "edible-5", "name": "Loyka Almond Brittle Brownie Pack (3 Pcs)", "price": 145, "image": "https://d39bd3o2tztcvw.cloudfront.net/e3ee38cc-2926-458a-9ecb-d78c7f716433.jpeg", "brand": "Loyka"}, {"id": "edible-6", "name": "Loyka Almond Brittle Brownie Box (4 Pcs)", "price": 175, "image": "https://d39bd3o2tztcvw.cloudfront.net/12efe8f9-a422-4690-ac2f-613a0dbc4567.jpeg", "brand": "Loyka"}, {"id": "edible-7", "name": "Loyka Almond Brittle Gold Pack (3 Pcs)", "price": 145, "image": "https://d39bd3o2tztcvw.cloudfront.net/64e8db15-573c-4e62-b22c-872cc48f4bf9.jpeg", "brand": "Loyka"}, {"id": "edible-8", "name": "Loyka Almond Brittle Gold Box (4 Pcs)", "price": 175, "image": "https://d39bd3o2tztcvw.cloudfront.net/4eb5ed68-59c1-4c4b-9677-d79130a3e13d.jpeg", "brand": "Loyka"}, {"id": "edible-9", "name": "Loyka Almond Caramel Gourmet Dates Box", "price": 240, "image": "https://d39bd3o2tztcvw.cloudfront.net/252c3622-9543-467b-a34b-d88fd3bc3aab.jpeg", "brand": "Loyka"}, {"id": "edible-10", "name": "Loyka Date Bites Box (7 Pcs)", "price": 255, "image": "https://d39bd3o2tztcvw.cloudfront.net/1e560fce-8e19-46d5-ae60-7f89e9917148.jpeg", "brand": "Loyka"}, {"id": "edible-11", "name": "Loyka Almond Brittle Gourmet Dates Box", "price": 240, "image": "https://d39bd3o2tztcvw.cloudfront.net/3e55bd09-2b16-45df-b608-5c4df695bdc7.jpeg", "brand": "Loyka"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

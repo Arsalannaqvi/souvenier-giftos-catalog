@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=electronics" class="pd-back"><span aria-hidden="true">←</span> Electronics</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Electronics · Headphones</p>
-  <h2 class="pd-title">Zebronics Paradise Neo R Headphones</h2>
-  <p class="pd-brand">Brand: <strong>Zebronics</strong></p>
-  <p class="pd-price">₹1212</p>
-  <p class="pd-spec"><strong>Colours:</strong> Black, Blue, Grey</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Electronics · Headphones</p>
+      <h2 class="pd-title">Zebronics Paradise Neo R Headphones</h2>
+      <p class="pd-brand">Brand: <strong>Zebronics</strong></p>
+      <p class="pd-price">₹1212</p>
+      <p class="pd-spec"><strong>Colours:</strong> Black, Blue, Grey</p>
   <p class="pd-spec"><strong>Dimensions:</strong> 40mm drivers, up to 50 hours playback, 161g</p>
-  <p class="pd-description">Features 40mm Drivers Up to 50h* Backup Rapid Charging (10min charge for 7h* use) Gaming Mode (Low Latency) 3 EQ Modes Environmental Noise Cancellation (ENC) Dual Pairing Call Function BT v6.0| AUX Voice Assistant Support Soft Earcushions Lightweight &amp; Comfortable Type-C Charging Built-in Rechargeable Battery Specifications Model ZEB-WHP 11 BT version 6.0 Wireless range 10 meters (Without obstacles) Driver size 40mm Speaker Impedance 32Ω Frequency response 20Hz - 20kHz Sensitivity 99db±3db Charging time 1.5h Playback time 50h* Talk time 40h* Microphone Impedance 2.2kΩ Microphone sensitivity -38±3db Package dimension (W x D x H) 18.5 x 8.5 x 21.2 cm Net.weight 161g Country of Origin India *at 50% Volume Package Contents Headphone 1 U Charging cable 1 U AUX cable 1 U QR code guide 1 U</p>
-  <p class="pd-source"><a href="https://www.zebronics.com/products/zeb-paradise-neo-r" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Features 40mm Drivers Up to 50h* Backup Rapid Charging (10min charge for 7h* use) Gaming Mode (Low Latency) 3 EQ Modes Environmental Noise Cancellation (ENC) Dual Pairing Call Function BT v6.0| AUX Voice Assistant Support Soft Earcushions Lightweight &amp; Comfortable Type-C Charging Built-in Rechargeable Battery Specifications Model ZEB-WHP 11 BT version 6.0 Wireless range 10 meters (Without obstacles) Driver size 40mm Speaker Impedance 32Ω Frequency response 20Hz - 20kHz Sensitivity 99db±3db Charging time 1.5h Playback time 50h* Talk time 40h* Microphone Impedance 2.2kΩ Microphone sensitivity -38±3db Package dimension (W x D x H) 18.5 x 8.5 x 21.2 cm Net.weight 161g Country of Origin India *at 50% Volume Package Contents Headphone 1 U Charging cable 1 U AUX cable 1 U QR code guide 1 U</p>
+      <p class="pd-source"><a href="https://www.zebronics.com/products/zeb-paradise-neo-r" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "electronics-390", "name": "Zebronics Paradise Neo R Headphones", "price": 1212, "image": "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-black-pic-1.jpg?v=1766038640", "images": ["https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-black-pic-1.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-blue-pic1.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-grey-pic1.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic2.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic3.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic4.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic5.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic6.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic7.jpg?v=1766038640"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Headphones", "brand": "Zebronics", "description": "Features 40mm Drivers Up to 50h* Backup Rapid Charging (10min charge for 7h* use) Gaming Mode (Low Latency) 3 EQ Modes Environmental Noise Cancellation (ENC) Dual Pairing Call Function BT v6.0| AUX Voice Assistant Support Soft Earcushions Lightweight & Comfortable Type-C Charging Built-in Rechargeable Battery Specifications Model ZEB-WHP 11 BT version 6.0 Wireless range 10 meters (Without obstacles) Driver size 40mm Speaker Impedance 32\u03a9 Frequency response 20Hz - 20kHz Sensitivity 99db\u00b13db Charging time 1.5h Playback time 50h* Talk time 40h* Microphone Impedance 2.2k\u03a9 Microphone sensitivity -38\u00b13db Package dimension (W x D x H) 18.5 x 8.5 x 21.2 cm Net.weight 161g Country of Origin India *at 50% Volume Package Contents Headphone 1 U Charging cable 1 U AUX cable 1 U QR code guide 1 U", "colours": [], "sizes": [], "dimensions": "40mm drivers, up to 50 hours playback, 161g", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "electronics-390", "name": "Zebronics Paradise Neo R Headphones", "price": 1212, "image": "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-black-pic-1.jpg?v=1766038640", "images": ["https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-black-pic-1.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-blue-pic1.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-grey-pic1.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic2.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic3.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic4.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic5.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic6.jpg?v=1766038640", "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Paradise-Neo-R-pic7.jpg?v=1766038640"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Headphones", "brand": "Zebronics", "description": "Features 40mm Drivers Up to 50h* Backup Rapid Charging (10min charge for 7h* use) Gaming Mode (Low Latency) 3 EQ Modes Environmental Noise Cancellation (ENC) Dual Pairing Call Function BT v6.0| AUX Voice Assistant Support Soft Earcushions Lightweight & Comfortable Type-C Charging Built-in Rechargeable Battery Specifications Model ZEB-WHP 11 BT version 6.0 Wireless range 10 meters (Without obstacles) Driver size 40mm Speaker Impedance 32\u03a9 Frequency response 20Hz - 20kHz Sensitivity 99db\u00b13db Charging time 1.5h Playback time 50h* Talk time 40h* Microphone Impedance 2.2k\u03a9 Microphone sensitivity -38\u00b13db Package dimension (W x D x H) 18.5 x 8.5 x 21.2 cm Net.weight 161g Country of Origin India *at 50% Volume Package Contents Headphone 1 U Charging cable 1 U AUX cable 1 U QR code guide 1 U", "colours": [], "sizes": [], "dimensions": "40mm drivers, up to 50 hours playback, 161g", "warranty": null, "related": [{"id": "electronics-410", "name": "Zebronics Zeb County Portable Wireless Speaker", "price": 999, "image": "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-County-pic1.jpg?v=1756730109", "brand": "Zebronics"}, {"id": "electronics-756", "name": "Zebronics Pixie Bluetooth Speaker", "price": 999, "image": "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Pixie-Blue-pic8_7b2f5fce-9df7-4189-b7ec-ec729602762f.jpg?v=1723789378", "brand": "Zebronics"}, {"id": "electronics-757", "name": "Zebronics Prima Pro (150W) Wireless Bluetooth Speaker", "price": 42999, "image": "https://cdn.shopify.com/s/files/1/0356/9850/7909/files/Zeb-Prima-Pro-pic1.jpg?v=1764065557", "brand": "Zebronics"}, {"id": "electronics-1", "name": "Noise ColorFit Pro 5 Max Smart Watch", "price": 4576, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/1_ecb6bab3-7552-4d31-a0bb-833b19044577.png?v=1771311846", "brand": "Noise"}, {"id": "electronics-2", "name": "Xech Oracle Torch", "price": 807, "image": "https://cdn.shopify.com/s/files/1/0561/3250/1677/files/xech-motion-sensor-light-with-torch-baton-light-flashlight-oracle-1500x1500_1.jpg?v=1787105973", "brand": "Xech"}, {"id": "electronics-3", "name": "Pebble Halo Smart Ring", "price": 3835, "image": "https://www.pebblecart.com/cdn/shop/files/1_c13502b1-3d34-4845-b911-4f7999b27b50.jpg", "brand": "Pebble"}, {"id": "electronics-4", "name": "Pebble Quro View wellness Band", "price": 3962, "image": "https://www.pebblecart.com/cdn/shop/files/0_16_4dcae4a2-0f23-479c-ba2d-5974c15f272b.jpg", "brand": "Pebble"}, {"id": "electronics-5", "name": "Fuzo Beacon - Foldable Desk Lamp with Clock", "price": 661, "image": "https://d39bd3o2tztcvw.cloudfront.net/1e9245da-543c-4c0e-81c6-1454dfbc9d8d.PNG", "brand": "Fuzo"}, {"id": "electronics-8", "name": "Pigeon Egnite LED Lamp", "price": 1035, "image": "https://stovekraft.com/storage/products/cover/a6tBKfuMSAa0FersG3Om0n1xE4Uc1Ee1hTqZtYXK.webp", "brand": "Pigeon"}, {"id": "electronics-9", "name": "Pigeon Fantastic Tower Fan Digital", "price": 5978, "image": "https://stovekraft.com/storage/products/cover/tyQyR1ew5T9TwqgD4MfTlv8LNAGtK7uZHoeryaUm.webp", "brand": "Pigeon"}, {"id": "electronics-10", "name": "Pigeon Fantastic Tower Fan Manual", "price": 4808, "image": "https://stovekraft.com/storage/products/cover/bFCukEUkRi7fwI25eXHhcTKgHCBJXWUxrgWHisXs.webp", "brand": "Pigeon"}, {"id": "electronics-11", "name": "Pigeon Fantastic Wall Fan Digital 75 Watt", "price": 3508, "image": "https://stovekraft.com/storage/products/cover/ryptv73McJ6j4oKdYSNpMy6dE7NWW6aEmQJAiTPm.webp", "brand": "Pigeon"}, {"id": "electronics-12", "name": "Pigeon Fantastic Wall Fan Manual 75 Watt", "price": 2859, "image": "https://stovekraft.com/storage/products/cover/2HxQ1TAwwOS3tSVTGIbCQVvSfgQOnEkfTd2wITRl.webp", "brand": "Pigeon"}, {"id": "electronics-14", "name": "Pigeon Fantastic 75 Watt Pedestal Fan", "price": 2858, "image": "https://stovekraft.com/storage/products/cover/YBCNzhm5nBAn81vQLGofUxfNxvidBoc6S7cvvN44.webp", "brand": "Pigeon"}, {"id": "electronics-18", "name": "Orbit Amedus 1600-Watt Garment Steamer", "price": 4840, "image": "https://d39bd3o2tztcvw.cloudfront.net/69367adf-4ab3-44f4-ad50-04dc80eea76b.PNG", "brand": "Orbit"}, {"id": "electronics-19", "name": "Orbit HY-128 Handy Garment Steamer", "price": 2132, "image": "https://d39bd3o2tztcvw.cloudfront.net/74bd22d9-3827-4cea-9ead-5f69e51b2803.PNG", "brand": "Orbit"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

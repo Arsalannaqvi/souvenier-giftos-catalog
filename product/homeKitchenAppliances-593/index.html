@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=kitchenAppliances" class="pd-back"><span aria-hidden="true">←</span> Kitchen Appliances</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Kitchen Appliances · Vacuum &amp; Floor Care</p>
-  <h2 class="pd-title">Remaxx Vacuum Cleaner</h2>
-  <p class="pd-brand">Brand: <strong>Remaxx</strong></p>
-  <p class="pd-price">₹370</p>
-  
-  <p class="pd-description">A cordless mini portable desktop vacuum cleaner powered by 2 AA batteries, providing up to 12,000 RPM suction for cleaning desktops, keyboards, crumbs and pet hair from hard and upholstered surfaces.</p>
-  <p class="pd-source"><a href="https://www.dealsmagnet.com/deal/remaxx-mini-portable-desktop-vacuum-cleaner-cordle-18W6XpkW" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Kitchen Appliances · Vacuum &amp; Floor Care</p>
+      <h2 class="pd-title">Remaxx Vacuum Cleaner</h2>
+      <p class="pd-brand">Brand: <strong>Remaxx</strong></p>
+      <p class="pd-price">₹370</p>
+      
+      <p class="pd-description">A cordless mini portable desktop vacuum cleaner powered by 2 AA batteries, providing up to 12,000 RPM suction for cleaning desktops, keyboards, crumbs and pet hair from hard and upholstered surfaces.</p>
+      <p class="pd-source"><a href="https://www.dealsmagnet.com/deal/remaxx-mini-portable-desktop-vacuum-cleaner-cordle-18W6XpkW" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-593", "name": "Remaxx Vacuum Cleaner", "price": 370, "image": "https://d39bd3o2tztcvw.cloudfront.net/925b01c6-0367-4779-9e51-914e1b8fc878.jpg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/925b01c6-0367-4779-9e51-914e1b8fc878.jpg"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Vacuum & Floor Care", "brand": "Remaxx", "description": "A cordless mini portable desktop vacuum cleaner powered by 2 AA batteries, providing up to 12,000 RPM suction for cleaning desktops, keyboards, crumbs and pet hair from hard and upholstered surfaces.", "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-593", "name": "Remaxx Vacuum Cleaner", "price": 370, "image": "https://d39bd3o2tztcvw.cloudfront.net/925b01c6-0367-4779-9e51-914e1b8fc878.jpg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/925b01c6-0367-4779-9e51-914e1b8fc878.jpg"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Vacuum & Floor Care", "brand": "Remaxx", "description": "A cordless mini portable desktop vacuum cleaner powered by 2 AA batteries, providing up to 12,000 RPM suction for cleaning desktops, keyboards, crumbs and pet hair from hard and upholstered surfaces.", "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "homeKitchenAppliances-594", "name": "Remaxx Flame Humidifier & Diffuser", "price": 918, "image": "https://d39bd3o2tztcvw.cloudfront.net/f1eda5a3-01bc-47c6-adf3-b662306790f1.jpg", "brand": "Remaxx"}, {"id": "kitchenAppliances-1", "name": "RICO Nutri Pro (Model-MG2203)", "price": 3028, "image": "https://d39bd3o2tztcvw.cloudfront.net/2ef2a847-8f9b-4532-88ac-017d7194cab2.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-2", "name": "RICO Mixer Grinder (Model-MG123B)", "price": 3389, "image": "https://d39bd3o2tztcvw.cloudfront.net/36660d05-a39e-4209-8c1a-57d643a001e1.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-3", "name": "RICO Mixer Grinder (Model-MG2304)", "price": 4087, "image": "https://d39bd3o2tztcvw.cloudfront.net/0fa2a3ac-fed9-4c56-ad8a-bb9cbbc3bce7.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-4", "name": "RICO Mixer Grinder (Model-MG2409)", "price": 5587, "image": "https://d39bd3o2tztcvw.cloudfront.net/961dd800-7099-4648-8318-39530c8c8517.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-5", "name": "RICO Induction cooktop (Model-IC21)", "price": 3369, "image": "https://d39bd3o2tztcvw.cloudfront.net/a21a3440-0fab-4582-927e-c7eae0054790.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-6", "name": "RICO Electric Rice Cooker (Model-RC907)", "price": 3154, "image": "https://d39bd3o2tztcvw.cloudfront.net/bc25ac0c-ac42-420b-9a98-fbbe9acd34f5.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-7", "name": "RICO Food Processor (Model-FP101)", "price": 8205, "image": "https://d39bd3o2tztcvw.cloudfront.net/e402370d-07eb-484c-af5e-f1c5a60e19b8.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-8", "name": "RICO Food Factory (Model-KP603B)", "price": 3807, "image": "https://d39bd3o2tztcvw.cloudfront.net/8dea20ca-2eeb-48a2-b2c2-81dcf6220843.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-9", "name": "RICO Centrifugal Juicer (Model-JE1401B)", "price": 2580, "image": "https://d39bd3o2tztcvw.cloudfront.net/6fa39307-6f0d-4d17-b637-398f6a2d04e1.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-10", "name": "RICO Slow Berry Juicer (Model- SJ2508)", "price": 7650, "image": "https://d39bd3o2tztcvw.cloudfront.net/3dc73fde-6884-46ec-87ee-1d395ecaa548.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-11", "name": "RICO 3 Litre Chopper (Model-CH2510)", "price": 2298, "image": "https://d39bd3o2tztcvw.cloudfront.net/da34995f-c565-47ca-997c-bad21177b351.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-12", "name": "RICO 3 Litre Chopper (Model-CH2509)", "price": 2313, "image": "https://d39bd3o2tztcvw.cloudfront.net/82173cb0-be33-4f11-8b22-bf457d692cdc.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-13", "name": "RICO Electric Chopper / Whipper (Model-CH05)", "price": 1709, "image": "https://d39bd3o2tztcvw.cloudfront.net/5463a63f-61b2-41c5-9286-529687de25ae.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-14", "name": "RICO Mini Electric Rechargeable Chopper (Model-CH2113)", "price": 677, "image": "https://d39bd3o2tztcvw.cloudfront.net/14af477b-5f82-4ce2-88e1-414037c85fe1.JPG", "brand": "Rico"}, {"id": "homeKitchenAppliances-1", "name": "Wonderchef Regenta Espresso Coffee Machine", "price": 5369, "image": "https://www.wonderchef.com/cdn/shop/files/Coffee-Machine_Listing_Image.jpg", "brand": "Wonderchef"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

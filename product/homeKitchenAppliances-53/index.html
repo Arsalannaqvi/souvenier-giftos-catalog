@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=kitchenAppliances" class="pd-back"><span aria-hidden="true">←</span> Kitchen Appliances</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Kitchen Appliances · Mixer Grinder</p>
-  <h2 class="pd-title">Sunflame Zorro Mixer Grinder 500 Watt 2 Jar</h2>
-  <p class="pd-brand">Brand: <strong>Sunflame</strong></p>
-  <p class="pd-price">₹2316</p>
-  <p class="pd-spec"><strong>Dimensions:</strong> wattage: 500 W; jars: 2 (1.2L liquidizing, 0.4L chutney)</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Kitchen Appliances · Mixer Grinder</p>
+      <h2 class="pd-title">Sunflame Zorro Mixer Grinder 500 Watt 2 Jar</h2>
+      <p class="pd-brand">Brand: <strong>Sunflame</strong></p>
+      <p class="pd-price">₹2316</p>
+      <p class="pd-spec"><strong>Dimensions:</strong> wattage: 500 W; jars: 2 (1.2L liquidizing, 0.4L chutney)</p>
   <p class="pd-spec"><strong>Warranty:</strong> 2 years on product</p>
-  <p class="pd-description">Sunflame Zorro mixer grinder (2-jar) has a shock/rust-proof ABS body with a 500W motor, a 1.2L liquidizing jar, and a 0.4L chutney jar. 3-speed control with incher switch and overload protection switch.</p>
-  <p class="pd-source"><a href="https://www.sunflame.com/products/mg-zorro-500-watt-2-jar" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Sunflame Zorro mixer grinder (2-jar) has a shock/rust-proof ABS body with a 500W motor, a 1.2L liquidizing jar, and a 0.4L chutney jar. 3-speed control with incher switch and overload protection switch.</p>
+      <p class="pd-source"><a href="https://www.sunflame.com/products/mg-zorro-500-watt-2-jar" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-53", "name": "Sunflame Zorro Mixer Grinder 500 Watt 2 Jar", "price": 2316, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3009060.png?v=1752660121", "images": ["https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3009060.png?v=1752660121", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_1603c906-5209-4471-a60b-c8a7a77abea2.png?v=1783161951", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/2_9f0512ee-4ba8-4e71-b9fd-5547687200b0.png?v=1783161950", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/3_539e3eb5-11e5-4403-ae6b-9d65091b9ccd.png?v=1783161951", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/4_6efc481c-31c1-44f6-83da-6e845dd24e2c.png?v=1783161950", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/6_a5612ab5-8252-4adc-8a53-113e610d51fe.png?v=1783161949", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/7_f339f429-525d-4603-a133-6432337da32f.png?v=1783161951"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Mixer Grinder", "brand": "Sunflame", "description": "Sunflame Zorro mixer grinder (2-jar) has a shock/rust-proof ABS body with a 500W motor, a 1.2L liquidizing jar, and a 0.4L chutney jar. 3-speed control with incher switch and overload protection switch.", "colours": [], "sizes": [], "dimensions": "wattage: 500 W; jars: 2 (1.2L liquidizing, 0.4L chutney)", "warranty": "2 years on product"};</script>
+<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-53", "name": "Sunflame Zorro Mixer Grinder 500 Watt 2 Jar", "price": 2316, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3009060.png?v=1752660121", "images": ["https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3009060.png?v=1752660121", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_1603c906-5209-4471-a60b-c8a7a77abea2.png?v=1783161951", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/2_9f0512ee-4ba8-4e71-b9fd-5547687200b0.png?v=1783161950", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/3_539e3eb5-11e5-4403-ae6b-9d65091b9ccd.png?v=1783161951", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/4_6efc481c-31c1-44f6-83da-6e845dd24e2c.png?v=1783161950", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/6_a5612ab5-8252-4adc-8a53-113e610d51fe.png?v=1783161949", "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/7_f339f429-525d-4603-a133-6432337da32f.png?v=1783161951"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Mixer Grinder", "brand": "Sunflame", "description": "Sunflame Zorro mixer grinder (2-jar) has a shock/rust-proof ABS body with a 500W motor, a 1.2L liquidizing jar, and a 0.4L chutney jar. 3-speed control with incher switch and overload protection switch.", "colours": [], "sizes": [], "dimensions": "wattage: 500 W; jars: 2 (1.2L liquidizing, 0.4L chutney)", "warranty": "2 years on product", "related": [{"id": "homeKitchenAppliances-42", "name": "Sunflame Orchid Pressure Cooker 5 Litre Triply Belly", "price": 3201, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3007791.png?v=1752661057", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-43", "name": "Sunflame Orchid Pressure Cooker 3 Litre Triply Bellly", "price": 2714, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_f223467b-ba24-45c7-bd3c-446485296ed1.jpg?v=1775473016", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-44", "name": "Sunflame Orchid Pressure Cooker 2 Litre Triply Belly", "price": 2412, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3007789.png?v=1752660963", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-45", "name": "Sunflame Lilly Pressure Cooker 5 Litre Hard Anodized IB", "price": 2471, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3007779.png?v=1752660715", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-46", "name": "Sunflame Lilly Pressure Cooker 2 Litre Hard Anodized IB", "price": 1697, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/2_cdef089f-fc71-4fcd-b6d7-49d9684570b9.png?v=1781194974", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-47", "name": "Sunflame Lilly Pressure Cooker 3 Litre Hard Anodized IB", "price": 1923, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_487de4af-f144-41ac-adf3-8c5e0319a1cc.png?v=1781195056", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-48", "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner", "price": 2709, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/27-05-20240684.png?v=1779190338", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-49", "name": "Sunflame Thunder-300 Nutri Blender 300 Watt", "price": 2631, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/CLQ_7810.png?v=1774266342", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-50", "name": "Sunflame Maverick Mixer Grinder 750 Watt 4 Jar", "price": 4884, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3009151.png?v=1752731297", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-51", "name": "Sunflame Maverick Mixer Grinder 750 Watt 3 Jar", "price": 4185, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3008034.png?v=1752731448", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-52", "name": "Sunflame Zorro Mixer Grinder 500 Watt 3 Jar", "price": 2536, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3008435.png?v=1752731280", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-54", "name": "Sunflame Tulip Pressure Cooker 5 Litre Outer Lid", "price": 2034, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3007800.png?v=1752661101", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-55", "name": "Sunflame Tulip Pressure Cooker 3 Litre Outer Lid", "price": 1582, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3007799.png?v=1752661079", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-56", "name": "Sunflame Flora Pressure Cooker 5 Litre IB", "price": 1885, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_ca307bfd-3e5c-4113-a387-d692cbbf941d.png?v=1781195233", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-57", "name": "Sunflame Flora Pressure Cooker 3 Litre IB", "price": 1452, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_c53d53ac-1fd6-41a6-b379-06b40f02d954.png?v=1781195340", "brand": "Sunflame"}, {"id": "homeKitchenAppliances-58", "name": "Sunflame Flora Pressure Cooker 2 Litre IB", "price": 1237, "image": "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1_46355991-0b6e-4262-b882-637f9e676f7e.png?v=1781195430", "brand": "Sunflame"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=personalAccessories" class="pd-back"><span aria-hidden="true">←</span> Personal Accessories</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Personal Accessories · Keychains</p>
-  <h2 class="pd-title">Offikraft Swag 2.0 Keychain</h2>
-  <p class="pd-brand">Brand: <strong>Offikraft</strong></p>
-  <p class="pd-price">₹93</p>
-  
-  
-  
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Personal Accessories · Keychains</p>
+      <h2 class="pd-title">Offikraft Swag 2.0 Keychain</h2>
+      <p class="pd-brand">Brand: <strong>Offikraft</strong></p>
+      <p class="pd-price">₹93</p>
+      
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "personalAccessories-9", "name": "Offikraft Swag 2.0 Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/9cffa0b8-b086-486e-80d0-a287858226d6.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9cffa0b8-b086-486e-80d0-a287858226d6.jpeg"], "category": "personalAccessories", "categoryLabel": "Personal Accessories", "subcategory": "Keychains", "brand": "Offikraft", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "personalAccessories-9", "name": "Offikraft Swag 2.0 Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/9cffa0b8-b086-486e-80d0-a287858226d6.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9cffa0b8-b086-486e-80d0-a287858226d6.jpeg"], "category": "personalAccessories", "categoryLabel": "Personal Accessories", "subcategory": "Keychains", "brand": "Offikraft", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "personalAccessories-5", "name": "Offikraft Swag Keychain", "price": 103, "image": "https://d39bd3o2tztcvw.cloudfront.net/18d4a07c-4bb0-472a-9d15-468a2316007b.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-6", "name": "Offikraft Ring Keychain", "price": 41, "image": "https://d39bd3o2tztcvw.cloudfront.net/92fd87e2-5581-4013-a0ea-b4e050fe56dd.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-7", "name": "Offikraft Keyfob Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/6fa968b6-43eb-4ee6-a4ac-dcc201f30f66.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-8", "name": "Offikraft Hooky Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/3d5a7803-491a-4dba-bf38-6938c354625f.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-10", "name": "Offikraft Bold Key Chain", "price": 103, "image": "https://d39bd3o2tztcvw.cloudfront.net/dbcaff3b-fe35-433c-a580-7238408cee0d.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-1", "name": "Power Plus PU key Chain", "price": 114, "image": "https://d39bd3o2tztcvw.cloudfront.net/e99c1e99-3355-4c44-aa14-5090026973e8.PNG", "brand": "PowerPlus"}, {"id": "personalAccessories-2", "name": "Power Plus Rectangle handing Metal Keychain with PU Strip", "price": 106, "image": "https://d39bd3o2tztcvw.cloudfront.net/f0c2ec40-2148-4920-a528-037b3cb6df11.PNG", "brand": "PowerPlus"}, {"id": "personalAccessories-3", "name": "Power Plus KeyChain with Torch & LED Lamp", "price": 114, "image": "https://d39bd3o2tztcvw.cloudfront.net/80e7fff0-7359-41e7-9c52-ed72818f1b00.PNG", "brand": "PowerPlus"}, {"id": "personalAccessories-4", "name": "Wayona MagHold MagSafe Wallet", "price": 513, "image": "https://wayona.in/wp-content/uploads/2025/12/1-1.jpg", "brand": "Wayona"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

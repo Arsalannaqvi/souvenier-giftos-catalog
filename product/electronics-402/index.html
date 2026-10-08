@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=electronics" class="pd-back"><span aria-hidden="true">←</span> Electronics</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Electronics · Ear Buds</p>
-  <h2 class="pd-title">Noise Air Buds Pro 4</h2>
-  <p class="pd-brand">Brand: <strong>Noise</strong></p>
-  <p class="pd-price">₹2145</p>
-  <p class="pd-spec"><strong>Colours:</strong> Coal Black, Jade Green, Lake Blue, Powder Blue</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Electronics · Ear Buds</p>
+      <h2 class="pd-title">Noise Air Buds Pro 4</h2>
+      <p class="pd-brand">Brand: <strong>Noise</strong></p>
+      <p class="pd-price">₹2145</p>
+      <p class="pd-spec"><strong>Colours:</strong> Coal Black, Jade Green, Lake Blue, Powder Blue</p>
   <p class="pd-spec"><strong>Dimensions:</strong> 10mm dynamic drivers, up to 50 hours total playtime</p>
-  <p class="pd-description">Discover Air Buds Pro 4 with hybrid ANC up to 40dB for immersive sound. Enjoy 50 hours of playtime, Google Fast Pair, quad-mic ENC, and dual-device pairing. Its glossy metallic finish adds style, while IPX5 water resistance and InstaCharge offer durability and convenience.</p>
-  <p class="pd-source"><a href="https://gonoise.com/products/noise-air-buds-pro-4-earbuds" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Discover Air Buds Pro 4 with hybrid ANC up to 40dB for immersive sound. Enjoy 50 hours of playtime, Google Fast Pair, quad-mic ENC, and dual-device pairing. Its glossy metallic finish adds style, while IPX5 water resistance and InstaCharge offer durability and convenience.</p>
+      <p class="pd-source"><a href="https://gonoise.com/products/noise-air-buds-pro-4-earbuds" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "electronics-402", "name": "Noise Air Buds Pro 4", "price": 2145, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_7-min.png?v=1726721617", "images": ["https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_7-min.png?v=1726721617", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_6-min.png?v=1726721808", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_8_86d885b5-cbbb-4cbc-9791-34d48614acde.png?v=1726724873", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Black.png?v=1726490937", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_9-min.png?v=1726721593", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_10-min.png?v=1726721570", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_12-min.png?v=1726724387", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_11-min.png?v=1726722109", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_13-min.png?v=1726722086", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Green.png?v=1726490937", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_14-min.png?v=1726722060", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_15-min.png?v=1726722039", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_17-min.png?v=1726722010", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_16-min.png?v=1726724305", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_18-min.png?v=1726724331", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Sereneblue.png?v=1726490939", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_19-min.png?v=1726721986", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_20-min.png?v=1726721964", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_2-min.png?v=1726721910", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_1-min.png?v=1726721935", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Blue.png?v=1726490937", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_3-min_f647aa8f-1cea-48f2-898b-52b092b78b42.png?v=1726721290", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_4-min.png?v=1726721676", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_5-min.png?v=1726721835"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Ear Buds", "brand": "Noise", "description": "Discover Air Buds Pro 4 with hybrid ANC up to 40dB for immersive sound. Enjoy 50 hours of playtime, Google Fast Pair, quad-mic ENC, and dual-device pairing. Its glossy metallic finish adds style, while IPX5 water resistance and InstaCharge offer durability and convenience.", "colours": [], "sizes": [], "dimensions": "10mm dynamic drivers, up to 50 hours total playtime", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "electronics-402", "name": "Noise Air Buds Pro 4", "price": 2145, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_7-min.png?v=1726721617", "images": ["https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_7-min.png?v=1726721617", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_6-min.png?v=1726721808", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_8_86d885b5-cbbb-4cbc-9791-34d48614acde.png?v=1726724873", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Black.png?v=1726490937", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_9-min.png?v=1726721593", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_10-min.png?v=1726721570", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_12-min.png?v=1726724387", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_11-min.png?v=1726722109", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_13-min.png?v=1726722086", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Green.png?v=1726490937", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_14-min.png?v=1726722060", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_15-min.png?v=1726722039", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_17-min.png?v=1726722010", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_16-min.png?v=1726724305", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_18-min.png?v=1726724331", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Sereneblue.png?v=1726490939", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_19-min.png?v=1726721986", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_20-min.png?v=1726721964", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_2-min.png?v=1726721910", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_1-min.png?v=1726721935", "https://cdn.shopify.com/s/files/1/0997/6284/files/ABPro4-Blue.png?v=1726490937", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_3-min_f647aa8f-1cea-48f2-898b-52b092b78b42.png?v=1726721290", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_4-min.png?v=1726721676", "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_5-min.png?v=1726721835"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Ear Buds", "brand": "Noise", "description": "Discover Air Buds Pro 4 with hybrid ANC up to 40dB for immersive sound. Enjoy 50 hours of playtime, Google Fast Pair, quad-mic ENC, and dual-device pairing. Its glossy metallic finish adds style, while IPX5 water resistance and InstaCharge offer durability and convenience.", "colours": [], "sizes": [], "dimensions": "10mm dynamic drivers, up to 50 hours total playtime", "warranty": null, "related": [{"id": "electronics-1", "name": "Noise ColorFit Pro 5 Max Smart Watch", "price": 4576, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/1_ecb6bab3-7552-4d31-a0bb-833b19044577.png?v=1771311846", "brand": "Noise"}, {"id": "electronics-374", "name": "Noise Airwave Max XR Headphoes", "price": 5249, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/10_result_2e328abc-6872-48da-8243-dd8402d01b2f.webp?v=1776249308", "brand": "Noise"}, {"id": "electronics-376", "name": "Noise Pure Pods", "price": 2859, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/5_78ab6c3d-0bf3-495b-9580-c640e5cf459d.webp?v=1720444316", "brand": "Noise"}, {"id": "electronics-383", "name": "Noise Airwave Max 6", "price": 7150, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/1_result_0685c591-8497-4ad4-896d-10534808cd24.webp?v=1771420198", "brand": "Noise"}, {"id": "electronics-384", "name": "Noise Airwave Max 3", "price": 2362, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/1.116_result.webp?v=1753268022", "brand": "Noise"}, {"id": "electronics-385", "name": "Noise 3", "price": 2008, "image": "https://d39bd3o2tztcvw.cloudfront.net/fc82f3a6-8bce-40dd-b7fb-f3530dc4e8d4.png", "brand": "Noise"}, {"id": "electronics-386", "name": "Noise Masterbuds Max", "price": 11441, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/1_result-removebg-preview.png?v=1775810551", "brand": "Noise"}, {"id": "electronics-387", "name": "Noise Airwave Max 5", "price": 5720, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_8_Am5.webp?v=1776771237", "brand": "Noise"}, {"id": "electronics-391", "name": "Noise Airwave Max XR", "price": 3861, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/10_result_2e328abc-6872-48da-8243-dd8402d01b2f.webp?v=1776249308", "brand": "Noise"}, {"id": "electronics-392", "name": "Noise N2 Pro", "price": 2002, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/2.4_result.webp?v=1771311392", "brand": "Noise"}, {"id": "electronics-393", "name": "Noise Buds Ultra X", "price": 2859, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard_1_result_9a159d0a-5425-49e1-82c0-c0b268d704c5.webp?v=1747370103", "brand": "Noise"}, {"id": "electronics-394", "name": "Noise Buds Marine", "price": 2359, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Marine_Grey.png?v=1778068322", "brand": "Noise"}, {"id": "electronics-395", "name": "Noise Buds Apex", "price": 1287, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard1copy_result_bd58c671-6e37-486a-b1d0-48179aabb971.webp?v=1750241873", "brand": "Noise"}, {"id": "electronics-396", "name": "Noise Master Buds 2", "price": 9152, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Artboard9_result_e8b91d73-7a1a-4375-a0ce-f6a825fad7e2.webp?v=1773898750", "brand": "Noise"}, {"id": "electronics-397", "name": "Noise Buds Evoke", "price": 1430, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/Frame_1321317749.webp?v=1740724379", "brand": "Noise"}, {"id": "electronics-398", "name": "Noise Buds Nero", "price": 1144, "image": "https://cdn.shopify.com/s/files/1/0997/6284/files/1_24680195-fc70-4df6-98c3-0d4f22f58545.webp?v=1732078529", "brand": "Noise"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

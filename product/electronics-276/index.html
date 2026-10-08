@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=electronics" class="pd-back"><span aria-hidden="true">←</span> Electronics</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Electronics · Power Bank</p>
-  <h2 class="pd-title">Lifelong LLPBVA20 Compact Power Bank</h2>
-  <p class="pd-brand">Brand: <strong>LifeLong</strong></p>
-  <p class="pd-price">₹1841</p>
-  <p class="pd-spec"><strong>Dimensions:</strong> 20000 mAh</p>
-  <p class="pd-description">🔋 20000mAh Capacity: Stay powered up on the go with our 20000mAh power bank, offering ample energy to charge your devices multiple times. Perfect for daily use or travel. 🔌 3 Input &amp; 6 Output Ports: Equipped with 3 inputs and 6 output ports, this power bank ensures you can charge multiple devices simultaneously, including smartphones, tablets, and more. ⚡ High-Speed Charging: Advanced technology delivers fast and efficient charging for your devices. The power bank comes equipped with quick charge PD 3.0 technology, which ensures your devices power up rapidly. 📱 Multi-device Compatibility: Compatible with a wide range of devices, including iPhones, Android smartphones, tablets, cameras, and other USB-powered gadgets. 👜 Compact Size and Portable Design: Despite its high capacity, the power bank is designed to be compact and lightweight, making it easy to carry in your bag or pocket, ensuring you&#x27;re always prepared.</p>
-  <p class="pd-source"><a href="https://www.lifelongindiaonline.com/products/lifelong-zencharge-20000-mah-22-5-w-compact-pocket-size-power-bank" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Electronics · Power Bank</p>
+      <h2 class="pd-title">Lifelong LLPBVA20 Compact Power Bank</h2>
+      <p class="pd-brand">Brand: <strong>LifeLong</strong></p>
+      <p class="pd-price">₹1841</p>
+      <p class="pd-spec"><strong>Dimensions:</strong> 20000 mAh</p>
+      <p class="pd-description">🔋 20000mAh Capacity: Stay powered up on the go with our 20000mAh power bank, offering ample energy to charge your devices multiple times. Perfect for daily use or travel. 🔌 3 Input &amp; 6 Output Ports: Equipped with 3 inputs and 6 output ports, this power bank ensures you can charge multiple devices simultaneously, including smartphones, tablets, and more. ⚡ High-Speed Charging: Advanced technology delivers fast and efficient charging for your devices. The power bank comes equipped with quick charge PD 3.0 technology, which ensures your devices power up rapidly. 📱 Multi-device Compatibility: Compatible with a wide range of devices, including iPhones, Android smartphones, tablets, cameras, and other USB-powered gadgets. 👜 Compact Size and Portable Design: Despite its high capacity, the power bank is designed to be compact and lightweight, making it easy to carry in your bag or pocket, ensuring you&#x27;re always prepared.</p>
+      <p class="pd-source"><a href="https://www.lifelongindiaonline.com/products/lifelong-zencharge-20000-mah-22-5-w-compact-pocket-size-power-bank" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "electronics-276", "name": "Lifelong LLPBVA20 Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2.jpg?v=1784104847", "images": ["https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2.jpg?v=1784104847", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/02_2.jpg?v=1784184535", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/03_2_73d22a91-baa7-4cae-8a4e-1ae7ad762471.jpg?v=1784184541", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/04_2_037b2a4c-23a8-42f6-9985-a95f31c32f73.jpg?v=1784184547", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/05_2.jpg?v=1784184551", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/06_2_eb2bbef1-fc6c-4c63-b3c1-641450b8b8aa.jpg?v=1784184555", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/07_2_bce6ddb0-5a8e-40dd-a39d-cd17173f530c.jpg?v=1784184559", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/8_19.jpg?v=1784184569"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Power Bank", "brand": "LifeLong", "description": "\ud83d\udd0b 20000mAh Capacity: Stay powered up on the go with our 20000mAh power bank, offering ample energy to charge your devices multiple times. Perfect for daily use or travel. \ud83d\udd0c 3 Input & 6 Output Ports: Equipped with 3 inputs and 6 output ports, this power bank ensures you can charge multiple devices simultaneously, including smartphones, tablets, and more. \u26a1 High-Speed Charging: Advanced technology delivers fast and efficient charging for your devices. The power bank comes equipped with quick charge PD 3.0 technology, which ensures your devices power up rapidly. \ud83d\udcf1 Multi-device Compatibility: Compatible with a wide range of devices, including iPhones, Android smartphones, tablets, cameras, and other USB-powered gadgets. \ud83d\udc5c Compact Size and Portable Design: Despite its high capacity, the power bank is designed to be compact and lightweight, making it easy to carry in your bag or pocket, ensuring you're always prepared.", "colours": [], "sizes": [], "dimensions": "20000 mAh", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "electronics-276", "name": "Lifelong LLPBVA20 Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2.jpg?v=1784104847", "images": ["https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2.jpg?v=1784104847", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/02_2.jpg?v=1784184535", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/03_2_73d22a91-baa7-4cae-8a4e-1ae7ad762471.jpg?v=1784184541", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/04_2_037b2a4c-23a8-42f6-9985-a95f31c32f73.jpg?v=1784184547", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/05_2.jpg?v=1784184551", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/06_2_eb2bbef1-fc6c-4c63-b3c1-641450b8b8aa.jpg?v=1784184555", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/07_2_bce6ddb0-5a8e-40dd-a39d-cd17173f530c.jpg?v=1784184559", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/8_19.jpg?v=1784184569"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Power Bank", "brand": "LifeLong", "description": "\ud83d\udd0b 20000mAh Capacity: Stay powered up on the go with our 20000mAh power bank, offering ample energy to charge your devices multiple times. Perfect for daily use or travel. \ud83d\udd0c 3 Input & 6 Output Ports: Equipped with 3 inputs and 6 output ports, this power bank ensures you can charge multiple devices simultaneously, including smartphones, tablets, and more. \u26a1 High-Speed Charging: Advanced technology delivers fast and efficient charging for your devices. The power bank comes equipped with quick charge PD 3.0 technology, which ensures your devices power up rapidly. \ud83d\udcf1 Multi-device Compatibility: Compatible with a wide range of devices, including iPhones, Android smartphones, tablets, cameras, and other USB-powered gadgets. \ud83d\udc5c Compact Size and Portable Design: Despite its high capacity, the power bank is designed to be compact and lightweight, making it easy to carry in your bag or pocket, ensuring you're always prepared.", "colours": [], "sizes": [], "dimensions": "20000 mAh", "warranty": null, "related": [{"id": "electronics-193", "name": "Lifelong LLPJEJ42 Electronics ROAR Projector with 2 Mics", "price": 9971, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1_16_7bebecaa-853b-4b90-b8f9-7eb64420b77a.jpg?v=1775034976", "brand": "LifeLong"}, {"id": "electronics-194", "name": "Lifelong LLEPF09 Electronics 10.1 Inch Digital Photo Frame", "price": 7670, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1_a8cc9dcc-5231-43fe-91dd-1f0c929680e9.jpg?v=1758539429", "brand": "LifeLong"}, {"id": "electronics-195", "name": "Lifelong LLUSBTF03 USB Table Fan", "price": 1764, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/MainImagecopy_2x-100.jpg?v=1773396248", "brand": "LifeLong"}, {"id": "electronics-196", "name": "Lifelong Electronics MagSafe Wireless Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/M22_2.jpg?v=1784108990", "brand": "LifeLong"}, {"id": "electronics-197", "name": "Lifelong Electronics MagSafe Wireless Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/M22_2.jpg?v=1784108990", "brand": "LifeLong"}, {"id": "electronics-198", "name": "Lifelong LLPBVM30 Electronics Magsafe Wireless Fast Charging Power Bank", "price": 1687, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1_17_a44b4ec0-1bbc-4fc2-8f1f-b29c50bf8aa2.jpg?v=1776234405", "brand": "LifeLong"}, {"id": "electronics-199", "name": "Lifelong LLTAWT20 Universal Travel Adapter 4-in-1 Fast Charger", "price": 1611, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/TA_1.jpg?v=1753261182", "brand": "LifeLong"}, {"id": "electronics-200", "name": "Lifelong LLPBVB10 10000 mAh 22.5 Watt Pocket Size Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/01_16_ca2b2208-586c-44ce-9138-23f1901def6a.jpg?v=1752144948", "brand": "LifeLong"}, {"id": "electronics-209", "name": "Lifelong LLUSBCF03 Portable Mini USB Fan with 3 Speeds", "price": 924, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/61olFu3LxJL._SL1500.jpg?v=1774337419", "brand": "LifeLong"}, {"id": "electronics-261", "name": "Lifelong LLPJH20 Electronics Lightbeam Android Smart LED Projector", "price": 7670, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLPJH20MainImage2.0.jpg?v=1790056007", "brand": "LifeLong"}, {"id": "electronics-273", "name": "Lifelong LLPBVA22 ZenCharge Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Olive_Green_LLPBVA14_2.jpg?v=1784104621", "brand": "LifeLong"}, {"id": "electronics-274", "name": "Lifelong LLPBVA21 ZenCharge Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/01_18_98c53175-978c-4d9d-a8ef-fbdd9a25afbc.jpg?v=1752145030", "brand": "LifeLong"}, {"id": "electronics-275", "name": "Lifelong LLPBVA23 Fast Charging Power Bank 22.5 Watt", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Rust_Orange_LLPBVA23_2.jpg?v=1784103853", "brand": "LifeLong"}, {"id": "electronics-295", "name": "Lifelong LLPBVA13 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA13_2.jpg?v=1784105657", "brand": "LifeLong"}, {"id": "electronics-297", "name": "Lifelong LLPBVA12 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Light_Green_LLPBVA12_2.jpg?v=1784106075", "brand": "LifeLong"}, {"id": "electronics-303", "name": "Lifelong LLPBVA11 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2_9891d746-63b5-481d-a3a4-4f1b57ac3b3e.jpg?v=1784105335", "brand": "LifeLong"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

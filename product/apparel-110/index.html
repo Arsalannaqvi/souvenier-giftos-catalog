@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=apparel" class="pd-back"><span aria-hidden="true">←</span> Apparel</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Apparel · Round Neck T-shirt</p>
-  <h2 class="pd-title">AWG IRUN Round Neck T-shirt</h2>
-  <p class="pd-brand">Brand: <strong>All Weather Gear</strong></p>
-  <p class="pd-price">₹282</p>
-  <p class="pd-spec"><strong>Colours:</strong> Apple Green, Black, Deccan Blue, Dark Grey, Ice Blue, Navy Blue, Royal Blue, Red, Turquoise Blue, White, Yellow</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Apparel · Round Neck T-shirt</p>
+      <h2 class="pd-title">AWG IRUN Round Neck T-shirt</h2>
+      <p class="pd-brand">Brand: <strong>All Weather Gear</strong></p>
+      <p class="pd-price">₹282</p>
+      <p class="pd-spec"><strong>Colours:</strong> Apple Green, Black, Deccan Blue, Dark Grey, Ice Blue, Navy Blue, Royal Blue, Red, Turquoise Blue, White, Yellow</p>
   <p class="pd-spec"><strong>Sizes:</strong> S, M, L, XL, 2XL, 3XL</p>
-  
-  
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "apparel-110", "name": "AWG IRUN Round Neck T-shirt", "price": 282, "image": "https://d39bd3o2tztcvw.cloudfront.net/5bd58afb-4ac2-4c6e-acaf-f21d885b4888.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/5bd58afb-4ac2-4c6e-acaf-f21d885b4888.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/a6fc09d2-df2a-4cb1-a450-5aa8cd4aa390.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/3177d432-7dcc-49b6-ab26-80de06bc2ea1.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/4e3ab576-ce55-4134-9e08-4e63d3f91fae.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/d1954f39-091d-4101-a6be-af50933098e1.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/9e439d7e-5ce4-4af3-9d6a-df22527ba785.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/a75afa49-4896-4670-b648-f29ff63599b7.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/9704c82a-278c-4d48-9618-7a886feae139.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/ac14a4f7-5509-40b4-859b-a3303659b472.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/17f578e7-b9cb-49bd-a902-85e6bcfd6973.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/b8c5b6ad-0173-4adf-9092-0196acc671b4.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/e19b8caf-6e97-4fde-ae0d-a21fd93bf329.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Round Neck T-shirt", "brand": "All Weather Gear", "description": null, "colours": [{"label": "Apple Green", "colorHex": "#9DAD44", "images": ["https://d39bd3o2tztcvw.cloudfront.net/a6fc09d2-df2a-4cb1-a450-5aa8cd4aa390.jpeg"]}, {"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/3177d432-7dcc-49b6-ab26-80de06bc2ea1.jpeg"]}, {"label": "Deccan Blue", "colorHex": "#1F5873", "images": ["https://d39bd3o2tztcvw.cloudfront.net/4e3ab576-ce55-4134-9e08-4e63d3f91fae.jpeg"]}, {"label": "Dark Grey", "colorHex": "#3C4F5E", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d1954f39-091d-4101-a6be-af50933098e1.jpeg"]}, {"label": "Ice Blue", "colorHex": "#67C8E3", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9e439d7e-5ce4-4af3-9d6a-df22527ba785.jpeg"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/a75afa49-4896-4670-b648-f29ff63599b7.jpeg"]}, {"label": "Royal Blue", "colorHex": "#183370", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9704c82a-278c-4d48-9618-7a886feae139.jpeg"]}, {"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/ac14a4f7-5509-40b4-859b-a3303659b472.jpeg"]}, {"label": "Turquoise Blue", "colorHex": "#4EC2E7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/17f578e7-b9cb-49bd-a902-85e6bcfd6973.jpeg"]}, {"label": "White", "colorHex": "#F3F2F7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/b8c5b6ad-0173-4adf-9092-0196acc671b4.jpeg"]}, {"label": "Yellow", "colorHex": "#FFBE3F", "images": ["https://d39bd3o2tztcvw.cloudfront.net/e19b8caf-6e97-4fde-ae0d-a21fd93bf329.jpeg"]}], "sizes": ["S", "M", "L", "XL", "2XL", "3XL"], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "apparel-110", "name": "AWG IRUN Round Neck T-shirt", "price": 282, "image": "https://d39bd3o2tztcvw.cloudfront.net/5bd58afb-4ac2-4c6e-acaf-f21d885b4888.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/5bd58afb-4ac2-4c6e-acaf-f21d885b4888.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/a6fc09d2-df2a-4cb1-a450-5aa8cd4aa390.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/3177d432-7dcc-49b6-ab26-80de06bc2ea1.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/4e3ab576-ce55-4134-9e08-4e63d3f91fae.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/d1954f39-091d-4101-a6be-af50933098e1.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/9e439d7e-5ce4-4af3-9d6a-df22527ba785.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/a75afa49-4896-4670-b648-f29ff63599b7.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/9704c82a-278c-4d48-9618-7a886feae139.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/ac14a4f7-5509-40b4-859b-a3303659b472.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/17f578e7-b9cb-49bd-a902-85e6bcfd6973.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/b8c5b6ad-0173-4adf-9092-0196acc671b4.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/e19b8caf-6e97-4fde-ae0d-a21fd93bf329.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Round Neck T-shirt", "brand": "All Weather Gear", "description": null, "colours": [{"label": "Apple Green", "colorHex": "#9DAD44", "images": ["https://d39bd3o2tztcvw.cloudfront.net/a6fc09d2-df2a-4cb1-a450-5aa8cd4aa390.jpeg"]}, {"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/3177d432-7dcc-49b6-ab26-80de06bc2ea1.jpeg"]}, {"label": "Deccan Blue", "colorHex": "#1F5873", "images": ["https://d39bd3o2tztcvw.cloudfront.net/4e3ab576-ce55-4134-9e08-4e63d3f91fae.jpeg"]}, {"label": "Dark Grey", "colorHex": "#3C4F5E", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d1954f39-091d-4101-a6be-af50933098e1.jpeg"]}, {"label": "Ice Blue", "colorHex": "#67C8E3", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9e439d7e-5ce4-4af3-9d6a-df22527ba785.jpeg"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/a75afa49-4896-4670-b648-f29ff63599b7.jpeg"]}, {"label": "Royal Blue", "colorHex": "#183370", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9704c82a-278c-4d48-9618-7a886feae139.jpeg"]}, {"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/ac14a4f7-5509-40b4-859b-a3303659b472.jpeg"]}, {"label": "Turquoise Blue", "colorHex": "#4EC2E7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/17f578e7-b9cb-49bd-a902-85e6bcfd6973.jpeg"]}, {"label": "White", "colorHex": "#F3F2F7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/b8c5b6ad-0173-4adf-9092-0196acc671b4.jpeg"]}, {"label": "Yellow", "colorHex": "#FFBE3F", "images": ["https://d39bd3o2tztcvw.cloudfront.net/e19b8caf-6e97-4fde-ae0d-a21fd93bf329.jpeg"]}], "sizes": ["S", "M", "L", "XL", "2XL", "3XL"], "dimensions": null, "warranty": null, "related": [{"id": "apparel-39", "name": "AWG Sweaters", "price": 865, "image": "https://d39bd3o2tztcvw.cloudfront.net/54f4ef44-987e-4eec-b14b-b9cbe77d45ce.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-40", "name": "AWG Ladies Crop Top", "price": 350, "image": "https://d39bd3o2tztcvw.cloudfront.net/dc37c887-a443-4535-823d-10644a4bccf4.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-41", "name": "AWG Wafflw T-shirt", "price": 320, "image": "https://d39bd3o2tztcvw.cloudfront.net/75e2efb3-8aa6-4538-aa5e-8372728299cf.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-42", "name": "AWG Air Crackle T-shirt", "price": 190, "image": "https://d39bd3o2tztcvw.cloudfront.net/c8f6aa6d-e514-4ebe-a01b-b854b2d960f9.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-43", "name": "AWG Joggers", "price": 462, "image": "https://d39bd3o2tztcvw.cloudfront.net/efa06d1f-a653-4c23-8273-b9401671b19b.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-44", "name": "AWG Shorts", "price": 312, "image": "https://d39bd3o2tztcvw.cloudfront.net/0e3552b7-681b-4070-9b19-d179c0a15e82.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-45", "name": "AWG Jeans", "price": 695, "image": "https://d39bd3o2tztcvw.cloudfront.net/186b6e72-8259-43b6-96b2-d312d5d8a701.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-46", "name": "AWG MI- 160 T-shirt", "price": 175, "image": "https://d39bd3o2tztcvw.cloudfront.net/933a102f-2640-4a9b-bbe0-9bb395762c0c.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-47", "name": "AWG Golfer Micro Dryfit Polo Tshirt", "price": 546, "image": "https://d39bd3o2tztcvw.cloudfront.net/6ebc790e-0796-4979-961b-79e88b603d0d.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-48", "name": "AWG Giza Polo T-shirt", "price": 454, "image": "https://d39bd3o2tztcvw.cloudfront.net/481bd30d-610e-4ef6-bb49-04bb70059729.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-49", "name": "AWG Fastee Polo Tshirt", "price": 442, "image": "https://d39bd3o2tztcvw.cloudfront.net/46d43b46-2630-402c-81f3-bec31e79d6e6.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-50", "name": "AWG Printed Puffer Jacket", "price": 1672, "image": "https://d39bd3o2tztcvw.cloudfront.net/25754ebe-ca29-41b1-97e8-3d9213ceaf7d.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-51", "name": "AWG Wind Cheater Jacket", "price": 673, "image": "https://d39bd3o2tztcvw.cloudfront.net/a811a549-a346-44ce-b7fe-198105123b34.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-52", "name": "AWG Nasa Dryfit Cap", "price": 259, "image": "https://d39bd3o2tztcvw.cloudfront.net/0d3095d1-10d9-4363-a3ed-198677318156.png", "brand": "All Weather Gear"}, {"id": "apparel-53", "name": "AWG Zenshark Caps", "price": 282, "image": "https://d39bd3o2tztcvw.cloudfront.net/e5fb5f0a-b5c7-49e7-a0e5-eece3ab0be6c.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-54", "name": "AWG Caps- Poly Twill", "price": 156, "image": "https://d39bd3o2tztcvw.cloudfront.net/e4b87357-ee0c-4c2f-8995-42c7dec55898.jpeg", "brand": "All Weather Gear"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

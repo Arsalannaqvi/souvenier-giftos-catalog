@@ -931,6 +931,76 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .pd-action .add-btn { width: 100%; justify-content: center; }
 .pd-action .stepper { width: 100%; justify-content: center; }
 
+.pd-thumbs { display: none; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.pd-thumb {
+  width: 56px; height: 56px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  padding: 2px;
+}
+.pd-thumb[aria-current="true"] { border-color: var(--accent); }
+
+/* ===== "You might also like" suggestion row (both widths) ===== */
+.pd-suggest { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
+.pd-suggest-title { font-size: 15px; margin: 0 0 12px; }
+.pd-suggest-row {
+  display: flex; gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+.pd-suggest-row::-webkit-scrollbar { height: 6px; }
+.pd-suggest-row::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+.pd-suggest-card {
+  flex-shrink: 0; width: 128px;
+  scroll-snap-align: start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.pd-suggest-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+.pd-suggest-card-body { padding: 7px 8px 9px; }
+.pd-suggest-card-brand { font-size: 9px; font-weight: 700; color: var(--accent); text-transform: uppercase; margin: 0 0 2px; }
+.pd-suggest-card-name {
+  font-size: 11px; font-weight: 650; line-height: 1.25; margin: 0 0 4px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  min-height: 27px;
+}
+.pd-suggest-card-price { font-size: 12px; font-weight: 800; margin: 0; color: var(--gold); }
+.pd-suggest-more-wrap { text-align: center; padding-top: 4px; }
+.pd-suggest-more-btn {
+  background: var(--surface); border: 1px solid var(--border); color: var(--accent);
+  font-weight: 650; font-size: 12.5px; border-radius: 999px; padding: 9px 18px;
+  cursor: pointer; font-family: inherit; min-height: var(--tap);
+}
+.pd-suggest-grid { display: none; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 12px; }
+.pd-suggest-grid.on { display: grid; }
+.pd-suggest-grid .pd-suggest-card { width: auto; }
+
+/* ===== Product page desktop layout (>=1024px) ===== */
+@media (min-width: 1024px) {
+  .pd-main { max-width: 1120px; padding: 28px 28px 60px; }
+  .pd-layout { display: grid; grid-template-columns: 460px 1fr; gap: 48px; align-items: start; }
+  .pd-gallery-col { position: sticky; top: 90px; }
+  .pd-thumbs { display: flex; }
+  .pd-breadcrumb { margin-top: 0; }
+  .pd-title { font-size: 27px; }
+  .pd-price { font-size: 27px; }
+  .pd-description { max-width: 62ch; }
+  .pd-action { max-width: 320px; }
+  .pd-suggest-card { width: 190px; }
+  .pd-suggest-card-name { font-size: 12.5px; min-height: 32px; }
+  .pd-suggest-grid { grid-template-columns: repeat(5, 1fr); }
+}
+
 .pd-sticky-bar {
   position: fixed;
   left: 16px; right: 16px;
@@ -1035,7 +1105,9 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 
 /* ===== Desktop layout (>=1024px): persistent sidebar + wide grid ===== */
 @media (min-width: 1024px) {
-  body {
+  /* Scoped to the main catalog page (index.html) only — product pages
+     have their own, simpler two-column desktop layout below. */
+  body.shop {
     display: grid;
     grid-template-columns: 272px 1fr;
     grid-template-areas:
@@ -1045,8 +1117,8 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     max-width: 1440px;
     margin: 0 auto;
   }
-  .topbar { grid-area: header; }
-  .client-banner { grid-area: banner; }
+  body.shop .topbar { grid-area: header; }
+  body.shop .client-banner { grid-area: banner; }
   .desktop-cart-btn { display: flex; }
 
   #discovery-bar {

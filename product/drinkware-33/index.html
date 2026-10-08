@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=drinkware" class="pd-back"><span aria-hidden="true">←</span> Drinkware</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Drinkware · Copper Vessel</p>
-  <h2 class="pd-title">Tamta Surai #S015 300ml Vessel</h2>
-  <p class="pd-brand">Brand: <strong>Tamta</strong></p>
-  <p class="pd-price">₹1376</p>
-  
-  
-  
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Drinkware · Copper Vessel</p>
+      <h2 class="pd-title">Tamta Surai #S015 300ml Vessel</h2>
+      <p class="pd-brand">Brand: <strong>Tamta</strong></p>
+      <p class="pd-price">₹1376</p>
+      
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "drinkware-33", "name": "Tamta Surai #S015 300ml Vessel", "price": 1376, "image": "https://d39bd3o2tztcvw.cloudfront.net/a4226672-2cda-43b3-a2b6-c52fb0d0461f.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/a4226672-2cda-43b3-a2b6-c52fb0d0461f.jpeg"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Copper Vessel", "brand": "Tamta", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "drinkware-33", "name": "Tamta Surai #S015 300ml Vessel", "price": 1376, "image": "https://d39bd3o2tztcvw.cloudfront.net/a4226672-2cda-43b3-a2b6-c52fb0d0461f.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/a4226672-2cda-43b3-a2b6-c52fb0d0461f.jpeg"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Copper Vessel", "brand": "Tamta", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "drinkware-1", "name": "Tamta Tura #V010 950ml Bottle", "price": 935, "image": "https://d39bd3o2tztcvw.cloudfront.net/c9600117-f022-42e4-b157-3e42103d9ca2.jpeg", "brand": "Tamta"}, {"id": "drinkware-2", "name": "Tamta Tura #V009 950ml Bottle", "price": 1332, "image": "https://d39bd3o2tztcvw.cloudfront.net/4a3f64bf-085e-4675-8375-94e2ec1ccbd2.jpeg", "brand": "Tamta"}, {"id": "drinkware-3", "name": "Tamta Tura #V008 950ml Bottle", "price": 1037, "image": "https://d39bd3o2tztcvw.cloudfront.net/099217e7-ebe5-410c-bad3-68ee1e2a56b3.jpeg", "brand": "Tamta"}, {"id": "drinkware-4", "name": "Tamta Tura #V007 950ml Bottle", "price": 1124, "image": "https://d39bd3o2tztcvw.cloudfront.net/acc39e9c-f5c2-4188-8891-005128d92953.jpeg", "brand": "Tamta"}, {"id": "drinkware-5", "name": "Tamta Tura #V004 1100ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/f5e8c9c4-a868-4407-a7d5-0d9395f68f15.jpeg", "brand": "Tamta"}, {"id": "drinkware-6", "name": "Tamta Tura #V003 1200ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/1c4a1255-9092-46d8-ba9a-c3a4ca242cf7.jpeg", "brand": "Tamta"}, {"id": "drinkware-7", "name": "Tamta Tura #V002 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/19e99fe3-8abc-492a-9aba-2382945b2f75.jpeg", "brand": "Tamta"}, {"id": "drinkware-8", "name": "Tamta Tura #V001 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/0181f1c6-7ad7-424c-9902-86a9bfa0586b.jpeg", "brand": "Tamta"}, {"id": "drinkware-9", "name": "Tamta Tivra #T024 950ml Bottle", "price": 1181, "image": "https://d39bd3o2tztcvw.cloudfront.net/000f44df-ea2b-4848-9009-fef868268e75.jpeg", "brand": "Tamta"}, {"id": "drinkware-10", "name": "Tamta Tivra #T023 950ml Bottle", "price": 953, "image": "https://d39bd3o2tztcvw.cloudfront.net/5c8d67c9-bd32-4e11-bfcb-cd6e468ba839.jpeg", "brand": "Tamta"}, {"id": "drinkware-11", "name": "Tamta Tivra #T022 950ml Bottle", "price": 3441, "image": "https://d39bd3o2tztcvw.cloudfront.net/60b5d2d9-a39c-4d96-9bf9-2bc3bdfa46bd.jpeg", "brand": "Tamta"}, {"id": "drinkware-12", "name": "Tamta Tivra #T021 950ml Bottle", "price": 3441, "image": "https://d39bd3o2tztcvw.cloudfront.net/1d98720b-a1ae-4b6a-ab1d-c0eac0b29152.jpeg", "brand": "Tamta"}, {"id": "drinkware-13", "name": "Tamta Tivra #T020 8000ml Dispenser", "price": 4404, "image": "https://d39bd3o2tztcvw.cloudfront.net/fcf4f367-6c13-4dfa-a88e-f51e096bc6b6.jpeg", "brand": "Tamta"}, {"id": "drinkware-14", "name": "Tamta Tivra #T019 950ml Bottle", "price": 1053, "image": "https://d39bd3o2tztcvw.cloudfront.net/3db7b2fc-fb19-44f9-9f81-279c710869ce.jpeg", "brand": "Tamta"}, {"id": "drinkware-15", "name": "Tamta Tivra #T018 950ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/d2cf962a-4cfa-4537-8762-02077b36a1cf.jpeg", "brand": "Tamta"}, {"id": "drinkware-16", "name": "Tamta Tivra #T017 950ml Glass", "price": 397, "image": "https://d39bd3o2tztcvw.cloudfront.net/bae9bcad-fbf3-414d-b3ac-4996035105f4.jpeg", "brand": "Tamta"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

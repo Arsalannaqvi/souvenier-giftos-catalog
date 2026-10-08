@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=kitchenAppliances" class="pd-back"><span aria-hidden="true">←</span> Kitchen Appliances</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Kitchen Appliances · Kadhai &amp; Woks</p>
-  <h2 class="pd-title">Solara Cast Iron Kadhai- 10 Inch</h2>
-  <p class="pd-brand">Brand: <strong>Solara</strong></p>
-  <p class="pd-price">₹1152</p>
-  <p class="pd-spec"><strong>Dimensions:</strong> approx. 25 cm (~10 inch), 2.5 kg</p>
-  <p class="pd-description">SOLARA Cast Iron Kadai offers natural non-stick cooking, excellent heat retention, and lasting durability. Perfect for deep-frying, sautéing, and more—built to perform and last.</p>
-  <p class="pd-source"><a href="https://www.solara.in/products/crownstone-cast-iron-kadhai" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Kitchen Appliances · Kadhai &amp; Woks</p>
+      <h2 class="pd-title">Solara Cast Iron Kadhai- 10 Inch</h2>
+      <p class="pd-brand">Brand: <strong>Solara</strong></p>
+      <p class="pd-price">₹1152</p>
+      <p class="pd-spec"><strong>Dimensions:</strong> approx. 25 cm (~10 inch), 2.5 kg</p>
+      <p class="pd-description">SOLARA Cast Iron Kadai offers natural non-stick cooking, excellent heat retention, and lasting durability. Perfect for deep-frying, sautéing, and more—built to perform and last.</p>
+      <p class="pd-source"><a href="https://www.solara.in/products/crownstone-cast-iron-kadhai" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-547", "name": "Solara Cast Iron Kadhai- 10 Inch", "price": 1152, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Combo_d0aa1620-1e1c-4ee4-90f3-1240549fa6cf.jpg?v=1751709499", "images": ["https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Combo_d0aa1620-1e1c-4ee4-90f3-1240549fa6cf.jpg?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Frypan_Combo_84edd15c-daae-4d55-b715-cef775e4ffd7.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/001_LD_Kadai_59793076-740f-4fa8-b7af-58fb295c8ccf.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/003_LD_Kadai_7c4f4657-4364-4824-9b68-2f46d76e1102.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/004_LD_Kadai_befbae89-561c-4553-bf7e-fb6d5bcedd8a.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/005_LD_Kadai_f347c440-3dee-4b77-bec5-b46db1f02068.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/006_LD_Kadai_6ef7fca9-32e2-4529-ab0e-7520083288dd.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/007_LD_Kadai_f18eaacd-66db-42f9-a0ff-13d58a679f8c.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/007_LD_Tawa_1_7c881fe9-e7ca-4892-a62b-d1197ac2dc5f.png?v=1790678695", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/mainimage_4edb4859-6b53-45b0-86ef-e923e6bb933a.png?v=1751709499"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Kadhai & Woks", "brand": "Solara", "description": "SOLARA Cast Iron Kadai offers natural non-stick cooking, excellent heat retention, and lasting durability. Perfect for deep-frying, saut\u00e9ing, and more\u2014built to perform and last.", "colours": [], "sizes": [], "dimensions": "approx. 25 cm (~10 inch), 2.5 kg", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-547", "name": "Solara Cast Iron Kadhai- 10 Inch", "price": 1152, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Combo_d0aa1620-1e1c-4ee4-90f3-1240549fa6cf.jpg?v=1751709499", "images": ["https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Combo_d0aa1620-1e1c-4ee4-90f3-1240549fa6cf.jpg?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Frypan_Combo_84edd15c-daae-4d55-b715-cef775e4ffd7.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/001_LD_Kadai_59793076-740f-4fa8-b7af-58fb295c8ccf.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/003_LD_Kadai_7c4f4657-4364-4824-9b68-2f46d76e1102.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/004_LD_Kadai_befbae89-561c-4553-bf7e-fb6d5bcedd8a.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/005_LD_Kadai_f347c440-3dee-4b77-bec5-b46db1f02068.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/006_LD_Kadai_6ef7fca9-32e2-4529-ab0e-7520083288dd.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/007_LD_Kadai_f18eaacd-66db-42f9-a0ff-13d58a679f8c.png?v=1751709499", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/007_LD_Tawa_1_7c881fe9-e7ca-4892-a62b-d1197ac2dc5f.png?v=1790678695", "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/mainimage_4edb4859-6b53-45b0-86ef-e923e6bb933a.png?v=1751709499"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Kadhai & Woks", "brand": "Solara", "description": "SOLARA Cast Iron Kadai offers natural non-stick cooking, excellent heat retention, and lasting durability. Perfect for deep-frying, saut\u00e9ing, and more\u2014built to perform and last.", "colours": [], "sizes": [], "dimensions": "approx. 25 cm (~10 inch), 2.5 kg", "warranty": null, "related": [{"id": "homeKitchenAppliances-538", "name": "Solara Hand Blender Portable (Blend Kwik Pro)", "price": 2936, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Artboard1_4c2a256c-8005-4fa8-be3c-c626dd3eb7a6.png?v=1777447906", "brand": "Solara"}, {"id": "homeKitchenAppliances-539", "name": "Solara 2 in 1 Oil Glass Bottle Sprayer", "price": 409, "image": "https://d39bd3o2tztcvw.cloudfront.net/cc6c4040-5bc4-45b8-a5d2-7158f6f95ea7.jpeg", "brand": "Solara"}, {"id": "homeKitchenAppliances-541", "name": "Solara Sterra - Triply Cookware Fry Pan", "price": 978, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/20cm_For_2-3_People.jpg?v=1783406752", "brand": "Solara"}, {"id": "homeKitchenAppliances-542", "name": "Solara Montclaire Fry Pan", "price": 1257, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Montclaire_FP_001_V1.png?v=1772426140", "brand": "Solara"}, {"id": "homeKitchenAppliances-543", "name": "Solara Montclaire Kadai", "price": 1571, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Montclaire_KD_001__V1.png?v=1770099933", "brand": "Solara"}, {"id": "homeKitchenAppliances-544", "name": "Solara Ceremic Cookware - Fry Pan", "price": 1256, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Lisiting_image_2_copy_5189506c-43f0-49d9-a497-a8e2ee30e4f9.jpg?v=1773060096", "brand": "Solara"}, {"id": "homeKitchenAppliances-545", "name": "Solara Ceremic Cookware - Kadai with Lid", "price": 1676, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Lisiting_image_3_copy_707f6435-64ca-438b-b8ca-d7b618c21f97.jpg?v=1763533923", "brand": "Solara"}, {"id": "homeKitchenAppliances-546", "name": "Solara Cast Iron-Paniyaram Pan", "price": 1104, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/paniyaramMainimage_08cbb1c3-455d-4939-a5ed-e8f30a255347.png?v=1751697303", "brand": "Solara"}, {"id": "homeKitchenAppliances-548", "name": "Solara Crownstone Cast Iron Dosa Tawa 12 inch", "price": 1551, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Mainimage_2049261a-6156-4962-9846-1b0272c923fe.png?v=1751706895", "brand": "Solara"}, {"id": "homeKitchenAppliances-549", "name": "Solara Airfryer Oven 12 L", "price": 9551, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/AFO_001_1.jpg?v=1769774691", "brand": "Solara"}, {"id": "homeKitchenAppliances-550", "name": "Solara Airfryer Oven 4.5 L", "price": 4297, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/WhatsAppImage2025-06-06at13.04.49_685398c1.jpg?v=1750843308", "brand": "Solara"}, {"id": "homeKitchenAppliances-552", "name": "Solara Cold Press Juicer", "price": 8281, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/WhatsAppImage2025-09-20at8.49.32PM.jpg?v=1770100045", "brand": "Solara"}, {"id": "kitchenAppliances-1", "name": "RICO Nutri Pro (Model-MG2203)", "price": 3028, "image": "https://d39bd3o2tztcvw.cloudfront.net/2ef2a847-8f9b-4532-88ac-017d7194cab2.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-2", "name": "RICO Mixer Grinder (Model-MG123B)", "price": 3389, "image": "https://d39bd3o2tztcvw.cloudfront.net/36660d05-a39e-4209-8c1a-57d643a001e1.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-3", "name": "RICO Mixer Grinder (Model-MG2304)", "price": 4087, "image": "https://d39bd3o2tztcvw.cloudfront.net/0fa2a3ac-fed9-4c56-ad8a-bb9cbbc3bce7.JPG", "brand": "Rico"}, {"id": "kitchenAppliances-4", "name": "RICO Mixer Grinder (Model-MG2409)", "price": 5587, "image": "https://d39bd3o2tztcvw.cloudfront.net/961dd800-7099-4648-8318-39530c8c8517.JPG", "brand": "Rico"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

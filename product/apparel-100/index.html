@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=apparel" class="pd-back"><span aria-hidden="true">←</span> Apparel</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Apparel · Polo T-shirt</p>
-  <h2 class="pd-title">AWG Women&#x27;s Giza Polo T-shirt</h2>
-  <p class="pd-brand">Brand: <strong>All Weather Gear</strong></p>
-  <p class="pd-price">₹454</p>
-  <p class="pd-spec"><strong>Colours:</strong> Black, Charcoal Melange, Grey Melange, Navy Blue, Royal Blue, Red, Turquoise Blue</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Apparel · Polo T-shirt</p>
+      <h2 class="pd-title">AWG Women&#x27;s Giza Polo T-shirt</h2>
+      <p class="pd-brand">Brand: <strong>All Weather Gear</strong></p>
+      <p class="pd-price">₹454</p>
+      <p class="pd-spec"><strong>Colours:</strong> Black, Charcoal Melange, Grey Melange, Navy Blue, Royal Blue, Red, Turquoise Blue</p>
   <p class="pd-spec"><strong>Sizes:</strong> S, M, L, XL, 2XL, 3XL</p>
-  
-  
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "apparel-100", "name": "AWG Women's Giza Polo T-shirt", "price": 454, "image": "https://d39bd3o2tztcvw.cloudfront.net/cda87934-2286-45d5-8477-978c38634c2a.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/cda87934-2286-45d5-8477-978c38634c2a.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/d6ab4d44-30b5-448f-8fed-1ac7d8e50064.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/7fe9040c-681d-4db3-a7e4-84e233b8fa23.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/d995f128-2c74-4f7d-9614-db9f439077b7.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/0d2f2603-30c8-44fd-9244-3f3f9dd36f9d.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/8848a8d3-ab44-4f41-b7c6-0a5fd5c88300.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/6b7c3b80-6f18-4b2f-a860-6b762c17b893.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/59384434-49cb-4aba-a741-70a7945ab14a.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt", "brand": "All Weather Gear", "description": null, "colours": [{"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d6ab4d44-30b5-448f-8fed-1ac7d8e50064.jpeg"]}, {"label": "Charcoal Melange", "colorHex": "#292A2D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/7fe9040c-681d-4db3-a7e4-84e233b8fa23.jpeg"]}, {"label": "Grey Melange", "colorHex": "#BEBFC4", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d995f128-2c74-4f7d-9614-db9f439077b7.jpeg"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/0d2f2603-30c8-44fd-9244-3f3f9dd36f9d.jpeg"]}, {"label": "Royal Blue", "colorHex": "#183370", "images": ["https://d39bd3o2tztcvw.cloudfront.net/8848a8d3-ab44-4f41-b7c6-0a5fd5c88300.jpeg"]}, {"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6b7c3b80-6f18-4b2f-a860-6b762c17b893.jpeg"]}, {"label": "Turquoise Blue", "colorHex": "#4EC2E7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/59384434-49cb-4aba-a741-70a7945ab14a.jpeg"]}], "sizes": ["S", "M", "L", "XL", "2XL", "3XL"], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "apparel-100", "name": "AWG Women's Giza Polo T-shirt", "price": 454, "image": "https://d39bd3o2tztcvw.cloudfront.net/cda87934-2286-45d5-8477-978c38634c2a.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/cda87934-2286-45d5-8477-978c38634c2a.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/d6ab4d44-30b5-448f-8fed-1ac7d8e50064.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/7fe9040c-681d-4db3-a7e4-84e233b8fa23.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/d995f128-2c74-4f7d-9614-db9f439077b7.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/0d2f2603-30c8-44fd-9244-3f3f9dd36f9d.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/8848a8d3-ab44-4f41-b7c6-0a5fd5c88300.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/6b7c3b80-6f18-4b2f-a860-6b762c17b893.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/59384434-49cb-4aba-a741-70a7945ab14a.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt", "brand": "All Weather Gear", "description": null, "colours": [{"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d6ab4d44-30b5-448f-8fed-1ac7d8e50064.jpeg"]}, {"label": "Charcoal Melange", "colorHex": "#292A2D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/7fe9040c-681d-4db3-a7e4-84e233b8fa23.jpeg"]}, {"label": "Grey Melange", "colorHex": "#BEBFC4", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d995f128-2c74-4f7d-9614-db9f439077b7.jpeg"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/0d2f2603-30c8-44fd-9244-3f3f9dd36f9d.jpeg"]}, {"label": "Royal Blue", "colorHex": "#183370", "images": ["https://d39bd3o2tztcvw.cloudfront.net/8848a8d3-ab44-4f41-b7c6-0a5fd5c88300.jpeg"]}, {"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6b7c3b80-6f18-4b2f-a860-6b762c17b893.jpeg"]}, {"label": "Turquoise Blue", "colorHex": "#4EC2E7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/59384434-49cb-4aba-a741-70a7945ab14a.jpeg"]}], "sizes": ["S", "M", "L", "XL", "2XL", "3XL"], "dimensions": null, "warranty": null, "related": [{"id": "apparel-39", "name": "AWG Sweaters", "price": 865, "image": "https://d39bd3o2tztcvw.cloudfront.net/54f4ef44-987e-4eec-b14b-b9cbe77d45ce.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-40", "name": "AWG Ladies Crop Top", "price": 350, "image": "https://d39bd3o2tztcvw.cloudfront.net/dc37c887-a443-4535-823d-10644a4bccf4.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-41", "name": "AWG Wafflw T-shirt", "price": 320, "image": "https://d39bd3o2tztcvw.cloudfront.net/75e2efb3-8aa6-4538-aa5e-8372728299cf.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-42", "name": "AWG Air Crackle T-shirt", "price": 190, "image": "https://d39bd3o2tztcvw.cloudfront.net/c8f6aa6d-e514-4ebe-a01b-b854b2d960f9.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-43", "name": "AWG Joggers", "price": 462, "image": "https://d39bd3o2tztcvw.cloudfront.net/efa06d1f-a653-4c23-8273-b9401671b19b.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-44", "name": "AWG Shorts", "price": 312, "image": "https://d39bd3o2tztcvw.cloudfront.net/0e3552b7-681b-4070-9b19-d179c0a15e82.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-45", "name": "AWG Jeans", "price": 695, "image": "https://d39bd3o2tztcvw.cloudfront.net/186b6e72-8259-43b6-96b2-d312d5d8a701.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-46", "name": "AWG MI- 160 T-shirt", "price": 175, "image": "https://d39bd3o2tztcvw.cloudfront.net/933a102f-2640-4a9b-bbe0-9bb395762c0c.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-47", "name": "AWG Golfer Micro Dryfit Polo Tshirt", "price": 546, "image": "https://d39bd3o2tztcvw.cloudfront.net/6ebc790e-0796-4979-961b-79e88b603d0d.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-48", "name": "AWG Giza Polo T-shirt", "price": 454, "image": "https://d39bd3o2tztcvw.cloudfront.net/481bd30d-610e-4ef6-bb49-04bb70059729.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-49", "name": "AWG Fastee Polo Tshirt", "price": 442, "image": "https://d39bd3o2tztcvw.cloudfront.net/46d43b46-2630-402c-81f3-bec31e79d6e6.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-50", "name": "AWG Printed Puffer Jacket", "price": 1672, "image": "https://d39bd3o2tztcvw.cloudfront.net/25754ebe-ca29-41b1-97e8-3d9213ceaf7d.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-51", "name": "AWG Wind Cheater Jacket", "price": 673, "image": "https://d39bd3o2tztcvw.cloudfront.net/a811a549-a346-44ce-b7fe-198105123b34.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-52", "name": "AWG Nasa Dryfit Cap", "price": 259, "image": "https://d39bd3o2tztcvw.cloudfront.net/0d3095d1-10d9-4363-a3ed-198677318156.png", "brand": "All Weather Gear"}, {"id": "apparel-53", "name": "AWG Zenshark Caps", "price": 282, "image": "https://d39bd3o2tztcvw.cloudfront.net/e5fb5f0a-b5c7-49e7-a0e5-eece3ab0be6c.jpeg", "brand": "All Weather Gear"}, {"id": "apparel-54", "name": "AWG Caps- Poly Twill", "price": 156, "image": "https://d39bd3o2tztcvw.cloudfront.net/e4b87357-ee0c-4c2f-8995-42c7dec55898.jpeg", "brand": "All Weather Gear"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

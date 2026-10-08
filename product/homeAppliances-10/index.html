@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=homeAppliancesDecor" class="pd-back"><span aria-hidden="true">←</span> Home Appliances &amp; Decor</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Home Appliances &amp; Decor · Chopper</p>
-  <h2 class="pd-title">Pigeon Sharp Electric Chopper</h2>
-  <p class="pd-brand">Brand: <strong>Pigeon</strong></p>
-  <p class="pd-price">₹3246</p>
-  <p class="pd-spec"><strong>Colours:</strong> Silver</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Home Appliances &amp; Decor · Chopper</p>
+      <h2 class="pd-title">Pigeon Sharp Electric Chopper</h2>
+      <p class="pd-brand">Brand: <strong>Pigeon</strong></p>
+      <p class="pd-price">₹3246</p>
+      <p class="pd-spec"><strong>Colours:</strong> Silver</p>
   <p class="pd-spec"><strong>Dimensions:</strong> Product Dimensions: 22.6D x 22.8W x 33H Centimeters; Item Weight: 2.1 Kilograms; Wattage: 500 Watts; Material: Stainless Steel</p>
-  <p class="pd-description">Powerful electric chopper with stainless steel blades for consistent, efficient, and precise chopping every time. ULTRA FAST ELECTRIC CHOPPER EASY TO USE</p>
-  <p class="pd-source"><a href="https://stovekraft.com/pigeon/category/kitchen-utilities/choppers/sharp-electric-chopper" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Powerful electric chopper with stainless steel blades for consistent, efficient, and precise chopping every time. ULTRA FAST ELECTRIC CHOPPER EASY TO USE</p>
+      <p class="pd-source"><a href="https://stovekraft.com/pigeon/category/kitchen-utilities/choppers/sharp-electric-chopper" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeAppliances-10", "name": "Pigeon Sharp Electric Chopper", "price": 3246, "image": "https://stovekraft.com/storage/products/cover/4JsNrtpKDAAfvLm9Nss6hGcMFFbZXuItIrf3O7a7.webp", "images": ["https://stovekraft.com/storage/products/cover/4JsNrtpKDAAfvLm9Nss6hGcMFFbZXuItIrf3O7a7.webp", "https://stovekraft.com/storage/products/gallery/lsW5bGhb3WLZwEx942RbLe0hM6PAEIadEgyiYzBC.webp", "https://stovekraft.com/storage/products/gallery/SMMZGAUX1ItkrykkL5EtEUbCJh6RLfVzDa4wjLYw.webp", "https://stovekraft.com/storage/products/gallery/wCFu8b27iYfYCCqOwWLcfo0g3glJ3gsm5iCrg9ik.webp", "https://stovekraft.com/storage/products/gallery/sbhSQ4ayLfZiK31EDyZESyhI3JcbG7clssHKZEWa.webp"], "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Chopper", "brand": "Pigeon", "description": "Powerful electric chopper with stainless steel blades for consistent, efficient, and precise chopping every time. ULTRA FAST ELECTRIC CHOPPER EASY TO USE", "colours": [], "sizes": [], "dimensions": "Product Dimensions: 22.6D x 22.8W x 33H Centimeters; Item Weight: 2.1 Kilograms; Wattage: 500 Watts; Material: Stainless Steel", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "homeAppliances-10", "name": "Pigeon Sharp Electric Chopper", "price": 3246, "image": "https://stovekraft.com/storage/products/cover/4JsNrtpKDAAfvLm9Nss6hGcMFFbZXuItIrf3O7a7.webp", "images": ["https://stovekraft.com/storage/products/cover/4JsNrtpKDAAfvLm9Nss6hGcMFFbZXuItIrf3O7a7.webp", "https://stovekraft.com/storage/products/gallery/lsW5bGhb3WLZwEx942RbLe0hM6PAEIadEgyiYzBC.webp", "https://stovekraft.com/storage/products/gallery/SMMZGAUX1ItkrykkL5EtEUbCJh6RLfVzDa4wjLYw.webp", "https://stovekraft.com/storage/products/gallery/wCFu8b27iYfYCCqOwWLcfo0g3glJ3gsm5iCrg9ik.webp", "https://stovekraft.com/storage/products/gallery/sbhSQ4ayLfZiK31EDyZESyhI3JcbG7clssHKZEWa.webp"], "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Chopper", "brand": "Pigeon", "description": "Powerful electric chopper with stainless steel blades for consistent, efficient, and precise chopping every time. ULTRA FAST ELECTRIC CHOPPER EASY TO USE", "colours": [], "sizes": [], "dimensions": "Product Dimensions: 22.6D x 22.8W x 33H Centimeters; Item Weight: 2.1 Kilograms; Wattage: 500 Watts; Material: Stainless Steel", "warranty": null, "related": [{"id": "homeAppliances-11", "name": "Pigeon Quick Electric Chopper", "price": 2272, "image": "https://stovekraft.com/storage/products/cover/EqGq4L7wCRaxEV4Zn0SWCHG0tq6JgdxAkqBktjx7.webp", "brand": "Pigeon"}, {"id": "homeAppliances-12", "name": "Pigeon Rapid Electric Chopper", "price": 1427, "image": "https://stovekraft.com/storage/products/cover/786RiMNAEmVmMWgiKCsPp2YIY71XXFhPjla5XvvO.webp", "brand": "Pigeon"}, {"id": "homeAppliances-13", "name": "Pigeon Ultrafast Electric Chopper", "price": 1644, "image": "https://stovekraft.com/storage/products/cover/4JsNrtpKDAAfvLm9Nss6hGcMFFbZXuItIrf3O7a7.webp", "brand": "Pigeon"}, {"id": "homeAppliances-14", "name": "Pigeon Zoom Chopper 250 ml", "price": 712, "image": "https://stovekraft.com/storage/products/cover/MKzCdhjHfDulPbryVPcchFveaIuRGL0xbGPfwmMG.webp", "brand": "Pigeon"}, {"id": "homeAppliances-15", "name": "Pigeon Zoom Chopper 350 ml", "price": 773, "image": "https://stovekraft.com/storage/products/cover/Owg0V7EmI5K2vBPtGos5rFp0nu3gPCHuX075O9La.webp", "brand": "Pigeon"}, {"id": "homeAppliances-17", "name": "Pigeon Handy Chopper Pro Large 650 ml", "price": 287, "image": "https://stovekraft.com/storage/products/cover/wD7SkDVD8ygOVKVFag9m6zdRvzHnTko3Ui0Qr8S1.webp", "brand": "Pigeon"}, {"id": "homeAppliances-18", "name": "Pigeon Handy Pro Chopper Mini 400 ml", "price": 270, "image": "https://stovekraft.com/storage/products/cover/RNzkER4JLzme22agcCLUCyWO7yGv317vFET8ISlD.webp", "brand": "Pigeon"}, {"id": "homeAppliances-19", "name": "Pigeon Handy Chopper Xl", "price": 382, "image": "https://stovekraft.com/storage/products/cover/yLGXj2AZjYPf9nhI9SvAgILrQJeaA4xewxHiUtzM.webp", "brand": "Pigeon"}, {"id": "homeAppliances-20", "name": "Pigeon Chopper Value Pack (Mini + Xl)", "price": 479, "image": "https://stovekraft.com/storage/products/cover/ndzCLgR2rpkQDBsGEfgEz54bozmdeAfovcQwq5uw.webp", "brand": "Pigeon"}, {"id": "homeAppliances-21", "name": "Pigeon Handy Chopper Pro Xl", "price": 351, "image": "https://stovekraft.com/storage/products/cover/HDNcsPu7NzP46zAzUVbSwG6EAYf0ZO5Ke4Ld14WM.webp", "brand": "Pigeon"}, {"id": "homeAppliances-22", "name": "Pigeon Handy Chopper Large 650 ml 3 Blades", "price": 303, "image": "https://stovekraft.com/storage/products/cover/mJFwtL8zPxq4IM1HWROKC8wlEdPq81N7zfTKnnwg.webp", "brand": "Pigeon"}, {"id": "homeAppliances-23", "name": "Pigeon Handy Chopper 3 Blade 400 ml", "price": 270, "image": "https://stovekraft.com/storage/products/cover/QA4kY0H9aFceoKtWITcIcZZVSnhXMVB94pPd0VBx.webp", "brand": "Pigeon"}, {"id": "homeDecor-1", "name": "Power Plus Time Wave Ultra Display Clock", "price": 1126, "image": "https://d39bd3o2tztcvw.cloudfront.net/dede1f5e-e957-4223-86c6-a7b2e746c4d4.PNG", "brand": "PowerPlus"}, {"id": "homeDecor-2", "name": "Power Plus Backlit Table Clock", "price": 366, "image": "https://d39bd3o2tztcvw.cloudfront.net/53f2808e-2681-4e20-955a-c9e9036919f7.PNG", "brand": "PowerPlus"}, {"id": "homeDecor-3", "name": "Power Plus Flag Style Photo Frame - Large Clock with Photo Frame and Tumbler", "price": 299, "image": "https://d39bd3o2tztcvw.cloudfront.net/64c5eb00-54b6-4800-bb9f-d01284b1c8f7.PNG", "brand": "PowerPlus"}, {"id": "homeDecor-4", "name": "Magnus Eco Forest Aqua Cork Frame 12\" - India", "price": 4418, "image": "https://d39bd3o2tztcvw.cloudfront.net/7fd420b5-550d-4ca8-ae78-cacf73e22426.PNG", "brand": "Magnus Eco"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

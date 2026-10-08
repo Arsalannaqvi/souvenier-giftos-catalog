@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=electronics" class="pd-back"><span aria-hidden="true">←</span> Electronics</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Electronics · Audio</p>
-  <h2 class="pd-title">boAt Rockerz 238 Pro</h2>
-  <p class="pd-brand">Brand: <strong>boAt</strong></p>
-  <p class="pd-price">₹1990</p>
-  <p class="pd-spec"><strong>Colours:</strong> Active Black, Furious Blue, Ash Grey</p>
-  <p class="pd-description">Rockerz 238 Pro - Wireless Earphones. Let Rockerz 238 Pro fuel your passion like a pro. Take your hustle up a notch as its up to 20 HRS playback will keep you pumped up throughout. The BEAST™ Mode and its low latency will make you experience the best of both worlds.</p>
-  <p class="pd-source"><a href="https://boat-lifestyle.com/products/boat-rockerz-238-pro-wireless-bluetooth-neckband-with-up-to-20-hours-playback-beast-mode-enx-technology" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Electronics · Audio</p>
+      <h2 class="pd-title">boAt Rockerz 238 Pro</h2>
+      <p class="pd-brand">Brand: <strong>boAt</strong></p>
+      <p class="pd-price">₹1990</p>
+      <p class="pd-spec"><strong>Colours:</strong> Active Black, Furious Blue, Ash Grey</p>
+      <p class="pd-description">Rockerz 238 Pro - Wireless Earphones. Let Rockerz 238 Pro fuel your passion like a pro. Take your hustle up a notch as its up to 20 HRS playback will keep you pumped up throughout. The BEAST™ Mode and its low latency will make you experience the best of both worlds.</p>
+      <p class="pd-source"><a href="https://boat-lifestyle.com/products/boat-rockerz-238-pro-wireless-bluetooth-neckband-with-up-to-20-hours-playback-beast-mode-enx-technology" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "electronics-472", "name": "boAt Rockerz 238 Pro", "price": 1990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_5_bcc7f9ab-f4a0-4f1c-ae43-90d67317e1b1.png?v=1679327573", "images": ["https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_5_bcc7f9ab-f4a0-4f1c-ae43-90d67317e1b1.png?v=1679327573", "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_1_fca33185-a1b5-4538-80f5-06c1ce19457e.png?v=1679327573", "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_2_bff6a01f-c92f-4ead-86a9-e5791d146389.png?v=1679327573", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_15.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/5_12_7b927898-40b1-4731-b72d-6d6bd528ec51.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/4_14.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/7_2_7e2175ed-d742-4521-b5a9-d207e04cd6a4.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_16.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/5_13_c3db1f08-248f-45b0-96e5-066e05bb8c74.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/4_15.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/7_4_9d4de0db-2705-49a8-8194-1767e92f6bd0.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_14.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/5_11_765eb4a8-b9a1-41bb-8fab-8ac4c19776cf.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/4_13.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/7_3_d2c5ee66-00a0-4df1-9996-e5c70d780fca.png?v=1685621893"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Audio", "brand": "boAt", "description": "Rockerz 238 Pro - Wireless Earphones. Let Rockerz 238 Pro fuel your passion like a pro. Take your hustle up a notch as its up to 20 HRS playback will keep you pumped up throughout. The BEAST\u2122 Mode and its low latency will make you experience the best of both worlds.", "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "electronics-472", "name": "boAt Rockerz 238 Pro", "price": 1990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_5_bcc7f9ab-f4a0-4f1c-ae43-90d67317e1b1.png?v=1679327573", "images": ["https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_5_bcc7f9ab-f4a0-4f1c-ae43-90d67317e1b1.png?v=1679327573", "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_1_fca33185-a1b5-4538-80f5-06c1ce19457e.png?v=1679327573", "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_2_bff6a01f-c92f-4ead-86a9-e5791d146389.png?v=1679327573", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_15.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/5_12_7b927898-40b1-4731-b72d-6d6bd528ec51.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/4_14.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/7_2_7e2175ed-d742-4521-b5a9-d207e04cd6a4.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_16.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/5_13_c3db1f08-248f-45b0-96e5-066e05bb8c74.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/4_15.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/7_4_9d4de0db-2705-49a8-8194-1767e92f6bd0.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/2_14.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/5_11_765eb4a8-b9a1-41bb-8fab-8ac4c19776cf.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/4_13.png?v=1685621893", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/7_3_d2c5ee66-00a0-4df1-9996-e5c70d780fca.png?v=1685621893"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Audio", "brand": "boAt", "description": "Rockerz 238 Pro - Wireless Earphones. Let Rockerz 238 Pro fuel your passion like a pro. Take your hustle up a notch as its up to 20 HRS playback will keep you pumped up throughout. The BEAST\u2122 Mode and its low latency will make you experience the best of both worlds.", "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "electronics-404", "name": "boAt Rockerz 255 Pro+", "price": 3990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/R255Pro_-FI_Black01.png?v=1713177293", "brand": "boAt"}, {"id": "electronics-405", "name": "boAt Stone 350", "price": 3490, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/74a6b20d-9842-49da-b279-022812b81e1f.png?v=1673001663", "brand": "boAt"}, {"id": "electronics-406", "name": "boAt Bassheads 104", "price": 999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/d64c5748-2394-444c-8777-c792a57f079b.png?v=1625046149", "brand": "boAt"}, {"id": "electronics-407", "name": "boAt Airdopes 141", "price": 4490, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD141-FI_Grey01.png?v=1698391770", "brand": "boAt"}, {"id": "electronics-409", "name": "boAt Airdopes 131", "price": 2990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8.png?v=1744005712", "brand": "boAt"}, {"id": "electronics-412", "name": "boAt Aavante Bar Theme", "price": 21990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_1__1_-removebg-preview.png?v=1683907274", "brand": "boAt"}, {"id": "electronics-413", "name": "boAt Aavante Prime 5.2.4 6250DA", "price": 74990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard10_b1ee3785-c7ab-44e6-ab42-17995dc08e73.jpg?v=1753362750", "brand": "boAt"}, {"id": "electronics-414", "name": "boAt Airdopes 219", "price": 3990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/main_image_878d3bd2-cc9e-4876-965d-2544c670c2e1.jpg?v=1753336769", "brand": "boAt"}, {"id": "electronics-415", "name": "boAt Airdopes 141 Gen 2", "price": 3990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard3_d312b51f-f7c9-4244-aa99-5b565e23cce4.png?v=1749808725", "brand": "boAt"}, {"id": "electronics-416", "name": "Para-Armour Type-C Cable 1.5M", "price": 1499, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1blk_6e5ad771-bded-4ab9-b7bd-bbd4c889b2a1.png?v=1613457264", "brand": "boAt"}, {"id": "electronics-417", "name": "boAt Sailor Nav", "price": 7999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/SailorNav-FI-Blue_01.png?v=1784094681", "brand": "boAt"}, {"id": "electronics-418", "name": "boAt Aavante Thump Plus", "price": 24990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Aavante2000Dmain.jpg?v=1755503663", "brand": "boAt"}, {"id": "electronics-419", "name": "boAt Stone Spinx Pro", "price": 9999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_SpinXPro_1.png?v=1709717404", "brand": "boAt"}, {"id": "electronics-420", "name": "boAt Type A to C 65W Cable", "price": 799, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_a059084c-54ec-4b61-8718-6eb64e1ddaeb.jpg?v=1765188323", "brand": "boAt"}, {"id": "electronics-421", "name": "boAt 65W GaN Nano Charger", "price": 3999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_27a5a1b6-f983-4b59-bb3d-b07012c759a3.png?v=1776149854", "brand": "boAt"}, {"id": "electronics-422", "name": "boAt Airdopes 131 Pro Buds", "price": 5490, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/ad_131_pro_buds_updated_packaging.23.png?v=1726626454", "brand": "boAt"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=personalAccessories" class="pd-back"><span aria-hidden="true">←</span> Personal Accessories</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Personal Accessories · Wallet</p>
-  <h2 class="pd-title">Wayona MagHold MagSafe Wallet</h2>
-  <p class="pd-brand">Brand: <strong>Wayona</strong></p>
-  <p class="pd-price">₹513</p>
-  <p class="pd-spec"><strong>Dimensions:</strong> 21 × 22 × 5 cm</p>
-  <p class="pd-description">MAGSAFE COMPATIBLE: Magnetic wallet with built-in stand designed for iPhone 17/16/15/14/13/12 series and Samsung Galaxy phones with MagSafe compatibility for secure attachment DUAL FUNCTIONALITY: Functions as both a card holder and adjustable phone stand, allowing hands-free viewing in portrait or landscape orientation for video calls and content viewing CARD CAPACITY: Holds up to 2 credit cards, debit cards, or ID cards securely with strong magnetic grip whilst maintaining a slim profile that doesn’t add bulk to your phone PREMIUM VEGAN LEATHER: Crafted from high-quality vegan leather material that provides a sophisticated look and soft touch feel whilst being durable for everyday use UNIVERSAL COMPATIBILITY: Works seamlessly with iPhone 17, 16, 15, 14, 13, and 12 series as well as Samsung Galaxy phones equipped with MagSafe cases or built-in magnetic rings</p>
-  <p class="pd-source"><a href="https://wayona.in/product/wayona-for-magsafe-wallet-with-stand-for-iphone-17-16-15-14-13-12-series-and-samsung-galaxy-phones-vegan-leather-magnetic-card-holder-holds-2-credit-cards/" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Personal Accessories · Wallet</p>
+      <h2 class="pd-title">Wayona MagHold MagSafe Wallet</h2>
+      <p class="pd-brand">Brand: <strong>Wayona</strong></p>
+      <p class="pd-price">₹513</p>
+      <p class="pd-spec"><strong>Dimensions:</strong> 21 × 22 × 5 cm</p>
+      <p class="pd-description">MAGSAFE COMPATIBLE: Magnetic wallet with built-in stand designed for iPhone 17/16/15/14/13/12 series and Samsung Galaxy phones with MagSafe compatibility for secure attachment DUAL FUNCTIONALITY: Functions as both a card holder and adjustable phone stand, allowing hands-free viewing in portrait or landscape orientation for video calls and content viewing CARD CAPACITY: Holds up to 2 credit cards, debit cards, or ID cards securely with strong magnetic grip whilst maintaining a slim profile that doesn’t add bulk to your phone PREMIUM VEGAN LEATHER: Crafted from high-quality vegan leather material that provides a sophisticated look and soft touch feel whilst being durable for everyday use UNIVERSAL COMPATIBILITY: Works seamlessly with iPhone 17, 16, 15, 14, 13, and 12 series as well as Samsung Galaxy phones equipped with MagSafe cases or built-in magnetic rings</p>
+      <p class="pd-source"><a href="https://wayona.in/product/wayona-for-magsafe-wallet-with-stand-for-iphone-17-16-15-14-13-12-series-and-samsung-galaxy-phones-vegan-leather-magnetic-card-holder-holds-2-credit-cards/" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "personalAccessories-4", "name": "Wayona MagHold MagSafe Wallet", "price": 513, "image": "https://wayona.in/wp-content/uploads/2025/12/1-1.jpg", "images": ["https://wayona.in/wp-content/uploads/2025/12/1-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/2-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/7-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/6-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/5-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/4-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/3-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/8-1.jpg"], "category": "personalAccessories", "categoryLabel": "Personal Accessories", "subcategory": "Wallet", "brand": "Wayona", "description": "MAGSAFE COMPATIBLE: Magnetic wallet with built-in stand designed for iPhone 17/16/15/14/13/12 series and Samsung Galaxy phones with MagSafe compatibility for secure attachment DUAL FUNCTIONALITY: Functions as both a card holder and adjustable phone stand, allowing hands-free viewing in portrait or landscape orientation for video calls and content viewing CARD CAPACITY: Holds up to 2 credit cards, debit cards, or ID cards securely with strong magnetic grip whilst maintaining a slim profile that doesn\u2019t add bulk to your phone PREMIUM VEGAN LEATHER: Crafted from high-quality vegan leather material that provides a sophisticated look and soft touch feel whilst being durable for everyday use UNIVERSAL COMPATIBILITY: Works seamlessly with iPhone 17, 16, 15, 14, 13, and 12 series as well as Samsung Galaxy phones equipped with MagSafe cases or built-in magnetic rings", "colours": [], "sizes": [], "dimensions": "21 \u00d7 22 \u00d7 5 cm", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "personalAccessories-4", "name": "Wayona MagHold MagSafe Wallet", "price": 513, "image": "https://wayona.in/wp-content/uploads/2025/12/1-1.jpg", "images": ["https://wayona.in/wp-content/uploads/2025/12/1-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/2-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/7-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/6-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/5-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/4-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/3-1.jpg", "https://wayona.in/wp-content/uploads/2025/12/8-1.jpg"], "category": "personalAccessories", "categoryLabel": "Personal Accessories", "subcategory": "Wallet", "brand": "Wayona", "description": "MAGSAFE COMPATIBLE: Magnetic wallet with built-in stand designed for iPhone 17/16/15/14/13/12 series and Samsung Galaxy phones with MagSafe compatibility for secure attachment DUAL FUNCTIONALITY: Functions as both a card holder and adjustable phone stand, allowing hands-free viewing in portrait or landscape orientation for video calls and content viewing CARD CAPACITY: Holds up to 2 credit cards, debit cards, or ID cards securely with strong magnetic grip whilst maintaining a slim profile that doesn\u2019t add bulk to your phone PREMIUM VEGAN LEATHER: Crafted from high-quality vegan leather material that provides a sophisticated look and soft touch feel whilst being durable for everyday use UNIVERSAL COMPATIBILITY: Works seamlessly with iPhone 17, 16, 15, 14, 13, and 12 series as well as Samsung Galaxy phones equipped with MagSafe cases or built-in magnetic rings", "colours": [], "sizes": [], "dimensions": "21 \u00d7 22 \u00d7 5 cm", "warranty": null, "related": [{"id": "personalAccessories-1", "name": "Power Plus PU key Chain", "price": 114, "image": "https://d39bd3o2tztcvw.cloudfront.net/e99c1e99-3355-4c44-aa14-5090026973e8.PNG", "brand": "PowerPlus"}, {"id": "personalAccessories-2", "name": "Power Plus Rectangle handing Metal Keychain with PU Strip", "price": 106, "image": "https://d39bd3o2tztcvw.cloudfront.net/f0c2ec40-2148-4920-a528-037b3cb6df11.PNG", "brand": "PowerPlus"}, {"id": "personalAccessories-3", "name": "Power Plus KeyChain with Torch & LED Lamp", "price": 114, "image": "https://d39bd3o2tztcvw.cloudfront.net/80e7fff0-7359-41e7-9c52-ed72818f1b00.PNG", "brand": "PowerPlus"}, {"id": "personalAccessories-5", "name": "Offikraft Swag Keychain", "price": 103, "image": "https://d39bd3o2tztcvw.cloudfront.net/18d4a07c-4bb0-472a-9d15-468a2316007b.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-6", "name": "Offikraft Ring Keychain", "price": 41, "image": "https://d39bd3o2tztcvw.cloudfront.net/92fd87e2-5581-4013-a0ea-b4e050fe56dd.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-7", "name": "Offikraft Keyfob Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/6fa968b6-43eb-4ee6-a4ac-dcc201f30f66.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-8", "name": "Offikraft Hooky Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/3d5a7803-491a-4dba-bf38-6938c354625f.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-9", "name": "Offikraft Swag 2.0 Keychain", "price": 93, "image": "https://d39bd3o2tztcvw.cloudfront.net/9cffa0b8-b086-486e-80d0-a287858226d6.jpeg", "brand": "Offikraft"}, {"id": "personalAccessories-10", "name": "Offikraft Bold Key Chain", "price": 103, "image": "https://d39bd3o2tztcvw.cloudfront.net/dbcaff3b-fe35-433c-a580-7238408cee0d.jpeg", "brand": "Offikraft"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

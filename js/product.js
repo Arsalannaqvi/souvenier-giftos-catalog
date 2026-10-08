@@ -92,6 +92,7 @@
     const images = (product.images && product.images.length ? product.images : [product.image]).filter(Boolean);
     const track = qs("pd-gallery-track");
     const dotsWrap = qs("pd-gallery-dots");
+    const thumbsWrap = qs("pd-thumbs");
     const prevBtn = qs("pd-gallery-prev");
     const nextBtn = qs("pd-gallery-next");
     if (!track) return;
@@ -122,6 +123,21 @@
         });
       }
     }
+    // Thumbnail strip (desktop only, via CSS) — same photos, click to jump.
+    if (thumbsWrap) {
+      thumbsWrap.innerHTML = "";
+      if (multi) {
+        images.forEach((src, i) => {
+          const thumb = document.createElement("img");
+          thumb.className = "pd-thumb";
+          thumb.src = src;
+          thumb.alt = "";
+          thumb.loading = "lazy";
+          thumb.addEventListener("click", () => goTo(i));
+          thumbsWrap.appendChild(thumb);
+        });
+      }
+    }
     if (prevBtn) prevBtn.hidden = !multi;
     if (nextBtn) nextBtn.hidden = !multi;
 
@@ -133,11 +149,54 @@
           dot.setAttribute("aria-current", String(i2 === index));
         });
       }
+      if (thumbsWrap) {
+        Array.from(thumbsWrap.children).forEach((thumb, i2) => {
+          thumb.setAttribute("aria-current", String(i2 === index));
+        });
+      }
     }
     goTo(0);
 
     if (prevBtn) prevBtn.addEventListener("click", () => goTo(index - 1));
     if (nextBtn) nextBtn.addEventListener("click", () => goTo(index + 1));
+  }
+
+  // ---------- "You might also like" suggestion row ----------
+  function money(price) {
+    return price == null ? "" : `₹${price}`;
+  }
+
+  function suggestCardHTML(p) {
+    const priceHTML = p.price != null ? `<p class="pd-suggest-card-price">${money(p.price)}</p>` : "";
+    const brandHTML = p.brand ? `<p class="pd-suggest-card-brand">${p.brand}</p>` : "";
+    const img = p.image || "";
+    return `<a class="pd-suggest-card" href="../${p.id}/">
+      <img src="${img}" alt="" loading="lazy">
+      <div class="pd-suggest-card-body">${brandHTML}<p class="pd-suggest-card-name">${p.name}</p>${priceHTML}</div>
+    </a>`;
+  }
+
+  function initSuggestions() {
+    const related = product.related || [];
+    const section = qs("pd-suggest");
+    if (!section || !related.length) return;
+
+    const rowCount = 8;
+    const row = related.slice(0, rowCount);
+    const rest = related.slice(rowCount);
+
+    qs("pd-suggest-row").innerHTML = row.map(suggestCardHTML).join("");
+    const grid = qs("pd-suggest-grid");
+    const moreBtn = qs("pd-suggest-more-btn");
+    if (rest.length) {
+      grid.innerHTML = rest.map(suggestCardHTML).join("");
+      moreBtn.hidden = false;
+      moreBtn.addEventListener("click", () => {
+        grid.classList.add("on");
+        moreBtn.hidden = true;
+      });
+    }
+    section.hidden = false;
   }
 
   // ---------- Add to enquiry / stepper ----------
@@ -196,6 +255,7 @@
 
     initGallery();
     initActions();
+    initSuggestions();
     updateStickyBar();
   }
 

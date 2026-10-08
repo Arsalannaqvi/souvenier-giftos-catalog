@@ -31,31 +31,45 @@
 <main class="pd-main">
   <a href="../../?category=kitchenAppliances" class="pd-back"><span aria-hidden="true">←</span> Kitchen Appliances</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Kitchen Appliances · Electric Kettle</p>
-  <h2 class="pd-title">Pigeon 1.8 Litre Evoke Kettle</h2>
-  <p class="pd-brand">Brand: <strong>Pigeon</strong></p>
-  <p class="pd-price">₹975</p>
-  <p class="pd-spec"><strong>Colours:</strong> Red, Yellow, White</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Kitchen Appliances · Electric Kettle</p>
+      <h2 class="pd-title">Pigeon 1.8 Litre Evoke Kettle</h2>
+      <p class="pd-brand">Brand: <strong>Pigeon</strong></p>
+      <p class="pd-price">₹975</p>
+      <p class="pd-spec"><strong>Colours:</strong> Red, Yellow, White</p>
   <p class="pd-spec"><strong>Dimensions:</strong> Product Dimensions: 21.7L x 15.9W x 23H Centimeters; Item Weight: 656.4 Grams; Capacity: 1.8 litres; Wattage: 1300 Watts; Material: Stainless Steel</p>
   <p class="pd-spec"><strong>Warranty:</strong> 1-Years Warranty</p>
-  <p class="pd-description">Stylish kettle offering quick heating with durable construction.</p>
-  <p class="pd-source"><a href="https://stovekraft.com/pigeon/category/food-preparation/kettles/18-litre-evoke-kettle-blue" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Stylish kettle offering quick heating with durable construction.</p>
+      <p class="pd-source"><a href="https://stovekraft.com/pigeon/category/food-preparation/kettles/18-litre-evoke-kettle-blue" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -63,7 +77,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-356", "name": "Pigeon 1.8 Litre Evoke Kettle", "price": 975, "image": "https://stovekraft.com/storage/products/cover/QBhC85nHYvpjk1Hl3YWzMGFqZBZ6YeA2wahbzXSk.webp", "images": ["https://stovekraft.com/storage/products/cover/QBhC85nHYvpjk1Hl3YWzMGFqZBZ6YeA2wahbzXSk.webp", "https://stovekraft.com/storage/products/gallery/71x0IBb95CVwVntEJ6lVUbG4T0qxTJ4GN2KjnNpE.webp", "https://stovekraft.com/storage/products/gallery/CuZ2q1esRm9Xb1NJ8ygY1QFrD9cLNOEtLDwISy1K.webp", "https://stovekraft.com/storage/products/gallery/IQVpSreB0TMycbapJ1zsrk2gYfOcuXq3VUEFmliD.webp", "https://stovekraft.com/storage/products/gallery/SqfjmUdkvWX5luZEBLLCn6soy6GfLIlq2xJDbNEi.webp", "https://stovekraft.com/storage/products/plusHeroImage/z7R2CrNP71LkxKpEhDF5pwLRCPYt0pvohEkQxZFn.webp", "https://stovekraft.com/storage/products/gallery/B0Ao9YjGu3KNgTSpqbVqkqj5o9yY0Ta0LdIPulQg.webp", "https://stovekraft.com/storage/products/gallery/E0viN8g6v3L6af4Fq4F1tkhiKW2PkyX6kt5bvPBU.webp", "https://stovekraft.com/storage/products/gallery/znUKctXDXWCpipfYlbosincNJEWUSW3Nfkq2xIxV.webp", "https://stovekraft.com/storage/products/gallery/eRrgwQolmx38OnqM81AwdoVY8HGWvexshNlhmbs4.webp"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Electric Kettle", "brand": "Pigeon", "description": "Stylish kettle offering quick heating with durable construction.", "colours": [{"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/f21c22a7-8b19-4574-87d1-2a0f0ebf4d45.PNG"]}, {"label": "Yellow", "colorHex": "#FFBE3F", "images": ["https://d39bd3o2tztcvw.cloudfront.net/fe9aab0c-dedd-4372-842d-b496b4756d93.PNG"]}, {"label": "White", "colorHex": "#F3F2F7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/3c5a337e-ae6e-4b01-9b6d-640c5bb6aa40.PNG"]}], "sizes": [], "dimensions": "Product Dimensions: 21.7L x 15.9W x 23H Centimeters; Item Weight: 656.4 Grams; Capacity: 1.8 litres; Wattage: 1300 Watts; Material: Stainless Steel", "warranty": "1-Years Warranty"};</script>
+<script>window.__PRODUCT__ = {"id": "homeKitchenAppliances-356", "name": "Pigeon 1.8 Litre Evoke Kettle", "price": 975, "image": "https://stovekraft.com/storage/products/cover/QBhC85nHYvpjk1Hl3YWzMGFqZBZ6YeA2wahbzXSk.webp", "images": ["https://stovekraft.com/storage/products/cover/QBhC85nHYvpjk1Hl3YWzMGFqZBZ6YeA2wahbzXSk.webp", "https://stovekraft.com/storage/products/gallery/71x0IBb95CVwVntEJ6lVUbG4T0qxTJ4GN2KjnNpE.webp", "https://stovekraft.com/storage/products/gallery/CuZ2q1esRm9Xb1NJ8ygY1QFrD9cLNOEtLDwISy1K.webp", "https://stovekraft.com/storage/products/gallery/IQVpSreB0TMycbapJ1zsrk2gYfOcuXq3VUEFmliD.webp", "https://stovekraft.com/storage/products/gallery/SqfjmUdkvWX5luZEBLLCn6soy6GfLIlq2xJDbNEi.webp", "https://stovekraft.com/storage/products/plusHeroImage/z7R2CrNP71LkxKpEhDF5pwLRCPYt0pvohEkQxZFn.webp", "https://stovekraft.com/storage/products/gallery/B0Ao9YjGu3KNgTSpqbVqkqj5o9yY0Ta0LdIPulQg.webp", "https://stovekraft.com/storage/products/gallery/E0viN8g6v3L6af4Fq4F1tkhiKW2PkyX6kt5bvPBU.webp", "https://stovekraft.com/storage/products/gallery/znUKctXDXWCpipfYlbosincNJEWUSW3Nfkq2xIxV.webp", "https://stovekraft.com/storage/products/gallery/eRrgwQolmx38OnqM81AwdoVY8HGWvexshNlhmbs4.webp"], "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Electric Kettle", "brand": "Pigeon", "description": "Stylish kettle offering quick heating with durable construction.", "colours": [{"label": "Red", "colorHex": "#D0271D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/f21c22a7-8b19-4574-87d1-2a0f0ebf4d45.PNG"]}, {"label": "Yellow", "colorHex": "#FFBE3F", "images": ["https://d39bd3o2tztcvw.cloudfront.net/fe9aab0c-dedd-4372-842d-b496b4756d93.PNG"]}, {"label": "White", "colorHex": "#F3F2F7", "images": ["https://d39bd3o2tztcvw.cloudfront.net/3c5a337e-ae6e-4b01-9b6d-640c5bb6aa40.PNG"]}], "sizes": [], "dimensions": "Product Dimensions: 21.7L x 15.9W x 23H Centimeters; Item Weight: 656.4 Grams; Capacity: 1.8 litres; Wattage: 1300 Watts; Material: Stainless Steel", "warranty": "1-Years Warranty", "related": [{"id": "homeKitchenAppliances-3", "name": "Pigeon Inox Pro Cooker 5 Liters Outer Lid-Induction Base", "price": 2370, "image": "https://stovekraft.com/storage/products/cover/oKz6dKj43oAIMzKVdg8W7jsrUX5XQTtz3aulp8eh.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-5", "name": "Pigeon Mini Combi Outer Lid IB' 2+3", "price": 2402, "image": "https://stovekraft.com/storage/products/cover/b6nxRgknNH0ccXPrltK5wfgyDucFR9XG6G6EXP8h.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-8", "name": "Pigeon Inox Cooker 5 Litre Outer Lid", "price": 2109, "image": "https://stovekraft.com/storage/products/cover/oKz6dKj43oAIMzKVdg8W7jsrUX5XQTtz3aulp8eh.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-11", "name": "Pigeon Storm Non-Stick 240 Fry Pan, IB", "price": 782, "image": "https://stovekraft.com/storage/products/cover/3bvMHt072XWx2FJMBX7SEu5H1NWJFBm0h9hkPctk.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-13", "name": "Pigeon Elite Stainless Steel Triply 4 Pcs Gift Set", "price": 3929, "image": "https://stovekraft.com/storage/products/cover/YpZSmOGFTYVJ4KRLXYcDJo2EHikIHm5kYiCJNxfJ.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-27", "name": "Pigeon Storm Fry Pan 240", "price": 1506, "image": "https://stovekraft.com/storage/products/cover/3bvMHt072XWx2FJMBX7SEu5H1NWJFBm0h9hkPctk.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-28", "name": "Pigeon Nonstick Kadai 200", "price": 1157, "image": "https://stovekraft.com/storage/products/cover/FKminwW68zKzhR2uXU0m6avQguBNgEg1rHoXlNrd.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-30", "name": "Pigeon Nonstick Kadai 300", "price": 1442, "image": "https://stovekraft.com/storage/products/cover/TSSCVusDVTyiJuRtDq5dljSfZnBvvBUeLXdq7cM7.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-33", "name": "Pigeon Nonstick Frypan 220", "price": 824, "image": "https://stovekraft.com/storage/products/cover/fe66qMylAoNNDHU4HKT7CoxfFW4DChkCmsQ06AnH.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-34", "name": "Pigeon Nonstick Frypan 200", "price": 749, "image": "https://stovekraft.com/storage/products/cover/4exFxdkkn54evmoUeyLJkrc3fuKTgWDv4WgYLVwd.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-35", "name": "Pigeon Ceramic Fry Pan 200", "price": 1081, "image": "https://stovekraft.com/storage/products/cover/4exFxdkkn54evmoUeyLJkrc3fuKTgWDv4WgYLVwd.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-36", "name": "Pigeon Cerrasteel Ceramic Tawa 310", "price": 1414, "image": "https://stovekraft.com/storage/products/cover/defeY5c8QRASgbE3kOVpDtYs3oBqYlCGZhDxnZfc.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-37", "name": "Pigeon Ceramic Flat Tawa 280", "price": 1160, "image": "https://stovekraft.com/storage/products/cover/fC5qvxNQXkUfsCzNCJJ2WKcWQTcynH9DDrrTEnLE.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-38", "name": "Pigeon Flat Tawa 310", "price": 1157, "image": "https://stovekraft.com/storage/products/cover/defeY5c8QRASgbE3kOVpDtYs3oBqYlCGZhDxnZfc.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-59", "name": "Pigeon Elite Triply Tadka Pan 13 cm", "price": 760, "image": "https://stovekraft.com/storage/products/cover/j4QhF1Gs13BTKkYG3qy0Z4XeuwzOOFqgED445aCx.webp", "brand": "Pigeon"}, {"id": "homeKitchenAppliances-95", "name": "Pigeon Electric Rice Cooker Inox 1.8 Litre SDX", "price": 4027, "image": "https://stovekraft.com/storage/products/cover/GKh1M0Ij6OBEh4YXmwpdobCRrBEz6YXPFltt1rAl.webp", "brand": "Pigeon"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

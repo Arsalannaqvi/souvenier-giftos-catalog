@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=edible" class="pd-back"><span aria-hidden="true">←</span> Edible</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Edible · Dryfruits</p>
-  <h2 class="pd-title">Notty Nuts Dried Cranberry Slice 250gms</h2>
-  <p class="pd-brand">Brand: <strong>Notty Nuts</strong></p>
-  <p class="pd-price">₹228</p>
-  
-  
-  
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Edible · Dryfruits</p>
+      <h2 class="pd-title">Notty Nuts Dried Cranberry Slice 250gms</h2>
+      <p class="pd-brand">Brand: <strong>Notty Nuts</strong></p>
+      <p class="pd-price">₹228</p>
+      
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "edible-66", "name": "Notty Nuts Dried Cranberry Slice 250gms", "price": 228, "image": "https://d39bd3o2tztcvw.cloudfront.net/6500746c-beb8-4b9d-b728-ce956512cd0c.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6500746c-beb8-4b9d-b728-ce956512cd0c.jpeg"], "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits", "brand": "Notty Nuts", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "edible-66", "name": "Notty Nuts Dried Cranberry Slice 250gms", "price": 228, "image": "https://d39bd3o2tztcvw.cloudfront.net/6500746c-beb8-4b9d-b728-ce956512cd0c.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6500746c-beb8-4b9d-b728-ce956512cd0c.jpeg"], "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits", "brand": "Notty Nuts", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "edible-55", "name": "Roasted Jower Puff 70gms", "price": 132, "image": "https://d39bd3o2tztcvw.cloudfront.net/9a6c2ea5-94ce-4af0-996c-5b068e22adfb.jpeg", "brand": "Notty Nuts"}, {"id": "edible-56", "name": "Quinoa Puffs 70gms", "price": 132, "image": "https://d39bd3o2tztcvw.cloudfront.net/d94e6acb-8299-4bd0-ae25-5391d3172e4e.jpeg", "brand": "Notty Nuts"}, {"id": "edible-57", "name": "Flavoured Makhana 70gms", "price": 198, "image": "https://d39bd3o2tztcvw.cloudfront.net/2ab3a278-b94d-4ea1-985f-1fac1eb7bff8.jpeg", "brand": "Notty Nuts"}, {"id": "edible-58", "name": "Notty Nuts Assorted Mixed Nuts 200g", "price": 382, "image": "https://d39bd3o2tztcvw.cloudfront.net/c22993b8-a42b-42f5-a289-8c09681854d1.jpeg", "brand": "Notty Nuts"}, {"id": "edible-59", "name": "Notty Nuts Roasted Almond Salted 100g", "price": 166, "image": "https://d39bd3o2tztcvw.cloudfront.net/631abc91-4d1e-4079-8251-fbeaae9857ee.jpeg", "brand": "Notty Nuts"}, {"id": "edible-60", "name": "Notty Nuts Cashews Roasted and Salted", "price": 473, "image": "https://d39bd3o2tztcvw.cloudfront.net/aae5ffff-7a3c-4211-bfc5-cf5d83a9b17f.jpeg", "brand": "Notty Nuts"}, {"id": "edible-61", "name": "Notty Nuts Almond Roasted and Salted 250gms", "price": 382, "image": "https://d39bd3o2tztcvw.cloudfront.net/e1e52409-d227-45cf-8242-f871b6d3fab8.jpeg", "brand": "Notty Nuts"}, {"id": "edible-62", "name": "Notty Nuts Premium Irani Pistachios 250g", "price": 426, "image": "https://d39bd3o2tztcvw.cloudfront.net/5f15e2b2-6d09-47a3-ad2f-249aad3afe45.jpeg", "brand": "Notty Nuts"}, {"id": "edible-63", "name": "Notty Nuts Classic Cashew Nuts 250g", "price": 376, "image": "https://d39bd3o2tztcvw.cloudfront.net/0a21ee93-6d09-44c4-967a-fa178c0bbd8f.jpeg", "brand": "Notty Nuts"}, {"id": "edible-64", "name": "Notty Nuts Classic American Almond 250g", "price": 340, "image": "https://d39bd3o2tztcvw.cloudfront.net/9679a6a1-af7c-4275-b076-12688578f447.jpeg", "brand": "Notty Nuts"}, {"id": "edible-65", "name": "Notty Nuts Dried Strawberry 250gms", "price": 298, "image": "https://d39bd3o2tztcvw.cloudfront.net/53bd7d2d-5f1c-416a-8bc0-5fdef334d53c.jpeg", "brand": "Notty Nuts"}, {"id": "edible-67", "name": "Notty Nuts Dried Blueberries 250gms", "price": 524, "image": "https://d39bd3o2tztcvw.cloudfront.net/42013401-20e5-4f61-b28d-1a4790e76a78.jpeg", "brand": "Notty Nuts"}, {"id": "edible-68", "name": "Notty Nuts Dried Mixed Fruit 250g", "price": 187, "image": "https://d39bd3o2tztcvw.cloudfront.net/3bfba7b0-617e-45bd-85fc-ccc9ae8f0240.jpeg", "brand": "Notty Nuts"}, {"id": "edible-69", "name": "Notty Nuts Dried Kiwi 250gms", "price": 166, "image": "https://d39bd3o2tztcvw.cloudfront.net/71b89d2c-fc45-4180-af73-6bea0172aeb1.jpeg", "brand": "Notty Nuts"}, {"id": "edible-70", "name": "Notty Nuts Premium Dried Cranberrys 100 Gms", "price": 119, "image": "https://d39bd3o2tztcvw.cloudfront.net/96483e02-42db-4164-bbe6-2228111c4879.jpeg", "brand": "Notty Nuts"}, {"id": "edible-71", "name": "Notty Nuts Peri Peri Cashews 20g", "price": 64, "image": "https://d39bd3o2tztcvw.cloudfront.net/5f6a73b5-682f-47ed-8aaa-b59101bd82d3.jpeg", "brand": "Notty Nuts"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

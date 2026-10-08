@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=drinkware" class="pd-back"><span aria-hidden="true">←</span> Drinkware</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Drinkware · Water Bottles &amp; Sippers</p>
-  <h2 class="pd-title">Pigeon Stark Plus 1000 ml</h2>
-  <p class="pd-brand">Brand: <strong>Pigeon</strong></p>
-  <p class="pd-price">₹806</p>
-  <p class="pd-spec"><strong>Colours:</strong> Olive Green, Navy Blue</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Drinkware · Water Bottles &amp; Sippers</p>
+      <h2 class="pd-title">Pigeon Stark Plus 1000 ml</h2>
+      <p class="pd-brand">Brand: <strong>Pigeon</strong></p>
+      <p class="pd-price">₹806</p>
+      <p class="pd-spec"><strong>Colours:</strong> Olive Green, Navy Blue</p>
   <p class="pd-spec"><strong>Warranty:</strong> 1-Years Warranty</p>
-  <p class="pd-description">Modern insulated flask with a strong outer body and long-lasting hot and cold temperature retention for everyday use.</p>
-  <p class="pd-source"><a href="https://stovekraft.com/pigeon/category/kitchen-utilities/water-bottles/glacier-1000-ml" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Modern insulated flask with a strong outer body and long-lasting hot and cold temperature retention for everyday use.</p>
+      <p class="pd-source"><a href="https://stovekraft.com/pigeon/category/kitchen-utilities/water-bottles/glacier-1000-ml" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "drinkware-141", "name": "Pigeon Stark Plus 1000 ml", "price": 806, "image": "https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "images": ["https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "https://stovekraft.com/storage/products/gallery/Kl2aZGYxcrR5swssw8qiDdZjSmmQtLXj9yiIMRWy.webp", "https://stovekraft.com/storage/products/gallery/Azd4XgnCQaGAdbgmpCukkPwSfVjR6kDDi2MkTM92.webp", "https://stovekraft.com/storage/products/gallery/gKccWoSN0Jg7b6Y8sz77zhJ0ZDBJ7QS3U3M4RpfJ.webp", "https://stovekraft.com/storage/products/gallery/ONx0OvxVBlynxVQr8QxVhcMxaqXQadCi27IKhu27.webp", "https://stovekraft.com/storage/products/gallery/WhkgVzNgitPsNwm3mcfSaWcl6JRE3HLi6AfXpBwh.webp"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers", "brand": "Pigeon", "description": "Modern insulated flask with a strong outer body and long-lasting hot and cold temperature retention for everyday use.", "colours": [{"label": "Olive Green", "colorHex": "#656040", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6710c4c2-e6a9-4509-85b3-b520e1355936.PNG"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d8a1da27-3b25-41f3-8b3d-e95ad5812031.PNG"]}], "sizes": [], "dimensions": null, "warranty": "1-Years Warranty"};</script>
+<script>window.__PRODUCT__ = {"id": "drinkware-141", "name": "Pigeon Stark Plus 1000 ml", "price": 806, "image": "https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "images": ["https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "https://stovekraft.com/storage/products/gallery/Kl2aZGYxcrR5swssw8qiDdZjSmmQtLXj9yiIMRWy.webp", "https://stovekraft.com/storage/products/gallery/Azd4XgnCQaGAdbgmpCukkPwSfVjR6kDDi2MkTM92.webp", "https://stovekraft.com/storage/products/gallery/gKccWoSN0Jg7b6Y8sz77zhJ0ZDBJ7QS3U3M4RpfJ.webp", "https://stovekraft.com/storage/products/gallery/ONx0OvxVBlynxVQr8QxVhcMxaqXQadCi27IKhu27.webp", "https://stovekraft.com/storage/products/gallery/WhkgVzNgitPsNwm3mcfSaWcl6JRE3HLi6AfXpBwh.webp"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers", "brand": "Pigeon", "description": "Modern insulated flask with a strong outer body and long-lasting hot and cold temperature retention for everyday use.", "colours": [{"label": "Olive Green", "colorHex": "#656040", "images": ["https://d39bd3o2tztcvw.cloudfront.net/6710c4c2-e6a9-4509-85b3-b520e1355936.PNG"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/d8a1da27-3b25-41f3-8b3d-e95ad5812031.PNG"]}], "sizes": [], "dimensions": null, "warranty": "1-Years Warranty", "related": [{"id": "drinkware-135", "name": "Pigeon Glacier 1000 ml Vacuum Water Bottle", "price": 739, "image": "https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "brand": "Pigeon"}, {"id": "drinkware-136", "name": "Pigeon Clear Glass Bottle 750 ml", "price": 672, "image": "https://stovekraft.com/storage/products/cover/PRUSux8avpX4MW0Ud9wF5q7lddFbWdJE0II0OBFj.webp", "brand": "Pigeon"}, {"id": "drinkware-137", "name": "Pigeon Therminox Rush Sports Flask 1000ml", "price": 873, "image": "https://stovekraft.com/storage/products/cover/Wbus0TBMwL4pCpDXTLj4uJcw6clwsWos4Hh8c4U7.webp", "brand": "Pigeon"}, {"id": "drinkware-139", "name": "Pigeon Aqua Galaxy-1000 ml", "price": 827, "image": "https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "brand": "Pigeon"}, {"id": "drinkware-140", "name": "Pigeon Vacuum Bottle Aqua 1000 ml", "price": 806, "image": "https://stovekraft.com/storage/products/cover/m5BygeORG8dyxFydb74rFuu7UaTZMP7ERQkKKNlN.webp", "brand": "Pigeon"}, {"id": "drinkware-142", "name": "Pieon Inox Hydra Duo", "price": 257, "image": "https://stovekraft.com/storage/products/cover/qSXsQAyhiib7pCP7Akqlmg2QgfrvJ2cHU9CNYXUG.webp", "brand": "Pigeon"}, {"id": "drinkware-144", "name": "Pigeon Inox Hydra Plus Water Bottle 900 ml", "price": 236, "image": "https://stovekraft.com/storage/products/cover/qSXsQAyhiib7pCP7Akqlmg2QgfrvJ2cHU9CNYXUG.webp", "brand": "Pigeon"}, {"id": "drinkware-145", "name": "Pigeon Inox Hydra Water Bottle 900 ml", "price": 236, "image": "https://stovekraft.com/storage/products/cover/qSXsQAyhiib7pCP7Akqlmg2QgfrvJ2cHU9CNYXUG.webp", "brand": "Pigeon"}, {"id": "drinkware-1", "name": "Tamta Tura #V010 950ml Bottle", "price": 935, "image": "https://d39bd3o2tztcvw.cloudfront.net/c9600117-f022-42e4-b157-3e42103d9ca2.jpeg", "brand": "Tamta"}, {"id": "drinkware-2", "name": "Tamta Tura #V009 950ml Bottle", "price": 1332, "image": "https://d39bd3o2tztcvw.cloudfront.net/4a3f64bf-085e-4675-8375-94e2ec1ccbd2.jpeg", "brand": "Tamta"}, {"id": "drinkware-3", "name": "Tamta Tura #V008 950ml Bottle", "price": 1037, "image": "https://d39bd3o2tztcvw.cloudfront.net/099217e7-ebe5-410c-bad3-68ee1e2a56b3.jpeg", "brand": "Tamta"}, {"id": "drinkware-4", "name": "Tamta Tura #V007 950ml Bottle", "price": 1124, "image": "https://d39bd3o2tztcvw.cloudfront.net/acc39e9c-f5c2-4188-8891-005128d92953.jpeg", "brand": "Tamta"}, {"id": "drinkware-5", "name": "Tamta Tura #V004 1100ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/f5e8c9c4-a868-4407-a7d5-0d9395f68f15.jpeg", "brand": "Tamta"}, {"id": "drinkware-6", "name": "Tamta Tura #V003 1200ml Bottle", "price": 1262, "image": "https://d39bd3o2tztcvw.cloudfront.net/1c4a1255-9092-46d8-ba9a-c3a4ca242cf7.jpeg", "brand": "Tamta"}, {"id": "drinkware-7", "name": "Tamta Tura #V002 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/19e99fe3-8abc-492a-9aba-2382945b2f75.jpeg", "brand": "Tamta"}, {"id": "drinkware-8", "name": "Tamta Tura #V001 950ml Bottle", "price": 1109, "image": "https://d39bd3o2tztcvw.cloudfront.net/0181f1c6-7ad7-424c-9902-86a9bfa0586b.jpeg", "brand": "Tamta"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

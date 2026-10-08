@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=apparel" class="pd-back"><span aria-hidden="true">←</span> Apparel</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Apparel · Campus</p>
-  <h2 class="pd-title">Campus Davis</h2>
-  <p class="pd-brand">Brand: <strong>Campus</strong></p>
-  <p class="pd-price">₹1399</p>
-  <p class="pd-spec"><strong>Colours:</strong> White, Navy, Yellow</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Apparel · Campus</p>
+      <h2 class="pd-title">Campus Davis</h2>
+      <p class="pd-brand">Brand: <strong>Campus</strong></p>
+      <p class="pd-price">₹1399</p>
+      <p class="pd-spec"><strong>Colours:</strong> White, Navy, Yellow</p>
   <p class="pd-spec"><strong>Dimensions:</strong> Occasion: Everyday; Insole: Memory Insole; Upper Material: Mesh+Pvc+Printing+Embossing; Technology: Anti Slip Sole Design; Care Instructions: Gently scrub with a soft cloth or brush using mild soap and cold water, then air dry in the shade. Avoid bleach and harsh cleaners.</p>
-  <p class="pd-description">Say hello to your new everyday MVP—the Campus DAVIS Men&#x27;s Running Shoes in crisp white and light grey. Built for comfort and styled to go with literally everything, these lace-up sports shoes are all about effortless movement and modern vibes. The breathable mesh and sturdy PVC upper keep things cool and supportive, while the EVA &amp; TPR sole adds that light, sturdy feel with every step. Slide into the Memory Insole that hugs your foot like it was made just for you.</p>
-  <p class="pd-source"><a href="https://www.campusshoes.com/products/davis-wht-l-gry-mens-running-shoes" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Say hello to your new everyday MVP—the Campus DAVIS Men&#x27;s Running Shoes in crisp white and light grey. Built for comfort and styled to go with literally everything, these lace-up sports shoes are all about effortless movement and modern vibes. The breathable mesh and sturdy PVC upper keep things cool and supportive, while the EVA &amp; TPR sole adds that light, sturdy feel with every step. Slide into the Memory Insole that hugs your foot like it was made just for you.</p>
+      <p class="pd-source"><a href="https://www.campusshoes.com/products/davis-wht-l-gry-mens-running-shoes" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "apparel-163", "name": "Campus Davis", "price": 1399, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_07.webp?v=1757596246", "images": ["https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_07.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/IMG_5229_1.png?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_02.jpg?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_03.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_04.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_05.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_06.webp?v=1757596246"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus", "brand": "Campus", "description": "Say hello to your new everyday MVP\u2014the Campus DAVIS Men's Running Shoes in crisp white and light grey. Built for comfort and styled to go with literally everything, these lace-up sports shoes are all about effortless movement and modern vibes. The breathable mesh and sturdy PVC upper keep things cool and supportive, while the EVA & TPR sole adds that light, sturdy feel with every step. Slide into the Memory Insole that hugs your foot like it was made just for you.", "colours": [], "sizes": [], "dimensions": "Occasion: Everyday; Insole: Memory Insole; Upper Material: Mesh+Pvc+Printing+Embossing; Technology: Anti Slip Sole Design; Care Instructions: Gently scrub with a soft cloth or brush using mild soap and cold water, then air dry in the shade. Avoid bleach and harsh cleaners.", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "apparel-163", "name": "Campus Davis", "price": 1399, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_07.webp?v=1757596246", "images": ["https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_07.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/IMG_5229_1.png?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_02.jpg?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_03.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_04.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_05.webp?v=1757596246", "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_06.webp?v=1757596246"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus", "brand": "Campus", "description": "Say hello to your new everyday MVP\u2014the Campus DAVIS Men's Running Shoes in crisp white and light grey. Built for comfort and styled to go with literally everything, these lace-up sports shoes are all about effortless movement and modern vibes. The breathable mesh and sturdy PVC upper keep things cool and supportive, while the EVA & TPR sole adds that light, sturdy feel with every step. Slide into the Memory Insole that hugs your foot like it was made just for you.", "colours": [], "sizes": [], "dimensions": "Occasion: Everyday; Insole: Memory Insole; Upper Material: Mesh+Pvc+Printing+Embossing; Technology: Anti Slip Sole Design; Care Instructions: Gently scrub with a soft cloth or brush using mild soap and cold water, then air dry in the shade. Avoid bleach and harsh cleaners.", "warranty": null, "related": [{"id": "apparel-151", "name": "Campus Camp Spunky", "price": 2999, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CAMP-SPUNKY_22G-966_BLK-F.ORG_2.jpg?v=1756817941", "brand": "Campus"}, {"id": "apparel-152", "name": "Campus Pedro", "price": 2599, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/PEDRO_22G-856_OLIVE-MSTD_2.jpg?v=1756817929", "brand": "Campus"}, {"id": "apparel-153", "name": "Campus OG-14", "price": 1999, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/OG_14_22G_1157_WHT_NAVY_2.jpg?v=1755510364", "brand": "Campus"}, {"id": "apparel-154", "name": "Campus Camp-Erik", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CAMPERIK_22G-107_L.GRY-RED_01.webp?v=1789559801", "brand": "Campus"}, {"id": "apparel-155", "name": "Campus Promote", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/PROMOTE-22G-251A-M.BLU-GOLDEN_2.jpg?v=1756817959", "brand": "Campus"}, {"id": "apparel-156", "name": "Campus Level", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/LEVEL_LEVEL_WHT-L.GRY_07_831c7a2c-ff1b-4011-9268-b11f984219c6.webp?v=1757580207", "brand": "Campus"}, {"id": "apparel-157", "name": "Campus Camp-Paul", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CAMPPAUL_22G-179_S.GRN-M.BLU_2.jpg?v=1755520928", "brand": "Campus"}, {"id": "apparel-158", "name": "Campus Bonus", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/BONUS_22G-255_L.GRY-R.SLATE_3.jpg?v=1755510807", "brand": "Campus"}, {"id": "apparel-159", "name": "Campus Vesper", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/VESPER_VESPER_WHT-NAVY_07.webp?v=1758174770", "brand": "Campus"}, {"id": "apparel-160", "name": "Campus Cyber", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CYBER_22G-1003_D.GRY-F.ORG_2.jpg?v=1755510129", "brand": "Campus"}, {"id": "apparel-161", "name": "Campus Panel", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/PANEL_22G-1056_NAVY-SILVER_01.webp?v=1763980419", "brand": "Campus"}, {"id": "apparel-162", "name": "Campus Stranger", "price": 1599, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/STRANGER_22G-896_OFFWHT-GOLDEN_2.jpg?v=1755521046", "brand": "Campus"}, {"id": "apparel-164", "name": "Campus Vacum", "price": 1049, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/VACUM-9G-160-D.GRY-MSTD_2_93304b96-ad9b-4fcc-8e07-fa6cfb83c118.jpg?v=1756268317", "brand": "Campus"}, {"id": "apparel-165", "name": "Campus Keren", "price": 2199, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/KEREN_6L-109_BLU-T.BLU_2_a59334cd-b54f-4637-9323-41b750428401.jpg?v=1755521070", "brand": "Campus"}, {"id": "apparel-166", "name": "Campus Bliss", "price": 1799, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/BLISS-11G-769-NAVY-R.SLATE_2_1fac7539-4ebc-4324-b0d8-5c8f4ae2aff2.jpg?v=1755521052", "brand": "Campus"}, {"id": "apparel-167", "name": "Campus Camp-Lex", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/CAMP-LEX_22L-887_WHT-L.GRY_2_41beb19d-88fb-41c6-9b66-3f2e58b9dccc.jpg?v=1755511552", "brand": "Campus"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

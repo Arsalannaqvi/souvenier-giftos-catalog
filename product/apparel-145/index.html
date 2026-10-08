@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=apparel" class="pd-back"><span aria-hidden="true">←</span> Apparel</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Apparel · Jacket</p>
-  <h2 class="pd-title">TTH Jet Setter Jacket</h2>
-  <p class="pd-brand">Brand: <strong>TTH</strong></p>
-  <p class="pd-price">₹792</p>
-  <p class="pd-spec"><strong>Colours:</strong> Black, Navy Blue, Teal, Olive Green, Grey</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Apparel · Jacket</p>
+      <h2 class="pd-title">TTH Jet Setter Jacket</h2>
+      <p class="pd-brand">Brand: <strong>TTH</strong></p>
+      <p class="pd-price">₹792</p>
+      <p class="pd-spec"><strong>Colours:</strong> Black, Navy Blue, Teal, Olive Green, Grey</p>
   <p class="pd-spec"><strong>Sizes:</strong> XS, S, M, L, XL, 2XL, 3XL, 4XL</p>
-  
-  
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "apparel-145", "name": "TTH Jet Setter Jacket", "price": 792, "image": "https://d39bd3o2tztcvw.cloudfront.net/9f8ad4f6-b21d-4951-8569-1fc13ee15a21.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9f8ad4f6-b21d-4951-8569-1fc13ee15a21.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/486254bb-4945-420a-88c9-40d346ac9a2e.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/b93f8749-5406-4ff3-8b75-95d52d139fa4.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/30e97f1d-6687-4edb-b45b-67bb423c9c0e.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/3c3cdef8-7084-4273-9404-071575ec6e81.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/5d239f6d-6dd9-4fbc-9ed3-d8ecf3ffe2fd.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Jacket", "brand": "TTH", "description": null, "colours": [{"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/486254bb-4945-420a-88c9-40d346ac9a2e.jpeg"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/b93f8749-5406-4ff3-8b75-95d52d139fa4.jpeg"]}, {"label": "Teal", "colorHex": "#04525F", "images": ["https://d39bd3o2tztcvw.cloudfront.net/30e97f1d-6687-4edb-b45b-67bb423c9c0e.jpeg"]}, {"label": "Olive Green", "colorHex": "#656040", "images": ["https://d39bd3o2tztcvw.cloudfront.net/3c3cdef8-7084-4273-9404-071575ec6e81.jpeg"]}, {"label": "Grey", "colorHex": "#43484D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/5d239f6d-6dd9-4fbc-9ed3-d8ecf3ffe2fd.jpeg"]}], "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL", "4XL"], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "apparel-145", "name": "TTH Jet Setter Jacket", "price": 792, "image": "https://d39bd3o2tztcvw.cloudfront.net/9f8ad4f6-b21d-4951-8569-1fc13ee15a21.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/9f8ad4f6-b21d-4951-8569-1fc13ee15a21.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/486254bb-4945-420a-88c9-40d346ac9a2e.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/b93f8749-5406-4ff3-8b75-95d52d139fa4.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/30e97f1d-6687-4edb-b45b-67bb423c9c0e.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/3c3cdef8-7084-4273-9404-071575ec6e81.jpeg", "https://d39bd3o2tztcvw.cloudfront.net/5d239f6d-6dd9-4fbc-9ed3-d8ecf3ffe2fd.jpeg"], "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Jacket", "brand": "TTH", "description": null, "colours": [{"label": "Black", "colorHex": "#000000", "images": ["https://d39bd3o2tztcvw.cloudfront.net/486254bb-4945-420a-88c9-40d346ac9a2e.jpeg"]}, {"label": "Navy Blue", "colorHex": "#2C2B4A", "images": ["https://d39bd3o2tztcvw.cloudfront.net/b93f8749-5406-4ff3-8b75-95d52d139fa4.jpeg"]}, {"label": "Teal", "colorHex": "#04525F", "images": ["https://d39bd3o2tztcvw.cloudfront.net/30e97f1d-6687-4edb-b45b-67bb423c9c0e.jpeg"]}, {"label": "Olive Green", "colorHex": "#656040", "images": ["https://d39bd3o2tztcvw.cloudfront.net/3c3cdef8-7084-4273-9404-071575ec6e81.jpeg"]}, {"label": "Grey", "colorHex": "#43484D", "images": ["https://d39bd3o2tztcvw.cloudfront.net/5d239f6d-6dd9-4fbc-9ed3-d8ecf3ffe2fd.jpeg"]}], "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL", "4XL"], "dimensions": null, "warranty": null, "related": [{"id": "apparel-31", "name": "TTH Formal Shirt", "price": 638, "image": "https://d39bd3o2tztcvw.cloudfront.net/acecb118-218e-4243-9c4f-bf8f184f809a.jpeg", "brand": "TTH"}, {"id": "apparel-32", "name": "TTH Jacquard Polo T-shirt Female", "price": 394, "image": "https://d39bd3o2tztcvw.cloudfront.net/8b814b32-1406-4eae-862d-d24b3efc4be6.jpeg", "brand": "TTH"}, {"id": "apparel-137", "name": "TTH Sports Crew Round Neck T-shirt", "price": 108, "image": "https://d39bd3o2tztcvw.cloudfront.net/73f9efe3-c10b-4a9c-a0c3-993816b67aab.jpeg", "brand": "TTH"}, {"id": "apparel-138", "name": "TTH Sustainable Crew Neck T-shirt", "price": 196, "image": "https://d39bd3o2tztcvw.cloudfront.net/5532bd33-9fee-45e6-9655-45422142be25.jpeg", "brand": "TTH"}, {"id": "apparel-139", "name": "TTH Pima Polo T-shirt", "price": 495, "image": "https://d39bd3o2tztcvw.cloudfront.net/b38f1474-e868-427d-bc46-721f7f79aa99.jpeg", "brand": "TTH"}, {"id": "apparel-140", "name": "TTH Pima Crew Round Neck T-shirt", "price": 274, "image": "https://d39bd3o2tztcvw.cloudfront.net/b704808a-5add-42e2-af56-812a05d30d95.jpeg", "brand": "TTH"}, {"id": "apparel-141", "name": "TTH Over Sized T-shirt", "price": 419, "image": "https://d39bd3o2tztcvw.cloudfront.net/d4dcb86e-f085-45e9-b59b-eca68fcf42e7.jpeg", "brand": "TTH"}, {"id": "apparel-142", "name": "TTH Mobilitee Round Neck T-shirt", "price": 164, "image": "https://d39bd3o2tztcvw.cloudfront.net/dd209c8e-178b-4936-88a8-9922a6b9444f.jpeg", "brand": "TTH"}, {"id": "apparel-143", "name": "TTH Mars 200 Polo T-Shirt", "price": 333, "image": "https://d39bd3o2tztcvw.cloudfront.net/26acf8db-cd23-4e86-a3b3-74f3334215cd.jpeg", "brand": "TTH"}, {"id": "apparel-144", "name": "TTH Jacquard Polo T-shirt", "price": 394, "image": "https://d39bd3o2tztcvw.cloudfront.net/73da74b7-4e0c-4669-a528-0da9529b588c.jpeg", "brand": "TTH"}, {"id": "apparel-146", "name": "TTH Classic Hoodie", "price": 532, "image": "https://d39bd3o2tztcvw.cloudfront.net/6317d742-ad50-42f1-aeaf-5135295e1f43.jpeg", "brand": "TTH"}, {"id": "apparel-147", "name": "TTH 2 in 1 Zipper Jacket", "price": 602, "image": "https://d39bd3o2tztcvw.cloudfront.net/3cd0832c-0bc6-457e-a5f0-c7f92cdad675.jpeg", "brand": "TTH"}, {"id": "apparel-1", "name": "Decathlon Short Sleeve Polo Shirt WW500", "price": 1272, "image": "https://d39bd3o2tztcvw.cloudfront.net/753fe84b-bb4c-4a03-9a88-51b74a612fa3.png", "brand": "Decathlon"}, {"id": "apparel-2", "name": "Decathlon IN Polo SS MW500", "price": 924, "image": "https://d39bd3o2tztcvw.cloudfront.net/699f98b0-4c82-4886-9c91-8832df977ac0.jpeg", "brand": "Decathlon"}, {"id": "apparel-3", "name": "Decathlon Men's Golf Cotton Short Sleeve Polo Shirt MW500", "price": 924, "image": "https://d39bd3o2tztcvw.cloudfront.net/911dae50-726d-4176-8ad3-804a07eb30da.jpeg", "brand": "Decathlon"}, {"id": "apparel-4", "name": "Decathlon Men's Golf Short Sleeve Polo Shirt WW500", "price": 1272, "image": "https://d39bd3o2tztcvw.cloudfront.net/ed2f0d1b-9f8a-4b75-9858-f123e4523748.jpeg", "brand": "Decathlon"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

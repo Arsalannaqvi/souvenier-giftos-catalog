@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=electronics" class="pd-back"><span aria-hidden="true">←</span> Electronics</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Electronics · Audio</p>
-  <h2 class="pd-title">boAt Airdopes Prime 512</h2>
-  <p class="pd-brand">Brand: <strong>boAt</strong></p>
-  <p class="pd-price">₹4990</p>
-  <p class="pd-spec"><strong>Colours:</strong> Midnight Pebble, Moonstone White, Earth Brown</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Electronics · Audio</p>
+      <h2 class="pd-title">boAt Airdopes Prime 512</h2>
+      <p class="pd-brand">Brand: <strong>boAt</strong></p>
+      <p class="pd-price">₹4990</p>
+      <p class="pd-spec"><strong>Colours:</strong> Midnight Pebble, Moonstone White, Earth Brown</p>
   <p class="pd-spec"><strong>Warranty:</strong> Yes, all of our true wireless earphones come with a 1-year warranty. To register your device, visit https://support.boat-lifestyle.com/.</p>
-  <p class="pd-description">Enjoy uninterrupted listening with boAt Airdopes Prime 512 featuring up to 50H playtime, 4 mics with AI-ENx™, Spatial Audio &amp; seamless swipe controls.</p>
-  <p class="pd-source"><a href="https://boat-lifestyle.com/products/boat-airdopes-prime-512" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">Enjoy uninterrupted listening with boAt Airdopes Prime 512 featuring up to 50H playtime, 4 mics with AI-ENx™, Spatial Audio &amp; seamless swipe controls.</p>
+      <p class="pd-source"><a href="https://boat-lifestyle.com/products/boat-airdopes-prime-512" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "electronics-522", "name": "boAt Airdopes Prime 512", "price": 4990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_933125d8-bb9b-45be-9da2-791f50fe2e81.png?v=1770014699", "images": ["https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_933125d8-bb9b-45be-9da2-791f50fe2e81.png?v=1770014699", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_1_de1ca62e-ad93-4b5c-9f71-fa6ba7053664.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_1_bd7c405a-8e65-4e8b-b827-f54dbea68395.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard8_76d622f8-3156-4453-90d6-6c509cbb1778.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard9_25fa6758-121d-4c72-86f3-7826f16fe488.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard10_b501dd4c-b68b-4f4d-bbf7-4cb67f94aa02.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard11_3cbf01b8-fd80-4d0b-b7a5-b3b8c1e8c584.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard13_7f2751e0-17d9-4e8b-b6d7-770f475979e9.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/speccard2.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_8_c1426b32-415b-4db5-83e4-c4ea1a9acd27.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_9_43780573-6c11-4b38-8996-45321e6f3b2a.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_10_91510285-cf33-4ecf-b62a-f9bf764dd011.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_11_5d9a7fcb-2711-43d6-a39e-96be4863a927.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_13_1a4611c9-d9e3-4e32-bc3d-6a446b9ca5bd.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_15.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_8_75b41d2f-86af-43a2-8d03-ca434ccf858b.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_9_c649a19a-1ddd-47ba-9a4b-6b5c4d2180f7.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_10_b18f1597-e8eb-4148-818a-baa2d78f19ad.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_11_27a04128-426e-4fa8-901c-610a8ce75169.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_13_8a9f05fd-84b2-46a8-8861-b9fb881462db.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/spec_card_a87658ff-9200-4d5b-8cef-e652eca4fbd2.png?v=1770015489", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_14.png?v=1770033769"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Audio", "brand": "boAt", "description": "Enjoy uninterrupted listening with boAt Airdopes Prime 512 featuring up to 50H playtime, 4 mics with AI-ENx\u2122, Spatial Audio & seamless swipe controls.", "colours": [], "sizes": [], "dimensions": null, "warranty": "Yes, all of our true wireless earphones come with a 1-year warranty. To register your device, visit https://support.boat-lifestyle.com/."};</script>
+<script>window.__PRODUCT__ = {"id": "electronics-522", "name": "boAt Airdopes Prime 512", "price": 4990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_933125d8-bb9b-45be-9da2-791f50fe2e81.png?v=1770014699", "images": ["https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_933125d8-bb9b-45be-9da2-791f50fe2e81.png?v=1770014699", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_1_de1ca62e-ad93-4b5c-9f71-fa6ba7053664.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_1_bd7c405a-8e65-4e8b-b827-f54dbea68395.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard8_76d622f8-3156-4453-90d6-6c509cbb1778.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard9_25fa6758-121d-4c72-86f3-7826f16fe488.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard10_b501dd4c-b68b-4f4d-bbf7-4cb67f94aa02.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard11_3cbf01b8-fd80-4d0b-b7a5-b3b8c1e8c584.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard13_7f2751e0-17d9-4e8b-b6d7-770f475979e9.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/speccard2.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_8_c1426b32-415b-4db5-83e4-c4ea1a9acd27.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_9_43780573-6c11-4b38-8996-45321e6f3b2a.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_10_91510285-cf33-4ecf-b62a-f9bf764dd011.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_11_5d9a7fcb-2711-43d6-a39e-96be4863a927.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_13_1a4611c9-d9e3-4e32-bc3d-6a446b9ca5bd.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_15.png?v=1770015566", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_8_75b41d2f-86af-43a2-8d03-ca434ccf858b.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_9_c649a19a-1ddd-47ba-9a4b-6b5c4d2180f7.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_10_b18f1597-e8eb-4148-818a-baa2d78f19ad.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_11_27a04128-426e-4fa8-901c-610a8ce75169.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_13_8a9f05fd-84b2-46a8-8861-b9fb881462db.png?v=1770015502", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/spec_card_a87658ff-9200-4d5b-8cef-e652eca4fbd2.png?v=1770015489", "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_14.png?v=1770033769"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Audio", "brand": "boAt", "description": "Enjoy uninterrupted listening with boAt Airdopes Prime 512 featuring up to 50H playtime, 4 mics with AI-ENx\u2122, Spatial Audio & seamless swipe controls.", "colours": [], "sizes": [], "dimensions": null, "warranty": "Yes, all of our true wireless earphones come with a 1-year warranty. To register your device, visit https://support.boat-lifestyle.com/.", "related": [{"id": "electronics-404", "name": "boAt Rockerz 255 Pro+", "price": 3990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/R255Pro_-FI_Black01.png?v=1713177293", "brand": "boAt"}, {"id": "electronics-405", "name": "boAt Stone 350", "price": 3490, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/74a6b20d-9842-49da-b279-022812b81e1f.png?v=1673001663", "brand": "boAt"}, {"id": "electronics-406", "name": "boAt Bassheads 104", "price": 999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/d64c5748-2394-444c-8777-c792a57f079b.png?v=1625046149", "brand": "boAt"}, {"id": "electronics-407", "name": "boAt Airdopes 141", "price": 4490, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD141-FI_Grey01.png?v=1698391770", "brand": "boAt"}, {"id": "electronics-409", "name": "boAt Airdopes 131", "price": 2990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8.png?v=1744005712", "brand": "boAt"}, {"id": "electronics-412", "name": "boAt Aavante Bar Theme", "price": 21990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard_1__1_-removebg-preview.png?v=1683907274", "brand": "boAt"}, {"id": "electronics-413", "name": "boAt Aavante Prime 5.2.4 6250DA", "price": 74990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard10_b1ee3785-c7ab-44e6-ab42-17995dc08e73.jpg?v=1753362750", "brand": "boAt"}, {"id": "electronics-414", "name": "boAt Airdopes 219", "price": 3990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/main_image_878d3bd2-cc9e-4876-965d-2544c670c2e1.jpg?v=1753336769", "brand": "boAt"}, {"id": "electronics-415", "name": "boAt Airdopes 141 Gen 2", "price": 3990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard3_d312b51f-f7c9-4244-aa99-5b565e23cce4.png?v=1749808725", "brand": "boAt"}, {"id": "electronics-416", "name": "Para-Armour Type-C Cable 1.5M", "price": 1499, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1blk_6e5ad771-bded-4ab9-b7bd-bbd4c889b2a1.png?v=1613457264", "brand": "boAt"}, {"id": "electronics-417", "name": "boAt Sailor Nav", "price": 7999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/SailorNav-FI-Blue_01.png?v=1784094681", "brand": "boAt"}, {"id": "electronics-418", "name": "boAt Aavante Thump Plus", "price": 24990, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Aavante2000Dmain.jpg?v=1755503663", "brand": "boAt"}, {"id": "electronics-419", "name": "boAt Stone Spinx Pro", "price": 9999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_SpinXPro_1.png?v=1709717404", "brand": "boAt"}, {"id": "electronics-420", "name": "boAt Type A to C 65W Cable", "price": 799, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_a059084c-54ec-4b61-8718-6eb64e1ddaeb.jpg?v=1765188323", "brand": "boAt"}, {"id": "electronics-421", "name": "boAt 65W GaN Nano Charger", "price": 3999, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Artboard1_27a5a1b6-f983-4b59-bb3d-b07012c759a3.png?v=1776149854", "brand": "boAt"}, {"id": "electronics-422", "name": "boAt Airdopes 131 Pro Buds", "price": 5490, "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/ad_131_pro_buds_updated_packaging.23.png?v=1726626454", "brand": "boAt"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

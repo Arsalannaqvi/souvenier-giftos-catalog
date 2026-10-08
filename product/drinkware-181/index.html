@@ -31,29 +31,43 @@
 <main class="pd-main">
   <a href="../../?category=drinkware" class="pd-back"><span aria-hidden="true">←</span> Drinkware</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Drinkware · Water Bottles &amp; Sippers</p>
-  <h2 class="pd-title">Offikraft Stainless Steel Sip</h2>
-  <p class="pd-brand">Brand: <strong>Offikraft</strong></p>
-  <p class="pd-price">₹297</p>
-  
-  
-  
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Drinkware · Water Bottles &amp; Sippers</p>
+      <h2 class="pd-title">Offikraft Stainless Steel Sip</h2>
+      <p class="pd-brand">Brand: <strong>Offikraft</strong></p>
+      <p class="pd-price">₹297</p>
+      
+      
+      
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -61,7 +75,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "drinkware-181", "name": "Offikraft Stainless Steel Sip", "price": 297, "image": "https://d39bd3o2tztcvw.cloudfront.net/8f340323-aacc-4551-8c76-37f13d505f56.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/8f340323-aacc-4551-8c76-37f13d505f56.jpeg"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers", "brand": "Offikraft", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "drinkware-181", "name": "Offikraft Stainless Steel Sip", "price": 297, "image": "https://d39bd3o2tztcvw.cloudfront.net/8f340323-aacc-4551-8c76-37f13d505f56.jpeg", "images": ["https://d39bd3o2tztcvw.cloudfront.net/8f340323-aacc-4551-8c76-37f13d505f56.jpeg"], "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers", "brand": "Offikraft", "description": null, "colours": [], "sizes": [], "dimensions": null, "warranty": null, "related": [{"id": "drinkware-171", "name": "Offikraft Sporty Stainless-Steel Bottle", "price": 363, "image": "https://d39bd3o2tztcvw.cloudfront.net/a850e0d9-07b5-4cce-bd58-b5e6a1cd2f19.jpeg", "brand": "Offikraft"}, {"id": "drinkware-172", "name": "Offikraft Sensor Steel Bottle", "price": 240, "image": "https://d39bd3o2tztcvw.cloudfront.net/d04d44aa-4bee-44a4-a7b4-671f0153f7e2.jpeg", "brand": "Offikraft"}, {"id": "drinkware-173", "name": "Offikraft Brew Mug 2.0", "price": 402, "image": "https://d39bd3o2tztcvw.cloudfront.net/2bca4992-34e5-404c-95f8-ce35829e7b80.jpeg", "brand": "Offikraft"}, {"id": "drinkware-174", "name": "Offikraft Macro Steel Mug", "price": 165, "image": "https://d39bd3o2tztcvw.cloudfront.net/9d2329bc-5307-4180-844c-88a369129786.jpeg", "brand": "Offikraft"}, {"id": "drinkware-175", "name": "Offikraft Brew Insulated Mug", "price": 411, "image": "https://d39bd3o2tztcvw.cloudfront.net/b5dac9d4-98fe-47d2-aec3-ad84669771dd.jpeg", "brand": "Offikraft"}, {"id": "drinkware-176", "name": "Offikraft Eco Cork Mug 450ml", "price": 299, "image": "https://d39bd3o2tztcvw.cloudfront.net/bad40e34-8037-4f35-97b3-096ce32d6ef6.jpeg", "brand": "Offikraft"}, {"id": "drinkware-177", "name": "Offikraft Bistro Vaccum Insulated Bottle", "price": 797, "image": "https://d39bd3o2tztcvw.cloudfront.net/521410cb-19e1-4d27-b015-e00299eea877.jpeg", "brand": "Offikraft"}, {"id": "drinkware-178", "name": "Offikraft Clark Bottle", "price": 282, "image": "https://d39bd3o2tztcvw.cloudfront.net/7abdd3d0-7b1d-4a2d-a3d1-ebff3a1b958b.jpeg", "brand": "Offikraft"}, {"id": "drinkware-179", "name": "Offikraft Kairo Eco Friendly Glass Bottle", "price": 257, "image": "https://d39bd3o2tztcvw.cloudfront.net/9c68eb79-cc8b-4bea-98bc-c771cba5215f.jpeg", "brand": "Offikraft"}, {"id": "drinkware-180", "name": "Offikraft Breeze 2.0 Stainless Steel bottle", "price": 320, "image": "https://d39bd3o2tztcvw.cloudfront.net/ad8c1dc6-701c-468c-bc83-0595d4b86774.jpeg", "brand": "Offikraft"}, {"id": "drinkware-182", "name": "Offikraft Dexter Stainless Steel Mug", "price": 244, "image": "https://d39bd3o2tztcvw.cloudfront.net/f066d406-5749-4e18-a130-194879cfea86.jpeg", "brand": "Offikraft"}, {"id": "drinkware-183", "name": "Offikraft Flip Insulated Bottle", "price": 502, "image": "https://d39bd3o2tztcvw.cloudfront.net/e35148f8-2eb8-4b8f-89ae-4cfa701c1441.jpeg", "brand": "Offikraft"}, {"id": "drinkware-184", "name": "Offikraft Eco Cork", "price": 244, "image": "https://d39bd3o2tztcvw.cloudfront.net/104f7fbe-7588-4da7-9a7b-df6fe19c11cd.jpeg", "brand": "Offikraft"}, {"id": "drinkware-185", "name": "Offikraft Aqua Bottle", "price": 343, "image": "https://d39bd3o2tztcvw.cloudfront.net/89557e3a-6477-4245-8cbb-44cdd297443a.jpeg", "brand": "Offikraft"}, {"id": "drinkware-186", "name": "Offikraft Blaze 2.0 Vaccum Mug", "price": 394, "image": "https://d39bd3o2tztcvw.cloudfront.net/80f3bd44-f22d-4a82-b549-0612975bfb3e.jpeg", "brand": "Offikraft"}, {"id": "drinkware-187", "name": "Offikraft Hydra Bottle with Bamboo Lid", "price": 693, "image": "https://d39bd3o2tztcvw.cloudfront.net/9d632f97-769b-4633-9de4-e5e2a354df4b.jpeg", "brand": "Offikraft"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>

@@ -31,30 +31,44 @@
 <main class="pd-main">
   <a href="../../?category=electronics" class="pd-back"><span aria-hidden="true">←</span> Electronics</a>
 
-  <div class="pd-gallery">
-    <div id="pd-gallery-track" class="pd-gallery-track"></div>
-    <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
-    <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
-  </div>
-  <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+  <div class="pd-layout">
+    <div class="pd-gallery-col">
+      <div class="pd-gallery">
+        <div id="pd-gallery-track" class="pd-gallery-track"></div>
+        <button id="pd-gallery-prev" class="pd-gallery-nav pd-gallery-nav--prev" type="button" aria-label="Previous image" hidden>‹</button>
+        <button id="pd-gallery-next" class="pd-gallery-nav pd-gallery-nav--next" type="button" aria-label="Next image" hidden>›</button>
+      </div>
+      <div id="pd-gallery-dots" class="pd-gallery-dots" hidden></div>
+      <div id="pd-thumbs" class="pd-thumbs"></div>
+    </div>
 
-  <p class="pd-breadcrumb">Electronics · Power Bank</p>
-  <h2 class="pd-title">Lifelong LLPBVA11 Compact Power Bank</h2>
-  <p class="pd-brand">Brand: <strong>LifeLong</strong></p>
-  <p class="pd-price">₹1532</p>
-  <p class="pd-spec"><strong>Colours:</strong> Purple</p>
+    <div class="pd-info-col">
+      <p class="pd-breadcrumb">Electronics · Power Bank</p>
+      <h2 class="pd-title">Lifelong LLPBVA11 Compact Power Bank</h2>
+      <p class="pd-brand">Brand: <strong>LifeLong</strong></p>
+      <p class="pd-price">₹1532</p>
+      <p class="pd-spec"><strong>Colours:</strong> Purple</p>
   <p class="pd-spec"><strong>Dimensions:</strong> 10000 mAh, 1.8 x 7 x 7 cm</p>
-  <p class="pd-description">High-Capacity Power : 10000mAh battery ensures multiple charges for your devices—ideal for travel or daily use. Multiple Ports : Features 2 input and 4 output ports to charge several devices at once. Fast Charging : Supports PD 3.0 for efficient, high-speed charging. Wide Compatibility : Works with smartphones, tablets, cameras, and other USB-powered devices. Portable Design : Compact and lightweight—easy to carry in your bag or pocket.</p>
-  <p class="pd-source"><a href="https://www.lifelongindiaonline.com/products/zencharge-10000mah-power-bank" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
+      <p class="pd-description">High-Capacity Power : 10000mAh battery ensures multiple charges for your devices—ideal for travel or daily use. Multiple Ports : Features 2 input and 4 output ports to charge several devices at once. Fast Charging : Supports PD 3.0 for efficient, high-speed charging. Wide Compatibility : Works with smartphones, tablets, cameras, and other USB-powered devices. Portable Design : Compact and lightweight—easy to carry in your bag or pocket.</p>
+      <p class="pd-source"><a href="https://www.lifelongindiaonline.com/products/zencharge-10000mah-power-bank" target="_blank" rel="noopener noreferrer">View manufacturer listing ↗</a></p>
 
-  <div class="pd-action">
-    <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
-    <div id="pd-stepper" class="stepper" hidden>
-      <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
-      <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
-      <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+      <div class="pd-action">
+        <button id="pd-add-btn" class="add-btn" type="button">Add to enquiry</button>
+        <div id="pd-stepper" class="stepper" hidden>
+          <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
+          <input class="step-input" type="number" inputmode="numeric" min="0" step="1" aria-label="Quantity">
+          <button class="step-btn step-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <section class="pd-suggest" id="pd-suggest" hidden>
+    <h2 class="pd-suggest-title">You might also like</h2>
+    <div class="pd-suggest-row" id="pd-suggest-row"></div>
+    <div class="pd-suggest-more-wrap"><button id="pd-suggest-more-btn" class="pd-suggest-more-btn" type="button" hidden>Show more products</button></div>
+    <div class="pd-suggest-grid" id="pd-suggest-grid"></div>
+  </section>
 </main>
 
 <a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
@@ -62,7 +76,7 @@
   <span>View shortlist →</span>
 </a>
 
-<script>window.__PRODUCT__ = {"id": "electronics-303", "name": "Lifelong LLPBVA11 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2_9891d746-63b5-481d-a3a4-4f1b57ac3b3e.jpg?v=1784105335", "images": ["https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2_9891d746-63b5-481d-a3a4-4f1b57ac3b3e.jpg?v=1784105335", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/02_b9b53121-fda4-4bc9-8c7b-b7b0813026c0.jpg?v=1784105354", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/03_20fea4f2-851b-4091-aabd-7d9d3df599fb.jpg?v=1784105358", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/04_0f3e6fe9-18fd-4d17-a2fc-11bd7a05c443.jpg?v=1784105363", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/05_5e605f46-d9ae-4c04-9b24-2c63b4f7e2ed.jpg?v=1784105368", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/06_6d2b0aaf-0aff-4518-95c7-1a00a8e53286.jpg?v=1784105372", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/7_37_41a4c2eb-03db-47fb-a0bb-bd637d139330.jpg?v=1784104670"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Power Bank", "brand": "LifeLong", "description": "High-Capacity Power : 10000mAh battery ensures multiple charges for your devices\u2014ideal for travel or daily use. Multiple Ports : Features 2 input and 4 output ports to charge several devices at once. Fast Charging : Supports PD 3.0 for efficient, high-speed charging. Wide Compatibility : Works with smartphones, tablets, cameras, and other USB-powered devices. Portable Design : Compact and lightweight\u2014easy to carry in your bag or pocket.", "colours": [], "sizes": [], "dimensions": "10000 mAh, 1.8 x 7 x 7 cm", "warranty": null};</script>
+<script>window.__PRODUCT__ = {"id": "electronics-303", "name": "Lifelong LLPBVA11 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2_9891d746-63b5-481d-a3a4-4f1b57ac3b3e.jpg?v=1784105335", "images": ["https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2_9891d746-63b5-481d-a3a4-4f1b57ac3b3e.jpg?v=1784105335", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/02_b9b53121-fda4-4bc9-8c7b-b7b0813026c0.jpg?v=1784105354", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/03_20fea4f2-851b-4091-aabd-7d9d3df599fb.jpg?v=1784105358", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/04_0f3e6fe9-18fd-4d17-a2fc-11bd7a05c443.jpg?v=1784105363", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/05_5e605f46-d9ae-4c04-9b24-2c63b4f7e2ed.jpg?v=1784105368", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/06_6d2b0aaf-0aff-4518-95c7-1a00a8e53286.jpg?v=1784105372", "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/7_37_41a4c2eb-03db-47fb-a0bb-bd637d139330.jpg?v=1784104670"], "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Power Bank", "brand": "LifeLong", "description": "High-Capacity Power : 10000mAh battery ensures multiple charges for your devices\u2014ideal for travel or daily use. Multiple Ports : Features 2 input and 4 output ports to charge several devices at once. Fast Charging : Supports PD 3.0 for efficient, high-speed charging. Wide Compatibility : Works with smartphones, tablets, cameras, and other USB-powered devices. Portable Design : Compact and lightweight\u2014easy to carry in your bag or pocket.", "colours": [], "sizes": [], "dimensions": "10000 mAh, 1.8 x 7 x 7 cm", "warranty": null, "related": [{"id": "electronics-193", "name": "Lifelong LLPJEJ42 Electronics ROAR Projector with 2 Mics", "price": 9971, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1_16_7bebecaa-853b-4b90-b8f9-7eb64420b77a.jpg?v=1775034976", "brand": "LifeLong"}, {"id": "electronics-194", "name": "Lifelong LLEPF09 Electronics 10.1 Inch Digital Photo Frame", "price": 7670, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1_a8cc9dcc-5231-43fe-91dd-1f0c929680e9.jpg?v=1758539429", "brand": "LifeLong"}, {"id": "electronics-195", "name": "Lifelong LLUSBTF03 USB Table Fan", "price": 1764, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/MainImagecopy_2x-100.jpg?v=1773396248", "brand": "LifeLong"}, {"id": "electronics-196", "name": "Lifelong Electronics MagSafe Wireless Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/M22_2.jpg?v=1784108990", "brand": "LifeLong"}, {"id": "electronics-197", "name": "Lifelong Electronics MagSafe Wireless Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/M22_2.jpg?v=1784108990", "brand": "LifeLong"}, {"id": "electronics-198", "name": "Lifelong LLPBVM30 Electronics Magsafe Wireless Fast Charging Power Bank", "price": 1687, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1_17_a44b4ec0-1bbc-4fc2-8f1f-b29c50bf8aa2.jpg?v=1776234405", "brand": "LifeLong"}, {"id": "electronics-199", "name": "Lifelong LLTAWT20 Universal Travel Adapter 4-in-1 Fast Charger", "price": 1611, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/TA_1.jpg?v=1753261182", "brand": "LifeLong"}, {"id": "electronics-200", "name": "Lifelong LLPBVB10 10000 mAh 22.5 Watt Pocket Size Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/01_16_ca2b2208-586c-44ce-9138-23f1901def6a.jpg?v=1752144948", "brand": "LifeLong"}, {"id": "electronics-209", "name": "Lifelong LLUSBCF03 Portable Mini USB Fan with 3 Speeds", "price": 924, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/61olFu3LxJL._SL1500.jpg?v=1774337419", "brand": "LifeLong"}, {"id": "electronics-261", "name": "Lifelong LLPJH20 Electronics Lightbeam Android Smart LED Projector", "price": 7670, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLPJH20MainImage2.0.jpg?v=1790056007", "brand": "LifeLong"}, {"id": "electronics-273", "name": "Lifelong LLPBVA22 ZenCharge Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Olive_Green_LLPBVA14_2.jpg?v=1784104621", "brand": "LifeLong"}, {"id": "electronics-274", "name": "Lifelong LLPBVA21 ZenCharge Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/01_18_98c53175-978c-4d9d-a8ef-fbdd9a25afbc.jpg?v=1752145030", "brand": "LifeLong"}, {"id": "electronics-275", "name": "Lifelong LLPBVA23 Fast Charging Power Bank 22.5 Watt", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Rust_Orange_LLPBVA23_2.jpg?v=1784103853", "brand": "LifeLong"}, {"id": "electronics-276", "name": "Lifelong LLPBVA20 Compact Power Bank", "price": 1841, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA11_2.jpg?v=1784104847", "brand": "LifeLong"}, {"id": "electronics-295", "name": "Lifelong LLPBVA13 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Blue_LLPBVA13_2.jpg?v=1784105657", "brand": "LifeLong"}, {"id": "electronics-297", "name": "Lifelong LLPBVA12 Compact Power Bank", "price": 1532, "image": "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Light_Green_LLPBVA12_2.jpg?v=1784106075", "brand": "LifeLong"}]};</script>
 <script src="../../js/product.js" defer></script>
 </body>
 </html>
