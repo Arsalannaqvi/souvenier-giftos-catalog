@@ -248,6 +248,53 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   border-style: dashed;
 }
 
+/* Brand slider: compact tiles (not flat pills) so ~5 fit on a phone screen
+   at once, keeping the section short enough that the category grid below
+   still peeks into view on first load. */
+.brand-slider.chip-row { gap: 5px; padding-bottom: 6px; margin-bottom: 4px; }
+.brand-tile {
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 56px;
+  min-height: 66px;
+  height: auto;
+  padding: 7px 3px 6px;
+  border-radius: 13px;
+}
+.brand-tile-mono {
+  width: 26px; height: 26px;
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: var(--accent-text);
+  font-size: 10px; font-weight: 700; letter-spacing: 0.01em;
+}
+.chip.brand-tile[aria-pressed="true"] .brand-tile-mono {
+  background: var(--accent-text);
+  color: var(--accent);
+}
+.brand-tile-name {
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.brand-tile--ghost {
+  background: transparent;
+  border-style: dashed;
+}
+.brand-tile--ghost .brand-tile-mono {
+  background: transparent;
+  border: 1.5px dashed var(--border);
+  color: var(--text-muted);
+}
+.brand-tile--ghost .brand-tile-name { color: var(--text-muted); }
+
 /* Chip row */
 .chip-row {
   display: flex;

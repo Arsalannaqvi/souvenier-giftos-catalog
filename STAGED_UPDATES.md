@@ -8,7 +8,7 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (1)
+## Pending (2)
 
 1. **Bulk quotation builder** — adds Branding (logo engraving / screen print /
    embroidery / no branding), delivery city, needed-by date, recipient count,
@@ -18,6 +18,14 @@ Ask "how many pending" any time for a quick count.
    today's loose list. Files: `index.html`, `css/styles.css`, `js/app.js`.
    Implemented and tested locally (desktop + mobile, full send flow verified);
    committed locally, not yet pushed.
+2. **Brand slider on the homepage** — the "Brand" quick-row's flat text chips
+   are now compact tiles (monogram badge + name), sized so 5 are visible at
+   once on a phone screen with a 6th peeking at the edge, in the same
+   horizontally-scrollable row as before. Freed-up height keeps the category
+   grid peeking into view below the fold on first load. Same underlying
+   `selectBrand()`/filter logic, just restyled -- no JS behavior changes.
+   Files: `index.html`, `css/styles.css`. Tested locally (mobile short/tall
+   viewports, desktop sidebar wrap-to-grid); committed locally, not pushed.
 
 ## Shipped
 
