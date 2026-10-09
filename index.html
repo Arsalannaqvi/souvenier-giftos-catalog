@@ -146,41 +146,86 @@
   </div>
 
   <div class="sheet-body">
-    <div id="sheet-items" class="sheet-items"></div>
-    <p id="sheet-empty" class="empty-state" hidden>Your shortlist is empty. Tap "Add to enquiry" on any product.</p>
+    <div id="quote-form-view">
+      <div id="sheet-items" class="sheet-items"></div>
+      <p id="sheet-empty" class="empty-state" hidden>Your shortlist is empty. Tap "Add to enquiry" on any product.</p>
 
-    <div class="sheet-total" id="sheet-total" hidden></div>
-
-    <form id="client-form" class="client-form">
-      <label class="field">
-        <span>Your name <em>*</em></span>
-        <input id="client-name" name="name" type="text" autocomplete="name" required>
-      </label>
-      <label class="field">
-        <span>Company</span>
-        <input id="client-company" name="company" type="text" autocomplete="organization">
-      </label>
-      <label class="field">
-        <span>Your WhatsApp number <em>(optional)</em></span>
-        <input id="client-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+91 XXXXX XXXXX">
-      </label>
-      <label class="field">
-        <span>Notes</span>
-        <textarea id="client-notes" name="notes" rows="2" placeholder="Delivery date, branding, budget..."></textarea>
-      </label>
+      <div class="sheet-total" id="sheet-total" hidden></div>
 
       <div class="field">
-        <span>Send this enquiry to</span>
-        <div id="sales-picker" class="sales-picker" role="radiogroup" aria-label="Choose who to send this enquiry to"></div>
+        <span>Branding <em>(optional)</em></span>
+        <div id="branding-chips" class="chip-row chip-row--nowrap" role="radiogroup" aria-label="Branding method">
+          <button class="chip" type="button" data-branding="logo-engraving">Logo engraving</button>
+          <button class="chip" type="button" data-branding="screen-print">Screen print</button>
+          <button class="chip" type="button" data-branding="embroidery">Embroidery</button>
+          <button class="chip" type="button" data-branding="none">No branding</button>
+        </div>
       </div>
-    </form>
 
+      <form id="client-form" class="client-form">
+        <label class="field">
+          <span>Your name <em>*</em></span>
+          <input id="client-name" name="name" type="text" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span>Company</span>
+          <input id="client-company" name="company" type="text" autocomplete="organization">
+        </label>
+        <label class="field">
+          <span>Your WhatsApp number <em>(optional)</em></span>
+          <input id="client-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="+91 XXXXX XXXXX">
+        </label>
+
+        <div class="field-row">
+          <label class="field">
+            <span>Delivery city <em>(optional)</em></span>
+            <input id="client-delivery-city" name="deliveryCity" type="text" placeholder="e.g. Bengaluru">
+          </label>
+          <label class="field">
+            <span>Needed by <em>(optional)</em></span>
+            <input id="client-needed-by" name="neededBy" type="date">
+          </label>
+        </div>
+        <div class="field-row">
+          <label class="field">
+            <span>Recipient count <em>(optional)</em></span>
+            <input id="client-recipient-count" name="recipientCount" type="number" inputmode="numeric" min="1" placeholder="e.g. 100">
+          </label>
+          <label class="field">
+            <span>Budget per recipient <em>(optional)</em></span>
+            <input id="client-budget-per-recipient" name="budgetPerRecipient" type="number" inputmode="numeric" min="0" placeholder="₹">
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Notes</span>
+          <textarea id="client-notes" name="notes" rows="2" placeholder="Packaging, artwork, anything else..."></textarea>
+        </label>
+
+        <div class="field">
+          <span>Send this enquiry to</span>
+          <div id="sales-picker" class="sales-picker" role="radiogroup" aria-label="Choose who to send this enquiry to"></div>
+        </div>
+      </form>
+    </div>
+
+    <div id="quote-review-view" class="quote-review" hidden>
+      <p class="sec-title">Review before sending</p>
+      <div id="review-rows" class="review-rows"></div>
+      <p class="review-caveat">Budget shown is merchandise-only and indicative — GST, branding and delivery costs are confirmed separately. Nothing here is a final price.</p>
+    </div>
   </div>
 
   <div class="sheet-footer">
-    <button id="send-whatsapp-btn" class="send-btn" type="button" disabled>
-      Send on WhatsApp
-    </button>
+    <div id="footer-form-actions">
+      <button id="review-btn" class="send-btn" type="button" disabled>
+        Review &amp; Send
+      </button>
+    </div>
+    <div id="footer-review-actions" class="footer-review-actions" hidden>
+      <button id="review-edit-btn" class="send-btn send-btn--secondary" type="button">← Edit</button>
+      <button id="send-whatsapp-btn" class="send-btn" type="button">Confirm &amp; Send on WhatsApp</button>
+    </div>
   </div>
 </div>
 

@@ -23,6 +23,7 @@
     shortlist: new Map(), // productId -> qty
     clientKey: null,
     selectedRep: null, // { name, number } from config.salesTeam
+    branding: null, // selected branding chip key, or null
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
     pagination: { page: 1, pageSize: 24, sort: "newest" },
@@ -103,6 +104,11 @@
         company: qs("client-company").value,
         whatsapp: qs("client-whatsapp").value,
         notes: qs("client-notes").value,
+        deliveryCity: qs("client-delivery-city").value,
+        neededBy: qs("client-needed-by").value,
+        recipientCount: qs("client-recipient-count").value,
+        budgetPerRecipient: qs("client-budget-per-recipient").value,
+        branding: state.branding,
         repName: state.selectedRep ? state.selectedRep.name : null,
       };
       localStorage.setItem(STORAGE_KEYS.client, JSON.stringify(info));
@@ -813,7 +819,7 @@
       els.desktopCartBadge.hidden = itemCount === 0;
     }
     const canSubmit = itemCount > 0 && !!qs("client-name").value.trim();
-    els.sendBtn.disabled = !canSubmit || !state.selectedRep;
+    els.reviewBtn.disabled = !canSubmit || !state.selectedRep;
   }
 
   // ---------- Sheet ----------
@@ -822,6 +828,7 @@
   function openSheet() {
     lastFocusedBeforeSheet = document.activeElement;
     renderSheetItems();
+    showQuoteFormView();
     els.sheetOverlay.hidden = false;
     els.sheet.hidden = false;
     document.body.style.overflow = "hidden";
@@ -926,33 +933,131 @@
   }
 
   // ---------- WhatsApp message ----------
+  const BRANDING_LABELS = {
+    "logo-engraving": "Logo engraving",
+    "screen-print": "Screen print",
+    "embroidery": "Embroidery",
+    "none": "No branding needed",
+  };
+
+  function selectBranding(key) {
+    state.branding = state.branding === key ? null : key;
+    updateBrandingChipsUI();
+  }
+
+  function updateBrandingChipsUI() {
+    if (!els.brandingChips) return;
+    Array.from(els.brandingChips.children).forEach((btn) => {
+      btn.setAttribute("aria-pressed", String(btn.dataset.branding === state.branding));
+    });
+  }
+
+  function quoteLineItems() {
+    const items = [];
+    let totalQty = 0;
+    let totalAmount = 0;
+    let hasPrices = true;
+    state.shortlist.forEach((qty, productId) => {
+      const product = state.products.find((p) => p.id === productId);
+      if (!product) return;
+      totalQty += qty;
+      if (product.price != null) totalAmount += product.price * qty;
+      else hasPrices = false;
+      items.push({ product, qty });
+    });
+    return { items, totalQty, totalAmount, hasPrices };
+  }
+
+  function showQuoteFormView() {
+    qs("quote-form-view").hidden = false;
+    qs("quote-review-view").hidden = true;
+    qs("footer-form-actions").hidden = false;
+    qs("footer-review-actions").hidden = true;
+  }
+
+  function showQuoteReviewView() {
+    const name = qs("client-name").value.trim();
+    if (state.shortlist.size === 0 || !name || !state.selectedRep) return;
+    saveClientInfo();
+
+    const { items, totalQty, totalAmount, hasPrices } = quoteLineItems();
+    const company = qs("client-company").value.trim();
+    const deliveryCity = qs("client-delivery-city").value.trim();
+    const neededBy = qs("client-needed-by").value;
+    const recipientCount = qs("client-recipient-count").value.trim();
+    const budgetPerRecipient = qs("client-budget-per-recipient").value.trim();
+    const { currency } = state.config;
+
+    const rows = [];
+    rows.push(["Items", `${items.length} product${items.length === 1 ? "" : "s"} · ${totalQty} pcs`]);
+    if (state.branding) rows.push(["Branding", BRANDING_LABELS[state.branding]]);
+    if (deliveryCity || neededBy) {
+      rows.push(["Delivery", [deliveryCity, neededBy ? `by ${neededBy}` : ""].filter(Boolean).join(" · ")]);
+    }
+    if (recipientCount) rows.push(["Recipients", recipientCount]);
+    if (budgetPerRecipient) rows.push(["Budget / recipient", `${currency}${budgetPerRecipient} (indicative)`]);
+    rows.push(["Sending to", state.selectedRep.name]);
+
+    const rowsHTML = rows.map(([k, v]) => `
+      <div class="review-row"><span class="review-k">${k}</span><span class="review-v">${v}</span></div>
+    `).join("");
+    const totalHTML = state.config.showPrices && hasPrices
+      ? `<div class="review-row review-total"><span class="review-k">Merchandise subtotal</span><span class="review-v">${currency}${totalAmount}</span></div>`
+      : "";
+
+    qs("review-rows").innerHTML = rowsHTML + totalHTML;
+
+    qs("quote-form-view").hidden = true;
+    qs("quote-review-view").hidden = false;
+    qs("footer-form-actions").hidden = true;
+    qs("footer-review-actions").hidden = false;
+  }
+
   function buildMessage() {
     const name = qs("client-name").value.trim();
     const company = qs("client-company").value.trim();
     const whatsapp = qs("client-whatsapp").value.trim();
     const notes = qs("client-notes").value.trim();
+    const deliveryCity = qs("client-delivery-city").value.trim();
+    const neededBy = qs("client-needed-by").value;
+    const recipientCount = qs("client-recipient-count").value.trim();
+    const budgetPerRecipient = qs("client-budget-per-recipient").value.trim();
+    const { currency } = state.config;
+    const { items, totalQty, totalAmount, hasPrices } = quoteLineItems();
 
     const lines = [];
-    lines.push(`${name || "A client"} wants to enquire about:`);
+    lines.push(`*New Quote Request${company ? ` — ${company}` : ""}*`);
     lines.push("");
 
-    let i = 1;
-    let totalQty = 0;
-    state.shortlist.forEach((qty, productId) => {
-      const product = state.products.find((p) => p.id === productId);
-      if (!product) return;
-      totalQty += qty;
-      const priceText = state.config.showPrices ? ` (${money(product)})` : "";
-      lines.push(`${i}. ${product.name} — Qty: ${qty}${priceText}`);
-      i += 1;
+    lines.push("*Items*");
+    items.forEach(({ product, qty }, idx) => {
+      const brand = state.brandByProduct[product.id];
+      const brandText = brand ? ` (${brand})` : "";
+      if (state.config.showPrices && product.price != null) {
+        lines.push(`${idx + 1}. ${product.name}${brandText} — Qty ${qty} × ${currency}${product.price} = ${currency}${product.price * qty}`);
+      } else {
+        lines.push(`${idx + 1}. ${product.name}${brandText} — Qty ${qty}`);
+      }
     });
-
-    lines.push("");
-    lines.push(`Total: ${state.shortlist.size} item${state.shortlist.size === 1 ? "" : "s"}, ${totalQty} pcs`);
     lines.push("");
 
-    if (company) lines.push(`Company: ${company}`);
-    if (whatsapp) lines.push(`Client WhatsApp: ${whatsapp}`);
+    if (state.config.showPrices && hasPrices) {
+      lines.push(`*Subtotal:* ${totalQty} pcs · ${currency}${totalAmount}`);
+    } else {
+      lines.push(`*Subtotal:* ${totalQty} pcs`);
+    }
+    lines.push("");
+
+    if (state.branding) lines.push(`*Branding:* ${BRANDING_LABELS[state.branding]}`);
+    if (deliveryCity) lines.push(`*Delivery city:* ${deliveryCity}`);
+    if (neededBy) lines.push(`*Needed by:* ${neededBy}`);
+    if (recipientCount) lines.push(`*Recipients:* ${recipientCount}`);
+    if (budgetPerRecipient) lines.push(`*Budget per recipient:* ${currency}${budgetPerRecipient} (indicative, confirm with GST/branding)`);
+    if (state.branding || deliveryCity || neededBy || recipientCount || budgetPerRecipient) lines.push("");
+
+    lines.push("*Contact*");
+    lines.push(`${name || "A client"}${company ? ` · ${company}` : ""}`);
+    if (whatsapp) lines.push(whatsapp);
     if (notes) lines.push(`Notes: ${notes}`);
 
     lines.push("");
@@ -1016,6 +1121,9 @@
     els.sheetEmpty = qs("sheet-empty");
     els.sheetTotal = qs("sheet-total");
     els.sendBtn = qs("send-whatsapp-btn");
+    els.reviewBtn = qs("review-btn");
+    els.reviewEditBtn = qs("review-edit-btn");
+    els.brandingChips = qs("branding-chips");
     els.salesPicker = qs("sales-picker");
     els.lightbox = qs("lightbox");
     els.lightboxImg = qs("lightbox-img");
@@ -1084,11 +1192,17 @@
     if (savedClient.company) qs("client-company").value = savedClient.company;
     if (savedClient.whatsapp) qs("client-whatsapp").value = savedClient.whatsapp;
     if (savedClient.notes) qs("client-notes").value = savedClient.notes;
+    if (savedClient.deliveryCity) qs("client-delivery-city").value = savedClient.deliveryCity;
+    if (savedClient.neededBy) qs("client-needed-by").value = savedClient.neededBy;
+    if (savedClient.recipientCount) qs("client-recipient-count").value = savedClient.recipientCount;
+    if (savedClient.budgetPerRecipient) qs("client-budget-per-recipient").value = savedClient.budgetPerRecipient;
+    if (savedClient.branding) state.branding = savedClient.branding;
     if (savedClient.repName) {
       state.selectedRep = (state.config.salesTeam || []).find((r) => r.name === savedClient.repName) || null;
     }
 
     renderSalesPicker();
+    updateBrandingChipsUI();
     renderCategoryGrid();
     renderSidebarCategories();
     updateStickyBar();
@@ -1256,6 +1370,13 @@
       openFilterSheet();
     });
     els.sendBtn.addEventListener("click", sendWhatsApp);
+    els.reviewBtn.addEventListener("click", showQuoteReviewView);
+    els.reviewEditBtn.addEventListener("click", showQuoteFormView);
+    els.brandingChips.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip[data-branding]");
+      if (!btn) return;
+      selectBranding(btn.dataset.branding);
+    });
     qs("client-name").addEventListener("input", updateStickyBar);
     els.lightbox.addEventListener("click", closeLightbox);
     qs("lightbox-close").addEventListener("click", closeLightbox);

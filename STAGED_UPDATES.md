@@ -8,9 +8,16 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (0)
+## Pending (1)
 
-_Nothing staged yet._
+1. **Bulk quotation builder** — adds Branding (logo engraving / screen print /
+   embroidery / no branding), delivery city, needed-by date, recipient count,
+   and budget-per-recipient (indicative, labelled as such) to the shortlist
+   form; sending now goes through a Review screen first (Edit / Confirm) before
+   opening WhatsApp with a fully itemized, structured message instead of
+   today's loose list. Files: `index.html`, `css/styles.css`, `js/app.js`.
+   Implemented and tested locally (desktop + mobile, full send flow verified);
+   committed locally, not yet pushed.
 
 ## Shipped
 
