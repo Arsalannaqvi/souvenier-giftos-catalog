@@ -190,7 +190,8 @@
     els.themeToggle.textContent = isDark ? "☀️" : "🌙";
     els.themeToggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
     if (els.brandLogo) {
-      els.brandLogo.src = isDark ? "assets/logo-white.png" : "assets/logo.png";
+      // Both theme states are dark-navy now, so the white-ink logo is always correct.
+      els.brandLogo.src = "assets/logo-white.png";
     }
   }
 

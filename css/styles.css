@@ -1,49 +1,57 @@
 :root {
-  --bg: #f6f0e3;
-  --surface: #ffffff;
-  --text: #16181d;
-  --text-muted: #6b7280;
-  --border: #e5e7eb;
-  --accent: #2563eb;
-  --accent-text: #ffffff;
-  --danger: #dc2626;
-  --success: #059669;
-  --gold: #b8872b;
-  --gold-soft: #e8c879;
+  /* Futuristic luxury: midnight navy base, electric-blue + violet accents */
+  --bg: #0a0d16;
+  --surface: #121726;
+  --surface-2: #1a2036;
+  --text: #f1f3fb;
+  --text-muted: #8d96ac;
+  --border: #262d44;
+  --accent: #4d7fff;
+  --accent-2: #8b6ff5;
+  --accent-text: #080910;
+  --danger: #ff6b7d;
+  --success: #3ddc97;
+  --gold: #8b6ff5;
+  --gold-soft: #a78cfa;
   --radius: 14px;
   --radius-sm: 10px;
   --tap: 48px;
-  --shadow: 0 2px 10px rgba(0,0,0,0.06);
-  --shadow-lg: 0 -4px 24px rgba(0,0,0,0.14);
+  --shadow: 0 2px 14px rgba(0,0,0,0.35);
+  --shadow-lg: 0 -4px 28px rgba(0,0,0,0.5);
 }
 
 :root[data-theme="dark"] {
-  --bg: #15120f;
-  --surface: #1b1e25;
-  --text: #f1f2f4;
-  --text-muted: #9aa1ac;
-  --border: #2b2f38;
-  --accent: #5b8def;
-  --accent-text: #0f1115;
-  --gold: #e8c879;
-  --gold-soft: #e8c879;
-  --shadow: 0 2px 10px rgba(0,0,0,0.4);
-  --shadow-lg: 0 -4px 24px rgba(0,0,0,0.5);
+  /* Deeper variant of the same navy identity, for the explicit dark toggle */
+  --bg: #06070c;
+  --surface: #0d1120;
+  --surface-2: #141a2e;
+  --text: #f1f3fb;
+  --text-muted: #8d96ac;
+  --border: #20273c;
+  --accent: #5b8aff;
+  --accent-2: #9b81f7;
+  --accent-text: #05060a;
+  --gold: #9b81f7;
+  --gold-soft: #b4a0fa;
+  --shadow: 0 2px 14px rgba(0,0,0,0.5);
+  --shadow-lg: 0 -4px 28px rgba(0,0,0,0.6);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #15120f;
-    --surface: #1b1e25;
-    --text: #f1f2f4;
-    --text-muted: #9aa1ac;
-    --border: #2b2f38;
-    --accent: #5b8def;
-    --accent-text: #0f1115;
-    --gold: #e8c879;
-    --gold-soft: #e8c879;
-    --shadow: 0 2px 10px rgba(0,0,0,0.4);
-    --shadow-lg: 0 -4px 24px rgba(0,0,0,0.5);
+    --bg: #06070c;
+    --surface: #0d1120;
+    --surface-2: #141a2e;
+    --text: #f1f3fb;
+    --text-muted: #8d96ac;
+    --border: #20273c;
+    --accent: #5b8aff;
+    --accent-2: #9b81f7;
+    --accent-text: #05060a;
+    --gold: #9b81f7;
+    --gold-soft: #b4a0fa;
+    --shadow: 0 2px 14px rgba(0,0,0,0.5);
+    --shadow-lg: 0 -4px 28px rgba(0,0,0,0.6);
   }
 }
 
@@ -58,8 +66,14 @@ html, body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3,
+.brand h1, #business-name, .welcome-title,
+.category-label, .product-name, .pd-title, .pd-suggest-title, .pd-suggest-card-name {
+  font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -224,9 +238,9 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   padding-bottom: 2px;
 }
 .chip[aria-pressed="true"] {
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
   color: var(--accent-text);
-  border-color: var(--accent);
+  border-color: transparent;
 }
 .chip--ghost {
   background: transparent;
@@ -342,9 +356,9 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 }
 
 .chip[aria-selected="true"] {
-  background: var(--gold);
-  color: #1a1203;
-  border-color: var(--gold);
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: var(--accent-text);
+  border-color: transparent;
 }
 
 /* Results toolbar: count + per-page/sort controls, above the grid */
@@ -477,7 +491,7 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .product-action { margin-top: auto; display: flex; justify-content: flex-end; }
 
 .add-btn {
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
   color: var(--accent-text);
   border: none;
   border-radius: 999px;
@@ -532,7 +546,7 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   left: 12px; right: 12px;
   bottom: calc(12px + env(safe-area-inset-bottom));
   z-index: 30;
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
   color: var(--accent-text);
   border: none;
   border-radius: 16px;
@@ -758,8 +772,9 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   padding: 24px;
   text-align: center;
   background:
-    radial-gradient(circle at 50% 30%, rgba(184, 135, 43, 0.35), transparent 60%),
-    linear-gradient(160deg, #11141b 0%, #1a1f29 55%, #0c0e12 100%);
+    radial-gradient(circle at 20% 15%, rgba(77, 127, 255, 0.28), transparent 60%),
+    radial-gradient(circle at 85% 25%, rgba(139, 111, 245, 0.28), transparent 60%),
+    linear-gradient(160deg, #0d1326 0%, #120c22 55%, #06070c 100%);
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.35s ease;
@@ -916,7 +931,11 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .pd-title { font-size: 20px; font-weight: 700; margin: 0 0 6px; line-height: 1.3; }
 .pd-brand { font-size: 13px; color: var(--text-muted); margin: 0 0 10px; }
 .pd-brand strong { color: var(--text); }
-.pd-price { font-size: 22px; font-weight: 700; color: var(--gold); margin: 0 0 18px; }
+.pd-price {
+  font-size: 22px; font-weight: 700; margin: 0 0 18px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: var(--accent-2);
+}
 .pd-price:empty { display: none; }
 
 .pd-sizes { margin: 0 0 14px; }
@@ -941,11 +960,11 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   cursor: pointer;
   transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
-.pd-size-pill:hover { border-color: var(--gold); }
+.pd-size-pill:hover { border-color: var(--accent); }
 .pd-size-pill.on {
-  border-color: var(--gold);
-  background: var(--gold);
-  color: #1a1200;
+  border-color: transparent;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: var(--accent-text);
 }
 
 .pd-spec { font-size: 13px; color: var(--text-muted); margin: 0 0 6px; }

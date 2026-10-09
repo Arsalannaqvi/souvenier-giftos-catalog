@@ -26,7 +26,7 @@
       toggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
     }
     const logo = qs("brand-logo");
-    if (logo) logo.src = isDark ? "../../assets/logo-white.png" : "../../assets/logo.png";
+    if (logo) logo.src = "../../assets/logo-white.png";
   }
 
   function initTheme() {
