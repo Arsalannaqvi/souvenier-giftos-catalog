@@ -23713,7 +23713,7 @@
       "category": "bagsLuggageTravel",
       "name": "Samsonite Tech ICT Rolling Tote Bag",
       "price": 18287,
-      "image": "https://d39bd3o2tztcvw.cloudfront.net/2f6ae617-8cd6-4d52-afca-d9e06559f5f2.PNG",
+      "image": "https://images-static.nykaa.com/media/catalog/product/3/3/33b38a4Tech-IctTrolleyGrey_1.jpg",
       "href": "/product/2508",
       "subcategory": "Rolling Tote Bag",
       "description": "The Samsonite Tech-ICT rolling tote is a polyester laptop trolley/rolling bag from Samsonite's Tech-ICT line, built with wheels for office and travel use.",
@@ -23721,7 +23721,19 @@
         "Grey"
       ],
       "dimensions": "20 cm",
-      "sourceUrl": "https://www.nykaaman.com/samsonite-office-laptop-trolley-bag-tech-ict-20-cm-laptop-rolling-small-suitcase/p/13014820"
+      "sourceUrl": "https://www.nykaaman.com/samsonite-office-laptop-trolley-bag-tech-ict-20-cm-laptop-rolling-small-suitcase/p/13014820",
+      "images": [
+        "https://images-static.nykaa.com/media/catalog/product/3/3/33b38a4Tech-IctTrolleyGrey_1.jpg",
+        "https://images-static.nykaa.com/media/catalog/product/3/3/33b38a4Tech-IctTrolleyGrey_2.jpg",
+        "https://images-static.nykaa.com/media/catalog/product/3/3/33b38a4Tech-IctTrolleyGrey_3.jpg",
+        "https://images-static.nykaa.com/media/catalog/product/3/3/33b38a4Tech-IctTrolleyGrey_4.jpg",
+        "https://images-static.nykaa.com/media/catalog/product/3/3/33b38a4Tech-IctTrolleyGrey_5.jpg"
+      ],
+      "colours": [
+        {
+          "label": "Grey"
+        }
+      ]
     },
     {
       "id": "bagsLuggageTravel-62",
@@ -41785,7 +41797,7 @@
       "category": "kitchenAppliances",
       "name": "Orbit Elda 2in1 Toaster and Griller Sandwich / Waffle Maker",
       "price": 2033,
-      "image": "https://d39bd3o2tztcvw.cloudfront.net/727577cc-4b39-47fe-93ab-91f433c959c2.PNG",
+      "image": "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-ux2jkc.jpg",
       "href": "/product/2091",
       "subcategory": "Sandwich Maker",
       "description": "A 750W, 2-slice 2-in-1 appliance from Orbit with non-stick, detachable cooking plates that toast, grill and make waffles/sandwiches; stainless steel construction.",
@@ -41793,7 +41805,18 @@
         "Black"
       ],
       "warranty": "1 year",
-      "sourceUrl": "https://www.pepperfry.com/orbit-elda-2-in-1-sandwich-maker-1348669.html"
+      "sourceUrl": "https://www.pepperfry.com/orbit-elda-2-in-1-sandwich-maker-1348669.html",
+      "images": [
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-ux2jkc.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-8btanh.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-4k8pqq.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-kfittn.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-vzcrru.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-rtiti6.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-osug3x.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-wmjiiv.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/r/90x99/orbit-elda-2-in-1-sandwich-maker-orbit-elda-2-in-1-sandwich-maker-idymu1.jpg"
+      ]
     },
     {
       "id": "homeKitchenAppliances-339",
