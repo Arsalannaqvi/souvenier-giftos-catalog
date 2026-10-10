@@ -23,7 +23,7 @@
      changes, so a plain phone reload (no "hard refresh" gesture on
      mobile) always picks up the new version immediately instead of
      possibly reusing a stale cached copy for up to 10 minutes. -->
-<link rel="stylesheet" href="css/styles.css?v=202610102023">
+<link rel="stylesheet" href="css/styles.css?v=202610102038">
 </head>
 <body class="shop home-active">
 
@@ -40,11 +40,13 @@
 
 <header class="topbar">
   <div class="brand">
-    <img id="brand-logo" src="assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
-    <div>
-      <h1 id="business-name">Catalog</h1>
-      <p id="business-tagline" class="tagline"></p>
-    </div>
+    <button id="brand-link" class="brand-link" type="button" aria-label="Home">
+      <img id="brand-logo" src="assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+      <div>
+        <h1 id="business-name">Catalog</h1>
+        <p id="business-tagline" class="tagline"></p>
+      </div>
+    </button>
     <button id="home-btn" class="icon-btn" type="button" aria-label="Home">🏠</button>
   </div>
   <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
@@ -400,6 +402,6 @@
   </div>
 </div>
 
-<script src="js/app.js?v=202610102028" defer></script>
+<script src="js/app.js?v=202610102038" defer></script>
 </body>
 </html>
