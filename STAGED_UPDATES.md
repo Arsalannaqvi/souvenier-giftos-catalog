@@ -8,9 +8,34 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (1)
+## Pending (2)
 
-1. **Floating budget/cart widget** — replaces the plain sticky cart bar with a
+1. **Dedicated per-brand pages** — a real static page per brand (not just a
+   client-side filter), `brand/<slug>/index.html`, for every brand with 3+
+   products (46 of 59 distinct brands in `data/brands.json` clear that bar;
+   the other 13 have only 1-2 products and are noise, not a real assortment).
+   Monogram hero mark (no real brand logo images exist in this catalog) with
+   real computed stats (product count, category count, price range), a
+   category chip rail with real counts, and price/sort filters, all client-
+   side off a `window.__BRAND__` JSON payload embedded per page (no per-page
+   refetch of `products.json`) — same pattern as `scripts/generate_product_pages.py`.
+   Product cards reuse the site's real `.product-card` markup and the shared
+   shortlist localStorage key, so add-to-enquiry stays in sync with the main
+   catalog. New script: `scripts/generate_brand_pages.py` (deletes+rebuilds
+   `brand/` each run); new `js/brand.js`. Homepage integration is additive
+   only: a "View full brand page →" link appears next to the results summary
+   once a brand filter is active (`js/app.js`'s `updateToolbar`) — the
+   existing brand-tile click (`selectBrand()`) is untouched and still just
+   filters in place, no navigation. Brand pages link back to the homepage
+   pre-filtered via a new `?brand=` deep link (mirrors the existing
+   `?category=` deep link from product pages). Files: `scripts/generate_brand_pages.py`
+   (new), `js/brand.js` (new), `brand/` (new, 46 pages), `css/styles.css`,
+   `index.html`, `js/app.js`. Tested locally (mobile + desktop, 3 brands of
+   different sizes — Offikraft 147 products, boAt 347, Borosil 7 — price
+   filter, sort, the new brand-page link, the back-link round-trip, and the
+   homepage brand-tile behavior unchanged); committed locally, not pushed.
+
+2. **Floating budget/cart widget** — replaces the plain sticky cart bar with a
    draggable circular badge (grab and move anywhere on screen). Two modes:
    no budget set shows the item count; a per-recipient budget (reuses the
    "Budget per recipient" field already in the quote form, synced live) shows
