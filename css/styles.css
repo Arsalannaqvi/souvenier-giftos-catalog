@@ -1026,7 +1026,6 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     radial-gradient(circle at 20% 15%, rgba(77, 127, 255, 0.28), transparent 60%),
     radial-gradient(circle at 85% 25%, rgba(139, 111, 245, 0.28), transparent 60%),
     linear-gradient(160deg, #0d1326 0%, #120c22 55%, #06070c 100%);
-  cursor: pointer;
   opacity: 1;
   transition: opacity 0.35s ease;
 }
@@ -1067,13 +1066,6 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   color: rgba(255, 255, 255, 0.78);
   font-size: 14px;
   margin: 0;
-}
-
-.welcome-hint {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
-  margin: 10px 0 0;
-  letter-spacing: 0.02em;
 }
 
 @keyframes welcome-rise {
