@@ -1157,6 +1157,10 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 
 /* ===== "You might also like" suggestion row (both widths) ===== */
 .pd-suggest { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
+/* Homepage "Continue Browsing" reuses the same row/card styling but sits at
+   the very top of the page, so it skips the divider/top-margin meant to
+   separate it from content above. */
+.home-suggest { margin-top: 0; padding-top: 0; border-top: none; margin-bottom: 20px; }
 .pd-suggest-title { font-size: 15px; margin: 0 0 12px; }
 .pd-suggest-row {
   display: flex; gap: 10px;

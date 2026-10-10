@@ -8,7 +8,7 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (2)
+## Pending (3)
 
 1. **Dedicated per-brand pages** — a real static page per brand (not just a
    client-side filter), `brand/<slug>/index.html`, for every brand with 3+
@@ -52,6 +52,28 @@ Ask "how many pending" any time for a quick count.
    combo of items fit one recipient's kit," separate from the bulk order
    quantities the quote builder already handles. Flagging this assumption
    again since it hasn't been explicitly confirmed yet.
+
+3. **"Continue Browsing" (recently viewed) on the homepage** — the mobile home
+   view (`#home-view`) now shows a horizontal strip of the visitor's last few
+   viewed products, above "Browse Categories", hidden entirely until they've
+   actually viewed something (true first-time visitors see nothing). Product
+   pages record a view into a shared `wa-catalog:recently-viewed` localStorage
+   key (most-recent-first, deduped, capped at 12); the homepage reads it back
+   and resolves real product data. Reuses the existing `.pd-suggest`/
+   `.pd-suggest-card` row styling from the product-page "You might also like"
+   section (new `.home-suggest` CSS just drops the divider/top-margin meant
+   to separate it from content above, since here it's the first thing on the
+   page). Files: `index.html`, `css/styles.css`, `js/app.js`, `js/product.js`.
+   Tested locally (fresh-visit hidden state, 3-page view history, re-viewing
+   an item moves it to front with no duplicate, home view renders correctly,
+   no console errors on mobile or desktop); committed locally, not pushed.
+   Desktop has no distinct home view to attach this to (it always lands on
+   the full product grid) so this is mobile-only for now, same as the rest
+   of `#home-view`.
+   **Not included**: the companion "Recently Added" section from the same
+   preview. The catalog has no real date-added field, so there's no genuine
+   data to show "newest first" without guessing — flagged to the user rather
+   than faked.
 
 ## Shipped
 

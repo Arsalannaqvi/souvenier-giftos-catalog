@@ -6,6 +6,7 @@
     client: "wa-catalog:client-info",
     theme: "wa-catalog:theme",
     seenWelcome: "wa-catalog:seen-welcome",
+    recentlyViewed: "wa-catalog:recently-viewed",
   };
 
   /** @type {{config: any, categories: any[], products: any[], visibleCategories: any[], visibleProducts: any[]}} */
@@ -224,6 +225,40 @@
       .sort((a, b) => b.count - a.count);
   }
 
+  // ---------- Recently viewed (shared with product pages via localStorage) ----------
+  function loadRecentlyViewed() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEYS.recentlyViewed);
+      if (!raw) return [];
+      const ids = JSON.parse(raw);
+      if (!Array.isArray(ids)) return [];
+      return ids.map((id) => state.products.find((p) => p.id === id)).filter(Boolean);
+    } catch (_) { return []; }
+  }
+
+  function recentlyViewedCardHTML(p) {
+    const brand = state.brandByProduct[p.id];
+    const brandHTML = brand ? `<p class="pd-suggest-card-brand">${brand}</p>` : "";
+    const priceHTML = state.config.showPrices && p.price != null
+      ? `<p class="pd-suggest-card-price">${money(p)}</p>` : "";
+    const img = p.image || "";
+    return `<a class="pd-suggest-card" href="product/${p.id}/">
+      <img src="${img}" alt="" loading="lazy">
+      <div class="pd-suggest-card-body">${brandHTML}<p class="pd-suggest-card-name">${p.name}</p>${priceHTML}</div>
+    </a>`;
+  }
+
+  function renderRecentlyViewed() {
+    if (!els.recentlyViewedSection) return;
+    const products = loadRecentlyViewed();
+    if (products.length === 0) {
+      els.recentlyViewedSection.hidden = true;
+      return;
+    }
+    els.recentlyViewedRow.innerHTML = products.map(recentlyViewedCardHTML).join("");
+    els.recentlyViewedSection.hidden = false;
+  }
+
   function renderCategoryGrid() {
     const tpl = qs("category-tile-template");
     els.categoryGrid.innerHTML = "";
@@ -310,6 +345,7 @@
     els.homeView.hidden = false;
     renderCategoryGrid();
     renderSidebarCategories();
+    renderRecentlyViewed();
   }
 
   // ---------- Search / budget discovery (shared across home + category view) ----------
@@ -1254,6 +1290,8 @@
     els.brandLogo = qs("brand-logo");
     els.clientBanner = qs("client-banner");
     els.homeView = qs("home-view");
+    els.recentlyViewedSection = qs("recently-viewed-section");
+    els.recentlyViewedRow = qs("recently-viewed-row");
     els.categoryView = qs("category-view");
     els.categoryGrid = qs("category-grid");
     els.chipRow = qs("chip-row");
@@ -1361,6 +1399,7 @@
     updateBrandingChipsUI();
     renderCategoryGrid();
     renderSidebarCategories();
+    renderRecentlyViewed();
     updateStickyBar();
     buildSearchIndex();
     initBudgetWidget();

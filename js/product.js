@@ -4,12 +4,26 @@
   const STORAGE_KEYS = {
     shortlist: "wa-catalog:shortlist",
     theme: "wa-catalog:theme",
+    recentlyViewed: "wa-catalog:recently-viewed",
   };
 
   const product = window.__PRODUCT__;
   if (!product) return;
 
   function qs(id) { return document.getElementById(id); }
+
+  // ---------- Recently viewed (shared with the homepage via localStorage) ----------
+  function recordRecentlyViewed() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEYS.recentlyViewed);
+      let list = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(list)) list = [];
+      list = list.filter((id) => id !== product.id);
+      list.unshift(product.id);
+      if (list.length > 12) list = list.slice(0, 12);
+      localStorage.setItem(STORAGE_KEYS.recentlyViewed, JSON.stringify(list));
+    } catch (_) { /* storage may be unavailable */ }
+  }
 
   // ---------- Theme (mirrors js/app.js so state/look stays consistent) ----------
   function isDarkMode() {
@@ -306,6 +320,7 @@
     initSizeOptions();
     initSuggestions();
     updateStickyBar();
+    recordRecentlyViewed();
   }
 
   document.addEventListener("DOMContentLoaded", init);
