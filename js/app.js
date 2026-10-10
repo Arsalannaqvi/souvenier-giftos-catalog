@@ -24,6 +24,7 @@
     clientKey: null,
     selectedRep: null, // { name, number } from config.salesTeam
     branding: null, // selected branding chip key, or null
+    kitBudget: null, // per-recipient budget (number) for the floating widget's ring, or null
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
     pagination: { page: 1, pageSize: 24, sort: "newest" },
@@ -820,6 +821,131 @@
     }
     const canSubmit = itemCount > 0 && !!qs("client-name").value.trim();
     els.reviewBtn.disabled = !canSubmit || !state.selectedRep;
+    renderBudgetWidget();
+  }
+
+  // ---------- Floating budget/cart widget ----------
+  const BW_FILL_CIRCUMFERENCE = 175.93; // 2 * PI * r(28)
+  const BW_OVERFLOW_CIRCUMFERENCE = 197.92; // 2 * PI * r(31.5)
+
+  function kitSpend() {
+    let sum = 0;
+    state.shortlist.forEach((qty, productId) => {
+      const product = state.products.find((p) => p.id === productId);
+      if (product && product.price != null) sum += product.price;
+    });
+    return sum;
+  }
+
+  function renderBudgetWidget() {
+    if (!els.budgetWidget) return;
+    const itemCount = state.shortlist.size;
+    if (itemCount === 0) {
+      els.budgetWidget.hidden = true;
+      return;
+    }
+    els.budgetWidget.hidden = false;
+
+    const { currency } = state.config;
+    const budget = state.kitBudget;
+
+    if (!budget || budget <= 0) {
+      els.bwFill.style.strokeDashoffset = String(BW_FILL_CIRCUMFERENCE);
+      els.bwOverflow.style.strokeDashoffset = String(BW_OVERFLOW_CIRCUMFERENCE);
+      els.budgetWidget.classList.remove("over-budget");
+      els.bwValue.textContent = String(itemCount);
+      els.bwLabel.textContent = itemCount === 1 ? "item" : "items";
+      els.budgetWidget.setAttribute("aria-label", `${itemCount} item${itemCount === 1 ? "" : "s"} in shortlist — view shortlist`);
+      return;
+    }
+
+    const spend = kitSpend();
+    const ratio = spend / budget;
+    const fillRatio = Math.min(ratio, 1);
+    els.bwFill.style.strokeDashoffset = String(BW_FILL_CIRCUMFERENCE * (1 - fillRatio));
+
+    if (ratio > 1) {
+      const overflowRatio = Math.min(ratio - 1, 1); // cap visual at +100% over
+      els.bwOverflow.style.strokeDashoffset = String(BW_OVERFLOW_CIRCUMFERENCE * (1 - overflowRatio));
+      els.budgetWidget.classList.add("over-budget");
+      const over = spend - budget;
+      els.bwValue.textContent = `${currency}${over}`;
+      els.bwLabel.textContent = "over";
+      els.budgetWidget.setAttribute("aria-label", `${currency}${over} over the ${currency}${budget} per-recipient budget — view shortlist`);
+    } else {
+      els.bwOverflow.style.strokeDashoffset = String(BW_OVERFLOW_CIRCUMFERENCE);
+      els.budgetWidget.classList.remove("over-budget");
+      const left = budget - spend;
+      els.bwValue.textContent = `${currency}${left}`;
+      els.bwLabel.textContent = "left";
+      els.budgetWidget.setAttribute("aria-label", `${currency}${left} left of the ${currency}${budget} per-recipient budget — view shortlist`);
+    }
+  }
+
+  function setKitBudget(value) {
+    const n = parseFloat(value);
+    state.kitBudget = Number.isFinite(n) && n > 0 ? n : null;
+    renderBudgetWidget();
+  }
+
+  function initBudgetWidget() {
+    const el = els.budgetWidget;
+    if (!el) return;
+
+    // Default dock position: bottom-right, respecting safe-area insets.
+    const dockDefault = () => {
+      const margin = 20;
+      const safeBottom = Math.max(margin, window.innerHeight - 64 - margin);
+      el.style.left = `${Math.max(margin, window.innerWidth - 64 - margin)}px`;
+      el.style.top = `${safeBottom}px`;
+    };
+    dockDefault();
+    window.addEventListener("resize", dockDefault, { once: false });
+
+    let dragging = false;
+    let moved = false;
+    let startX = 0, startY = 0, originLeft = 0, originTop = 0;
+
+    el.addEventListener("pointerdown", (e) => {
+      dragging = true;
+      moved = false;
+      startX = e.clientX;
+      startY = e.clientY;
+      const rect = el.getBoundingClientRect();
+      originLeft = rect.left;
+      originTop = rect.top;
+      el.setPointerCapture(e.pointerId);
+    });
+
+    el.addEventListener("pointermove", (e) => {
+      if (!dragging) return;
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (!moved && Math.hypot(dx, dy) > 6) {
+        moved = true;
+        el.classList.add("dragging");
+      }
+      if (!moved) return;
+      const margin = 4;
+      const maxLeft = window.innerWidth - el.offsetWidth - margin;
+      const maxTop = window.innerHeight - el.offsetHeight - margin;
+      const nextLeft = Math.min(Math.max(margin, originLeft + dx), maxLeft);
+      const nextTop = Math.min(Math.max(margin, originTop + dy), maxTop);
+      el.style.left = `${nextLeft}px`;
+      el.style.top = `${nextTop}px`;
+    });
+
+    const endDrag = (e) => {
+      if (!dragging) return;
+      dragging = false;
+      el.classList.remove("dragging");
+      if (!moved) {
+        openSheet();
+      }
+      try { el.releasePointerCapture(e.pointerId); } catch (_) { /* ignore */ }
+    };
+    el.addEventListener("pointerup", endDrag);
+    el.addEventListener("pointercancel", endDrag);
   }
 
   // ---------- Sheet ----------
@@ -1114,6 +1240,11 @@
     els.backBtn = qs("back-btn");
     els.stickyBar = qs("sticky-bar");
     els.stickySummary = qs("sticky-summary");
+    els.budgetWidget = qs("budget-widget");
+    els.bwFill = qs("bw-fill");
+    els.bwOverflow = qs("bw-overflow");
+    els.bwValue = qs("bw-value");
+    els.bwLabel = qs("bw-label");
     els.sheetOverlay = qs("sheet-overlay");
     els.sheet = qs("shortlist-sheet");
     els.closeSheetBtn = qs("close-sheet-btn");
@@ -1200,6 +1331,8 @@
     if (savedClient.repName) {
       state.selectedRep = (state.config.salesTeam || []).find((r) => r.name === savedClient.repName) || null;
     }
+    state.kitBudget = null;
+    if (savedClient.budgetPerRecipient) setKitBudget(savedClient.budgetPerRecipient);
 
     renderSalesPicker();
     updateBrandingChipsUI();
@@ -1207,6 +1340,7 @@
     renderSidebarCategories();
     updateStickyBar();
     buildSearchIndex();
+    initBudgetWidget();
 
     // Deep link from a product page's "back to <category>" link, e.g.
     // product/electronics-404/ links to ../../?category=electronics.
@@ -1378,6 +1512,7 @@
       selectBranding(btn.dataset.branding);
     });
     qs("client-name").addEventListener("input", updateStickyBar);
+    qs("client-budget-per-recipient").addEventListener("input", (e) => setKitBudget(e.target.value));
     els.lightbox.addEventListener("click", closeLightbox);
     qs("lightbox-close").addEventListener("click", closeLightbox);
     document.addEventListener("keydown", (e) => {

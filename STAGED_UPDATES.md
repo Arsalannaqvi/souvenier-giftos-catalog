@@ -8,9 +8,25 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (0)
+## Pending (1)
 
-_Nothing staged yet._
+1. **Floating budget/cart widget** — replaces the plain sticky cart bar with a
+   draggable circular badge (grab and move anywhere on screen). Two modes:
+   no budget set shows the item count; a per-recipient budget (reuses the
+   "Budget per recipient" field already in the quote form, synced live) shows
+   a blue→violet ring filling clockwise from 12 o'clock as the kit's distinct
+   item prices approach it, with the remaining amount in the center. Over
+   budget, a second red arc sweeps from 12 o'clock in proportion to the
+   overage, layered on the completed base ring, with the center switching to
+   the overage amount. Clicking (not dragging) opens the existing shortlist
+   sheet. Files: `index.html`, `css/styles.css`, `js/app.js`. Tested locally
+   (mobile + desktop, live ring updates, drag-vs-click disambiguation, the
+   over-budget state); committed locally, not pushed.
+   Note: tracks the sum of *distinct* product prices in the shortlist against
+   the per-recipient budget (not multiplied by quantity) — i.e. "does this
+   combo of items fit one recipient's kit," separate from the bulk order
+   quantities the quote builder already handles. Flagging this assumption
+   again since it hasn't been explicitly confirmed yet.
 
 ## Shipped
 

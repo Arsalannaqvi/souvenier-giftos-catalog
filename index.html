@@ -178,6 +178,24 @@
   <span class="sticky-cta">View shortlist →</span>
 </button>
 
+<button id="budget-widget" class="budget-widget" type="button" hidden aria-label="View shortlist">
+  <svg class="bw-ring" viewBox="0 0 64 64" aria-hidden="true">
+    <defs>
+      <linearGradient id="bw-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4d7fff"></stop>
+        <stop offset="100%" stop-color="#8b6ff5"></stop>
+      </linearGradient>
+    </defs>
+    <circle class="bw-track" cx="32" cy="32" r="28"></circle>
+    <circle id="bw-fill" class="bw-fill" cx="32" cy="32" r="28"></circle>
+    <circle id="bw-overflow" class="bw-overflow" cx="32" cy="32" r="31.5"></circle>
+  </svg>
+  <span class="bw-center">
+    <span id="bw-value" class="bw-value">0</span>
+    <span id="bw-label" class="bw-label">items</span>
+  </span>
+</button>
+
 <div id="sheet-overlay" class="sheet-overlay" hidden></div>
 
 <div id="shortlist-sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">

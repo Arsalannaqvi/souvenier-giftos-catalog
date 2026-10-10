@@ -609,6 +609,89 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 }
 .sticky-cta { font-weight: 700; }
 
+/* Replaced by the floating budget widget below -- kept in the DOM/JS
+   (still computed correctly) in case we ever want it back, just hidden. */
+.sticky-bar { display: none !important; }
+
+/* ---------- Floating budget/cart widget ---------- */
+.budget-widget {
+  position: fixed;
+  left: 20px; top: 20px;
+  z-index: 32;
+  width: 64px; height: 64px;
+  border: none;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.4), 0 0 0 1px var(--border);
+  cursor: grab;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 0;
+}
+.budget-widget.dragging { cursor: grabbing; transition: none; }
+.budget-widget:not(.dragging) { transition: box-shadow 0.15s ease; }
+.budget-widget:not(.dragging):hover { box-shadow: 0 12px 32px rgba(0,0,0,0.5), 0 0 0 1px var(--accent); }
+
+.bw-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+.bw-track {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 4;
+}
+.bw-fill {
+  fill: none;
+  stroke: url(#bw-gradient);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 175.93;
+  stroke-dashoffset: 175.93;
+  transition: stroke-dashoffset 0.25s ease;
+}
+.bw-overflow {
+  fill: none;
+  stroke: var(--danger);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 197.92;
+  stroke-dashoffset: 197.92;
+  opacity: 0;
+  transition: stroke-dashoffset 0.25s ease, opacity 0.2s ease;
+}
+.budget-widget.over-budget .bw-overflow { opacity: 1; }
+
+.bw-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  pointer-events: none;
+}
+.bw-value {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.1;
+}
+.budget-widget.over-budget .bw-value { color: var(--danger); }
+.bw-label {
+  font-size: 7.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+}
+
 /* Sheet */
 .sheet-overlay {
   position: fixed; inset: 0;
