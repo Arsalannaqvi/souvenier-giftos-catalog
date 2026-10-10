@@ -170,10 +170,17 @@
     els.welcomeTagline.textContent = state.config.tagline || "";
     els.welcomeScreen.hidden = false;
     document.body.style.overflow = "hidden";
-    // Time-bound only, no tap-to-dismiss — tapping was unreliable on some
-    // mobile browsers (a layout shift from the URL bar collapsing on first
-    // touch could make the tap register as a drag and suppress the click),
-    // so the splash now always just auto-dismisses after a fixed delay.
+    // pointerdown (not click) — on mobile, a layout shift from the URL bar
+    // collapsing on first touch can make the browser treat the tap as a
+    // drag and suppress the synthetic click, so "tap anywhere" needed 2-3
+    // taps before it registered. pointerdown fires on initial contact,
+    // before that shift happens. Also auto-dismisses after 1.5s regardless,
+    // so it never gets stuck even if a tap is missed.
+    els.welcomeScreen.addEventListener("pointerdown", dismissWelcome, { once: true });
+    document.addEventListener("keydown", function onKey(e) {
+      dismissWelcome();
+      document.removeEventListener("keydown", onKey);
+    }, { once: true });
     window.setTimeout(dismissWelcome, 1500);
   }
 
