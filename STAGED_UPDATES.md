@@ -8,43 +8,28 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (1)
+## Pending (0)
 
-1. **Desktop gets a real home page — no sidebar at all while on it** —
-   desktop used to skip straight to a flat "All Products" grid on landing
-   (and whenever you clicked back/home), with no equivalent of the mobile
-   home screen. Now both breakpoints land on the same curated home
-   experience. Browsing a specific category (or "All Products") keeps
-   today's two-column layout unchanged: sidebar (Search, Categories,
-   Budget, Shop by Kit, Brand) + product grid.
-   **The home page itself drops the sidebar entirely** — Search, Brand,
-   Budget, Shop by Kit, and Continue Browsing (only once the visitor has
-   viewed a product) become full-width sections stacked above the "Browse
-   Categories" tile grid (widened to 4 columns on desktop instead of the
-   phone's 2), the same single-column shape as mobile just at desktop
-   width, instead of being squeezed into a narrow side column. "All
-   Products" is still one click away once inside a category, via the
-   sidebar's "All Products" entry. Categories list is skipped on the home
-   page since the tile grid already covers that job. A `home-active` class
-   on `<body>` swaps the desktop grid between the single-column home layout
-   and the two-column sidebar+grid layout, set/cleared by `goHome()` /
-   `openCategory()` / `browseAllProducts()` / `enterBrowseAll()` (same
-   functions that already track which view is active). Removed the old
-   auto-switch-to-all-products listener that fired when resizing across the
-   1024px breakpoint while idle on the home grid, since home is now a valid
-   view at both sizes.
-   Files: `index.html`, `js/app.js`, `css/styles.css`.
-   Tested locally at 1440×900: home page renders with no sidebar column
-   (verified `body`'s computed grid-template-columns is a single `1fr`,
-   `#discovery-bar`'s rendered width matches the full container) and the
-   right section order top-to-bottom (Search, Brand, Budget, Shop by Kit,
-   Continue Browsing populated from seeded view history, then Browse
-   Categories); opening a category correctly restores the 272px sidebar +
-   product-grid layout unchanged; the "← All categories" back button
-   returns to the no-sidebar home layout. Committed locally, not pushed.
+Nothing waiting right now — everything approved so far is live.
 
 ## Shipped
 
+- **2026-10-10** — Desktop gets a real home page — no sidebar at all while
+  on it. Desktop used to skip straight to a flat "All Products" grid on
+  landing (and whenever you clicked back/home), with no equivalent of the
+  mobile home screen. Now both breakpoints land on the same curated home
+  experience: Search, Brand, Budget, Shop by Kit, and Continue Browsing
+  (once the visitor has viewed a product) as full-width sections stacked
+  above the "Browse Categories" tile grid (4 columns on desktop) — the
+  same single-column shape as mobile, just at desktop width, with no
+  sidebar reserved. Categories list is skipped on the home page since the
+  tile grid already covers that job. Browsing a specific category (or "All
+  Products") keeps the original two-column layout unchanged: sidebar
+  (Search, Categories, Budget, Shop by Kit, Brand) + product grid; "All
+  Products" is still one click away there via the sidebar. A `home-active`
+  class on `<body>` swaps the desktop grid between the two layouts,
+  set/cleared by `goHome()` / `openCategory()` / `browseAllProducts()` /
+  `enterBrowseAll()` — `2b375192`, `72790235`, `36688721`, `9fc735b8`
 - **2026-10-10** — Dedicated per-brand pages — a real static page per brand
   (not just a client-side filter), `brand/<slug>/index.html`, for every brand
   with 3+ products (46 of 59). Monogram hero, real computed stats, category
