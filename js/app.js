@@ -27,6 +27,7 @@
     branding: null, // selected branding chip key, or null
     kitBudget: null, // per-recipient budget (number) for the floating widget's ring, or null
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
+    kits: [], // curated multi-product kits (from data/kits.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
     pagination: { page: 1, pageSize: 24, sort: "newest" },
   };
@@ -237,14 +238,13 @@
   }
 
   function recentlyViewedCardHTML(p) {
-    const brand = state.brandByProduct[p.id];
-    const brandHTML = brand ? `<p class="pd-suggest-card-brand">${brand}</p>` : "";
-    const priceHTML = state.config.showPrices && p.price != null
-      ? `<p class="pd-suggest-card-price">${money(p)}</p>` : "";
+    const brand = state.brandByProduct[p.id] || "";
+    const priceText = state.config.showPrices ? money(p) : "";
     const img = p.image || "";
-    return `<a class="pd-suggest-card" href="product/${p.id}/">
-      <img src="${img}" alt="" loading="lazy">
-      <div class="pd-suggest-card-body">${brandHTML}<p class="pd-suggest-card-name">${p.name}</p>${priceHTML}</div>
+    return `<a class="cb-item" href="product/${p.id}/"
+      data-img="${img}" data-brand="${brand}" data-name="${p.name}" data-price="${priceText}">
+      <span class="cb-name">${p.name}</span>
+      <span class="cb-price">${priceText}</span>
     </a>`;
   }
 
@@ -257,6 +257,82 @@
     }
     els.recentlyViewedRow.innerHTML = products.map(recentlyViewedCardHTML).join("");
     els.recentlyViewedSection.hidden = false;
+    initCbPreviewFloat();
+  }
+
+  // ---------- Continue Browsing hover/focus preview (JS-positioned, see CSS comment) ----------
+  function initCbPreviewFloat() {
+    if (!els.cbPreviewFloat) return;
+    const items = els.recentlyViewedRow.querySelectorAll(".cb-item");
+
+    function showFor(item) {
+      els.cbpImg.src = item.dataset.img;
+      els.cbpBrand.textContent = item.dataset.brand;
+      els.cbpBrand.hidden = !item.dataset.brand;
+      els.cbpName.textContent = item.dataset.name;
+      els.cbpPrice.textContent = item.dataset.price;
+      els.cbpPrice.hidden = !item.dataset.price;
+
+      const rect = item.getBoundingClientRect();
+      const floatWidth = 150;
+      const left = rect.left + rect.width / 2 - floatWidth / 2;
+      const minLeft = 10, maxLeft = window.innerWidth - floatWidth - 10;
+      const clampedLeft = Math.min(Math.max(left, minLeft), maxLeft);
+      const arrowX = rect.left + rect.width / 2 - clampedLeft;
+      els.cbPreviewFloat.style.left = `${clampedLeft}px`;
+      els.cbPreviewFloat.style.setProperty("--arrow-x", `${arrowX}px`);
+
+      const approxHeight = 150 + 40;
+      let top = rect.top - approxHeight - 12;
+      if (top < 8) top = rect.bottom + 12;
+      els.cbPreviewFloat.style.top = `${top}px`;
+
+      els.cbPreviewFloat.classList.add("on");
+    }
+    function hide() { els.cbPreviewFloat.classList.remove("on"); }
+
+    items.forEach((item) => {
+      item.addEventListener("pointerenter", () => showFor(item));
+      item.addEventListener("pointerleave", hide);
+      item.addEventListener("focus", () => showFor(item));
+      item.addEventListener("blur", hide);
+    });
+  }
+
+  // ---------- Curated kits ("Shop by Kit", merged into the old Occasion slot) ----------
+  function kitCardHTML(kit) {
+    const items = kit.productIds.map((pid) => state.products.find((p) => p.id === pid)).filter(Boolean);
+    if (items.length === 0) return "";
+    const total = items.reduce((sum, p) => sum + (p.price || 0), 0);
+    const thumbs = items.map((p) => `<div class="kit-thumb"><img src="${p.image || ""}" alt="" loading="lazy"></div>`).join("");
+    const contents = items.map((p) => p.name).join(", ");
+    const priceHTML = state.config.showPrices
+      ? `<p class="kit-price">${state.config.currency}${total}</p>` : "<span></span>";
+    return `<div class="kit-card" data-kit-id="${kit.id}">
+      <div class="kit-thumbs">${thumbs}</div>
+      <p class="kit-name">${kit.name}</p>
+      <p class="kit-contents">${contents}</p>
+      <div class="kit-row">
+        ${priceHTML}
+        <button class="kit-add-btn" type="button">+ Add kit</button>
+      </div>
+    </div>`;
+  }
+
+  function renderKits() {
+    if (!els.kitRow) return;
+    els.kitRow.innerHTML = state.kits.map(kitCardHTML).join("");
+  }
+
+  function addKitToShortlist(kitId) {
+    const kit = state.kits.find((k) => k.id === kitId);
+    if (!kit) return;
+    kit.productIds.forEach((pid) => {
+      const current = state.shortlist.get(pid) || 0;
+      setQty(pid, current + 1, true);
+    });
+    updateStickyBar();
+    if (!els.sheet.hidden) renderSheetItems();
   }
 
   function renderCategoryGrid() {
@@ -1292,6 +1368,11 @@
     els.homeView = qs("home-view");
     els.recentlyViewedSection = qs("recently-viewed-section");
     els.recentlyViewedRow = qs("recently-viewed-row");
+    els.cbPreviewFloat = qs("cb-preview-float");
+    els.cbpImg = qs("cbp-img");
+    els.cbpBrand = qs("cbp-brand");
+    els.cbpName = qs("cbp-name");
+    els.cbpPrice = qs("cbp-price");
     els.categoryView = qs("category-view");
     els.categoryGrid = qs("category-grid");
     els.chipRow = qs("chip-row");
@@ -1335,7 +1416,7 @@
     els.pagerLabel = qs("pager-label");
     els.searchInput = qs("search-input");
     els.budgetChips = qs("budget-chips");
-    els.occasionChips = qs("occasion-chips");
+    els.kitRow = qs("kit-row");
     els.brandChips = qs("brand-chips");
     els.moreBrandsBtn = qs("more-brands-btn");
     els.sidebarCategories = qs("sidebar-categories");
@@ -1371,6 +1452,12 @@
       state.brandByProduct = {}; // optional file; brand filter just stays empty if absent
     }
 
+    try {
+      state.kits = await fetchJSON("data/kits.json");
+    } catch (err) {
+      state.kits = []; // optional file; kit row just stays empty if absent
+    }
+
     document.title = config.businessName || "Gift Catalog";
     els.businessName.textContent = config.businessName || "Catalog";
     els.businessTagline.textContent = config.tagline || "";
@@ -1397,6 +1484,7 @@
 
     renderSalesPicker();
     updateBrandingChipsUI();
+    renderKits();
     renderCategoryGrid();
     renderSidebarCategories();
     renderRecentlyViewed();
@@ -1554,10 +1642,10 @@
       if (!btn) return;
       selectBudget(btn.dataset.budget);
     });
-    els.occasionChips.addEventListener("click", (e) => {
-      const btn = e.target.closest(".chip");
+    els.kitRow.addEventListener("click", (e) => {
+      const btn = e.target.closest(".kit-add-btn");
       if (!btn) return;
-      openCategory(btn.dataset.occasionCategory);
+      addKitToShortlist(btn.closest(".kit-card").dataset.kitId);
     });
     els.brandChips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip[data-brand]");

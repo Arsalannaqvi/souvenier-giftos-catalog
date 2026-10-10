@@ -296,6 +296,95 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 }
 .brand-tile--ghost .brand-tile-name { color: var(--text-muted); }
 
+/* ---- "Shop by Kit" row (replaces the old flat Occasion chips) ---- */
+.kit-row-scroll {
+  display: flex; gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scroll-snap-type: x proximity;
+  -ms-overflow-style: none; scrollbar-width: none;
+}
+.kit-row-scroll::-webkit-scrollbar { display: none; }
+.kit-card {
+  flex-shrink: 0; width: 190px; scroll-snap-align: start;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 12px;
+}
+.kit-thumbs { display: flex; gap: 4px; margin-bottom: 10px; }
+.kit-thumb { width: 48px; height: 48px; border-radius: 8px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--border); }
+.kit-thumb img { width: 100%; height: 100%; object-fit: contain; }
+.kit-name { font-size: 13.5px; font-weight: 700; margin: 0 0 4px; }
+.kit-contents {
+  font-size: 10.5px; color: var(--text-muted); line-height: 1.4; margin: 0 0 10px; min-height: 28px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.kit-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.kit-price {
+  font-size: 14px; font-weight: 700; margin: 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: var(--accent-2);
+}
+.kit-add-btn {
+  padding: 6px 10px; border-radius: 999px; border: none;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: var(--accent-text); font-size: 10.5px; font-weight: 700; cursor: pointer; font-family: inherit;
+  flex-shrink: 0;
+}
+
+/* ---- "Continue Browsing" (recently viewed): compact name+price row that
+   slides, with a full preview tile shown on hover/focus. The preview is
+   positioned by JS at `position: fixed` outside this row rather than as a
+   CSS child popup, because an overflow-x:auto row also clips vertical
+   overflow by spec -- a nested popup extending above/below the row would
+   get cut off. ---- */
+.cb-row {
+  display: flex; gap: 8px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: 6px;
+  -ms-overflow-style: none; scrollbar-width: none;
+}
+.cb-row::-webkit-scrollbar { display: none; }
+.cb-item {
+  flex-shrink: 0; scroll-snap-align: start;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+  padding: 11px 16px; border-radius: 12px; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--border);
+  transition: border-color 0.15s;
+  font-family: inherit; text-decoration: none; color: inherit;
+}
+.cb-item:hover, .cb-item:focus-visible { border-color: var(--accent); outline: none; }
+.cb-name { font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+.cb-price {
+  font-size: 12.5px; font-weight: 700;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: var(--accent-2);
+}
+
+.cb-preview-float {
+  position: fixed;
+  width: 150px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(6px) scale(0.96);
+  pointer-events: none;
+  transition: opacity 0.14s ease, transform 0.14s ease;
+  z-index: 50;
+}
+.cb-preview-float.on { opacity: 1; transform: translateY(0) scale(1); }
+.cb-preview-float::after {
+  content: "";
+  position: absolute; top: 100%; left: var(--arrow-x, 50%); transform: translateX(-50%);
+  border: 6px solid transparent; border-top-color: var(--surface);
+}
+.cb-preview-float img { width: 100%; aspect-ratio: 1; object-fit: contain; background: var(--surface-2); border-radius: 8px; margin-bottom: 8px; display: block; }
+.cb-preview-float .cb-preview-brand { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent); margin: 0 0 2px; }
+.cb-preview-float .cb-preview-name { font-size: 11.5px; font-weight: 650; line-height: 1.3; margin: 0 0 4px; }
+.cb-preview-float .cb-preview-price { font-size: 12.5px; font-weight: 800; margin: 0; color: var(--accent-2); }
+
 /* Chip row */
 .chip-row {
   display: flex;
@@ -1157,10 +1246,6 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 
 /* ===== "You might also like" suggestion row (both widths) ===== */
 .pd-suggest { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border); }
-/* Homepage "Continue Browsing" reuses the same row/card styling but sits at
-   the very top of the page, so it skips the divider/top-margin meant to
-   separate it from content above. */
-.home-suggest { margin-top: 0; padding-top: 0; border-top: none; margin-bottom: 20px; }
 .pd-suggest-title { font-size: 15px; margin: 0 0 12px; }
 .pd-suggest-row {
   display: flex; gap: 10px;

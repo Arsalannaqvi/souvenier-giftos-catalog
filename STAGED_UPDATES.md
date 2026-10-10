@@ -8,7 +8,7 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (3)
+## Pending (4)
 
 1. **Dedicated per-brand pages** — a real static page per brand (not just a
    client-side filter), `brand/<slug>/index.html`, for every brand with 3+
@@ -53,27 +53,62 @@ Ask "how many pending" any time for a quick count.
    quantities the quote builder already handles. Flagging this assumption
    again since it hasn't been explicitly confirmed yet.
 
-3. **"Continue Browsing" (recently viewed) on the homepage** — the mobile home
-   view (`#home-view`) now shows a horizontal strip of the visitor's last few
-   viewed products, above "Browse Categories", hidden entirely until they've
-   actually viewed something (true first-time visitors see nothing). Product
-   pages record a view into a shared `wa-catalog:recently-viewed` localStorage
-   key (most-recent-first, deduped, capped at 12); the homepage reads it back
-   and resolves real product data. Reuses the existing `.pd-suggest`/
-   `.pd-suggest-card` row styling from the product-page "You might also like"
-   section (new `.home-suggest` CSS just drops the divider/top-margin meant
-   to separate it from content above, since here it's the first thing on the
-   page). Files: `index.html`, `css/styles.css`, `js/app.js`, `js/product.js`.
-   Tested locally (fresh-visit hidden state, 3-page view history, re-viewing
-   an item moves it to front with no duplicate, home view renders correctly,
-   no console errors on mobile or desktop); committed locally, not pushed.
-   Desktop has no distinct home view to attach this to (it always lands on
-   the full product grid) so this is mobile-only for now, same as the rest
-   of `#home-view`.
+3. **"Continue Browsing" (recently viewed) on the homepage — compact sliding
+   row with hover preview** — the mobile home view (`#home-view`/discovery
+   bar) shows a single horizontally-scrolling row of the visitor's last few
+   viewed products, hidden entirely until they've actually viewed something
+   (true first-time visitors see nothing). Each item shows only name + price
+   (`.cb-item`/`.cb-name`/`.cb-price`); hovering (desktop) or focusing
+   (keyboard) reveals a full product preview tile — image, brand, name,
+   price — positioned by JS (`getBoundingClientRect()`) in a shared
+   `#cb-preview-float` element at `position: fixed`, above the hovered item
+   with edge-clamping so it never runs off-screen, and a CSS-variable
+   (`--arrow-x`) pointer triangle that stays aimed at the item even when the
+   tile itself is clamped away from center. The JS-positioned approach (not a
+   CSS child popup) is required because a horizontally-scrolling row
+   (`overflow-x: auto`) also clips vertical overflow per spec — a popup
+   nested inside would get cut off. Items are still real links
+   (`<a href="product/<id>/">`) so clicking navigates normally; the preview
+   is purely additive. Supersedes the earlier vertical-card version of this
+   same feature (reused `.pd-suggest-card` styling) — replaced before ever
+   shipping. Product pages still record each view into the shared
+   `wa-catalog:recently-viewed` localStorage key (most-recent-first, deduped,
+   capped at 12); the homepage reads it back and resolves real product data.
+   Files: `index.html`, `css/styles.css`, `js/app.js`, `js/product.js`.
+   Tested locally (mobile viewport, 5-item seeded history, hover preview
+   shows correct real image/brand/name/price, right-edge item clamps
+   correctly with the arrow still pointing at it, clicking an item navigates
+   to the right product page, fresh-visit hidden state); committed locally,
+   not pushed. Desktop has no distinct home view to attach this to (it always
+   lands on the full product grid) so this is mobile-only for now, same as
+   the rest of `#home-view`.
    **Not included**: the companion "Recently Added" section from the same
-   preview. The catalog has no real date-added field, so there's no genuine
-   data to show "newest first" without guessing — flagged to the user rather
-   than faked.
+   original preview. The catalog has no real date-added field, so there's no
+   genuine data to show "newest first" without guessing — flagged to the
+   user rather than faked.
+   **Open question, not yet resolved**: hover doesn't exist on touch devices
+   (the primary audience here) — on mobile the preview currently only shows
+   via keyboard focus, not touch. Worth a decision (tap-and-hold vs. just
+   showing the image inline) before this ships live.
+
+4. **"Shop by Kit" — merged into the old Occasion row** — replaces the old
+   2-chip Occasion row (🪔 Diwali Hampers / 🏆 Recognition & Awards) in the
+   exact same homepage slot, zero net height added. Shows a horizontally-
+   scrolling row of curated kits (3 real products bundled as a set), each
+   card with thumbnails of its contents, the kit name, a 2-line-clamped list
+   of what's inside, the combined real price, and a "+ Add kit" button that
+   adds all of the kit's component products to the shortlist in one tap
+   (reuses the existing `setQty()`/shortlist logic — no new cart mechanism).
+   New data file `data/kits.json` (3 kits to start — Joining Kit, Festive
+   Hamper, Recognition Kit — every product ID in it verified real against
+   `data/products.json` before writing); fetched client-side with a graceful
+   fallback to an empty array if the file is ever missing, so a missing/empty
+   kits file just means the row stays empty rather than breaking the page.
+   Files: `index.html`, `css/styles.css`, `js/app.js`, `data/kits.json` (new).
+   Tested locally (mobile viewport: all 3 kits render with correct real
+   thumbnails/names/contents/prices, "+ Add kit" correctly adds all 3
+   component products and updates the budget widget count, no console
+   errors); committed locally, not pushed.
 
 ## Shipped
 

@@ -61,11 +61,8 @@
     </div>
   </div>
   <div class="quick-row">
-    <span class="quick-label">Occasion</span>
-    <div id="occasion-chips" class="chip-row chip-row--nowrap">
-      <button class="chip" type="button" data-occasion-category="diwaliHampers">🪔 Diwali Hampers</button>
-      <button class="chip" type="button" data-occasion-category="trophiesMedalsAwards">🏆 Recognition &amp; Awards</button>
-    </div>
+    <span class="quick-label">Shop by Kit</span>
+    <div id="kit-row" class="kit-row-scroll"></div>
   </div>
   <div class="quick-row">
     <span class="quick-label">Brand</span>
@@ -132,9 +129,9 @@
 
 <main id="main">
   <section id="home-view" class="view">
-    <section id="recently-viewed-section" class="pd-suggest home-suggest" hidden>
-      <h2 class="pd-suggest-title">Continue Browsing</h2>
-      <div id="recently-viewed-row" class="pd-suggest-row"></div>
+    <section id="recently-viewed-section" class="quick-row" hidden>
+      <span class="quick-label">Continue Browsing</span>
+      <div id="recently-viewed-row" class="cb-row"></div>
     </section>
     <h2 class="section-title">Browse Categories</h2>
     <div id="category-grid" class="category-grid"></div>
@@ -346,6 +343,13 @@
 <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Product image">
   <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Close">✕</button>
   <img id="lightbox-img" class="lightbox-img" src="" alt="">
+</div>
+
+<div id="cb-preview-float" class="cb-preview-float" aria-hidden="true">
+  <img id="cbp-img" src="" alt="">
+  <p class="cb-preview-brand" id="cbp-brand"></p>
+  <p class="cb-preview-name" id="cbp-name"></p>
+  <p class="cb-preview-price" id="cbp-price"></p>
 </div>
 
 <div id="filter-sheet-overlay" class="sheet-overlay" hidden></div>

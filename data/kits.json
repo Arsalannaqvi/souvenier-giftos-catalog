@@ -1,0 +1,17 @@
+[
+  {
+    "id": "joining-kit",
+    "name": "Joining Kit",
+    "productIds": ["stationary-25", "drinkware-178", "bagsLuggageTravel-192"]
+  },
+  {
+    "id": "festive-hamper",
+    "name": "Festive Hamper",
+    "productIds": ["edible-77", "edible-8", "drinkware-174"]
+  },
+  {
+    "id": "recognition-kit",
+    "name": "Recognition Kit",
+    "productIds": ["trophiesMedalsAwards-260", "stationary-14", "stationary-27"]
+  }
+]
