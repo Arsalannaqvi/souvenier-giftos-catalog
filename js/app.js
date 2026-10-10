@@ -168,6 +168,19 @@
     try { localStorage.setItem(STORAGE_KEYS.seenWelcome, String(Date.now())); } catch (_) { /* ignore */ }
   }
 
+  // True only for an actual browser reload (refresh button / pull-to-
+  // refresh / F5) — distinct from a regular link click or the back/forward
+  // button, which is how "go back from a product page" normally happens
+  // and should NOT re-show the splash. The Navigation Timing API tells
+  // these apart reliably; a reload should always show the splash again,
+  // even within the "already seen" window below.
+  function isReloadNavigation() {
+    try {
+      const nav = performance.getEntriesByType("navigation")[0];
+      return Boolean(nav) && nav.type === "reload";
+    } catch (_) { return false; }
+  }
+
   // Arms the welcome splash's dismissal (tap + auto-timeout). Deliberately
   // synchronous and called before the catalog data fetch, NOT after it —
   // it previously only got wired up once data.json/config.json resolved,
@@ -176,7 +189,7 @@
   // the browser's native double-tap-zoom instead). Dismissal must never
   // depend on data actually loading.
   function armWelcomeDismissal() {
-    if (hasSeenWelcome()) {
+    if (hasSeenWelcome() && !isReloadNavigation()) {
       // Element has no "hidden" attribute in the markup by default (it's
       // normally shown then auto-dismissed) — explicitly hide it when
       // skipping, instead of just not-showing-it.
