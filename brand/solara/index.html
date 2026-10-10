@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Solara — Souvenier Giftos</title>
+<meta name="description" content="Solara — 21 products — Kitchen Appliances">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Solara on Souvenier Giftos">
+<meta property="og:description" content="Solara — 21 products — Kitchen Appliances">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Solara" class="pd-back"><span aria-hidden="true">←</span> Solara</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">SO</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Solara</h2>
+      <p class="brand-hero-desc">21 products across Kitchen Appliances and Drinkware — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>21</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>2</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹321&ndash;9551</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Solara products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Solara", "slug": "solara", "description": "21 products across Kitchen Appliances and Drinkware \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "kitchenAppliances", "label": "Kitchen Appliances", "count": 13}, {"id": "drinkware", "label": "Drinkware", "count": 8}], "priceMin": 321, "priceMax": 9551, "products": [{"id": "drinkware-156", "name": "Solara Insulated water bottles", "price": 1204, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/IWB_Angle_pink_001_1.jpg?v=1751479056", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-157", "name": "Solara Single wall Water Bottle", "price": 361, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/71nKR_bKhWL._SX679.jpg?v=1723541219", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-158", "name": "Solara Echo Insulated Tumbler", "price": 1256, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Echo_Main_Image_3_copy.jpg?v=1765175259", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Tumbler"}, {"id": "drinkware-159", "name": "Solara Glass Tumbler with Bamboo Lid", "price": 489, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/613Mq-D4y8L._SX679.jpg?v=1767676623", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Tumbler"}, {"id": "drinkware-160", "name": "Solara Single Wall Stainless Steel Water Bottle 1 Ltr", "price": 321, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/71nKR_bKhWL._SX679.jpg?v=1723541219", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-161", "name": "Solara Motiavtional Water Bottle 1 Ltr", "price": 761, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Cool_Aqua_1L_1.webp?v=1788779420", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-162", "name": "Solara Insulated water bottles 1 Ltr", "price": 1571, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/IWB_Angle_pink_001_1.jpg?v=1751479056", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-163", "name": "Solara Insulated water bottle 650 ml", "price": 1204, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/1_10_d9d1b300-431c-403a-b232-a479fa35d01b.jpg?v=1739530384", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "homeKitchenAppliances-538", "name": "Solara Hand Blender Portable (Blend Kwik Pro)", "price": 2936, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Artboard1_4c2a256c-8005-4fa8-be3c-c626dd3eb7a6.png?v=1777447906", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Blender"}, {"id": "homeKitchenAppliances-541", "name": "Solara Sterra - Triply Cookware Fry Pan", "price": 978, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/20cm_For_2-3_People.jpg?v=1783406752", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Frying Pans"}, {"id": "homeKitchenAppliances-542", "name": "Solara Montclaire Fry Pan", "price": 1257, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Montclaire_FP_001_V1.png?v=1772426140", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Frying Pans"}, {"id": "homeKitchenAppliances-543", "name": "Solara Montclaire Kadai", "price": 1571, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Montclaire_KD_001__V1.png?v=1770099933", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Kadhai & Woks"}, {"id": "homeKitchenAppliances-544", "name": "Solara Ceremic Cookware - Fry Pan", "price": 1256, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Lisiting_image_2_copy_5189506c-43f0-49d9-a497-a8e2ee30e4f9.jpg?v=1773060096", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Frying Pans"}, {"id": "homeKitchenAppliances-545", "name": "Solara Ceremic Cookware - Kadai with Lid", "price": 1676, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Lisiting_image_3_copy_707f6435-64ca-438b-b8ca-d7b618c21f97.jpg?v=1763533923", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": null}, {"id": "homeKitchenAppliances-546", "name": "Solara Cast Iron-Paniyaram Pan", "price": 1104, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/paniyaramMainimage_08cbb1c3-455d-4939-a5ed-e8f30a255347.png?v=1751697303", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Frying Pans"}, {"id": "homeKitchenAppliances-547", "name": "Solara Cast Iron Kadhai- 10 Inch", "price": 1152, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Crownstone_Tawa_Kadai_Combo_d0aa1620-1e1c-4ee4-90f3-1240549fa6cf.jpg?v=1751709499", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Kadhai & Woks"}, {"id": "homeKitchenAppliances-548", "name": "Solara Crownstone Cast Iron Dosa Tawa 12 inch", "price": 1551, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/Mainimage_2049261a-6156-4962-9846-1b0272c923fe.png?v=1751706895", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Tawas"}, {"id": "homeKitchenAppliances-549", "name": "Solara Airfryer Oven 12 L", "price": 9551, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/AFO_001_1.jpg?v=1769774691", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Airfryer"}, {"id": "homeKitchenAppliances-550", "name": "Solara Airfryer Oven 4.5 L", "price": 4297, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/WhatsAppImage2025-06-06at13.04.49_685398c1.jpg?v=1750843308", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Airfryer"}, {"id": "homeKitchenAppliances-552", "name": "Solara Cold Press Juicer", "price": 8281, "image": "https://cdn.shopify.com/s/files/1/0024/1644/3437/files/WhatsAppImage2025-09-20at8.49.32PM.jpg?v=1770100045", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Cold Press Juicers"}, {"id": "homeKitchenAppliances-539", "name": "Solara 2 in 1 Oil Glass Bottle Sprayer", "price": 409, "image": "https://d39bd3o2tztcvw.cloudfront.net/cc6c4040-5bc4-45b8-a5d2-7158f6f95ea7.jpeg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": null}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

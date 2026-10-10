@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Borosil — Souvenier Giftos</title>
+<meta name="description" content="Borosil — 7 products — Drinkware">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Borosil on Souvenier Giftos">
+<meta property="og:description" content="Borosil — 7 products — Drinkware">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Borosil" class="pd-back"><span aria-hidden="true">←</span> Borosil</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">BO</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Borosil</h2>
+      <p class="brand-hero-desc">7 products across Drinkware and Kitchen Appliances — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>7</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>2</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹370&ndash;3574</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Borosil products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Borosil", "slug": "borosil", "description": "7 products across Drinkware and Kitchen Appliances \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "drinkware", "label": "Drinkware", "count": 6}, {"id": "kitchenAppliances", "label": "Kitchen Appliances", "count": 1}], "priceMin": 370, "priceMax": 3574, "products": [{"id": "drinkware-195", "name": "Borosil Vacuum Insulated Hike Tumbler 480ml", "price": 729, "image": "https://myborosil.com/cdn/shop/files/my-borosil-insulated-mug-480-ml-hike-tumbler-480-ml-32973723041930.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Tumbler"}, {"id": "drinkware-196", "name": "Borosil Hydra GoSports Bottle 900ml", "price": 1097, "image": "https://myborosil.com/cdn/shop/files/my-borosil-stainless-steel-bottles-900-ml-borosil-gosport-green-33297704517770_2024-05-24T10_24_53.609Z.png", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-197", "name": "Borosil Trek 700ml Bottle", "price": 884, "image": "https://tintbox.in/cdn/shop/files/0_24f00d9a-1a54-4053-8248-afe1f70ee8fe.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-198", "name": "Grip-N-Sip 750 Bottle", "price": 370, "image": "https://myborosil.com/cdn/shop/files/my-borosil-stainless-steel-bottles-750-ml-grip-n-sip-black-32307477184650_cec1595b-5863-4a3c-93d6-427d28cb0fda.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-199", "name": "Borosil SS Hydra Nova 500ml Bottle", "price": 729, "image": "https://myborosil.com/cdn/shop/products/my-borosil-drinkware-500-ml-nova-blue-29838173372554.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-202", "name": "Borosil Hydra Trek Black 500ml Bottle", "price": 749, "image": "https://tintbox.in/cdn/shop/files/0_24f00d9a-1a54-4053-8248-afe1f70ee8fe.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "homeKitchenAppliances-595", "name": "Borosil Blender", "price": 3574, "image": "https://d39bd3o2tztcvw.cloudfront.net/066f63d9-021e-4d04-9ef2-cc759e4e7326.jpeg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Blender"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

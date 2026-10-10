@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Campus — Souvenier Giftos</title>
+<meta name="description" content="Campus — 24 products — Apparel">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Campus on Souvenier Giftos">
+<meta property="og:description" content="Campus — 24 products — Apparel">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Campus" class="pd-back"><span aria-hidden="true">←</span> Campus</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">CA</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Campus</h2>
+      <p class="brand-hero-desc">24 products across Apparel — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>24</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>1</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹799&ndash;2999</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Campus products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Campus", "slug": "campus", "description": "24 products across Apparel \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "apparel", "label": "Apparel", "count": 24}], "priceMin": 799, "priceMax": 2999, "products": [{"id": "apparel-151", "name": "Campus Camp Spunky", "price": 2999, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CAMP-SPUNKY_22G-966_BLK-F.ORG_2.jpg?v=1756817941", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-152", "name": "Campus Pedro", "price": 2599, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/PEDRO_22G-856_OLIVE-MSTD_2.jpg?v=1756817929", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-153", "name": "Campus OG-14", "price": 1999, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/OG_14_22G_1157_WHT_NAVY_2.jpg?v=1755510364", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-154", "name": "Campus Camp-Erik", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CAMPERIK_22G-107_L.GRY-RED_01.webp?v=1789559801", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-155", "name": "Campus Promote", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/PROMOTE-22G-251A-M.BLU-GOLDEN_2.jpg?v=1756817959", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-156", "name": "Campus Level", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/LEVEL_LEVEL_WHT-L.GRY_07_831c7a2c-ff1b-4011-9268-b11f984219c6.webp?v=1757580207", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-157", "name": "Campus Camp-Paul", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CAMPPAUL_22G-179_S.GRN-M.BLU_2.jpg?v=1755520928", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-158", "name": "Campus Bonus", "price": 1899, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/BONUS_22G-255_L.GRY-R.SLATE_3.jpg?v=1755510807", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-159", "name": "Campus Vesper", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/VESPER_VESPER_WHT-NAVY_07.webp?v=1758174770", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-160", "name": "Campus Cyber", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/CYBER_22G-1003_D.GRY-F.ORG_2.jpg?v=1755510129", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-161", "name": "Campus Panel", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/PANEL_22G-1056_NAVY-SILVER_01.webp?v=1763980419", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-162", "name": "Campus Stranger", "price": 1599, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/STRANGER_22G-896_OFFWHT-GOLDEN_2.jpg?v=1755521046", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-163", "name": "Campus Davis", "price": 1399, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/DAVIS_9G-161B_WHT_LGRY_07.webp?v=1757596246", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-164", "name": "Campus Vacum", "price": 1049, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/VACUM-9G-160-D.GRY-MSTD_2_93304b96-ad9b-4fcc-8e07-fa6cfb83c118.jpg?v=1756268317", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-165", "name": "Campus Keren", "price": 2199, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/KEREN_6L-109_BLU-T.BLU_2_a59334cd-b54f-4637-9323-41b750428401.jpg?v=1755521070", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-166", "name": "Campus Bliss", "price": 1799, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/BLISS-11G-769-NAVY-R.SLATE_2_1fac7539-4ebc-4324-b0d8-5c8f4ae2aff2.jpg?v=1755521052", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-167", "name": "Campus Camp-Lex", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/CAMP-LEX_22L-887_WHT-L.GRY_2_41beb19d-88fb-41c6-9b66-3f2e58b9dccc.jpg?v=1755511552", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-168", "name": "Campus Savvy", "price": 1699, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/SAVVY-22L-930-NAVY-PINK_2.jpg?v=1756366815", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-169", "name": "Campus Mermaid", "price": 1499, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/MERMAID_22L-856_PEACH-BEIGE_2.jpg?v=1755521007", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-170", "name": "Campus Annie", "price": 1399, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/ANNIE_22L-204_ROSE-PINK_2_685b28a4-d4a6-4499-bb08-52e38203b500.jpg?v=1757479609", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-171", "name": "Campus GC-2209", "price": 1199, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/GC-2209_GC-2209_NAVY-N.ORG_2.jpg?v=1754557976", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-172", "name": "Campus Xperia-2", "price": 799, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/3K-561A-G-NAVY-LGRY-TBLU_2.jpg?v=1755521055", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-173", "name": "Campus 2GC-01", "price": 799, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/2GC-01-RUST-BEIGE_2.jpg?v=1756366855", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}, {"id": "apparel-174", "name": "Campus GC-1084", "price": 799, "image": "https://cdn.shopify.com/s/files/1/0607/6678/1671/files/GC-1084_GC-1084_NAVY_02.jpg?v=1756366720", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Campus"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

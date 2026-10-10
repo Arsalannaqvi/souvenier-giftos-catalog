@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Fererro Rocher — Souvenier Giftos</title>
+<meta name="description" content="Fererro Rocher — 6 products — Edible">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fererro Rocher on Souvenier Giftos">
+<meta property="og:description" content="Fererro Rocher — 6 products — Edible">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Fererro%20Rocher" class="pd-back"><span aria-hidden="true">←</span> Fererro Rocher</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">FR</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Fererro Rocher</h2>
+      <p class="brand-hero-desc">6 products across Edible — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>6</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>1</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹209&ndash;972</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Fererro Rocher products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Fererro Rocher", "slug": "fererro-rocher", "description": "6 products across Edible \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "edible", "label": "Edible", "count": 6}], "priceMin": 209, "priceMax": 972, "products": [{"id": "edible-49", "name": "Ferrero Rocher T32", "price": 618, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t32.png?t=1787906682", "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates"}, {"id": "edible-50", "name": "Ferrero Rocher T16", "price": 332, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t16_0.png?t=1787906682", "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates"}, {"id": "edible-51", "name": "Ferrero Rocher T4", "price": 209, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t4-608x548.png?t=1787906682", "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates"}, {"id": "edible-52", "name": "Ferrero Rocher T8", "price": 393, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2023-09/t8_.png?t=1787906682", "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates"}, {"id": "edible-53", "name": "Ferrero Rocher T16", "price": 618, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t16_0.png?t=1787906682", "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates"}, {"id": "edible-54", "name": "Ferrero Rocher T24", "price": 972, "image": "https://www.ferrerorocher.com/in/sites/ferrerorocher20_in/files/2022-09/t24.png?t=1787906682", "category": "edible", "categoryLabel": "Edible", "subcategory": "chocolates"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

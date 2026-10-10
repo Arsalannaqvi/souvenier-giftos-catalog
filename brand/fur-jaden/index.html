@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Fur Jaden — Souvenier Giftos</title>
+<meta name="description" content="Fur Jaden — 40 products — Bags, Luggage and Travel">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fur Jaden on Souvenier Giftos">
+<meta property="og:description" content="Fur Jaden — 40 products — Bags, Luggage and Travel">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Fur%20Jaden" class="pd-back"><span aria-hidden="true">←</span> Fur Jaden</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">FJ</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Fur Jaden</h2>
+      <p class="brand-hero-desc">40 products across Bags, Luggage and Travel — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>40</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>1</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹828&ndash;7179</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Fur Jaden products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Fur Jaden", "slug": "fur-jaden", "description": "40 products across Bags, Luggage and Travel \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "bagsLuggageTravel", "label": "Bags, Luggage and Travel", "count": 40}], "priceMin": 828, "priceMax": 7179, "products": [{"id": "bagsLuggageTravel-40", "name": "Fur Jaden The Voyager SC05 Small", "price": 6381, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Front1.2.jpg?v=1768484786", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-41", "name": "Fur Jaden SC05 The Voyager Medium", "price": 7179, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Front1.2.jpg?v=1768484786", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-44", "name": "Fur Jaden SC14 The Puffer Pop", "price": 3290, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_ed8d59ce-a6a6-4cb4-8f9b-218b18adea47.jpg?v=1765390462", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-47", "name": "Fur Jaden SC09 Pro Laptop Trolley Bag", "price": 3590, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_b84413da-e6b4-4352-a834-b59527fa0ea6.jpg?v=1758463391", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-48", "name": "Fur Jaden SC09 The Aviator", "price": 3889, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_0d8913c6-e894-42ef-ada2-07ccd44e86f3.jpg?v=1765471576", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-49", "name": "Fur Jaden SC07 Laptop", "price": 3590, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_b3277469-a18a-4dc8-91d8-07af87b62794.jpg?v=1764181995", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-53", "name": "Fur Jaden MW66 Crossbody", "price": 996, "image": "https://www.furjaden.com/cdn/shop/files/website_87.jpg?v=1729763737", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Crossbody Sling Bag"}, {"id": "bagsLuggageTravel-75", "name": "Fur Jaden DUFF80 The Explorer Duffle", "price": 2293, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_21ded8e8-c47e-4eaf-a04d-a806ce4bcfa6.jpg?v=1781616168", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Duffle bags"}, {"id": "bagsLuggageTravel-76", "name": "Fur Jaden DUFF77", "price": 2293, "image": "https://www.furjaden.com/cdn/shop/files/DUFF76_Blackcopy2.jpg?v=1781687806", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Duffle bags"}, {"id": "bagsLuggageTravel-83", "name": "FurJaden MW67 Padel / Pickleball", "price": 1994, "image": "https://www.furjaden.com/cdn/shop/files/BM179_d456f1f7-d030-4f26-a631-c7e719d9ccb2.jpg?v=1749227490", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Crossbody Sling Bag"}, {"id": "bagsLuggageTravel-85", "name": "Fur Jaden MW65 Crossbody Sling Bag", "price": 1396, "image": "https://www.furjaden.com/cdn/shop/files/2_94807153-42df-4f31-baa8-663636ac9b8d.jpg?v=1741631893", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Crossbody Sling Bag"}, {"id": "bagsLuggageTravel-87", "name": "Fur Jaden MW54 Cruelty Free Vegan Leather Crossbody", "price": 1197, "image": "https://www.furjaden.com/cdn/shop/files/thumbmail2.jpg?v=1684136144", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Crossbody Sling Bag"}, {"id": "bagsLuggageTravel-90", "name": "Fur Jaden BM38-S Superman", "price": 2892, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_866b6acf-d713-4c46-af30-a008c26732b5.jpg?v=1760027593", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-91", "name": "Fur Jaden BM38 Batman", "price": 2892, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main3_f26b5571-16ec-4a0a-b3f2-1eaa11f1869c.jpg?v=1785159720", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-101", "name": "Fur Jaden BM185 The Explorer", "price": 3590, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_20eb7b0e-dae1-443f-add1-c733723207b1.jpg?v=1782984182", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-103", "name": "Fur Jaden BM179 The Cloud Commuter", "price": 3191, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_5e5a6618-c300-4659-879b-4965f3dd792c.jpg?v=1763039367", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-104", "name": "Fur Jaden BM178 The Globetrotter", "price": 1296, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/7_1a82d486-1bb7-4219-82c0-189caf0ef02b.jpg?v=1779522355", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-105", "name": "Fur Jaden BM176-S The Urban Nomad Superman Edition", "price": 4188, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main2_70231fea-e531-45bb-b804-d5118f58bd55.jpg?v=1773165082", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-106", "name": "Fur Jaden BM176 The Urban Nomad", "price": 3590, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main2_0d7e5dc2-d67c-49e9-a13a-627968576c74.jpg?v=1758385283", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-108", "name": "Fur Jaden BM174 The Navigator", "price": 2792, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1BEST_Lightcopy.jpg?v=1749484453", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-109", "name": "Fur Jaden BM171 Batman", "price": 2792, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/BM171-1Main_bc5cf611-ae4c-49c4-8ac3-242d1e608d90.jpg?v=1779042446", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-113", "name": "Fur Jaden BM178-B Batman", "price": 1595, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/7_1a82d486-1bb7-4219-82c0-189caf0ef02b.jpg?v=1779522355", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-120", "name": "Fur Jaden SC07 The Wayfarer", "price": 3490, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_b3277469-a18a-4dc8-91d8-07af87b62794.jpg?v=1764181995", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Trolley Bag"}, {"id": "bagsLuggageTravel-232", "name": "Fur Jaden The Aviator BM165", "price": 2823, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Website2_521316d7-c99c-40fa-a12b-0d11c2606eb4.jpg?v=1750352036", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-257", "name": "Fur Jaden BM38 The Trailblazer", "price": 2685, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Website1_3e7b626a-4629-42bd-8219-b761b64ed756.jpg?v=1726486081", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-258", "name": "Fur Jaden BM92 Pro-i Laptop Backpack", "price": 2393, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/1copy_1e5cd069-e51a-4870-bd72-6baa0d4fd0a8.jpg?v=1726730619", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-259", "name": "Fur Jaden BM91 Pro-i Laptop Backpack", "price": 2393, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_b63659e4-9ea0-44e3-848d-b0606f600d3b.jpg?v=1768062097", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-260", "name": "Fur Jaden BM95 Pro-v Laptop Backpack", "price": 3290, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Website_2024.jpg?v=1726731114", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-262", "name": "Fur Jaden BM45 The Voyager", "price": 1994, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/WebsiteMain1_Edited_a3a3ac5e-40cc-4367-a5d3-52e3dab0af38.jpg?v=1765292042", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-263", "name": "Fur Jaden BM88 The Wayfarer", "price": 1894, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/black.jpg?v=1781538114", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-266", "name": "Fur Jaden BM83 Anti-theft Backpack", "price": 828, "image": "https://www.furjaden.com/cdn/shop/files/1_7bf11fa4-1c54-4420-8c06-875fbfff5a25.jpg?v=1708412523", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-267", "name": "Fur Jaden BM154 The Pathfinder", "price": 1795, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Main1_3b6e2e67-0c03-4b75-89ea-c5015321ce2d.jpg?v=1726153896", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-269", "name": "Fur Jaden DUFF55 Travel Duffle Bag With Shoe Pocket", "price": 1795, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Website_39_2.jpg?v=1682613870", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Duffle bags"}, {"id": "bagsLuggageTravel-270", "name": "Fur Jaden DUFF50 Canvas 40l Travel Duffle", "price": 2293, "image": "https://cdn.shopify.com/s/files/1/0972/3936/products/DUFF50BLACKHIGHLIGHT04copy.jpg?v=1680016568", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Duffle bags"}, {"id": "bagsLuggageTravel-274", "name": "Fur Jaden BM171", "price": 1695, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/BM171-1Main_bc5cf611-ae4c-49c4-8ac3-242d1e608d90.jpg?v=1779042446", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-277", "name": "Fur Jaden BM165 The Aviator", "price": 2393, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Website2_521316d7-c99c-40fa-a12b-0d11c2606eb4.jpg?v=1750352036", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-279", "name": "Fur Jaden BM162 The Nomad", "price": 1994, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Website1_f393e1a9-0fce-42e8-9604-2871b9f3bb9a.jpg?v=1725974907", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-280", "name": "Fur Jaden BM99 The Cosmopolitan", "price": 1994, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/1_54880ed8-2e0c-414b-8947-8c07543772e7.jpg?v=1768057872", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-281", "name": "Fur Jaden BM93 Pro iii Laptop Backpack", "price": 2792, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/Final_Website_2024.jpg?v=1726592019", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}, {"id": "bagsLuggageTravel-294", "name": "Fur Jaden BM92 | PRO-II Bagpack", "price": 2393, "image": "https://cdn.shopify.com/s/files/1/0972/3936/files/1copy_1e5cd069-e51a-4870-bd72-6baa0d4fd0a8.jpg?v=1726730619", "category": "bagsLuggageTravel", "categoryLabel": "Bags, Luggage and Travel", "subcategory": "Bagpack"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

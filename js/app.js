@@ -443,6 +443,17 @@
     renderProducts();
   }
 
+  // Mirrors scripts/generate_brand_pages.py's slugify() exactly, so a link
+  // built here always resolves to a real brand/<slug>/ page.
+  function slugifyBrand(name) {
+    return String(name)
+      .toLowerCase()
+      .replace(/['’]/g, "")
+      .trim()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "brand";
+  }
+
   function updateBrandChipsUI() {
     els.brandChips.querySelectorAll(".chip[data-brand]").forEach((btn) => {
       btn.setAttribute("aria-pressed", String(btn.dataset.brand === state.brandKey));
@@ -615,6 +626,17 @@
     els.resultsSummary.textContent = total === 0
       ? "No products"
       : `Showing ${startIdx + 1}–${endIdx} of ${total} Products`;
+    // New, separate way to reach a brand's dedicated landing page -- only
+    // shown once a single brand chip/filter is active, and additive next
+    // to the existing results summary (doesn't touch selectBrand() itself).
+    if (els.brandPageLink) {
+      if (state.brandKey) {
+        els.brandPageLink.href = `brand/${slugifyBrand(state.brandKey)}/`;
+        els.brandPageLink.hidden = false;
+      } else {
+        els.brandPageLink.hidden = true;
+      }
+    }
     els.pager.hidden = totalPages <= 1;
     els.pagerLabel.textContent = `Page ${page} of ${totalPages}`;
     els.pagerPrev.disabled = page <= 1;
@@ -1266,6 +1288,7 @@
     els.brandFilterEmpty = qs("brand-filter-empty");
     els.filteredEmptyState = qs("filtered-empty-state");
     els.resultsSummary = qs("results-summary");
+    els.brandPageLink = qs("brand-page-link");
     els.pageSizeSelect = qs("page-size-select");
     els.sortSelect = qs("sort-select");
     els.pager = qs("pager");
@@ -1345,8 +1368,14 @@
     // Deep link from a product page's "back to <category>" link, e.g.
     // product/electronics-404/ links to ../../?category=electronics.
     const requestedCategory = new URLSearchParams(window.location.search).get("category");
+    // Deep link from a brand page's back link, e.g. brand/offikraft/ links
+    // to ../../?brand=Offikraft -- same pattern as the category deep link.
+    const requestedBrand = new URLSearchParams(window.location.search).get("brand");
+    const knownBrands = new Set(Object.values(state.brandByProduct));
     if (requestedCategory && state.visibleCategories.some((c) => c.id === requestedCategory)) {
       openCategory(requestedCategory);
+    } else if (requestedBrand && knownBrands.has(requestedBrand)) {
+      selectBrand(requestedBrand);
     } else if (isDesktop()) {
       // Desktop has no separate home-grid screen — land straight in "All Products".
       browseAllProducts();

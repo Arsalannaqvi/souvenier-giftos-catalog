@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>TintBox — Souvenier Giftos</title>
+<meta name="description" content="TintBox — 12 products — Kitchen Appliances">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TintBox on Souvenier Giftos">
+<meta property="og:description" content="TintBox — 12 products — Kitchen Appliances">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=TintBox" class="pd-back"><span aria-hidden="true">←</span> TintBox</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">TI</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">TintBox</h2>
+      <p class="brand-hero-desc">12 products across Kitchen Appliances and Drinkware — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>12</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>2</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹292&ndash;2846</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No TintBox products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "TintBox", "slug": "tintbox", "description": "12 products across Kitchen Appliances and Drinkware \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "kitchenAppliances", "label": "Kitchen Appliances", "count": 9}, {"id": "drinkware", "label": "Drinkware", "count": 3}], "priceMin": 292, "priceMax": 2846, "products": [{"id": "drinkware-123", "name": "Tintbox Borosilicate Glass Brew Cup with Silicon Lid & Grip 350ml", "price": 755, "image": "https://tintbox.in/cdn/shop/files/mighty_Pink_TintCup-3.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-124", "name": "TintBox Glass Sipper 1ltr Bottle", "price": 946, "image": "https://tintbox.in/cdn/shop/files/MotivationalBottleLunarBluePDP1.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-125", "name": "TintBox Borosilicate 750 ml Bottle", "price": 757, "image": "https://tintbox.in/cdn/shop/files/750_ml_bottle_with_box-2.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "homeKitchenAppliances-15", "name": "TintBox Glass Lunch Box Set of 3 with Canvas Lunch Bag", "price": 2266, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_3_Box_Bag_images_1.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch box with Lunch Bag"}, {"id": "homeKitchenAppliances-16", "name": "TintBox Set of 3 Borosilicate Glass Lunch Boxes With Bag", "price": 2846, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_3_Box_Bottle_Bag_images-1.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch box with Lunch Bag"}, {"id": "homeKitchenAppliances-17", "name": "TintBox Borosilicate Glass Lunch Box Set of 2", "price": 1565, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_2_box_bag_images_-2.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": null}, {"id": "homeKitchenAppliances-20", "name": "TintBox Break Resistant Glass Lunch Box Set of 3", "price": 1657, "image": "https://tintbox.in/cdn/shop/files/Lunchbox_PDP_image.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch Boxes & Containers"}, {"id": "homeKitchenAppliances-21", "name": "TintBox Borosilicate Glass Lunch Box Set of 3", "price": 2117, "image": "https://tintbox.in/cdn/shop/files/Lunchbox_PDP_image.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch Boxes & Containers"}, {"id": "homeKitchenAppliances-22", "name": "TintBox Reusable Steel Straws with Silicone Tip", "price": 292, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_Straw_images_1.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Straw"}, {"id": "homeKitchenAppliances-23", "name": "Tintbox Cool, Canvas, EcoFriendly Lunch Bag", "price": 457, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_Bag_images_1.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch bag"}, {"id": "homeKitchenAppliances-24", "name": "Tintbox Glass Lunch Box with Glass Lid 500ml", "price": 621, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_Glassup_images-2.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch Boxes"}, {"id": "homeKitchenAppliances-25", "name": "Tintbox Borosilicate Glass Food Container 300ml", "price": 573, "image": "https://tintbox.in/cdn/shop/files/Shark_tank_Webiste_Lunchbox_images-1.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Lunch Boxes"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

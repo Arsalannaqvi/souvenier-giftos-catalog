@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>TTH — Souvenier Giftos</title>
+<meta name="description" content="TTH — 13 products — Apparel">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TTH on Souvenier Giftos">
+<meta property="og:description" content="TTH — 13 products — Apparel">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=TTH" class="pd-back"><span aria-hidden="true">←</span> TTH</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">TT</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">TTH</h2>
+      <p class="brand-hero-desc">13 products across Apparel — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>13</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>1</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹108&ndash;792</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No TTH products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "TTH", "slug": "tth", "description": "13 products across Apparel \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "apparel", "label": "Apparel", "count": 13}], "priceMin": 108, "priceMax": 792, "products": [{"id": "apparel-31", "name": "TTH Formal Shirt", "price": 638, "image": "https://d39bd3o2tztcvw.cloudfront.net/acecb118-218e-4243-9c4f-bf8f184f809a.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Formal Shirt"}, {"id": "apparel-32", "name": "TTH Jacquard Polo T-shirt Female", "price": 394, "image": "https://d39bd3o2tztcvw.cloudfront.net/8b814b32-1406-4eae-862d-d24b3efc4be6.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt"}, {"id": "apparel-137", "name": "TTH Sports Crew Round Neck T-shirt", "price": 108, "image": "https://d39bd3o2tztcvw.cloudfront.net/73f9efe3-c10b-4a9c-a0c3-993816b67aab.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Round Neck T-shirt"}, {"id": "apparel-138", "name": "TTH Sustainable Crew Neck T-shirt", "price": 196, "image": "https://d39bd3o2tztcvw.cloudfront.net/5532bd33-9fee-45e6-9655-45422142be25.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Round Neck T-shirt"}, {"id": "apparel-139", "name": "TTH Pima Polo T-shirt", "price": 495, "image": "https://d39bd3o2tztcvw.cloudfront.net/b38f1474-e868-427d-bc46-721f7f79aa99.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt"}, {"id": "apparel-140", "name": "TTH Pima Crew Round Neck T-shirt", "price": 274, "image": "https://d39bd3o2tztcvw.cloudfront.net/b704808a-5add-42e2-af56-812a05d30d95.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Round Neck T-shirt"}, {"id": "apparel-141", "name": "TTH Over Sized T-shirt", "price": 419, "image": "https://d39bd3o2tztcvw.cloudfront.net/d4dcb86e-f085-45e9-b59b-eca68fcf42e7.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Over Sized T-shirt"}, {"id": "apparel-142", "name": "TTH Mobilitee Round Neck T-shirt", "price": 164, "image": "https://d39bd3o2tztcvw.cloudfront.net/dd209c8e-178b-4936-88a8-9922a6b9444f.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Round Neck T-shirt"}, {"id": "apparel-143", "name": "TTH Mars 200 Polo T-Shirt", "price": 333, "image": "https://d39bd3o2tztcvw.cloudfront.net/26acf8db-cd23-4e86-a3b3-74f3334215cd.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt"}, {"id": "apparel-144", "name": "TTH Jacquard Polo T-shirt", "price": 394, "image": "https://d39bd3o2tztcvw.cloudfront.net/73da74b7-4e0c-4669-a528-0da9529b588c.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Polo T-shirt"}, {"id": "apparel-145", "name": "TTH Jet Setter Jacket", "price": 792, "image": "https://d39bd3o2tztcvw.cloudfront.net/9f8ad4f6-b21d-4951-8569-1fc13ee15a21.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Jacket"}, {"id": "apparel-146", "name": "TTH Classic Hoodie", "price": 532, "image": "https://d39bd3o2tztcvw.cloudfront.net/6317d742-ad50-42f1-aeaf-5135295e1f43.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Hoodie"}, {"id": "apparel-147", "name": "TTH 2 in 1 Zipper Jacket", "price": 602, "image": "https://d39bd3o2tztcvw.cloudfront.net/3cd0832c-0bc6-457e-a5f0-c7f92cdad675.jpeg", "category": "apparel", "categoryLabel": "Apparel", "subcategory": "Jacket"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

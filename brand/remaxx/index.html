@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Remaxx — Souvenier Giftos</title>
+<meta name="description" content="Remaxx — 16 products — Drinkware">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Remaxx on Souvenier Giftos">
+<meta property="og:description" content="Remaxx — 16 products — Drinkware">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Remaxx" class="pd-back"><span aria-hidden="true">←</span> Remaxx</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">RE</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Remaxx</h2>
+      <p class="brand-hero-desc">16 products across Drinkware, Electronics and Health &amp; Personal Care — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>16</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>9</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹257&ndash;1307</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Remaxx products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Remaxx", "slug": "remaxx", "description": "16 products across Drinkware, Electronics and Health & Personal Care \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "drinkware", "label": "Drinkware", "count": 4}, {"id": "electronics", "label": "Electronics", "count": 3}, {"id": "healthPersonalCare", "label": "Health & Personal Care", "count": 2}, {"id": "kitchenAppliances", "label": "Kitchen Appliances", "count": 2}, {"id": "computerAccessories", "label": "Computer & Accessories", "count": 1}, {"id": "travelAccessories", "label": "Travel Accessories", "count": 1}, {"id": "sportsLifestyle", "label": "Sports, Fitness & Lifestyle", "count": 1}, {"id": "homeAppliancesDecor", "label": "Home Appliances & Decor", "count": 1}, {"id": "stationary", "label": "Stationary", "count": 1}], "priceMin": 257, "priceMax": 1307, "products": [{"id": "computerAccessories-2", "name": "Remaxx Multifunctional Retractable Cable", "price": 257, "image": "https://d39bd3o2tztcvw.cloudfront.net/11427084-6b2e-479f-8890-6cc24fea0a52.jpeg", "category": "computerAccessories", "categoryLabel": "Computer & Accessories", "subcategory": "USB Cable"}, {"id": "travelAccessories-10", "name": "Remaxx Travel Neck Pillow with Massager", "price": 1114, "image": "https://d39bd3o2tztcvw.cloudfront.net/fabf5755-d666-4a6a-95e8-dbec6ee580b8.jpg", "category": "travelAccessories", "categoryLabel": "Travel Accessories", "subcategory": "Travel Pillows"}, {"id": "sportsFitnessOutdooors-11", "name": "Remaxx Extendable Lamp with Torch Power bank", "price": 308, "image": "https://d39bd3o2tztcvw.cloudfront.net/3dc92dfd-3cb4-48ed-829e-a8444c222ffe.jpg", "category": "sportsLifestyle", "categoryLabel": "Sports, Fitness & Lifestyle", "subcategory": "Lights & Lanterns"}, {"id": "homeDecor-20", "name": "Remaxx I-Square Wireless Charger Digital Alarm Clock", "price": 812, "image": "https://d39bd3o2tztcvw.cloudfront.net/7394f3ee-f07c-4b9e-896b-1000fe006f4d.jpeg", "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Clocks"}, {"id": "drinkware-191", "name": "Remaxx Activ Glass Bottle with Bamboo Lid", "price": 624, "image": "https://d39bd3o2tztcvw.cloudfront.net/516759c4-39d4-4cf5-ac13-91fb7a9e3c2c.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "drinkware-192", "name": "Remaxx Stylo Tumbler with Handle", "price": 669, "image": "https://d39bd3o2tztcvw.cloudfront.net/04a08f7f-b94b-4be5-9fe0-51dfa4d66a71.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Tumbler"}, {"id": "drinkware-193", "name": "Remaxx Self Stirring Mug", "price": 513, "image": "https://d39bd3o2tztcvw.cloudfront.net/43535f27-a7cc-4291-8aba-1a93bf2b42e9.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Mugs"}, {"id": "drinkware-194", "name": "Remaxx Infuso Bottle", "price": 593, "image": "https://d39bd3o2tztcvw.cloudfront.net/b78f2d59-5eb5-49be-a9d3-98fe113f2261.jpg", "category": "drinkware", "categoryLabel": "Drinkware", "subcategory": "Water Bottles & Sippers"}, {"id": "electronics-377", "name": "Remaxx Boss Phone Holder", "price": 975, "image": "https://d39bd3o2tztcvw.cloudfront.net/8579752e-14d0-483d-8f47-6a9eea28335d.jpg", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Mobile & Accessories"}, {"id": "electronics-381", "name": "Remaxx Tripod Fan", "price": 1307, "image": "https://d39bd3o2tztcvw.cloudfront.net/ef7248f5-5751-42f2-94f2-37c22e6b70c1.jpg", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-382", "name": "Remaxx Airwave Wireless Charger with Fan", "price": 669, "image": "https://d39bd3o2tztcvw.cloudfront.net/d223910c-542d-42aa-b7ac-816f60fdd501.jpg", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Wireless Charger"}, {"id": "healthPersonalCare-63", "name": "Remaxx Rechargeable Massager Cushion", "price": 1024, "image": "https://d39bd3o2tztcvw.cloudfront.net/efe2e96b-1973-447c-8c02-81a6afbfac33.jpg", "category": "healthPersonalCare", "categoryLabel": "Health & Personal Care", "subcategory": "Massager Cushion"}, {"id": "healthPersonalCare-64", "name": "Remaxx Bliss Smart Scalp Massager", "price": 723, "image": "https://d39bd3o2tztcvw.cloudfront.net/6e2a2271-7d49-4956-98b3-79d556cec77d.jpg", "category": "healthPersonalCare", "categoryLabel": "Health & Personal Care", "subcategory": "Head Massager"}, {"id": "homeKitchenAppliances-593", "name": "Remaxx Vacuum Cleaner", "price": 370, "image": "https://d39bd3o2tztcvw.cloudfront.net/925b01c6-0367-4779-9e51-914e1b8fc878.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Vacuum & Floor Care"}, {"id": "homeKitchenAppliances-594", "name": "Remaxx Flame Humidifier & Diffuser", "price": 918, "image": "https://d39bd3o2tztcvw.cloudfront.net/f1eda5a3-01bc-47c6-adf3-b662306790f1.jpg", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Flame Diffuser"}, {"id": "stationary-48", "name": "Remaxx Wooden Pen Stand with Digital Clock", "price": 1004, "image": "https://d39bd3o2tztcvw.cloudfront.net/50d39253-cb24-4643-b6c0-e3dae56bd0a9.jpg", "category": "stationary", "categoryLabel": "Stationary", "subcategory": "Pen Stand"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

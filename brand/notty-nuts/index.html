@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Notty Nuts — Souvenier Giftos</title>
+<meta name="description" content="Notty Nuts — 28 products — Edible">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Notty Nuts on Souvenier Giftos">
+<meta property="og:description" content="Notty Nuts — 28 products — Edible">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Notty%20Nuts" class="pd-back"><span aria-hidden="true">←</span> Notty Nuts</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">NN</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Notty Nuts</h2>
+      <p class="brand-hero-desc">28 products across Edible — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>28</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>1</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹64&ndash;524</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Notty Nuts products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Notty Nuts", "slug": "notty-nuts", "description": "28 products across Edible \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "edible", "label": "Edible", "count": 28}], "priceMin": 64, "priceMax": 524, "products": [{"id": "edible-55", "name": "Roasted Jower Puff 70gms", "price": 132, "image": "https://d39bd3o2tztcvw.cloudfront.net/9a6c2ea5-94ce-4af0-996c-5b068e22adfb.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Puffs"}, {"id": "edible-56", "name": "Quinoa Puffs 70gms", "price": 132, "image": "https://d39bd3o2tztcvw.cloudfront.net/d94e6acb-8299-4bd0-ae25-5391d3172e4e.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Puffs"}, {"id": "edible-57", "name": "Flavoured Makhana 70gms", "price": 198, "image": "https://d39bd3o2tztcvw.cloudfront.net/2ab3a278-b94d-4ea1-985f-1fac1eb7bff8.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Makhana"}, {"id": "edible-58", "name": "Notty Nuts Assorted Mixed Nuts 200g", "price": 382, "image": "https://d39bd3o2tztcvw.cloudfront.net/c22993b8-a42b-42f5-a289-8c09681854d1.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-59", "name": "Notty Nuts Roasted Almond Salted 100g", "price": 166, "image": "https://d39bd3o2tztcvw.cloudfront.net/631abc91-4d1e-4079-8251-fbeaae9857ee.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-60", "name": "Notty Nuts Cashews Roasted and Salted", "price": 473, "image": "https://d39bd3o2tztcvw.cloudfront.net/aae5ffff-7a3c-4211-bfc5-cf5d83a9b17f.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-61", "name": "Notty Nuts Almond Roasted and Salted 250gms", "price": 382, "image": "https://d39bd3o2tztcvw.cloudfront.net/e1e52409-d227-45cf-8242-f871b6d3fab8.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-62", "name": "Notty Nuts Premium Irani Pistachios 250g", "price": 426, "image": "https://d39bd3o2tztcvw.cloudfront.net/5f15e2b2-6d09-47a3-ad2f-249aad3afe45.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-63", "name": "Notty Nuts Classic Cashew Nuts 250g", "price": 376, "image": "https://d39bd3o2tztcvw.cloudfront.net/0a21ee93-6d09-44c4-967a-fa178c0bbd8f.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-64", "name": "Notty Nuts Classic American Almond 250g", "price": 340, "image": "https://d39bd3o2tztcvw.cloudfront.net/9679a6a1-af7c-4275-b076-12688578f447.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-65", "name": "Notty Nuts Dried Strawberry 250gms", "price": 298, "image": "https://d39bd3o2tztcvw.cloudfront.net/53bd7d2d-5f1c-416a-8bc0-5fdef334d53c.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-66", "name": "Notty Nuts Dried Cranberry Slice 250gms", "price": 228, "image": "https://d39bd3o2tztcvw.cloudfront.net/6500746c-beb8-4b9d-b728-ce956512cd0c.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-67", "name": "Notty Nuts Dried Blueberries 250gms", "price": 524, "image": "https://d39bd3o2tztcvw.cloudfront.net/42013401-20e5-4f61-b28d-1a4790e76a78.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-68", "name": "Notty Nuts Dried Mixed Fruit 250g", "price": 187, "image": "https://d39bd3o2tztcvw.cloudfront.net/3bfba7b0-617e-45bd-85fc-ccc9ae8f0240.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-69", "name": "Notty Nuts Dried Kiwi 250gms", "price": 166, "image": "https://d39bd3o2tztcvw.cloudfront.net/71b89d2c-fc45-4180-af73-6bea0172aeb1.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-70", "name": "Notty Nuts Premium Dried Cranberrys 100 Gms", "price": 119, "image": "https://d39bd3o2tztcvw.cloudfront.net/96483e02-42db-4164-bbe6-2228111c4879.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-71", "name": "Notty Nuts Peri Peri Cashews 20g", "price": 64, "image": "https://d39bd3o2tztcvw.cloudfront.net/5f6a73b5-682f-47ed-8aaa-b59101bd82d3.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-72", "name": "Notty Nuts Assorted Mixed Nuts 100g", "price": 199, "image": "https://d39bd3o2tztcvw.cloudfront.net/b92703f8-cb97-4964-b668-33f62b958925.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-73", "name": "Notty Nuts Premium Irani Pistachios 100g", "price": 195, "image": "https://d39bd3o2tztcvw.cloudfront.net/374b12e4-16f9-49cf-a94c-0b9943c9c004.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-74", "name": "Notty Nuts Classic American Almond 100g", "price": 180, "image": "https://d39bd3o2tztcvw.cloudfront.net/7bd79078-81fd-4661-a8a3-98e768c2e26c.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-75", "name": "Notty Nuts Classic American Almond 100g", "price": 180, "image": "https://d39bd3o2tztcvw.cloudfront.net/eb3b0f27-2efb-4c3d-8164-b795b5827cf1.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-76", "name": "Notty Nuts Green Raisins", "price": 123, "image": "https://d39bd3o2tztcvw.cloudfront.net/02f77349-d975-49ef-9066-3355840e84b8.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-77", "name": "Notty Nuts Classic Cashew Nuts 100g", "price": 154, "image": "https://d39bd3o2tztcvw.cloudfront.net/351528db-583f-4d7a-ae73-259af73e3536.png", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-78", "name": "Notty Nuts Green Raisins 250g", "price": 239, "image": "https://d39bd3o2tztcvw.cloudfront.net/709c15a6-0b1e-418e-be1a-89ce8d272e14.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-79", "name": "Notty Nuts Peri Peri Cashews 100g", "price": 221, "image": "https://d39bd3o2tztcvw.cloudfront.net/3ab0986f-521c-4e9c-b9f1-41f11b44c460.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-80", "name": "Notty Nuts Roasted Almonds Salted 100g", "price": 166, "image": "https://d39bd3o2tztcvw.cloudfront.net/a3958e63-f48e-4595-b91b-f99afb562761.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-81", "name": "Notty Nuts Roasted Cashew 100g", "price": 221, "image": "https://d39bd3o2tztcvw.cloudfront.net/2b219bb6-0a64-4d23-9938-7b3fa5f95104.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}, {"id": "edible-82", "name": "Notty Nuts Protein Bomb 200gms", "price": 365, "image": "https://d39bd3o2tztcvw.cloudfront.net/f8d33a00-a896-48ba-96ad-1606f6861073.jpeg", "category": "edible", "categoryLabel": "Edible", "subcategory": "Dryfruits"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

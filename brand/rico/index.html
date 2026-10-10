@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Rico — Souvenier Giftos</title>
+<meta name="description" content="Rico — 40 products — Electronics">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rico on Souvenier Giftos">
+<meta property="og:description" content="Rico — 40 products — Electronics">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main class="pd-main brand-main">
+  <a href="../../?brand=Rico" class="pd-back"><span aria-hidden="true">←</span> Rico</a>
+
+  <section class="brand-hero">
+    <div class="brand-hero-mark" aria-hidden="true">RI</div>
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Rico</h2>
+      <p class="brand-hero-desc">40 products across Electronics, Kitchen Appliances and Home Appliances &amp; Decor — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>40</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>3</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹217&ndash;8205</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Rico products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Rico", "slug": "rico", "description": "40 products across Electronics, Kitchen Appliances and Home Appliances & Decor \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "electronics", "label": "Electronics", "count": 22}, {"id": "kitchenAppliances", "label": "Kitchen Appliances", "count": 14}, {"id": "homeAppliancesDecor", "label": "Home Appliances & Decor", "count": 4}], "priceMin": 217, "priceMax": 8205, "products": [{"id": "kitchenAppliances-1", "name": "RICO Nutri Pro (Model-MG2203)", "price": 3028, "image": "https://d39bd3o2tztcvw.cloudfront.net/2ef2a847-8f9b-4532-88ac-017d7194cab2.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Grinder"}, {"id": "kitchenAppliances-2", "name": "RICO Mixer Grinder (Model-MG123B)", "price": 3389, "image": "https://d39bd3o2tztcvw.cloudfront.net/36660d05-a39e-4209-8c1a-57d643a001e1.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Grinder"}, {"id": "kitchenAppliances-3", "name": "RICO Mixer Grinder (Model-MG2304)", "price": 4087, "image": "https://d39bd3o2tztcvw.cloudfront.net/0fa2a3ac-fed9-4c56-ad8a-bb9cbbc3bce7.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Grinder"}, {"id": "kitchenAppliances-4", "name": "RICO Mixer Grinder (Model-MG2409)", "price": 5587, "image": "https://d39bd3o2tztcvw.cloudfront.net/961dd800-7099-4648-8318-39530c8c8517.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Grinder"}, {"id": "kitchenAppliances-5", "name": "RICO Induction cooktop (Model-IC21)", "price": 3369, "image": "https://d39bd3o2tztcvw.cloudfront.net/a21a3440-0fab-4582-927e-c7eae0054790.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Induction"}, {"id": "kitchenAppliances-6", "name": "RICO Electric Rice Cooker (Model-RC907)", "price": 3154, "image": "https://d39bd3o2tztcvw.cloudfront.net/bc25ac0c-ac42-420b-9a98-fbbe9acd34f5.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Electric Cooker"}, {"id": "kitchenAppliances-7", "name": "RICO Food Processor (Model-FP101)", "price": 8205, "image": "https://d39bd3o2tztcvw.cloudfront.net/e402370d-07eb-484c-af5e-f1c5a60e19b8.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Chopper"}, {"id": "kitchenAppliances-8", "name": "RICO Food Factory (Model-KP603B)", "price": 3807, "image": "https://d39bd3o2tztcvw.cloudfront.net/8dea20ca-2eeb-48a2-b2c2-81dcf6220843.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Chopper"}, {"id": "kitchenAppliances-9", "name": "RICO Centrifugal Juicer (Model-JE1401B)", "price": 2580, "image": "https://d39bd3o2tztcvw.cloudfront.net/6fa39307-6f0d-4d17-b637-398f6a2d04e1.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Juicer"}, {"id": "kitchenAppliances-10", "name": "RICO Slow Berry Juicer (Model- SJ2508)", "price": 7650, "image": "https://d39bd3o2tztcvw.cloudfront.net/3dc73fde-6884-46ec-87ee-1d395ecaa548.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Juicer"}, {"id": "kitchenAppliances-11", "name": "RICO 3 Litre Chopper (Model-CH2510)", "price": 2298, "image": "https://d39bd3o2tztcvw.cloudfront.net/da34995f-c565-47ca-997c-bad21177b351.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Chopper"}, {"id": "kitchenAppliances-12", "name": "RICO 3 Litre Chopper (Model-CH2509)", "price": 2313, "image": "https://d39bd3o2tztcvw.cloudfront.net/82173cb0-be33-4f11-8b22-bf457d692cdc.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Chopper"}, {"id": "kitchenAppliances-13", "name": "RICO Electric Chopper / Whipper (Model-CH05)", "price": 1709, "image": "https://d39bd3o2tztcvw.cloudfront.net/5463a63f-61b2-41c5-9286-529687de25ae.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Chopper"}, {"id": "kitchenAppliances-14", "name": "RICO Mini Electric Rechargeable Chopper (Model-CH2113)", "price": 677, "image": "https://d39bd3o2tztcvw.cloudfront.net/14af477b-5f82-4ce2-88e1-414037c85fe1.JPG", "category": "kitchenAppliances", "categoryLabel": "Kitchen Appliances", "subcategory": "Chopper"}, {"id": "electronics-201", "name": "RICO Ceiling Fan (Model-CF2307)", "price": 2060, "image": "https://d39bd3o2tztcvw.cloudfront.net/82fb55a6-e526-4fd7-9b4f-2211517d54ce.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-202", "name": "RICO Ceiling Fan (Model-CF809 Ivory)", "price": 3177, "image": "https://d39bd3o2tztcvw.cloudfront.net/06f2965b-45fe-4f15-963d-c229f26bd7ba.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-203", "name": "RICO Ceiling Fan (Model-CF808 Brown)", "price": 2908, "image": "https://d39bd3o2tztcvw.cloudfront.net/5c1b4840-0c3e-4deb-97ac-9d4a5dada041.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-204", "name": "RICO Ceiling Fan (Model-CF807)", "price": 2665, "image": "https://d39bd3o2tztcvw.cloudfront.net/f95cc3fa-975f-4d86-b065-3590916a14ea.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-205", "name": "RICO Black Bldc Ceiling Fan (Model-CF2501)", "price": 3465, "image": "https://d39bd3o2tztcvw.cloudfront.net/4770c547-3fb5-475a-b158-3626976de8eb.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-206", "name": "RICO Grey Bldc Ceiling Fan (Model-CF2502)", "price": 2858, "image": "https://d39bd3o2tztcvw.cloudfront.net/058c6ba4-1c6d-4d53-8504-a5ebd6a883c2.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-207", "name": "RICO Airswift Rechargeable Table Fan", "price": 5426, "image": "https://d39bd3o2tztcvw.cloudfront.net/c85a131c-5c3e-4af9-a8c8-c108b784d4e8.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-208", "name": "RICO Multipurpose Fan (Model-MF2306)", "price": 1766, "image": "https://d39bd3o2tztcvw.cloudfront.net/9cac98cd-ad2c-4958-8e10-4936de7b6799.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Fans"}, {"id": "electronics-210", "name": "RICO Solar Lantern (Model-SEL1006)", "price": 2195, "image": "https://d39bd3o2tztcvw.cloudfront.net/9779573b-170e-4bbb-89e2-4b74f869d1d9.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Light"}, {"id": "electronics-211", "name": "RICO Rechargeable Emergency Light (Model-EL906)", "price": 1787, "image": "https://d39bd3o2tztcvw.cloudfront.net/3db64535-4d43-4a8a-920e-0fff285cf0f7.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Light"}, {"id": "electronics-212", "name": "RICO Rechargeable Torch (Model-RT1526)", "price": 409, "image": "https://d39bd3o2tztcvw.cloudfront.net/cfce97f6-9cc4-4310-aaba-b8079ca701d8.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Torch"}, {"id": "electronics-213", "name": "RICO Rechargeable Torch (Model-RT1525)", "price": 217, "image": "https://d39bd3o2tztcvw.cloudfront.net/eae26ace-6392-4da1-b547-4bd4389b2483.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Torch"}, {"id": "electronics-214", "name": "RICO Hand Blender (Model-HBCJ)", "price": 1937, "image": "https://d39bd3o2tztcvw.cloudfront.net/1f1d7873-5e37-4a5a-90f8-0afa1e9c23f4.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Blender"}, {"id": "electronics-215", "name": "RICO Sandwich Grill Toaster (Model-SG2402)", "price": 1301, "image": "https://d39bd3o2tztcvw.cloudfront.net/d3d6151a-182b-49d6-b1ea-ae17e605960e.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Toaster"}, {"id": "electronics-216", "name": "RICO Heavy weight Automatic Dry Iron (Model-AI14)", "price": 1353, "image": "https://d39bd3o2tztcvw.cloudfront.net/affaa1ec-fbea-475e-92e5-8acff24786c2.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Iron"}, {"id": "electronics-217", "name": "RICO Heavy weight Automatic Dry Iron (Model-AI13)", "price": 1353, "image": "https://d39bd3o2tztcvw.cloudfront.net/11231260-9bdf-45ed-a9cb-3e7f6626fdb3.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Iron"}, {"id": "electronics-218", "name": "RICO Heavy weight Automatic Dry Iron (Model-AI11)", "price": 1261, "image": "https://d39bd3o2tztcvw.cloudfront.net/34612fa9-0933-4aa2-a3ad-7553c63ab9e1.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Iron"}, {"id": "electronics-219", "name": "RICO Light Weight Dry Iron (Model-AI08)", "price": 667, "image": "https://d39bd3o2tztcvw.cloudfront.net/d80b45ae-3137-4c53-a6a5-1426371bcb40.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Iron"}, {"id": "electronics-220", "name": "RICO Steam Iron Model-SI03)", "price": 1075, "image": "https://d39bd3o2tztcvw.cloudfront.net/14a99580-284e-4504-8293-489acf4ffb3d.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Iron"}, {"id": "electronics-221", "name": "RICO Magic Iron (Model-SI2110)", "price": 4597, "image": "https://d39bd3o2tztcvw.cloudfront.net/014b07fa-9364-4a14-8a5d-f26d07b36fa1.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Iron"}, {"id": "electronics-222", "name": "RICO Immersion Rod (Model-IR1410)", "price": 683, "image": "https://d39bd3o2tztcvw.cloudfront.net/b1138007-f29e-466c-8a0e-6a071b7ea530.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Heater"}, {"id": "electronics-223", "name": "RICO Water Heater With Thermal Cutout Immersion Rod (Model-IR2309)", "price": 819, "image": "https://d39bd3o2tztcvw.cloudfront.net/9dea2433-cdae-44f8-a56f-5f4a4f20f289.JPG", "category": "electronics", "categoryLabel": "Electronics", "subcategory": "Heater"}, {"id": "homeAppliances-37", "name": "RICO Automatic Roti Maker (Model-RM1408)", "price": 2169, "image": "https://d39bd3o2tztcvw.cloudfront.net/b1201ac9-5d9d-43c5-bee1-2007e5c401fd.JPG", "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Roti Maker"}, {"id": "homeAppliances-38", "name": "RICO Immersion Rod (Model-IR2512", "price": 795, "image": "https://d39bd3o2tztcvw.cloudfront.net/d6710015-503e-48fa-9e35-7116731e1bc0.JPG", "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Heater"}, {"id": "homeAppliances-39", "name": "RICO Water Purifire", "price": 2264, "image": "https://d39bd3o2tztcvw.cloudfront.net/9aaed384-71d0-480a-a133-0984d38f721e.JPG", "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Water Purifire"}, {"id": "homeAppliances-40", "name": "RICO Room Heater (Model-RH1502)", "price": 1479, "image": "https://d39bd3o2tztcvw.cloudfront.net/d08170b6-1dff-4a93-8fe3-10fbd4c60323.JPG", "category": "homeAppliancesDecor", "categoryLabel": "Home Appliances & Decor", "subcategory": "Heater"}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>
