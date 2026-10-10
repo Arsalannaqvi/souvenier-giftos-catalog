@@ -149,12 +149,23 @@
     window.setTimeout(() => { els.welcomeScreen.hidden = true; }, 350);
   }
 
+  // How long a "visit" counts as still browsing, so the welcome screen
+  // doesn't reappear when navigating to a product page and back, or after
+  // briefly backgrounding the browser (e.g. switching to WhatsApp to send
+  // an enquiry). localStorage, not sessionStorage — sessionStorage was
+  // getting reset by some mobile browsers across those exact navigations,
+  // which is what caused the welcome screen to keep popping back up.
+  const WELCOME_RESHOW_AFTER_MS = 6 * 60 * 60 * 1000; // 6 hours
+
   function hasSeenWelcome() {
-    try { return sessionStorage.getItem(STORAGE_KEYS.seenWelcome) === "1"; } catch (_) { return false; }
+    try {
+      const seenAt = Number(localStorage.getItem(STORAGE_KEYS.seenWelcome));
+      return Boolean(seenAt) && Date.now() - seenAt < WELCOME_RESHOW_AFTER_MS;
+    } catch (_) { return false; }
   }
 
   function markWelcomeSeen() {
-    try { sessionStorage.setItem(STORAGE_KEYS.seenWelcome, "1"); } catch (_) { /* ignore */ }
+    try { localStorage.setItem(STORAGE_KEYS.seenWelcome, String(Date.now())); } catch (_) { /* ignore */ }
   }
 
   function showWelcome() {
