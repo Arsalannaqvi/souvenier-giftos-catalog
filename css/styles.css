@@ -1533,6 +1533,19 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   .chip-row--nowrap { flex-wrap: wrap; overflow: visible; padding-bottom: 0; margin-bottom: 0; }
   .sidebar-only { display: block; }
 
+  /* Sidebar order while on the home page: Search, Budget, Brand, Shop by
+     Kit, Continue Browsing — Categories list hidden (its job is covered by
+     the category tile grid in the main content). While browsing a
+     category, the sidebar reverts to its normal order (Categories stays,
+     since it's the main way to switch categories there, and Continue
+     Browsing stays hidden) — this class is added/removed in JS by
+     goHome()/openCategory()/browseAllProducts()/enterBrowseAll(). */
+  #discovery-bar.discovery-bar--home #sidebar-categories-row { display: none; }
+  #discovery-bar.discovery-bar--home .quick-row--budget { order: 1; }
+  #discovery-bar.discovery-bar--home .quick-row--brand { order: 2; }
+  #discovery-bar.discovery-bar--home .quick-row--kit { order: 3; }
+  #discovery-bar.discovery-bar--home #recently-viewed-section { order: 4; }
+
   /* The in-category chip row is redundant with the always-visible sidebar list */
   #chip-row { display: none !important; }
 

@@ -442,12 +442,23 @@
     els.sidebarCategories.innerHTML = parts.join("");
   }
 
+  // Sidebar reverts out of its home-page order/content (see the
+  // .discovery-bar--home CSS) whenever leaving the home view — Continue
+  // Browsing is sidebar-only now, so it also needs hiding explicitly here
+  // (it used to live inside #home-view and got hidden for free along with
+  // it; now that it's a sidebar child, that's no longer automatic).
+  function leaveHomeSidebar() {
+    els.discoveryBar.classList.remove("discovery-bar--home");
+    els.recentlyViewedSection.hidden = true;
+  }
+
   function openCategory(categoryId) {
     state.activeCategory = categoryId;
     state.browsingAll = false;
     resetDiscovery();
     state.pagination.page = 1;
     els.homeView.hidden = true;
+    leaveHomeSidebar();
     els.categoryView.hidden = false;
     els.chipRow.hidden = false;
     renderChips();
@@ -465,6 +476,7 @@
     state.browsingAll = true;
     state.pagination.page = 1;
     els.homeView.hidden = true;
+    leaveHomeSidebar();
     els.categoryView.hidden = false;
     els.chipRow.hidden = true;
     renderSidebarCategories();
@@ -477,6 +489,7 @@
     resetDiscovery();
     els.categoryView.hidden = true;
     els.homeView.hidden = false;
+    els.discoveryBar.classList.add("discovery-bar--home");
     renderCategoryGrid();
     renderSidebarCategories();
     renderRecentlyViewed();
@@ -506,6 +519,7 @@
     state.activeCategory = null;
     state.browsingAll = true;
     els.homeView.hidden = true;
+    leaveHomeSidebar();
     els.categoryView.hidden = false;
     els.chipRow.hidden = true;
     renderSidebarCategories();
@@ -1423,6 +1437,7 @@
     els.themeToggle = qs("theme-toggle");
     els.brandLogo = qs("brand-logo");
     els.clientBanner = qs("client-banner");
+    els.discoveryBar = qs("discovery-bar");
     els.homeView = qs("home-view");
     els.recentlyViewedSection = qs("recently-viewed-section");
     els.recentlyViewedRow = qs("recently-viewed-row");

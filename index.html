@@ -13,7 +13,7 @@
      changes, so a plain phone reload (no "hard refresh" gesture on
      mobile) always picks up the new version immediately instead of
      possibly reusing a stale cached copy for up to 10 minutes. -->
-<link rel="stylesheet" href="css/styles.css?v=202610101838">
+<link rel="stylesheet" href="css/styles.css?v=202610101953">
 </head>
 <body class="shop">
 
@@ -44,7 +44,7 @@
 
 <div id="client-banner" class="client-banner" hidden></div>
 
-<div id="discovery-bar" class="discovery-bar">
+<div id="discovery-bar" class="discovery-bar discovery-bar--home">
   <div class="search-box-wrap">
     <div class="search-box">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
@@ -56,7 +56,7 @@
     <span class="quick-label">Categories</span>
     <div id="sidebar-categories" class="sidebar-categories"></div>
   </div>
-  <div class="quick-row">
+  <div class="quick-row quick-row--budget">
     <span class="quick-label">Budget</span>
     <div id="budget-chips" class="chip-row chip-row--nowrap">
       <button class="chip" type="button" data-budget="all" aria-pressed="true">All prices</button>
@@ -65,11 +65,11 @@
       <button class="chip" type="button" data-budget="high">₹2,000+</button>
     </div>
   </div>
-  <div class="quick-row">
+  <div class="quick-row quick-row--kit">
     <span class="quick-label">Shop by Kit</span>
     <div id="kit-row" class="kit-row-scroll"></div>
   </div>
-  <div class="quick-row">
+  <div class="quick-row quick-row--brand">
     <span class="quick-label">Brand</span>
     <div id="brand-chips" class="chip-row chip-row--nowrap brand-slider">
       <button class="chip brand-tile" type="button" data-brand="" aria-pressed="true">
@@ -130,14 +130,14 @@
       </button>
     </div>
   </div>
+  <section id="recently-viewed-section" class="quick-row" hidden>
+    <span class="quick-label">Continue Browsing</span>
+    <div id="recently-viewed-row" class="cb-row"></div>
+  </section>
 </div>
 
 <main id="main">
   <section id="home-view" class="view">
-    <section id="recently-viewed-section" class="quick-row" hidden>
-      <span class="quick-label">Continue Browsing</span>
-      <div id="recently-viewed-row" class="cb-row"></div>
-    </section>
     <h2 class="section-title">Browse Categories</h2>
     <div id="category-grid" class="category-grid"></div>
   </section>
@@ -389,6 +389,6 @@
   </div>
 </div>
 
-<script src="js/app.js?v=202610101838" defer></script>
+<script src="js/app.js?v=202610101953" defer></script>
 </body>
 </html>

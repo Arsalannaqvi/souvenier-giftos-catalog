@@ -13,20 +13,34 @@ Ask "how many pending" any time for a quick count.
 1. **Desktop gets a real home page** — desktop used to skip straight to a
    flat "All Products" grid on landing (and whenever you clicked back/home),
    with no equivalent of the mobile home screen. Now both breakpoints land
-   on the same curated home view: Continue Browsing (if any) + a "Browse
-   Categories" tile grid, widened to 4 columns on desktop instead of the
-   phone's 2. The sidebar (Categories list + Budget/Shop by Kit/Brand,
-   already desktop-only) is unchanged and still always visible alongside
-   it. "All Products" is still one click away via the sidebar's "All
-   Products" entry — it's just no longer the default landing. Removed the
-   old auto-switch-to-all-products listener that fired when resizing across
-   the 1024px breakpoint while idle on the home grid, since home is now a
-   valid view at both sizes. Files: `js/app.js`, `css/styles.css`.
-   Tested locally at 1440×900: lands on the category-tile home view, a tile
-   click opens that category's product grid correctly, the "← All
-   categories" back button returns to the home view, the sidebar's "All
-   Products" link still works, and Continue Browsing renders correctly with
-   seeded view history. Committed locally, not pushed.
+   on the same curated home view: a "Browse Categories" tile grid (widened
+   to 4 columns on desktop instead of the phone's 2). "All Products" is
+   still one click away via the sidebar's "All Products" entry — it's just
+   no longer the default landing. Removed the old auto-switch-to-
+   all-products listener that fired when resizing across the 1024px
+   breakpoint while idle on the home grid, since home is now a valid view
+   at both sizes.
+   **Sidebar now changes based on what's showing in the main area.** While
+   on the home page, the sidebar is: Search → Budget → Brand → Shop by Kit
+   → Continue Browsing (only once the visitor has viewed a product) — the
+   Categories list is hidden there, since category browsing already lives
+   in the tile grid next to it. While browsing a specific category (or "All
+   Products"), the sidebar reverts to Search → Categories → Budget → Shop
+   by Kit → Brand (today's order, Categories back since it's the way to
+   switch categories there) and Continue Browsing stays hidden. Continue
+   Browsing moved out of the main content entirely — it's sidebar-only now,
+   toggled via a `.discovery-bar--home` class (CSS `order` for the
+   reordering) set/cleared by `goHome()`/`openCategory()`/
+   `browseAllProducts()`/`enterBrowseAll()`.
+   Files: `index.html`, `js/app.js`, `css/styles.css`.
+   Tested locally at 1440×900: lands on the category-tile home view with
+   the reordered sidebar (verified by actual on-screen Y-position, not just
+   DOM order) and Continue Browsing populated from seeded view history; a
+   tile click opens that category with the sidebar correctly reverting
+   (Categories back, Continue Browsing hidden); the "← All categories" back
+   button returns to the home view and re-applies the home sidebar order;
+   the sidebar's "All Products" link still works. Committed locally, not
+   pushed.
 
 ## Shipped
 
