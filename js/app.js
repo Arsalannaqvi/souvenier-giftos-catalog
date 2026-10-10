@@ -1439,6 +1439,7 @@
     els.welcomeScreen = qs("welcome-screen");
     els.welcomeBusinessName = qs("welcome-business-name");
     els.welcomeTagline = qs("welcome-tagline");
+    els.homeBtn = qs("home-btn");
     els.themeToggle = qs("theme-toggle");
     els.brandLogo = qs("brand-logo");
     els.clientBanner = qs("client-banner");
@@ -1598,6 +1599,7 @@
     });
     els.desktopCartBtn.addEventListener("click", openSheet);
 
+    els.homeBtn.addEventListener("click", goHome);
     els.themeToggle.addEventListener("click", toggleTheme);
     els.backBtn.addEventListener("click", goHome);
     els.stickyBar.addEventListener("click", openSheet);
