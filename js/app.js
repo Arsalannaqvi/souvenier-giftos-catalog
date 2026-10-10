@@ -181,6 +181,22 @@
     } catch (_) { return false; }
   }
 
+  // True when this page load came from OUTSIDE the site — tapping the
+  // shared catalog link in WhatsApp, a bookmark, or a typed URL — as
+  // opposed to a link clicked from inside the site itself, e.g. a product
+  // page's "back to catalog" link. document.referrer is empty for the
+  // former (WhatsApp and most chat apps don't send a referrer at all) and
+  // set to our own origin for the latter. This is what makes "show when
+  // someone clicks our link" and "don't show while still browsing" both
+  // true at once: clicking the shared link always shows it, clicking
+  // around inside the site never does.
+  function isExternalEntry() {
+    try {
+      if (!document.referrer) return true;
+      return new URL(document.referrer).origin !== window.location.origin;
+    } catch (_) { return true; }
+  }
+
   // Arms the welcome splash's dismissal (tap + auto-timeout). Deliberately
   // synchronous and called before the catalog data fetch, NOT after it —
   // it previously only got wired up once data.json/config.json resolved,
@@ -189,7 +205,8 @@
   // the browser's native double-tap-zoom instead). Dismissal must never
   // depend on data actually loading.
   function armWelcomeDismissal() {
-    if (hasSeenWelcome() && !isReloadNavigation()) {
+    const shouldShow = isReloadNavigation() || isExternalEntry() || !hasSeenWelcome();
+    if (!shouldShow) {
       // Element has no "hidden" attribute in the markup by default (it's
       // normally shown then auto-dismissed) — explicitly hide it when
       // skipping, instead of just not-showing-it.
