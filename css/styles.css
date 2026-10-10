@@ -1539,6 +1539,13 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   main#main { grid-area: main; max-width: none; margin: 0; padding: 24px 28px; }
   .product-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; }
 
+  /* Home view (Continue Browsing + category tiles) on desktop — previously
+     skipped entirely in favor of landing straight on "All Products"; now
+     shown at both breakpoints, so the tile grid gets real columns instead
+     of staying locked at the 2-column phone layout. */
+  .category-grid { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .section-title { font-size: 17px; margin: 4px 0 16px; }
+
   .sticky-bar { display: none; }
 
   #shortlist-sheet {

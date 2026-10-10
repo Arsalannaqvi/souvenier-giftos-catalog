@@ -8,9 +8,25 @@ moves down into **Shipped** with its commit hash and ship date.
 
 Ask "how many pending" any time for a quick count.
 
-## Pending (0)
+## Pending (1)
 
-Nothing waiting right now — everything approved so far is live.
+1. **Desktop gets a real home page** — desktop used to skip straight to a
+   flat "All Products" grid on landing (and whenever you clicked back/home),
+   with no equivalent of the mobile home screen. Now both breakpoints land
+   on the same curated home view: Continue Browsing (if any) + a "Browse
+   Categories" tile grid, widened to 4 columns on desktop instead of the
+   phone's 2. The sidebar (Categories list + Budget/Shop by Kit/Brand,
+   already desktop-only) is unchanged and still always visible alongside
+   it. "All Products" is still one click away via the sidebar's "All
+   Products" entry — it's just no longer the default landing. Removed the
+   old auto-switch-to-all-products listener that fired when resizing across
+   the 1024px breakpoint while idle on the home grid, since home is now a
+   valid view at both sizes. Files: `js/app.js`, `css/styles.css`.
+   Tested locally at 1440×900: lands on the category-tile home view, a tile
+   click opens that category's product grid correctly, the "← All
+   categories" back button returns to the home view, the sidebar's "All
+   Products" link still works, and Continue Browsing renders correctly with
+   seeded view history. Committed locally, not pushed.
 
 ## Shipped
 

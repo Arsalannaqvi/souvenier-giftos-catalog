@@ -456,8 +456,9 @@
     els.categoryView.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
-  // Desktop has no separate home-grid screen — "All Products" in the
-  // sidebar (or landing on the site at all) lands here instead.
+  // Reached via the sidebar's "All Products" entry (both breakpoints) or
+  // a category-page "View all" link — a flat product grid, as distinct
+  // from the curated home view (Continue Browsing + category tiles).
   function browseAllProducts() {
     resetDiscovery();
     state.activeCategory = null;
@@ -471,10 +472,6 @@
   }
 
   function goHome() {
-    if (isDesktop()) {
-      browseAllProducts();
-      return;
-    }
     state.activeCategory = null;
     state.browsingAll = false;
     resetDiscovery();
@@ -1569,18 +1566,9 @@
       openCategory(requestedCategory);
     } else if (requestedBrand && knownBrands.has(requestedBrand)) {
       selectBrand(requestedBrand);
-    } else if (isDesktop()) {
-      // Desktop has no separate home-grid screen — land straight in "All Products".
-      browseAllProducts();
     }
-
-    const desktopQuery = window.matchMedia("(min-width: 1024px)");
-    const onBreakpointChange = (e) => {
-      // Only auto-switch when the shopper hasn't gone anywhere yet (idle on
-      // the mobile home grid) — never yank them out of a search/category/cart.
-      if (e.matches && !els.homeView.hidden) browseAllProducts();
-    };
-    if (desktopQuery.addEventListener) desktopQuery.addEventListener("change", onBreakpointChange);
+    // No deep link: both breakpoints land on the home view (#home-view is
+    // visible by default in the markup, so no action needed here).
 
     els.sidebarCategories.addEventListener("click", (e) => {
       const btn = e.target.closest(".sidebar-cat-item");
