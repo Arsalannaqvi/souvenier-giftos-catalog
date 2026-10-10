@@ -174,7 +174,7 @@
     // mobile browsers (a layout shift from the URL bar collapsing on first
     // touch could make the tap register as a drag and suppress the click),
     // so the splash now always just auto-dismisses after a fixed delay.
-    window.setTimeout(dismissWelcome, 3000);
+    window.setTimeout(dismissWelcome, 1500);
   }
 
   // ---------- Theme ----------
