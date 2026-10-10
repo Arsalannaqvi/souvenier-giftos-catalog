@@ -168,7 +168,14 @@
     try { localStorage.setItem(STORAGE_KEYS.seenWelcome, String(Date.now())); } catch (_) { /* ignore */ }
   }
 
-  function showWelcome() {
+  // Arms the welcome splash's dismissal (tap + auto-timeout). Deliberately
+  // synchronous and called before the catalog data fetch, NOT after it —
+  // it previously only got wired up once data.json/config.json resolved,
+  // so on a slow/stalled mobile connection the splash could sit on screen
+  // indefinitely with nothing listening for taps (they'd fall through to
+  // the browser's native double-tap-zoom instead). Dismissal must never
+  // depend on data actually loading.
+  function armWelcomeDismissal() {
     if (hasSeenWelcome()) {
       // Element has no "hidden" attribute in the markup by default (it's
       // normally shown then auto-dismissed) — explicitly hide it when
@@ -177,9 +184,6 @@
       return;
     }
     markWelcomeSeen();
-    els.welcomeBusinessName.textContent = state.config.businessName || "our catalog";
-    els.welcomeTagline.textContent = state.config.tagline || "";
-    els.welcomeScreen.hidden = false;
     document.body.style.overflow = "hidden";
     // pointerdown (not click) — on mobile, a layout shift from the URL bar
     // collapsing on first touch can make the browser treat the tap as a
@@ -193,6 +197,16 @@
       document.removeEventListener("keydown", onKey);
     }, { once: true });
     window.setTimeout(dismissWelcome, 1500);
+  }
+
+  // Fills in the real business name/tagline once catalog data has loaded,
+  // replacing the generic "Catalog" placeholder — purely cosmetic, doesn't
+  // gate dismissal (see armWelcomeDismissal above).
+  function updateWelcomeText() {
+    if (!els.welcomeScreen.hidden) {
+      els.welcomeBusinessName.textContent = state.config.businessName || "our catalog";
+      els.welcomeTagline.textContent = state.config.tagline || "";
+    }
   }
 
   // ---------- Theme ----------
@@ -1444,6 +1458,10 @@
     initTheme();
     window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
 
+    // Armed before the data fetch below, not after — see the comment on
+    // armWelcomeDismissal for why.
+    armWelcomeDismissal();
+
     let config, data;
     try {
       [config, data] = await Promise.all([
@@ -1451,6 +1469,7 @@
         fetchJSON("data/products.json"),
       ]);
     } catch (err) {
+      document.body.style.overflow = "";
       document.body.innerHTML = `<p style="padding:24px;font-family:sans-serif">
         Could not load catalog data. If you opened this file directly, serve it over
         a local server (e.g. <code>npx serve</code>) instead of double-clicking index.html.
@@ -1462,6 +1481,7 @@
     state.config = config;
     state.categories = data.categories || [];
     state.products = data.products || [];
+    updateWelcomeText();
 
     try {
       state.brandByProduct = await fetchJSON("data/brands.json");
@@ -1478,7 +1498,6 @@
     document.title = config.businessName || "Gift Catalog";
     els.businessName.textContent = config.businessName || "Catalog";
     els.businessTagline.textContent = config.tagline || "";
-    showWelcome();
 
     applyClientFilter();
     loadShortlist();

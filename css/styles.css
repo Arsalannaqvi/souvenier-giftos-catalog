@@ -1029,6 +1029,9 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.35s ease;
+  /* Belt-and-suspenders: if a tap is ever missed, this stops the browser
+     from treating repeated taps as a native double-tap-zoom gesture. */
+  touch-action: manipulation;
 }
 .welcome-screen.is-hiding { opacity: 0; }
 
