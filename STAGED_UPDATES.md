@@ -17,8 +17,8 @@ Ask "how many pending" any time for a quick count.
    experience. Browsing a specific category (or "All Products") keeps
    today's two-column layout unchanged: sidebar (Search, Categories,
    Budget, Shop by Kit, Brand) + product grid.
-   **The home page itself drops the sidebar entirely** — Search, Budget,
-   Brand, Shop by Kit, and Continue Browsing (only once the visitor has
+   **The home page itself drops the sidebar entirely** — Search, Brand,
+   Budget, Shop by Kit, and Continue Browsing (only once the visitor has
    viewed a product) become full-width sections stacked above the "Browse
    Categories" tile grid (widened to 4 columns on desktop instead of the
    phone's 2), the same single-column shape as mobile just at desktop
@@ -37,7 +37,7 @@ Ask "how many pending" any time for a quick count.
    Tested locally at 1440×900: home page renders with no sidebar column
    (verified `body`'s computed grid-template-columns is a single `1fr`,
    `#discovery-bar`'s rendered width matches the full container) and the
-   right section order top-to-bottom (Search, Budget, Brand, Shop by Kit,
+   right section order top-to-bottom (Search, Brand, Budget, Shop by Kit,
    Continue Browsing populated from seeded view history, then Browse
    Categories); opening a category correctly restores the 272px sidebar +
    product-grid layout unchanged; the "← All categories" back button
