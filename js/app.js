@@ -446,9 +446,13 @@
   // .discovery-bar--home CSS) whenever leaving the home view — Continue
   // Browsing is sidebar-only now, so it also needs hiding explicitly here
   // (it used to live inside #home-view and got hidden for free along with
-  // it; now that it's a sidebar child, that's no longer automatic).
+  // it; now that it's a sidebar child, that's no longer automatic). The
+  // body class controls the desktop layout itself (see CSS): home has no
+  // sidebar column at all, everything full-width; category/all-products
+  // browsing keeps the sidebar + product-grid two-column layout.
   function leaveHomeSidebar() {
     els.discoveryBar.classList.remove("discovery-bar--home");
+    document.body.classList.remove("home-active");
     els.recentlyViewedSection.hidden = true;
   }
 
@@ -490,6 +494,7 @@
     els.categoryView.hidden = true;
     els.homeView.hidden = false;
     els.discoveryBar.classList.add("discovery-bar--home");
+    document.body.classList.add("home-active");
     renderCategoryGrid();
     renderSidebarCategories();
     renderRecentlyViewed();

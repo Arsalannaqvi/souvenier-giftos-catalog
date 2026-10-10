@@ -1517,6 +1517,20 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   body.shop .client-banner { grid-area: banner; }
   .desktop-cart-btn { display: flex; }
 
+  /* Home page: no sidebar column at all — Search/Budget/Brand/Shop by
+     Kit/Continue Browsing become full-width sections stacked above the
+     category tile grid, same single-column shape as mobile just at desktop
+     width. Category/All-Products browsing keeps the sidebar + grid
+     two-column layout below. Toggled by goHome()/leaveHomeSidebar(). */
+  body.shop.home-active {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "banner"
+      "discovery"
+      "main";
+  }
+
   #discovery-bar {
     grid-area: sidebar;
     position: sticky;
@@ -1526,6 +1540,15 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     overflow-y: auto;
     padding: 20px 18px 32px;
     border-right: 1px solid var(--border);
+  }
+  body.shop.home-active #discovery-bar {
+    grid-area: discovery;
+    position: static;
+    max-height: none;
+    overflow: visible;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 20px 28px 24px;
   }
   .quick-row { display: block; }
   .quick-row + .quick-row { margin-top: 22px; }
