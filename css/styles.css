@@ -1145,7 +1145,34 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   animation: welcome-rise 0.5s ease;
 }
 
+/* Logo float+halo: .welcome-logo-float bobs the whole group up and down.
+   .welcome-logo-halo::before is a separate layer BEHIND the ring (not a
+   parent of it) carrying the rotating gradient, so only that thin border
+   spins -- the ring/logo on top stays upright and readable instead of
+   the whole mark visibly spinning like a loading indicator. */
+.welcome-logo-float {
+  margin-bottom: 4px;
+  animation: welcome-logo-bob 4.5s ease-in-out infinite;
+}
+.welcome-logo-halo {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-logo-halo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #3b82f6, #8b6ff5, #ec4899, #3b82f6);
+  animation: welcome-halo-spin 6s linear infinite;
+}
 .welcome-logo-ring {
+  position: relative;
+  z-index: 1;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -1153,10 +1180,18 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 0 3px var(--gold-soft), 0 12px 40px rgba(0, 0, 0, 0.45);
-  margin-bottom: 4px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
 }
 .welcome-logo { width: 78px; height: 78px; object-fit: contain; }
+
+@keyframes welcome-logo-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes welcome-halo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 .welcome-title {
   color: #ffffff;
@@ -1189,6 +1224,8 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   .welcome-content { animation: none; }
   .welcome-screen { transition: none; }
   .welcome-wave { animation: none; }
+  .welcome-logo-float { animation: none; }
+  .welcome-logo-halo::before { animation: none; }
 }
 
 /* Product card image hover-cycle (auto-activates once a product has >1 image) */
