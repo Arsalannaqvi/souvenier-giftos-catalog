@@ -22,6 +22,7 @@ import html
 import json
 import re
 import shutil
+import sys
 from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
@@ -29,6 +30,9 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT_ROOT = ROOT / "brand"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from brand_theme import brand_accent, brand_logo_rel_path  # noqa: E402
 
 MIN_PRODUCTS = 3
 
@@ -63,11 +67,11 @@ PAGE_TEMPLATE = """<!doctype html>
   <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
 </header>
 
-<main class="pd-main brand-main">
+<main class="pd-main brand-main" style="--brand-accent:{accent}; --brand-accent-2:{accent2};">
   <a href="{back_href}" class="pd-back"><span aria-hidden="true">←</span> {back_label}</a>
 
   <section class="brand-hero">
-    <div class="brand-hero-mark" aria-hidden="true">{monogram}</div>
+    {hero_mark_html}
     <div class="brand-hero-body">
       <p class="brand-hero-eyebrow">Brand</p>
       <h2 class="brand-hero-name">{brand_name}</h2>
@@ -213,6 +217,18 @@ def main():
         else:
             used_slugs[slug] = 1
 
+        accent, accent2 = brand_accent(brand_name)
+        logo_src = brand_logo_rel_path(brand_name)
+        monogram_html = html.escape(monogram(brand_name))
+        if logo_src:
+            hero_mark_html = (
+                f'<img src="{html.escape(logo_src, quote=True)}" alt="{html.escape(brand_name)} logo" '
+                f'class="brand-hero-mark brand-hero-mark--logo" '
+                f'onerror="this.outerHTML=\'<div class=&quot;brand-hero-mark&quot; aria-hidden=&quot;true&quot;>{monogram_html}</div>\'">'
+            )
+        else:
+            hero_mark_html = f'<div class="brand-hero-mark" aria-hidden="true">{monogram_html}</div>'
+
         payload_products = [
             {
                 "id": p["id"],
@@ -252,7 +268,7 @@ def main():
             tagline=html.escape(tagline),
             back_href=back_href,
             back_label=html.escape(brand_name),
-            monogram=html.escape(monogram(brand_name)),
+            hero_mark_html=hero_mark_html,
             brand_name=html.escape(brand_name),
             brand_name_escaped=html.escape(brand_name),
             brand_description=html.escape(brand_payload["description"]),
@@ -260,6 +276,8 @@ def main():
             category_count=len(category_breakdown),
             price_range_html=price_range_html,
             brand_json=json.dumps(brand_payload),
+            accent=accent,
+            accent2=accent2,
         )
 
         page_dir = OUT_ROOT / slug

@@ -10,11 +10,15 @@ Run from the repo root: python3 scripts/generate_product_pages.py
 import html
 import json
 import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT_ROOT = ROOT / "product"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from brand_theme import brand_accent  # noqa: E402
 
 PAGE_TEMPLATE = """<!doctype html>
 <html lang="en">
@@ -48,7 +52,7 @@ PAGE_TEMPLATE = """<!doctype html>
   <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
 </header>
 
-<main class="pd-main">
+<main class="pd-main" style="--brand-accent:{accent}; --brand-accent-2:{accent2};">
   <a href="{back_href}" class="pd-back"><span aria-hidden="true">←</span> {back_label}</a>
 
   <div class="pd-layout">
@@ -233,6 +237,8 @@ def main():
         back_href = f"../../?category={html.escape(p['category'], quote=True)}"
         back_label = category_label
 
+        accent, accent2 = brand_accent(brand)
+
         product_payload = {
             "id": pid,
             "name": name,
@@ -271,6 +277,8 @@ def main():
             back_href=back_href,
             back_label=html.escape(back_label),
             product_json=json.dumps(product_payload),
+            accent=accent,
+            accent2=accent2,
         )
 
         page_dir = OUT_ROOT / pid
