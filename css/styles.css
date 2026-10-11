@@ -1028,10 +1028,8 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   justify-content: center;
   padding: 24px;
   text-align: center;
-  background:
-    radial-gradient(circle at 20% 15%, rgba(77, 127, 255, 0.28), transparent 60%),
-    radial-gradient(circle at 85% 25%, rgba(139, 111, 245, 0.28), transparent 60%),
-    linear-gradient(160deg, #0d1326 0%, #120c22 55%, #06070c 100%);
+  overflow: hidden;
+  background: linear-gradient(160deg, #0d1326 0%, #120c22 55%, #06070c 100%);
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.35s ease;
@@ -1041,7 +1039,43 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 }
 .welcome-screen.is-hiding { opacity: 0; }
 
+.welcome-screen::before,
+.welcome-screen::after {
+  content: "";
+  position: absolute;
+  width: 70vmax;
+  height: 70vmax;
+  border-radius: 50%;
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+  will-change: transform;
+}
+.welcome-screen::before {
+  top: -20%;
+  left: -15%;
+  background: radial-gradient(circle, rgba(77, 127, 255, 0.35), transparent 70%);
+  animation: welcome-drift-a 26s ease-in-out infinite;
+}
+.welcome-screen::after {
+  bottom: -25%;
+  right: -15%;
+  background: radial-gradient(circle, rgba(139, 111, 245, 0.32), transparent 70%);
+  animation: welcome-drift-b 32s ease-in-out infinite;
+}
+
+@keyframes welcome-drift-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(8%, 6%) scale(1.12); }
+}
+@keyframes welcome-drift-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-6%, -8%) scale(1.1); }
+}
+
 .welcome-content {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1093,6 +1127,8 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 @media (prefers-reduced-motion: reduce) {
   .welcome-content { animation: none; }
   .welcome-screen { transition: none; }
+  .welcome-screen::before,
+  .welcome-screen::after { animation: none; }
 }
 
 /* Product card image hover-cycle (auto-activates once a product has >1 image) */
