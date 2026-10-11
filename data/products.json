@@ -22299,7 +22299,9 @@
       "price": 2132,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/74bd22d9-3827-4cea-9ead-5f69e51b2803.PNG",
       "href": "/product/2143",
-      "subcategory": "Iron"
+      "subcategory": "Iron",
+      "description": "A compact, handheld garment steamer built for quick touch-ups — smooths wrinkles fast without a full ironing board setup, so clothes can be freshened right before stepping out.",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "electronics-20",
@@ -22334,7 +22336,9 @@
       "price": 3298,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/e91cfe99-d32e-48d1-afc7-721a0c4848ef.PNG",
       "href": "/product/2139",
-      "subcategory": "Air Cooler"
+      "subcategory": "Air Cooler",
+      "description": "A compact 12-litre personal air cooler that doubles as a humidifier, designed to keep a room cool and comfortable without the footprint of a full-size cooler.",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "electronics-23",
@@ -22343,7 +22347,10 @@
       "price": 2301,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/4524c256-0ce6-4883-b685-2dcb458fc51f.PNG",
       "href": "/product/2138",
-      "subcategory": "Table Fans"
+      "subcategory": "Table Fans",
+      "description": "A 12-inch oscillating rechargeable table fan with LED night light, 3 blades and dual AC/DC power. The rechargeable battery runs about 3.5 hours on fast mode or up to 8 hours on slow mode, and it has a built-in USB port to charge a phone on the go. A safety metal grill and quiet oscillation make it suitable for bedside or desk use.",
+      "dimensions": "24D x 34W x 51H cm, 2.5 kg",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "electronics-24",
@@ -36249,9 +36256,11 @@
       "category": "kitchenAppliances",
       "name": "Orbit Electric Lunch Box Hott 2",
       "price": 940,
-      "image": "https://d39bd3o2tztcvw.cloudfront.net/6e6341a2-ebef-4086-943d-04b316efd31c.PNG",
+      "image": "https://m.media-amazon.com/images/I/71uVcLaGzML._SL1500_QL80_FMwebp_.jpg",
       "href": "/product/2128",
-      "subcategory": "Lunch Boxes"
+      "subcategory": "Lunch Boxes",
+      "description": "An electric-heating lunch box with 2 separate containers of 370ml each, letting you carry and reheat two dishes separately. Made in India.",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "homeKitchenAppliances-307",
@@ -36533,7 +36542,9 @@
       "price": 4027,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/276650c9-41ef-4c66-a08c-008eb7888cd9.PNG",
       "href": "/product/2105",
-      "subcategory": "Meat Mincer"
+      "subcategory": "Meat Mincer",
+      "description": "An electric meat mincer/grinder for home use — mince meat fresh for keema, kebabs, burgers and meatballs instead of relying on pre-ground meat.",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "homeKitchenAppliances-326",
@@ -36558,9 +36569,11 @@
       "category": "kitchenAppliances",
       "name": "Orbit Magix Multi-purpose Cooker",
       "price": 2378,
-      "image": "https://d39bd3o2tztcvw.cloudfront.net/61aa0d91-80e6-499f-a5c9-b1f8be05cda7.PNG",
+      "image": "https://m.media-amazon.com/images/X/bxt1/M/3bxt1xB3fwIIEtJ._SL3840_QL80_FMwebp_.jpg",
       "href": "/product/2102",
-      "subcategory": "Pans"
+      "subcategory": "Pans",
+      "description": "A multipurpose electric cooker that doubles as a pizza pan, built for quick stovetop-free cooking of everyday dishes and pizzas alike.",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "homeKitchenAppliances-329",
@@ -36609,7 +36622,9 @@
       "price": 1227,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/bb345919-9f94-44ef-95dd-6977f54ceb2e.PNG",
       "href": "/product/2097",
-      "subcategory": "Toaster"
+      "subcategory": "Toaster",
+      "description": "A 4-slice pop-up toaster for golden, crispy toast — built to make breakfast routines quicker and more effortless.",
+      "sourceUrl": "https://www.indiaorbit.in/"
     },
     {
       "id": "homeKitchenAppliances-333",
