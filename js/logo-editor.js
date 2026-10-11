@@ -25,13 +25,18 @@
 //   message by app.js. Falls back to a local PNG download if the upload
 //   fails or the product photo's CDN doesn't send CORS headers permissive
 //   enough to let canvas export the pixels.
-// - The upload is gated by an invisible Cloudflare Turnstile challenge
-//   instead of a bearer token: this site has no backend, so any token
-//   baked into this file would just be plaintext in view-source -- not a
-//   secret, just a string that looks like one (and trips every secret
-//   scanner on push). Turnstile's site key below is meant to be public
-//   (like an analytics ID); the thing that actually verifies the request
-//   is a secret key that lives only in the Worker's own env, never here.
+// - The upload endpoint has no client-side secret or third-party challenge
+//   at all -- Turnstile was tried first but its challenge iframe
+//   (challenges.cloudflare.com/cdn-cgi/challenge-platform/...) turned out
+//   to get silently blocked by common ad-blockers/privacy extensions,
+//   confirmed on a real device, not just the test sandbox: the Share
+//   button would spin forever and fall back to a local download for
+//   anyone running one. A bearer token was tried before that and rejected
+//   for a different reason -- it's plaintext in view-source on a site with
+//   no backend, so it's not a real secret and trips every push-time secret
+//   scanner. Instead the Worker itself bounds abuse (see CLAUDE.md decision
+//   log): a per-IP rate limit, a tightened per-upload size cap, and a short
+//   TTL on stored objects -- no client-side gate to fail or leak.
 (() => {
   "use strict";
 
@@ -40,38 +45,6 @@
   const DEFAULT_PLACEMENT = { xPct: 50, yPct: 50, sizePct: 25, rotationDeg: 0 };
   const AUTOSAVE_DELAY_MS = 500;
   const UPLOAD_ENDPOINT = "https://ancient-water-39b4.arsalannaqvi32.workers.dev/upload";
-  const TURNSTILE_SITE_KEY = "0x4AAAAAAFT01rbNWquz210_";
-
-  let turnstileWidgetId = null;
-  let turnstileToken = null;
-  function ensureTurnstileWidget() {
-    if (turnstileWidgetId !== null || typeof window.turnstile === "undefined") return;
-    turnstileWidgetId = window.turnstile.render("#turnstile-container", {
-      sitekey: TURNSTILE_SITE_KEY,
-      size: "invisible",
-      execution: "execute",
-      callback: (token) => { turnstileToken = token; },
-      "error-callback": () => { turnstileToken = null; },
-      "expired-callback": () => { turnstileToken = null; },
-    });
-  }
-  async function getTurnstileToken() {
-    ensureTurnstileWidget();
-    if (typeof window.turnstile === "undefined" || turnstileWidgetId === null) {
-      throw new Error("Turnstile unavailable");
-    }
-    turnstileToken = null;
-    window.turnstile.execute(turnstileWidgetId);
-    const start = Date.now();
-    while (!turnstileToken) {
-      if (Date.now() - start > 20000) throw new Error("Turnstile timed out");
-      await new Promise((r) => window.setTimeout(r, 100));
-    }
-    const token = turnstileToken;
-    turnstileToken = null;
-    window.turnstile.reset(turnstileWidgetId); // tokens are single-use; reset for the next Share
-    return token;
-  }
 
   let dbPromise = null;
   function openDb() {
@@ -417,17 +390,13 @@
   }
 
   async function uploadMockup(blob) {
-    const token = await getTurnstileToken();
-    const form = new FormData();
-    form.append("file", blob, "logo-mockup.png");
-    form.append("cf-turnstile-response", token);
-
     const controller = new AbortController();
     const timeoutId = window.setTimeout(() => controller.abort(), 20000);
     try {
       const res = await fetch(UPLOAD_ENDPOINT, {
         method: "POST",
-        body: form, // no explicit Content-Type -- the browser sets the multipart boundary itself
+        headers: { "Content-Type": "image/png" },
+        body: blob,
         signal: controller.signal,
       });
       if (!res.ok) throw new Error(`upload failed: ${res.status}`);
