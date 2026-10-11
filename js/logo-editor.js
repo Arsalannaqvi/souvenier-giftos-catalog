@@ -17,20 +17,23 @@
 //   nothing. The current product+image is also mirrored into the URL
 //   (?editLogo=id&img=n via replaceState) so a reload lands back in this
 //   exact editor view instead of on the home page.
-// - "Share" is intentionally stubbed for now -- it needs a small serverless
-//   function + Cloudinary to produce a link the rep can open, which isn't
-//   wired up yet. In the meantime it best-effort offers a local PNG
-//   download of the composited mockup (falls back to a plain message if
-//   the product photo's CDN doesn't send CORS headers permissive enough to
-//   let canvas export the pixels -- a real possibility across the mix of
-//   third-party image hosts this catalog's photos come from).
+// - "Share" composites the logo onto the product photo on a canvas, uploads
+//   the PNG to a small Cloudflare Worker (ancient-water-39b4, backed by a
+//   Workers KV namespace -- no Cloudinary, no card on file, see CLAUDE.md
+//   decision log), and saves the returned link in the "shares" IndexedDB
+//   store so it survives a reload and can be pulled into the WhatsApp
+//   message by app.js. Falls back to a local PNG download if the upload
+//   fails or the product photo's CDN doesn't send CORS headers permissive
+//   enough to let canvas export the pixels.
 (() => {
   "use strict";
 
   const DB_NAME = "wa-catalog-logo-editor";
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
   const DEFAULT_PLACEMENT = { xPct: 50, yPct: 50, sizePct: 25, rotationDeg: 0 };
   const AUTOSAVE_DELAY_MS = 500;
+  const UPLOAD_ENDPOINT = "https://ancient-water-39b4.arsalannaqvi32.workers.dev/upload";
+  const UPLOAD_TOKEN = "fZ3mK9pQxR7vL2nW8tY5hB4cA6dE1gJ0";
 
   let dbPromise = null;
   function openDb() {
@@ -41,11 +44,31 @@
         const db = req.result;
         if (!db.objectStoreNames.contains("logo")) db.createObjectStore("logo");
         if (!db.objectStoreNames.contains("placements")) db.createObjectStore("placements");
+        if (!db.objectStoreNames.contains("shares")) db.createObjectStore("shares");
       };
       req.onsuccess = () => resolve(req.result);
       req.onerror = () => reject(req.error);
     });
     return dbPromise;
+  }
+  async function idbGetAllEntries(storeName) {
+    const db = await openDb();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(storeName, "readonly");
+      const store = tx.objectStore(storeName);
+      const entries = [];
+      const req = store.openCursor();
+      req.onsuccess = () => {
+        const cursor = req.result;
+        if (cursor) {
+          entries.push({ key: cursor.key, value: cursor.value });
+          cursor.continue();
+        } else {
+          resolve(entries);
+        }
+      };
+      req.onerror = () => reject(req.error);
+    });
   }
   async function idbGet(storeName, key) {
     const db = await openDb();
@@ -306,7 +329,7 @@
     scheduleAutosave();
   }
 
-  // ---------- Best-effort composited export (Share, stubbed) ----------
+  // ---------- Composited export + upload (Share) ----------
   function loadImageEl(src) {
     return new Promise((resolve, reject) => {
       const img = new Image();
@@ -317,7 +340,7 @@
     });
   }
 
-  async function composite() {
+  async function compositeCanvas() {
     const baseImg = await loadImageEl(els.productImg.src);
     const logoImg = await loadImageEl(currentLogoObjectUrl);
     const naturalW = baseImg.naturalWidth || els.stage.clientWidth;
@@ -338,10 +361,39 @@
     ctx.drawImage(logoImg, -logoW / 2, -logoH / 2, logoW, logoH);
     ctx.restore();
 
-    // Throws if the product photo's CDN didn't send permissive-enough CORS
-    // headers -- common across the mix of third-party image hosts this
-    // catalog pulls from. No way to fix that from here; caller handles it.
-    return canvas.toDataURL("image/png");
+    // toBlob (and toDataURL) throws/taints if the product photo's CDN didn't
+    // send permissive-enough CORS headers -- common across the mix of
+    // third-party image hosts this catalog pulls from. Caller handles it.
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => (blob ? resolve(blob) : reject(new Error("canvas export failed"))), "image/png");
+    });
+  }
+
+  function downloadBlob(blob) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${currentProduct.id}-logo-mockup.png`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  async function uploadMockup(blob) {
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => controller.abort(), 20000);
+    try {
+      const res = await fetch(UPLOAD_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "image/png", "X-Upload-Token": UPLOAD_TOKEN },
+        body: blob,
+        signal: controller.signal,
+      });
+      if (!res.ok) throw new Error(`upload failed: ${res.status}`);
+      const data = await res.json();
+      return data.url;
+    } finally {
+      window.clearTimeout(timeoutId);
+    }
   }
 
   async function handleShare() {
@@ -351,16 +403,39 @@
       return;
     }
     showStatus("Preparing a preview…");
+    let blob;
     try {
-      const dataUrl = await composite();
-      const a = document.createElement("a");
-      a.href = dataUrl;
-      a.download = `${currentProduct.id}-logo-mockup.png`;
-      a.click();
-      showStatus("Sharing a link with the rep isn't connected yet — downloaded a copy of this mockup instead.", 7000);
+      blob = await compositeCanvas();
     } catch (_) {
-      showStatus("Couldn't generate a downloadable preview for this product photo. Sharing with the rep will work once that's connected.", 7000);
+      showStatus("Couldn't generate a preview for this product photo.", 5000);
+      return;
     }
+    try {
+      const url = await uploadMockup(blob);
+      await idbSet("shares", placementKey(currentProduct.id, currentImageIndex), { url, sharedAt: Date.now() });
+      try {
+        await navigator.clipboard.writeText(url);
+        showStatus("Preview link copied — it's included automatically in the WhatsApp enquiry.", 6000);
+      } catch (_) {
+        showStatus(`Preview link ready — it's included automatically in the WhatsApp enquiry: ${url}`, 8000);
+      }
+    } catch (_) {
+      downloadBlob(blob);
+      showStatus("Couldn't reach the preview link server — downloaded a copy of this mockup instead.", 7000);
+    }
+  }
+
+  async function getShareLinks(productIds) {
+    const idSet = new Set(productIds);
+    const entries = await idbGetAllEntries("shares");
+    const result = {};
+    entries.forEach(({ key, value }) => {
+      const productId = String(key).split("::")[0];
+      if (!idSet.has(productId) || !value || !value.url) return;
+      if (!result[productId]) result[productId] = [];
+      result[productId].push({ url: value.url, sharedAt: value.sharedAt });
+    });
+    return result;
   }
 
   // ---------- Wiring ----------
@@ -435,5 +510,5 @@
     boot();
   }
 
-  window.LogoEditor = { open };
+  window.LogoEditor = { open, getShareLinks };
 })();

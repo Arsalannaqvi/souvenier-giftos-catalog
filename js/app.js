@@ -1529,7 +1529,7 @@
     qs("footer-review-actions").hidden = false;
   }
 
-  function buildMessage() {
+  async function buildMessage() {
     const name = qs("client-name").value.trim();
     const company = qs("client-company").value.trim();
     const whatsapp = qs("client-whatsapp").value.trim();
@@ -1565,6 +1565,22 @@
     lines.push("");
 
     if (state.branding) lines.push(`*Branding:* ${BRANDING_LABELS[state.branding]}`);
+
+    if (state.branding && state.branding !== "none" && window.LogoEditor && window.LogoEditor.getShareLinks) {
+      try {
+        const shareMap = await window.LogoEditor.getShareLinks(items.map(({ product }) => product.id));
+        const shareLines = [];
+        items.forEach(({ product }) => {
+          const links = shareMap[product.id];
+          if (links) links.forEach((link) => shareLines.push(`${product.name}: ${link.url}`));
+        });
+        if (shareLines.length) {
+          lines.push(`*Logo placement preview${shareLines.length > 1 ? "s" : ""}:*`);
+          shareLines.forEach((l) => lines.push(l));
+        }
+      } catch (_) { /* no saved mockups to include, or IndexedDB unavailable */ }
+    }
+
     if (deliveryCity) lines.push(`*Delivery city:* ${deliveryCity}`);
     if (neededBy) lines.push(`*Needed by:* ${neededBy}`);
     if (recipientCount) lines.push(`*Recipients:* ${recipientCount}`);
@@ -1585,10 +1601,23 @@
   function sendWhatsApp() {
     if (state.shortlist.size === 0 || !state.selectedRep) return;
     saveClientInfo();
-    const message = buildMessage();
-    const number = (state.selectedRep.number || "").replace(/[^\d]/g, "");
-    const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank", "noopener");
+    // Open the tab synchronously (within the click's user-gesture window) and
+    // fill in its destination once the message — which may need an async
+    // IndexedDB lookup for saved logo-mockup links — is ready; otherwise
+    // some browsers block a post-await window.open as a popup. Can't pass
+    // "noopener" here (it makes window.open return null, losing the handle
+    // we need), so sever win.opener by hand once we're done with it instead.
+    const win = window.open("", "_blank");
+    buildMessage().then((message) => {
+      const number = (state.selectedRep.number || "").replace(/[^\d]/g, "");
+      const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+      if (win) {
+        win.opener = null;
+        win.location.href = url;
+      } else {
+        window.open(url, "_blank", "noopener");
+      }
+    });
   }
 
   // ---------- Client curation (?client=) ----------
