@@ -27,8 +27,9 @@
     branding: null, // selected branding chip key, or null
     kitBudget: null, // per-recipient budget (number) for the floating widget's ring, or null
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
+    colorsByProduct: {}, // productId -> ["Black", "Blue", ...] (from data/colors.json, optional)
     kits: [], // curated multi-product kits (from data/kits.json, optional)
-    filters: { minPrice: null, maxPrice: null, brands: new Set() },
+    filters: { minPrice: null, maxPrice: null, brands: new Set(), colors: new Set() },
     pagination: { page: 1, pageSize: 24, sort: "newest" },
   };
 
@@ -38,6 +39,31 @@
     mid: { min: 500, max: 2000 },
     high: { min: 2000, max: null },
   };
+
+  // Mirrors the BUCKET_ORDER / swatch choices baked into data/colors.json
+  // by scripts/generate_colors.py -- keep in sync if that script's palette
+  // changes. "Multicolor" has no single hex; its swatch is a CSS gradient
+  // via the .color-swatch--multicolor class instead.
+  const COLOR_SWATCHES = {
+    Black: "#1a1a1a",
+    White: "#ffffff",
+    Grey: "#9ca3af",
+    Silver: "#c0c0c0",
+    Blue: "#3b82f6",
+    Green: "#22c55e",
+    Red: "#ef4444",
+    Pink: "#ec4899",
+    Purple: "#a855f7",
+    Yellow: "#eab308",
+    Orange: "#f97316",
+    Brown: "#92400e",
+    Beige: "#d9c7a3",
+    Gold: "#d4af37",
+  };
+  const COLOR_ORDER = [
+    "Black", "White", "Grey", "Silver", "Blue", "Green", "Red", "Pink",
+    "Purple", "Yellow", "Orange", "Brown", "Beige", "Gold", "Multicolor",
+  ];
 
   const els = {};
 
@@ -501,13 +527,14 @@
   }
 
   // ---------- Search / budget discovery (shared across home + category view) ----------
-  // Clears search text, budget chip, and price/brand filters back to defaults.
-  // Does not touch activeCategory/browsingAll/view visibility — callers own that.
+  // Clears search text, budget chip, and price/brand/colour filters back to
+  // defaults. Does not touch activeCategory/browsingAll/view visibility --
+  // callers own that.
   function resetDiscovery() {
     state.searchQuery = "";
     state.budgetKey = "all";
     state.brandKey = "";
-    state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    state.filters = { minPrice: null, maxPrice: null, brands: new Set(), colors: new Set() };
     els.searchInput.value = "";
     qs("filter-price-min").value = "";
     qs("filter-price-max").value = "";
@@ -684,22 +711,27 @@
   }
 
   function matchesFilters(product) {
-    const { minPrice, maxPrice, brands } = state.filters;
+    const { minPrice, maxPrice, brands, colors } = state.filters;
     if (minPrice != null && (product.price == null || product.price < minPrice)) return false;
     if (maxPrice != null && (product.price == null || product.price > maxPrice)) return false;
     if (brands.size > 0) {
       const brand = state.brandByProduct[product.id];
       if (!brand || !brands.has(brand)) return false;
     }
+    if (colors.size > 0) {
+      const productColors = state.colorsByProduct[product.id];
+      if (!productColors || !productColors.some((c) => colors.has(c))) return false;
+    }
     return true;
   }
 
   function updateFiltersBadge() {
-    const { minPrice, maxPrice, brands } = state.filters;
+    const { minPrice, maxPrice, brands, colors } = state.filters;
     let count = 0;
     if (minPrice != null) count += 1;
     if (maxPrice != null) count += 1;
     count += brands.size;
+    count += colors.size;
     els.filtersBadge.textContent = String(count);
     els.filtersBadge.hidden = count === 0;
   }
@@ -734,8 +766,44 @@
     });
   }
 
+  function renderColorFilterList() {
+    const counts = new Map();
+    categoryItems().forEach((p) => {
+      const productColors = state.colorsByProduct[p.id];
+      if (!productColors) return;
+      productColors.forEach((c) => counts.set(c, (counts.get(c) || 0) + 1));
+    });
+    const colors = COLOR_ORDER.filter((c) => counts.has(c));
+
+    els.colorFilterList.innerHTML = "";
+    els.colorFilterEmpty.hidden = colors.length > 0;
+
+    colors.forEach((color) => {
+      const label = document.createElement("label");
+      label.className = "color-filter-item";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = color;
+      input.checked = state.filters.colors.has(color);
+      const swatch = document.createElement("span");
+      swatch.className = "color-swatch" + (color === "Multicolor" ? " color-swatch--multicolor" : "");
+      if (COLOR_SWATCHES[color]) swatch.style.background = COLOR_SWATCHES[color];
+      const text = document.createElement("span");
+      text.textContent = color;
+      const count = document.createElement("span");
+      count.className = "color-count";
+      count.textContent = String(counts.get(color));
+      label.appendChild(input);
+      label.appendChild(swatch);
+      label.appendChild(text);
+      label.appendChild(count);
+      els.colorFilterList.appendChild(label);
+    });
+  }
+
   function openFilterSheet() {
     renderBrandFilterList();
+    renderColorFilterList();
     els.filterSheetOverlay.hidden = false;
     els.filterSheet.hidden = false;
     document.body.style.overflow = "hidden";
@@ -754,6 +822,9 @@
     state.filters.maxPrice = maxVal ? Number(maxVal) : null;
     state.filters.brands = new Set(
       Array.from(els.brandFilterList.querySelectorAll("input:checked")).map((el) => el.value)
+    );
+    state.filters.colors = new Set(
+      Array.from(els.colorFilterList.querySelectorAll("input:checked")).map((el) => el.value)
     );
     // A manual price edit may no longer match any budget preset exactly —
     // only keep a chip highlighted when the typed range still matches it.
@@ -775,7 +846,7 @@
   }
 
   function clearFilters() {
-    state.filters = { minPrice: null, maxPrice: null, brands: new Set() };
+    state.filters = { minPrice: null, maxPrice: null, brands: new Set(), colors: new Set() };
     state.budgetKey = "all";
     state.brandKey = "";
     state.pagination.page = 1;
@@ -784,6 +855,7 @@
     updateBudgetChipsUI();
     updateBrandChipsUI();
     renderBrandFilterList();
+    renderColorFilterList();
     updateFiltersBadge();
     renderProducts();
   }
@@ -1485,6 +1557,8 @@
     els.filterSheet = qs("filter-sheet");
     els.brandFilterList = qs("brand-filter-list");
     els.brandFilterEmpty = qs("brand-filter-empty");
+    els.colorFilterList = qs("color-filter-list");
+    els.colorFilterEmpty = qs("color-filter-empty");
     els.filteredEmptyState = qs("filtered-empty-state");
     els.resultsSummary = qs("results-summary");
     els.brandPageLink = qs("brand-page-link");
@@ -1536,6 +1610,12 @@
       state.brandByProduct = await fetchJSON("data/brands.json");
     } catch (err) {
       state.brandByProduct = {}; // optional file; brand filter just stays empty if absent
+    }
+
+    try {
+      state.colorsByProduct = await fetchJSON("data/colors.json");
+    } catch (err) {
+      state.colorsByProduct = {}; // optional file; colour filter just stays empty if absent
     }
 
     try {
