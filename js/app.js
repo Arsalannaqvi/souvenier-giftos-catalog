@@ -1412,6 +1412,19 @@
       node.querySelector(".sheet-item-name").textContent = product.name;
       node.querySelector(".sheet-item-price").textContent = state.config.showPrices ? money(product) : "";
 
+      // Only a logo-style branding choice makes sense to preview placement
+      // for -- "Screen print"/"Embroidery" are still logo-based (same mockup
+      // idea), "No branding"/unset has nothing to place.
+      const previewBtn = node.querySelector(".sheet-item-preview-btn");
+      const brandingNeedsLogo = state.branding && state.branding !== "none";
+      previewBtn.hidden = !brandingNeedsLogo;
+      if (brandingNeedsLogo) {
+        previewBtn.addEventListener("click", () => {
+          closeSheet(); // avoid two modals both locking body scroll at once
+          if (window.LogoEditor) window.LogoEditor.open(product);
+        });
+      }
+
       const stepper = node.querySelector(".stepper");
       const input = stepper.querySelector(".step-input");
       input.value = qty;
@@ -1445,6 +1458,7 @@
   function selectBranding(key) {
     state.branding = state.branding === key ? null : key;
     updateBrandingChipsUI();
+    renderSheetItems(); // "Preview placement" per item only shows for a logo-style branding choice
   }
 
   function updateBrandingChipsUI() {
@@ -1750,6 +1764,15 @@
     renderKits();
     renderCategoryGrid();
     renderRoomSection();
+
+    // Small bridge for js/logo-editor.js, a separate file so it doesn't
+    // bloat this one -- it needs the product list to resolve a deep link
+    // (?editLogo=id&img=n) but can't reach into this IIFE's closed-over
+    // `state`. Dispatched once, after products are actually loaded (both
+    // scripts load with `defer`, but this one's init() is async, so the
+    // other script's top-level code can easily run before this point).
+    window.CatalogData = { products: state.products };
+    window.dispatchEvent(new CustomEvent("catalog:ready"));
     renderSidebarCategories();
     renderRecentlyViewed();
     updateStickyBar();

@@ -23,7 +23,7 @@
      changes, so a plain phone reload (no "hard refresh" gesture on
      mobile) always picks up the new version immediately instead of
      possibly reusing a stale cached copy for up to 10 minutes. -->
-<link rel="stylesheet" href="css/styles.css?v=202610102038">
+<link rel="stylesheet" href="css/styles.css?v=202610111530">
 </head>
 <body class="shop home-active">
 
@@ -368,6 +368,7 @@
     <div class="sheet-item-info">
       <p class="sheet-item-name"></p>
       <p class="sheet-item-price"></p>
+      <button class="sheet-item-preview-btn" type="button" hidden>🖼️ Preview placement</button>
     </div>
     <div class="stepper">
       <button class="step-btn step-minus" type="button" aria-label="Decrease quantity">−</button>
@@ -428,6 +429,58 @@
   </div>
 </div>
 
-<script src="js/app.js?v=202610102038" defer></script>
+<div id="logo-editor-overlay" class="logo-editor-overlay" hidden role="dialog" aria-modal="true" aria-label="Logo placement editor">
+  <div class="logo-editor-header">
+    <button id="logo-editor-close" class="icon-btn" type="button" aria-label="Close editor">✕</button>
+    <div class="logo-editor-title">
+      <p id="logo-editor-product-name" class="logo-editor-product-name"></p>
+      <p class="logo-editor-hint">Drag your logo to position it</p>
+    </div>
+  </div>
+
+  <div id="logo-editor-thumbs" class="logo-editor-thumbs"></div>
+
+  <div class="logo-editor-stage-wrap">
+    <div id="logo-editor-stage" class="logo-editor-stage">
+      <img id="logo-editor-product-img" class="logo-editor-product-img" alt="">
+      <div id="logo-editor-logo-layer" class="logo-editor-logo-layer" hidden>
+        <img id="logo-editor-logo-img" class="logo-editor-logo-img" alt="Your logo" draggable="false">
+      </div>
+    </div>
+    <div id="logo-editor-upload-prompt" class="logo-editor-upload-prompt">
+      <p>Upload your company logo to get started</p>
+      <label class="logo-editor-upload-btn">
+        Choose logo file
+        <input id="logo-editor-file-input" type="file" accept="image/*" hidden>
+      </label>
+      <p class="logo-editor-upload-hint">For best results, use an SVG or a high-resolution PNG with a transparent background — but any image works.</p>
+    </div>
+  </div>
+
+  <div id="logo-editor-controls" class="logo-editor-controls" hidden>
+    <label class="logo-editor-control">
+      <span>Size</span>
+      <input id="logo-editor-size" type="range" min="5" max="100" value="25">
+    </label>
+    <label class="logo-editor-control">
+      <span>Rotate</span>
+      <input id="logo-editor-rotate" type="range" min="0" max="360" value="0">
+    </label>
+    <div class="logo-editor-control-row">
+      <button id="logo-editor-change-logo" class="logo-editor-text-btn" type="button">Change logo</button>
+      <button id="logo-editor-remove-placement" class="logo-editor-text-btn" type="button">Remove from this image</button>
+    </div>
+  </div>
+
+  <p id="logo-editor-save-status" class="logo-editor-save-status" hidden></p>
+
+  <div class="logo-editor-footer">
+    <button id="logo-editor-save-btn" class="send-btn send-btn--secondary" type="button">Save this image</button>
+    <button id="logo-editor-share-btn" class="send-btn" type="button">Share with enquiry</button>
+  </div>
+</div>
+
+<script src="js/app.js?v=202610111530" defer></script>
+<script src="js/logo-editor.js?v=202610111530" defer></script>
 </body>
 </html>
