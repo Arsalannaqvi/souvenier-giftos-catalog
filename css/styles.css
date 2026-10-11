@@ -1604,6 +1604,12 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     position: static;
     max-height: none;
     overflow: visible;
+    /* Without this, the grid column sizes itself to the Continue Browsing
+       row's full un-scrolled content width (overflow:visible above
+       suppresses the usual automatic min-size clamp on a grid item),
+       widening the whole page instead of letting .cb-row scroll inside
+       its own box. */
+    min-width: 0;
     border-right: none;
     border-bottom: 1px solid var(--border);
     padding: 20px 28px 24px;
