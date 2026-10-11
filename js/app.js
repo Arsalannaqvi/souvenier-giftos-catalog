@@ -436,6 +436,72 @@
     });
   }
 
+  // ---------- Gifting Selection Room (?room=id1,id2,...) ----------
+  // A rep picks products via the normal shortlist ("Add to enquiry"), then
+  // shares a link built from those product ids (see shareAsRoom()). A
+  // visitor opening that link sees those picks first, in their own
+  // section above "Browse Categories" -- the rest of the catalogue is
+  // right below, unchanged. No backend: the picks live entirely in the URL.
+  function renderRoomSection() {
+    if (!els.roomSection) return;
+    const roomParam = new URLSearchParams(window.location.search).get("room");
+    if (!roomParam) return;
+    const ids = roomParam.split(",").map((s) => s.trim()).filter(Boolean);
+    const products = ids
+      .map((id) => state.products.find((p) => p.id === id))
+      .filter(Boolean);
+    if (!products.length) return;
+
+    els.roomGrid.innerHTML = "";
+    products.forEach((product) => {
+      els.roomGrid.appendChild(buildProductCardNode(product));
+    });
+    els.roomSection.hidden = false;
+  }
+
+  function showToast(message) {
+    let toast = qs("room-toast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.id = "room-toast";
+      toast.className = "room-toast";
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.remove("is-visible");
+    // Force reflow so retriggering the class restarts the fade animation
+    // even if a previous toast is still fading out.
+    void toast.offsetWidth;
+    toast.classList.add("is-visible");
+    window.clearTimeout(showToast._timer);
+    showToast._timer = window.setTimeout(() => toast.classList.remove("is-visible"), 2400);
+  }
+
+  async function shareAsRoom() {
+    const ids = Array.from(state.shortlist.keys());
+    if (!ids.length) return;
+    const url = new URL(window.location.origin + window.location.pathname);
+    url.searchParams.set("room", ids.join(","));
+    const link = url.toString();
+    const shareText = `A few gift picks for you: ${link}`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "A few picks for you", text: shareText, url: link });
+        return;
+      } catch (err) {
+        if (err && err.name === "AbortError") return; // user cancelled the share sheet
+        // Any other failure (unsupported, blocked) falls through to copy below.
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(link);
+      showToast("Room link copied!");
+    } catch (_) {
+      window.prompt("Copy this room link:", link);
+    }
+  }
+
   function renderChips() {
     const tpl = qs("chip-template");
     els.chipRow.innerHTML = "";
@@ -944,8 +1010,76 @@
     imageWrap.addEventListener("touchend", stop);
   }
 
-  function renderProducts() {
+  // Builds one product-card DOM node from the shared <template> -- used by
+  // both the main product grid and the "Picked for you" room section, so
+  // the card markup/behaviour (image hover-cycle, add/stepper, lightbox)
+  // stays in exactly one place.
+  function buildProductCardNode(product) {
     const tpl = qs("product-card-template");
+    const node = tpl.content.firstElementChild.cloneNode(true);
+    node.dataset.productId = product.id;
+
+    const imageWrap = node.querySelector(".product-image");
+    if (product.image) {
+      const img = document.createElement("img");
+      img.src = product.image;
+      img.alt = product.name;
+      img.loading = "lazy";
+      imageWrap.innerHTML = "";
+      imageWrap.appendChild(img);
+      imageWrap.classList.add("has-photo");
+      imageWrap.addEventListener("click", () => openLightbox(img.src, product.name));
+      bindImageHoverCycle(imageWrap, img, product);
+    } else {
+      const cat = state.categories.find((c) => c.id === product.category);
+      node.querySelector(".product-emoji").textContent = (cat && cat.emoji) || "🎁";
+      imageWrap.style.background = cat && cat.color
+        ? `linear-gradient(135deg, color-mix(in srgb, ${cat.color} 22%, var(--surface)), color-mix(in srgb, ${cat.color} 6%, var(--surface)))`
+        : "";
+    }
+
+    const nameLink = node.querySelector(".product-name-link");
+    nameLink.textContent = product.name;
+    nameLink.href = `product/${product.id}/`;
+    node.querySelector(".product-desc").textContent = product.desc || "";
+    const priceEl = node.querySelector(".product-price");
+    if (state.config.showPrices) {
+      priceEl.textContent = money(product);
+    } else {
+      priceEl.remove();
+    }
+
+    const addBtn = node.querySelector(".add-btn");
+    const stepper = node.querySelector(".stepper");
+    const input = stepper.querySelector(".step-input");
+
+    const existingQty = state.shortlist.get(product.id) || 0;
+    if (existingQty > 0) {
+      addBtn.hidden = true;
+      stepper.hidden = false;
+      input.value = existingQty;
+    }
+
+    addBtn.addEventListener("click", () => {
+      setQty(product.id, 1);
+      addBtn.hidden = true;
+      stepper.hidden = false;
+      input.value = 1;
+      input.focus();
+    });
+
+    bindStepper(stepper, product.id, () => {
+      const qty = state.shortlist.get(product.id) || 0;
+      if (qty <= 0) {
+        stepper.hidden = true;
+        addBtn.hidden = false;
+      }
+    });
+
+    return node;
+  }
+
+  function renderProducts() {
     els.productGrid.innerHTML = "";
     const baseItems = categoryItems();
     const filtered = baseItems.filter(matchesFilters);
@@ -971,67 +1105,7 @@
     updateToolbar(total, startIdx, endIdx, totalPages, page);
 
     pageItems.forEach((product) => {
-      const node = tpl.content.firstElementChild.cloneNode(true);
-      node.dataset.productId = product.id;
-
-      const imageWrap = node.querySelector(".product-image");
-      if (product.image) {
-        const img = document.createElement("img");
-        img.src = product.image;
-        img.alt = product.name;
-        img.loading = "lazy";
-        imageWrap.innerHTML = "";
-        imageWrap.appendChild(img);
-        imageWrap.classList.add("has-photo");
-        imageWrap.addEventListener("click", () => openLightbox(img.src, product.name));
-        bindImageHoverCycle(imageWrap, img, product);
-      } else {
-        const cat = state.categories.find((c) => c.id === product.category);
-        node.querySelector(".product-emoji").textContent = (cat && cat.emoji) || "🎁";
-        imageWrap.style.background = cat && cat.color
-          ? `linear-gradient(135deg, color-mix(in srgb, ${cat.color} 22%, var(--surface)), color-mix(in srgb, ${cat.color} 6%, var(--surface)))`
-          : "";
-      }
-
-      const nameLink = node.querySelector(".product-name-link");
-      nameLink.textContent = product.name;
-      nameLink.href = `product/${product.id}/`;
-      node.querySelector(".product-desc").textContent = product.desc || "";
-      const priceEl = node.querySelector(".product-price");
-      if (state.config.showPrices) {
-        priceEl.textContent = money(product);
-      } else {
-        priceEl.remove();
-      }
-
-      const addBtn = node.querySelector(".add-btn");
-      const stepper = node.querySelector(".stepper");
-      const input = stepper.querySelector(".step-input");
-
-      const existingQty = state.shortlist.get(product.id) || 0;
-      if (existingQty > 0) {
-        addBtn.hidden = true;
-        stepper.hidden = false;
-        input.value = existingQty;
-      }
-
-      addBtn.addEventListener("click", () => {
-        setQty(product.id, 1);
-        addBtn.hidden = true;
-        stepper.hidden = false;
-        input.value = 1;
-        input.focus();
-      });
-
-      bindStepper(stepper, product.id, () => {
-        const qty = state.shortlist.get(product.id) || 0;
-        if (qty <= 0) {
-          stepper.hidden = true;
-          addBtn.hidden = false;
-        }
-      });
-
-      els.productGrid.appendChild(node);
+      els.productGrid.appendChild(buildProductCardNode(product));
     });
   }
 
@@ -1284,6 +1358,10 @@
     const entries = Array.from(state.shortlist.entries());
     els.sheetEmpty.hidden = entries.length > 0;
     els.sheetTotal.hidden = entries.length === 0;
+    if (els.shareRoomBtn) {
+      els.shareRoomBtn.hidden = entries.length === 0;
+      if (els.shareRoomCount) els.shareRoomCount.textContent = String(entries.length);
+    }
 
     let totalQty = 0;
     let totalAmount = 0;
@@ -1527,6 +1605,10 @@
     els.cbpPrice = qs("cbp-price");
     els.categoryView = qs("category-view");
     els.categoryGrid = qs("category-grid");
+    els.roomSection = qs("room-section");
+    els.roomGrid = qs("room-grid");
+    els.shareRoomBtn = qs("share-room-btn");
+    els.shareRoomCount = qs("share-room-count");
     els.chipRow = qs("chip-row");
     els.productGrid = qs("product-grid");
     els.emptyState = qs("empty-state");
@@ -1651,6 +1733,7 @@
     updateBrandingChipsUI();
     renderKits();
     renderCategoryGrid();
+    renderRoomSection();
     renderSidebarCategories();
     renderRecentlyViewed();
     updateStickyBar();
@@ -1679,6 +1762,7 @@
       else openCategory(btn.dataset.cat);
     });
     els.desktopCartBtn.addEventListener("click", openSheet);
+    if (els.shareRoomBtn) els.shareRoomBtn.addEventListener("click", shareAsRoom);
 
     els.brandLink.addEventListener("click", goHome);
     els.homeBtn.addEventListener("click", goHome);

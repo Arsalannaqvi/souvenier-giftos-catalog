@@ -156,6 +156,17 @@
 
 <main id="main">
   <section id="home-view" class="view">
+    <section id="room-section" class="room-section" hidden>
+      <div class="room-banner">
+        <span class="room-banner-icon" aria-hidden="true">✨</span>
+        <div>
+          <h2 class="room-title">Picked for you</h2>
+          <p class="room-subtitle">A few items curated just for you — the full catalogue is right below.</p>
+        </div>
+      </div>
+      <div id="room-grid" class="product-grid"></div>
+    </section>
+
     <h2 class="section-title">Browse Categories</h2>
     <div id="category-grid" class="category-grid"></div>
   </section>
@@ -232,6 +243,9 @@
 
   <div class="sheet-body">
     <div id="quote-form-view">
+      <button id="share-room-btn" class="share-room-btn" type="button" hidden>
+        <span aria-hidden="true">🔗</span> Share these <span id="share-room-count">0</span> picks as a link
+      </button>
       <div id="sheet-items" class="sheet-items"></div>
       <p id="sheet-empty" class="empty-state" hidden>Your shortlist is empty. Tap "Add to enquiry" on any product.</p>
 

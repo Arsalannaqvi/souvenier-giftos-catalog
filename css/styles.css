@@ -1026,6 +1026,63 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   font-size: 14px;
 }
 
+/* ---------- Gifting Selection Room ---------- */
+.share-room-btn {
+  width: 100%;
+  min-height: 46px;
+  margin-bottom: 14px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: var(--accent-text);
+  border: none;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.room-section {
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.room-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.room-banner-icon {
+  font-size: 22px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.room-title { font-size: 17px; font-weight: 700; margin: 0 0 4px; }
+.room-subtitle { font-size: 13px; color: var(--text-muted); margin: 0; }
+
+.room-toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  transform: translate(-50%, 12px);
+  background: var(--text);
+  color: var(--bg);
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 600;
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.room-toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
 
 /* ---------- Lightbox ---------- */
 .lightbox {
