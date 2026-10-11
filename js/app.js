@@ -459,6 +459,21 @@
     els.roomSection.hidden = false;
   }
 
+  // Lets the client drop the "Picked for you" section if they don't want
+  // it -- hides it immediately and strips ?room= from the address bar via
+  // replaceState (no reload) so refreshing this tab doesn't bring it back.
+  // The original link (e.g. still sitting in their WhatsApp chat) is
+  // untouched, so reopening it from there shows the room again -- this is
+  // a per-viewing dismiss, not a permanent block.
+  function dismissRoomSection() {
+    if (els.roomSection) els.roomSection.hidden = true;
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.delete("room");
+      window.history.replaceState({}, "", url.toString());
+    } catch (_) { /* URL/history API unavailable in some embedded contexts */ }
+  }
+
   function showToast(message) {
     let toast = qs("room-toast");
     if (!toast) {
@@ -1607,6 +1622,7 @@
     els.categoryGrid = qs("category-grid");
     els.roomSection = qs("room-section");
     els.roomGrid = qs("room-grid");
+    els.roomDismissBtn = qs("room-dismiss-btn");
     els.shareRoomBtn = qs("share-room-btn");
     els.shareRoomCount = qs("share-room-count");
     els.chipRow = qs("chip-row");
@@ -1763,6 +1779,7 @@
     });
     els.desktopCartBtn.addEventListener("click", openSheet);
     if (els.shareRoomBtn) els.shareRoomBtn.addEventListener("click", shareAsRoom);
+    if (els.roomDismissBtn) els.roomDismissBtn.addEventListener("click", dismissRoomSection);
 
     els.brandLink.addEventListener("click", goHome);
     els.homeBtn.addEventListener("click", goHome);
