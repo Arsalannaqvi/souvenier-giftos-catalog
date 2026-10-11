@@ -1081,38 +1081,57 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 }
 .welcome-screen.is-hiding { opacity: 0; }
 
-.welcome-screen::before,
-.welcome-screen::after {
-  content: "";
+/* Flowing wave streaks -- elongated blurred gradient bands drifting and
+   rotating slowly, blended additively (screen) over the dark base so they
+   read as glowing light rather than flat colour shapes. Pure CSS, no
+   canvas/WebGL, so the cost is bounded to exactly the ~1.5s this screen
+   is usually on-screen for. */
+.welcome-waves {
   position: absolute;
-  width: 70vmax;
-  height: 70vmax;
-  border-radius: 50%;
-  filter: blur(40px);
-  pointer-events: none;
+  inset: 0;
   z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.welcome-wave {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140vmax;
+  height: 14vmax;
+  margin-left: -70vmax;
+  margin-top: -7vmax;
+  border-radius: 50%;
+  filter: blur(42px);
+  mix-blend-mode: screen;
   will-change: transform;
 }
-.welcome-screen::before {
-  top: -20%;
-  left: -15%;
-  background: radial-gradient(circle, rgba(77, 127, 255, 0.35), transparent 70%);
-  animation: welcome-drift-a 26s ease-in-out infinite;
+.welcome-wave--a {
+  background: linear-gradient(90deg, transparent, rgba(77, 127, 255, 0.55) 35%, rgba(56, 189, 248, 0.45) 55%, transparent 80%);
+  animation: welcome-wave-a 24s ease-in-out infinite;
 }
-.welcome-screen::after {
-  bottom: -25%;
-  right: -15%;
-  background: radial-gradient(circle, rgba(139, 111, 245, 0.32), transparent 70%);
-  animation: welcome-drift-b 32s ease-in-out infinite;
+.welcome-wave--b {
+  background: linear-gradient(90deg, transparent, rgba(139, 111, 245, 0.5) 40%, rgba(167, 139, 250, 0.4) 60%, transparent 85%);
+  animation: welcome-wave-b 30s ease-in-out infinite;
+}
+.welcome-wave--c {
+  height: 8vmax;
+  margin-top: -4vmax;
+  background: linear-gradient(90deg, transparent, rgba(236, 72, 153, 0.4) 45%, rgba(167, 139, 250, 0.35) 65%, transparent 85%);
+  animation: welcome-wave-c 20s ease-in-out infinite;
 }
 
-@keyframes welcome-drift-a {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(8%, 6%) scale(1.12); }
+@keyframes welcome-wave-a {
+  0%, 100% { transform: translate(-18%, -30%) rotate(-14deg) scaleX(1); }
+  50% { transform: translate(10%, -10%) rotate(-8deg) scaleX(1.08); }
 }
-@keyframes welcome-drift-b {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  50% { transform: translate(-6%, -8%) scale(1.1); }
+@keyframes welcome-wave-b {
+  0%, 100% { transform: translate(14%, 18%) rotate(10deg) scaleX(1); }
+  50% { transform: translate(-12%, 32%) rotate(16deg) scaleX(1.06); }
+}
+@keyframes welcome-wave-c {
+  0%, 100% { transform: translate(-8%, 6%) rotate(-4deg) scaleX(1); }
+  50% { transform: translate(14%, -4%) rotate(2deg) scaleX(1.1); }
 }
 
 .welcome-content {
@@ -1169,8 +1188,7 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 @media (prefers-reduced-motion: reduce) {
   .welcome-content { animation: none; }
   .welcome-screen { transition: none; }
-  .welcome-screen::before,
-  .welcome-screen::after { animation: none; }
+  .welcome-wave { animation: none; }
 }
 
 /* Product card image hover-cycle (auto-activates once a product has >1 image) */
