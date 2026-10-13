@@ -62362,6 +62362,177 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-04-29_at_12.58.27_PM_1_1.jpg?v=1777447950",
       "subcategory": "Keyboards & Mice",
       "description": "500mAh rechargeable battery, 7 button, 3200 DPI."
+    },
+    {
+      "id": "coconut-59",
+      "category": "computerAccessories",
+      "name": "Nexus Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/nexus.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-63",
+      "category": "computerAccessories",
+      "name": "Triton Office Cabinet",
+      "price": 3999,
+      "image": "assets/products/coconut/triton.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-66",
+      "category": "computerAccessories",
+      "name": "Almond Office Cabinet",
+      "price": 4999,
+      "image": "assets/products/coconut/almond.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS."
+    },
+    {
+      "id": "coconut-67",
+      "category": "computerAccessories",
+      "name": "Atlas Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/atlas.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-68",
+      "category": "computerAccessories",
+      "name": "Zeal Office Cabinet",
+      "price": 3999,
+      "image": "assets/products/coconut/zeal.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-71",
+      "category": "computerAccessories",
+      "name": "Prima Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/prima.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-81",
+      "category": "computerAccessories",
+      "name": "Cashew Office Cabinet",
+      "price": 4999,
+      "image": "assets/products/coconut/cashew.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS."
+    },
+    {
+      "id": "coconut-83",
+      "category": "computerAccessories",
+      "name": "Berry Office Cabinet",
+      "price": 4999,
+      "image": "assets/products/coconut/berry.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS."
+    },
+    {
+      "id": "coconut-93",
+      "category": "computerAccessories",
+      "name": "Solar Office Cabinet",
+      "price": 3999,
+      "image": "assets/products/coconut/solar.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Micro ATX, front stylish RGB strip, RGB switch button, pre-loaded with SM45 SMPS."
+    },
+    {
+      "id": "coconut-94",
+      "category": "computerAccessories",
+      "name": "Calvin Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/calvin.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-95",
+      "category": "computerAccessories",
+      "name": "Saga Office Cabinet",
+      "price": 3999,
+      "image": "assets/products/coconut/saga.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-100",
+      "category": "computerAccessories",
+      "name": "Lily Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/lily.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-102",
+      "category": "computerAccessories",
+      "name": "Boston Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/boston.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-104",
+      "category": "computerAccessories",
+      "name": "Astro Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/astro.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-111",
+      "category": "computerAccessories",
+      "name": "Vesta Office Cabinet",
+      "price": 3999,
+      "image": "assets/products/coconut/vesta.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-114",
+      "category": "computerAccessories",
+      "name": "Iris Office Cabinet",
+      "price": 3499,
+      "image": "assets/products/coconut/iris.jpg",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+    },
+    {
+      "id": "coconut-118",
+      "category": "computerAccessories",
+      "name": "22HDA LED Monitor",
+      "price": 12999,
+      "image": "assets/products/coconut/22hda-monitor.jpg",
+      "subcategory": "Monitors",
+      "description": "Frameless IPS, A+ grade BOE panel, 120Hz, HDMI + VGA, 6.5ms, 99% sRGB, 250 nits. 3 years warranty."
+    },
+    {
+      "id": "coconut-123",
+      "category": "computerAccessories",
+      "name": "24HD LED Monitor",
+      "price": 16999,
+      "image": "assets/products/coconut/24hd-monitor.jpg",
+      "subcategory": "Monitors",
+      "description": "Frameless IPS, A+ grade, 100Hz, HDMI + VGA, 5ms, 94% sRGB, 250 nits, in-built speakers. 3 years warranty."
+    },
+    {
+      "id": "coconut-126",
+      "category": "computerAccessories",
+      "name": "SM50 Power Supply",
+      "price": 1999,
+      "image": "assets/products/coconut/sm50-psu.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "120mm fan, black powder coated, on/off switch, original Molex connectors."
     }
   ]
 }
