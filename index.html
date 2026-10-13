@@ -23,7 +23,7 @@
      changes, so a plain phone reload (no "hard refresh" gesture on
      mobile) always picks up the new version immediately instead of
      possibly reusing a stale cached copy for up to 10 minutes. -->
-<link rel="stylesheet" href="css/styles.css?v=202610111530">
+<link rel="stylesheet" href="css/styles.css?v=202610131200">
 </head>
 <body class="shop home-active">
 
@@ -66,14 +66,15 @@
 
 <div id="client-banner" class="client-banner" hidden></div>
 
-<div id="discovery-bar" class="discovery-bar discovery-bar--home">
-  <div class="search-box-wrap">
-    <div class="search-box">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input id="search-input" type="search" placeholder="Search products, brands, or try &quot;bags under 1500&quot;…" autocomplete="off" aria-label="Search products" role="combobox" aria-expanded="false" aria-controls="search-suggest" aria-autocomplete="list">
-    </div>
-    <ul id="search-suggest" class="search-suggest" hidden role="listbox"></ul>
+<div id="page-search-bar" class="search-box-wrap">
+  <div class="search-box">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="search-input" type="search" placeholder="Search products, brands, or try &quot;bags under 1500&quot;…" autocomplete="off" aria-label="Search products" role="combobox" aria-expanded="false" aria-controls="search-suggest" aria-autocomplete="list">
   </div>
+  <ul id="search-suggest" class="search-suggest" hidden role="listbox"></ul>
+</div>
+
+<div id="discovery-bar" class="discovery-bar discovery-bar--home">
   <div class="quick-row sidebar-only" id="sidebar-categories-row">
     <span class="quick-label">Categories</span>
     <div id="sidebar-categories" class="sidebar-categories"></div>

@@ -1825,6 +1825,11 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 
 /* ===== Search suggestions dropdown ===== */
 .search-box-wrap { position: relative; }
+/* #page-search-bar now lives outside #discovery-bar (sibling, so desktop
+   can give it its own full-width grid row) -- give it the side padding
+   the discovery bar used to provide, so mobile/narrow layouts (which don't
+   use the desktop grid below) look the same as before the move. */
+#page-search-bar { padding: 10px 16px; }
 .search-suggest {
   position: absolute;
   top: calc(100% + 6px);
@@ -1916,13 +1921,25 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     grid-template-areas:
       "header header"
       "banner banner"
+      "search search"
       "sidebar main";
+    column-gap: 24px;
     max-width: 1440px;
     margin: 0 auto;
   }
   body.shop .topbar { grid-area: header; }
   body.shop .client-banner { grid-area: banner; }
   .desktop-cart-btn { display: flex; }
+
+  /* Full-width search bar above the sidebar+grid row (not squeezed into the
+     272px sidebar column) -- moved out of #discovery-bar in the markup so
+     it can sit in its own grid row/area independently of it. Applies the
+     same way whether home-active is set or not, since both layouts now
+     include a "search" named area. */
+  #page-search-bar {
+    grid-area: search;
+    padding: 20px 28px;
+  }
 
   /* Home page: no sidebar column at all — Search/Budget/Brand/Shop by
      Kit/Continue Browsing become full-width sections stacked above the
@@ -1934,19 +1951,26 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     grid-template-areas:
       "header"
       "banner"
+      "search"
       "discovery"
       "main";
   }
 
+  /* Sidebar reads as one self-contained card/tile (background + border +
+     radius) instead of a bare column with just a divider line, so it
+     visually matches the "filters in one tile" look the owner asked for. */
   #discovery-bar {
     grid-area: sidebar;
     position: sticky;
-    top: 73px;
+    top: 93px;
     align-self: start;
-    max-height: calc(100vh - 73px);
+    max-height: calc(100vh - 113px);
     overflow-y: auto;
     padding: 20px 18px 32px;
-    border-right: 1px solid var(--border);
+    margin: 24px 0 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
   }
   body.shop.home-active #discovery-bar {
     grid-area: discovery;
@@ -1959,7 +1983,10 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
        widening the whole page instead of letting .cb-row scroll inside
        its own box. */
     min-width: 0;
-    border-right: none;
+    margin: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
     border-bottom: 1px solid var(--border);
     padding: 20px 28px 24px;
   }
