@@ -3,7 +3,6 @@
 
   const STORAGE_KEYS = {
     shortlist: "wa-catalog:shortlist",
-    theme: "wa-catalog:theme",
   };
 
   const brand = window.__BRAND__;
@@ -17,41 +16,6 @@
     maxPrice: null,
     sort: "featured",
   };
-
-  // ---------- Theme (mirrors js/product.js so look/state stays consistent) ----------
-  function isDarkMode() {
-    const explicit = document.documentElement.getAttribute("data-theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return explicit === "dark" || (!explicit && prefersDark);
-  }
-
-  function updateThemeVisuals() {
-    const isDark = isDarkMode();
-    const toggle = qs("theme-toggle");
-    if (toggle) {
-      toggle.textContent = isDark ? "☀️" : "🌙";
-      toggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
-    }
-    const logo = qs("brand-logo");
-    if (logo) logo.src = "../../assets/logo-white.png";
-  }
-
-  function initTheme() {
-    let saved = null;
-    try { saved = localStorage.getItem(STORAGE_KEYS.theme); } catch (_) { /* ignore */ }
-    if (saved === "dark" || saved === "light") {
-      document.documentElement.setAttribute("data-theme", saved);
-    }
-    updateThemeVisuals();
-  }
-
-  function toggleTheme() {
-    const currentlyDark = isDarkMode();
-    const next = currentlyDark ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
-    try { localStorage.setItem(STORAGE_KEYS.theme, next); } catch (_) { /* ignore */ }
-    updateThemeVisuals();
-  }
 
   // ---------- Shortlist (shared localStorage key with the main catalog) ----------
   function loadShortlist() {
@@ -277,11 +241,6 @@
   }
 
   function init() {
-    initTheme();
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeVisuals);
-    const toggle = qs("theme-toggle");
-    if (toggle) toggle.addEventListener("click", toggleTheme);
-
     renderCategoryRail();
     initFilters();
     render();

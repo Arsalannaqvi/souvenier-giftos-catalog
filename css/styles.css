@@ -20,41 +20,6 @@
   --shadow-lg: 0 -4px 28px rgba(0,0,0,0.5);
 }
 
-:root[data-theme="dark"] {
-  /* Deeper variant of the same navy identity, for the explicit dark toggle */
-  --bg: #06070c;
-  --surface: #0d1120;
-  --surface-2: #141a2e;
-  --text: #f1f3fb;
-  --text-muted: #8d96ac;
-  --border: #20273c;
-  --accent: #5b8aff;
-  --accent-2: #9b81f7;
-  --accent-text: #05060a;
-  --gold: #9b81f7;
-  --gold-soft: #b4a0fa;
-  --shadow: 0 2px 14px rgba(0,0,0,0.5);
-  --shadow-lg: 0 -4px 28px rgba(0,0,0,0.6);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #06070c;
-    --surface: #0d1120;
-    --surface-2: #141a2e;
-    --text: #f1f3fb;
-    --text-muted: #8d96ac;
-    --border: #20273c;
-    --accent: #5b8aff;
-    --accent-2: #9b81f7;
-    --accent-text: #05060a;
-    --gold: #9b81f7;
-    --gold-soft: #b4a0fa;
-    --shadow: 0 2px 14px rgba(0,0,0,0.5);
-    --shadow-lg: 0 -4px 28px rgba(0,0,0,0.6);
-  }
-}
-
 * { box-sizing: border-box; }
 
 /* Several components below set their own `display` (flex/grid) for when

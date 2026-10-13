@@ -64,7 +64,6 @@ PAGE_TEMPLATE = """<!doctype html>
       <p class="tagline">{tagline}</p>
     </div>
   </a>
-  <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">🌙</button>
 </header>
 
 <main class="pd-main brand-main" style="--brand-accent:{accent}; --brand-accent-2:{accent2};">

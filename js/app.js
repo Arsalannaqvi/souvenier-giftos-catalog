@@ -4,7 +4,6 @@
   const STORAGE_KEYS = {
     shortlist: "wa-catalog:shortlist",
     client: "wa-catalog:client-info",
-    theme: "wa-catalog:theme",
     seenWelcome: "wa-catalog:seen-welcome",
     recentlyViewed: "wa-catalog:recently-viewed",
   };
@@ -263,42 +262,6 @@
       els.welcomeBusinessName.textContent = state.config.businessName || "our catalog";
       els.welcomeTagline.textContent = state.config.tagline || "";
     }
-  }
-
-  // ---------- Theme ----------
-  function initTheme() {
-    let saved = null;
-    try { saved = localStorage.getItem(STORAGE_KEYS.theme); } catch (_) { /* ignore */ }
-    if (saved === "dark" || saved === "light") {
-      document.documentElement.setAttribute("data-theme", saved);
-    }
-    updateThemeIcon();
-  }
-
-  function isDarkMode() {
-    const explicit = document.documentElement.getAttribute("data-theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return explicit === "dark" || (!explicit && prefersDark);
-  }
-
-  function updateThemeIcon() {
-    const isDark = isDarkMode();
-    els.themeToggle.textContent = isDark ? "☀️" : "🌙";
-    els.themeToggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
-    if (els.brandLogo) {
-      // Both theme states are dark-navy now, so the white-ink logo is always correct.
-      els.brandLogo.src = "assets/logo-white.png";
-    }
-  }
-
-  function toggleTheme() {
-    const current = document.documentElement.getAttribute("data-theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const currentlyDark = current === "dark" || (!current && prefersDark);
-    const next = currentlyDark ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
-    try { localStorage.setItem(STORAGE_KEYS.theme, next); } catch (_) { /* ignore */ }
-    updateThemeIcon();
   }
 
   // ---------- Rendering: home / categories ----------
@@ -1649,8 +1612,6 @@
     els.welcomeTagline = qs("welcome-tagline");
     els.brandLink = qs("brand-link");
     els.homeBtn = qs("home-btn");
-    els.themeToggle = qs("theme-toggle");
-    els.brandLogo = qs("brand-logo");
     els.clientBanner = qs("client-banner");
     els.discoveryBar = qs("discovery-bar");
     els.homeView = qs("home-view");
@@ -1718,9 +1679,6 @@
     els.desktopCartBtn = qs("desktop-cart-btn");
     els.desktopCartBadge = qs("desktop-cart-badge");
     els.searchSuggest = qs("search-suggest");
-
-    initTheme();
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeIcon);
 
     // Armed before the data fetch below, not after — see the comment on
     // armWelcomeDismissal for why.
@@ -1835,7 +1793,6 @@
 
     els.brandLink.addEventListener("click", goHome);
     els.homeBtn.addEventListener("click", goHome);
-    els.themeToggle.addEventListener("click", toggleTheme);
     els.backBtn.addEventListener("click", goHome);
     els.stickyBar.addEventListener("click", openSheet);
     els.closeSheetBtn.addEventListener("click", closeSheet);
