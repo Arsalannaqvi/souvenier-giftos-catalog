@@ -1971,7 +1971,18 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 16px;
+    /* Thin, low-contrast scrollbar that blends into the card instead of
+       the browser's default chunky light-grey one. */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
   }
+  #discovery-bar::-webkit-scrollbar { width: 6px; }
+  #discovery-bar::-webkit-scrollbar-track { background: transparent; }
+  #discovery-bar::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+  }
+  #discovery-bar::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
   body.shop.home-active #discovery-bar {
     grid-area: discovery;
     position: static;
