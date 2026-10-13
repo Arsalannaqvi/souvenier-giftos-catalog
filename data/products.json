@@ -59853,6 +59853,2461 @@
       ],
       "dimensions": "Dimensions (cm) : 38cmx 27cm x 7cm(L x W x H)",
       "warranty": "500 Days"
+    },
+    {
+      "id": "coconut-1",
+      "category": "computerAccessories",
+      "name": "CF05 CPU Cooler Fan",
+      "price": 449,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf05_c610a293-0917-4e46-8eab-cd100ea7ac68.jpg?v=1693402538",
+      "subcategory": "Cooling",
+      "description": "Screw type, 3 pin connect, 170g, copper coated base, supports 115x/1200.",
+      "sourceUrl": "https://coconutlife.in/products/cf05-cooling-fan"
+    },
+    {
+      "id": "coconut-2",
+      "category": "computerAccessories",
+      "name": "CORE 500M Gaming Cabinet",
+      "price": 5399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/72.jpg?v=1767287495",
+      "subcategory": "Gaming Cabinets",
+      "description": "Premium series. ATX, mesh front, 4x120mm ARGB fans, up to 360mm radiator front, VGA up to 330mm, 4 HDD + 1 SSD.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/core-100m-gaming-cabinet-black-mid-atx"
+    },
+    {
+      "id": "coconut-3",
+      "category": "computerAccessories",
+      "name": "Krater RGB Wired Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_Krater-Black.png?v=1702537757",
+      "subcategory": "Keyboards & Mice",
+      "description": "6D mouse up to 3600 DPI, metal body, 19 anti-ghosting keys, 104 keys, 14 RGB light modes.",
+      "sourceUrl": "https://coconutlife.in/products/krater-gaming-keyboard-mouse-combo-years-warranty"
+    },
+    {
+      "id": "coconut-4",
+      "category": "computerAccessories",
+      "name": "Porto 2 4G Router",
+      "price": 3299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/porto2_2.webp?v=1709534344",
+      "subcategory": "Networking",
+      "description": "4G speed up to 150Mbps.",
+      "sourceUrl": "https://coconutlife.in/products/porto2-wireless-4g-router-with-lan"
+    },
+    {
+      "id": "coconut-5",
+      "category": "computerAccessories",
+      "name": "STARK Z3 Gaming Cabinet",
+      "price": 7199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Z3.jpg?v=1743527211",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. Micro ATX/ITX, tempered glass panoramic, 3x120mm Infinity ARGB fans, Type-C, VGA up to 300mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/stark-z3-panoramic-glass-argb-atx-mid-tower-gaming-cabinet"
+    },
+    {
+      "id": "coconut-6",
+      "category": "computerAccessories",
+      "name": "Jade Wireless Mouse",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Jade_1.jpg?v=1708349924",
+      "subcategory": "Keyboards & Mice",
+      "description": "Premium low noise mouse, 2.4GHz + BT multi device.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-wm27-jade-2-4ghz-wireless-bluetooth-5-0-mouse-6-button-mice-dpi-upto-1600-works-on-2-devices-at-same-time-windows-mac-android-low-power-consumption"
+    },
+    {
+      "id": "coconut-7",
+      "category": "computerAccessories",
+      "name": "UL02 USB LAN Adapter + 3 Port Hub",
+      "price": 549,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_ed399421-b08a-4a30-a927-5e629eac34d4.jpg?v=1696179962",
+      "subcategory": "Hubs & Docks",
+      "description": "USB LAN 100Mbps, 3x USB 2.0 hub.",
+      "sourceUrl": "https://coconutlife.in/products/ul-02-usb-2-3-port-lan-ethernet-adapter"
+    },
+    {
+      "id": "coconut-8",
+      "category": "computerAccessories",
+      "name": "X11 SATA SSD Case",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X11_2_1.png?v=1730480768",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, premium quality ABS, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x11-2-5-inch-usb-3-0-hdd-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-9",
+      "category": "bagsLuggageTravel",
+      "name": "Bold Multi Purpose Travel + Gym Bag",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_01.jpg?v=1709534201",
+      "subcategory": "Bags",
+      "description": "Multi purpose travel + gym bag.",
+      "sourceUrl": "https://coconutlife.in/products/bold-expanding-travel-bag"
+    },
+    {
+      "id": "coconut-10",
+      "category": "computerAccessories",
+      "name": "Lemon Wired Keyboard",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_LemonK22.png?v=1703143177",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 membrane keys, 10M+ keystrokes.",
+      "sourceUrl": "https://coconutlife.in/products/k23-lemon-wired-usb-keyboard"
+    },
+    {
+      "id": "coconut-11",
+      "category": "computerAccessories",
+      "name": "C31 USB to Type C Cable 1M (100W)",
+      "price": 249,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/C31.png?v=1730480767",
+      "subcategory": "Cables & Adapters",
+      "description": "USB to Type C, supports 100W charging, 1 Mtr. Must be used with the original OnePlus charger, otherwise supports normal 5V/2A charging speed only.",
+      "sourceUrl": "https://coconutlife.in/products/c31-warp-support-usb-to-type-c-fast-charging-red-cable"
+    },
+    {
+      "id": "coconut-12",
+      "category": "electronics",
+      "name": "Fusion Gaming Headset (True RGB)",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/37.jpg?v=1708511415",
+      "subcategory": "Audio",
+      "description": "Golden connectors, comfortable ear muffs, 50mm speaker, unidirectional metal mic.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-gh2-fusion-gaming-headphone-with-rgb-lights-50mm-drivers-2-2m-cable-rgb-gaming-headset-for-pc-ps4-xbox-laptop"
+    },
+    {
+      "id": "coconut-13",
+      "category": "computerAccessories",
+      "name": "GP02 USB Dual Vibration Game Pad",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/GP01_1.png?v=1730480768",
+      "subcategory": null,
+      "description": "Dual vibration motor game pad, 1.8M cord.",
+      "webColours": [
+        "Red",
+        "Blue"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/gp02-gamepad-supports-7-0-above-edition"
+    },
+    {
+      "id": "coconut-15",
+      "category": "computerAccessories",
+      "name": "Bling Retro Wireless Combo",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/158.jpg?v=1722539057",
+      "subcategory": "Keyboards & Mice",
+      "description": "Retro keyboard, 84 keys, up to 1600 DPI mouse. Gifting Essentials Collection 01 (Desk Expression), item 01.",
+      "sourceUrl": "https://coconutlife.in/products/bling-retro-wireless-combo"
+    },
+    {
+      "id": "coconut-16",
+      "category": "computerAccessories",
+      "name": "EB01 Extension Board",
+      "price": 659,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/EB01.png?v=1770053938",
+      "subcategory": null,
+      "description": "3 Mtr, universal socket, LED indicator. Not for heavy duty appliances (AC, fridge, iron, geyser, induction).",
+      "sourceUrl": "https://coconutlife.in/products/eb01-5-socket-with-led-indicators"
+    },
+    {
+      "id": "coconut-17",
+      "category": "computerAccessories",
+      "name": "X21 SATA SSD Case",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsAppImage2025-07-17at11.55.55AM.jpg?v=1759338398",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, plastic body, Micro B to USB A, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x21-2-5-inch-usb-3-0-ssd-hdd-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-18",
+      "category": "computerAccessories",
+      "name": "SM45 Power Supply",
+      "price": 699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/SM45_1.webp?v=1659519765",
+      "subcategory": "Networking",
+      "description": "Black powder coated, on/off switch, original Molex connectors.",
+      "webColours": [
+        "Black",
+        "Silver"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/sm45-smps"
+    },
+    {
+      "id": "coconut-19",
+      "category": "computerAccessories",
+      "name": "Joy Wireless Mouse",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Joy_Black_c0690258-5ddc-4761-af83-ed1a6dd899d0.jpg?v=1743527211",
+      "subcategory": "Keyboards & Mice",
+      "description": "Intelligent power saving, silent, rechargeable.",
+      "sourceUrl": "https://coconutlife.in/products/joy-wm31-wireless-mouse-with-red-scroll"
+    },
+    {
+      "id": "coconut-20",
+      "category": "electronics",
+      "name": "27QHD LED Monitor (2K)",
+      "price": 16799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_a13f05c2-2d41-4f4f-b558-525da5f27eaf.jpg?v=1740848714",
+      "subcategory": "Monitors",
+      "description": "Frameless IPS 2K QHD, A+ grade CSOT panel, 100Hz, HDMI + VGA, 5ms, 91% sRGB, 300 nits, 90 degree rotatable, height adjustable, in-built speakers. 3 years warranty.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/27qhd-27-inch-qhd-ips-frameless-led-monitor"
+    },
+    {
+      "id": "coconut-21",
+      "category": "computerAccessories",
+      "name": "Onyx 3 Wireless Combo",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/onyx_1.jpg?v=1770892024",
+      "subcategory": "Keyboards & Mice",
+      "description": "96 keys, silent mouse, 1000 DPI, virgin ABS.",
+      "sourceUrl": "https://coconutlife.in/products/onyx-3-wireless-keyboard-and-mouse-combo"
+    },
+    {
+      "id": "coconut-22",
+      "category": "computerAccessories",
+      "name": "Diamond Multi Device Wireless Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_WhitePink.jpg?v=1701516930",
+      "subcategory": "Keyboards & Mice",
+      "description": "Wireless + BT, rechargeable battery (mAh not printed), super rugged body, switch knob, 6 button mouse.",
+      "sourceUrl": "https://coconutlife.in/products/diamond-rechargeable-multi-device-wireless-combo-100keys-6d-mouse-rugged-body"
+    },
+    {
+      "id": "coconut-23",
+      "category": "computerAccessories",
+      "name": "24HDA LED Monitor",
+      "price": 8999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/9_38923213-df49-415b-8657-34007dbd2ceb.jpg?v=1698858432",
+      "subcategory": "Monitors",
+      "description": "Frameless IPS, A+ grade BOE panel, 75Hz, HDMI + VGA, 6.5ms, 99% sRGB, 250 nits. 3 years warranty.",
+      "webColours": [
+        "White",
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/24-inch-monitor"
+    },
+    {
+      "id": "coconut-24",
+      "category": "computerAccessories",
+      "name": "Venus USB Hub",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/UHVenus.jpg?v=1678958625",
+      "subcategory": "Hubs & Docks",
+      "description": "USB 2.0 x4 ports, 1M cable, value series, metallic finish, 1 year warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh13-venus-usb-2-0-4-port-hub-1m-cable-value-series"
+    },
+    {
+      "id": "coconut-25",
+      "category": "computerAccessories",
+      "name": "X27 SATA SSD Case",
+      "price": 839,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.57_AM.jpg?v=1759338394",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, transparent body, USB A to Micro, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x27-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-26",
+      "category": "computerAccessories",
+      "name": "X31 HDD Case (3.5 inch)",
+      "price": 1079,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-29_at_1.28.15_PM.jpg?v=1759338394",
+      "subcategory": null,
+      "description": "3.5 inch metal body, up to 5 Gbps, USB 3.0 speed.",
+      "sourceUrl": "https://coconutlife.in/products/x31-3-5-inch-usb-3-0-hdd-sata-case-premium-metal-enclosure"
+    },
+    {
+      "id": "coconut-27",
+      "category": "computerAccessories",
+      "name": "C32 Type C to Type C Cable (Nylon Braided)",
+      "price": 219,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/c32cable.jpg?v=1743432877",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to Type C data & sync, high quality cable. Available lengths 1, 1.5, 2 Mtr (Master Catalog) / 1 & 1.5 Mtr (Gifting Essentials). Gifting Essentials Collection 07 (Plugged In), item 35.",
+      "sourceUrl": "https://coconutlife.in/products/c32-1-type-c-to-type-c-1m-cable-nylon-braided-fast-charging"
+    },
+    {
+      "id": "coconut-28",
+      "category": "computerAccessories",
+      "name": "Pluto USB Hub with Free OTG",
+      "price": 839,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/WhatsAppImage2023-01-31at8.08.12PM_1.jpg?v=1678958628",
+      "subcategory": "Hubs & Docks",
+      "description": "1x USB 3.1 A, 3x USB 2.0, 1x USB C 5V fast charge, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh16-pluto-1x-gen-3-1-usb-a-3x-2-0-usb-a-1x-5v-usb-c-charging-super-speed-4-port-usb-hub"
+    },
+    {
+      "id": "coconut-29",
+      "category": "electronics",
+      "name": "32XC R1500 Curved LED Monitor",
+      "price": 20999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_dad1fd72-db28-4b92-ad57-943cba104e8a.jpg?v=1740730825",
+      "subcategory": "Monitors",
+      "description": "Frameless curved R1500 IPS, A+ grade CSOT panel, 180Hz, HDMI + DisplayPort, 1ms, 119% sRGB, 300 nits, in-built speakers. 3 years warranty.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/32xc-32-inch-curved-qhd-frameless-led-monitor"
+    },
+    {
+      "id": "coconut-30",
+      "category": "computerAccessories",
+      "name": "FLASH 30W Wall Charger",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Flash.png?v=1748797489",
+      "subcategory": "Cables & Adapters",
+      "description": "30W, 1x USB A. Gifting Essentials Collection 03 (Power Adapters), item 14.",
+      "sourceUrl": "https://coconutlife.in/products/flash-adapter-with-100-240v-50-60hz-1-usb-30w-usb-a-support"
+    },
+    {
+      "id": "coconut-31",
+      "category": "computerAccessories",
+      "name": "MC01 Apple MFi Lightning Cable 1M",
+      "price": 549,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/mc01_1_.1.webp?v=1654177113",
+      "subcategory": "Cables & Adapters",
+      "description": "Apple certified MFi (iPhone / iPad / iPod), 1 Mtr nylon braided lightning cable, USB to Lightning. Gifting Essentials Collection 07 (Plugged In), item 33.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-mc01-apple-mfi-certified-usb-a-to-lightning-cable-fast-charging-2-4a-sync-nylon-braided-wire-with-rubber-grip-iphone-charging-cable-1-metre-iphone-13-iphone-11-pro-iphone-12-pro-ipad-mini-ipad-air-1-year-warranty"
+    },
+    {
+      "id": "coconut-32",
+      "category": "deskAccessories",
+      "name": "MP02 Mouse Pad (4 Designs)",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/UX5A5830-Edit.webp?v=1694343759",
+      "subcategory": "Keyboards & Mice",
+      "description": "4 awesome designs, 80 x 30cm.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-mp02-extended-mouse-pad-900mm-x-400mm-x-3mm-extended-gaming-mouse-pad-xl-printed-stitched-embroidery-edges-non-slip-rubber-base-for-pc-computer-laptop"
+    },
+    {
+      "id": "coconut-33",
+      "category": "computerAccessories",
+      "name": "X22 SATA SSD Case",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.11_AM.jpg?v=1759338395",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, transparent body, USB A to Micro, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x22-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-34",
+      "category": "computerAccessories",
+      "name": "Vault X4 Premium Computer Case",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.07.15_PM.jpg?v=1759338396",
+      "subcategory": null,
+      "description": "Premium case, Micro ATX, 4 PCI slots, with handle, 1x Type-C + 1x USB 3.0, without PSU.",
+      "sourceUrl": "https://coconutlife.in/products/vault-x4-office-cabinet"
+    },
+    {
+      "id": "coconut-37",
+      "category": "computerAccessories",
+      "name": "NOVA 220 Gaming Cabinet",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Nova220.png?v=1759338397",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mid ATX, tempered glass front, 4x120mm fixed RGB fans, up to 360mm radiator front, VGA up to 325mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/nova-221"
+    },
+    {
+      "id": "coconut-38",
+      "category": "computerAccessories",
+      "name": "OT03 OTG Adapter (USB 3.0 to Micro USB + Type C)",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/ot03.jpg?v=1688480630",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to Micro USB + Type C.",
+      "sourceUrl": "https://coconutlife.in/products/ot03-usb3-0-to-micro-usb-typec"
+    },
+    {
+      "id": "coconut-39",
+      "category": "computerAccessories",
+      "name": "Prism Wireless Mouse",
+      "price": 499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/prism.webp?v=1654500930",
+      "subcategory": "Keyboards & Mice",
+      "description": "Super ergonomic, 6 button, for long usage.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-wm28-prism-ergonomic-wireless-mouse-with-thumb-rest-6-buttons-with-adjustable-dpi-low-power-consumption-windows-mac-2-yr-wty-black"
+    },
+    {
+      "id": "coconut-40",
+      "category": "computerAccessories",
+      "name": "Type C Dock 5 in 1 C",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/2_12cac444-b316-474a-bede-44d2a83e300d.png?v=1690614614",
+      "subcategory": "Hubs & Docks",
+      "description": "HDMI + SD + TF + 2x USB 3.0.",
+      "sourceUrl": "https://coconutlife.in/products/5-in-1-dock-c"
+    },
+    {
+      "id": "coconut-42",
+      "category": "computerAccessories",
+      "name": "TH01 Type C Adapter",
+      "price": 909,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/TH01.png?v=1730480768",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C display adapter.",
+      "sourceUrl": "https://coconutlife.in/products/th01-type-c-to-hdtv"
+    },
+    {
+      "id": "coconut-43",
+      "category": "computerAccessories",
+      "name": "EB02 Extension Board",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/EB02.png?v=1770053940",
+      "subcategory": "Networking",
+      "description": "3 Mtr, 5 switch socket, LED indicator. Not for heavy duty appliances.",
+      "sourceUrl": "https://coconutlife.in/products/eb02-power-up-with-precision-5-versatile-sockets"
+    },
+    {
+      "id": "coconut-44",
+      "category": "computerAccessories",
+      "name": "Daisy Retro Wireless Combo",
+      "price": 1999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/7.jpg?v=1690909573",
+      "subcategory": "Keyboards & Mice",
+      "description": "Retro keyboard, 104 keys, up to 1200 DPI mouse. Gifting Essentials Collection 01 (Desk Expression), item 04.",
+      "sourceUrl": "https://coconutlife.in/products/daisy-retro-wireless-combo"
+    },
+    {
+      "id": "coconut-45",
+      "category": "bagsLuggageTravel",
+      "name": "Halo Laptop Sleeve with Handle (14 / 15 inch)",
+      "price": 2399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_d326ba7d-9f82-4bd7-91b0-b335c1fb4f05.png?v=1730480770",
+      "subcategory": "Bags",
+      "description": "Polyester fabric, bright orangish inner lining, suitcase strap for stacking on a suitcase. Gifting Essentials Collection 02 (Protected On The Go), item 09.",
+      "sourceUrl": "https://coconutlife.in/products/halo-laptop-sleeve-with-handle-14-15-inches"
+    },
+    {
+      "id": "coconut-46",
+      "category": "electronics",
+      "name": "Diva Soundbar with Woofer 120W",
+      "price": 5999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_8821.png?v=1702557271",
+      "subcategory": "Audio",
+      "description": "60W soundbar + 60W woofer, 5.25 inch wired subwoofer, 2.25x2 loud speaker. Gifting Essentials Collection 06 (Sound Unleashed), item 27.",
+      "sourceUrl": "https://coconutlife.in/products/diva-wireless-sound-bar-with-60w-and-woofer-with-60w-multiple-input-connectivity-loud-speakers"
+    },
+    {
+      "id": "coconut-47",
+      "category": "computerAccessories",
+      "name": "UL01 USB LAN Adapter (100 Mbps)",
+      "price": 489,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/IMG00002copy_2.png?v=1690909575",
+      "subcategory": "Cables & Adapters",
+      "description": "USB LAN, 100Mbps.",
+      "sourceUrl": "https://coconutlife.in/products/ul01-1"
+    },
+    {
+      "id": "coconut-48",
+      "category": "computerAccessories",
+      "name": "Scanny 2 Wired Barcode Scanner",
+      "price": 2799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_6.png?v=1748797489",
+      "subcategory": null,
+      "description": "Wired barcode scanner, supports 1D & 2D.",
+      "sourceUrl": "https://coconutlife.in/products/scanny-2-wireless-1d-2d-2-4g-bsc01"
+    },
+    {
+      "id": "coconut-49",
+      "category": "electronics",
+      "name": "Carol Soundbar 80W",
+      "price": 4899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_8816B_d82272f9-b3f1-42e6-93d6-76c29bb8cd8f.png?v=1707913761",
+      "subcategory": "Audio",
+      "description": "80W powerful soundbar, 2.25x4 loud speaker, HD ARC/BT/optical/USB/AUX inputs, wall mountable.",
+      "sourceUrl": "https://coconutlife.in/products/carol-wireless-sound-bar-with-80w-multiple-input-connectivity-loud-speakers"
+    },
+    {
+      "id": "coconut-50",
+      "category": "computerAccessories",
+      "name": "Type C Dock 12 in 1 A",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/4_89938800-a5c2-4c45-9955-6f9fa54be713.jpg?v=1694067915",
+      "subcategory": "Hubs & Docks",
+      "description": "3x USB 3.0 + USB 2.0 + SD + TF + 2x 4K HDMI + VGA + USB C + Giga LAN + HD audio.",
+      "sourceUrl": "https://coconutlife.in/products/12-in-1-dock-a"
+    },
+    {
+      "id": "coconut-51",
+      "category": "computerAccessories",
+      "name": "Jupiter USB Hub with Free OTG",
+      "price": 959,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/WhatsAppImage2023-01-31at8.08.11PM.jpg?v=1678958629",
+      "subcategory": "Hubs & Docks",
+      "description": "3x USB 3.1 A, 1x USB 3.1 C, 1x USB C 5V fast charge, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh14-jupiter-4-port-usb-hub-gen-3-1-3x-usb-a-1x-usb-c-1x-5v-usb-c-charging-super-speed"
+    },
+    {
+      "id": "coconut-52",
+      "category": "computerAccessories",
+      "name": "Taurus USB Hub",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/183.jpg?v=1722539055",
+      "subcategory": "Hubs & Docks",
+      "description": "USB 3.0 x4 ports, 1M cable, metallic finish, 1 year warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh22-taurus-usb-3-0-hub-4-port-usb-hub"
+    },
+    {
+      "id": "coconut-54",
+      "category": "computerAccessories",
+      "name": "OT04 OTG Adapter (USB 3.0 to Lightning / Micro USB / Type C)",
+      "price": 799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/ot04_2.jpg?v=1688554437",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to Lightning, Micro USB & Type C.",
+      "sourceUrl": "https://coconutlife.in/products/ot04-usb-to-lightning-micro-usb-typec"
+    },
+    {
+      "id": "coconut-56",
+      "category": "computerAccessories",
+      "name": "WA04 USB WiFi Adapter (150 Mbps)",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/wa04.webp?v=1660732173",
+      "subcategory": "Cables & Adapters",
+      "description": "150 Mbps wireless adapter.",
+      "sourceUrl": "https://coconutlife.in/products/wa04-wifi-dongle"
+    },
+    {
+      "id": "coconut-57",
+      "category": "computerAccessories",
+      "name": "VGA to HDMI Adapter",
+      "price": 699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_VGAtoHDMIAdapter.png?v=1702970835",
+      "subcategory": "Cables & Adapters",
+      "description": "VGA to HDMI adapter.",
+      "sourceUrl": "https://coconutlife.in/products/vga-to-hdmi-adapter-with-3-5mm-aux-cable"
+    },
+    {
+      "id": "coconut-58",
+      "category": "computerAccessories",
+      "name": "STARK Z7 Gaming Cabinet",
+      "price": 7799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-03-26_at_2.42.46_PM.jpg?v=1782926237",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. ATX/M-ATX/ITX, tempered glass panoramic, 3x120mm Infinity ARGB fans, Type-C, VGA up to 400mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/stark-z7-premium-gaming-cabinet-with-argb-fans"
+    },
+    {
+      "id": "coconut-60",
+      "category": "electronics",
+      "name": "Elena Bluetooth Speaker",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Elena.jpg?v=1743527209",
+      "subcategory": "Audio",
+      "description": "16W wireless Bluetooth speaker, Type-C charging, 2000mAh battery, RGB light effect. Gifting Essentials Collection 04 (Audio Culture), item 22.",
+      "sourceUrl": "https://coconutlife.in/products/cbs05-elena-bluetooth-speaker"
+    },
+    {
+      "id": "coconut-61",
+      "category": "computerAccessories",
+      "name": "USC02 USB Sound Card (Premium)",
+      "price": 489,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/IMG00016copy.jpg?v=1708348849",
+      "subcategory": null,
+      "description": "Premium quality USB sound card.",
+      "sourceUrl": "https://coconutlife.in/products/usc02-usb-external-sound-card-with-durable-aluminium-body-compact-lightweight-travel-friendly"
+    },
+    {
+      "id": "coconut-62",
+      "category": "computerAccessories",
+      "name": "Cheer Wireless Mouse",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/frontsilver.png?v=1748797489",
+      "subcategory": "Keyboards & Mice",
+      "description": "6D mouse, 1600 DPI.",
+      "sourceUrl": "https://coconutlife.in/products/cheer-wm18-wireless-mouse-with-6-buttons-support"
+    },
+    {
+      "id": "coconut-64",
+      "category": "computerAccessories",
+      "name": "OT02 OTG Adapter (USB 3.0 to Type C)",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/OT02_1.jpg?v=1688480187",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to Type C.",
+      "sourceUrl": "https://coconutlife.in/products/ot02-usb3-0-to-type-c"
+    },
+    {
+      "id": "coconut-65",
+      "category": "electronics",
+      "name": "US01 USB Speakers",
+      "price": 659,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/2_eb23fab9-adc2-4a6d-9027-86eecf1695f8.jpg?v=1696179963",
+      "subcategory": "Audio",
+      "description": "3 colour grill options, 3W x 2.",
+      "sourceUrl": "https://coconutlife.in/products/us01"
+    },
+    {
+      "id": "coconut-69",
+      "category": "computerAccessories",
+      "name": "WA05 USB WiFi + BT Adapter (150 Mbps, BT 4.0)",
+      "price": 909,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/wa05.webp?v=1660732190",
+      "subcategory": "Cables & Adapters",
+      "description": "150 Mbps + Bluetooth version 4.0.",
+      "sourceUrl": "https://coconutlife.in/products/wa05-wifi-adapter-up-to-150mbps"
+    },
+    {
+      "id": "coconut-70",
+      "category": "computerAccessories",
+      "name": "Steel Wired Keyboard",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_SteelBlackGreyBlack.png?v=1702555003",
+      "subcategory": "Keyboards & Mice",
+      "description": "Multi colour, rugged body, 10M+ keystrokes, 104 keys.",
+      "sourceUrl": "https://coconutlife.in/products/steel-104-membrane-keys-rugged-wired-keyboard-10million-keystrokes"
+    },
+    {
+      "id": "coconut-72",
+      "category": "computerAccessories",
+      "name": "X550 Premium Power Supply (80 Plus Bronze)",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-02-04_at_11.56.08_1.jpg?v=1770186886",
+      "subcategory": "Cables & Adapters",
+      "description": "True 550W, 120mm silent fan, flat cable, up to 85% efficient, OVP/UVP/SCP/OPP/OCP protection.",
+      "sourceUrl": "https://coconutlife.in/products/x550-550w-80-plus-bronze-smps-power-supply"
+    },
+    {
+      "id": "coconut-73",
+      "category": "computerAccessories",
+      "name": "27HDX LED Monitor",
+      "price": 10599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Untitled_design_9.png?v=1770053939",
+      "subcategory": "Monitors",
+      "description": "Frameless IPS, A+ grade BOE panel, 75Hz, HDMI + VGA, 5ms, 99% sRGB, 220 nits. 3 years warranty.",
+      "webColours": [
+        "White",
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/27-led-frameless-ultra-slim-hd-monitor-75hz-refresh-rate-1080p"
+    },
+    {
+      "id": "coconut-74",
+      "category": "electronics",
+      "name": "Walton Soundbar with Woofer 160W",
+      "price": 8999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_8820_5cea2ad1-4369-40b3-a4fd-bad197b9cad7.png?v=1707912429",
+      "subcategory": "Audio",
+      "description": "80W soundbar + 80W woofer, 6.5 inch wired subwoofer, 2.25x4 loud speaker. Gifting Essentials Collection 06 (Sound Unleashed), item 28.",
+      "sourceUrl": "https://coconutlife.in/products/walton-wireless-sound-bar-with-80w-and-subwoofer-with-80w-multiple-input-connectivity-loud-speakers"
+    },
+    {
+      "id": "coconut-75",
+      "category": "electronics",
+      "name": "US02 USB Speakers",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/US02BLA_3.webp?v=1694328813",
+      "subcategory": "Audio",
+      "description": "Wooden body, super bass, 5W x 2.",
+      "sourceUrl": "https://coconutlife.in/products/us02-usb-speaker"
+    },
+    {
+      "id": "coconut-76",
+      "category": "computerAccessories",
+      "name": "Clash Gaming Combo",
+      "price": 1079,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.03.45_PM.jpg?v=1759338395",
+      "subcategory": "Keyboards & Mice",
+      "description": "4D mouse up to 2400 DPI, 1.5M braided cable, 104 membrane keys.",
+      "sourceUrl": "https://coconutlife.in/products/clash-k36-gm36-wired-keyboard-mouse-combo"
+    },
+    {
+      "id": "coconut-77",
+      "category": "computerAccessories",
+      "name": "GLM 03 Giga LAN Adapter",
+      "price": 1119,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/DSC07111.jpg?v=1698858432",
+      "subcategory": "Cables & Adapters",
+      "description": "USB & USB-C, 100/1000 Mbps Giga LAN, premium aluminium alloy housing.",
+      "sourceUrl": "https://coconutlife.in/products/glm03-usb-typec-giga-lan"
+    },
+    {
+      "id": "coconut-78",
+      "category": "electronics",
+      "name": "Soul Bluetooth Speaker",
+      "price": 1379,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DSC07319copy_56546778-f9fe-405a-af95-6c49ac6867be.jpg?v=1701510409",
+      "subcategory": "Audio",
+      "description": "8W RGB, 1200mAh built-in battery, 3-4 hrs playback, ABS + fabric + silicone, TWS, 57mm speaker, Type-C charging. Gifting Essentials Collection 04 (Audio Culture), item 19.",
+      "sourceUrl": "https://coconutlife.in/products/soul-8w-bluetooth-speaker-rgb-portable-speaker-bluetooth-5-1"
+    },
+    {
+      "id": "coconut-79",
+      "category": "computerAccessories",
+      "name": "Zeta Wired Mouse",
+      "price": 479,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_ZetaGrey.png?v=1702554725",
+      "subcategory": "Keyboards & Mice",
+      "description": "1000 DPI, 10L+ click life, 2L+ scrolling life.",
+      "sourceUrl": "https://coconutlife.in/products/zeta-wired-mouse-1000-dpi-2l-scroll-life-10l-click-life"
+    },
+    {
+      "id": "coconut-80",
+      "category": "computerAccessories",
+      "name": "Vintage Retro Wireless Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/108.png?v=1676104685",
+      "subcategory": "Keyboards & Mice",
+      "description": "Retro keyboard, 104 keys, 1200 DPI mouse. Gifting Essentials Collection 01 (Desk Expression), item 03.",
+      "sourceUrl": "https://coconutlife.in/products/vintage-retro-wireless-combo"
+    },
+    {
+      "id": "coconut-82",
+      "category": "electronics",
+      "name": "US06 USB Speakers",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/US06.jpg?v=1698858434",
+      "subcategory": "Audio",
+      "description": "RGB light, 3W x 2.",
+      "sourceUrl": "https://coconutlife.in/products/us06-usb-speaker"
+    },
+    {
+      "id": "coconut-84",
+      "category": "computerAccessories",
+      "name": "Hurricane Mechanical Gaming Keyboard",
+      "price": 2759,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Hurricane.png?v=1748797490",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 keys, metal top, 8 lighting modes, 25 anti-ghosting keys, red Outemu, 1.8M braided cable.",
+      "sourceUrl": "https://coconutlife.in/products/hurricane-keyboard"
+    },
+    {
+      "id": "coconut-85",
+      "category": "bagsLuggageTravel",
+      "name": "Puffy Laptop Sleeve (14 / 15 inch)",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Puffy.jpg?v=1743527210",
+      "subcategory": "Bags",
+      "description": "Polyester fabric, stylish bright orangish inner lining. Gifting Essentials Collection 02 (Protected On The Go), item 10.",
+      "sourceUrl": "https://coconutlife.in/products/puffy-ultra-soft-protective-laptop-sleeve"
+    },
+    {
+      "id": "coconut-86",
+      "category": "computerAccessories",
+      "name": "Type C Dock 6 in 1 B",
+      "price": 1149,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/1_2bb06e0b-5b89-4d82-8dc6-a4b198e36d7f.png?v=1678958643",
+      "subcategory": "Hubs & Docks",
+      "description": "HDMI + SD + TF + 3x USB 3.0.",
+      "sourceUrl": "https://coconutlife.in/products/6-in-1-dock-b"
+    },
+    {
+      "id": "coconut-87",
+      "category": "computerAccessories",
+      "name": "GLM 01 U Giga LAN Adapter",
+      "price": 760,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/GLM-U2_c110837d-8dd0-45e1-91f4-e0106cd31686.png?v=1678958636",
+      "subcategory": "Cables & Adapters",
+      "description": "USB, 100/1000 Mbps Giga LAN, premium aluminium alloy housing.",
+      "sourceUrl": "https://coconutlife.in/products/glm-01-u"
+    },
+    {
+      "id": "coconut-88",
+      "category": "electronics",
+      "name": "Rocky Bluetooth Speaker with Wired Mic",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsAppImage2026-05-02at4.34.45PM.jpg?v=1780334063",
+      "subcategory": "Cables & Adapters",
+      "description": "20W, USB/SD/AUX connectivity, 2400mAh battery, 3M mic cable, karaoke function.",
+      "sourceUrl": "https://coconutlife.in/products/bluetooth-speaker-rocky-2"
+    },
+    {
+      "id": "coconut-89",
+      "category": "computerAccessories",
+      "name": "Magic Office Cabinet (RGB Series, with SM45 SMPS)",
+      "price": 2430,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/MagicBlack_2.jpg?v=1709028125",
+      "subcategory": "Gaming Cabinets",
+      "description": "Micro ATX, 2x USB 2.0 + audio, 1x USB 3.0, front RGB strip + switch, pre-loaded 120mm fan, pre-loaded with SM45 SMPS.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/magic-office-cabinet"
+    },
+    {
+      "id": "coconut-90",
+      "category": "computerAccessories",
+      "name": "Orange Wired Keyboard",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/orange_4.jpg?v=1746119139",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 membrane keys, special line keyboard.",
+      "sourceUrl": "https://coconutlife.in/products/k11-wired-usb-keyboard-fullsize-special-line-cable"
+    },
+    {
+      "id": "coconut-91",
+      "category": "computerAccessories",
+      "name": "Galaxy 10-Port USB Hub",
+      "price": 1379,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/galaxy.png?v=1698858434",
+      "subcategory": "Hubs & Docks",
+      "description": "10 ports: 4x USB 3.1, 3x USB 2.0, 3x fast charge auto ID, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh19"
+    },
+    {
+      "id": "coconut-92",
+      "category": "bagsLuggageTravel",
+      "name": "Matrix Multi Purpose Backpack",
+      "price": 2219,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_35.jpg?v=1703140648",
+      "subcategory": "Bags",
+      "description": "Water, dust & shock proof Oxford fabric, multi purpose backpack.",
+      "sourceUrl": "https://coconutlife.in/products/matrix-travel-backpack"
+    },
+    {
+      "id": "coconut-96",
+      "category": "computerAccessories",
+      "name": "Flow 15 Laptop Cooler Pad",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/218_f815a81d-98c0-4324-b6a0-3d85f5e4f0b4.jpg?v=1742803975",
+      "subcategory": "Cooling",
+      "description": "2x70mm fan, up to 17 inch laptops.",
+      "sourceUrl": "https://coconutlife.in/products/flow-15-cooler-pad"
+    },
+    {
+      "id": "coconut-97",
+      "category": "computerAccessories",
+      "name": "OT07 Adapter (Type C to USB 3.0)",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/ot07_2.jpg?v=1690909577",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to USB 3.0.",
+      "sourceUrl": "https://coconutlife.in/products/ot07-typec-to-usb3-0"
+    },
+    {
+      "id": "coconut-98",
+      "category": "computerAccessories",
+      "name": "Pearl Multi Device Wireless Combo",
+      "price": 1599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_2.jpg?v=1701517154",
+      "subcategory": "Keyboards & Mice",
+      "description": "Wireless + BT, 500mAh rechargeable battery, super rugged body, switch knob, 6 button mouse.",
+      "sourceUrl": "https://coconutlife.in/products/pearl-rechargeable-multi-device-wireless-combo-84keys-6d-mouse-rugged-body"
+    },
+    {
+      "id": "coconut-99",
+      "category": "computerAccessories",
+      "name": "OT06 OTG Adapter (USB to Type C)",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/ot06.jpg?v=1690909574",
+      "subcategory": "Cables & Adapters",
+      "description": "USB to Type C.",
+      "sourceUrl": "https://coconutlife.in/products/ot06-usb-to-typec"
+    },
+    {
+      "id": "coconut-101",
+      "category": "computerAccessories",
+      "name": "X25 NVME SSD Case",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.43_AM.jpg?v=1759338396",
+      "subcategory": "Storage & SSD Cases",
+      "description": "NVMe, USB and Type-C 2-in-1, OTG function, USB 3.1 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x25-nvme-ssd-tool-free-enclosure-with-usb-3-1"
+    },
+    {
+      "id": "coconut-103",
+      "category": "computerAccessories",
+      "name": "Type C Dock 7 in 1 A",
+      "price": 1399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/2_d01ef0f4-baef-4713-a227-9ff8519ee633.png?v=1678958633",
+      "subcategory": "Hubs & Docks",
+      "description": "HDMI + SD + TF + 2x USB 3.0 + 2x USB C.",
+      "sourceUrl": "https://coconutlife.in/products/7-in-1-dock-a"
+    },
+    {
+      "id": "coconut-105",
+      "category": "computerAccessories",
+      "name": "USB 3.0 to VGA Adapter",
+      "price": 909,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_USB3.0toVGA.png?v=1702881882",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to VGA adapter.",
+      "sourceUrl": "https://coconutlife.in/products/usb-3-0-to-vga-01"
+    },
+    {
+      "id": "coconut-106",
+      "category": "computerAccessories",
+      "name": "Cherry Wired Combo",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cherry.jpg?v=1690909571",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 keys, 3D mouse 1000 DPI.",
+      "sourceUrl": "https://coconutlife.in/products/cherry-wired-combo"
+    },
+    {
+      "id": "coconut-107",
+      "category": "computerAccessories",
+      "name": "Mini DP to VGA Adapter",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_MiniDPtoVGA.png?v=1702883532",
+      "subcategory": "Cables & Adapters",
+      "description": "Mini DisplayPort to VGA adapter.",
+      "sourceUrl": "https://coconutlife.in/products/mini-dp-to-vga"
+    },
+    {
+      "id": "coconut-108",
+      "category": "computerAccessories",
+      "name": "X24 SATA SSD Case",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.34_AM.jpg?v=1759338396",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, plastic body, Micro B to USB A, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x24-2-5-inch-usb-3-0-ssd-hdd-premium-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-109",
+      "category": "computerAccessories",
+      "name": "Flow 12 Laptop Cooler Pad",
+      "price": 849,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/FLOW12_1.jpg?v=1748797489",
+      "subcategory": "Cooling",
+      "description": "140mm fan, 2 USB ports, multi level support.",
+      "sourceUrl": "https://coconutlife.in/products/flow-12-laptop-cooler-pad"
+    },
+    {
+      "id": "coconut-110",
+      "category": "computerAccessories",
+      "name": "DX11 HDD/SSD Docking Station",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X15.png?v=1730480768",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5/3.5 inch HDD/SSD, ABS body, up to 5 Gbps, USB 3.0 B to USB A.",
+      "sourceUrl": "https://coconutlife.in/products/dx11-dual-ssd-hdd-docking-station-with-clone-pro-series"
+    },
+    {
+      "id": "coconut-112",
+      "category": "electronics",
+      "name": "Aria Soundbar 40W",
+      "price": 2799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_8810_83fe6d4d-a3a9-40d7-b1cf-1ebcc6c74a0a.png?v=1707913804",
+      "subcategory": "Audio",
+      "description": "40W powerful soundbar, 2x2 loud speaker, HD ARC/BT/optical/USB/AUX inputs, wall mountable.",
+      "sourceUrl": "https://coconutlife.in/products/aria-wireless-sound-bar-with-40w-multiple-input-connectivity-loud-speakers"
+    },
+    {
+      "id": "coconut-113",
+      "category": "computerAccessories",
+      "name": "Vault X3 Premium Computer Case",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/VAULTX3.jpg?v=1742631463",
+      "subcategory": null,
+      "description": "Premium case, Micro ATX, 4 PCI slots, 1x Type-C + 1x USB 3.0, without PSU.",
+      "sourceUrl": "https://coconutlife.in/products/vault-x3-premium-office-pc-cabinet"
+    },
+    {
+      "id": "coconut-115",
+      "category": "computerAccessories",
+      "name": "Pulse Gaming Combo",
+      "price": 1079,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.04.08_PM.jpg?v=1759338394",
+      "subcategory": "Keyboards & Mice",
+      "description": "4D mouse up to 2400 DPI, 1.5M braided cable, 104 membrane keys.",
+      "sourceUrl": "https://coconutlife.in/products/pulse-k35-gm35-wired-keyboard-mouse-combo"
+    },
+    {
+      "id": "coconut-116",
+      "category": "computerAccessories",
+      "name": "CR13 Card Reader",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsAppImage2025-03-28at6.54.00PM.jpg?v=1743527210",
+      "subcategory": null,
+      "description": "USB 2.0 high speed, up to 480 Mbps.",
+      "sourceUrl": "https://coconutlife.in/products/cr13-usb3-0-card-reader"
+    },
+    {
+      "id": "coconut-117",
+      "category": "computerAccessories",
+      "name": "WA07 USB WiFi Adapter (Dual Band)",
+      "price": 909,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Coconut00004copy.jpg?v=1694341029",
+      "subcategory": "Cables & Adapters",
+      "description": "433 + 150 Mbps, dual band 2.4 & 5GHz.",
+      "sourceUrl": "https://coconutlife.in/products/wireless-adapter-wa07"
+    },
+    {
+      "id": "coconut-119",
+      "category": "computerAccessories",
+      "name": "WA08 USB WiFi + BT Adapter (Dual Band, BT 4.2)",
+      "price": 1399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/DSC07083.jpg?v=1698858432",
+      "subcategory": "Cables & Adapters",
+      "description": "Dual band 2.4 & 5GHz, Bluetooth version 4.2.",
+      "sourceUrl": "https://coconutlife.in/products/wa08-wifi-adapter"
+    },
+    {
+      "id": "coconut-120",
+      "category": "computerAccessories",
+      "name": "USB 3.0 to HDMI / VGA Adapter",
+      "price": 1329,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_USB3.0toHDMIVGAConverter_4KResolution.png?v=1702645890",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to HDMI + VGA adapter.",
+      "sourceUrl": "https://coconutlife.in/products/usb-3-0-to-hdmi-vga-01"
+    },
+    {
+      "id": "coconut-121",
+      "category": "computerAccessories",
+      "name": "USC01 USB Sound Card (7.1 Channel)",
+      "price": 559,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/usc01.jpg?v=1722539058",
+      "subcategory": null,
+      "description": "7.1 channel USB sound card.",
+      "sourceUrl": "https://coconutlife.in/products/ul01"
+    },
+    {
+      "id": "coconut-122",
+      "category": "computerAccessories",
+      "name": "EB03 Extension Board",
+      "price": 1019,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/EB03.png?v=1770053940",
+      "subcategory": "Networking",
+      "description": "3 Mtr, 5 switch socket, 2x USB + 1x Type C, LED indicator. Not for heavy duty appliances.",
+      "sourceUrl": "https://coconutlife.in/products/eb03-5-sockets-usb-type-c-3m-cable-led-switch-control"
+    },
+    {
+      "id": "coconut-124",
+      "category": "computerAccessories",
+      "name": "Delight Wireless Combo",
+      "price": 1299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/delightblack.jpg?v=1698858434",
+      "subcategory": "Keyboards & Mice",
+      "description": "105 water drop keys, rugged body, 10M range.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-delight-2-4ghz-wireless-keyboard-mouse-combo-water-droplet-keys-20m-wireless-range-5-million-keystrokes-for-windows-android"
+    },
+    {
+      "id": "coconut-125",
+      "category": "computerAccessories",
+      "name": "UL04 3 Port 2.0 Hub with LAN",
+      "price": 559,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_UL04.png?v=1702648361",
+      "subcategory": "Hubs & Docks",
+      "description": "3 ports 2.0 hub with LAN.",
+      "sourceUrl": "https://coconutlife.in/products/ul04-usb-usb-c-to-hub-lan"
+    },
+    {
+      "id": "coconut-127",
+      "category": "computerAccessories",
+      "name": "X12 NVME SSD Case (RGB Series)",
+      "price": 2399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X12.png?v=1730480768",
+      "subcategory": "Storage & SSD Cases",
+      "description": "Premium metal body, up to 10 Gbps, USB 3.2 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x12-m-2-dual-protocol-ssd-enclosure-ssd-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-128",
+      "category": "computerAccessories",
+      "name": "ATOM V200 Gaming Cabinet",
+      "price": 3899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/white_bc_img_1_atom_v_200.jpg?v=1774347501",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. ATX, tempered glass front, 3x120mm fixed RGB fans, up to 360mm radiator front, VGA up to 270mm. 297x180x358mm.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/atom-v200-gaming-cabinet"
+    },
+    {
+      "id": "coconut-129",
+      "category": "computerAccessories",
+      "name": "Scanny 1 Wireless Barcode Scanner",
+      "price": 4599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_5.png?v=1748797489",
+      "subcategory": null,
+      "description": "Wireless barcode scanner, supports 1D & 2D.",
+      "sourceUrl": "https://coconutlife.in/products/scanny-1-wireless-1d-2d-2-4g-bsc01"
+    },
+    {
+      "id": "coconut-132",
+      "category": "computerAccessories",
+      "name": "CF02 CPU Cooler Fan",
+      "price": 329,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf02_f6a2f7bc-318c-409c-86ba-8bc1f35ae41b.jpg?v=1693402375",
+      "subcategory": "Cooling",
+      "description": "Clip type, 4 pin connect, 170g, black coated base, supports 775/115x/1200.",
+      "sourceUrl": "https://coconutlife.in/products/cf02-cooler-fan"
+    },
+    {
+      "id": "coconut-134",
+      "category": "computerAccessories",
+      "name": "CS04 All-in-One Screen Cleaner",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_4613e908-11e1-4daa-b0d1-7dfd63a8d2c8.png?v=1693504649",
+      "subcategory": null,
+      "description": "All-in-one screen cleaner, original MSDS certified.",
+      "sourceUrl": "https://coconutlife.in/products/cs04-cleaning-kit"
+    },
+    {
+      "id": "coconut-135",
+      "category": "electronics",
+      "name": "Echo Bluetooth Speaker",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DSC07355copy.jpg?v=1701504062",
+      "subcategory": "Audio",
+      "description": "8W, 1200mAh built-in battery, 3-4 hrs playback, ABS + fabric + silicone, TWS, 57mm speaker, micro USB charging. Gifting Essentials Collection 04 (Audio Culture), item 21.",
+      "sourceUrl": "https://coconutlife.in/products/echo-8w-portable-bluetooth-speaker-bluetooth-5-1"
+    },
+    {
+      "id": "coconut-136",
+      "category": "computerAccessories",
+      "name": "NOVA 330 Gaming Cabinet",
+      "price": 3599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Nova330.png?v=1759338401",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mid ATX, mesh front, 4x120mm fixed RGB fans, up to 360mm radiator front, VGA up to 280mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/nova-220"
+    },
+    {
+      "id": "coconut-137",
+      "category": "computerAccessories",
+      "name": "CF04 CPU Cooler Fan",
+      "price": 389,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf04_01efdfe1-546a-4c3b-a462-8d83bf4799ec.jpg?v=1693402485",
+      "subcategory": "Cooling",
+      "description": "Screw type, 3 pin connect, 170g, supports 115x/1200.",
+      "sourceUrl": "https://coconutlife.in/products/cf04-cooling-fan"
+    },
+    {
+      "id": "coconut-139",
+      "category": "computerAccessories",
+      "name": "Sapphire Multi Device Combo",
+      "price": 2399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/sapphire.webp?v=1654501011",
+      "subcategory": "Keyboards & Mice",
+      "description": "105 water droplet keys, 2.4GHz + BT multi device, tablet dock, 6 button mouse, super ergonomic. Tagged 'The Baap of All Combos'.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-sapphire-premium-multi-device-wireless-full-sized-keyboard-mouse-combo-bluetooth-2-4ghz-connect-up-to-3-devices-low-power-consumption-for-pc-mac-laptop-mobile-tablet-windows-ipad-black-2-years-warranty"
+    },
+    {
+      "id": "coconut-140",
+      "category": "computerAccessories",
+      "name": "Type C Dock 4 in 1 A",
+      "price": 649,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/mainimage.jpg?v=1693378653",
+      "subcategory": "Hubs & Docks",
+      "description": "VGA + 4K HDMI + PD + USB 3.0.",
+      "sourceUrl": "https://coconutlife.in/products/4-in-1-dock-a"
+    },
+    {
+      "id": "coconut-141",
+      "category": "electronics",
+      "name": "Sound Magic Lifestyle Speaker",
+      "price": 6299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_RedCoconut.jpg?v=1703146562",
+      "subcategory": "Audio",
+      "description": "65 watt wireless powered speaker.",
+      "sourceUrl": "https://coconutlife.in/products/anonsuo-seashell-plus"
+    },
+    {
+      "id": "coconut-142",
+      "category": "computerAccessories",
+      "name": "SPEEDO 65W Wall Charger",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Speedo.png?v=1748797489",
+      "subcategory": "Cables & Adapters",
+      "description": "65W, 1x USB A. Gifting Essentials Collection 03 (Power Adapters), item 15.",
+      "sourceUrl": "https://coconutlife.in/products/speedo-100-240v-50-60hz-1-usb-65w-usb-a-support"
+    },
+    {
+      "id": "coconut-143",
+      "category": "computerAccessories",
+      "name": "Mango Wired Combo",
+      "price": 839,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/mangocc.png?v=1693543184",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 waterdrop keys, 1.8M special line cable.",
+      "sourceUrl": "https://coconutlife.in/products/mango-wired-combo"
+    },
+    {
+      "id": "coconut-144",
+      "category": "computerAccessories",
+      "name": "CORE 200M Gaming Cabinet",
+      "price": 5399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Core200M.png?v=1767287496",
+      "subcategory": "Gaming Cabinets",
+      "description": "Premium series. Mid ATX, tempered glass front, 4x120mm ARGB fans, up to 360mm radiator front, VGA up to 315mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/core-200m-gaming-cabinet-black-mid-atx"
+    },
+    {
+      "id": "coconut-146",
+      "category": "electronics",
+      "name": "Demi Soundbar 60W",
+      "price": 3219,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_8807B_0747011b-7c6b-4800-ae53-2ded8dede1ab.png?v=1707913731",
+      "subcategory": "Audio",
+      "description": "60W powerful soundbar, 44x80mm x2 loud speaker, HD ARC/BT/optical/USB/AUX inputs, wall mountable.",
+      "sourceUrl": "https://coconutlife.in/products/demi-wireless-sound-bar-with-60w-multiple-input-connectivity-loud-speakers"
+    },
+    {
+      "id": "coconut-147",
+      "category": "computerAccessories",
+      "name": "USB 3.0 to HDMI Adapter",
+      "price": 1259,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_0466720c-43e7-4e12-aa31-8b2bfbbd300b.jpg?v=1696179964",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to HDMI adapter.",
+      "sourceUrl": "https://coconutlife.in/products/usb-3-0-to-hdmi-01"
+    },
+    {
+      "id": "coconut-149",
+      "category": "computerAccessories",
+      "name": "RAMPAGE 4000D Gaming Cabinet",
+      "price": 8999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/RP4000D.png?v=1759338403",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, up to 420mm radiator front, VGA up to 400mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/rampage-5000d-gaming-cabinet-e-atx-motherboard-support-black"
+    },
+    {
+      "id": "coconut-150",
+      "category": "computerAccessories",
+      "name": "Topaz Wireless Combo",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/topaz_b.webp?v=1654501100",
+      "subcategory": "Keyboards & Mice",
+      "description": "78 chocolate keys, super lite, super portable.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-topaz-compact-wireless-keyboard-mouse-combo-78-keys-super-lightweight-low-power-consumption-10m-wireless-range-1-yr-wty"
+    },
+    {
+      "id": "coconut-153",
+      "category": "bagsLuggageTravel",
+      "name": "Troy Laptop Sleeve (14 / 16 inch)",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/3_e64c1960-8d6d-4dac-998d-b04e12ba53f0.jpg?v=1709534219",
+      "subcategory": "Bags",
+      "description": "Water, dust & shock proof Oxford fabric. 14 inch 1,999 / 16 inch 2,199. Gifting Essentials Collection 02 (Protected On The Go), item 07.",
+      "sourceUrl": "https://coconutlife.in/products/troy-laptop-sleeve"
+    },
+    {
+      "id": "coconut-154",
+      "category": "computerAccessories",
+      "name": "CORE 400M Gaming Cabinet",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_3402.2109.jpg?v=1701434619",
+      "subcategory": "Gaming Cabinets",
+      "description": "Premium series. Mini ATX, tempered glass front, 3x120mm ARGB fans, up to 240mm radiator front, VGA up to 330mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/core-300m-gaming-cabinet-black-mid-atx"
+    },
+    {
+      "id": "coconut-155",
+      "category": "computerAccessories",
+      "name": "K22 Wired Keyboard",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/178.jpg?v=1722539055",
+      "subcategory": "Keyboards & Mice",
+      "description": "Special line cable, chocolate keys.",
+      "sourceUrl": "https://coconutlife.in/products/k22-full-size-chocolate-usb-keyboard-special-llne-cable"
+    },
+    {
+      "id": "coconut-156",
+      "category": "computerAccessories",
+      "name": "RAMPAGE 1000D Gaming Cabinet",
+      "price": 5999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_3711.2030.jpg?v=1701450521",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, Type-C, 7 PCI slots, VGA up to 335mm.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/rampage-1000d-gaming-cabinet-black-e-atx"
+    },
+    {
+      "id": "coconut-157",
+      "category": "computerAccessories",
+      "name": "Mini Desire Wireless Combo",
+      "price": 1099,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/166.jpg?v=1722539055",
+      "subcategory": "Keyboards & Mice",
+      "description": "79 keys, compact, portable, low battery indicator.",
+      "sourceUrl": "https://coconutlife.in/products/mini-desire"
+    },
+    {
+      "id": "coconut-158",
+      "category": "computerAccessories",
+      "name": "Desire 2.0 Wireless Combo",
+      "price": 1149,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/164.jpg?v=1722539057",
+      "subcategory": "Keyboards & Mice",
+      "description": "102 keys, compact design, dual tone colour.",
+      "sourceUrl": "https://coconutlife.in/products/desire-plus"
+    },
+    {
+      "id": "coconut-159",
+      "category": "electronics",
+      "name": "Sandy Bluetooth Karaoke Speaker with Mic",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Sandy.png?v=1759338401",
+      "subcategory": "Audio",
+      "description": "20W, RGB, 2000mAh battery, wireless mic, voice changeable. Gifting Essentials Collection 05 (Sound Stories), item 26.",
+      "sourceUrl": "https://coconutlife.in/products/sandy-rgb-karaoke-speaker-to-feel-the-beat-own-the-mic"
+    },
+    {
+      "id": "coconut-160",
+      "category": "deskAccessories",
+      "name": "MP01 RGB Gaming Mouse Pad",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/mp01_mouse_pad_1.webp?v=1654595781",
+      "subcategory": "Keyboards & Mice",
+      "description": "RGB gaming mouse pad, 90 x 40cm.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-mp01-rgb-gaming-mouse-pad-large-extended-soft-led-mouse-pad-with-13-lighting-modes-anti-slip-rubber-base-for-computer-laptop-80-x-30-cm"
+    },
+    {
+      "id": "coconut-161",
+      "category": "computerAccessories",
+      "name": "WA03 USB Bluetooth Adapter (BT 5.0)",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/wa03.webp?v=1660732153",
+      "subcategory": "Cables & Adapters",
+      "description": "Gold plated, Bluetooth version 5.0.",
+      "sourceUrl": "https://coconutlife.in/products/wa03-wifi-wireless-adapter"
+    },
+    {
+      "id": "coconut-162",
+      "category": "computerAccessories",
+      "name": "X26 SATA SSD Case",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.50_AM.jpg?v=1759338397",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, plastic body, USB A to Micro, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x26-2-5-inch-usb-3-0-ssd-hdd-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-163",
+      "category": "electronics",
+      "name": "Wave Wired + Bluetooth Speaker",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsAppImage2025-07-08at5.04.47PM.jpg?v=1759338394",
+      "subcategory": "Audio",
+      "description": "USB + Bluetooth speaker, 3W x 2 stereo sound. Gifting Essentials Collection 05 (Sound Stories), item 24.",
+      "sourceUrl": "https://coconutlife.in/products/wave-dual-input-bluetooth-usb-speaker-soundbar"
+    },
+    {
+      "id": "coconut-164",
+      "category": "computerAccessories",
+      "name": "Type C Dock 3 in 1 A",
+      "price": 549,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/3in1A.png?v=1678958632",
+      "subcategory": "Hubs & Docks",
+      "description": "HDMI + USB 3.0 + Type C.",
+      "sourceUrl": "https://coconutlife.in/products/3-in-1-dock-a-type-c-multiport-hub"
+    },
+    {
+      "id": "coconut-166",
+      "category": "computerAccessories",
+      "name": "Porto 1 4G WiFi Router (with LAN Port)",
+      "price": 3299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/IMG00017copy.webp?v=1660813018",
+      "subcategory": "Networking",
+      "description": "4G up to 150Mbps, WiFi up to 300Mbps, 500mAh battery, LAN port.",
+      "sourceUrl": "https://coconutlife.in/products/porto-1-4g-wireless-cpe-router-with-lan-port-4000-mah-battery"
+    },
+    {
+      "id": "coconut-167",
+      "category": "electronics",
+      "name": "Billy Bluetooth Karaoke Speaker with Mic",
+      "price": 799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Billy.png?v=1759338400",
+      "subcategory": "Audio",
+      "description": "12W, RGB, 1800mAh battery, wireless mic, voice changeable. Gifting Essentials Collection 05 (Sound Stories), item 25.",
+      "sourceUrl": "https://coconutlife.in/products/billy-karaoke-to-unleash-your-inner-pop-star"
+    },
+    {
+      "id": "coconut-168",
+      "category": "computerAccessories",
+      "name": "Flow 13 Laptop Cooler Pad",
+      "price": 719,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_3.png?v=1748797489",
+      "subcategory": "Cooling",
+      "description": "140mm fan, up to 17 inch laptops.",
+      "sourceUrl": "https://coconutlife.in/products/flow-13-laptop-cooler-stand"
+    },
+    {
+      "id": "coconut-169",
+      "category": "computerAccessories",
+      "name": "Cola Gaming Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/frontsilver_1.png?v=1748797489",
+      "subcategory": "Keyboards & Mice",
+      "description": "Rainbow lights, 1.8M braided cable, golden USB.",
+      "sourceUrl": "https://coconutlife.in/products/k33-gm33-wired-keyboard-mouse"
+    },
+    {
+      "id": "coconut-170",
+      "category": "electronics",
+      "name": "24HDE R1500 Curved LED Monitor",
+      "price": 11399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/24HDE.jpg?v=1742984622",
+      "subcategory": "Monitors",
+      "description": "Frameless curved R1500, A+ grade CSOT panel, 75Hz, HDMI + VGA, 5ms, 99% sRGB, 300 nits, in-built speakers. 3 years warranty.",
+      "webColours": [
+        "White",
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/24hde-24-inch-curved-led-monitor-with-75hz"
+    },
+    {
+      "id": "coconut-171",
+      "category": "computerAccessories",
+      "name": "USB 3.0 to SATA Cable",
+      "price": 489,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_Coconut00014copy.jpg?v=1702881541",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to SATA cable.",
+      "sourceUrl": "https://coconutlife.in/products/usb-3-0-to-sata-cable"
+    },
+    {
+      "id": "coconut-172",
+      "category": "computerAccessories",
+      "name": "Type C Dock 8 in 1 A",
+      "price": 3599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/8in1.png?v=1748797490",
+      "subcategory": "Hubs & Docks",
+      "description": "RJ45 high speed Ethernet, USB C (PD + data transfer), 1x USB 3.0, 1x USB 2.0, TF/SD media transfer, 4K HDMI.",
+      "sourceUrl": "https://coconutlife.in/products/8-in-1-dock-a-type-c-multiport-hub"
+    },
+    {
+      "id": "coconut-174",
+      "category": "computerAccessories",
+      "name": "AX13 Type C to AUX Cable 1M",
+      "price": 229,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/AX13.png?v=1702537158",
+      "subcategory": "Cables & Adapters",
+      "description": "1 M Type C to AUX. Gifting Essentials Collection 07 (Plugged In), item 36 (listed together with AX12).",
+      "sourceUrl": "https://coconutlife.in/products/ax13-type-c-to-3-5mm-aux-audio-1m-cable-6-months-warranty"
+    },
+    {
+      "id": "coconut-175",
+      "category": "electronics",
+      "name": "Drum Lifestyle Speaker",
+      "price": 5999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DrumAS360002.jpg?v=1703146863",
+      "subcategory": "Audio",
+      "description": "60 watt wireless powered speaker.",
+      "sourceUrl": "https://coconutlife.in/products/usb-drum-speaker"
+    },
+    {
+      "id": "coconut-177",
+      "category": "electronics",
+      "name": "Vibe Wired + Bluetooth Speaker",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.04.23_PM.jpg?v=1759338397",
+      "subcategory": "Audio",
+      "description": "USB + Bluetooth speaker, 3W x 2 stereo sound. Gifting Essentials Collection 05 (Sound Stories), item 23.",
+      "sourceUrl": "https://coconutlife.in/products/vibe-dual-input-bluetooth-usb-speaker-bar"
+    },
+    {
+      "id": "coconut-179",
+      "category": "computerAccessories",
+      "name": "OT05 OTG Adapter (USB to MicroUSB + Type C)",
+      "price": 429,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/ot05_2.jpg?v=1688554668",
+      "subcategory": "Cables & Adapters",
+      "description": "USB to MicroUSB + Type C.",
+      "sourceUrl": "https://coconutlife.in/products/ot05-usb-to-micro-usb-typec"
+    },
+    {
+      "id": "coconut-180",
+      "category": "computerAccessories",
+      "name": "AX12 Lightning to AUX Cable 1M",
+      "price": 249,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/AX12.png?v=1702536972",
+      "subcategory": "Cables & Adapters",
+      "description": "1 Mtr Lightning to AUX. Gifting Essentials Collection 07 (Plugged In), item 36 (listed together with AX13).",
+      "sourceUrl": "https://coconutlife.in/products/ax12-lightning-to-3-5mm-aux-audio-1m-cable-6-months-warranty"
+    },
+    {
+      "id": "coconut-181",
+      "category": "computerAccessories",
+      "name": "RAMPAGE 3000D Gaming Cabinet",
+      "price": 7799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Wb-Rampage3000D-GamingCabinet-Blaclk_2.jpg?v=1774699806",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. ATX, hinge glass door, 4x120mm ARGB fans, no Type-C, up to 360mm radiator front, VGA up to 340mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/rampage-3000d-gaming-cabinet-eatx-black"
+    },
+    {
+      "id": "coconut-182",
+      "category": "computerAccessories",
+      "name": "Flow 18 Laptop Cooler Pad (RGB Series)",
+      "price": 1399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.06.35_PM.jpg?v=1759338395",
+      "subcategory": "Cooling",
+      "description": "2x70mm fan, dedicated mobile holder, supports up to 17 inch laptops, RGB.",
+      "sourceUrl": "https://coconutlife.in/products/flow-18-cooler-pad"
+    },
+    {
+      "id": "coconut-183",
+      "category": "computerAccessories",
+      "name": "DP to DVI Adapter",
+      "price": 249,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/DPtoDVI.png?v=1740848715",
+      "subcategory": "Cables & Adapters",
+      "description": "DisplayPort to DVI adapter.",
+      "sourceUrl": "https://coconutlife.in/products/dp-to-dvi-adapter-displayport-to-dvi-converter"
+    },
+    {
+      "id": "coconut-185",
+      "category": "electronics",
+      "name": "US05 USB Speakers",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/US05black.jpg?v=1709024730",
+      "subcategory": "Audio",
+      "description": "Mini sized, 3W x 2.",
+      "sourceUrl": "https://coconutlife.in/products/us05-usb-speaker"
+    },
+    {
+      "id": "coconut-186",
+      "category": "computerAccessories",
+      "name": "Scanny 4 Wired 2D Barcode & QR Scanner",
+      "price": 5999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_8.png?v=1748797489",
+      "subcategory": null,
+      "description": "Wired barcode scanner, 2D barcode & QR.",
+      "sourceUrl": "https://coconutlife.in/products/scanny-4-usb-wired-1d-2d-usb-bsc04"
+    },
+    {
+      "id": "coconut-187",
+      "category": "computerAccessories",
+      "name": "Vault X2 Premium Computer Case",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/VAULTX2.jpg?v=1742631326",
+      "subcategory": "Networking",
+      "description": "Premium case, Micro ATX, front stylish RGB strip + RGB switch, 1x Type-C + 1x USB 3.0, without PSU.",
+      "sourceUrl": "https://coconutlife.in/products/vault-x2-premium-rgb-pc-case"
+    },
+    {
+      "id": "coconut-189",
+      "category": "computerAccessories",
+      "name": "WA02 USB WiFi Adapter (300 Mbps)",
+      "price": 559,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/wa02.webp?v=1660732129",
+      "subcategory": "Cables & Adapters",
+      "description": "300 Mbps wireless adapter.",
+      "sourceUrl": "https://coconutlife.in/products/wa02-superspeed-usb-wifi-adapter-up-to-300mbps"
+    },
+    {
+      "id": "coconut-190",
+      "category": "computerAccessories",
+      "name": "Virgo Mechanical Gaming Keyboard",
+      "price": 2039,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/k21virgo_7_f6d04ded-f9ae-410e-b71c-404918f89221.png?v=1678958645",
+      "subcategory": "Keyboards & Mice",
+      "description": "61 keys, red Outemu switches, 1.5M Type-C detachable cable, free 2 switches.",
+      "sourceUrl": "https://coconutlife.in/products/k21-virgo-mini-mechanical-gaming-keyboard-with-61-outemu-red-switches-techtober-flash-sale"
+    },
+    {
+      "id": "coconut-191",
+      "category": "computerAccessories",
+      "name": "Flow 17 Laptop Cooler Pad (RGB Series)",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.06.20_PM.jpg?v=1759338393",
+      "subcategory": "Cooling",
+      "description": "6x70mm fan, up to 17 inch laptops, RGB.",
+      "sourceUrl": "https://coconutlife.in/products/flow-17-cooler-pad"
+    },
+    {
+      "id": "coconut-193",
+      "category": "computerAccessories",
+      "name": "ULTRA 65W GaN Wall Charger (with 2M 100W Cable)",
+      "price": 2099,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Ultra.png?v=1748797490",
+      "subcategory": "Cables & Adapters",
+      "description": "65W GaNFast, 1x USB A + 1x Type C. Free 2 Mtr nylon braided Type C to C 100W data cable. Gifting Essentials Collection 03 (Power Adapters), item 16.",
+      "sourceUrl": "https://coconutlife.in/products/ultra-100-240v-50-60hz-1-6a-max-type-c-usb-a-free-2-mtr-100-w-high-speed-cable"
+    },
+    {
+      "id": "coconut-195",
+      "category": "computerAccessories",
+      "name": "X15 SATA SSD Case (RGB Series)",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X15_1_1.png?v=1728388930",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch, free OTG, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x15-rgb-sata-casing-2-5inch-ssd-hdd-usb3-0-casing-type-c-connectivity"
+    },
+    {
+      "id": "coconut-196",
+      "category": "electronics",
+      "name": "Taylor Soundbar with Woofer 300W (RGB Series)",
+      "price": 14999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/sefrws.jpg?v=1740725708",
+      "subcategory": "Audio",
+      "description": "150W soundbar + 150W woofer, 10 inch subwoofer, RGB light. Gifting Essentials Collection 06 (Sound Unleashed), item 30.",
+      "sourceUrl": "https://coconutlife.in/products/taylor-300w-rgb-sound-bar-with-10-woofer"
+    },
+    {
+      "id": "coconut-197",
+      "category": "computerAccessories",
+      "name": "AC02 Lightning to AUX Adapter",
+      "price": 299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/AC02.png?v=1702536888",
+      "subcategory": "Cables & Adapters",
+      "description": "Lightning to AUX.",
+      "sourceUrl": "https://coconutlife.in/products/ac02-lightning-to-3-5mm-aux-adapter-connector-high-quality-audio-6-months-warranty"
+    },
+    {
+      "id": "coconut-200",
+      "category": "computerAccessories",
+      "name": "Type C Dock 5 in 1 A",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/2_6525b275-4a05-46e6-829a-bef9e38e9c1d.png?v=1678958645",
+      "subcategory": "Hubs & Docks",
+      "description": "Giga LAN + HDMI + 2x USB 3.0 + PD.",
+      "sourceUrl": "https://coconutlife.in/products/5-in-1-dock-a"
+    },
+    {
+      "id": "coconut-201",
+      "category": "electronics",
+      "name": "27HDXC+ R1500 Curved LED Monitor",
+      "price": 11999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-03-26_at_3.26.11_PM_1.jpg?v=1775063193",
+      "subcategory": "Monitors",
+      "description": "Frameless curved R1500 IPS, A+ grade CSOT panel, 75Hz, HDMI + VGA, 5ms, 91% sRGB, 300 nits, in-built speakers. 3 years warranty.",
+      "webColours": [
+        "White",
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/27hdxc-plus-27-curved-led-monitor"
+    },
+    {
+      "id": "coconut-202",
+      "category": "computerAccessories",
+      "name": "CF01 CPU Cooler Fan",
+      "price": 319,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf01.jpg?v=1693402303",
+      "subcategory": "Cooling",
+      "description": "Clip type, 4 pin connect, 150g, silver coated base clip, supports 775/115x/1200.",
+      "sourceUrl": "https://coconutlife.in/products/cf01-cooler-fan"
+    },
+    {
+      "id": "coconut-203",
+      "category": "computerAccessories",
+      "name": "Scanny 3 Wireless + BT Barcode Scanner with Dock",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_7.png?v=1748797489",
+      "subcategory": "Hubs & Docks",
+      "description": "Wireless + BT barcode scanner with dock, 2D.",
+      "sourceUrl": "https://coconutlife.in/products/scanny-3-wireless-1d-2d-2-4-bluetooth-bsc03"
+    },
+    {
+      "id": "coconut-205",
+      "category": "computerAccessories",
+      "name": "NOVA 550 Gaming Cabinet",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/whitebcimg1nova550.jpg?v=1748797488",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. ATX, mesh front, 4x120mm fixed RGB fans, up to 280mm radiator front, VGA up to 400mm.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/nova-550-premium-rgb-gaming-cabinet-atx-mesh-360mm-cooling"
+    },
+    {
+      "id": "coconut-206",
+      "category": "computerAccessories",
+      "name": "Neptune USB Hub with Free OTG",
+      "price": 959,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Neptune.png?v=1698858440",
+      "subcategory": "Hubs & Docks",
+      "description": "Transparent enclosure, 4x USB 3.1 A, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh17"
+    },
+    {
+      "id": "coconut-207",
+      "category": "computerAccessories",
+      "name": "X650 Premium Power Supply (80 Plus Bronze)",
+      "price": 6499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-02-04_at_11.56.09_1.jpg?v=1770186636",
+      "subcategory": "Cables & Adapters",
+      "description": "True 650W, 120mm silent fan, flat cable, up to 85% efficient, OVP/UVP/SCP/OPP/OCP protection.",
+      "sourceUrl": "https://coconutlife.in/products/x650-true-watt-650w-80-plus-bronze-smps"
+    },
+    {
+      "id": "coconut-209",
+      "category": "computerAccessories",
+      "name": "Force Gaming Combo (RGB Series)",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_ForceWhite.jpg?v=1707892527",
+      "subcategory": "Keyboards & Mice",
+      "description": "Rainbow backlit keyboard, 7 multimedia keys, rotary wheel, mouse up to 3600 DPI, 1.8M nylon braided cable.",
+      "sourceUrl": "https://coconutlife.in/products/force-gaming-keyboard-mouse-combo-rainbow-backlighting-26-antighosting-keys-1-year-warranty"
+    },
+    {
+      "id": "coconut-210",
+      "category": "deskAccessories",
+      "name": "MOBI 3 Mobile Stand",
+      "price": 399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_12.12.05_PM.jpg?v=1759338394",
+      "subcategory": null,
+      "description": "Alloy material, 360 degree rotation, weight 128 grm. Gifting Essentials Collection 01 (Desk Expression), item 06.",
+      "sourceUrl": "https://coconutlife.in/products/mobi-3-x21-foldable-adjustable-mobile-stand-holder"
+    },
+    {
+      "id": "coconut-211",
+      "category": "bagsLuggageTravel",
+      "name": "Kama Laptop Sleeve (14 / 15 inch)",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_af08c467-9584-4348-97eb-594282020588.png?v=1730480770",
+      "subcategory": "Bags",
+      "description": "Puffy sleeve, polyester fabric, stylish bright orangish inner lining. Gifting Essentials Collection 02 (Protected On The Go), item 11.",
+      "sourceUrl": "https://coconutlife.in/products/kama-laptop-sleeve-available-in-14-15-inches"
+    },
+    {
+      "id": "coconut-212",
+      "category": "electronics",
+      "name": "Marley Soundbar with Woofer 240W (RGB)",
+      "price": 11999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Untitled-1_5e16205a-1953-4952-b8c9-7f511029af03.jpg?v=1740809706",
+      "subcategory": "Audio",
+      "description": "120W soundbar + 120W woofer, 8 inch subwoofer, RGB light. Gifting Essentials Collection 06 (Sound Unleashed), item 29.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-marley-240w-soundbar-with-powerful-bass"
+    },
+    {
+      "id": "coconut-215",
+      "category": "computerAccessories",
+      "name": "DP to VGA 2M Cable with Chipset",
+      "price": 699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DPtoVGACable.png?v=1702973055",
+      "subcategory": "Cables & Adapters",
+      "description": "2M cable with chipset.",
+      "sourceUrl": "https://coconutlife.in/products/dp-to-vga-2m-cable"
+    },
+    {
+      "id": "coconut-217",
+      "category": "bagsLuggageTravel",
+      "name": "Vista Laptop Bag (14 / 16 inch)",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/02.jpg?v=1709534240",
+      "subcategory": "Bags",
+      "description": "Water, dust & shock proof Oxford fabric. 14 inch 1,999 / 16 inch 2,199. Gifting Essentials Collection 02 (Protected On The Go), item 12.",
+      "sourceUrl": "https://coconutlife.in/products/vista-laptop-bag"
+    },
+    {
+      "id": "coconut-218",
+      "category": "computerAccessories",
+      "name": "X29 SATA SSD Case",
+      "price": 959,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.57.12_AM.jpg?v=1759338396",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, transparent body, USB A to Type C, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x29-2-5-inch-usb-3-1-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-219",
+      "category": "bagsLuggageTravel",
+      "name": "Armour Laptop Bag (14 / 16 inch)",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_9348d52f-8cda-43cd-bcee-acf11e77a29b.jpg?v=1709534277",
+      "subcategory": "Bags",
+      "description": "Water, dust & shock proof Oxford fabric. 14 inch 2,999 / 16 inch 3,299. Gifting Essentials Collection 02 (Protected On The Go), item 08. Spelled 'Armor' in Master Catalog, 'Armour' in Gifting Essentials.",
+      "sourceUrl": "https://coconutlife.in/products/armor-laptop-bag"
+    },
+    {
+      "id": "coconut-220",
+      "category": "computerAccessories",
+      "name": "C2 Red USB A to C Cable 2M",
+      "price": 299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/c1_cable_39e03193-9e4f-4f43-a91f-e94df516e341.jpg?v=1774348779",
+      "subcategory": "Cables & Adapters",
+      "description": "USB A to C, 2M, red. Gifting Essentials Collection 07 (Plugged In), item 31.",
+      "sourceUrl": "https://coconutlife.in/products/c2-red-2m-usb-to-c-fast-charging-cable"
+    },
+    {
+      "id": "coconut-221",
+      "category": "computerAccessories",
+      "name": "X13 NVME SSD Case",
+      "price": 2399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X1.png?v=1730480768",
+      "subcategory": "Storage & SSD Cases",
+      "description": "Premium metal body, up to 10 Gbps, USB 3.2 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x13-m-2-dual-protocol-ssd-enclosure-ssd-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-222",
+      "category": "computerAccessories",
+      "name": "Velvet Wired Combo",
+      "price": 839,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/177.jpg?v=1722539055",
+      "subcategory": "Keyboards & Mice",
+      "description": "Super comfortable, shiny base, designed key caps, 104 keys, 1.8M special line cable, virgin ABS.",
+      "sourceUrl": "https://coconutlife.in/products/k28-velvet-wired-keyboard"
+    },
+    {
+      "id": "coconut-223",
+      "category": "computerAccessories",
+      "name": "Hydra USB Hub with Card Reader",
+      "price": 719,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/193.jpg?v=1722539054",
+      "subcategory": "Hubs & Docks",
+      "description": "USB 2.0 x3 ports, SD + TF card reader (supports 1TB), 1M cable, metallic finish, 1 year warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh24-hydra-usb-2-0-hub-with-sd-tf-card-reader-3-port-usb-hub"
+    },
+    {
+      "id": "coconut-224",
+      "category": "computerAccessories",
+      "name": "CR14 Card Reader",
+      "price": 1399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsAppImage2025-03-28at6.54.00PM_550aa1ad-0f7a-497e-bd12-886be0aa8cff.jpg?v=1743527209",
+      "subcategory": null,
+      "description": "USB 3.0 super speed, up to 5 Gbps.",
+      "sourceUrl": "https://coconutlife.in/products/cr14-usb2-0-card-reader"
+    },
+    {
+      "id": "coconut-225",
+      "category": "electronics",
+      "name": "US07 USB Speakers",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/US07black_orange.jpg?v=1698858438",
+      "subcategory": "Audio",
+      "description": "Compact powerful speakers, 3W x 2.",
+      "sourceUrl": "https://coconutlife.in/products/us07"
+    },
+    {
+      "id": "coconut-226",
+      "category": "electronics",
+      "name": "Sound Plus Lifestyle Speaker",
+      "price": 5699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_COCONUTNEW2.jpg?v=1707892702",
+      "subcategory": "Audio",
+      "description": "40 watt wireless powered speaker.",
+      "sourceUrl": "https://coconutlife.in/products/sound-plus-40w-bluetooth-speaker"
+    },
+    {
+      "id": "coconut-227",
+      "category": "electronics",
+      "name": "27HDG LED Monitor",
+      "price": 11399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/10.jpg?v=1698858436",
+      "subcategory": "Monitors",
+      "description": "Frameless IPS, A+ grade BOE panel, 75Hz, HDMI + VGA, 6.5ms, 99% sRGB, 250 nits, in-built speakers. 3 years warranty.",
+      "webColours": [
+        "White",
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/27-inch-monitor"
+    },
+    {
+      "id": "coconut-229",
+      "category": "computerAccessories",
+      "name": "Orion 2.0 Mechanical Gaming Keyboard",
+      "price": 2159,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/k122.0.webp?v=1697891368",
+      "subcategory": "Keyboards & Mice",
+      "description": "87 keys (TKL), red Outemu switches, 26 anti-ghosting keys, free 2 extra switches.",
+      "sourceUrl": "https://coconutlife.in/products/k12-orion-2-0-tkl-led-mechanical-gaming-keyboard-87-blue-switches"
+    },
+    {
+      "id": "coconut-230",
+      "category": "computerAccessories",
+      "name": "Quartz Wireless Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/quartz.webp?v=1654500962",
+      "subcategory": "Keyboards & Mice",
+      "description": "81 keys, 4 button mouse, water drop chocolate keys.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-quartz-wireless-keyboard-mouse-combo-for-windows-apple-82-keys-compact-light-weight-design-low-power-consumption"
+    },
+    {
+      "id": "coconut-231",
+      "category": "electronics",
+      "name": "Elvis Bluetooth Speaker",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DSC07249copy.jpg?v=1701510661",
+      "subcategory": "Audio",
+      "description": "8W RGB, 1200mAh built-in battery, 3-4 hrs playback, ABS + fabric + silicone, TWS, 57mm speaker, micro USB charging. Gifting Essentials Collection 04 (Audio Culture), item 20.",
+      "sourceUrl": "https://coconutlife.in/products/elvis-8w-bluetooth-speaker-rgb-portable-speaker-bluetooth-5-1"
+    },
+    {
+      "id": "coconut-232",
+      "category": "computerAccessories",
+      "name": "Bloom Wired Mouse",
+      "price": 479,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/bloom.png?v=1748797489",
+      "subcategory": "Keyboards & Mice",
+      "description": "1000 DPI, 10L+ click life, 2L+ scrolling life, colour change.",
+      "sourceUrl": "https://coconutlife.in/products/bloom-m110-usb-wired-mouse"
+    },
+    {
+      "id": "coconut-234",
+      "category": "computerAccessories",
+      "name": "Marvel Wireless Combo",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/MARVEL_1.webp?v=1694166265",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 keys, palm rest, 10 special multimedia keys.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-wkm17-marvel-wireless-keyboard-and-mouse-combo-for-windows-2-4ghz-wireless-range-6-10m-full-sized-keyboard-with-10-multimedia-keys-palm-rest-6-button-mouse-dpi-upto-1600-pc-laptop"
+    },
+    {
+      "id": "coconut-235",
+      "category": "computerAccessories",
+      "name": "Vault X1 Premium Computer Case",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/VAULTX1.jpg?v=1742631282",
+      "subcategory": null,
+      "description": "Premium case, Micro ATX, 4 PCI slots, 1x Type-C + 1x USB 3.0, without PSU.",
+      "sourceUrl": "https://coconutlife.in/products/vault-x1-premium-mini-atx-case-with-type-c"
+    },
+    {
+      "id": "coconut-236",
+      "category": "computerAccessories",
+      "name": "Leo USB Hub",
+      "price": 539,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/182.jpg?v=1722539054",
+      "subcategory": "Hubs & Docks",
+      "description": "USB 2.0 x4 ports, 1M cable, metallic finish, 1 year warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh21-leo-usb-2-0-hub-4-port-usb-hub"
+    },
+    {
+      "id": "coconut-237",
+      "category": "computerAccessories",
+      "name": "Phanta RGB Wired Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/PhantaBlack_ae5e9869-247f-4c53-b567-4d83d96d5b65.jpg?v=1743527210",
+      "subcategory": "Keyboards & Mice",
+      "description": "7D mouse up to 3600 DPI, metal body, 19 anti-ghosting keys, 104 keys, 14 RGB light modes.",
+      "sourceUrl": "https://coconutlife.in/products/phanta-rgb-gaming-keyboard-mouse-combo-white"
+    },
+    {
+      "id": "coconut-238",
+      "category": "computerAccessories",
+      "name": "Type C Dock 4 in 1 B",
+      "price": 1299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/4in1Dockb-wbimage.jpg?v=1782926237",
+      "subcategory": "Hubs & Docks",
+      "description": "2x 4K HDMI + PD + USB 3.0.",
+      "sourceUrl": "https://coconutlife.in/products/4-in-1-dock-b-type-c-hub-with-dual-hdmi-4k"
+    },
+    {
+      "id": "coconut-241",
+      "category": "electronics",
+      "name": "Enigma Gaming Headset (True RGB)",
+      "price": 1259,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/GH1_1_.1.webp?v=1654177752",
+      "subcategory": "Audio",
+      "description": "Golden connectors, comfortable ear muffs, 50mm speaker, rotatable unidirectional metal mic.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-gh1-enigma-gaming-headphones-for-pc-laptop-headset-50mm-drivers-2-2m-cable"
+    },
+    {
+      "id": "coconut-242",
+      "category": "computerAccessories",
+      "name": "ACCO 20W Wall Charger",
+      "price": 549,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Acco.png?v=1730480768",
+      "subcategory": "Cables & Adapters",
+      "description": "20W, 1x USB A + 1x Type C. Gifting Essentials Collection 03 (Power Adapters), item 13.",
+      "sourceUrl": "https://coconutlife.in/products/acco-adapter-with-100-240v-50-60hz-1usb-a-20w"
+    },
+    {
+      "id": "coconut-243",
+      "category": "computerAccessories",
+      "name": "K20 Wired Keyboard",
+      "price": 479,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_K20Wired.jpg?v=1703142603",
+      "subcategory": "Keyboards & Mice",
+      "description": "10 multimedia keys.",
+      "sourceUrl": "https://coconutlife.in/products/k20-mini-keyboard"
+    },
+    {
+      "id": "coconut-244",
+      "category": "computerAccessories",
+      "name": "AC01 Type C to AUX Adapter",
+      "price": 249,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/ac01.jpg?v=1688477743",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to AUX.",
+      "sourceUrl": "https://coconutlife.in/products/ac01-typec-to-aux"
+    },
+    {
+      "id": "coconut-245",
+      "category": "computerAccessories",
+      "name": "CORE 300M Gaming Cabinet",
+      "price": 4499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_3402.2101.jpg?v=1701434593",
+      "subcategory": "Gaming Cabinets",
+      "description": "Premium series. Mid ATX, mesh front, 2x140mm + 1x120mm ARGB fans, up to 360mm radiator front, VGA up to 315mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/core-300m-gaming-cabinet-white-mid-atx"
+    },
+    {
+      "id": "coconut-246",
+      "category": "computerAccessories",
+      "name": "Flow 14 Laptop Cooler Pad",
+      "price": 1049,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/211.jpg?v=1746119141",
+      "subcategory": "Cooling",
+      "description": "2x80mm fan, up to 17 inch laptops, multi level support.",
+      "sourceUrl": "https://coconutlife.in/products/flow-14-cooler-pad"
+    },
+    {
+      "id": "coconut-247",
+      "category": "computerAccessories",
+      "name": "OT01 OTG Adapter (USB 3.0 to Type C, LED)",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/OT01_1.jpg?v=1688478132",
+      "subcategory": "Cables & Adapters",
+      "description": "USB 3.0 to Type C, LED indicator.",
+      "sourceUrl": "https://coconutlife.in/products/ot01-usb3-0-to-type-c"
+    },
+    {
+      "id": "coconut-248",
+      "category": "electronics",
+      "name": "US04 USB Speakers",
+      "price": 599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/US04_5.webp?v=1694338767",
+      "subcategory": "Audio",
+      "description": "RGB light, 3W x 2.",
+      "sourceUrl": "https://coconutlife.in/products/us04-usb-speaker"
+    },
+    {
+      "id": "coconut-250",
+      "category": "computerAccessories",
+      "name": "Porto 4 4G Router (with LAN Port)",
+      "price": 3599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/porto4_2.webp?v=1660813052",
+      "subcategory": "Networking",
+      "description": "Up to 9 devices, 4G up to 150Mbps, supports DVR, WPS technology, LAN port.",
+      "sourceUrl": "https://coconutlife.in/products/porto-4-4g-wireless-router-with-lan-port-type-c-port"
+    },
+    {
+      "id": "coconut-251",
+      "category": "computerAccessories",
+      "name": "C1 Red USB A to C Cable 1M",
+      "price": 249,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/c1_cable.jpg?v=1770891422",
+      "subcategory": "Cables & Adapters",
+      "description": "USB A to C, 1M, red. Gifting Essentials Collection 07 (Plugged In), item 31.",
+      "sourceUrl": "https://coconutlife.in/products/c1-red-1m-usb-to-c-fast-charging-cable"
+    },
+    {
+      "id": "coconut-252",
+      "category": "computerAccessories",
+      "name": "HDMI to VGA Adapter",
+      "price": 319,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/48.webp?v=1654936687",
+      "subcategory": "Cables & Adapters",
+      "description": "HDMI to VGA conversion adapter.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-hdmi-to-vga-adapter-high-speed-1080p-hd-video-converter-gold-plated-hdmi-to-vga-male-to-female-for-computer-laptop-xbox-hdtv"
+    },
+    {
+      "id": "coconut-253",
+      "category": "computerAccessories",
+      "name": "X23 SATA SSD Case",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.26_AM.jpg?v=1759338396",
+      "subcategory": "Storage & SSD Cases",
+      "description": "2.5 inch screwless, transparent body, USB A to Type C, USB 3.0 speed, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/x23-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+    },
+    {
+      "id": "coconut-254",
+      "category": "computerAccessories",
+      "name": "RAMPAGE 5000D Gaming Cabinet",
+      "price": 7199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1.png?v=1770053939",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, Type-C, 7+3 vertical PCI slots, VGA up to 410mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/rampage-5000d-gaming-cabinet-e-atx-motherboard-support-white"
+    },
+    {
+      "id": "coconut-255",
+      "category": "computerAccessories",
+      "name": "C15 Red Type C to C Cable 1M",
+      "price": 249,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/c15_6.webp?v=1654178158",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to C cable, 1M, red. Must be used with the original OnePlus charger, otherwise supports normal 5V/2A charging speed only. Gifting Essentials Collection 07 (Plugged In), item 32.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-c15-warp-30w-usb-c-to-type-c-charging-data-sync-charger-adapter-cable-6a-for-oneplus-8-8t-9-pro-9r-1metre"
+    },
+    {
+      "id": "coconut-258",
+      "category": "computerAccessories",
+      "name": "Cosmic Office Cabinet (RGB Series, with SM45 SMPS)",
+      "price": 2099,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/wb-CosmicBlack-Office-Cabinet1.jpg?v=1774698004",
+      "subcategory": "Gaming Cabinets",
+      "description": "Micro ATX, front stylish RGB strip, RGB switch button, pre-loaded with SM45 SMPS.",
+      "sourceUrl": "https://coconutlife.in/products/cosmic-office-cabinet"
+    },
+    {
+      "id": "coconut-260",
+      "category": "computerAccessories",
+      "name": "Poppy Retro Wireless Combo",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/169.jpg?v=1722539055",
+      "subcategory": "Keyboards & Mice",
+      "description": "Retro keyboard, 112 keys, up to 1600 DPI mouse, cat-ear design. Gifting Essentials Collection 01 (Desk Expression), item 02.",
+      "sourceUrl": "https://coconutlife.in/products/poppy-retro-wireless-combo"
+    },
+    {
+      "id": "coconut-261",
+      "category": "computerAccessories",
+      "name": "Type C Dock 6 in 1 A",
+      "price": 1299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/1_544043e9-bb9d-4b5c-8fa3-833c298401f7.png?v=1678958638",
+      "subcategory": "Hubs & Docks",
+      "description": "HDMI + SD + TF + 2x USB 3.0 + PD.",
+      "sourceUrl": "https://coconutlife.in/products/6-in-1-dock-a"
+    },
+    {
+      "id": "coconut-262",
+      "category": "computerAccessories",
+      "name": "Flow 16 Laptop Cooler Pad",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/225.jpg?v=1743527211",
+      "subcategory": "Cooling",
+      "description": "5x70mm fan, 2 USB ports, up to 17 inch laptops, multi level support.",
+      "sourceUrl": "https://coconutlife.in/products/flow-16-cooler-pad"
+    },
+    {
+      "id": "coconut-263",
+      "category": "deskAccessories",
+      "name": "MP03 Mouse Pad",
+      "price": 359,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/IMG00315copy.webp?v=1703140133",
+      "subcategory": "Keyboards & Mice",
+      "description": "Minimize hand pressure, 5mm thickness. Available in red, blue, green, white & black.",
+      "webColours": [
+        "Red",
+        "Blue",
+        "Green",
+        "White",
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/mp03-5mm-mouse-pad"
+    },
+    {
+      "id": "coconut-264",
+      "category": "computerAccessories",
+      "name": "GP01 USB Game Pad",
+      "price": 479,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/GP01.png?v=1730480768",
+      "subcategory": null,
+      "description": "USB game pad.",
+      "sourceUrl": "https://coconutlife.in/products/gp01-gamepad-gp01-gamepad-supports-7-0-above-edition"
+    },
+    {
+      "id": "coconut-265",
+      "category": "computerAccessories",
+      "name": "Saturn USB Hub with Free OTG",
+      "price": 839,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/WhatsAppImage2023-01-31at8.08.08PM.jpg?v=1678958623",
+      "subcategory": "Hubs & Docks",
+      "description": "4x USB 3.1 A, 1x USB C 5V fast charge, 2 years warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh15-saturn-4-port-usb-hub-gen-3-1-4x-usb-a-1x-5v-usb-c-charging-super-speed"
+    },
+    {
+      "id": "coconut-267",
+      "category": "computerAccessories",
+      "name": "Type C Dock 7 in 1 C",
+      "price": 2699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/7IN1C.jpg?v=1743527209",
+      "subcategory": "Hubs & Docks",
+      "description": "4K HDMI + 2x SD + TF + 2x USB 3.0 + RJ45 + Type C.",
+      "sourceUrl": "https://coconutlife.in/products/7-in-1-rgb-type-c-hub-multiport-docking-station"
+    },
+    {
+      "id": "coconut-268",
+      "category": "computerAccessories",
+      "name": "Lucid Wireless Gaming Mouse",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/168_1.jpg?v=1722539056",
+      "subcategory": "Keyboards & Mice",
+      "description": "WiFi + Bluetooth mouse, 500mAh rechargeable battery, silent click.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-wm20-lucid-2-4g-wireless-bluetooth-5-1-mouse-slim-rechargeable-500mah-silent-click-rgb-led-wireless-gaming-mouse-dpi-upto-1600-works-on-2-devices-at-the-same-time-windows-mac-android"
+    },
+    {
+      "id": "coconut-269",
+      "category": "computerAccessories",
+      "name": "NOVA 110 Gaming Cabinet",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Nova110_4e055f7e-7385-4f1f-a456-c275ca7f751d.png?v=1759338403",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Mid ATX, mesh front, 4x120mm fixed RGB fans, up to 360mm radiator front, VGA up to 325mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/nova-110"
+    },
+    {
+      "id": "coconut-270",
+      "category": "computerAccessories",
+      "name": "UL03 Type C LAN Adapter",
+      "price": 489,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_UL03.png?v=1702648155",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to LAN.",
+      "sourceUrl": "https://coconutlife.in/products/ul03-type-c-to-lan"
+    },
+    {
+      "id": "coconut-271",
+      "category": "computerAccessories",
+      "name": "CS05 5-in-1 Multi-functional Cleaning Brush",
+      "price": 299,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/1_7169593a-729d-469e-8499-e5445efaec6b.png?v=1693504725",
+      "subcategory": null,
+      "description": "5 in 1 multi-functional cleaning brush, original MSDS certified.",
+      "sourceUrl": "https://coconutlife.in/products/cs05-cleaning-kit"
+    },
+    {
+      "id": "coconut-272",
+      "category": "computerAccessories",
+      "name": "HDMI to VGA Adapter with Audio",
+      "price": 699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/37.webp?v=1654598400",
+      "subcategory": "Cables & Adapters",
+      "description": "HDMI to VGA conversion adapter with audio.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-hdmi-to-vga-with-audio-adapter-high-speed-1080p-hd-video-converter-gold-plated-hdmi-to-vga-male-to-female-for-computer-laptop-xbox-hdtv"
+    },
+    {
+      "id": "coconut-273",
+      "category": "computerAccessories",
+      "name": "CF03 CPU Cooler Fan",
+      "price": 389,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf03_5bac7e6e-f572-4c75-8fe6-53796eb3c026.jpg?v=1693402429",
+      "subcategory": "Cooling",
+      "description": "Clip type, 4 pin connect, 170g, copper coated base, supports 775/115x/1200.",
+      "sourceUrl": "https://coconutlife.in/products/cf03-cooling-fan"
+    },
+    {
+      "id": "coconut-274",
+      "category": "computerAccessories",
+      "name": "Sunny Wireless Mouse",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_12.11.26_PM.jpg?v=1759338395",
+      "subcategory": "Keyboards & Mice",
+      "description": "Noiseless, rechargeable, multi device.",
+      "sourceUrl": "https://coconutlife.in/products/sunny-wireless-mouse"
+    },
+    {
+      "id": "coconut-277",
+      "category": "computerAccessories",
+      "name": "CR11 Card Reader",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/185.jpg?v=1722539055",
+      "subcategory": null,
+      "description": "USB 3.1 super speed, free Type C OTG.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-cr11-usb-3-0-card-reader-with-type-c-3-1-otg-6-in-1-memory-card-adapter-compact-flash-cf-tf-sd-microsd-sdhc-sdxc-ms-up-to-10-gbps-speed-for-windows-mac-pc-laptop-mobile-silver"
+    },
+    {
+      "id": "coconut-278",
+      "category": "computerAccessories",
+      "name": "Type C Dock 11 in 1 A",
+      "price": 2699,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/IMG01456copy_1.jpg?v=1693998374",
+      "subcategory": "Hubs & Docks",
+      "description": "4x USB 3.0 + SD + TF + 4K HDMI + VGA + USB C + Giga LAN + HD audio.",
+      "sourceUrl": "https://coconutlife.in/products/11-in-1-dock-a"
+    },
+    {
+      "id": "coconut-279",
+      "category": "electronics",
+      "name": "Jammy Bluetooth Speaker",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Jammy.png?v=1759338400",
+      "subcategory": "Audio",
+      "description": "12W wireless speaker, 1200mAh battery. Gifting Essentials Collection 04 (Audio Culture), item 17.",
+      "sourceUrl": "https://coconutlife.in/products/jammy-usb-aux-12w-wireless-speaker"
+    },
+    {
+      "id": "coconut-282",
+      "category": "computerAccessories",
+      "name": "Krux RGB Wired Combo",
+      "price": 1679,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_Krux-Black.png?v=1702537921",
+      "subcategory": "Keyboards & Mice",
+      "description": "6D mouse up to 3600 DPI, 1.8M braided cable, 104 keys, metal top finish, 14 luminous types, RGB borders.",
+      "sourceUrl": "https://coconutlife.in/products/krux-gaming-keyboard-mouse-combo-years-warranty"
+    },
+    {
+      "id": "coconut-283",
+      "category": "electronics",
+      "name": "27XCG R1500 Curved LED Monitor",
+      "price": 14999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-02-11_at_4.51.12_PM_1.jpg?v=1772386813",
+      "subcategory": "Monitors",
+      "description": "Frameless curved R1500 IPS, A+ grade CSOT panel, 180Hz, HDMI + DisplayPort, 2ms, 119% sRGB, 300 nits, in-built speakers. 3 years warranty.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/27-xcg-curved-fhd-frameless-gaming-monitor-180hz"
+    },
+    {
+      "id": "coconut-284",
+      "category": "computerAccessories",
+      "name": "TH02 Type C Dual HDMI Adapter",
+      "price": 2659,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/TH02.png?v=1730480768",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C dual-output display adapter.",
+      "sourceUrl": "https://coconutlife.in/products/th02-type-c-to-dual-hdtv"
+    },
+    {
+      "id": "coconut-285",
+      "category": "computerAccessories",
+      "name": "NOVA 660 Gaming Cabinet",
+      "price": 4199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/whitebcimg1nova660.jpg?v=1748797488",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. ATX, mesh front, 4x120mm fixed RGB fans, up to 280mm radiator front, VGA up to 300mm, 2 HDD + 2 SSD.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/nova-660-rgb-gaming-cabinet-geometric-mesh-front-280mm-liquid-cooling"
+    },
+    {
+      "id": "coconut-286",
+      "category": "electronics",
+      "name": "Grace Bluetooth Speaker",
+      "price": 1199,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/198.jpg?v=1722532019",
+      "subcategory": "Audio",
+      "description": "8W RGB, 1200mAh built-in battery, 3-4 hrs playback, ABS + fabric + silicone, TWS, 52mm speaker, Type-C charging. Gifting Essentials Collection 04 (Audio Culture), item 18.",
+      "sourceUrl": "https://coconutlife.in/products/grace-8w-bluetooth-speaker-rgb-portable-speaker-bluetooth-5-1"
+    },
+    {
+      "id": "coconut-287",
+      "category": "computerAccessories",
+      "name": "Networking Crimping Tool",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Crimping_Tool.jpg?v=1770890640",
+      "subcategory": "Networking",
+      "description": "RJ45 crimping tool.",
+      "sourceUrl": "https://coconutlife.in/products/crimping-tool-for-lan-telephone-cables"
+    },
+    {
+      "id": "coconut-288",
+      "category": "computerAccessories",
+      "name": "GLM 04 USB & USB-C Ethernet Adapter (10/100)",
+      "price": 1119,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/DSC07074.jpg?v=1698858432",
+      "subcategory": "Cables & Adapters",
+      "description": "USB & USBC 10/100 Mbps Ethernet adapter.",
+      "sourceUrl": "https://coconutlife.in/products/glm04-usb-microusb-giga-lan"
+    },
+    {
+      "id": "coconut-289",
+      "category": "computerAccessories",
+      "name": "Gemini USB Hub",
+      "price": 779,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/192.jpg?v=1722539053",
+      "subcategory": "Hubs & Docks",
+      "description": "USB 3.0 x1 + USB 2.0 x3 ports, 1M cable, metallic finish, 1 year warranty.",
+      "sourceUrl": "https://coconutlife.in/products/uh23-gemini-usb-2-0-3-0-hub-4-port-usb-hub"
+    },
+    {
+      "id": "coconut-290",
+      "category": "computerAccessories",
+      "name": "CORE 100M Gaming Cabinet",
+      "price": 5399,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/Core100M.png?v=1767287497",
+      "subcategory": "Gaming Cabinets",
+      "description": "Premium series. Mid ATX, mesh front, 4x120mm ARGB fans, up to 360mm radiator front, VGA up to 315mm.",
+      "webColours": [
+        "Black",
+        "White"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/core-200m-gaming-cabinet-white-mid-atx"
+    },
+    {
+      "id": "coconut-291",
+      "category": "computerAccessories",
+      "name": "Illume Wired Keyboard",
+      "price": 899,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/illume_2.jpg?v=1690909573",
+      "subcategory": "Keyboards & Mice",
+      "description": "1.8M USB cable, water drop keys, backlit + key lit (white).",
+      "sourceUrl": "https://coconutlife.in/products/k26-illume-wired-keyboard"
+    },
+    {
+      "id": "coconut-292",
+      "category": "computerAccessories",
+      "name": "Porto 5 4G Dual Band Router",
+      "price": 3799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_porto5white.png?v=1702640900",
+      "subcategory": "Networking",
+      "description": "India's only dual band router, up to 8 devices, 4G 150Mbps, supports 5G SIM card.",
+      "sourceUrl": "https://coconutlife.in/products/porto-5-5g-wireless-router-built-in-2100mah-battery"
+    },
+    {
+      "id": "coconut-294",
+      "category": "computerAccessories",
+      "name": "Konnect 4G Dual Band Data Card",
+      "price": 2149,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/konnectblack.jpg?v=1698858433",
+      "subcategory": null,
+      "description": "India's only dual band data card, high speed up to 150 Mbps, connect up to 10 devices.",
+      "sourceUrl": "https://coconutlife.in/products/coconut-konnect-4g-dongle-with-all-sim-support-plug-play-4g-data-card-with-up-to-150mbps-data-speed-fast-4g-dongle-sim-adapter-included-white"
+    },
+    {
+      "id": "coconut-296",
+      "category": "computerAccessories",
+      "name": "ATOM V100 Gaming Cabinet",
+      "price": 3599,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/white_bc_img_1_atom_v100.jpg?v=1748797487",
+      "subcategory": "Gaming Cabinets",
+      "description": "Value series. Micro ATX, mesh front, 3x120mm fixed RGB fans, up to 240mm radiator front, VGA up to 285mm. 325x197x387mm.",
+      "webColours": [
+        "Black"
+      ],
+      "sourceUrl": "https://coconutlife.in/products/atom-v100-rgb-gaming-cabinet-mesh-atx-usb-3-0"
+    },
+    {
+      "id": "coconut-297",
+      "category": "computerAccessories",
+      "name": "Storm Mechanical Gaming Keyboard",
+      "price": 1799,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/119.jpg?v=1719853597",
+      "subcategory": "Keyboards & Mice",
+      "description": "104 keys, 21 light modes, red Outemu, 1.8M braided cable, marquee lighting, 2 switches + plucker free.",
+      "sourceUrl": "https://coconutlife.in/products/strom-mechincal-keyboard"
     }
   ]
 }
