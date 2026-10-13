@@ -62533,6 +62533,370 @@
       "image": "assets/products/coconut/sm50-psu.jpg",
       "subcategory": "Cables & Adapters",
       "description": "120mm fan, black powder coated, on/off switch, original Molex connectors."
+    },
+    {
+      "id": "coconut-130",
+      "category": "computerAccessories",
+      "name": "Giga LAN + 3.1 Hub",
+      "price": 1999,
+      "image": "assets/products/coconut/giga-lan-hub.jpg",
+      "subcategory": "Hubs & Docks",
+      "description": "3 ports USB 3.1 + Giga LAN (1000 Mbps)."
+    },
+    {
+      "id": "coconut-131",
+      "category": "computerAccessories",
+      "name": "GLM 02 C Giga LAN Adapter",
+      "price": 1599,
+      "image": "assets/products/coconut/glm02c.jpg",
+      "subcategory": "Networking",
+      "description": "USB-C, 100/1000 Mbps Giga LAN, premium aluminium alloy housing."
+    },
+    {
+      "id": "coconut-133",
+      "category": "computerAccessories",
+      "name": "GLM 05 Giga LAN Adapter",
+      "price": 1799,
+      "image": "assets/products/coconut/glm05.jpg",
+      "subcategory": "Networking",
+      "description": "USB C, 100/1000 Mbps Giga LAN, premium aluminium alloy housing."
+    },
+    {
+      "id": "coconut-138",
+      "category": "computerAccessories",
+      "name": "GLP 05 Giga LAN Adapter",
+      "price": 1799,
+      "image": "assets/products/coconut/glp05.jpg",
+      "subcategory": "Networking",
+      "description": "USB, 100/1000 Mbps, super speed Type C LAN."
+    },
+    {
+      "id": "coconut-145",
+      "category": "computerAccessories",
+      "name": "GLP 06 Giga LAN Adapter",
+      "price": 1799,
+      "image": "assets/products/coconut/glp06.jpg",
+      "subcategory": "Networking",
+      "description": "USB-C, 100/1000 Mbps, super speed USB LAN."
+    },
+    {
+      "id": "coconut-148",
+      "category": "computerAccessories",
+      "name": "DP to HDMI 4K Connector",
+      "price": 299,
+      "image": "assets/products/coconut/dp-hdmi-4k.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "DisplayPort to HDMI 4K connector."
+    },
+    {
+      "id": "coconut-151",
+      "category": "computerAccessories",
+      "name": "DP to HDMI Adapter",
+      "price": 599,
+      "image": "assets/products/coconut/dp-hdmi.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "DisplayPort to HDMI adapter."
+    },
+    {
+      "id": "coconut-152",
+      "category": "computerAccessories",
+      "name": "DP to HDMI VGA DVI Adapter",
+      "price": 999,
+      "image": "assets/products/coconut/dp-hdmi-vga-dvi.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "DisplayPort to HDMI / VGA / DVI multi adapter."
+    },
+    {
+      "id": "coconut-165",
+      "category": "computerAccessories",
+      "name": "Mini DP to HDMI Adapter",
+      "price": 399,
+      "image": "assets/products/coconut/minidp-hdmi.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Mini DisplayPort to HDMI adapter."
+    },
+    {
+      "id": "coconut-173",
+      "category": "computerAccessories",
+      "name": "Mini DP to HDMI, VGA, DVI Adapter",
+      "price": 999,
+      "image": "assets/products/coconut/minidp-hdmi-vga-dvi.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Mini DisplayPort to HDMI / VGA / DVI multi adapter."
+    },
+    {
+      "id": "coconut-176",
+      "category": "computerAccessories",
+      "name": "USB C to VGA Adapter",
+      "price": 999,
+      "image": "assets/products/coconut/usbc-vga.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "USB-C to VGA adapter."
+    },
+    {
+      "id": "coconut-178",
+      "category": "computerAccessories",
+      "name": "USB C to DVI Adapter",
+      "price": 1299,
+      "image": "assets/products/coconut/usbc-dvi.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "USB-C to DVI adapter."
+    },
+    {
+      "id": "coconut-184",
+      "category": "computerAccessories",
+      "name": "USB C to Mini DP Adapter",
+      "price": 1299,
+      "image": "assets/products/coconut/usbc-minidp.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "USB-C to Mini DisplayPort adapter."
+    },
+    {
+      "id": "coconut-188",
+      "category": "computerAccessories",
+      "name": "USB C to DP Adapter",
+      "price": 1499,
+      "image": "assets/products/coconut/usbc-dp.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "USB-C to DisplayPort adapter."
+    },
+    {
+      "id": "coconut-192",
+      "category": "computerAccessories",
+      "name": "VGA to HDMI Cable",
+      "price": 999,
+      "image": "assets/products/coconut/vga-hdmi-cable.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "VGA to HDMI converter cable with audio + USB."
+    },
+    {
+      "id": "coconut-194",
+      "category": "computerAccessories",
+      "name": "HDMI to VGA 2M Cable with Chipset",
+      "price": 799,
+      "image": "assets/products/coconut/hdmi-vga-2m-chipset.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "2M cable with chipset."
+    },
+    {
+      "id": "coconut-198",
+      "category": "computerAccessories",
+      "name": "HDMI to VGA High Speed 2M Cable (Premium Chipset)",
+      "price": 1499,
+      "image": "assets/products/coconut/hdmi-vga-highspeed-premium.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "High speed 2M cable with premium chipset."
+    },
+    {
+      "id": "coconut-199",
+      "category": "computerAccessories",
+      "name": "UL02C Type C LAN Adapter + Hub",
+      "price": 1999,
+      "image": "assets/products/coconut/ul02c.jpg",
+      "subcategory": "Networking",
+      "description": "Type C to LAN + hub."
+    },
+    {
+      "id": "coconut-204",
+      "category": "computerAccessories",
+      "name": "Type C Dock 7 in 1 B",
+      "price": 2999,
+      "image": "assets/products/coconut/typec-dock-7in1b.jpg",
+      "subcategory": "Hubs & Docks",
+      "description": "HDMI + SD + TF + 2x USB + PD + USB C charge."
+    },
+    {
+      "id": "coconut-208",
+      "category": "computerAccessories",
+      "name": "Standy 01 Barcode Scanner Stand",
+      "price": 999,
+      "image": "assets/products/coconut/standy01.jpg",
+      "description": "Barcode scanner stand."
+    },
+    {
+      "id": "coconut-213",
+      "category": "computerAccessories",
+      "name": "LS03 Laptop Stand",
+      "price": 999,
+      "image": "assets/products/coconut/ls03.jpg",
+      "description": "Up to 17 inch laptops, 6 adjustable levels, anti slip, high quality."
+    },
+    {
+      "id": "coconut-214",
+      "category": "computerAccessories",
+      "name": "MP05 Double Sided Vegan PU Leather Mouse Pad",
+      "price": 249,
+      "image": "assets/products/coconut/mp05.jpg",
+      "description": "Double sided, vegan PU leather."
+    },
+    {
+      "id": "coconut-216",
+      "category": "computerAccessories",
+      "name": "CS02 2-in-1 Cleaning Kit",
+      "price": 349,
+      "image": "assets/products/coconut/cs02.jpg",
+      "description": "2 in 1 cleaning kit, non-aerosol cleaner, original MSDS certified."
+    },
+    {
+      "id": "coconut-228",
+      "category": "computerAccessories",
+      "name": "Kudos Wireless Mouse",
+      "price": 1299,
+      "image": "assets/products/coconut/kudos.jpg",
+      "subcategory": "Keyboards & Mice",
+      "description": "Intelligent power saving, silent."
+    },
+    {
+      "id": "coconut-233",
+      "category": "computerAccessories",
+      "name": "Flow 11 Laptop Cooler Pad",
+      "price": 799,
+      "image": "assets/products/coconut/flow11.jpg",
+      "subcategory": "Cooling",
+      "description": "140mm fan, 1 USB port, up to 17 inch laptops."
+    },
+    {
+      "id": "coconut-239",
+      "category": "computerAccessories",
+      "name": "Carmen Bluetooth Speaker",
+      "price": 2799,
+      "image": "assets/products/coconut/carmen-speaker.jpg",
+      "subcategory": "Audio",
+      "description": "16W Bluetooth speaker, Type-C charging, RGB light effect, 2400mAh battery."
+    },
+    {
+      "id": "coconut-240",
+      "category": "computerAccessories",
+      "name": "SC16 NVME + NGFF SSD Case",
+      "price": 3499,
+      "image": "assets/products/coconut/sc16.jpg",
+      "subcategory": "Storage & SSD Cases",
+      "description": "NVMe + NGFF, up to 4TB, USB and Type-C 2-in-1, USB 3.1 speed."
+    },
+    {
+      "id": "coconut-249",
+      "category": "computerAccessories",
+      "name": "C11 Lightning Cable 1M",
+      "price": 499,
+      "image": "assets/products/coconut/c11.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Lightning cable, 1M."
+    },
+    {
+      "id": "coconut-256",
+      "category": "computerAccessories",
+      "name": "C12 Micro USB Cable 1M",
+      "price": 399,
+      "image": "assets/products/coconut/c12.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Micro USB cable, 1M."
+    },
+    {
+      "id": "coconut-257",
+      "category": "computerAccessories",
+      "name": "C13 Type C Cable 1M",
+      "price": 399,
+      "image": "assets/products/coconut/c13.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C cable, 1M."
+    },
+    {
+      "id": "coconut-259",
+      "category": "computerAccessories",
+      "name": "C16 3-in-1 Cable 1M",
+      "price": 699,
+      "image": "assets/products/coconut/c16.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "3 in 1 cable, 1M."
+    },
+    {
+      "id": "coconut-266",
+      "category": "computerAccessories",
+      "name": "C17 Type C to Type C Cable 1M (60W)",
+      "price": 799,
+      "image": "assets/products/coconut/c17.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "60W 20V 3Amp, USB 2.0 @ 480Mbps, nylon braided, 1M."
+    },
+    {
+      "id": "coconut-275",
+      "category": "computerAccessories",
+      "name": "C20 Type C to 2-in-1 Cable 1M (100W)",
+      "price": 1299,
+      "image": "assets/products/coconut/c20.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to 2-in-1, 100 Watt. Type C to Type C can be used for mobile phone, laptop & MacBook charging. 1M."
+    },
+    {
+      "id": "coconut-276",
+      "category": "computerAccessories",
+      "name": "C21 Type C to 4-in-1 Cable 1M",
+      "price": 1299,
+      "image": "assets/products/coconut/c21.jpg",
+      "subcategory": "Cables & Adapters",
+      "description": "Type C to 4-in-1, 1M. Type C to Type C only for mobile phone charging; do not use for laptop/MacBook charging."
+    },
+    {
+      "id": "coconut-280",
+      "category": "computerAccessories",
+      "name": "MOBI 2 Mobile Stand",
+      "price": 599,
+      "image": "assets/products/coconut/mobi2.jpg",
+      "description": "Strong metal material, 360 degree rotation, weight 128 grm. Gifting Essentials Collection 01 (Desk Expression), item 05."
+    },
+    {
+      "id": "coconut-281",
+      "category": "computerAccessories",
+      "name": "Glare Wireless Gaming Mouse",
+      "price": 1599,
+      "image": "assets/products/coconut/glare.jpg",
+      "subcategory": "Keyboards & Mice",
+      "description": "6 button, 3200 DPI, wireless + BT."
+    },
+    {
+      "id": "coconut-293",
+      "category": "computerAccessories",
+      "name": "Glow Wireless Gaming Mouse",
+      "price": 1799,
+      "image": "assets/products/coconut/glow.jpg",
+      "subcategory": "Keyboards & Mice",
+      "description": "6 button, 3200 DPI, wireless + BT."
+    },
+    {
+      "id": "coconut-295",
+      "category": "computerAccessories",
+      "name": "Cat 6 Cable 100M (Made in India)",
+      "price": 2999,
+      "image": "assets/products/coconut/cat6-cable.jpg",
+      "subcategory": "Networking",
+      "description": "100% virgin material, CCA cable, 100M."
+    },
+    {
+      "id": "coconut-298",
+      "category": "computerAccessories",
+      "name": "Cat 6 Cable 305M (Made in India)",
+      "price": 9999,
+      "image": "assets/products/coconut/cat6-cable.jpg",
+      "subcategory": "Networking",
+      "description": "100% virgin material, CCA cable, 305M."
+    },
+    {
+      "id": "coconut-299",
+      "category": "computerAccessories",
+      "name": "RJ45 Connectors Plastic (Pass Through, Pack of 100)",
+      "price": 1499,
+      "image": "assets/products/coconut/rj45-plastic.jpg",
+      "subcategory": "Networking",
+      "description": "Pass through RJ45 connectors, plastic, pack of 100."
+    },
+    {
+      "id": "coconut-300",
+      "category": "computerAccessories",
+      "name": "RJ45 Connectors Metal (Pass Through, Pack of 100)",
+      "price": 1499,
+      "image": "assets/products/coconut/rj45-metal.jpg",
+      "subcategory": "Networking",
+      "description": "Pass through RJ45 connectors, metal, pack of 100."
     }
   ]
 }
