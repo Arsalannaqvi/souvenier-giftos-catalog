@@ -62308,6 +62308,60 @@
       "subcategory": "Keyboards & Mice",
       "description": "104 keys, 21 light modes, red Outemu, 1.8M braided cable, marquee lighting, 2 switches + plucker free.",
       "sourceUrl": "https://coconutlife.in/products/strom-mechincal-keyboard"
+    },
+    {
+      "id": "coconut-14",
+      "category": "computerAccessories",
+      "name": "AX11 AUX Cable 1M",
+      "price": 349,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/ax01_5.webp?v=1654175762",
+      "subcategory": "Cables & Adapters",
+      "description": "1 Mtr AUX cable."
+    },
+    {
+      "id": "coconut-35",
+      "category": "computerAccessories",
+      "name": "STARK Z9 Gaming Cabinet",
+      "price": 12999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/StarkZ9Black.jpg?v=1742985048",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. ATX/M-ATX/ITX, tempered glass panoramic, 4x120mm Infinity ARGB fans, VGA up to 390mm."
+    },
+    {
+      "id": "coconut-36",
+      "category": "computerAccessories",
+      "name": "RAMPAGE ELITE Gaming Cabinet",
+      "price": 14999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/RampageEliteBlack.jpg?v=1742985243",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. ATX (M-ATX/ITX boards), hinge glass door, 4x120mm RGB fans, Type-C, 5 PCI slots, VGA up to 400mm."
+    },
+    {
+      "id": "coconut-41",
+      "category": "computerAccessories",
+      "name": "RAMPAGE 2000D Gaming Cabinet",
+      "price": 12999,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_2205-_.2126.jpg?v=1701434772",
+      "subcategory": "Gaming Cabinets",
+      "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, Type-C, 7 PCI slots, VGA up to 383mm."
+    },
+    {
+      "id": "coconut-53",
+      "category": "computerAccessories",
+      "name": "DP to VGA Adapter",
+      "price": 499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DPtoVGA.png?v=1702884362",
+      "subcategory": "Cables & Adapters",
+      "description": "DisplayPort to VGA adapter."
+    },
+    {
+      "id": "coconut-55",
+      "category": "computerAccessories",
+      "name": "Gold Wireless Gaming Mouse",
+      "price": 1499,
+      "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-04-29_at_12.58.27_PM_1_1.jpg?v=1777447950",
+      "subcategory": "Keyboards & Mice",
+      "description": "500mAh rechargeable battery, 7 button, 3200 DPI."
     }
   ]
 }
