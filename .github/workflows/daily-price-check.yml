@@ -1,0 +1,46 @@
+name: Daily live price check
+
+# Tier A only: Shopify-backed suppliers whose /products/<handle>.json
+# endpoint we can read for free, no scraping. Runs entirely on GitHub's
+# infrastructure -- costs nothing beyond included Actions minutes, and
+# never touches Claude usage. See scripts/check_live_prices.py.
+
+on:
+  schedule:
+    # 02:30 UTC = 08:00 IST. Cron is UTC regardless of repo settings.
+    - cron: "30 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run live price check
+        run: python3 scripts/check_live_prices.py
+
+      - name: Regenerate product and brand pages
+        run: |
+          python3 scripts/generate_product_pages.py
+          python3 scripts/generate_brand_pages.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "price-check-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/products.json data/price_check_report.json product/ brand/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily live price check: apply Shopify-verified price updates" \
+              -m "See data/price_check_report.json for what changed and what was flagged for manual review."
+            git push
+          fi
