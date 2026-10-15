@@ -49,7 +49,8 @@ def to_number(x):
     don't render "₹449.0" instead of "₹449"."""
     if x is None:
         return None
-    return int(x) if float(x).is_integer() else float(x)
+    f = float(x)
+    return int(f) if f.is_integer() else f
 
 
 def fetch_json(url, retries=2):
