@@ -53,7 +53,18 @@ def to_number(x):
     return int(f) if f.is_integer() else f
 
 
-def fetch_json(url, retries=2):
+# 429/502/503 are transient -- worth retrying with backoff. Other HTTP
+# errors (404, etc.) are real and won't fix themselves, so raise
+# immediately. Confirmed 2026-10-15: GitHub Actions' shared runner IPs get
+# rate-limited (429) by some Shopify stores (boat-lifestyle.com,
+# coconutlife.in, portronics.com, lifelongindiaonline.com, xech.com) far
+# more than this environment ever did -- likely aggregate traffic from
+# unrelated Actions jobs worldwide sharing the same IP pool, not our own
+# request volume. Same run also hit a one-off 502 on temptindia.com.
+RETRYABLE_HTTP_STATUS = {429, 502, 503}
+
+
+def fetch_json(url, retries=3):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
     last_err = None
     for attempt in range(retries + 1):
@@ -63,11 +74,17 @@ def fetch_json(url, retries=2):
                 if "application/json" not in ctype:
                     raise ValueError(f"not JSON (content-type={ctype})")
                 return json.loads(resp.read())
-        except (urllib.error.URLError, TimeoutError) as e:
-            # HTTPError is a URLError subclass but a real 404/etc. won't
-            # fix itself on retry, so don't burn attempts on it.
-            if isinstance(e, urllib.error.HTTPError):
+        except urllib.error.HTTPError as e:
+            if e.code not in RETRYABLE_HTTP_STATUS or attempt >= retries:
                 raise
+            retry_after = e.headers.get("Retry-After") if e.headers else None
+            try:
+                delay = float(retry_after)
+            except (TypeError, ValueError):
+                delay = 2.0 * (attempt + 1)
+            last_err = e
+            time.sleep(min(delay, 15.0))
+        except (urllib.error.URLError, TimeoutError) as e:
             last_err = e
             if attempt < retries:
                 time.sleep(1.5 * (attempt + 1))
