@@ -1,10 +1,33 @@
 {
-  "checkedAt": "2026-10-15T04:38:51.035216+00:00",
+  "checkedAt": "2026-10-15T07:52:55.586253+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1357,
-  "unchanged": 702,
-  "applied": [],
+  "unchanged": 698,
+  "applied": [
+    {
+      "id": "electronics-487",
+      "name": "boAt Cinehead F1 Pro",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 34999,
+      "livePrice": 32999,
+      "liveMrp": 44999,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-cinehead-f1-pro",
+      "deltaPct": 5.7,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-750",
+      "name": "boAt Cinehead F1",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 23999,
+      "livePrice": 21999,
+      "liveMrp": 29999,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-cinehead-f1",
+      "deltaPct": 8.3,
+      "action": "applied"
+    }
+  ],
   "flagged": [
     {
       "id": "homeImprovement-3",
@@ -1195,17 +1218,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-338",
-      "name": "Xech Mini Chef Electronic Multi Cooker",
-      "domain": "xech.com",
-      "storedPrice": 1526,
-      "livePrice": 1999,
-      "liveMrp": 4299,
-      "sourceUrl": "https://xech.com/products/multipurpose-kettle-with-steamer-mini-chef",
-      "deltaPct": 31.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-339",
       "name": "Xech Hydroboil Pro Portable Electric Kettle",
       "domain": "xech.com",
@@ -1998,6 +2010,17 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
+      "id": "electronics-404",
+      "name": "boAt Rockerz 255 Pro+",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 2999,
+      "livePrice": 999,
+      "liveMrp": 3990,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
+      "deltaPct": 66.7,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
       "id": "electronics-412",
       "name": "boAt Aavante Bar Theme",
       "domain": "boat-lifestyle.com",
@@ -2138,6 +2161,17 @@
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-deadpool-edition",
       "deltaPct": 80.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-430",
+      "name": "boAt Stone 180",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 2490,
+      "livePrice": 1199,
+      "liveMrp": 2490,
+      "sourceUrl": "https://boat-lifestyle.com/products/stone-180",
+      "deltaPct": 51.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3289,10 +3323,10 @@
       "name": "boAt Airdopes 181 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 2999,
+      "livePrice": 999,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-181-pro-bluetooth-earbuds",
-      "deltaPct": 39.9,
+      "deltaPct": 80.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3502,17 +3536,6 @@
       "liveMrp": 13999,
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fortune-nfc-enabled-secure-payments-smartwatch",
       "deltaPct": 85.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-653",
-      "name": "boAt Lunar Discovery",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 8499,
-      "livePrice": 4999,
-      "liveMrp": 8499,
-      "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch",
-      "deltaPct": 41.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -6886,6 +6909,17 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch"
     },
     {
+      "id": "electronics-653",
+      "name": "boAt Lunar Discovery",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 6,
+      "variantPrices": [
+        1299,
+        1499
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
+    },
+    {
       "id": "electronics-654",
       "name": "boAt Enigma Orion",
       "domain": "boat-lifestyle.com",
@@ -7185,10 +7219,10 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": "electronics-121",
-      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
+      "id": "electronics-338",
+      "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "id": "electronics-342",
@@ -7223,6 +7257,12 @@
     {
       "id": "coconut-73",
       "name": "27HDX LED Monitor",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-74",
+      "name": "Walton Soundbar with Woofer 160W",
       "domain": "coconutlife.in",
       "error": "HTTP Error 429: Too Many Requests"
     }
