@@ -85,6 +85,21 @@ Use the GitHub MCP Actions tools against
   retrying specifically on 429/502/503, honoring the `Retry-After` header
   when present, capped backoff. **Don't assume "unreachable" means a
   dead link — always break it down by domain + error code first.**
+  Cut real failures from 538 to 13 on the next CI run, at the cost of
+  runtime going from ~5.5 min to ~15.5 min.
+  - **Still not fully resolved**: 9 of those 13 were still `429` (under
+    500 — a client-side rate limit, not a server error like 502/503) on
+    the same 5 domains, which exhausted all retries during the heaviest
+    throttling window: `www.portronics.com` (3), `boat-lifestyle.com`
+    (2), `xech.com` (2), `www.lifelongindiaonline.com` (1),
+    `coconutlife.in` (1). Decided 2026-10-15 to leave this as-is for now
+    rather than push retry/backoff further (diminishing returns against
+    rising runtime) — these 5 specifically throttle GitHub's shared
+    runner IPs harder than the rest of the Tier-A domain set. If this
+    keeps recurring on future runs, the next step is a longer
+    *per-domain* base delay for just these 5 (not a global retry-count
+    increase), since the problem is sustained throttling on these
+    domains specifically, not one-off transient errors.
 - Multi-variant flagging was initially over-aggressive (flagged ANY
   product with >1 variant, ~36% of candidates) until sampled and found
   75% had identical prices across variants (colour/size, no real price
