@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-15T04:22:40.452392+00:00",
+  "checkedAt": "2026-10-15T04:38:51.035216+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1357,
-  "unchanged": 708,
+  "unchanged": 702,
   "applied": [],
   "flagged": [
     {
@@ -235,17 +235,6 @@
       "liveMrp": 300,
       "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-llsr01-skipping-rope-for-men-women-children-jump-rope-for-exercise-workout-weight-loss-tangle-free-jumping-rope-for-kids-275cm-red-and-black",
       "deltaPct": 60.5,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "storedPrice": 2457,
-      "livePrice": 1299,
-      "liveMrp": 2999,
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/hot-compress-bag-with-temperature-adjustment",
-      "deltaPct": 47.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1235,17 +1224,6 @@
       "livePrice": 2499,
       "liveMrp": 5999,
       "sourceUrl": "https://xech.com/products/portable-electric-kettle-for-travel-hydroboil-pro-black",
-      "deltaPct": 35.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-343",
-      "name": "Xech Blend (Portable Blender)",
-      "domain": "xech.com",
-      "storedPrice": 1841,
-      "livePrice": 2499,
-      "liveMrp": 3199,
-      "sourceUrl": "https://xech.com/products/portable-rechargeable-blender",
       "deltaPct": 35.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
@@ -6003,19 +5981,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-ascend-hd-display-smartwatch"
     },
     {
-      "id": "electronics-468",
-      "name": "boAt Rockerz 103 Pro",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 4,
-      "variantPrices": [
-        659,
-        1059,
-        1099,
-        1119
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-103-pro-in-ear-wireless-earphones"
-    },
-    {
       "id": "electronics-470",
       "name": "boAt Immortal katana Blade 2.0",
       "domain": "boat-lifestyle.com",
@@ -7184,6 +7149,12 @@
   ],
   "unreachable": [
     {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "apparel-60",
       "name": "Scott Organic Polo T-shirt",
       "domain": "www.globallinker.com",
@@ -7202,10 +7173,58 @@
       "error": "not JSON (content-type=text/html; charset=UTF-8)"
     },
     {
+      "id": "electronics-119",
+      "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-120",
+      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-121",
+      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-342",
+      "name": "Xech Hydroboil Mini Portable Electric Kettle 300W I 300ml",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-343",
+      "name": "Xech Blend (Portable Blender)",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "homeKitchenAppliances-486",
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "electronics-468",
+      "name": "boAt Rockerz 103 Pro",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-469",
+      "name": "boAt Aavante Bar Joy",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-73",
+      "name": "27HDX LED Monitor",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
