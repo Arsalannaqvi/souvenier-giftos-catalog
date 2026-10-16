@@ -1,30 +1,217 @@
 {
-  "checkedAt": "2026-10-15T07:52:55.586253+00:00",
+  "checkedAt": "2026-10-16T07:38:53.213007+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1357,
-  "unchanged": 698,
+  "unchanged": 700,
   "applied": [
     {
-      "id": "electronics-487",
-      "name": "boAt Cinehead F1 Pro",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 34999,
-      "livePrice": 32999,
-      "liveMrp": 44999,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-cinehead-f1-pro",
-      "deltaPct": 5.7,
+      "id": "apparel-153",
+      "name": "Campus OG-14",
+      "domain": "www.campusshoes.com",
+      "storedPrice": 1999,
+      "livePrice": 1619,
+      "liveMrp": 1899,
+      "sourceUrl": "https://www.campusshoes.com/products/og-14-wht-navy-mens-sneakers",
+      "deltaPct": 19.0,
       "action": "applied"
     },
     {
-      "id": "electronics-750",
-      "name": "boAt Cinehead F1",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 23999,
-      "livePrice": 21999,
-      "liveMrp": 29999,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-cinehead-f1",
-      "deltaPct": 8.3,
+      "id": "apparel-172",
+      "name": "Campus Xperia-2",
+      "domain": "www.campusshoes.com",
+      "storedPrice": 774,
+      "livePrice": 799,
+      "liveMrp": 799,
+      "sourceUrl": "https://www.campusshoes.com/products/xperia-2-navy-l-gry-t-blu-mens-sandals",
+      "deltaPct": 3.2,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-301",
+      "name": "Alphatech Pro 04 Brown Messenger Bag",
+      "domain": "uppercase.co.in",
+      "storedPrice": 4865,
+      "livePrice": 3899,
+      "liveMrp": 4865,
+      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-04-brown-messenger-bag",
+      "deltaPct": 19.9,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-343",
+      "name": "Vegan Leather Laptop Backpack 7A",
+      "domain": "uppercase.co.in",
+      "storedPrice": 2100,
+      "livePrice": 1680,
+      "liveMrp": 2100,
+      "sourceUrl": "https://uppercase.co.in/products/vegan-blue-backpack",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-354",
+      "name": "Ryder 04 Laptop Backpack",
+      "domain": "uppercase.co.in",
+      "storedPrice": 3200,
+      "livePrice": 2560,
+      "liveMrp": 3200,
+      "sourceUrl": "https://uppercase.co.in/products/ryder-black-backpack",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-358",
+      "name": "Matrix 08 Laptop Backpack",
+      "domain": "uppercase.co.in",
+      "storedPrice": 3100,
+      "livePrice": 2480,
+      "liveMrp": 3100,
+      "sourceUrl": "https://uppercase.co.in/products/matrix-black-backpack",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-360",
+      "name": "Levl Alphatech Pro Laptop Backpack",
+      "domain": "uppercase.co.in",
+      "storedPrice": 4375,
+      "livePrice": 3499,
+      "liveMrp": 4375,
+      "sourceUrl": "https://uppercase.co.in/products/levl-alphatech-pro-blue-laptop-backpack",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-361",
+      "name": "Edge Alphatech Pro Laptop Backpack",
+      "domain": "uppercase.co.in",
+      "storedPrice": 5250,
+      "livePrice": 4199,
+      "liveMrp": 5250,
+      "sourceUrl": "https://uppercase.co.in/products/edge-alphatech-pro-black-laptop-backpack",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-362",
+      "name": "Vortex Alphatech Pro Laptop Backpack",
+      "domain": "uppercase.co.in",
+      "storedPrice": 6125,
+      "livePrice": 4899,
+      "liveMrp": 6125,
+      "sourceUrl": "https://uppercase.co.in/products/vortex-alphatech-pro-black-laptop-backpack",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-367",
+      "name": "Alphatech Pro 03 Messenger Bag",
+      "domain": "uppercase.co.in",
+      "storedPrice": 4865,
+      "livePrice": 3899,
+      "liveMrp": 4865,
+      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-03-blue-messenger-bag",
+      "deltaPct": 19.9,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-368",
+      "name": "Alphatech Pro 05 Messenger Bag",
+      "domain": "uppercase.co.in",
+      "storedPrice": 4865,
+      "livePrice": 3899,
+      "liveMrp": 4865,
+      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-05-blue-messenger-bag",
+      "deltaPct": 19.9,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-369",
+      "name": "Shield Laptop Sleeve 14\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 1125,
+      "livePrice": 900,
+      "liveMrp": 1125,
+      "sourceUrl": "https://uppercase.co.in/products/shield-14-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-370",
+      "name": "Shield Laptop Sleeve 16\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 1250,
+      "livePrice": 1000,
+      "liveMrp": 1250,
+      "sourceUrl": "https://uppercase.co.in/products/shield-16-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-371",
+      "name": "Stride Laptop Sleeve 14\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 1875,
+      "livePrice": 1500,
+      "liveMrp": 1875,
+      "sourceUrl": "https://uppercase.co.in/products/stride-14-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-372",
+      "name": "Stride Laptop Sleeve 16\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 2000,
+      "livePrice": 1600,
+      "liveMrp": 2000,
+      "sourceUrl": "https://uppercase.co.in/products/stride-16-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-373",
+      "name": "Pulse Laptop Sleeve 14\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 1750,
+      "livePrice": 1400,
+      "liveMrp": 1750,
+      "sourceUrl": "https://uppercase.co.in/products/pulse-14-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-374",
+      "name": "Pulse Laptop Sleeve 16\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 1875,
+      "livePrice": 1500,
+      "liveMrp": 1875,
+      "sourceUrl": "https://uppercase.co.in/products/pulse-16-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-375",
+      "name": "Node Laptop Sleeve 14\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 2125,
+      "livePrice": 1700,
+      "liveMrp": 2125,
+      "sourceUrl": "https://uppercase.co.in/products/node-14-inch-rust-laptop-sleeve",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-376",
+      "name": "Node Laptop Sleeve 16\"",
+      "domain": "uppercase.co.in",
+      "storedPrice": 2250,
+      "livePrice": 1800,
+      "liveMrp": 2250,
+      "sourceUrl": "https://uppercase.co.in/products/node-16-inch-black-laptop-sleeve",
+      "deltaPct": 20.0,
       "action": "applied"
     }
   ],
@@ -206,17 +393,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "sportsFitnessOutdoor-25",
-      "name": "Lifelong LLTM183 Fit Pro Manual Incline Walking Machine",
-      "domain": "www.lifelongindiaonline.com",
-      "storedPrice": 13499,
-      "livePrice": 9049,
-      "liveMrp": 39999,
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-fit-pro-3-hp-peak-dc-brushless-motor-2-level-manual-incline-walking-machine-black",
-      "deltaPct": 33.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "sportsFitnessOutdoor-28",
       "name": "Lifelong STRBC2602 Premium Metallic Bicycle",
       "domain": "www.lifelongindiaonline.com",
@@ -258,6 +434,17 @@
       "liveMrp": 300,
       "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-llsr01-skipping-rope-for-men-women-children-jump-rope-for-exercise-workout-weight-loss-tangle-free-jumping-rope-for-kids-275cm-red-and-black",
       "deltaPct": 60.5,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "storedPrice": 2457,
+      "livePrice": 1299,
+      "liveMrp": 2999,
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/hot-compress-bag-with-temperature-adjustment",
+      "deltaPct": 47.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -496,10 +683,10 @@
       "name": "Jack & Jones Oscar Duffle Bag",
       "domain": "www.jackjones.in",
       "storedPrice": 1486,
-      "livePrice": 2399,
+      "livePrice": 2799,
       "liveMrp": 3999,
       "sourceUrl": "https://www.jackjones.in/products/107953501-black",
-      "deltaPct": 61.4,
+      "deltaPct": 88.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2377,10 +2564,10 @@
       "name": "boAt Cinehead E1",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14999,
-      "livePrice": 8999,
+      "livePrice": 8499,
       "liveMrp": 14999,
       "sourceUrl": "https://boat-lifestyle.com/products/cinehead-e1-smart-hd-projector",
-      "deltaPct": 40.0,
+      "deltaPct": 43.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4540,17 +4727,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "apparel-153",
-      "name": "Campus OG-14",
-      "domain": "www.campusshoes.com",
-      "storedPrice": 1999,
-      "livePrice": 1429,
-      "liveMrp": 1899,
-      "sourceUrl": "https://www.campusshoes.com/products/og-14-wht-navy-mens-sneakers",
-      "deltaPct": 28.5,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "apparel-165",
       "name": "Campus Keren",
       "domain": "www.campusshoes.com",
@@ -4969,17 +5145,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "bagsLuggageTravel-301",
-      "name": "Alphatech Pro 04 Brown Messenger Bag",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4865,
-      "livePrice": 3399,
-      "liveMrp": 4865,
-      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-04-brown-messenger-bag",
-      "deltaPct": 30.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "bagsLuggageTravel-309",
       "name": "Astro Hard Luggage Trolley",
       "domain": "uppercase.co.in",
@@ -5032,17 +5197,6 @@
       "liveMrp": 2400,
       "sourceUrl": "https://uppercase.co.in/products/jfkt-red-blue-small-duffle",
       "deltaPct": 41.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-343",
-      "name": "Vegan Leather Laptop Backpack 7A",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2100,
-      "livePrice": 1049,
-      "liveMrp": 2100,
-      "sourceUrl": "https://uppercase.co.in/products/vegan-blue-backpack",
-      "deltaPct": 50.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -5156,17 +5310,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "bagsLuggageTravel-354",
-      "name": "Ryder 04 Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 3200,
-      "livePrice": 1599,
-      "liveMrp": 3200,
-      "sourceUrl": "https://uppercase.co.in/products/ryder-black-backpack",
-      "deltaPct": 50.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "bagsLuggageTravel-355",
       "name": "Apex 01 Laptop Backpack",
       "domain": "uppercase.co.in",
@@ -5200,17 +5343,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "bagsLuggageTravel-358",
-      "name": "Matrix 08 Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 3100,
-      "livePrice": 1550,
-      "liveMrp": 3100,
-      "sourceUrl": "https://uppercase.co.in/products/matrix-black-backpack",
-      "deltaPct": 50.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "bagsLuggageTravel-359",
       "name": "Sigma 07 Laptop Backpack",
       "domain": "uppercase.co.in",
@@ -5219,39 +5351,6 @@
       "liveMrp": 2800,
       "sourceUrl": "https://uppercase.co.in/products/sigma-black-backpack",
       "deltaPct": 50.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-360",
-      "name": "Levl Alphatech Pro Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4375,
-      "livePrice": 2799,
-      "liveMrp": 4375,
-      "sourceUrl": "https://uppercase.co.in/products/levl-alphatech-pro-blue-laptop-backpack",
-      "deltaPct": 36.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-361",
-      "name": "Edge Alphatech Pro Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 5250,
-      "livePrice": 3399,
-      "liveMrp": 5250,
-      "sourceUrl": "https://uppercase.co.in/products/edge-alphatech-pro-black-laptop-backpack",
-      "deltaPct": 35.3,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-362",
-      "name": "Vortex Alphatech Pro Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 6125,
-      "livePrice": 3799,
-      "liveMrp": 6125,
-      "sourceUrl": "https://uppercase.co.in/products/vortex-alphatech-pro-black-laptop-backpack",
-      "deltaPct": 38.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -5296,116 +5395,6 @@
       "liveMrp": 4865,
       "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-02-blue-messenger-bag",
       "deltaPct": 58.9,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-367",
-      "name": "Alphatech Pro 03 Messenger Bag",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4865,
-      "livePrice": 3399,
-      "liveMrp": 4865,
-      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-03-blue-messenger-bag",
-      "deltaPct": 30.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-368",
-      "name": "Alphatech Pro 05 Messenger Bag",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4865,
-      "livePrice": 3399,
-      "liveMrp": 4865,
-      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-05-blue-messenger-bag",
-      "deltaPct": 30.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-369",
-      "name": "Shield Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1125,
-      "livePrice": 562,
-      "liveMrp": 1125,
-      "sourceUrl": "https://uppercase.co.in/products/shield-14-inch-black-laptop-sleeve",
-      "deltaPct": 50.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-370",
-      "name": "Shield Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1250,
-      "livePrice": 625,
-      "liveMrp": 1250,
-      "sourceUrl": "https://uppercase.co.in/products/shield-16-inch-black-laptop-sleeve",
-      "deltaPct": 50.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-371",
-      "name": "Stride Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1875,
-      "livePrice": 849,
-      "liveMrp": 1875,
-      "sourceUrl": "https://uppercase.co.in/products/stride-14-inch-black-laptop-sleeve",
-      "deltaPct": 54.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-372",
-      "name": "Stride Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2000,
-      "livePrice": 899,
-      "liveMrp": 2000,
-      "sourceUrl": "https://uppercase.co.in/products/stride-16-inch-black-laptop-sleeve",
-      "deltaPct": 55.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-373",
-      "name": "Pulse Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1750,
-      "livePrice": 899,
-      "liveMrp": 1750,
-      "sourceUrl": "https://uppercase.co.in/products/pulse-14-inch-black-laptop-sleeve",
-      "deltaPct": 48.6,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-374",
-      "name": "Pulse Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1875,
-      "livePrice": 999,
-      "liveMrp": 1875,
-      "sourceUrl": "https://uppercase.co.in/products/pulse-16-inch-black-laptop-sleeve",
-      "deltaPct": 46.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-375",
-      "name": "Node Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2125,
-      "livePrice": 849,
-      "liveMrp": 2125,
-      "sourceUrl": "https://uppercase.co.in/products/node-14-inch-rust-laptop-sleeve",
-      "deltaPct": 60.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "bagsLuggageTravel-376",
-      "name": "Node Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2250,
-      "livePrice": 899,
-      "liveMrp": 2250,
-      "sourceUrl": "https://uppercase.co.in/products/node-16-inch-black-laptop-sleeve",
-      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     }
   ],
@@ -7183,10 +7172,16 @@
   ],
   "unreachable": [
     {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "id": "sportsFitnessOutdoor-25",
+      "name": "Lifelong LLTM183 Fit Pro Manual Incline Walking Machine",
       "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "sportsFitnessOutdoor-31",
+      "name": "Lifelong LLPB02 Pull Up Bar",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "id": "apparel-60",
@@ -7205,18 +7200,6 @@
       "name": "Scott Basic Round Neck T-shirt",
       "domain": "www.globallinker.com",
       "error": "not JSON (content-type=text/html; charset=UTF-8)"
-    },
-    {
-      "id": "electronics-119",
-      "name": "Portronics Ravn",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-120",
-      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "electronics-338",
