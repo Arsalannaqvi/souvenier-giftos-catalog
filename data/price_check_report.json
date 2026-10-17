@@ -1,217 +1,30 @@
 {
-  "checkedAt": "2026-10-16T07:38:53.213007+00:00",
+  "checkedAt": "2026-10-17T07:20:53.908339+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1357,
-  "unchanged": 700,
+  "unchanged": 714,
   "applied": [
     {
-      "id": "apparel-153",
-      "name": "Campus OG-14",
-      "domain": "www.campusshoes.com",
-      "storedPrice": 1999,
-      "livePrice": 1619,
-      "liveMrp": 1899,
-      "sourceUrl": "https://www.campusshoes.com/products/og-14-wht-navy-mens-sneakers",
-      "deltaPct": 19.0,
+      "id": "electronics-4",
+      "name": "Pebble Quro View wellness Band",
+      "domain": "www.pebblecart.com",
+      "storedPrice": 3999,
+      "livePrice": 4499,
+      "liveMrp": 6999,
+      "sourceUrl": "https://www.pebblecart.com/products/qore-view",
+      "deltaPct": 12.5,
       "action": "applied"
     },
     {
-      "id": "apparel-172",
-      "name": "Campus Xperia-2",
-      "domain": "www.campusshoes.com",
-      "storedPrice": 774,
-      "livePrice": 799,
-      "liveMrp": 799,
-      "sourceUrl": "https://www.campusshoes.com/products/xperia-2-navy-l-gry-t-blu-mens-sandals",
-      "deltaPct": 3.2,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-301",
-      "name": "Alphatech Pro 04 Brown Messenger Bag",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4865,
-      "livePrice": 3899,
-      "liveMrp": 4865,
-      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-04-brown-messenger-bag",
-      "deltaPct": 19.9,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-343",
-      "name": "Vegan Leather Laptop Backpack 7A",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2100,
-      "livePrice": 1680,
-      "liveMrp": 2100,
-      "sourceUrl": "https://uppercase.co.in/products/vegan-blue-backpack",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-354",
-      "name": "Ryder 04 Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 3200,
-      "livePrice": 2560,
-      "liveMrp": 3200,
-      "sourceUrl": "https://uppercase.co.in/products/ryder-black-backpack",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-358",
-      "name": "Matrix 08 Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 3100,
-      "livePrice": 2480,
-      "liveMrp": 3100,
-      "sourceUrl": "https://uppercase.co.in/products/matrix-black-backpack",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-360",
-      "name": "Levl Alphatech Pro Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4375,
-      "livePrice": 3499,
-      "liveMrp": 4375,
-      "sourceUrl": "https://uppercase.co.in/products/levl-alphatech-pro-blue-laptop-backpack",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-361",
-      "name": "Edge Alphatech Pro Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 5250,
-      "livePrice": 4199,
-      "liveMrp": 5250,
-      "sourceUrl": "https://uppercase.co.in/products/edge-alphatech-pro-black-laptop-backpack",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-362",
-      "name": "Vortex Alphatech Pro Laptop Backpack",
-      "domain": "uppercase.co.in",
-      "storedPrice": 6125,
-      "livePrice": 4899,
-      "liveMrp": 6125,
-      "sourceUrl": "https://uppercase.co.in/products/vortex-alphatech-pro-black-laptop-backpack",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-367",
-      "name": "Alphatech Pro 03 Messenger Bag",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4865,
-      "livePrice": 3899,
-      "liveMrp": 4865,
-      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-03-blue-messenger-bag",
-      "deltaPct": 19.9,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-368",
-      "name": "Alphatech Pro 05 Messenger Bag",
-      "domain": "uppercase.co.in",
-      "storedPrice": 4865,
-      "livePrice": 3899,
-      "liveMrp": 4865,
-      "sourceUrl": "https://uppercase.co.in/products/alphatech-pro-05-blue-messenger-bag",
-      "deltaPct": 19.9,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-369",
-      "name": "Shield Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1125,
-      "livePrice": 900,
-      "liveMrp": 1125,
-      "sourceUrl": "https://uppercase.co.in/products/shield-14-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-370",
-      "name": "Shield Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1250,
-      "livePrice": 1000,
-      "liveMrp": 1250,
-      "sourceUrl": "https://uppercase.co.in/products/shield-16-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-371",
-      "name": "Stride Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1875,
-      "livePrice": 1500,
-      "liveMrp": 1875,
-      "sourceUrl": "https://uppercase.co.in/products/stride-14-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-372",
-      "name": "Stride Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2000,
-      "livePrice": 1600,
-      "liveMrp": 2000,
-      "sourceUrl": "https://uppercase.co.in/products/stride-16-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-373",
-      "name": "Pulse Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1750,
-      "livePrice": 1400,
-      "liveMrp": 1750,
-      "sourceUrl": "https://uppercase.co.in/products/pulse-14-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-374",
-      "name": "Pulse Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 1875,
-      "livePrice": 1500,
-      "liveMrp": 1875,
-      "sourceUrl": "https://uppercase.co.in/products/pulse-16-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-375",
-      "name": "Node Laptop Sleeve 14\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2125,
-      "livePrice": 1700,
-      "liveMrp": 2125,
-      "sourceUrl": "https://uppercase.co.in/products/node-14-inch-rust-laptop-sleeve",
-      "deltaPct": 20.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-376",
-      "name": "Node Laptop Sleeve 16\"",
-      "domain": "uppercase.co.in",
-      "storedPrice": 2250,
-      "livePrice": 1800,
-      "liveMrp": 2250,
-      "sourceUrl": "https://uppercase.co.in/products/node-16-inch-black-laptop-sleeve",
-      "deltaPct": 20.0,
+      "id": "homeKitchenAppliances-2",
+      "name": "Wonderchef Evita Digital Air Fryer",
+      "domain": "www.wonderchef.com",
+      "storedPrice": 4799,
+      "livePrice": 4999,
+      "liveMrp": 10000,
+      "sourceUrl": "https://www.wonderchef.com/products/evita-digital-air-fryer-1350w-5-l-rapid-hot-air-technology-8-pre-set-menus-non-stick-basket-in-built-memory-customised-time-temperature-control-fry-bake-grill-2-yr-warranty",
+      "deltaPct": 4.2,
       "action": "applied"
     }
   ],
@@ -434,17 +247,6 @@
       "liveMrp": 300,
       "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-llsr01-skipping-rope-for-men-women-children-jump-rope-for-exercise-workout-weight-loss-tangle-free-jumping-rope-for-kids-275cm-red-and-black",
       "deltaPct": 60.5,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "storedPrice": 2457,
-      "livePrice": 1299,
-      "liveMrp": 2999,
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/hot-compress-bag-with-temperature-adjustment",
-      "deltaPct": 47.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -5783,7 +5585,7 @@
       "id": "electronics-407",
       "name": "boAt Airdopes 141",
       "domain": "boat-lifestyle.com",
-      "variantCount": 10,
+      "variantCount": 13,
       "variantPrices": [
         799,
         828
@@ -7184,6 +6986,12 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "apparel-60",
       "name": "Scott Organic Polo T-shirt",
       "domain": "www.globallinker.com",
@@ -7202,20 +7010,38 @@
       "error": "not JSON (content-type=text/html; charset=UTF-8)"
     },
     {
+      "id": "electronics-119",
+      "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-120",
+      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-121",
+      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "electronics-338",
       "name": "Xech Mini Chef Electronic Multi Cooker",
       "domain": "xech.com",
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-342",
-      "name": "Xech Hydroboil Mini Portable Electric Kettle 300W I 300ml",
+      "id": "electronics-343",
+      "name": "Xech Blend (Portable Blender)",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": "electronics-343",
-      "name": "Xech Blend (Portable Blender)",
+      "id": "electronics-344",
+      "name": "Xech Hot Box II Rapid Heating Electric Lunch box",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
