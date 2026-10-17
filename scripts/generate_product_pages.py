@@ -70,6 +70,7 @@ PAGE_TEMPLATE = """<!doctype html>
       <h2 class="pd-title">{name}</h2>
       {brand_html}
       {size_html}
+      {colour_html}
       <p class="pd-price" id="pd-price">{price_html_inner}</p>
       {specs_html}
       {description_html}
@@ -206,12 +207,36 @@ def main():
                 '</div>'
             )
 
+        # Swatches only make sense when each colour has its own image to swap
+        # to -- a colour with no images has nothing to show, so it falls back
+        # to the plain-text spec line below instead of a dead-end button.
+        colour_html = ""
+        colour_options = [c for c in colours if c.get("images") and c.get("label")]
+        if len(colour_options) > 1:
+            swatches = []
+            for i, c in enumerate(colour_options):
+                active = " on" if i == 0 else ""
+                hexv = c.get("colorHex") or "#999999"
+                label = c["label"]
+                swatches.append(
+                    f'<button class="pd-colour-swatch{active}" type="button" '
+                    f'data-colour-index="{i}" style="background-color:{html.escape(hexv, quote=True)};" '
+                    f'aria-label="{html.escape(label, quote=True)}" title="{html.escape(label, quote=True)}"></button>'
+                )
+            first_label = html.escape(colour_options[0]["label"])
+            colour_html = (
+                '<div class="pd-colours">'
+                f'<span class="pd-colours-label">Colour: <strong id="pd-colour-name">{first_label}</strong></span>'
+                f'<div class="pd-colour-row" id="pd-colour-row">{"".join(swatches)}</div>'
+                '</div>'
+            )
+
         spec_rows = []
-        if colours:
+        if colours and not colour_html:
             colour_names = ", ".join(html.escape(c.get("label", "")) for c in colours if c.get("label"))
             if colour_names:
                 spec_rows.append(f'<p class="pd-spec"><strong>Colours:</strong> {colour_names}</p>')
-        elif web_colours:
+        elif web_colours and not colour_html:
             colour_names = ", ".join(html.escape(str(c)) for c in web_colours)
             spec_rows.append(f'<p class="pd-spec"><strong>Colours:</strong> {colour_names}</p>')
         if sizes:
@@ -269,6 +294,7 @@ def main():
             name=html.escape(name),
             brand_html=brand_html,
             size_html=size_html,
+            colour_html=colour_html,
             price_html_inner=price_html_inner,
             specs_html=specs_html,
             description_html=description_html,
