@@ -187,6 +187,32 @@
     });
   }
 
+  // ---------- Colour swatches (swap gallery to that colour's own photos) ----------
+  function applyColour(colour, index) {
+    const row = qs("pd-colour-row");
+    if (row) {
+      Array.from(row.children).forEach((btn, i) => btn.classList.toggle("on", i === index));
+    }
+    const nameEl = qs("pd-colour-name");
+    if (nameEl) nameEl.textContent = colour.label || "";
+
+    if (colour.images && colour.images.length) {
+      product.images = colour.images;
+      product.image = colour.images[0];
+      initGallery();
+    }
+  }
+
+  function initColourOptions() {
+    const colours = (product.colours || []).filter((c) => c.images && c.images.length && c.label);
+    const row = qs("pd-colour-row");
+    if (!row || colours.length < 2) return;
+
+    Array.from(row.children).forEach((btn, i) => {
+      btn.addEventListener("click", () => applyColour(colours[i], i));
+    });
+  }
+
   // ---------- "You might also like" suggestion row ----------
   function money(price) {
     return price == null ? "" : `₹${price}`;
@@ -277,6 +303,7 @@
     initGallery();
     initActions();
     initSizeOptions();
+    initColourOptions();
     initSuggestions();
     updateStickyBar();
     recordRecentlyViewed();
