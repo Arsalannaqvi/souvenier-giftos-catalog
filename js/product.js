@@ -251,6 +251,62 @@
     section.hidden = false;
   }
 
+  // ---------- Fly-to-cart animation ----------
+  // Mirrors the same effect on the home/category grid (js/app.js) -- this
+  // page has no floating cart widget, so it flies into the sticky bar
+  // instead, which is the equivalent "cart" indicator here.
+  function prefersReducedMotion() {
+    try { return window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (_) { return false; }
+  }
+
+  function pulseCartTarget(targetEl) {
+    if (!targetEl) return;
+    targetEl.classList.remove("cart-pulse");
+    void targetEl.offsetWidth;
+    targetEl.classList.add("cart-pulse");
+  }
+
+  function flyToCart(sourceImg, targetEl) {
+    if (!sourceImg || !targetEl || prefersReducedMotion()) {
+      pulseCartTarget(targetEl);
+      return;
+    }
+    const startRect = sourceImg.getBoundingClientRect();
+    const endRect = targetEl.getBoundingClientRect();
+    if (startRect.width === 0 || endRect.width === 0) {
+      pulseCartTarget(targetEl);
+      return;
+    }
+
+    const clone = document.createElement("div");
+    clone.className = "fly-clone";
+    clone.style.left = `${startRect.left}px`;
+    clone.style.top = `${startRect.top}px`;
+    clone.style.width = `${startRect.width}px`;
+    clone.style.height = `${startRect.height}px`;
+    clone.style.backgroundImage = `url("${sourceImg.currentSrc || sourceImg.src}")`;
+    document.body.appendChild(clone);
+
+    const dx = (endRect.left + endRect.width / 2) - (startRect.left + startRect.width / 2);
+    const dy = (endRect.top + endRect.height / 2) - (startRect.top + startRect.height / 2);
+    clone.style.setProperty("--dx", `${dx}px`);
+    clone.style.setProperty("--dy", `${dy}px`);
+    clone.style.setProperty("--mdx", `${dx * 0.5}px`);
+    clone.style.setProperty("--mdy", `${dy * 0.4 - 70}px`);
+
+    requestAnimationFrame(() => clone.classList.add("flying"));
+
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      clone.remove();
+      pulseCartTarget(targetEl);
+    };
+    clone.addEventListener("animationend", finish);
+    window.setTimeout(finish, 800);
+  }
+
   // ---------- Add to enquiry / stepper ----------
   function initActions() {
     const addBtn = qs("pd-add-btn");
@@ -272,6 +328,11 @@
         addBtn.hidden = true;
         stepper.hidden = false;
         input.value = 1;
+        // After setQty (not before): updateStickyBar() just ran as part of
+        // it, so the sticky bar is already unhidden/laid out by the time
+        // we read its position for the flight target.
+        const galleryImg = qs("pd-gallery-track") && qs("pd-gallery-track").querySelector("img");
+        flyToCart(galleryImg, qs("pd-sticky-bar"));
       });
     }
     if (minus) {

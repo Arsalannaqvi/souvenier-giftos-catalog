@@ -973,6 +973,10 @@
       stepper.hidden = false;
       input.value = 1;
       input.focus();
+      // Written after setQty (not before): renderBudgetWidget() just ran
+      // as part of that call, so the widget is already unhidden/laid out
+      // by the time we read its position for the flight target.
+      flyToCart(imageWrap.querySelector("img"), els.budgetWidget);
     });
 
     bindStepper(stepper, product.id, () => {
@@ -1086,6 +1090,67 @@
     const canSubmit = itemCount > 0 && !!qs("client-name").value.trim();
     els.reviewBtn.disabled = !canSubmit || !state.selectedRep;
     renderBudgetWidget();
+  }
+
+  // ---------- Fly-to-cart animation ----------
+  // Sends a short-lived clone of the clicked product's photo arcing into
+  // the floating cart widget, purely cosmetic -- the actual shortlist
+  // write (setQty) always happens synchronously at the click, independent
+  // of this, so nothing about the cart's real state ever waits on it.
+  function prefersReducedMotion() {
+    try { return window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (_) { return false; }
+  }
+
+  function pulseCartTarget(targetEl) {
+    if (!targetEl) return;
+    targetEl.classList.remove("cart-pulse");
+    void targetEl.offsetWidth; // restart the animation if triggered again quickly
+    targetEl.classList.add("cart-pulse");
+  }
+
+  function flyToCart(sourceImg, targetEl) {
+    if (!sourceImg || !targetEl || prefersReducedMotion()) {
+      pulseCartTarget(targetEl);
+      return;
+    }
+    const startRect = sourceImg.getBoundingClientRect();
+    const endRect = targetEl.getBoundingClientRect();
+    if (startRect.width === 0 || endRect.width === 0) {
+      // Source not actually visible (e.g. emoji-fallback card with no
+      // photo) or target not laid out yet -- skip the flight, still pulse.
+      pulseCartTarget(targetEl);
+      return;
+    }
+
+    const clone = document.createElement("div");
+    clone.className = "fly-clone";
+    clone.style.left = `${startRect.left}px`;
+    clone.style.top = `${startRect.top}px`;
+    clone.style.width = `${startRect.width}px`;
+    clone.style.height = `${startRect.height}px`;
+    clone.style.backgroundImage = `url("${sourceImg.currentSrc || sourceImg.src}")`;
+    document.body.appendChild(clone);
+
+    const dx = (endRect.left + endRect.width / 2) - (startRect.left + startRect.width / 2);
+    const dy = (endRect.top + endRect.height / 2) - (startRect.top + startRect.height / 2);
+    // Arc midpoint: mostly along the path but lifted upward, for a tossed
+    // feel rather than a flat slide.
+    clone.style.setProperty("--dx", `${dx}px`);
+    clone.style.setProperty("--dy", `${dy}px`);
+    clone.style.setProperty("--mdx", `${dx * 0.5}px`);
+    clone.style.setProperty("--mdy", `${dy * 0.4 - 70}px`);
+
+    requestAnimationFrame(() => clone.classList.add("flying"));
+
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      clone.remove();
+      pulseCartTarget(targetEl);
+    };
+    clone.addEventListener("animationend", finish);
+    window.setTimeout(finish, 800); // safety net if animationend doesn't fire
   }
 
   // ---------- Floating budget/cart widget ----------
@@ -1846,7 +1911,9 @@
     els.kitRow.addEventListener("click", (e) => {
       const btn = e.target.closest(".kit-add-btn");
       if (!btn) return;
-      addKitToShortlist(btn.closest(".kit-card").dataset.kitId);
+      const kitCard = btn.closest(".kit-card");
+      addKitToShortlist(kitCard.dataset.kitId);
+      flyToCart(kitCard.querySelector(".kit-thumb img"), els.budgetWidget);
     });
     els.brandChips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip[data-brand]");

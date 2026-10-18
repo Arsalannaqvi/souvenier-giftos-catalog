@@ -693,6 +693,49 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
   padding-bottom: 84px;
 }
 
+/* ---------- Fly-to-cart animation ---------- */
+/* A short-lived clone of the product photo, positioned/animated entirely
+   via inline styles set in JS (flyToCart()); this block only supplies the
+   shape and the keyframes. Purely cosmetic -- the shortlist write already
+   happened by the time this plays, so losing/skipping it never loses data. */
+.fly-clone {
+  position: fixed;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  z-index: 60;
+  will-change: transform, opacity;
+}
+.fly-clone.flying {
+  animation: flyToCartArc 620ms cubic-bezier(.33,.6,.35,1) forwards;
+}
+@keyframes flyToCartArc {
+  0%   { transform: translate(0, 0) scale(1) rotate(0deg); opacity: 1; }
+  55%  { transform: translate(var(--mdx), var(--mdy)) scale(0.5) rotate(8deg); opacity: 1; }
+  100% { transform: translate(var(--dx), var(--dy)) scale(0.1) rotate(14deg); opacity: 0.15; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fly-clone.flying { animation: none; opacity: 0; }
+}
+
+/* Plays once the flying clone "arrives" (or instantly, for reduced motion) --
+   a quick, self-removing pulse so adding an item has a landing moment. */
+.budget-widget.cart-pulse,
+.pd-sticky-bar.cart-pulse {
+  animation: cartPulse 420ms ease;
+}
+@keyframes cartPulse {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.08); }
+  60%  { transform: scale(0.97); }
+  100% { transform: scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .budget-widget.cart-pulse,
+  .pd-sticky-bar.cart-pulse { animation: none; }
+}
+
 /* ---------- Floating budget/cart widget ---------- */
 .budget-widget {
   position: fixed;
