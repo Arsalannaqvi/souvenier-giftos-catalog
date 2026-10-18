@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d16">
+<title>Skullcandy — Souvenier Giftos</title>
+<meta name="description" content="Skullcandy — 12 products — Electronics">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Skullcandy on Souvenier Giftos">
+<meta property="og:description" content="Skullcandy — 12 products — Electronics">
+<meta property="og:site_name" content="Souvenier Giftos">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="../../" class="brand" style="text-decoration:none;color:inherit;">
+    <img id="brand-logo" src="../../assets/logo-white.png" alt="" class="brand-logo" aria-hidden="true">
+    <div>
+      <h1>Souvenier Giftos</h1>
+      <p class="tagline">Corporate Gifts, Curated</p>
+    </div>
+  </a>
+</header>
+
+<main class="pd-main brand-main" style="--brand-accent:#fbbf24; --brand-accent-2:#f97316;">
+  <a href="../../?brand=Skullcandy" class="pd-back"><span aria-hidden="true">←</span> Skullcandy</a>
+
+  <section class="brand-hero">
+    <img src="../../assets/brands/skullcandy.png" alt="Skullcandy logo" class="brand-hero-mark brand-hero-mark--logo" onerror="this.outerHTML='<div class=&quot;brand-hero-mark&quot; aria-hidden=&quot;true&quot;>SK</div>'">
+    <div class="brand-hero-body">
+      <p class="brand-hero-eyebrow">Brand</p>
+      <h2 class="brand-hero-name">Skullcandy</h2>
+      <p class="brand-hero-desc">12 products across Electronics — curated for corporate gifting.</p>
+      <div class="brand-hero-stats">
+        <div class="brand-hero-stat"><b>12</b><span>Products</span></div>
+        <div class="brand-hero-stat"><b>1</b><span>Categories</span></div>
+        <div class="brand-hero-stat"><b>₹1999&ndash;29999</b><span>Price range</span></div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-title">Shop by category</h3>
+  <div class="chip-row" id="brand-category-rail" role="group" aria-label="Filter by category"></div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">Price</span>
+      <div class="price-range-inputs">
+        <input type="number" id="brand-price-min" placeholder="Min" min="0" aria-label="Minimum price">
+        <span>–</span>
+        <input type="number" id="brand-price-max" placeholder="Max" min="0" aria-label="Maximum price">
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Sort</span>
+      <select class="toolbar-select" id="brand-sort-select" aria-label="Sort products">
+        <option value="featured">Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A to Z</option>
+      </select>
+    </div>
+    <button type="button" class="filter-reset" id="brand-filter-reset">Reset filters</button>
+  </div>
+
+  <p class="results-summary" id="brand-results-summary"></p>
+  <div class="product-grid" id="brand-product-grid"></div>
+  <p class="empty-state" id="brand-empty-state" hidden>No Skullcandy products match these filters.</p>
+</main>
+
+<a id="pd-sticky-bar" class="pd-sticky-bar" href="../../" hidden>
+  <span id="pd-sticky-summary">0 items · 0 pcs</span>
+  <span>View shortlist →</span>
+</a>
+
+<script>window.__BRAND__ = {"name": "Skullcandy", "slug": "skullcandy", "description": "12 products across Electronics \u2014 curated for corporate gifting.", "currency": "\u20b9", "categories": [{"id": "electronics", "label": "Electronics", "count": 12}], "priceMin": 1999, "priceMax": 29999, "products": [{"id": "electronics-805", "name": "Skullcandy Crusher Evo Wireless Headphones", "price": 19999, "image": "https://imagecdn.skullcandy.in/uploads/crusher_evo_buy_box_bone_1_ec9b95b79c_e72facdda5.png", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-806", "name": "Skullcandy Dime 3 True Wireless Earbuds", "price": 2499, "image": "https://imagecdn.skullcandy.in/uploads/2a_616a769765.png", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-807", "name": "Skullcandy Jib True 2 Wireless Earbuds", "price": 9999, "image": "https://imagecdn.skullcandy.in/uploads/jib_true_2_buy_box_light_grey_blue_2_a091980297_1efe5fb830_ce02568d73.png", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-808", "name": "Skullcandy Rail ANC True Wireless Earbuds", "price": 29999, "image": "https://imagecdn.skullcandy.in/uploads/Rail_ANC_Bone_S2_IPW_S951_Buds_Case_Open_Hero_v01_58b361914d_03660f4db5.png", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-809", "name": "Skullcandy Push Play Active True Wireless Earbuds", "price": 4999, "image": "https://imagecdn.skullcandy.in/uploads/push_play_active_buy_box_PS_1_53d6f5d56f.webp", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-810", "name": "Skullcandy Riff On-Ear Wired Headphones", "price": 1999, "image": "https://imagecdn.skullcandy.in/uploads/Riff_S5_PXY_L003_Black_Hero_v001_f10bc9a107_2f6e4e81b8.png", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-811", "name": "Skullcandy Grom Wireless Kids Headphones", "price": 17699, "image": "https://imagecdn.skullcandy.in/uploads/grom_wireless_buy_box_black_1_8145613174_596f05bc20.webp", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-812", "name": "Skullcandy Sesh ANC Active True Wireless Earbuds", "price": 4999, "image": "https://imagecdn.skullcandy.in/uploads/sesh_ANC_active_buy_box_black_1_2_84c335a5ae.webp", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-813", "name": "Skullcandy Dime Evo True Wireless Earbuds", "price": 19999, "image": "https://imagecdn.skullcandy.in/uploads/Dime_Evo_True_Black_S2_DTW_S740_Buds_Case_Hero_v03_9024993eb4.png", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-814", "name": "Skullcandy Ink'd ANC True Wireless Earbuds", "price": 12999, "image": "https://imagecdn.skullcandy.in/uploads/ink_d_ANCL_28155829ef.webp", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-815", "name": "Skullcandy Uproar ANC True Wireless Earbuds", "price": 21999, "image": "https://imagecdn.skullcandy.in/uploads/uproar_anc_3082f7e524.webp", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}, {"id": "electronics-816", "name": "Skullcandy Crusher Wireless Headphones", "price": 14999, "image": "https://imagecdn.skullcandy.in/uploads/Crusher_Wireless_S6_CRW_K591_Black_Hero_v001_d7d1d7b965.webp", "category": "electronics", "categoryLabel": "Electronics", "subcategory": null}]};</script>
+<script src="../../js/brand.js" defer></script>
+</body>
+</html>

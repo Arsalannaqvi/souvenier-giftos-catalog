@@ -62897,6 +62897,846 @@
       "image": "assets/products/coconut/rj45-metal.jpg",
       "subcategory": "Networking",
       "description": "Pass through RJ45 connectors, metal, pack of 100."
+    },
+    {
+      "id": "kitchenAppliances-596",
+      "category": "kitchenAppliances",
+      "name": "Bajaj GX 1 500W Mixer Grinder",
+      "price": 4125,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/1_b65d89fe-f14c-4b62-91d0-ec4f98008209.jpg?v=1748951352",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-gx-1-mixer-grinder-500-w-3-jar-white"
+    },
+    {
+      "id": "kitchenAppliances-597",
+      "category": "kitchenAppliances",
+      "name": "Bajaj Twister 750W Mixer Grinder",
+      "price": 7290,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/410526_-_TWISTER-750W.jpg?v=1726739644",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-twister-mixer-grinder-750-w-3-jar"
+    },
+    {
+      "id": "kitchenAppliances-598",
+      "category": "kitchenAppliances",
+      "name": "Bajaj Military Series Glamore 4 Jar 1000W Mixer Grinder",
+      "price": 10790,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/B0CZTM39NC_MAIN_jpg.jpg?v=1748944731",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-military-series-glamore-4-jar-1000w-jet-black-mixer-grinder"
+    },
+    {
+      "id": "kitchenAppliances-599",
+      "category": "kitchenAppliances",
+      "name": "KTP 1.5 Digital Kettle",
+      "price": 5690,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/670111_P_default.jpg?v=1749205132",
+      "sourceUrl": "https://www.bajajelectricals.com/products/ktp-1-5-digital"
+    },
+    {
+      "id": "kitchenAppliances-600",
+      "category": "kitchenAppliances",
+      "name": "KTX 1.5L DLX Kettle",
+      "price": 2050,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/670106_P_default.jpg?v=1724410047",
+      "sourceUrl": "https://www.bajajelectricals.com/products/ktx-1-5-l-dlx"
+    },
+    {
+      "id": "kitchenAppliances-601",
+      "category": "kitchenAppliances",
+      "name": "Bajaj MX 16 1400W Steam Iron",
+      "price": 2981,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/1400WMX16SteamIron.jpg?v=1726919224",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-1400w-mx-16-steam-iron"
+    },
+    {
+      "id": "kitchenAppliances-602",
+      "category": "kitchenAppliances",
+      "name": "Bajaj Majesty DHX 9 Dry Iron",
+      "price": 2230,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/HeroImage.jpg?v=1749106022",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-majesty-dhx-9-dry-iron"
+    },
+    {
+      "id": "kitchenAppliances-603",
+      "category": "kitchenAppliances",
+      "name": "Bajaj MX 45 2000W Steam Iron",
+      "price": 4180,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/440510_1.jpg?v=1749108904",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-mx-45-2000w-steam-iron"
+    },
+    {
+      "id": "kitchenAppliances-604",
+      "category": "kitchenAppliances",
+      "name": "AT200 2 Slice Pop-Up Toaster",
+      "price": 3295,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/370063-1.jpg?v=1740416771",
+      "sourceUrl": "https://www.bajajelectricals.com/products/at-200-2-slice-pop-up-toaster"
+    },
+    {
+      "id": "kitchenAppliances-605",
+      "category": "kitchenAppliances",
+      "name": "Imperio Series SM72 Sandwich Maker",
+      "price": 6425,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/370072_1.jpg?v=1740416752",
+      "sourceUrl": "https://www.bajajelectricals.com/products/imperio-series-sm-72"
+    },
+    {
+      "id": "kitchenAppliances-606",
+      "category": "kitchenAppliances",
+      "name": "Voyager Ultra Sandwich Maker",
+      "price": 2999,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/hero_image_b55e1760-daf3-49a1-819c-23c54002f086.jpg?v=1749207087",
+      "sourceUrl": "https://www.bajajelectricals.com/products/voyager-ultra"
+    },
+    {
+      "id": "kitchenAppliances-607",
+      "category": "kitchenAppliances",
+      "name": "TURBO 400mm Table Fan",
+      "price": 3600,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/252108-TURBO400mmFijiBlueTableFan.jpg?v=1727153266",
+      "sourceUrl": "https://www.bajajelectricals.com/products/turbo-400mm-table-fan"
+    },
+    {
+      "id": "kitchenAppliances-608",
+      "category": "kitchenAppliances",
+      "name": "Esteem 400mm Table Fan",
+      "price": 3725,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/250620Esteem400mm-T_W_P-AllWhite03.jpg?v=1727076183",
+      "sourceUrl": "https://www.bajajelectricals.com/products/esteem-400-mm-table-fan"
+    },
+    {
+      "id": "kitchenAppliances-609",
+      "category": "kitchenAppliances",
+      "name": "Bajaj ICX 120TS 1200W Induction Stove",
+      "price": 4090,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/740307-ICX120TS.jpg?v=1726731647",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-icx-120ts-induction-stove"
+    },
+    {
+      "id": "kitchenAppliances-610",
+      "category": "kitchenAppliances",
+      "name": "Bajaj Majesty Slim 2100W Induction Stove",
+      "price": 7390,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/740076_P_default.jpg?v=1724648232",
+      "sourceUrl": "https://www.bajajelectricals.com/products/bajaj-majesty-slim-2100-watt-induction-cooktop-black"
+    },
+    {
+      "id": "healthPersonalCare-65",
+      "category": "healthPersonalCare",
+      "name": "Morphy Richards Kingsman Elite 3 in 1 Multipurpose Trimmer",
+      "price": 1999,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/1_ae05f819-6b14-46aa-b4e6-7166352d5877.jpg?v=1749545087",
+      "sourceUrl": "https://www.bajajelectricals.com/products/morphy-richards-kingsman-elite-3-in-1-multipurpose-trimmer"
+    },
+    {
+      "id": "healthPersonalCare-66",
+      "category": "healthPersonalCare",
+      "name": "Morphy Richards iDazzle HD121DC 1200W Hair Dryer",
+      "price": 1495,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/1_3b9e7677-0366-4ad3-b976-647cd3caf43a.jpg?v=1749546194",
+      "sourceUrl": "https://www.bajajelectricals.com/products/morphy-richards-idazzle-hd121dc-1200w-hair-dryer"
+    },
+    {
+      "id": "healthPersonalCare-67",
+      "category": "healthPersonalCare",
+      "name": "Morphy Richards Estella HS1000 Hair Straightener",
+      "price": 1195,
+      "image": "https://cdn.shopify.com/s/files/1/0881/0849/9244/files/1_cea289f3-ea59-42fb-92eb-a2e21eb4475c.jpg?v=1749546395",
+      "sourceUrl": "https://www.bajajelectricals.com/products/morphy-richards-estella-hs1000-hair-straightener-1"
+    },
+    {
+      "id": "comboSets-34",
+      "category": "comboSets",
+      "name": "Men's Grooming Starter Kit",
+      "price": 799,
+      "image": "https://beardo.in/cdn/shop/files/3_Product_Combo_Rank_3_2160_x_2160_bee0449c-6bc3-4510-bcde-a3dc13e1d133.webp",
+      "sourceUrl": "https://beardo.in/products/beardo-mens-grooming-starter-kit-v3"
+    },
+    {
+      "id": "healthPersonalCare-68",
+      "category": "healthPersonalCare",
+      "name": "Ape-X EZ Trimmer",
+      "price": 749,
+      "image": "https://beardo.in/cdn/shop/files/1_3ddab0f8-579a-41cc-8b86-32aef4e8c814.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-ape-x-ez-trimmer-1"
+    },
+    {
+      "id": "healthPersonalCare-69",
+      "category": "healthPersonalCare",
+      "name": "Ball Safe Pro Trimmer",
+      "price": 1699,
+      "image": "https://beardo.in/cdn/shop/files/1_a27a05c2-f497-4348-bc9c-c35a1b04f326.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-ball-safe-pro-trimmer"
+    },
+    {
+      "id": "healthPersonalCare-70",
+      "category": "healthPersonalCare",
+      "name": "Godfather Beard Oil",
+      "price": 299,
+      "image": "https://beardo.in/cdn/shop/products/1_247e969d-a827-472c-bf67-36d1ef78c49b.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-godfather-beard-oil"
+    },
+    {
+      "id": "healthPersonalCare-71",
+      "category": "healthPersonalCare",
+      "name": "Beard Serum",
+      "price": 399,
+      "image": "https://beardo.in/cdn/shop/products/1_06616feb-8b75-4c12-851b-2f135ed75a86.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-beard-serum"
+    },
+    {
+      "id": "comboSets-35",
+      "category": "comboSets",
+      "name": "Godfather Multi-grooming Kit Special Edition",
+      "price": 2999,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_Godfather_Trimmer_Kit_A__Banner_2160x2160_16_1.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-godfather-multi-grooming-kit-special-edition"
+    },
+    {
+      "id": "comboSets-36",
+      "category": "comboSets",
+      "name": "Festive Essentials Kit",
+      "price": 999,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_Festive_Essentials_Kit_A__Banner_2160x2160_03.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-festive-essentials-kit"
+    },
+    {
+      "id": "comboSets-37",
+      "category": "comboSets",
+      "name": "Don Beardo's Beard Growth Pro Kit",
+      "price": 899,
+      "image": "https://beardo.in/cdn/shop/files/Don_Growth_Pro_Kit_2160_x_2160.jpg",
+      "sourceUrl": "https://beardo.in/products/don-beardos-beard-growth-pro-kit-v2"
+    },
+    {
+      "id": "healthPersonalCare-72",
+      "category": "healthPersonalCare",
+      "name": "Beard & Hair Growth Oil",
+      "price": 499,
+      "image": "https://beardo.in/cdn/shop/files/1_d6a6bc74-8c90-4291-aa64-ec37ac034fff.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-beard-and-hair-growth-oil"
+    },
+    {
+      "id": "comboSets-38",
+      "category": "comboSets",
+      "name": "Valentines Gift Set",
+      "price": 999,
+      "image": "https://beardo.in/cdn/shop/files/valentine_scombo2_Thumbnail_50g_Wax.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-valentines-gift-set"
+    },
+    {
+      "id": "comboSets-39",
+      "category": "comboSets",
+      "name": "Hall Of Fame Perfume Giftset (3x30ml)",
+      "price": 599,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_Hall_Of_Fame_A__Banner_2160x2160_09_web.webp",
+      "sourceUrl": "https://beardo.in/products/hall-of-fame-perfume-giftset-3x30ml"
+    },
+    {
+      "id": "comboSets-40",
+      "category": "comboSets",
+      "name": "Mariner Perfume Set",
+      "price": 999,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_Mariner_Perfume_Set_1080_x_1080_04_web_1_1.webp",
+      "sourceUrl": "https://beardo.in/products/mariner-perfume-set-v3"
+    },
+    {
+      "id": "healthPersonalCare-73",
+      "category": "healthPersonalCare",
+      "name": "Godfather Perfume EDP (100ml)",
+      "price": 699,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_Godfather__Perfume_Thumbnail_web.webp",
+      "sourceUrl": "https://beardo.in/products/beardo-godfather-perfume-edp"
+    },
+    {
+      "id": "healthPersonalCare-74",
+      "category": "healthPersonalCare",
+      "name": "Whisky Smoke Perfume (100ml)",
+      "price": 699,
+      "image": "https://beardo.in/cdn/shop/files/Artboard_3.webp",
+      "sourceUrl": "https://beardo.in/products/beardo-whisky-smoke-perfume-edp"
+    },
+    {
+      "id": "healthPersonalCare-75",
+      "category": "healthPersonalCare",
+      "name": "Ultraglow Face Cream (SPF-30)",
+      "price": 299,
+      "image": "https://beardo.in/cdn/shop/files/1_9_1_fdad049d-63e7-44d7-b467-d463bf14c5b2.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-ultraglow-face-cream-spf-30"
+    },
+    {
+      "id": "healthPersonalCare-76",
+      "category": "healthPersonalCare",
+      "name": "De-Tan Facewash for Men (200ml)",
+      "price": 299,
+      "image": "https://beardo.in/cdn/shop/files/Beardo_De-Tan_Face_Wash_A__Banner_2160_x_2160_01.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-de-tan-facewash-for-men"
+    },
+    {
+      "id": "healthPersonalCare-77",
+      "category": "healthPersonalCare",
+      "name": "Hair Serum (Pack of 3)",
+      "price": 799,
+      "image": "https://beardo.in/cdn/shop/products/01_5bbce82d-fd17-419a-913b-e41f81f5de6d.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-hair-serum"
+    },
+    {
+      "id": "healthPersonalCare-78",
+      "category": "healthPersonalCare",
+      "name": "Dandruff Control Sulphate Free Shampoo",
+      "price": 299,
+      "image": "https://beardo.in/cdn/shop/products/BeardoDandruffControlShampoo_200ml_05.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-dandruff-control-sulphate-free-shampoo"
+    },
+    {
+      "id": "healthPersonalCare-79",
+      "category": "healthPersonalCare",
+      "name": "Activated Charcoal Face Scrub",
+      "price": 299,
+      "image": "https://beardo.in/cdn/shop/products/Beardo_CharcoalFaceScrub_A__Banner_2160x2160_01.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-activated-charcoal-face-scrub"
+    },
+    {
+      "id": "healthPersonalCare-80",
+      "category": "healthPersonalCare",
+      "name": "Hair Wax XXTRA STRONGHOLD Crystal Wax (Pack of 2)",
+      "price": 699,
+      "image": "https://beardo.in/cdn/shop/products/1_3d81304f-8d76-4bd5-9a01-41efe6a197a5.jpg",
+      "sourceUrl": "https://beardo.in/products/beardo-hair-wax-xxtra-stronghold-crystal-wax"
+    },
+    {
+      "id": "healthPersonalCare-81",
+      "category": "healthPersonalCare",
+      "name": "HD5161 3 in 1 Styling Hair Dryer",
+      "price": 1699,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/7/1/71fwr34mdol._sl1500_.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/hd5161-3-in-1-styling-hair-dryer-ghpddadapk12.html"
+    },
+    {
+      "id": "healthPersonalCare-82",
+      "category": "healthPersonalCare",
+      "name": "BT4441 Beard Trimmer MII",
+      "price": 999,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/t/bt4441_1.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/bt4441-beard-trimmer-mii-ghpttacsbk00.html"
+    },
+    {
+      "id": "healthPersonalCare-83",
+      "category": "healthPersonalCare",
+      "name": "GS4409 9 in 1 Digital Grooming Kit",
+      "price": 1499,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/s/gs4409_base.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/gs4409-9-in-1-digital-grooming-kit-ghpttecgbk00.html"
+    },
+    {
+      "id": "healthPersonalCare-84",
+      "category": "healthPersonalCare",
+      "name": "HS4101V Hair Straightener",
+      "price": 899,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghphhcbupp00.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/hs4101v-hair-straightener-ghphhcbupp00.html"
+    },
+    {
+      "id": "healthPersonalCare-85",
+      "category": "healthPersonalCare",
+      "name": "HD1845 Hair Dryer",
+      "price": 699,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghpddabqpk00_base_1.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/hd1845-hair-dryer-ghpddabqpk00.html"
+    },
+    {
+      "id": "healthPersonalCare-86",
+      "category": "healthPersonalCare",
+      "name": "HS4222 Hair Straightener",
+      "price": 1599,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/a/base_update.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/hs4222-hair-straightener-ghphhccapp00.html"
+    },
+    {
+      "id": "healthPersonalCare-87",
+      "category": "healthPersonalCare",
+      "name": "BT4001 2 in 1 Trimmer",
+      "price": 649,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/t/bt4001_b_1.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/personal-grooming/bt4001-2-in-1-trimmer-ghpttacqbk00.html"
+    },
+    {
+      "id": "kitchenAppliances-611",
+      "category": "kitchenAppliances",
+      "name": "Prolife Neo Air Fryer",
+      "price": 6295,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/p/r/prolife_neo_1.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/appliances/prolife-neo-air-fryer-ghcafsck150.html"
+    },
+    {
+      "id": "kitchenAppliances-612",
+      "category": "kitchenAppliances",
+      "name": "Edge 500 W Mixer Grinder",
+      "price": 2345,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghfmgfyb050_2__1.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/appliances/edge-500-w-mixer-grinder-ghfmgfyb050.html"
+    },
+    {
+      "id": "kitchenAppliances-613",
+      "category": "kitchenAppliances",
+      "name": "Nutri Insta Blend 350 W Mixer Grinder",
+      "price": 3195,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/g/h/ghfmgfvk035_6__1.jpg",
+      "sourceUrl": "https://havells.com/home-appliances/appliances/nutri-insta-blend-350-w-mixer-grinder-ghfmgfvk035.html"
+    },
+    {
+      "id": "kitchenAppliances-614",
+      "category": "kitchenAppliances",
+      "name": "Coolbuddy BLDC Clip Rechargeable Personal Fan (White)",
+      "price": 1190,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhpcpmrwht05_base_1.jpg",
+      "sourceUrl": "https://havells.com/fans/personal-fans/coolbuddy-bldc-clip-rechargeable-personal-fan-fhpcpmrwht05.html"
+    },
+    {
+      "id": "kitchenAppliances-615",
+      "category": "kitchenAppliances",
+      "name": "Breezo Personal Fan (White)",
+      "price": 2749,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhpbzstwht12.jpg",
+      "sourceUrl": "https://havells.com/fans/personal-fans/breezo-personal-fan-fhpbzstwht12.html"
+    },
+    {
+      "id": "kitchenAppliances-616",
+      "category": "kitchenAppliances",
+      "name": "Swing LX Table Fan (White)",
+      "price": 2549,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHTSWLXWHT16.jpg",
+      "sourceUrl": "https://havells.com/fans/table-fans/swing-lx-table-fan-fhtswlxwht16.html"
+    },
+    {
+      "id": "homeAppliancesDecor-41",
+      "category": "homeAppliancesDecor",
+      "name": "Lucento Table Lamp 4.5 W",
+      "price": 535,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/l/a/lamp_base_1.jpg",
+      "sourceUrl": "https://havells.com/lighting/portable-lighting/lucento-table-lamp-45-w-lhextkp7cn1w4x5.html"
+    },
+    {
+      "id": "homeAppliancesDecor-42",
+      "category": "homeAppliancesDecor",
+      "name": "LTS Moderna Plus Desktop",
+      "price": 912,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/l/h/lhexbzp7bn1w005_1_2.jpg",
+      "sourceUrl": "https://havells.com/lighting/portable-lighting/lts-moderna-plus-desktop-lhexbzp7bn1w005.html"
+    },
+    {
+      "id": "homeAppliancesDecor-43",
+      "category": "homeAppliancesDecor",
+      "name": "LTS Moderna Plus 3 IN 1",
+      "price": 1110,
+      "image": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/l/h/lhexbzpncn1r006_1.jpg",
+      "sourceUrl": "https://havells.com/lighting/portable-lighting/lts-moderna-plus-3-in-1-lhexbzpncn1r006.html"
+    },
+    {
+      "id": "electronics-795",
+      "category": "electronics",
+      "name": "Marshall Monitor III A.N.C. (Black)",
+      "price": 22999,
+      "image": "https://images.ctfassets.net/javen7msabdh/7wk3JYIkqXdsKqhlowM5DE/c69e44ec2475bab697a55ffe63312893/monitor-iii-anc-front-hybrid.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/monitor-iii-anc?pid=1006861"
+    },
+    {
+      "id": "electronics-796",
+      "category": "electronics",
+      "name": "Marshall Milton A.N.C. (Black)",
+      "price": 19999,
+      "image": "https://images.ctfassets.net/javen7msabdh/20cZPB8ejZUDh7gnTtP1Ch/f43b60b045c36b3d95b7a55d04effe0b/milton-anc-plp.jpg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/milton-anc?pid=1008039"
+    },
+    {
+      "id": "electronics-797",
+      "category": "electronics",
+      "name": "Marshall Major V (Black)",
+      "price": 10499,
+      "image": "https://images.ctfassets.net/javen7msabdh/4mfBJMWEJHwPaYPvR3wh2w/1552b5ec82d9c91eb481918f068ba98f/major-v-black-front-desktop-1.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/major-v?pid=1006832"
+    },
+    {
+      "id": "electronics-798",
+      "category": "electronics",
+      "name": "Marshall Motif II A.N.C. (Black) - True Wireless Earbuds",
+      "price": 13999,
+      "image": "https://images.ctfassets.net/javen7msabdh/3pPZO4r5ShdhOW6Nt7fm2i/4ad0c37d9a5278526d6633f340c3ce3e/Motif-II-front-desktop-1.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/motif-ii-anc?pid=1006450"
+    },
+    {
+      "id": "electronics-799",
+      "category": "electronics",
+      "name": "Marshall Minor IV (Black) - True Wireless Earbuds",
+      "price": 8999,
+      "image": "https://images.ctfassets.net/javen7msabdh/6fqdu1dpw5Ay2BSiuiXROI/9c853369f11aa67a8d89d20b08cab9bd/minor-iv-black-front-desktop-1.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/minor-iv?pid=1006653"
+    },
+    {
+      "id": "electronics-800",
+      "category": "electronics",
+      "name": "Marshall Willen II (Black and Brass) - Portable Speaker",
+      "price": 8999,
+      "image": "https://images.ctfassets.net/javen7msabdh/64p3oStsWhiiMKa5EZZ7ck/5a834629dd5f778ef19b71e9fbde9cb8/willen-ii-black-and-brass-front-desktop.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/willen-ii?pid=1006714"
+    },
+    {
+      "id": "electronics-801",
+      "category": "electronics",
+      "name": "Marshall Emberton III (Black and Brass) - Portable Speaker",
+      "price": 15499,
+      "image": "https://images.ctfassets.net/javen7msabdh/Fttl4DrU7xxpEqrPBRiRB/58175527eaf6b1c3a114bfd04e5bbc9b/emberton-iii-blackandbrass-front-desktop.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/emberton-iii?pid=1006709"
+    },
+    {
+      "id": "electronics-802",
+      "category": "electronics",
+      "name": "Marshall Stockwell II (Black and Brass) - Portable Speaker",
+      "price": 24999,
+      "image": "https://images.ctfassets.net/javen7msabdh/64OGfz8TZlKfEN5YPVFCkF/0e2dc03e11f1bfb9f85ab56f4e30b0b4/stockwell-ii-front-desktop-1.jpeg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/stockwell-ii?pid=1005544"
+    },
+    {
+      "id": "electronics-803",
+      "category": "electronics",
+      "name": "Marshall Kilburn III (Black and Brass) - Portable Speaker",
+      "price": 35999,
+      "image": "https://images.ctfassets.net/javen7msabdh/6FHAUQzrTAElqcqiG0QXND/c1450280d3b1a2d48099f9af1d1c6790/kilburn-iii-bb-plp.jpg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/kilburn-iii?pid=1007443"
+    },
+    {
+      "id": "electronics-804",
+      "category": "electronics",
+      "name": "Marshall Stockwell III (Black and Brass) - Portable Speaker",
+      "price": 26999,
+      "image": "https://images.ctfassets.net/javen7msabdh/5oZ2rtCaQCFN84cD18kpI9/a6dea731eb903ed00770b42e8eb77fae/Stockwell_III_Black.jpg",
+      "sourceUrl": "https://www.marshall.com/in/en/product/stockwell-iii?pid=1008236"
+    },
+    {
+      "id": "kitchenAppliances-617",
+      "category": "kitchenAppliances",
+      "name": "Prestige Delight 750 W Mixer Grinder, 3 Stainless Steel Jars (1500 ml, 1000 ml, 300 ml) (Charcoal Grey)",
+      "price": 5445,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/0/7/0704-41366-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-delight-750-w-mixer-grinder-3-stainless-steel-jars-1500-ml-1000-ml-300-ml-charcoal-grey.html"
+    },
+    {
+      "id": "kitchenAppliances-618",
+      "category": "kitchenAppliances",
+      "name": "Prestige Nakshatra Plus 750 Watts Mixer Grinder, with Accessories, Stainless Steel Jars 3 Unit",
+      "price": 4170,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/9/7/9746-41353-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-nakshatra-plus-750-w-mixer-grinder-3-jars-black-and-orange.html"
+    },
+    {
+      "id": "kitchenAppliances-619",
+      "category": "kitchenAppliances",
+      "name": "Prestige 350 Watts Express PEX 3.0 Mixer Grinder with 2 Jars | Compact Design | Multipurpose Jars | Overload Protection | Extra Lids",
+      "price": 2410,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/5/8/5812-41390-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-express-pex-3-0-compact-design-mixer-grinder-with-multipurpose-jars-350-w-silver.html"
+    },
+    {
+      "id": "kitchenAppliances-620",
+      "category": "kitchenAppliances",
+      "name": "Prestige PKCT 1.5 Litre Electric Kettle with Designer Cool Touch Exterior | Stainless Steel Inner Body | Dry Heat Protection | White",
+      "price": 1295,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/2/6/2617-41415-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-electric-kettle-pkct-1-5-white-1-5-l-with-concealed-element.html"
+    },
+    {
+      "id": "kitchenAppliances-621",
+      "category": "kitchenAppliances",
+      "name": "Prestige Digi Kettle 2.0 Litre with 4 Preset Modes | Live Temperature Display | Elegant Cool Touch Design | Auto-Cut Off and Dry Heat Protection | 360 Degree Swivel Base",
+      "price": 2495,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/1/8/1884-41419-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-digi-kettle-2-0-litre-with-4-preset-modes-live-temperature-display-elegant-cool-touch-design-auto-cut-off-and-dry-heat-protection-360-degree-swivel-base.html"
+    },
+    {
+      "id": "kitchenAppliances-622",
+      "category": "kitchenAppliances",
+      "name": "Prestige Atlas 1.8 Electric Kettle (1.8 L, Blue, Silver)",
+      "price": 1395,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/6/6/6601-41865-IMG1.jpeg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-atlas-1-8-electric-kettle-1-8-l-blue-silver.html"
+    },
+    {
+      "id": "kitchenAppliances-623",
+      "category": "kitchenAppliances",
+      "name": "Prestige Magic Steam Iron PSI 10",
+      "price": 1535,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/0/5/0596-41764-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-magic-steam-iron-psi-10.html"
+    },
+    {
+      "id": "kitchenAppliances-624",
+      "category": "kitchenAppliances",
+      "name": "Prestige PDI 06 Dry Iron 1000 W with Greblon Coated Sole Plate (Silver)",
+      "price": 1395,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/1/7/1732-41769-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-pdi-06-dry-iron-1000-w-with-greblon-coated-sole-plate-silver.html"
+    },
+    {
+      "id": "kitchenAppliances-625",
+      "category": "kitchenAppliances",
+      "name": "Prestige Magic Dry Iron - Spark",
+      "price": 735,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/3/1/3145-41772-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-magic-dry-iron-spark.html"
+    },
+    {
+      "id": "kitchenAppliances-626",
+      "category": "kitchenAppliances",
+      "name": "Prestige PGMFB 800 Watt Grill Sandwich Toaster (Non-Stick Grill Plates, Black)",
+      "price": 1470,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/5/4/5493-41467-IMG1.jpeg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-sandwich-toasters-with-fixed-grill-plate-pgmfb.html"
+    },
+    {
+      "id": "kitchenAppliances-627",
+      "category": "kitchenAppliances",
+      "name": "Prestige Popup Toaster - PPTPKY",
+      "price": 2210,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/5/1/5188-41703-IMG1.jpeg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-popup-toaster-pptpky.html"
+    },
+    {
+      "id": "kitchenAppliances-628",
+      "category": "kitchenAppliances",
+      "name": "Prestige Waffle Maker PWM 01",
+      "price": 1675,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/5/4/5412-42265-IMG1.jpeg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-waffle-maker-pwm-01.html"
+    },
+    {
+      "id": "kitchenAppliances-629",
+      "category": "kitchenAppliances",
+      "name": "Prestige PIC 20 NEO Induction Cooktop 1600W (Indian Menu Options, Automatic Voltage Regulator, Timer)",
+      "price": 2330,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/1/9/1979-41134-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-induction-cook-top-pic-20-neo.html"
+    },
+    {
+      "id": "kitchenAppliances-630",
+      "category": "kitchenAppliances",
+      "name": "Prestige PIC 6.1 V3 2200 Watts Induction Cooktop (Indian Menu Options, Dual Heat Sensor)",
+      "price": 4930,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/9/9/9992-41963-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-pic-6-1-v3-2200-watts-indian-menu-options-induction-cooktop.html"
+    },
+    {
+      "id": "kitchenAppliances-631",
+      "category": "kitchenAppliances",
+      "name": "Prestige Select Plus Omni Tawa 25 cm + Fry Pan 20 cm (2 Pc Cookware Combo)",
+      "price": 1000,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/8/0/8087-30888-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-select-plus-omni-tawa-25-cm-fry-pan-20-cm.html"
+    },
+    {
+      "id": "kitchenAppliances-632",
+      "category": "kitchenAppliances",
+      "name": "Prestige Triply Splendid 4 Pc Cookware Set (Fry Pan 22cm, Kadai 22cm, Saucepan 14cm, SS Lid 24cm)",
+      "price": 2670,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/5/5/5577-38665-IMG1.jpeg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-triply-splendid-byk-4-piece-cookware-set-fry-pan-22cm-sauce-pan-14cm-kadai-22cm-stainless-steel-lid-induction-gas-compatible.html"
+    },
+    {
+      "id": "kitchenAppliances-633",
+      "category": "kitchenAppliances",
+      "name": "Prestige Popular Svachh Hard Anodised Pressure Cooker 2.0 L",
+      "price": 1715,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/2/6/2604-20334-P-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-popular-svachh-hard-anodised-pressure-cooker-2-0-l.html"
+    },
+    {
+      "id": "kitchenAppliances-634",
+      "category": "kitchenAppliances",
+      "name": "Prestige Svachh Tri-Ply Handi Pressure Cooker 3 Litre",
+      "price": 3275,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/4/9/4965-20706-P-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-svachh-tri-ply-handi-pressure-cooker-3-litre.html"
+    },
+    {
+      "id": "kitchenAppliances-635",
+      "category": "kitchenAppliances",
+      "name": "Prestige Flip-On Tri-Ply Stainless Steel Pressure Cooker 2 L (180M with Glass Lid)",
+      "price": 4475,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/8/2/8296-20710-P-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-flip-on-tri-ply-stainless-steel-pressure-cooker-2-l-180m-with-glass-lid.html"
+    },
+    {
+      "id": "kitchenAppliances-636",
+      "category": "kitchenAppliances",
+      "name": "Prestige Electric Rice Cooker",
+      "price": 4185,
+      "image": "https://shop.ttkprestige.com/media/catalog/product/2/7/2782-41139-P-IMG1.jpg",
+      "sourceUrl": "https://shop.ttkprestige.com/prestige-electric-rice-cooker.html"
+    },
+    {
+      "id": "electronics-805",
+      "category": "electronics",
+      "name": "Skullcandy Crusher Evo Wireless Headphones",
+      "price": 19999,
+      "image": "https://imagecdn.skullcandy.in/uploads/crusher_evo_buy_box_bone_1_ec9b95b79c_e72facdda5.png",
+      "sourceUrl": "https://www.skullcandy.in/shop/crusher-evo-wireless-headphone"
+    },
+    {
+      "id": "electronics-806",
+      "category": "electronics",
+      "name": "Skullcandy Dime 3 True Wireless Earbuds",
+      "price": 2499,
+      "image": "https://imagecdn.skullcandy.in/uploads/2a_616a769765.png",
+      "sourceUrl": "https://www.skullcandy.in/shop/dime-3-true-wireless-earbuds"
+    },
+    {
+      "id": "electronics-807",
+      "category": "electronics",
+      "name": "Skullcandy Jib True 2 Wireless Earbuds",
+      "price": 9999,
+      "image": "https://imagecdn.skullcandy.in/uploads/jib_true_2_buy_box_light_grey_blue_2_a091980297_1efe5fb830_ce02568d73.png",
+      "sourceUrl": "https://www.skullcandy.in/shop/jib-true-2-true-wireless-earbuds"
+    },
+    {
+      "id": "electronics-808",
+      "category": "electronics",
+      "name": "Skullcandy Rail ANC True Wireless Earbuds",
+      "price": 29999,
+      "image": "https://imagecdn.skullcandy.in/uploads/Rail_ANC_Bone_S2_IPW_S951_Buds_Case_Open_Hero_v01_58b361914d_03660f4db5.png",
+      "sourceUrl": "https://www.skullcandy.in/shop/rail-anc-true-wireless-earbuds"
+    },
+    {
+      "id": "electronics-809",
+      "category": "electronics",
+      "name": "Skullcandy Push Play Active True Wireless Earbuds",
+      "price": 4999,
+      "image": "https://imagecdn.skullcandy.in/uploads/push_play_active_buy_box_PS_1_53d6f5d56f.webp",
+      "sourceUrl": "https://www.skullcandy.in/shop/push-play-active"
+    },
+    {
+      "id": "electronics-810",
+      "category": "electronics",
+      "name": "Skullcandy Riff On-Ear Wired Headphones",
+      "price": 1999,
+      "image": "https://imagecdn.skullcandy.in/uploads/Riff_S5_PXY_L003_Black_Hero_v001_f10bc9a107_2f6e4e81b8.png",
+      "sourceUrl": "https://www.skullcandy.in/shop/riff-on-ear-headphone"
+    },
+    {
+      "id": "electronics-811",
+      "category": "electronics",
+      "name": "Skullcandy Grom Wireless Kids Headphones",
+      "price": 17699,
+      "image": "https://imagecdn.skullcandy.in/uploads/grom_wireless_buy_box_black_1_8145613174_596f05bc20.webp",
+      "sourceUrl": "https://www.skullcandy.in/shop/grom-wireless-kids-headphones"
+    },
+    {
+      "id": "electronics-812",
+      "category": "electronics",
+      "name": "Skullcandy Sesh ANC Active True Wireless Earbuds",
+      "price": 4999,
+      "image": "https://imagecdn.skullcandy.in/uploads/sesh_ANC_active_buy_box_black_1_2_84c335a5ae.webp",
+      "sourceUrl": "https://www.skullcandy.in/shop/sesh-anc-active"
+    },
+    {
+      "id": "electronics-813",
+      "category": "electronics",
+      "name": "Skullcandy Dime Evo True Wireless Earbuds",
+      "price": 19999,
+      "image": "https://imagecdn.skullcandy.in/uploads/Dime_Evo_True_Black_S2_DTW_S740_Buds_Case_Hero_v03_9024993eb4.png",
+      "sourceUrl": "https://www.skullcandy.in/shop/dime-evo-true-wireless-earbuds"
+    },
+    {
+      "id": "electronics-814",
+      "category": "electronics",
+      "name": "Skullcandy Ink'd ANC True Wireless Earbuds",
+      "price": 12999,
+      "image": "https://imagecdn.skullcandy.in/uploads/ink_d_ANCL_28155829ef.webp",
+      "sourceUrl": "https://www.skullcandy.in/shop/ink-d-anc"
+    },
+    {
+      "id": "electronics-815",
+      "category": "electronics",
+      "name": "Skullcandy Uproar ANC True Wireless Earbuds",
+      "price": 21999,
+      "image": "https://imagecdn.skullcandy.in/uploads/uproar_anc_3082f7e524.webp",
+      "sourceUrl": "https://www.skullcandy.in/shop/uproar-anc"
+    },
+    {
+      "id": "electronics-816",
+      "category": "electronics",
+      "name": "Skullcandy Crusher Wireless Headphones",
+      "price": 14999,
+      "image": "https://imagecdn.skullcandy.in/uploads/Crusher_Wireless_S6_CRW_K591_Black_Hero_v001_d7d1d7b965.webp",
+      "sourceUrl": "https://www.skullcandy.in/shop/crusher-wireless-headphone"
+    },
+    {
+      "id": "electronics-817",
+      "category": "electronics",
+      "name": "Redmi Buds 5C",
+      "price": 1799,
+      "image": "https://i03.appmifile.com/626_item_in/18/07/2024/972df521d15b577474d3990fba0acf14.jpg",
+      "sourceUrl": "https://www.mi.com/in/product/redmi-buds-5c/"
+    },
+    {
+      "id": "electronics-818",
+      "category": "electronics",
+      "name": "Mi Earphones Basic (with in-built mic)",
+      "price": 499,
+      "image": "https://i03.appmifile.com/861_item_in/01/09/2023/a42193897ee870f847b2aaeeea47e85f.png",
+      "sourceUrl": "https://store.mi.com/in/item/3194500001"
+    },
+    {
+      "id": "electronics-819",
+      "category": "electronics",
+      "name": "Redmi Watch 5 Lite",
+      "price": 3999,
+      "image": "https://i03.appmifile.com/706_item_in/24/09/2024/9b1c0a7d6be9eaf7bea0e49784da2d11.png",
+      "sourceUrl": "https://store.mi.com/in/item/3224100789"
+    },
+    {
+      "id": "electronics-820",
+      "category": "electronics",
+      "name": "Redmi Watch 5 Active",
+      "price": 2999,
+      "image": "https://i03.appmifile.com/921_item_in/27/08/2024/3bf146055f4f1b615663db0b2e288bcb.png",
+      "sourceUrl": "https://www.mi.com/in/product/redmi-watch-5-active/"
+    },
+    {
+      "id": "electronics-821",
+      "category": "electronics",
+      "name": "Redmi Watch 2 Lite",
+      "price": 4999,
+      "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1646734851.88712270.jpg",
+      "sourceUrl": "https://www.mi.com/in/product/redmi-watch-2-lite/"
+    },
+    {
+      "id": "electronics-822",
+      "category": "electronics",
+      "name": "Xiaomi Power Bank 4i 20000mAh 33W Sonic Charge",
+      "price": 2099,
+      "image": "https://i03.appmifile.com/289_item_in/27/08/2024/9d2650ade6bae2d30382b3c5f3e1bfd2.png",
+      "sourceUrl": "https://www.mi.com/in/product/xiaomi-power-bank-4i-20000mah-33w-sonic-charge/"
+    },
+    {
+      "id": "electronics-823",
+      "category": "electronics",
+      "name": "Mi Boost Pro Power Bank 30000mAh 18W",
+      "price": 3299,
+      "image": "https://i03.appmifile.com/592_item_in/04/07/2024/dd3fe25e6b04ad7f36ade3c4f3cc5720.png",
+      "sourceUrl": "https://www.mi.com/in/product/mi-powerbank-boost-pro-30000mah/"
+    },
+    {
+      "id": "bagsLuggageTravel-377",
+      "category": "bagsLuggageTravel",
+      "name": "Mi Business Casual Backpack Blue",
+      "price": 1099,
+      "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1584356138.10168891.jpg",
+      "sourceUrl": "https://www.mi.com/in/item/3201100017/"
+    },
+    {
+      "id": "bagsLuggageTravel-378",
+      "category": "bagsLuggageTravel",
+      "name": "Mi Casual Backpack Black",
+      "price": 699,
+      "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1536381359.09099862.png",
+      "sourceUrl": "https://www.mi.com/in/item/3181200023/"
     }
   ]
 }
