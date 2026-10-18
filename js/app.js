@@ -976,7 +976,10 @@
       addBtn.hidden = true;
       stepper.hidden = false;
       input.value = 1;
-      input.focus();
+      // No input.focus() here -- on mobile it pops the numeric keyboard and,
+      // worse, the resulting viewport resize/scroll-into-view fights with
+      // the fixed-position fly-to-cart animation below. The keypad should
+      // only open when the shopper actually taps the quantity number.
       // Written after setQty (not before): renderBudgetWidget() just ran
       // as part of that call, so the widget is already unhidden/laid out
       // by the time we read its position for the flight target.
