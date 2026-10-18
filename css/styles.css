@@ -682,6 +682,17 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
    (still computed correctly) in case we ever want it back, just hidden. */
 .sticky-bar { display: none !important; }
 
+/* Reserves space behind the floating widget (64px + 20px dock margin, same
+   constants as dockDefault() in app.js) so it never sits on top of -- and
+   intercepts taps meant for -- the grid tiles underneath it. Only applied
+   while there's actually something in the cart (.has-cart-items, toggled
+   from renderBudgetWidget()); an empty-cart visitor shouldn't get a
+   permanent dead gap at the bottom of the grid. */
+.has-cart-items .category-grid,
+.has-cart-items .product-grid {
+  padding-bottom: 84px;
+}
+
 /* ---------- Floating budget/cart widget ---------- */
 .budget-widget {
   position: fixed;
@@ -870,7 +881,7 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .field em { color: var(--danger); font-style: normal; }
 
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-@media (max-width: 360px) { .field-row { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .field-row { grid-template-columns: 1fr; } }
 
 .field input, .field textarea {
   border: 1px solid var(--border);

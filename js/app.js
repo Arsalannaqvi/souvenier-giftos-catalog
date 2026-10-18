@@ -1104,6 +1104,11 @@
   function renderBudgetWidget() {
     if (!els.budgetWidget) return;
     const itemCount = state.shortlist.size;
+    // The floating widget sits fixed over the grid whenever it's visible --
+    // reserve bottom space on the grid so it never steals taps from the
+    // tiles underneath it (only when there's actually something in the
+    // cart; an empty-cart visitor shouldn't get a permanent dead gap).
+    document.body.classList.toggle("has-cart-items", itemCount > 0);
     if (itemCount === 0) {
       els.budgetWidget.hidden = true;
       return;
@@ -1698,6 +1703,13 @@
       openCategory(requestedCategory);
     } else if (requestedBrand && knownBrands.has(requestedBrand)) {
       selectBrand(requestedBrand);
+    }
+    // Deep link from a product page's sticky-bar "View shortlist" link, e.g.
+    // product/electronics-404/ links to ../../?shortlist=1 -- same deep-link
+    // pattern as category/brand above, opens the panel instead of just
+    // landing on the plain homepage.
+    if (new URLSearchParams(window.location.search).get("shortlist") === "1") {
+      openSheet();
     }
     // No deep link: both breakpoints land on the home view (#home-view is
     // visible by default in the markup, so no action needed here).
