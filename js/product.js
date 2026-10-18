@@ -75,12 +75,19 @@
     const nextBtn = qs("pd-gallery-next");
     if (!track) return;
 
+    const gallery = track.closest(".pd-gallery");
     track.innerHTML = "";
-    images.forEach((src) => {
+    images.forEach((src, i) => {
       const img = document.createElement("img");
-      img.src = src;
       img.alt = product.name;
-      img.loading = "lazy";
+      img.loading = i === 0 ? "eager" : "lazy";
+      if (i === 0 && gallery) {
+        gallery.classList.add("is-loading");
+        const clearLoading = () => gallery.classList.remove("is-loading");
+        img.addEventListener("load", clearLoading, { once: true });
+        img.addEventListener("error", clearLoading, { once: true });
+      }
+      img.src = src;
       track.appendChild(img);
     });
 

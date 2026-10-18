@@ -390,8 +390,8 @@
     if (!products.length) return;
 
     els.roomGrid.innerHTML = "";
-    products.forEach((product) => {
-      els.roomGrid.appendChild(buildProductCardNode(product));
+    products.forEach((product, i) => {
+      els.roomGrid.appendChild(buildProductCardNode(product, i < 6));
     });
     els.roomSection.hidden = false;
   }
@@ -921,7 +921,7 @@
   // both the main product grid and the "Picked for you" room section, so
   // the card markup/behaviour (image hover-cycle, add/stepper, lightbox)
   // stays in exactly one place.
-  function buildProductCardNode(product) {
+  function buildProductCardNode(product, eager) {
     const tpl = qs("product-card-template");
     const node = tpl.content.firstElementChild.cloneNode(true);
     node.dataset.productId = product.id;
@@ -929,9 +929,13 @@
     const imageWrap = node.querySelector(".product-image");
     if (product.image) {
       const img = document.createElement("img");
-      img.src = product.image;
       img.alt = product.name;
-      img.loading = "lazy";
+      img.loading = eager ? "eager" : "lazy";
+      imageWrap.classList.add("is-loading");
+      const clearLoading = () => imageWrap.classList.remove("is-loading");
+      img.addEventListener("load", clearLoading, { once: true });
+      img.addEventListener("error", clearLoading, { once: true });
+      img.src = product.image;
       imageWrap.innerHTML = "";
       imageWrap.appendChild(img);
       imageWrap.classList.add("has-photo");
@@ -1015,8 +1019,8 @@
 
     updateToolbar(total, startIdx, endIdx, totalPages, page);
 
-    pageItems.forEach((product) => {
-      els.productGrid.appendChild(buildProductCardNode(product));
+    pageItems.forEach((product, i) => {
+      els.productGrid.appendChild(buildProductCardNode(product, i < 6));
     });
   }
 

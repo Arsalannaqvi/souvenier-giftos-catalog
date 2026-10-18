@@ -590,6 +590,27 @@ main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .product-image.has-photo:hover img { transform: scale(1.1); }
 .product-emoji { font-size: 44px; }
 
+/* ---------- Image loading shimmer (covers slow-loading hotlinked images
+   so a card reads as "loading" instead of "broken" for the couple seconds
+   before the photo appears) ---------- */
+.product-image.is-loading,
+.pd-gallery.is-loading {
+  background: linear-gradient(100deg,
+    color-mix(in srgb, var(--accent) 10%, var(--surface)) 35%,
+    color-mix(in srgb, var(--accent) 24%, var(--surface)) 50%,
+    color-mix(in srgb, var(--accent) 10%, var(--surface)) 65%);
+  background-size: 250% 100%;
+  animation: imgShimmer 1.3s ease-in-out infinite;
+}
+@keyframes imgShimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .product-image.is-loading,
+  .pd-gallery.is-loading { animation: none; }
+}
+
 .product-info { min-width: 0; }
 .product-name { font-size: 14px; font-weight: 600; margin: 0 0 2px; }
 .product-name-link { color: inherit; text-decoration: none; }
