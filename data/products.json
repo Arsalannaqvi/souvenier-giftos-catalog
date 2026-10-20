@@ -111,10 +111,11 @@
       "id": "computerAccessories-1",
       "category": "computerAccessories",
       "name": "Offikraft Caspian Executive Bag",
-      "price": 757,
+      "price": 1999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/d733b5fa-1a98-4755-9a4e-6b1d447d2410.jpeg",
       "href": "/product/362",
-      "subcategory": "Laptop Messenger & Shoulder Bags"
+      "subcategory": "Laptop Messenger & Shoulder Bags",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=175"
     },
     {
       "id": "computerAccessories-2",
@@ -458,64 +459,71 @@
       "id": "personalAccessories-5",
       "category": "personalAccessories",
       "name": "Offikraft Swag Keychain",
-      "price": 103,
+      "price": 199,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/18d4a07c-4bb0-472a-9d15-468a2316007b.jpeg",
       "href": "/product/355",
-      "subcategory": "Keychains"
+      "subcategory": "Keychains",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=71"
     },
     {
       "id": "personalAccessories-6",
       "category": "personalAccessories",
       "name": "Offikraft Ring Keychain",
-      "price": 41,
+      "price": 99,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/92fd87e2-5581-4013-a0ea-b4e050fe56dd.jpeg",
       "href": "/product/322",
-      "subcategory": "Keychains"
+      "subcategory": "Keychains",
+      "sourceUrl": "https://offikraft.in/offikraft-ring-key-chain"
     },
     {
       "id": "personalAccessories-7",
       "category": "personalAccessories",
       "name": "Offikraft Keyfob Keychain",
-      "price": 93,
+      "price": 149,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/6fa968b6-43eb-4ee6-a4ac-dcc201f30f66.jpeg",
       "href": "/product/321",
-      "subcategory": "Keychains"
+      "subcategory": "Keychains",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=73"
     },
     {
       "id": "personalAccessories-8",
       "category": "personalAccessories",
       "name": "Offikraft Hooky Keychain",
-      "price": 93,
+      "price": 149,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/3d5a7803-491a-4dba-bf38-6938c354625f.jpeg",
       "href": "/product/320",
-      "subcategory": "Keychains"
+      "subcategory": "Keychains",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=78"
     },
     {
       "id": "personalAccessories-9",
       "category": "personalAccessories",
       "name": "Offikraft Swag 2.0 Keychain",
-      "price": 93,
+      "price": 199,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/9cffa0b8-b086-486e-80d0-a287858226d6.jpeg",
       "href": "/product/309",
-      "subcategory": "Keychains"
+      "subcategory": "Keychains",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=183"
     },
     {
       "id": "personalAccessories-10",
       "category": "personalAccessories",
       "name": "Offikraft Bold Key Chain",
-      "price": 103,
+      "price": 199,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/dbcaff3b-fe35-433c-a580-7238408cee0d.jpeg",
       "href": "/product/308",
-      "subcategory": "Keychains"
+      "subcategory": "Keychains",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=182"
     },
     {
       "id": "travelAccessories-9",
       "category": "travelAccessories",
       "name": "Offikraft Mini Go Kit Toiletry Kit with Cable Organiser",
-      "price": 453,
+      "price": 999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/99af114e-e86c-40aa-a881-b2ef116486e0.jpeg",
       "href": "/product/310",
-      "subcategory": "Cable Organiser Bags"
+      "subcategory": "Cable Organiser Bags",
+      "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=184"
     },
     {
       "id": "travelAccessories-10",
@@ -1174,14 +1182,15 @@
       "id": "kitchenAppliances-7",
       "category": "kitchenAppliances",
       "name": "RICO Food Processor (Model-FP101)",
-      "price": 8205,
+      "price": 9999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/e402370d-07eb-484c-af5e-f1c5a60e19b8.JPG",
       "href": "/product/1058",
       "subcategory": "Chopper",
       "images": [
         "https://d39bd3o2tztcvw.cloudfront.net/e402370d-07eb-484c-af5e-f1c5a60e19b8.JPG",
         "https://d39bd3o2tztcvw.cloudfront.net/29b92ebb-9eb2-4d68-94ad-26c98d2aa975.JPG"
-      ]
+      ],
+      "sourceUrl": "https://www.amazon.in/dp/B0GL8BGQ7S"
     },
     {
       "id": "kitchenAppliances-8",
@@ -10447,7 +10456,8 @@
         "https://d39bd3o2tztcvw.cloudfront.net/c5a077c1-93bb-4eef-a1ec-243242db799e.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/af8cb5de-a96c-4b5d-8be6-27fa0e0c23fe.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/1957774d-d3d0-432c-9737-e664003fcdaa.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://in.puma.com/in/en/pd/essentials-mens-jacquard-collar-slim-fit-polo/695647"
     },
     {
       "id": "apparel-115",
@@ -12380,7 +12390,8 @@
       "price": 1332,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/4a3f64bf-085e-4675-8375-94e2ec1ccbd2.jpeg",
       "href": "/product/2872",
-      "subcategory": "Copper Bottle"
+      "subcategory": "Copper Bottle",
+      "sourceUrl": "https://www.flipkart.com/tamta-tura-earth-vein-copper-pot-950-ml-bottle/p/itm187e4cffc76c0"
     },
     {
       "id": "drinkware-3",
@@ -12389,7 +12400,8 @@
       "price": 1037,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/099217e7-ebe5-410c-bad3-68ee1e2a56b3.jpeg",
       "href": "/product/2871",
-      "subcategory": "Copper Bottle"
+      "subcategory": "Copper Bottle",
+      "sourceUrl": "https://www.flipkart.com/tamta-tura-earth-vein-copper-bottle-elegant-gloss-v008-950-ml/p/itmd12487a981fd8"
     },
     {
       "id": "drinkware-4",
@@ -62331,7 +62343,8 @@
       "price": 349,
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/ax01_5.webp?v=1654175762",
       "subcategory": "Cables & Adapters",
-      "description": "1 Mtr AUX cable."
+      "description": "1 Mtr AUX cable.",
+      "sourceUrl": "https://www.coconutlife.in/products/coconut-ax01-3-5mm-aux-cable-male-to-male-gold-plated-premium-aluminium-allloy-connectors-tpe-1m"
     },
     {
       "id": "coconut-35",
@@ -62340,16 +62353,18 @@
       "price": 12999,
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/StarkZ9Black.jpg?v=1742985048",
       "subcategory": "Gaming Cabinets",
-      "description": "Pro series. ATX/M-ATX/ITX, tempered glass panoramic, 4x120mm Infinity ARGB fans, VGA up to 390mm."
+      "description": "Pro series. ATX/M-ATX/ITX, tempered glass panoramic, 4x120mm Infinity ARGB fans, VGA up to 390mm.",
+      "sourceUrl": "https://www.coconutlife.in/products/coconut-stark-z9-glass-argb-atx-mid-tower-gaming-cabinet-black"
     },
     {
       "id": "coconut-36",
       "category": "computerAccessories",
       "name": "RAMPAGE ELITE Gaming Cabinet",
-      "price": 14999,
+      "price": 11999,
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/RampageEliteBlack.jpg?v=1742985243",
       "subcategory": "Gaming Cabinets",
-      "description": "Pro series. ATX (M-ATX/ITX boards), hinge glass door, 4x120mm RGB fans, Type-C, 5 PCI slots, VGA up to 400mm."
+      "description": "Pro series. ATX (M-ATX/ITX boards), hinge glass door, 4x120mm RGB fans, Type-C, 5 PCI slots, VGA up to 400mm.",
+      "sourceUrl": "https://www.coconutlife.in/products/rampage-elite"
     },
     {
       "id": "coconut-41",
@@ -62358,7 +62373,8 @@
       "price": 12999,
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_2205-_.2126.jpg?v=1701434772",
       "subcategory": "Gaming Cabinets",
-      "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, Type-C, 7 PCI slots, VGA up to 383mm."
+      "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, Type-C, 7 PCI slots, VGA up to 383mm.",
+      "sourceUrl": "https://www.coconutlife.in/products/rampage-2000d-gaming-cabinet-black-e-atx"
     },
     {
       "id": "coconut-53",
@@ -62367,7 +62383,8 @@
       "price": 499,
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_DPtoVGA.png?v=1702884362",
       "subcategory": "Cables & Adapters",
-      "description": "DisplayPort to VGA adapter."
+      "description": "DisplayPort to VGA adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/dp-to-vga"
     },
     {
       "id": "coconut-55",
