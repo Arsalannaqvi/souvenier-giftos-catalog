@@ -389,6 +389,17 @@ protocol: look a product up there before researching it fresh, and
 **always add an entry for any new product you research** (or update an
 existing one) so the next session doesn't repeat the work.
 
+**An entry's `lastUpdated` age matters — a confirmed match doesn't mean
+the PRICE is still accurate months later** (same "sale prices are
+snapshots" rule as everywhere else in this system). `scripts/
+product_price_log.py list-stale [--days 60]` lists entries at or past
+that age; `show <id>` prints one entry; `touch <id> [--note "..."]`
+marks an entry as freshly re-verified (price re-checked today, method
+unchanged) without rewriting the whole record. The weekly Saturday job
+runs `list-stale` as part of its routine — re-verify what it flags
+(re-run the entry's own method, `touch` if the price still holds,
+re-research if the match or price has genuinely moved on).
+
 ### How to run a batch — always check 🟢 before reaching for 🔴
 
 **🟢 Step 1, always do this first, per brand, before any search:**
