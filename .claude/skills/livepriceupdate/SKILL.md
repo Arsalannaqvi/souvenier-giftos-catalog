@@ -1,9 +1,25 @@
 ---
 name: livepriceupdate
-description: Use whenever asked to check, run, or triage a live MRP/sale-price verification pass on this catalog — on demand, not just the daily cron (Tier A — Shopify-backed suppliers only). One invocation triggers the GitHub Action, waits for it, pulls the fresh report, and reports a before/after triage back in chat.
+description: Use whenever asked to check, run, or triage a live MRP/sale-price verification pass on this catalog, at any tier — the daily Tier A cron (Shopify-backed suppliers), a Tier B run (non-Shopify sourceUrl, direct fetch + JSON-LD/microdata), or a Tier C pass (no sourceUrl at all — search + mandatory image verification). One invocation triggers/runs the relevant tier, waits for it, pulls the fresh report, and reports a before/after triage back in chat.
 ---
 
-# Live Price Update (Tier A — Shopify)
+# Live Price Update (Tier A/B/C)
+
+Three tiers, by how a product's `sourceUrl` is shaped:
+- **Tier A** — a Shopify product URL (`.../products/<handle>`). Free,
+  structured, zero scraping — runs on GitHub's own infra via cron.
+- **Tier B** — a non-Shopify `sourceUrl` exists. Direct HTTP fetch +
+  JSON-LD/microdata parsing. Two scripts: one dedicated
+  (`check_live_prices_tier_b_stovekraft.py`, wired into the daily cron)
+  and one generic multi-domain extractor
+  (`check_live_prices_tier_b_jsonld.py`, run on demand so far, not yet
+  wired into the cron — see "Known gaps").
+- **Tier C** — no `sourceUrl` at all. No free structured source exists,
+  so this is search + **mandatory image verification** before trusting
+  any match — categorically different cost/rigor profile from A/B, see
+  its own section below.
+
+## Tier A (Shopify)
 
 Checks every product whose `sourceUrl` is a Shopify product page
 (`.../products/<handle>`) against the live price on the supplier's own
@@ -13,7 +29,7 @@ building it this way: "I need something that can be run on low usage
 limit"). This skill is for running/checking it **on demand** — it also
 runs itself daily on a cron regardless of whether this skill is invoked.
 
-## The recipe (run this whenever asked to do a live price check)
+### The recipe (run this whenever asked to do a live price check)
 
 1. **Trigger it**: `mcp__github__actions_run_trigger` → `run_workflow`,
    `owner: "Arsalannaqvi"`, `repo: "souvenier-giftos-catalog"`,
@@ -70,7 +86,7 @@ runs itself daily on a cron regardless of whether this skill is invoked.
    unrelated domains, or a new error shape, is worth actually
    investigating.
 
-## How it works (architecture reference)
+### How it works (architecture reference)
 
 - `scripts/check_live_prices.py` — the checker. For each Tier-A
   candidate, hits the supplier's own free
@@ -96,7 +112,7 @@ runs itself daily on a cron regardless of whether this skill is invoked.
   `unchanged`, `applied[]`, `flagged[]`, `multiVariant[]`,
   `unreachable[]`, `outOfScope: {noSourceUrl, nonShopifyOrNonProductUrl}`.
 
-## Calibration log — what's actually been tested and fixed
+### Calibration log — what's actually been tested and fixed
 
 - **2026-10-14 — crash on `to_number()`.** `int(x)` was called directly
   on Shopify's raw decimal string (`"7999.00"`), which Python's `int()`
@@ -141,11 +157,238 @@ runs itself daily on a cron regardless of whether this skill is invoked.
   `sourceUrl` (404, Franke Faber coffee machine) — both always show up
   in `unreachable` and are expected, not new failures.
 
-## Known gaps (not yet built, scoped only)
+### Known gaps (Tier A)
 
-- Tier B (non-Shopify, AI-assisted scraping) for the ~500 non-Shopify
-  `sourceUrl` products — not started.
-- Tier C for the ~1000 products with no `sourceUrl` at all — not started.
 - "Franke Faber FCM 0.6L SS BK Coffee Machine" has a genuinely dead
   `sourceUrl` (404 on faberindia.com) — a real data issue, not a script
   bug, still unfixed.
+- See the "Known gaps" subsections under Tier B and Tier C below for
+  those tiers' own open items — Tier B/C are NOT "not started" anymore
+  (this line used to say that; both have shipped real work, see those
+  sections).
+
+---
+
+## Tier B (non-Shopify `sourceUrl` — direct fetch + JSON-LD/microdata)
+
+Two scripts, run manually so far (not on a cron except stovekraft's):
+
+- `scripts/check_live_prices_tier_b_stovekraft.py` — dedicated to
+  stovekraft.com alone, since it's 48% of all Tier B on its own. MRP
+  sits in plain server-rendered HTML (`MRP :\n<span>₹3495.00</span>`),
+  a regex over a normal fetch, no JS needed. **Wired into the daily
+  cron** (`.github/workflows/daily-price-check.yml`), runs for free
+  alongside Tier A every day.
+- `scripts/check_live_prices_tier_b_jsonld.py` — generic, covers every
+  other non-Shopify `sourceUrl` except stovekraft. Tries, in order:
+  a per-domain MRP-preferring pattern (`DOMAIN_MRP_PATTERNS`, see the
+  MRP bug below — currently decathlon.in and havells.com), then plain
+  schema.org JSON-LD `offers.price`, then `AggregateOffer.lowPrice`,
+  then plain HTML microdata (`itemprop="price"`, with or without a
+  `<meta content="...">` attribute). **NOT wired into the cron yet** —
+  run it manually (`python3 scripts/check_live_prices_tier_b_jsonld.py`
+  from the repo root) when asked for a Tier B check, the same
+  apply/flag/report discipline as Tier A (≤25% auto-applies, bigger
+  deltas go to `data/price_check_report_tier_b_jsonld.json` only).
+
+### The MRP-vs-sale-price bug — the single most important lesson here
+
+Confirmed 2026-10-20 by actually running the script for real against
+decathlon.in and havells.com and hand-verifying the live pages, not
+just trusting that a price field parsed successfully: **a page's
+`offers.price` in JSON-LD is reliably the current SALE price on both
+sites, never MRP.** MRP lives in a separate, non-JSON-LD field each
+site embeds in its own page state:
+- decathlon.in: `a.price={sellingPrice:N,mrp:M,...}` — a client-state
+  object appearing exactly once per page, unambiguously the page's own
+  product (cross-sell cards use a different key shape, `priceForFront`).
+- havells.com: `"pricing":{"regularPrice":M,...}` — Magento JSON;
+  `regularPrice` is the MRP even when `specialPrice` is null (no active
+  discount).
+Both are in `DOMAIN_MRP_PATTERNS` now, checked before the generic
+fallback. **Treat "a price field parsed" as insufficient evidence it's
+the RIGHT field on any domain this script hasn't been hand-verified
+against yet** — that's exactly the mistake that produced this bug, and
+it's very plausible other domains in `MARKETPLACE_DOMAINS` have the
+same split and haven't been checked.
+
+A real symptom to watch for: when a run's "would-apply" deltas cluster
+tightly around a few values (e.g. 21-24% on one run) and "would-flag"
+deltas cluster around different fixed values (e.g. 29-53%), that's a
+tell the site is running fixed category-wide discount tiers, i.e. the
+script is reading sale depth, not real price drift — not a coincidence
+worth ignoring.
+
+### Domain reachability — plain fetch vs. Apify's browser fetch do NOT agree
+
+Re-verified Oct 2026 with both methods, domain by domain:
+- **myntra.com** — blocked by BOTH (plain curl: connection reset;
+  Apify's browser fetch: served an Akamai "Site Maintenance" error
+  page). Not viably scrapable right now by either route.
+- **nykaa.com / nykaafashion.com** — no JSON-LD/microdata at all (price
+  is plain DOM text in hashed/data-attribute CSS classes) AND plain
+  HTTP 403s. Apify's browser fetch gets through to real content, but
+  extracting the price needs a dedicated CSS-attribute scraper (same
+  pattern as stovekraft's), and wiring Apify into the free GitHub
+  Actions cron changes its cost profile from free to metered — **that's
+  a real decision for the owner, not made yet** (~10 of Tommy
+  Hilfiger's 22 products alone sit on these two domains).
+- **luxury.tatacliq.com** — the OPPOSITE: a plain HTTP GET (what this
+  script already does) returns full server-rendered JSON-LD and just
+  works; Apify's browser fetch does WORSE here, getting stuck behind a
+  reCAPTCHA Enterprise wall. No code change needed, already handled.
+- **flipkart.com / croma.com** — confirmed genuinely unreachable, not a
+  bot block: pure client-rendered React with zero server-rendered
+  JSON-LD/microdata of any kind on every real product page tested.
+- **smartprix.com** — works for a real product page, but some stored
+  `sourceUrl`s on this domain are category/comparison pages
+  (`/fans/price-4000_to_5000`, a `..._vs_...` comparison URL) with no
+  single offer to extract — a data problem (wrong URL), not a script bug.
+- **pricee.com** — needed the `AggregateOffer.lowPrice` fallback (no
+  plain `offers.price`).
+- **pricebefore.com, offikraft.in** (OpenCart) — need the microdata
+  fallback, no `<script type="application/ld+json">` block at all.
+
+### Marketplace markup rule
+
+`MARKETPLACE_DOMAINS` (Myntra, Flipkart, Nykaa, Tatacliq, BigBasket,
+Croma, Shakedeal, IndiaMART, PaisaWapas, PriceE, PriceBefore, Smartprix,
+Pepperfry, DealsMagnet, us.smartprix.com — direct manufacturer/supplier
+sites are NEVER in this set) get a flat `MARKETPLACE_MARKUP_PCT` (10%)
+added to whatever live price is found, applied to `live_price` BEFORE
+the delta-vs-stored comparison — a marketplace listing often undercuts
+true MRP, so it can push a result from auto-apply into flagged, never
+the reverse. This is the owner's explicit call, separate from the Tier
+C-specific IndiaMART +15% rule below (Tier C's rule is for a *found*
+price being hand-applied once, not this script's automated markup).
+
+### Known gaps (Tier B)
+
+- The generic script's fix is only hand-verified for decathlon.in and
+  havells.com. The other ~190 catalog-wide Tier B candidates across
+  ~30 domains (ttkprestige, wayona, marshall, samsonite, mi.com, puma,
+  ferrerorocher, etc.) have NOT been checked for the same MRP-vs-sale
+  split — don't assume any of them are safe to bulk-apply without
+  checking by hand first.
+- Not wired into the daily cron — every run so far has been manual/
+  on-demand, scoped to specific domains, never the full catalog-wide
+  288 candidates in one go.
+- nykaa.com/nykaafashion.com need a dedicated CSS-attribute extractor
+  (not built) plus an explicit owner decision on the Apify cost.
+
+---
+
+## Tier C (no `sourceUrl` at all — search + mandatory image verification)
+
+Fundamentally different cost/rigor profile from A/B: there's no free
+structured endpoint, so every product needs a web search, a candidate
+page fetch, and — **non-negotiable, this is the whole point of the
+tier** — both the stored image and the candidate's image downloaded
+and actually viewed side by side (Bash `curl -sL <url> -o file.jpg`,
+then the Read tool on both local files) before trusting any price. A
+name/brand/model match alone is NOT enough; this has caught real wrong
+matches (different color, different silhouette/cut, same model-family-
+but-wrong-number) that would have silently mispriced a product.
+
+### How to run a batch
+
+No script exists for this (it can't be scripted — the verification
+step requires actually looking at images). Pattern established across
+2 pilot batches: pull a sample of Tier C products (id, name, stored
+price, category, stored `image` URL) from `data/products.json` where
+`sourceUrl` is empty, **excluding `trophiesMedalsAwards` and
+`diwaliHampers`** (see below — these are structurally out of scope),
+split across 2-3 parallel subagents (`Agent` tool, `general-purpose`),
+each briefed with: the method above, the exact product list, brand-
+specific hints (a known-good direct site to search first, a known
+false-positive trap to avoid, a prior finding about a related brand),
+and explicit instructions to investigate/report only — never edit
+`products.json` or commit, the orchestrating session applies results
+after reviewing every agent's report.
+
+### Trophies and hampers are (mostly) structurally out of scope
+
+Confirmed by actually testing it, not assumed: `trophiesMedalsAwards`
+(282 products) are overwhelmingly unpriceable this way — the catalog's
+own stored images are often stock photos of *already custom-engraved*
+demo trophies from unrelated stock libraries, and brand names like
+"LEK Trophies" return zero search footprint; there's no live SKU to
+find because these are made-to-order. `diwaliHampers` is a **mixed**
+case, not fully out of scope: the underlying brands (Ruchoks, etc.) are
+real and do sell individually-priced SKUs, but the catalog's generic
+product names ("Diwali Gift Hamper") don't identify which SKU, so
+matching fails on ambiguity, not true unpriceability — worth a future
+pass if names get more specific, but not worth the cost right now.
+`edible` (not a hamper category itself) is the opposite case — some of
+the best hit rates so far (Loyka, specific pack sizes) came from here.
+
+### Known failure modes, worth checking for before trusting a match
+
+- **B2B wholesale quote-only suppliers** (Idea2cart.com confirmed,
+  likely others): publish product photos/specs but deliberately
+  withhold price (`"price":"0"` in their own schema, MOQ-based,
+  WhatsApp-for-quote model). No amount of better searching fixes this
+  — it's a different kind of dead end, not a search failure.
+- **The same B2B reseller behind multiple "brands."** joytreeglobal.com
+  turned up repeatedly across UCB, M&S, and Puma matches with photography
+  pixel-identical to our stored catalog images — likely this catalog's
+  original apparel data source. Its prices are quoted in **USD
+  wholesale/quote figures**, not INR retail — do not apply those
+  directly as a retail-price delta; hold for manual review (a rough
+  FX conversion is not a verified retail comparison).
+- **Generic-phrase false matches.** A fuzzy name-match pass against a
+  brand's own bulk catalog (see the Coconut technique below) WILL
+  produce false positives on generic shared phrasing — e.g. 16 unrelated
+  "<Name> Office Cabinet" products all matched one single "Vault X3"
+  cabinet purely on the word "Office Cabinet." Image verification is
+  what catches this, not a higher similarity threshold.
+- **Model-code near-misses.** "LS03 Laptop Stand" scored 0.94 similar
+  to "LS02 Laptop Stand" in a fuzzy match — different SKU despite the
+  high score. Always check an exact model/code match, not just name
+  similarity, before accepting.
+- **Brand misattribution in the catalog's own stored data** (separate
+  from a wrong `sourceUrl`) — found twice: a "TTH Formal Shirt" photo
+  carrying a different brand's (Harfun) trademarked tagline, and a
+  Diwali hamper candle whose own stored label couldn't be confirmed as
+  the brand on file. Flag for manual review per the project's
+  brand-vs-competitor "stop and ask" rule — never guess which brand is
+  right.
+- **A brand secretly running its own Shopify store** is the single
+  biggest efficiency win available: check the stored `image` URL's
+  domain first — if it's `cdn.shopify.com`, the brand likely has a real
+  live store. Confirmed on Coconut (`coconutlife.in`): instead of
+  searching per-product, fetch the WHOLE catalog directly
+  (`https://<store>/products.json?limit=250&page=N`, paginate until a
+  page returns empty — 398 products across 2 pages for Coconut) and
+  cross-reference locally. Still image-verify every candidate (the
+  false-positive traps above apply just as much to a bulk catalog
+  match as to a web search), but it's far cheaper than one search per
+  product, and any resulting match belongs in **Tier A**, not Tier C —
+  add the `sourceUrl` and the existing free Tier A script picks it up
+  automatically (it's already domain-agnostic, matches any
+  `/products/<handle>` URL, no allowlist needed).
+
+### Pricing rule, Tier C-specific
+
+Owner's explicit call (2026-10-20): when a found price comes from
+**IndiaMART specifically**, apply a flat **+15%** markup before saving
+(separate from, and not combined with, Tier B's automated +10%
+`MARKETPLACE_MARKUP_PCT` rule — this is a one-time manual-apply rule
+for Tier C, decided independently). Everything else found via Tier C
+gets applied at face value as found. Always prefer MRP over sale price
+when a site shows both separately (see the Tier B MRP bug above — the
+same split shows up in Tier C sources too, e.g. Offikraft's OpenCart
+`price-new`/`price-old` spans).
+
+### Known gaps (Tier C)
+
+- No script — every batch needs fresh agent briefings. Two pilot
+  batches run so far (~75 products total), roughly a third getting a
+  confirmed image-verified match with a usable price; the rest split
+  between "not found," "no confident match" (correctly rejected), and
+  the B2B-quote-only dead end above.
+- 1,002 products total have no `sourceUrl`; only a small sample has
+  been through this process. A third batch is scheduled, but full
+  catalog coverage is a long way off and the cost-per-product here is
+  much higher than Tier A/B — don't assume it'll ever be cost-effective
+  to run exhaustively the way Tier A is.
