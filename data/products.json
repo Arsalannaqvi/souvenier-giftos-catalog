@@ -1433,7 +1433,7 @@
       "href": "/product/480",
       "subcategory": "2 in 1",
       "description": "Offikraft Eco Combo is a corporate gift set of office essentials made from renewable materials; the set consists of a Cork Notebook, Cork Pen, RPET Wireless Charger, and Bamboo Charging Cable.",
-      "sourceUrl": "https://dtcworld.com/?p=20776"
+      "sourceUrl": null
     },
     {
       "id": "comboSets-2",
@@ -20117,7 +20117,7 @@
       "id": "bagsLuggageTravel-159",
       "category": "bagsLuggageTravel",
       "name": "Tommy Hilfiger Marshal Hard Luggage",
-      "price": 5131,
+      "price": 8999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/db4785b1-e39e-4a8d-9906-21c34fbd26f9.png",
       "href": "/product/1324",
       "subcategory": "Trolley Bag",
@@ -20126,7 +20126,7 @@
         "Navy",
         "Black"
       ],
-      "sourceUrl": "https://www.nykaafashion.com/designers/tommy-hilfiger/c/6974"
+      "sourceUrl": "https://www.nykaafashion.com/tommy-hilfiger-marshall-textured-hard-luggage-cabin/p/8428329"
     },
     {
       "id": "bagsLuggageTravel-160",
@@ -20253,7 +20253,7 @@
       "webColours": [
         "Navy Blue"
       ],
-      "sourceUrl": "https://luxury.tatacliq.com/tommy-hilfiger-navy-blue-monett-laptop-messenger-bag"
+      "sourceUrl": "https://luxury.tatacliq.com/tommy-hilfiger-navy-unisex-monett-business-case/p-mp000000025220967"
     },
     {
       "id": "bagsLuggageTravel-164",
@@ -62390,10 +62390,11 @@
       "id": "coconut-55",
       "category": "computerAccessories",
       "name": "Gold Wireless Gaming Mouse",
-      "price": 1499,
+      "price": 799,
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-04-29_at_12.58.27_PM_1_1.jpg?v=1777447950",
       "subcategory": "Keyboards & Mice",
-      "description": "500mAh rechargeable battery, 7 button, 3200 DPI."
+      "description": "500mAh rechargeable battery, 7 button, 3200 DPI.",
+      "sourceUrl": "https://www.coconutlife.in/products/gold-wireless-gaming-mouse"
     },
     {
       "id": "coconut-59",
@@ -62546,7 +62547,8 @@
       "price": 12999,
       "image": "assets/products/coconut/22hda-monitor.jpg",
       "subcategory": "Monitors",
-      "description": "Frameless IPS, A+ grade BOE panel, 120Hz, HDMI + VGA, 6.5ms, 99% sRGB, 250 nits. 3 years warranty."
+      "description": "Frameless IPS, A+ grade BOE panel, 120Hz, HDMI + VGA, 6.5ms, 99% sRGB, 250 nits. 3 years warranty.",
+      "sourceUrl": "https://www.coconutlife.in/products/22hda-22-inch-full-hd-frameless-ips-monitor"
     },
     {
       "id": "coconut-123",
@@ -62555,16 +62557,18 @@
       "price": 16999,
       "image": "assets/products/coconut/24hd-monitor.jpg",
       "subcategory": "Monitors",
-      "description": "Frameless IPS, A+ grade, 100Hz, HDMI + VGA, 5ms, 94% sRGB, 250 nits, in-built speakers. 3 years warranty."
+      "description": "Frameless IPS, A+ grade, 100Hz, HDMI + VGA, 5ms, 94% sRGB, 250 nits, in-built speakers. 3 years warranty.",
+      "sourceUrl": "https://www.coconutlife.in/products/24hd-24-inch-monitor"
     },
     {
       "id": "coconut-126",
       "category": "computerAccessories",
       "name": "SM50 Power Supply",
-      "price": 1999,
+      "price": 2499,
       "image": "assets/products/coconut/sm50-psu.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "120mm fan, black powder coated, on/off switch, original Molex connectors."
+      "description": "120mm fan, black powder coated, on/off switch, original Molex connectors.",
+      "sourceUrl": "https://www.coconutlife.in/products/e900-sm50-900w-high-efficiency-computer-power-supply"
     },
     {
       "id": "coconut-130",
@@ -62573,7 +62577,8 @@
       "price": 1999,
       "image": "assets/products/coconut/giga-lan-hub.jpg",
       "subcategory": "Hubs & Docks",
-      "description": "3 ports USB 3.1 + Giga LAN (1000 Mbps)."
+      "description": "3 ports USB 3.1 + Giga LAN (1000 Mbps).",
+      "sourceUrl": "https://www.coconutlife.in/products/type-c-to-1000mbps-giga-lan-with-hub-3-3-0-usb-ports-plug-play-portable-design"
     },
     {
       "id": "coconut-131",
@@ -62582,7 +62587,8 @@
       "price": 1599,
       "image": "assets/products/coconut/glm02c.jpg",
       "subcategory": "Networking",
-      "description": "USB-C, 100/1000 Mbps Giga LAN, premium aluminium alloy housing."
+      "description": "USB-C, 100/1000 Mbps Giga LAN, premium aluminium alloy housing.",
+      "sourceUrl": "https://www.coconutlife.in/products/glm-02-c"
     },
     {
       "id": "coconut-133",
@@ -62606,10 +62612,11 @@
       "id": "coconut-145",
       "category": "computerAccessories",
       "name": "GLP 06 Giga LAN Adapter",
-      "price": 1799,
+      "price": 1299,
       "image": "assets/products/coconut/glp06.jpg",
       "subcategory": "Networking",
-      "description": "USB-C, 100/1000 Mbps, super speed USB LAN."
+      "description": "USB-C, 100/1000 Mbps, super speed USB LAN.",
+      "sourceUrl": "https://www.coconutlife.in/products/glp06c-type-c-to-gigabit-lan-adapter-1000-mbps"
     },
     {
       "id": "coconut-148",
@@ -62627,7 +62634,8 @@
       "price": 599,
       "image": "assets/products/coconut/dp-hdmi.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "DisplayPort to HDMI adapter."
+      "description": "DisplayPort to HDMI adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/dp-to-hdmi"
     },
     {
       "id": "coconut-152",
@@ -62636,7 +62644,8 @@
       "price": 999,
       "image": "assets/products/coconut/dp-hdmi-vga-dvi.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "DisplayPort to HDMI / VGA / DVI multi adapter."
+      "description": "DisplayPort to HDMI / VGA / DVI multi adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/dp-to-hdmi-vga-dvi-01"
     },
     {
       "id": "coconut-165",
@@ -62651,10 +62660,11 @@
       "id": "coconut-173",
       "category": "computerAccessories",
       "name": "Mini DP to HDMI, VGA, DVI Adapter",
-      "price": 999,
+      "price": 1149,
       "image": "assets/products/coconut/minidp-hdmi-vga-dvi.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "Mini DisplayPort to HDMI / VGA / DVI multi adapter."
+      "description": "Mini DisplayPort to HDMI / VGA / DVI multi adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/mini-dp-to-hdmi-vga-dvi-01"
     },
     {
       "id": "coconut-176",
@@ -62663,7 +62673,8 @@
       "price": 999,
       "image": "assets/products/coconut/usbc-vga.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "USB-C to VGA adapter."
+      "description": "USB-C to VGA adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-vga-01"
     },
     {
       "id": "coconut-178",
@@ -62672,7 +62683,8 @@
       "price": 1299,
       "image": "assets/products/coconut/usbc-dvi.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "USB-C to DVI adapter."
+      "description": "USB-C to DVI adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-dvi-01"
     },
     {
       "id": "coconut-184",
@@ -62681,7 +62693,8 @@
       "price": 1299,
       "image": "assets/products/coconut/usbc-minidp.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "USB-C to Mini DisplayPort adapter."
+      "description": "USB-C to Mini DisplayPort adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-mini-dp-01"
     },
     {
       "id": "coconut-188",
@@ -62690,7 +62703,8 @@
       "price": 1499,
       "image": "assets/products/coconut/usbc-dp.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "USB-C to DisplayPort adapter."
+      "description": "USB-C to DisplayPort adapter.",
+      "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-dp-01"
     },
     {
       "id": "coconut-192",
@@ -62699,7 +62713,8 @@
       "price": 999,
       "image": "assets/products/coconut/vga-hdmi-cable.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "VGA to HDMI converter cable with audio + USB."
+      "description": "VGA to HDMI converter cable with audio + USB.",
+      "sourceUrl": "https://www.coconutlife.in/products/vga-to-hdmi-converter-vga-male-to-hdmi-female-with-3-5mm-audio-jack"
     },
     {
       "id": "coconut-194",
@@ -62717,7 +62732,8 @@
       "price": 1499,
       "image": "assets/products/coconut/hdmi-vga-highspeed-premium.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "High speed 2M cable with premium chipset."
+      "description": "High speed 2M cable with premium chipset.",
+      "sourceUrl": "https://www.coconutlife.in/products/hdmi-to-vga-with-premium-chipset-2m-cable"
     },
     {
       "id": "coconut-199",
@@ -62726,7 +62742,8 @@
       "price": 1999,
       "image": "assets/products/coconut/ul02c.jpg",
       "subcategory": "Networking",
-      "description": "Type C to LAN + hub."
+      "description": "Type C to LAN + hub.",
+      "sourceUrl": "https://www.coconutlife.in/products/ul02-c-usb-c-hub-lan-ethernet-adapter-3x-usb-2-0-ports"
     },
     {
       "id": "coconut-204",
@@ -62743,7 +62760,8 @@
       "name": "Standy 01 Barcode Scanner Stand",
       "price": 999,
       "image": "assets/products/coconut/standy01.jpg",
-      "description": "Barcode scanner stand."
+      "description": "Barcode scanner stand.",
+      "sourceUrl": "https://www.coconutlife.in/products/stand-1-barcode-scanner-stand"
     },
     {
       "id": "coconut-213",
@@ -62785,7 +62803,8 @@
       "price": 799,
       "image": "assets/products/coconut/flow11.jpg",
       "subcategory": "Cooling",
-      "description": "140mm fan, 1 USB port, up to 17 inch laptops."
+      "description": "140mm fan, 1 USB port, up to 17 inch laptops.",
+      "sourceUrl": "https://www.coconutlife.in/products/folow-11-laptop-cooler-pad"
     },
     {
       "id": "coconut-239",
@@ -62874,7 +62893,8 @@
       "name": "MOBI 2 Mobile Stand",
       "price": 599,
       "image": "assets/products/coconut/mobi2.jpg",
-      "description": "Strong metal material, 360 degree rotation, weight 128 grm. Gifting Essentials Collection 01 (Desk Expression), item 05."
+      "description": "Strong metal material, 360 degree rotation, weight 128 grm. Gifting Essentials Collection 01 (Desk Expression), item 05.",
+      "sourceUrl": "https://www.coconutlife.in/products/mobi-2-mobile"
     },
     {
       "id": "coconut-281",
