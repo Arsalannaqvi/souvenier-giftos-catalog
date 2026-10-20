@@ -19,6 +19,28 @@ Three tiers, by how a product's `sourceUrl` is shaped:
   any match — categorically different cost/rigor profile from A/B, see
   its own section below.
 
+## Cost ladder: 🟢 cheap → 🟡 a little expensive → 🔴 pricey
+
+Within EACH tier, options range from free/near-free to genuinely
+expensive in tokens and/or metered API calls. Owner's policy
+(2026-10-20): for any price-update request, run 🟢 automatically, let
+it escalate to 🟡 automatically when 🟢 doesn't find/fix something, but
+**don't silently reach for 🔴** — either tell the owner what the 🔴
+option would cost before doing it, or let it wait for the weekly
+Saturday scheduled run (`trig_011cw8syyvNTkxQFZTGUd2jx`, recurring,
+see below) rather than running it ad hoc mid-week.
+
+| Tier | 🟢 Cheap (free/near-free) | 🟡 A little expensive | 🔴 Pricey |
+|---|---|---|---|
+| A | Shopify `/products/<handle>.json`, zero Claude usage, daily cron | This session triaging flagged/unreachable/multiVariant items (reads logs, reasons once, no paid APIs) | Re-discovering a broken/ambiguous product's correct Shopify listing — effectively a mini Tier C search+image-verify for just that item |
+| B | Plain `urllib` fetch + JSON-LD/microdata/`DOMAIN_MRP_PATTERNS` parsing, zero Claude usage once scripted | A handful of Apify `web-fetch`/`rag-web-browser` calls for bot-blocked domains (nykaa.com-style) — metered but no heavy reasoning | Reverse-engineering a brand-new domain's MRP pattern by hand (what produced today's decathlon.in/havells.com/luxury.tatacliq.com fixes) — real token spend per domain, and should be batched, not one-off |
+| C | Check for a secret structured catalog first (Shopify `/products.json` or similar) and match locally — no search, no subagents (the Coconut technique) | One Claude session doing search + fetch + image-verify directly, product by product, no subagents | The full multi-subagent parallel pilot-batch treatment (2-3 parallel agents, ~300-450k tokens each) — this IS the Saturday-scheduled work |
+
+Escalation order within a tier is always 🟢 first; 🟡 only when 🟢
+comes up empty/ambiguous for a specific item; 🔴 only on explicit ask
+or the Saturday schedule — never jump straight to 🔴 because 🟢 or 🟡
+"might not be worth trying."
+
 ## Tier A (Shopify)
 
 Checks every product whose `sourceUrl` is a Shopify product page
@@ -63,7 +85,10 @@ runs itself daily on a cron regardless of whether this skill is invoked.
    - `applied` — sanity-spot-check a few; these already went live.
    - `flagged` (delta >25%) — a human call per item: real price move
      (apply manually) vs. a bad read (leave it, note why).
-   - `multiVariant` — ambiguous; pick the right variant or leave as-is.
+   - `multiVariant` — ambiguous; 🟡 pick the right variant by hand or
+     leave as-is. If the ambiguity can't be resolved from the report
+     alone, that's 🔴 territory (re-discovering which listing is
+     right) — say so rather than guessing or silently skipping it.
    - `unreachable` — **never assume "broken site" from the count
      alone.** Group by `domain` + `error` first (see step 7).
    - `outOfScope` — not actionable here; `noSourceUrl` needs intake
@@ -88,7 +113,7 @@ runs itself daily on a cron regardless of whether this skill is invoked.
 
 ### How it works (architecture reference)
 
-- `scripts/check_live_prices.py` — the checker. For each Tier-A
+- 🟢 `scripts/check_live_prices.py` — the checker. For each Tier-A
   candidate, hits the supplier's own free
   `https://{domain}/products/{handle}.json` endpoint (a built-in Shopify
   feature, no scraping) and compares `price`/`compare_at_price` against
@@ -173,14 +198,17 @@ runs itself daily on a cron regardless of whether this skill is invoked.
 
 Two scripts, run manually so far (not on a cron except stovekraft's):
 
-- `scripts/check_live_prices_tier_b_stovekraft.py` — dedicated to
+- 🟢 `scripts/check_live_prices_tier_b_stovekraft.py` — dedicated to
   stovekraft.com alone, since it's 48% of all Tier B on its own. MRP
   sits in plain server-rendered HTML (`MRP :\n<span>₹3495.00</span>`),
   a regex over a normal fetch, no JS needed. **Wired into the daily
   cron** (`.github/workflows/daily-price-check.yml`), runs for free
   alongside Tier A every day.
-- `scripts/check_live_prices_tier_b_jsonld.py` — generic, covers every
-  other non-Shopify `sourceUrl` except stovekraft. Tries, in order:
+- 🟢 `scripts/check_live_prices_tier_b_jsonld.py` — generic, covers every
+  other non-Shopify `sourceUrl` except stovekraft, for every domain
+  already in `DOMAIN_MRP_PATTERNS` or confirmed reachable via plain
+  fetch below — still 🟢 (zero Claude usage, no metered API) once a
+  domain's pattern is known. Tries, in order:
   a per-domain MRP-preferring pattern (`DOMAIN_MRP_PATTERNS`, see the
   MRP bug below — currently decathlon.in and havells.com), then plain
   schema.org JSON-LD `offers.price`, then `AggregateOffer.lowPrice`,
@@ -225,14 +253,15 @@ Re-verified Oct 2026 with both methods, domain by domain:
 - **myntra.com** — blocked by BOTH (plain curl: connection reset;
   Apify's browser fetch: served an Akamai "Site Maintenance" error
   page). Not viably scrapable right now by either route.
-- **nykaa.com / nykaafashion.com** — no JSON-LD/microdata at all (price
-  is plain DOM text in hashed/data-attribute CSS classes) AND plain
-  HTTP 403s. Apify's browser fetch gets through to real content, but
-  extracting the price needs a dedicated CSS-attribute scraper (same
-  pattern as stovekraft's), and wiring Apify into the free GitHub
-  Actions cron changes its cost profile from free to metered — **that's
-  a real decision for the owner, not made yet** (~10 of Tommy
-  Hilfiger's 22 products alone sit on these two domains).
+- **nykaa.com / nykaafashion.com** — 🟡/🔴. No JSON-LD/microdata at all
+  (price is plain DOM text in hashed/data-attribute CSS classes) AND
+  plain HTTP 403s. Apify's browser fetch (🟡, metered per call) gets
+  through to real content, but extracting the price needs a dedicated
+  CSS-attribute scraper (🔴 to build, same pattern as stovekraft's),
+  and wiring Apify into the free GitHub Actions cron changes its cost
+  profile from free to metered — **that's a real decision for the
+  owner, not made yet** (~10 of Tommy Hilfiger's 22 products alone sit
+  on these two domains).
 - **luxury.tatacliq.com** — reachable via plain HTTP GET (what this
   script already does); Apify's browser fetch does WORSE here, getting
   stuck behind a reCAPTCHA Enterprise wall. BUT it has the same MRP-vs-
@@ -270,17 +299,26 @@ price being hand-applied once, not this script's automated markup).
 
 ### Known gaps (Tier B)
 
-- The generic script's fix is only hand-verified for decathlon.in and
-  havells.com. The other ~190 catalog-wide Tier B candidates across
-  ~30 domains (ttkprestige, wayona, marshall, samsonite, mi.com, puma,
-  ferrerorocher, etc.) have NOT been checked for the same MRP-vs-sale
-  split — don't assume any of them are safe to bulk-apply without
-  checking by hand first.
+- 🔴 The generic script's fix is only hand-verified for decathlon.in,
+  havells.com, and luxury.tatacliq.com. The other ~190 catalog-wide
+  Tier B candidates across ~30 domains (ttkprestige, wayona, marshall,
+  samsonite, mi.com, puma, ferrerorocher, etc.) have NOT been checked
+  for the same MRP-vs-sale split — don't assume any of them are safe to
+  bulk-apply without checking by hand first. This domain-by-domain
+  discovery work is exactly the 🔴 "pricey" Tier B item in the cost
+  ladder above — batch it into the Saturday schedule rather than doing
+  it piecemeal mid-week.
 - Not wired into the daily cron — every run so far has been manual/
   on-demand, scoped to specific domains, never the full catalog-wide
-  288 candidates in one go.
-- nykaa.com/nykaafashion.com need a dedicated CSS-attribute extractor
-  (not built) plus an explicit owner decision on the Apify cost.
+  288 candidates in one go. Don't wire the FULL generic script into the
+  cron until the ~190 unverified domains above have been checked —
+  doing so now would risk silently auto-applying a sale price as if it
+  were MRP on any domain with the same split this script hasn't found
+  yet.
+- 🟡/🔴 nykaa.com/nykaafashion.com need a dedicated CSS-attribute
+  extractor (not built, 🔴) plus an explicit owner decision on the
+  Apify cost (🟡 per-call, but changes the cron's cost profile if wired
+  in permanently).
 
 ---
 
@@ -296,21 +334,39 @@ name/brand/model match alone is NOT enough; this has caught real wrong
 matches (different color, different silhouette/cut, same model-family-
 but-wrong-number) that would have silently mispriced a product.
 
-### How to run a batch
+### How to run a batch — always check 🟢 before reaching for 🔴
 
-No script exists for this (it can't be scripted — the verification
-step requires actually looking at images). Pattern established across
-2 pilot batches: pull a sample of Tier C products (id, name, stored
-price, category, stored `image` URL) from `data/products.json` where
-`sourceUrl` is empty, **excluding `trophiesMedalsAwards` and
-`diwaliHampers`** (see below — these are structurally out of scope),
-split across 2-3 parallel subagents (`Agent` tool, `general-purpose`),
-each briefed with: the method above, the exact product list, brand-
-specific hints (a known-good direct site to search first, a known
-false-positive trap to avoid, a prior finding about a related brand),
-and explicit instructions to investigate/report only — never edit
-`products.json` or commit, the orchestrating session applies results
-after reviewing every agent's report.
+**🟢 Step 1, always do this first, per brand, before any search:**
+check whether the stored `image` URL's domain is `cdn.shopify.com` (or
+similarly tells you the brand runs its own structured store). If so,
+fetch its WHOLE catalog directly (`https://<store>/products.json
+?limit=250&page=N`, paginate to empty) and match locally — no search,
+no subagents, no per-product cost. See the Coconut technique further
+down. Any match found this way is **Tier A**, not Tier C — add the
+`sourceUrl` and stop, the free daily cron takes it from there.
+
+**🟡 Step 2**, for whatever's left after step 1: one Claude session
+(not subagents) doing search + candidate fetch + mandatory image
+download-and-view, product by product. Fine for a small number of
+items or a quick single-product fix (e.g. re-sourcing one flagged
+product).
+
+**🔴 Step 3**, the full pilot-batch treatment — only for a real batch
+(dozens of products), and **this is the Saturday-scheduled work**, not
+a mid-week default. No script exists for this (it can't be scripted —
+the verification step requires actually looking at images). Pattern
+established across 2 pilot batches: pull a sample of Tier C products
+(id, name, stored price, category, stored `image` URL) from
+`data/products.json` where `sourceUrl` is empty, **excluding
+`trophiesMedalsAwards` and `diwaliHampers`** (see below — these are
+structurally out of scope), split across 2-3 parallel subagents
+(`Agent` tool, `general-purpose`), each briefed with: the method
+above, the exact product list, brand-specific hints (a known-good
+direct site to search first, a known false-positive trap to avoid, a
+prior finding about a related brand), and explicit instructions to
+investigate/report only — never edit `products.json` or commit, the
+orchestrating session applies results after reviewing every agent's
+report.
 
 ### Trophies and hampers are (mostly) structurally out of scope
 
@@ -394,7 +450,27 @@ same split shows up in Tier C sources too, e.g. Offikraft's OpenCart
   between "not found," "no confident match" (correctly rejected), and
   the B2B-quote-only dead end above.
 - 1,002 products total have no `sourceUrl`; only a small sample has
-  been through this process. A third batch is scheduled, but full
-  catalog coverage is a long way off and the cost-per-product here is
-  much higher than Tier A/B — don't assume it'll ever be cost-effective
-  to run exhaustively the way Tier A is.
+  been through this process. Full catalog coverage is a long way off
+  and the cost-per-product here is much higher than Tier A/B — don't
+  assume it'll ever be cost-effective to run exhaustively the way
+  Tier A is. This is the main reason the 🔴 batch treatment is on a
+  weekly Saturday schedule rather than run whenever asked.
+
+---
+
+## Weekly Saturday schedule for 🔴 pricey-tier work
+
+A recurring scheduled task (`trig_011cw8syyvNTkxQFZTGUd2jx`, CRON_TZ=
+Asia/Kolkata, Saturdays ~8:45 AM IST) fires into this project's Claude
+session every week. Its job: check `codex-briefing.md` for what's
+already been covered, then run whichever tier's 🔴 pricey-level work is
+most valuable that week — another Tier C batch, a Tier B domain-
+discovery pass on a few of the ~190 unverified candidates, or Tier A
+rediscovery for any broken/ambiguous products accumulated that week —
+with the same rigor as every prior session (never guess, image-verify
+Tier C matches, flag ambiguous cases, commit+push, log to
+`codex-briefing.md`). This is the intended home for 🔴 work: don't
+reach for it ad hoc mid-week unless the owner explicitly asks for that
+specific thing (as happened with the Monett Business Case fix, which
+was 🟡-sized — one product, one fetch — not a reason to skip straight
+to a 🔴 batch).
