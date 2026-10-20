@@ -30,6 +30,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 
+import escalation_queue
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 PRODUCTS_PATH = DATA / "products.json"
@@ -213,6 +215,17 @@ def main():
         },
     }
     json.dump(report, open(REPORT_PATH, "w"), ensure_ascii=False, indent=2)
+
+    # Cost-ladder escalation queue (see scripts/escalation_queue.py):
+    # anything this free/🟢 pass couldn't resolve enters (or stays in)
+    # the queue at 🟡, so it isn't forgotten the moment tomorrow's report
+    # overwrites this one. Anything that WAS stuck but is resolved now
+    # (applied/unchanged today) drops out of the queue.
+    unresolved = flagged + multi_variant + unreachable
+    unresolved_ids = {u["id"] for u in unresolved}
+    checked_ids = {p["id"] for p, _, _ in candidates}
+    escalation_queue.sync_unresolved("A", "tier_a_shopify", unresolved)
+    escalation_queue.sync_resolved("tier_a_shopify", checked_ids, unresolved_ids)
 
     print(f"Unchanged: {unchanged_count}")
     print(f"Applied: {len(applied)}")

@@ -41,6 +41,39 @@ comes up empty/ambiguous for a specific item; 🔴 only on explicit ask
 or the Saturday schedule — never jump straight to 🔴 because 🟢 or 🟡
 "might not be worth trying."
 
+### The escalation queue — how a PRODUCT actually moves through this, not just a menu of options
+
+`scripts/escalation_queue.py` makes the ladder a real per-product
+funnel, not just documentation to remember: a daily/on-demand 🟢 run
+that can't resolve a product doesn't just vanish into an
+overwritten-tomorrow report — it lands in
+`data/price_check_escalation_queue.json` at level `"yellow"` (needs 🟡
+attention) and stays there, with full history, until it's either fixed
+or explicitly bumped to `"red"` (needs 🔴/Saturday attention) after a 🟡
+attempt also failed. Escalating to `"red"` is NEVER automatic — only an
+explicit `bump` call, by a human or a session that actually tried the
+🟡-level fix and watched it fail. This is Tier A/B only (`tier_a_shopify`,
+`tier_b_stovekraft`, `tier_b_jsonld` each own their own slice — see the
+module's docstring for why cross-script scoping matters: two Tier B
+scripts cover disjoint domains and must never clear each other's
+entries); Tier C has no automated script to wire in, so its backlog is
+just `products.json` filtered to `sourceUrl is None`, which doesn't
+need a separate queue to stay accurate.
+
+```
+python3 scripts/escalation_queue.py list --level red          # this week's 🔴 worklist
+python3 scripts/escalation_queue.py list --level yellow       # needs a 🟡 look
+python3 scripts/escalation_queue.py bump <id> --to red --reason "..."   # after a 🟡 attempt fails
+python3 scripts/escalation_queue.py resolve <id>               # manually clear an entry
+```
+
+`check_live_prices.py`, `check_live_prices_tier_b_stovekraft.py`, and
+`check_live_prices_tier_b_jsonld.py` all call `sync_unresolved()`/
+`sync_resolved()` automatically at the end of every run — no extra step
+needed to keep the queue current for whatever those scripts already
+cover. The Saturday 🔴 job reads `list --level red` as its priority
+worklist before picking anything new.
+
 ## Tier A (Shopify)
 
 Checks every product whose `sourceUrl` is a Shopify product page

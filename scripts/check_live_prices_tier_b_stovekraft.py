@@ -32,6 +32,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+import escalation_queue
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 PRODUCTS_PATH = DATA / "products.json"
@@ -159,6 +161,12 @@ def main():
         "unreachable": unreachable,
     }
     json.dump(report, open(REPORT_PATH, "w"), ensure_ascii=False, indent=2)
+
+    unresolved = flagged + unreachable
+    unresolved_ids = {u["id"] for u in unresolved}
+    checked_ids = {p["id"] for p in candidates}
+    escalation_queue.sync_unresolved("B", "tier_b_stovekraft", unresolved)
+    escalation_queue.sync_resolved("tier_b_stovekraft", checked_ids, unresolved_ids)
 
     print(f"Unchanged: {unchanged_count}")
     print(f"Applied: {len(applied)}")
