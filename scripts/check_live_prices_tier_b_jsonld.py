@@ -165,6 +165,12 @@ MICRODATA_PRICE_RE = re.compile(
 # - havells.com: a Magento-style JSON blob `"pricing":{"regularPrice":M,...}`
 #   appears exactly once per page; regularPrice is the MRP even when
 #   specialPrice is null (no active discount).
+# - luxury.tatacliq.com: found the same way, by hand, fixing one specific
+#   flagged product (bagsLuggageTravel-163) rather than a planned sweep --
+#   `"mrpPrice":{...,"doubleValue":M,...}` appears once per page; confirmed
+#   against a live page where it agreed exactly (6499) with this catalog's
+#   own stored brand-poster MRP for the same SKU, independent of the
+#   JSON-LD offers.price (3249, the sale price).
 # Only use these on the domain they were verified against -- do NOT assume
 # any other domain in MARKETPLACE_DOMAINS or elsewhere has the same split
 # without checking by hand first (that's exactly the mistake this fixes).
@@ -173,6 +179,7 @@ DOMAIN_MRP_PATTERNS = {
     "www.decathlon.in": re.compile(r"a\.price=\{sellingPrice:\d+,mrp:(\d+)"),
     "havells.com": re.compile(r'"pricing":\{"regularPrice":(\d+(?:\.\d+)?)'),
     "www.havells.com": re.compile(r'"pricing":\{"regularPrice":(\d+(?:\.\d+)?)'),
+    "luxury.tatacliq.com": re.compile(r'"mrpPrice":\{[^}]*?"doubleValue":(\d+(?:\.\d+)?)'),
 }
 
 RETRYABLE_HTTP_STATUS = {429, 502, 503}
