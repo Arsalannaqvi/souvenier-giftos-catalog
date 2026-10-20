@@ -19,6 +19,13 @@ Three tiers, by how a product's `sourceUrl` is shaped:
   any match — categorically different cost/rigor profile from A/B, see
   its own section below.
 
+**Before doing any individual product research** (Tier C, or a Tier
+A/B product with its own wrinkle), check
+`.claude/skills/livepriceupdate/product-price-log.json` — a per-product
+log of exactly how each one was found/verified before, so the method
+doesn't need re-deriving from chat history each time. See the Tier C
+section below for the full protocol.
+
 ## Cost ladder: 🟢 cheap → 🟡 a little expensive → 🔴 pricey
 
 Within EACH tier, options range from free/near-free to genuinely
@@ -367,6 +374,21 @@ name/brand/model match alone is NOT enough; this has caught real wrong
 matches (different color, different silhouette/cut, same model-family-
 but-wrong-number) that would have silently mispriced a product.
 
+**Before researching ANY product (Tier C, or a Tier A/B one with a
+product-specific wrinkle like a wrong sourceUrl), check
+`.claude/skills/livepriceupdate/product-price-log.json` first.** It's
+a per-product record of exactly how each individually-researched
+product's price was found and verified — which candidate, which
+brand-specific search strategy, what verification caught (or didn't),
+what caveats remain — so the method doesn't have to be re-derived from
+chat history every time. It does NOT have an entry for every plain
+Tier A/B product (those follow one uniform scripted method, documented
+above instead); an entry means a human/agent actually had to look at
+that specific product. Read its own `_usage` field for the full
+protocol: look a product up there before researching it fresh, and
+**always add an entry for any new product you research** (or update an
+existing one) so the next session doesn't repeat the work.
+
 ### How to run a batch — always check 🟢 before reaching for 🔴
 
 **🟢 Step 1, always do this first, per brand, before any search:**
@@ -399,7 +421,10 @@ direct site to search first, a known false-positive trap to avoid, a
 prior finding about a related brand), and explicit instructions to
 investigate/report only — never edit `products.json` or commit, the
 orchestrating session applies results after reviewing every agent's
-report.
+report. **After applying, add an entry per researched product to
+`product-price-log.json`** (method, candidate, verification, caveats)
+— this is what makes the next batch cheaper to brief and the next
+spot-check faster to answer, instead of re-reading old chat transcripts.
 
 ### Trophies and hampers are (mostly) structurally out of scope
 
