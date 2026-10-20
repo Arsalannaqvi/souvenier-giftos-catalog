@@ -521,10 +521,11 @@
       "id": "travelAccessories-10",
       "category": "travelAccessories",
       "name": "Remaxx Travel Neck Pillow with Massager",
-      "price": 1114,
+      "price": 1249,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/fabf5755-d666-4a6a-95e8-dbec6ee580b8.jpg",
       "href": "/product/280",
-      "subcategory": "Travel Pillows"
+      "subcategory": "Travel Pillows",
+      "sourceUrl": "https://remaxx.in/products/remaxx-rechargeble-u-shaped-travel-neck-massage-pillow"
     },
     {
       "id": "sportsFitnessOutdooors-1",
@@ -732,17 +733,19 @@
       "id": "personalLifestyle-1",
       "category": "sportsLifestyle",
       "name": "Decathlon DE-65 | Micro-Fibre Towel",
-      "price": 661,
+      "price": 249,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/74995cea-57ff-47df-a1b6-923a5a8aea38.png",
-      "href": "/product/2712"
+      "href": "/product/2712",
+      "sourceUrl": "https://www.decathlon.in/p/8584432"
     },
     {
       "id": "personalLifestyle-2",
       "category": "sportsLifestyle",
       "name": "Decathlon DE-64 | Micro-Fibre Towel",
-      "price": 527,
+      "price": 399,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/c9c9dbb2-c8d5-4e74-9e5b-98dcc64385d6.png",
-      "href": "/product/2711"
+      "href": "/product/2711",
+      "sourceUrl": "https://www.decathlon.in/p/8584433"
     },
     {
       "id": "personalLifestyle-3",
@@ -1092,14 +1095,15 @@
       "id": "kitchenAppliances-1",
       "category": "kitchenAppliances",
       "name": "RICO Nutri Pro (Model-MG2203)",
-      "price": 3028,
+      "price": 4126,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/2ef2a847-8f9b-4532-88ac-017d7194cab2.JPG",
       "href": "/product/1174",
       "subcategory": "Grinder",
       "images": [
         "https://d39bd3o2tztcvw.cloudfront.net/2ef2a847-8f9b-4532-88ac-017d7194cab2.JPG",
         "https://d39bd3o2tztcvw.cloudfront.net/7c11174a-5e36-4989-bc7f-2aee2b18653f.JPG"
-      ]
+      ],
+      "sourceUrl": "https://www.flipkart.com/rico-isi-certified-18-monhts-replacement-warranty-400-w-juicer-mixer-grinder/p/itmdaf3d63156449?pid=MIXGVQAGRY5HRHNK"
     },
     {
       "id": "kitchenAppliances-2",
@@ -5093,10 +5097,11 @@
       "id": "edible-2",
       "category": "edible",
       "name": "Loyka Almond Brittle Assorted Pack (3 Pcs)",
-      "price": 145,
+      "price": 130,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/362d63c7-9a89-4028-9355-7e8eda4405af.jpeg",
       "href": "/product/239",
-      "subcategory": "Hampers and Gourmet Gifts"
+      "subcategory": "Hampers and Gourmet Gifts",
+      "sourceUrl": "https://loyka.co/products/assorted-3-pcs-box"
     },
     {
       "id": "edible-3",
@@ -8193,7 +8198,7 @@
       "id": "apparel-37",
       "category": "apparel",
       "name": "Scott 400/ Hoodie with Zip",
-      "price": 851,
+      "price": 604,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/af412ac2-4284-4053-b787-5e9cc6f2e00c.jpeg",
       "href": "/product/2190",
       "subcategory": "Hoodie",
@@ -8250,7 +8255,8 @@
         "https://d39bd3o2tztcvw.cloudfront.net/8db8fb7d-17fa-42e1-80f7-e1d492556a31.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/2952c89f-90b0-438b-ad5d-5ba71fdd4548.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/80ac326c-5b59-4ab9-be0b-b6eb922f771d.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://www.amazon.ae/Scott-International-Regular-Sweatshirt-1-1_sshz8_S/dp/B012GCK9CS"
     },
     {
       "id": "apparel-38",
@@ -8772,7 +8778,7 @@
       "id": "apparel-65",
       "category": "apparel",
       "name": "Puma Poly Polo T Shirt",
-      "price": 872,
+      "price": 988,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/fe3b5dde-d329-47a3-bd55-5169aff31a37.jpeg",
       "href": "/product/1315",
       "subcategory": "Polo T-shirt",
@@ -8804,13 +8810,14 @@
         "https://d39bd3o2tztcvw.cloudfront.net/85911246-54c4-4894-8cfe-791bd2d6b039.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/52511fe0-1aaf-47e3-9deb-f1b268f45998.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/5bb3b7d7-ae1d-4426-9cf7-5d2ebf647705.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://www.amazon.in/dp/B0DT7QBMFF"
     },
     {
       "id": "apparel-66",
       "category": "apparel",
       "name": "Puma Training Cap",
-      "price": 553,
+      "price": 443,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/37d8851f-c83a-47fa-abbe-b0e2732aae51.jpeg",
       "href": "/product/1314",
       "subcategory": "Caps & Hats",
@@ -8850,7 +8857,8 @@
         "https://d39bd3o2tztcvw.cloudfront.net/7e09c28e-d592-4925-a9bc-d836fe6768dc.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/36ce3ba9-2729-4924-b2bf-102710c4e9cf.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/740abd4c-511d-43d5-b929-1d94c1f2f98a.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://www.indiamart.com/proddetail/puma-training-cap-2853519597555.html"
     },
     {
       "id": "apparel-67",
@@ -10261,7 +10269,7 @@
       "id": "apparel-112",
       "category": "apparel",
       "name": "M&S Tipping Polo T-shirt",
-      "price": 921,
+      "price": 1499,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/d737021e-be81-4ce7-9fc7-e41779edbfa9.jpeg",
       "href": "/product/135",
       "subcategory": "Tipping Polo Tshirt",
@@ -10342,13 +10350,14 @@
         "https://d39bd3o2tztcvw.cloudfront.net/bcfc41f5-e8f1-4ed9-bcc8-dbb192ff4a1a.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/1a2b4fa5-ef45-4f02-902b-3e80d462936a.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/030f2d08-d6ee-4648-ae51-30173601b4d7.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://joytreeglobal.com/products/ms-tipping-polo-t-shirt-premium-corporate-apparel"
     },
     {
       "id": "apparel-113",
       "category": "apparel",
       "name": "M&S Sweatshirt",
-      "price": 1706,
+      "price": 2725,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/050143b9-e3dd-4533-b082-77ba892fe8f7.jpeg",
       "href": "/product/133",
       "subcategory": "Sweatshirts",
@@ -10381,7 +10390,8 @@
         "https://d39bd3o2tztcvw.cloudfront.net/050143b9-e3dd-4533-b082-77ba892fe8f7.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/78935549-ca79-4b59-86ed-a95b8f91f34d.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/bdfec472-6095-4cfe-9cb6-8cb53b95b982.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://joytreeglobal.com/products/ms-sweatshirt-premium-corporate-apparel"
     },
     {
       "id": "apparel-114",
