@@ -1,9 +1,12 @@
 name: Daily live price check
 
-# Tier A only: Shopify-backed suppliers whose /products/<handle>.json
-# endpoint we can read for free, no scraping. Runs entirely on GitHub's
-# infrastructure -- costs nothing beyond included Actions minutes, and
-# never touches Claude usage. See scripts/check_live_prices.py.
+# Tier A: Shopify-backed suppliers whose /products/<handle>.json
+# endpoint we can read for free, no scraping. See scripts/check_live_prices.py.
+# Tier B (stovekraft.com): not Shopify, but the MRP is plain
+# server-rendered HTML -- a regex over a normal page fetch, still free.
+# See scripts/check_live_prices_tier_b_stovekraft.py.
+# Both run entirely on GitHub's infrastructure -- costs nothing beyond
+# included Actions minutes, and never touches Claude usage.
 
 on:
   schedule:
@@ -24,8 +27,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run live price check
+      - name: Run live price check (Tier A — Shopify)
         run: python3 scripts/check_live_prices.py
+
+      - name: Run live price check (Tier B — stovekraft.com)
+        run: python3 scripts/check_live_prices_tier_b_stovekraft.py
 
       - name: Regenerate product and brand pages
         run: |
@@ -36,11 +42,11 @@ jobs:
         run: |
           git config user.name "price-check-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/products.json data/price_check_report.json product/ brand/
+          git add data/products.json data/price_check_report.json data/price_check_report_tier_b_stovekraft.json product/ brand/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Daily live price check: apply Shopify-verified price updates" \
-              -m "See data/price_check_report.json for what changed and what was flagged for manual review."
+            git commit -m "Daily live price check: apply Tier A/B-verified price updates" \
+              -m "See data/price_check_report.json (Tier A) and data/price_check_report_tier_b_stovekraft.json (Tier B) for what changed and what was flagged for manual review."
             git push
           fi
