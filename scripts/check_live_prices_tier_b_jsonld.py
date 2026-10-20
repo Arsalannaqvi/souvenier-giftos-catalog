@@ -3,11 +3,25 @@
 
 Covers every remaining non-Shopify sourceUrl EXCEPT stovekraft.com
 (which has its own dedicated script, check_live_prices_tier_b_stovekraft.py,
-since it's 48% of Tier B on its own). Confirmed by hand on real pages:
-decathlon.in and havells.com embed a standard schema.org Product block
-with offers.price/priceCurrency in a plain <script type=
-"application/ld+json"> tag -- no JS execution needed to read it, so
-this is one generic extractor instead of one script per domain.
+since it's 48% of Tier B on its own). decathlon.in and havells.com embed
+a standard schema.org Product block with offers.price/priceCurrency in
+a plain <script type="application/ld+json"> tag -- no JS execution
+needed to read it, so this is one generic extractor instead of one
+script per domain. **IMPORTANT, found and fixed Oct 2026 by actually
+running this script for real and hand-verifying its output on live
+pages, not just trusting that it parsed something**: that offers.price
+field is reliably the current SALE price on both domains, never MRP,
+which breaks this project's "stored price tracks live MRP" rule outright
+-- the 25%-threshold auto-apply logic was about to silently bake a
+site's current discount depth into the catalog as if it were a real MRP
+update. Real MRP lives in a separate, non-JSON-LD field on each site
+(see DOMAIN_MRP_PATTERNS below), which this script now prefers whenever
+a per-domain pattern exists, falling back to the generic extractor only
+when it doesn't. This same risk applies to every other domain this
+script reaches: "a price field parsed successfully" is NOT sufficient
+evidence it's the RIGHT price field -- hand-verify MRP vs. sale price
+specifically before trusting a new domain, the same discipline that
+caught this bug in the first place.
 
 Two more shapes are handled beyond plain Offer.price, both confirmed
 hand-verified on real pages during the Oct 2026 PowerPlus/Rico/Artis/
@@ -137,6 +151,30 @@ MICRODATA_PRICE_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Per-domain MRP extractors. CONFIRMED BUG (Oct 2026): decathlon.in and
+# havells.com both expose a clean, parseable JSON-LD offers.price -- but
+# that field is reliably the current SALE price on both, never MRP, which
+# directly breaks this project's "stored price tracks live MRP" rule. Real
+# MRP lives in a separate, non-JSON-LD field each site embeds in its own
+# page state, hand-verified against several live product pages before
+# trusting either pattern:
+# - decathlon.in: a client-state object `a.price={sellingPrice:N,mrp:M,...}`
+#   appears exactly once per page and is unambiguously the page's own
+#   product (not a cross-sell/related-product card, which use a different
+#   key, `priceForFront`/nested `price:{...}` inside a product-list array).
+# - havells.com: a Magento-style JSON blob `"pricing":{"regularPrice":M,...}`
+#   appears exactly once per page; regularPrice is the MRP even when
+#   specialPrice is null (no active discount).
+# Only use these on the domain they were verified against -- do NOT assume
+# any other domain in MARKETPLACE_DOMAINS or elsewhere has the same split
+# without checking by hand first (that's exactly the mistake this fixes).
+DOMAIN_MRP_PATTERNS = {
+    "decathlon.in": re.compile(r"a\.price=\{sellingPrice:\d+,mrp:(\d+)"),
+    "www.decathlon.in": re.compile(r"a\.price=\{sellingPrice:\d+,mrp:(\d+)"),
+    "havells.com": re.compile(r'"pricing":\{"regularPrice":(\d+(?:\.\d+)?)'),
+    "www.havells.com": re.compile(r'"pricing":\{"regularPrice":(\d+(?:\.\d+)?)'),
+}
+
 RETRYABLE_HTTP_STATUS = {429, 502, 503}
 
 
@@ -258,7 +296,16 @@ def main():
             unreachable.append({"id": p["id"], "name": p["name"], "domain": domain, "sourceUrl": url, "error": str(e)})
             continue
 
-        raw_price = extract_offer_price(html)
+        mrp_pattern = DOMAIN_MRP_PATTERNS.get(domain)
+        used_mrp_extractor = False
+        raw_price = None
+        if mrp_pattern is not None:
+            m = mrp_pattern.search(html)
+            if m:
+                raw_price = m.group(1)
+                used_mrp_extractor = True
+        if raw_price is None:
+            raw_price = extract_offer_price(html)
         if raw_price is None:
             unreachable.append({"id": p["id"], "name": p["name"], "domain": domain, "sourceUrl": url, "error": "no JSON-LD offers.price found"})
             continue
@@ -278,6 +325,7 @@ def main():
         record = {
             "id": p["id"], "name": p["name"], "domain": domain,
             "storedPrice": stored_price, "livePrice": live_price,
+            "priceSource": "mrp" if used_mrp_extractor else "offers.price (generic -- unverified MRP vs sale)",
             "marketplaceMarkupApplied": is_marketplace,
             "sourceUrl": url,
         }
