@@ -233,10 +233,16 @@ Re-verified Oct 2026 with both methods, domain by domain:
   Actions cron changes its cost profile from free to metered — **that's
   a real decision for the owner, not made yet** (~10 of Tommy
   Hilfiger's 22 products alone sit on these two domains).
-- **luxury.tatacliq.com** — the OPPOSITE: a plain HTTP GET (what this
-  script already does) returns full server-rendered JSON-LD and just
-  works; Apify's browser fetch does WORSE here, getting stuck behind a
-  reCAPTCHA Enterprise wall. No code change needed, already handled.
+- **luxury.tatacliq.com** — reachable via plain HTTP GET (what this
+  script already does); Apify's browser fetch does WORSE here, getting
+  stuck behind a reCAPTCHA Enterprise wall. BUT it has the same MRP-vs-
+  sale-price split as decathlon.in/havells.com: JSON-LD `offers.price`
+  is the sale price; real MRP is in a separate `"mrpPrice":{...,
+  "doubleValue":M,...}` field. Found and fixed 2026-10-20 while fixing
+  one specific flagged product by hand, not a planned sweep — now in
+  `DOMAIN_MRP_PATTERNS` too. Verified against a real page where it
+  agreed exactly (6499) with this catalog's own stored brand-poster MRP
+  for the same SKU.
 - **flipkart.com / croma.com** — confirmed genuinely unreachable, not a
   bot block: pure client-rendered React with zero server-rendered
   JSON-LD/microdata of any kind on every real product page tested.
