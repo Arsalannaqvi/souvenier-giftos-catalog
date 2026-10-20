@@ -1,10 +1,198 @@
 {
-  "checkedAt": "2026-10-18T07:36:55.903710+00:00",
+  "checkedAt": "2026-10-19T08:13:42.550718+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1395,
-  "unchanged": 756,
-  "applied": [],
+  "unchanged": 745,
+  "applied": [
+    {
+      "id": "electronics-359",
+      "name": "Blaupunkt Rock & Roll Ibiza Party Speaker",
+      "domain": "www.blaupunktaudio.in",
+      "storedPrice": 20281,
+      "livePrice": 16990,
+      "liveMrp": 39990,
+      "sourceUrl": "https://www.blaupunktaudio.in/products/rock-roll-ibiza-indias-1st-party-speaker-with-recording",
+      "deltaPct": 16.2,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-376",
+      "name": "Noise Pure Pods",
+      "domain": "gonoise.com",
+      "storedPrice": 2859,
+      "livePrice": 2299,
+      "liveMrp": 6999,
+      "sourceUrl": "https://gonoise.com/products/noise-pure-pods-open-ear-headphones",
+      "deltaPct": 19.6,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-383",
+      "name": "Noise Airwave Max 6",
+      "domain": "gonoise.com",
+      "storedPrice": 6499,
+      "livePrice": 4999,
+      "liveMrp": 6999,
+      "sourceUrl": "https://gonoise.com/products/noise-airwave-max-6-headphone",
+      "deltaPct": 23.1,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-384",
+      "name": "Noise Airwave Max 3",
+      "domain": "gonoise.com",
+      "storedPrice": 1999,
+      "livePrice": 1799,
+      "liveMrp": 5499,
+      "sourceUrl": "https://gonoise.com/products/noise-airwave-max-three-wireless-headphone",
+      "deltaPct": 10.0,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-386",
+      "name": "Noise Masterbuds Max",
+      "domain": "gonoise.com",
+      "storedPrice": 11441,
+      "livePrice": 8999,
+      "liveMrp": 11999,
+      "sourceUrl": "https://gonoise.com/products/noise-master-buds-max-wireless-headphone",
+      "deltaPct": 21.3,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-387",
+      "name": "Noise Airwave Max 5",
+      "domain": "gonoise.com",
+      "storedPrice": 5720,
+      "livePrice": 4999,
+      "liveMrp": 5999,
+      "sourceUrl": "https://gonoise.com/products/noise-airwave-max-5-headphone",
+      "deltaPct": 12.6,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-391",
+      "name": "Noise Airwave Max XR",
+      "domain": "gonoise.com",
+      "storedPrice": 3861,
+      "livePrice": 3499,
+      "liveMrp": 4999,
+      "sourceUrl": "https://gonoise.com/products/noise-airwave-max-xr-wireless-headphone",
+      "deltaPct": 9.4,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-392",
+      "name": "Noise N2 Pro",
+      "domain": "gonoise.com",
+      "storedPrice": 1599,
+      "livePrice": 1799,
+      "liveMrp": 4999,
+      "sourceUrl": "https://gonoise.com/products/noise-buds-n2-pro-truly-wireless-bluetooth-earbuds",
+      "deltaPct": 12.5,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-399",
+      "name": "Noise Master Buds",
+      "domain": "gonoise.com",
+      "storedPrice": 6865,
+      "livePrice": 5499,
+      "liveMrp": 7999,
+      "sourceUrl": "https://gonoise.com/products/noise-master-buds-truly-wireless-earbuds",
+      "deltaPct": 19.9,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-417",
+      "name": "boAt Sailor Nav",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 7999,
+      "livePrice": 6999,
+      "liveMrp": 7999,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-sailor-nav",
+      "deltaPct": 12.5,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-535",
+      "name": "boAt Airdopes Ace Gen 2",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 5790,
+      "livePrice": 6090,
+      "liveMrp": 5990,
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace-gen-2-true-wireless-earbuds",
+      "deltaPct": 5.2,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-614",
+      "name": "boAt Bassheads 105",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 999,
+      "livePrice": 899,
+      "liveMrp": 999,
+      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-105",
+      "deltaPct": 10.0,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-726",
+      "name": "EnergyShroom PB300 SS Edition",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 2999,
+      "livePrice": 2399,
+      "liveMrp": 2999,
+      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-powerbank",
+      "deltaPct": 20.0,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-733",
+      "name": "67W GaN Charger",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 2199,
+      "livePrice": 2299,
+      "liveMrp": 2499,
+      "sourceUrl": "https://boat-lifestyle.com/products/67w-gan-charger",
+      "deltaPct": 4.5,
+      "action": "applied"
+    },
+    {
+      "id": "apparel-154",
+      "name": "Campus Camp-Erik",
+      "domain": "www.campusshoes.com",
+      "storedPrice": 1619,
+      "livePrice": 1599,
+      "liveMrp": 1899,
+      "sourceUrl": "https://www.campusshoes.com/products/camp-erik-l-gry-red-mens-running-shoes",
+      "deltaPct": 1.2,
+      "action": "applied"
+    },
+    {
+      "id": "apparel-162",
+      "name": "Campus Stranger",
+      "domain": "www.campusshoes.com",
+      "storedPrice": 1494,
+      "livePrice": 1449,
+      "liveMrp": 1549,
+      "sourceUrl": "https://www.campusshoes.com/products/stranger-off-wht-golden-mens-running-shoes",
+      "deltaPct": 3.0,
+      "action": "applied"
+    },
+    {
+      "id": "apparel-172",
+      "name": "Campus Xperia-2",
+      "domain": "www.campusshoes.com",
+      "storedPrice": 799,
+      "livePrice": 754,
+      "liveMrp": 799,
+      "sourceUrl": "https://www.campusshoes.com/products/xperia-2-navy-l-gry-t-blu-mens-sandals",
+      "deltaPct": 5.6,
+      "action": "applied"
+    }
+  ],
   "flagged": [
     {
       "id": "homeImprovement-3",
@@ -246,17 +434,6 @@
       "liveMrp": null,
       "sourceUrl": "https://www.lifelongindiaonline.com/products/electric-body-massager-machine",
       "deltaPct": 29.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "healthPersonalCare-24",
-      "name": "Lifelong LLKWS09 Weight Machine for Kitchen with Measuring Spoons",
-      "domain": "www.lifelongindiaonline.com",
-      "storedPrice": 1532,
-      "livePrice": 399,
-      "liveMrp": 1699,
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/digital-kitchen-weighing-scale",
-      "deltaPct": 74.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1217,6 +1394,17 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
+      "id": "electronics-343",
+      "name": "Xech Blend (Portable Blender)",
+      "domain": "xech.com",
+      "storedPrice": 1841,
+      "livePrice": 2499,
+      "liveMrp": 3199,
+      "sourceUrl": "https://xech.com/products/portable-rechargeable-blender",
+      "deltaPct": 35.7,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
       "id": "electronics-345",
       "name": "Xech Scoop portable Ice-Cream Maker",
       "domain": "xech.com",
@@ -1225,39 +1413,6 @@
       "liveMrp": 4999,
       "sourceUrl": "https://xech.com/products/rechargeable-ice-cream-maker-scoop",
       "deltaPct": 63.8,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-346",
-      "name": "Xech Pulse II Wireless Charger With Smart Handset",
-      "domain": "xech.com",
-      "storedPrice": 1107,
-      "livePrice": 2499,
-      "liveMrp": 3999,
-      "sourceUrl": "https://xech.com/products/pulse-22-wireless-charger-smart-handset",
-      "deltaPct": 125.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-347",
-      "name": "Xech powerbase Fast Wireless Charger",
-      "domain": "xech.com",
-      "storedPrice": 385,
-      "livePrice": 799,
-      "liveMrp": 899,
-      "sourceUrl": "https://xech.com/products/fast-wireless-charging-pad-powerbase",
-      "deltaPct": 107.5,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-348",
-      "name": "Xech Powerbase lite Fast Wireless Charger",
-      "domain": "xech.com",
-      "storedPrice": 299,
-      "livePrice": 499,
-      "liveMrp": 699,
-      "sourceUrl": "https://xech.com/products/powerbase-lite-wireless-charging-pad",
-      "deltaPct": 66.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1327,17 +1482,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-359",
-      "name": "Blaupunkt Rock & Roll Ibiza Party Speaker",
-      "domain": "www.blaupunktaudio.in",
-      "storedPrice": 20281,
-      "livePrice": 13990,
-      "liveMrp": 39990,
-      "sourceUrl": "https://www.blaupunktaudio.in/products/rock-roll-ibiza-indias-1st-party-speaker-with-recording",
-      "deltaPct": 31.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-363",
       "name": "Blaupunkt BH61 Hybrid ANC Over Ear Headphone",
       "domain": "www.blaupunktaudio.in",
@@ -1397,43 +1541,10 @@
       "name": "Noise Airwave Max XR Headphoes",
       "domain": "gonoise.com",
       "storedPrice": 5249,
-      "livePrice": 2799,
+      "livePrice": 3499,
       "liveMrp": 4999,
       "sourceUrl": "https://gonoise.com/products/noise-airwave-max-xr-wireless-headphone",
-      "deltaPct": 46.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-376",
-      "name": "Noise Pure Pods",
-      "domain": "gonoise.com",
-      "storedPrice": 2859,
-      "livePrice": 1999,
-      "liveMrp": 6999,
-      "sourceUrl": "https://gonoise.com/products/noise-pure-pods-open-ear-headphones",
-      "deltaPct": 30.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-386",
-      "name": "Noise Masterbuds Max",
-      "domain": "gonoise.com",
-      "storedPrice": 11441,
-      "livePrice": 7999,
-      "liveMrp": 11999,
-      "sourceUrl": "https://gonoise.com/products/noise-master-buds-max-wireless-headphone",
-      "deltaPct": 30.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-387",
-      "name": "Noise Airwave Max 5",
-      "domain": "gonoise.com",
-      "storedPrice": 5720,
-      "livePrice": 3799,
-      "liveMrp": 5999,
-      "sourceUrl": "https://gonoise.com/products/noise-airwave-max-5-headphone",
-      "deltaPct": 33.6,
+      "deltaPct": 33.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1459,17 +1570,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-391",
-      "name": "Noise Airwave Max XR",
-      "domain": "gonoise.com",
-      "storedPrice": 3861,
-      "livePrice": 2799,
-      "liveMrp": 4999,
-      "sourceUrl": "https://gonoise.com/products/noise-airwave-max-xr-wireless-headphone",
-      "deltaPct": 27.5,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-393",
       "name": "Noise Buds Ultra X",
       "domain": "gonoise.com",
@@ -1481,14 +1581,14 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-399",
-      "name": "Noise Master Buds",
+      "id": "electronics-396",
+      "name": "Noise Master Buds 2",
       "domain": "gonoise.com",
-      "storedPrice": 6865,
-      "livePrice": 4499,
-      "liveMrp": 7999,
-      "sourceUrl": "https://gonoise.com/products/noise-master-buds-truly-wireless-earbuds",
-      "deltaPct": 34.5,
+      "storedPrice": 6999,
+      "livePrice": 8999,
+      "liveMrp": 9999,
+      "sourceUrl": "https://gonoise.com/products/noise-master-buds-2-truly-wireless-bluetooth-earbuds",
+      "deltaPct": 28.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1987,14 +2087,14 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-404",
-      "name": "boAt Rockerz 255 Pro+",
+      "id": "electronics-407",
+      "name": "boAt Airdopes 141",
       "domain": "boat-lifestyle.com",
-      "storedPrice": 2999,
-      "livePrice": 899,
-      "liveMrp": 3990,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
-      "deltaPct": 70.0,
+      "storedPrice": 4490,
+      "livePrice": 1199,
+      "liveMrp": 4490,
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141",
+      "deltaPct": 73.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2013,10 +2113,10 @@
       "name": "boAt Aavante Prime 5.2.4 6250DA",
       "domain": "boat-lifestyle.com",
       "storedPrice": 74990,
-      "livePrice": 19999,
+      "livePrice": 25999,
       "liveMrp": 74990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-prime-6250da-bluetooth-soundbar",
-      "deltaPct": 73.3,
+      "deltaPct": 65.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2024,10 +2124,10 @@
       "name": "boAt Airdopes 219",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 899,
+      "livePrice": 1099,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-219-wireless-earbuds",
-      "deltaPct": 77.5,
+      "deltaPct": 72.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2035,21 +2135,10 @@
       "name": "boAt Airdopes 141 Gen 2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-gen2-wireless-earbuds",
-      "deltaPct": 80.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-417",
-      "name": "boAt Sailor Nav",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 7999,
-      "livePrice": 5999,
-      "liveMrp": 7999,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-sailor-nav",
-      "deltaPct": 25.0,
+      "deltaPct": 72.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2068,10 +2157,10 @@
       "name": "boAt Stone Spinx Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9999,
-      "livePrice": 1999,
+      "livePrice": 2499,
       "liveMrp": 9999,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-spinx-pro-bluetooth-speaker",
-      "deltaPct": 80.0,
+      "deltaPct": 75.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2079,10 +2168,10 @@
       "name": "boAt 65W GaN Nano Charger",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3999,
-      "livePrice": 1899,
+      "livePrice": 1999,
       "liveMrp": 3999,
       "sourceUrl": "https://boat-lifestyle.com/products/65w-gan-nano-charger",
-      "deltaPct": 52.5,
+      "deltaPct": 50.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2090,10 +2179,10 @@
       "name": "boAt EnergyShroom PB330  Magnacharge",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4999,
-      "livePrice": 2399,
+      "livePrice": 2599,
       "liveMrp": 4999,
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb330-magnacharge",
-      "deltaPct": 52.0,
+      "deltaPct": 48.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2108,25 +2197,14 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-426",
-      "name": "boAt Airdopes 181 Pro SS Edition",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 4990,
-      "livePrice": 1399,
-      "liveMrp": 4990,
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-181-pro-wireless-earbuds",
-      "deltaPct": 72.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-427",
       "name": "Energyshroom PB600 PowerPulse",
       "domain": "boat-lifestyle.com",
       "storedPrice": 11999,
-      "livePrice": 5599,
+      "livePrice": 5799,
       "liveMrp": 11999,
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb600-power-pulse-27000mah-power-bank",
-      "deltaPct": 53.3,
+      "deltaPct": 51.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2178,10 +2256,10 @@
       "name": "boAt PartyPal 650",
       "domain": "boat-lifestyle.com",
       "storedPrice": 49990,
-      "livePrice": 21499,
+      "livePrice": 26499,
       "liveMrp": 49990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-partypal-650",
-      "deltaPct": 57.0,
+      "deltaPct": 47.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2211,10 +2289,10 @@
       "name": "Energyshroom PB400 Turbo X",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6999,
-      "livePrice": 2499,
+      "livePrice": 2699,
       "liveMrp": 6999,
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb400-turbo-x",
-      "deltaPct": 64.3,
+      "deltaPct": 61.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2222,10 +2300,10 @@
       "name": "boAt WCD QC3.0 With Micro USB Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 999,
-      "livePrice": 399,
+      "livePrice": 449,
       "liveMrp": 999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wcd-qc3-0-with-micro-usb-cable",
-      "deltaPct": 60.1,
+      "deltaPct": 55.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2255,10 +2333,10 @@
       "name": "boAt Stone Arc Pro Plus",
       "domain": "boat-lifestyle.com",
       "storedPrice": 10990,
-      "livePrice": 3799,
+      "livePrice": 4799,
       "liveMrp": 10990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-arc-pro-plus-portable-bluetooth-speaker",
-      "deltaPct": 65.4,
+      "deltaPct": 56.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2266,10 +2344,10 @@
       "name": "boAt Airdopes 141 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5990,
-      "livePrice": 1399,
+      "livePrice": 1499,
       "liveMrp": 5990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-anc-earbuds",
-      "deltaPct": 76.6,
+      "deltaPct": 75.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2277,10 +2355,10 @@
       "name": "boAt Rockerz 512 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7990,
-      "livePrice": 2499,
+      "livePrice": 3099,
       "liveMrp": 7990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-512-anc",
-      "deltaPct": 68.7,
+      "deltaPct": 61.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2299,10 +2377,10 @@
       "name": "boAt Rockerz Plus 550",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1699,
+      "livePrice": 2299,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-plus-550",
-      "deltaPct": 66.0,
+      "deltaPct": 53.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2310,10 +2388,10 @@
       "name": "boAt Aavante 2.1 1200",
       "domain": "boat-lifestyle.com",
       "storedPrice": 18990,
-      "livePrice": 3999,
+      "livePrice": 5499,
       "liveMrp": 18990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-2-1-1200-bluetooth-soundbar",
-      "deltaPct": 78.9,
+      "deltaPct": 71.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2332,10 +2410,10 @@
       "name": "boAt Airdopes 101v2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 799,
+      "livePrice": 999,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-101v2-wireless-earbuds",
-      "deltaPct": 80.0,
+      "deltaPct": 75.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2343,10 +2421,10 @@
       "name": "boAt Stone 350 Pro Plus",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1499,
+      "livePrice": 1999,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-350-pro-plus",
-      "deltaPct": 70.0,
+      "deltaPct": 59.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2365,10 +2443,10 @@
       "name": "boAt Stone 120",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 799,
+      "livePrice": 999,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-120",
-      "deltaPct": 73.3,
+      "deltaPct": 66.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2387,10 +2465,10 @@
       "name": "boAt Aavante 2.1 2450",
       "domain": "boat-lifestyle.com",
       "storedPrice": 29990,
-      "livePrice": 5999,
+      "livePrice": 8999,
       "liveMrp": 29990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-2-1-2450-soundbar",
-      "deltaPct": 80.0,
+      "deltaPct": 70.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2398,10 +2476,10 @@
       "name": "boAt C600 Fast Charging Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 229,
+      "livePrice": 299,
       "liveMrp": 2999,
       "sourceUrl": "https://boat-lifestyle.com/products/c-600-fast-charging-cable",
-      "deltaPct": 92.4,
+      "deltaPct": 90.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2409,10 +2487,10 @@
       "name": "boAt Rockerz 411",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 1099,
+      "livePrice": 1499,
       "liveMrp": 2999,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-411-wireless-headphones",
-      "deltaPct": 63.4,
+      "deltaPct": 50.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2420,10 +2498,10 @@
       "name": "boAt Airdopes 131 Gen 2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-gen-2-true-wireless-earbuds",
-      "deltaPct": 73.3,
+      "deltaPct": 63.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2431,43 +2509,32 @@
       "name": "boAt Airdopes Alpha Gen 2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-alpha-gen-2-true-wireless-earbuds",
-      "deltaPct": 80.0,
+      "deltaPct": 72.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-471",
-      "name": "boAt Stone 900",
+      "id": "electronics-472",
+      "name": "boAt Rockerz 238 Pro",
       "domain": "boat-lifestyle.com",
-      "storedPrice": 17990,
-      "livePrice": 6299,
-      "liveMrp": 17990,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-900",
-      "deltaPct": 65.0,
+      "storedPrice": 1990,
+      "livePrice": 1449,
+      "liveMrp": 1990,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-238-pro-wireless-bluetooth-neckband-with-up-to-20-hours-playback-beast-mode-enx-technology",
+      "deltaPct": 27.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-474",
-      "name": "boAt EnergyShroom PB310 Wireless Pro",
+      "id": "electronics-473",
+      "name": "boAt Rockerz 650 Pro",
       "domain": "boat-lifestyle.com",
-      "storedPrice": 3499,
-      "livePrice": 999,
-      "liveMrp": 3499,
-      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb310-wireless-pro-10000mah-power-bank",
-      "deltaPct": 71.4,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-475",
-      "name": "boAt Aavante Prime 5.1.2 5050DA",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 49999,
-      "livePrice": 16499,
-      "liveMrp": 49999,
-      "sourceUrl": "https://boat-lifestyle.com/products/aavante-prime-5050da-bluetooth-soundbar",
-      "deltaPct": 67.0,
+      "storedPrice": 8990,
+      "livePrice": 3099,
+      "liveMrp": 8990,
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-650-pro",
+      "deltaPct": 65.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2475,10 +2542,21 @@
       "name": "DV 22.5W QCPD White with Free PD Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2490,
-      "livePrice": 549,
+      "livePrice": 699,
       "liveMrp": 2490,
       "sourceUrl": "https://boat-lifestyle.com/products/dv-22-5w-qcpd-white-with-free-pd-cable",
-      "deltaPct": 78.0,
+      "deltaPct": 71.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-478",
+      "name": "boAt Airdopes Plus 223",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 3499,
+      "livePrice": 1199,
+      "liveMrp": 3499,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-223",
+      "deltaPct": 65.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2486,10 +2564,10 @@
       "name": "Bassheads 213L",
       "domain": "boat-lifestyle.com",
       "storedPrice": 699,
-      "livePrice": 299,
+      "livePrice": 399,
       "liveMrp": 699,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-213l",
-      "deltaPct": 57.2,
+      "deltaPct": 42.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2497,10 +2575,10 @@
       "name": "boAt Rockerz Prime 415",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3999,
-      "livePrice": 1599,
+      "livePrice": 2099,
       "liveMrp": 3999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-prime-415",
-      "deltaPct": 60.0,
+      "deltaPct": 47.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2519,10 +2597,10 @@
       "name": "boAt EnergyShroom PB300 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3499,
-      "livePrice": 1399,
+      "livePrice": 1499,
       "liveMrp": 3499,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-energyshroom-pb300-pro-10000mah-power-bank",
-      "deltaPct": 60.0,
+      "deltaPct": 57.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2541,10 +2619,10 @@
       "name": "boAt HIVE Dashcam F1",
       "domain": "boat-lifestyle.com",
       "storedPrice": 21999,
-      "livePrice": 8999,
+      "livePrice": 10999,
       "liveMrp": 21999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-hive-dashcam-f1",
-      "deltaPct": 59.1,
+      "deltaPct": 50.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2552,10 +2630,10 @@
       "name": "boAt Airdopes Prime 700 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7990,
-      "livePrice": 1499,
+      "livePrice": 2099,
       "liveMrp": 7990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-prime-700-anc-wireless-earbuds",
-      "deltaPct": 81.2,
+      "deltaPct": 73.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2563,10 +2641,10 @@
       "name": "boAt Aavante Octave Plus",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14990,
-      "livePrice": 5299,
+      "livePrice": 7799,
       "liveMrp": 14990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-octave-plus",
-      "deltaPct": 64.6,
+      "deltaPct": 48.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2585,10 +2663,10 @@
       "name": "Bassheads 95",
       "domain": "boat-lifestyle.com",
       "storedPrice": 1199,
-      "livePrice": 249,
+      "livePrice": 349,
       "liveMrp": 1199,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-95-wired-earphone",
-      "deltaPct": 79.2,
+      "deltaPct": 70.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2596,21 +2674,10 @@
       "name": "boAt Stone 580",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1449,
+      "livePrice": 1699,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-580-bluetooth-speaker",
-      "deltaPct": 71.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-494",
-      "name": "boAt Airdopes 161 (Metallic)",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 2490,
-      "livePrice": 799,
-      "liveMrp": 2490,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-161-metallic",
-      "deltaPct": 67.9,
+      "deltaPct": 66.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2629,10 +2696,10 @@
       "name": "boAt Airdopes 111v2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1749,
+      "livePrice": 1949,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-111v2-wireless-earbuds",
-      "deltaPct": 64.9,
+      "deltaPct": 60.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2651,10 +2718,10 @@
       "name": "boAt Airdopes Prime 413",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4490,
-      "livePrice": 1099,
+      "livePrice": 1399,
       "liveMrp": 4490,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-413",
-      "deltaPct": 75.5,
+      "deltaPct": 68.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2662,10 +2729,10 @@
       "name": "boAt Airdopes Prime Supreme",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4299,
-      "livePrice": 1199,
+      "livePrice": 1499,
       "liveMrp": 4299,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-supreme",
-      "deltaPct": 72.1,
+      "deltaPct": 65.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2684,10 +2751,10 @@
       "name": "boAt Nirvana Zenith Pro SS Edition",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14990,
-      "livePrice": 3149,
+      "livePrice": 3649,
       "liveMrp": 14990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-nirvana-zenith-pro-ss-edition",
-      "deltaPct": 79.0,
+      "deltaPct": 75.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2695,10 +2762,21 @@
       "name": "boAt Sailor Play",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4999,
-      "livePrice": 1499,
+      "livePrice": 1799,
       "liveMrp": 4999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-sailor-play",
-      "deltaPct": 70.0,
+      "deltaPct": 64.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-509",
+      "name": "boAt Airdopes Plus 224",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 3499,
+      "livePrice": 1199,
+      "liveMrp": 3499,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-224",
+      "deltaPct": 65.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2706,10 +2784,10 @@
       "name": "boAt Airdopes Plus 222",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2499,
-      "livePrice": 899,
+      "livePrice": 1099,
       "liveMrp": 2499,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-222",
-      "deltaPct": 64.0,
+      "deltaPct": 56.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2717,10 +2795,10 @@
       "name": "boAt Rockerz Plus 440",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4999,
-      "livePrice": 1999,
+      "livePrice": 2199,
       "liveMrp": 4999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-plus-440",
-      "deltaPct": 60.0,
+      "deltaPct": 56.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2728,10 +2806,10 @@
       "name": "boAt Airdopes Stride",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4599,
-      "livePrice": 1199,
+      "livePrice": 1499,
       "liveMrp": 4599,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-stride",
-      "deltaPct": 73.9,
+      "deltaPct": 67.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2739,10 +2817,10 @@
       "name": "Nirvana Eutopia 2 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9990,
-      "livePrice": 4999,
+      "livePrice": 5999,
       "liveMrp": 9990,
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-eutopia-2-anc",
-      "deltaPct": 50.0,
+      "deltaPct": 39.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2750,10 +2828,10 @@
       "name": "boAt Airdopes ProClip",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4999,
-      "livePrice": 1599,
+      "livePrice": 1799,
       "liveMrp": 4999,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-proclip",
-      "deltaPct": 68.0,
+      "deltaPct": 64.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2761,10 +2839,10 @@
       "name": "boAt Airdopes 71 Gen 2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2490,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 2490,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-71-gen-2",
-      "deltaPct": 67.9,
+      "deltaPct": 55.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2772,10 +2850,10 @@
       "name": "boAt Rockerz Plus 450 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 2899,
+      "livePrice": 3099,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-plus-450-anc",
-      "deltaPct": 41.9,
+      "deltaPct": 37.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2783,10 +2861,10 @@
       "name": "Bassheads 900 C Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 939,
+      "livePrice": 1199,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-900-c-pro",
-      "deltaPct": 73.1,
+      "deltaPct": 65.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2794,10 +2872,10 @@
       "name": "Bassheads 901 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 999,
+      "livePrice": 1099,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-901-pro",
-      "deltaPct": 66.6,
+      "deltaPct": 63.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2816,10 +2894,21 @@
       "name": "boAt BassHeads 85",
       "domain": "boat-lifestyle.com",
       "storedPrice": 499,
-      "livePrice": 279,
+      "livePrice": 349,
       "liveMrp": 499,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-bassheads-85",
-      "deltaPct": 44.1,
+      "deltaPct": 30.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-522",
+      "name": "boAt Airdopes Prime 512",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 4990,
+      "livePrice": 1599,
+      "liveMrp": 4990,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-512",
+      "deltaPct": 68.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2827,10 +2916,10 @@
       "name": "Bassheads 55",
       "domain": "boat-lifestyle.com",
       "storedPrice": 899,
-      "livePrice": 199,
+      "livePrice": 299,
       "liveMrp": 899,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-55",
-      "deltaPct": 77.9,
+      "deltaPct": 66.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2838,10 +2927,10 @@
       "name": "boAt Rockerz Bold",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 799,
+      "livePrice": 899,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-bold-wireless-neckband",
-      "deltaPct": 77.1,
+      "deltaPct": 74.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2849,10 +2938,10 @@
       "name": "boAt Airdopes 301",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1449,
+      "livePrice": 1849,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-301",
-      "deltaPct": 71.0,
+      "deltaPct": 62.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2860,10 +2949,10 @@
       "name": "boAt Airdopes 138 Gen 2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-138-gen-2",
-      "deltaPct": 73.3,
+      "deltaPct": 63.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2871,10 +2960,10 @@
       "name": "boAt Nirvana Crown",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9990,
-      "livePrice": 2199,
+      "livePrice": 2699,
       "liveMrp": 9990,
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-crown-tws-earbuds",
-      "deltaPct": 78.0,
+      "deltaPct": 73.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2893,10 +2982,10 @@
       "name": "boAt Airdopes Beat",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 1549,
+      "livePrice": 1749,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-beat-wireless-earbuds",
-      "deltaPct": 61.2,
+      "deltaPct": 56.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2904,10 +2993,10 @@
       "name": "boAt Bassheads 210",
       "domain": "boat-lifestyle.com",
       "storedPrice": 599,
-      "livePrice": 229,
+      "livePrice": 299,
       "liveMrp": 599,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-bassheads-210-wired-earphones",
-      "deltaPct": 61.8,
+      "deltaPct": 50.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2915,10 +3004,10 @@
       "name": "boAt BassHeads 212L",
       "domain": "boat-lifestyle.com",
       "storedPrice": 699,
-      "livePrice": 299,
+      "livePrice": 399,
       "liveMrp": 699,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-bassheads-212l-wired-earphones-with-10mm-drivers-mic",
-      "deltaPct": 57.2,
+      "deltaPct": 42.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2926,10 +3015,10 @@
       "name": "Bassheads 90C",
       "domain": "boat-lifestyle.com",
       "storedPrice": 990,
-      "livePrice": 349,
+      "livePrice": 449,
       "liveMrp": 990,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-90c",
-      "deltaPct": 64.7,
+      "deltaPct": 54.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2937,10 +3026,10 @@
       "name": "boAt Rockerz Plus 550 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7990,
-      "livePrice": 2499,
+      "livePrice": 2699,
       "liveMrp": 7990,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-plus-550-anc",
-      "deltaPct": 68.7,
+      "deltaPct": 66.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2948,10 +3037,21 @@
       "name": "boAt Airdopes Prime 513 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5990,
-      "livePrice": 1399,
+      "livePrice": 1699,
       "liveMrp": 5990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-prime-513-anc-wireless-earbuds",
-      "deltaPct": 76.6,
+      "deltaPct": 71.6,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-538",
+      "name": "boAt Rockerz 371",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 2999,
+      "livePrice": 1099,
+      "liveMrp": 2999,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-371",
+      "deltaPct": 63.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2959,10 +3059,10 @@
       "name": "boAt Rockerz 301 ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 1299,
+      "livePrice": 1599,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-301-anc",
-      "deltaPct": 62.8,
+      "deltaPct": 54.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2970,10 +3070,10 @@
       "name": "boAt Bassheads 300C",
       "domain": "boat-lifestyle.com",
       "storedPrice": 999,
-      "livePrice": 449,
+      "livePrice": 499,
       "liveMrp": 999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-bassheads-300c-in-ear-wired-earphones-with-10mm-drivers-mic-copy",
-      "deltaPct": 55.1,
+      "deltaPct": 50.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2981,10 +3081,10 @@
       "name": "boAt Bassheads 211",
       "domain": "boat-lifestyle.com",
       "storedPrice": 599,
-      "livePrice": 249,
+      "livePrice": 299,
       "liveMrp": 599,
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-211-wired-earphone",
-      "deltaPct": 58.4,
+      "deltaPct": 50.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2992,10 +3092,10 @@
       "name": "boAt Airdopes Prime 511",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5990,
-      "livePrice": 1199,
+      "livePrice": 1599,
       "liveMrp": 5990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-prime-511-wireless-earbuds",
-      "deltaPct": 80.0,
+      "deltaPct": 73.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3003,10 +3103,10 @@
       "name": "boAt Airdopes 313",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 1199,
+      "livePrice": 1299,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-313-wireless-earbuds",
-      "deltaPct": 69.9,
+      "deltaPct": 67.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3014,10 +3114,10 @@
       "name": "boAt Airdopes Prime 412",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4490,
-      "livePrice": 1099,
+      "livePrice": 1399,
       "liveMrp": 4490,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-prime-412-wireless-earbuds",
-      "deltaPct": 75.5,
+      "deltaPct": 68.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3025,10 +3125,10 @@
       "name": "boAt Rockerz 200",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2490,
-      "livePrice": 1149,
+      "livePrice": 1449,
       "liveMrp": 2490,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-200",
-      "deltaPct": 53.9,
+      "deltaPct": 41.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3036,21 +3136,10 @@
       "name": "boAt Rockerz 421",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2490,
-      "livePrice": 1099,
+      "livePrice": 1499,
       "liveMrp": 2490,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-421-wireless-headphones",
-      "deltaPct": 55.9,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-547",
-      "name": "boAt Airdopes 212",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 3290,
-      "livePrice": 799,
-      "liveMrp": 3290,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-212-wireless-earbuds",
-      "deltaPct": 75.7,
+      "deltaPct": 39.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3058,10 +3147,10 @@
       "name": "boAt Rockerz 412",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 1299,
+      "livePrice": 1599,
       "liveMrp": 2999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-412-wireless-headphones",
-      "deltaPct": 56.7,
+      "deltaPct": 46.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3069,10 +3158,10 @@
       "name": "boAt Rockerz 413",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 1099,
+      "livePrice": 1599,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-413-wireless-headphones",
-      "deltaPct": 63.2,
+      "deltaPct": 46.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3080,10 +3169,10 @@
       "name": "boAt Nirvana Zenith Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14990,
-      "livePrice": 2699,
+      "livePrice": 3199,
       "liveMrp": 14990,
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-zenith-pro-wireless-earphones",
-      "deltaPct": 82.0,
+      "deltaPct": 78.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3091,10 +3180,10 @@
       "name": "boAt Rockerz 202",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2790,
-      "livePrice": 699,
+      "livePrice": 999,
       "liveMrp": 2790,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-202-neckband",
-      "deltaPct": 74.9,
+      "deltaPct": 64.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3102,21 +3191,10 @@
       "name": "boAt Airdopes 141 Elite ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5990,
-      "livePrice": 1499,
+      "livePrice": 1599,
       "liveMrp": 5990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-elite-anc-wireless-earbuds",
-      "deltaPct": 75.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-553",
-      "name": "boAt Rockerz 113",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 2490,
-      "livePrice": 699,
-      "liveMrp": 2490,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-113-wireless-neckband-with-beast™-mode",
-      "deltaPct": 71.9,
+      "deltaPct": 73.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3124,10 +3202,10 @@
       "name": "boAt Rockerz 112",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2490,
-      "livePrice": 699,
+      "livePrice": 999,
       "liveMrp": 2490,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-112-wireless-neckband",
-      "deltaPct": 71.9,
+      "deltaPct": 59.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3135,10 +3213,10 @@
       "name": "boAt Airdopes Plus 318",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1599,
+      "livePrice": 1899,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-plus-318-bluetooth-wireless-earbuds",
-      "deltaPct": 68.0,
+      "deltaPct": 61.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3146,10 +3224,10 @@
       "name": "boAt Airdopes Plus 311",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-311-wireless-earbuds",
-      "deltaPct": 80.0,
+      "deltaPct": 72.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3157,10 +3235,10 @@
       "name": "boAt Nirvana Crystl",
       "domain": "boat-lifestyle.com",
       "storedPrice": 10990,
-      "livePrice": 1849,
+      "livePrice": 2249,
       "liveMrp": 10990,
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-crystl-wireless-earbuds",
-      "deltaPct": 83.2,
+      "deltaPct": 79.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3175,17 +3253,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-559",
-      "name": "boAt Airdopes Alpha",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 3490,
-      "livePrice": 799,
-      "liveMrp": 3490,
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds",
-      "deltaPct": 77.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-561",
       "name": "Bassheads 162v2",
       "domain": "boat-lifestyle.com",
@@ -3197,25 +3264,14 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-563",
-      "name": "boAt Rockerz 480",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 3790,
-      "livePrice": 1399,
-      "liveMrp": 3790,
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-480-wireless-headphone",
-      "deltaPct": 63.1,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-565",
       "name": "boAt Nirvana Iris",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9990,
-      "livePrice": 3299,
+      "livePrice": 3899,
       "liveMrp": 9990,
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-iris-anc-earbuds",
-      "deltaPct": 67.0,
+      "deltaPct": 61.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3223,10 +3279,10 @@
       "name": "boAt Airdopes Loop",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7990,
-      "livePrice": 1949,
+      "livePrice": 2549,
       "liveMrp": 7990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-loop",
-      "deltaPct": 75.6,
+      "deltaPct": 68.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3245,10 +3301,10 @@
       "name": "boAt Nirvana Ion ANC Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 13990,
-      "livePrice": 1899,
+      "livePrice": 2299,
       "liveMrp": 13990,
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ion-anc-pro-earbuds",
-      "deltaPct": 86.4,
+      "deltaPct": 83.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3256,10 +3312,10 @@
       "name": "boAt Airdopes 161 ANC Elite",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6999,
-      "livePrice": 1499,
+      "livePrice": 1599,
       "liveMrp": 6999,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-161-anc-elite-earbuds",
-      "deltaPct": 78.6,
+      "deltaPct": 77.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3267,32 +3323,10 @@
       "name": "boAt Airdopes 131 Elite ANC",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6990,
-      "livePrice": 1399,
+      "livePrice": 1499,
       "liveMrp": 6990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-elite-anc-earbuds",
-      "deltaPct": 80.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-573",
-      "name": "boAt Airdopes 121 Pro Plus",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 4990,
-      "livePrice": 1449,
-      "liveMrp": 4990,
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-121-pro-plus-earbuds",
-      "deltaPct": 71.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-574",
-      "name": "boAt Airdopes 181 Pro",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 4990,
-      "livePrice": 999,
-      "liveMrp": 4990,
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-181-pro-bluetooth-earbuds",
-      "deltaPct": 80.0,
+      "deltaPct": 78.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3300,10 +3334,10 @@
       "name": "boAt Airdopes 300",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6490,
-      "livePrice": 1099,
+      "livePrice": 1499,
       "liveMrp": 6490,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-300-large-playback-earbuds",
-      "deltaPct": 83.1,
+      "deltaPct": 76.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3311,10 +3345,10 @@
       "name": "boAt Airdopes 311 PRO",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-311-pro-wireless-earbuds",
-      "deltaPct": 84.0,
+      "deltaPct": 78.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3322,10 +3356,10 @@
       "name": "boAt Airdopes 800",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6490,
-      "livePrice": 1399,
+      "livePrice": 1899,
       "liveMrp": 6490,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-800-wireless-earbuds-with-dolby-audio-asap™-charge-iwp™-tech",
-      "deltaPct": 78.4,
+      "deltaPct": 70.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3333,10 +3367,10 @@
       "name": "boAt Airdopes Supreme",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5990,
-      "livePrice": 1099,
+      "livePrice": 1499,
       "liveMrp": 5990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-supreme-long-playback-earbuds",
-      "deltaPct": 81.7,
+      "deltaPct": 75.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3355,21 +3389,10 @@
       "name": "boAt Airdopes 71",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 799,
+      "livePrice": 999,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-71-long-playback-earbuds",
-      "deltaPct": 80.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-583",
-      "name": "boAt Rockerz 110",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 2490,
-      "livePrice": 699,
-      "liveMrp": 2490,
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-110",
-      "deltaPct": 71.9,
+      "deltaPct": 75.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3399,10 +3422,10 @@
       "name": "boAt Airdopes Ace",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 1249,
+      "livePrice": 1549,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace",
-      "deltaPct": 64.2,
+      "deltaPct": 55.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3410,10 +3433,10 @@
       "name": "boAt Rockerz 245 V2 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-245-v2-pro-bluetooth-earphone",
-      "deltaPct": 77.1,
+      "deltaPct": 68.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3421,10 +3444,10 @@
       "name": "boAt Airdopes Joy",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4999,
-      "livePrice": 1499,
+      "livePrice": 1999,
       "liveMrp": 4999,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-joy-wireless-earbuds",
-      "deltaPct": 70.0,
+      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3432,10 +3455,10 @@
       "name": "boAt Rockerz 235 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 1990,
-      "livePrice": 699,
+      "livePrice": 999,
       "liveMrp": 1990,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-235-pro",
-      "deltaPct": 64.9,
+      "deltaPct": 49.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3443,10 +3466,21 @@
       "name": "boAt Rockerz 425",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 1749,
+      "livePrice": 1849,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-425-wireless-bluetooth-headphone",
-      "deltaPct": 41.5,
+      "deltaPct": 38.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-619",
+      "name": "boAt Bassheads 900",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 2490,
+      "livePrice": 1099,
+      "liveMrp": 2490,
+      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-900",
+      "deltaPct": 55.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3465,10 +3499,10 @@
       "name": "boAt Lunar Atlas",
       "domain": "boat-lifestyle.com",
       "storedPrice": 8999,
-      "livePrice": 2099,
+      "livePrice": 2299,
       "liveMrp": 8999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-atlas",
-      "deltaPct": 76.7,
+      "deltaPct": 74.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3498,10 +3532,10 @@
       "name": "boAt Wave Fortune",
       "domain": "boat-lifestyle.com",
       "storedPrice": 13999,
-      "livePrice": 2099,
+      "livePrice": 2699,
       "liveMrp": 13999,
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fortune-nfc-enabled-secure-payments-smartwatch",
-      "deltaPct": 85.0,
+      "deltaPct": 80.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3509,10 +3543,10 @@
       "name": "boAt PartyPal 230",
       "domain": "boat-lifestyle.com",
       "storedPrice": 22990,
-      "livePrice": 5999,
+      "livePrice": 7999,
       "liveMrp": 22990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-partypal-230",
-      "deltaPct": 73.9,
+      "deltaPct": 65.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3531,10 +3565,10 @@
       "name": "boAt PartyPal 600 Plus",
       "domain": "boat-lifestyle.com",
       "storedPrice": 42990,
-      "livePrice": 16499,
+      "livePrice": 20999,
       "liveMrp": 42990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-partypal-600-plus",
-      "deltaPct": 61.6,
+      "deltaPct": 51.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3542,10 +3576,10 @@
       "name": "boAt Aavante Bar Prime B450",
       "domain": "boat-lifestyle.com",
       "storedPrice": 35990,
-      "livePrice": 11499,
+      "livePrice": 14499,
       "liveMrp": 35990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-bar-prime-b450",
-      "deltaPct": 68.0,
+      "deltaPct": 59.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3553,10 +3587,10 @@
       "name": "boAt Aavante Bar Prime DA600",
       "domain": "boat-lifestyle.com",
       "storedPrice": 44990,
-      "livePrice": 17499,
+      "livePrice": 20499,
       "liveMrp": 44990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-prime-da600",
-      "deltaPct": 61.1,
+      "deltaPct": 54.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3564,10 +3598,10 @@
       "name": "boAt Aavante Prime X",
       "domain": "boat-lifestyle.com",
       "storedPrice": 99990,
-      "livePrice": 33999,
+      "livePrice": 45999,
       "liveMrp": 99990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-prime-x",
-      "deltaPct": 66.0,
+      "deltaPct": 54.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3619,10 +3653,10 @@
       "name": "boAt Aavante 2.2 800",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14990,
-      "livePrice": 3499,
+      "livePrice": 5999,
       "liveMrp": 14990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-2-2-800-bluetooth-soundbar",
-      "deltaPct": 76.7,
+      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3630,10 +3664,10 @@
       "name": "boAt PartyPal 65 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 15990,
-      "livePrice": 5999,
+      "livePrice": 7499,
       "liveMrp": 15990,
       "sourceUrl": "https://boat-lifestyle.com/products/party-pal-65-pro-bluetooth-speaker",
-      "deltaPct": 62.5,
+      "deltaPct": 53.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3641,10 +3675,10 @@
       "name": "boAt Stone 1200 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14990,
-      "livePrice": 3799,
+      "livePrice": 4999,
       "liveMrp": 14990,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-1200-pro-bluetooth-speaker",
-      "deltaPct": 74.7,
+      "deltaPct": 66.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3652,10 +3686,10 @@
       "name": "boAt PartyPal 30",
       "domain": "boat-lifestyle.com",
       "storedPrice": 8490,
-      "livePrice": 2299,
+      "livePrice": 2999,
       "liveMrp": 8490,
       "sourceUrl": "https://boat-lifestyle.com/products/party-pal-30-bluetooth-speaker",
-      "deltaPct": 72.9,
+      "deltaPct": 64.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3674,10 +3708,10 @@
       "name": "boAt Aavante Prime 7.1.4 7050DA",
       "domain": "boat-lifestyle.com",
       "storedPrice": 89990,
-      "livePrice": 21999,
+      "livePrice": 28999,
       "liveMrp": 89990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-prime-7-1-4-7050da",
-      "deltaPct": 75.6,
+      "deltaPct": 67.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3685,10 +3719,10 @@
       "name": "boAt Aavante Prime 5.1 5050D",
       "domain": "boat-lifestyle.com",
       "storedPrice": 42990,
-      "livePrice": 13499,
+      "livePrice": 17499,
       "liveMrp": 42990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-prime-5-1-5050d",
-      "deltaPct": 68.6,
+      "deltaPct": 59.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3696,10 +3730,10 @@
       "name": "boAt Aavante 2.1 1600D",
       "domain": "boat-lifestyle.com",
       "storedPrice": 21990,
-      "livePrice": 5299,
+      "livePrice": 6999,
       "liveMrp": 21990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-2-1-1600d-bluetooth-soundbar",
-      "deltaPct": 75.9,
+      "deltaPct": 68.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3707,10 +3741,10 @@
       "name": "boAt Aavante 2.0 150",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3990,
-      "livePrice": 1199,
+      "livePrice": 1499,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-2-0-150-portable-soundbar",
-      "deltaPct": 69.9,
+      "deltaPct": 62.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3718,10 +3752,10 @@
       "name": "boAt Aavante Raga Plus",
       "domain": "boat-lifestyle.com",
       "storedPrice": 17990,
-      "livePrice": 9599,
+      "livePrice": 12099,
       "liveMrp": 17990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-raga-plus-140w-2-2-channel-soundbar-with-built-in-subwoofer-multi-connectivity-copy",
-      "deltaPct": 46.6,
+      "deltaPct": 32.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3729,10 +3763,10 @@
       "name": "boAt Stone Arc Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6990,
-      "livePrice": 2999,
+      "livePrice": 4499,
       "liveMrp": 6990,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-arc-pro-portable-speaker",
-      "deltaPct": 57.1,
+      "deltaPct": 35.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3740,10 +3774,10 @@
       "name": "boAt Stone Arc",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6990,
-      "livePrice": 2499,
+      "livePrice": 3699,
       "liveMrp": 6990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-arc-portable-bluetooth-speaker",
-      "deltaPct": 64.2,
+      "deltaPct": 47.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3751,10 +3785,10 @@
       "name": "boAt Aavante 2.2 1400",
       "domain": "boat-lifestyle.com",
       "storedPrice": 17990,
-      "livePrice": 2999,
+      "livePrice": 5499,
       "liveMrp": 17990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-2-2-1400-bluetooth-soundbar",
-      "deltaPct": 83.3,
+      "deltaPct": 69.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3762,10 +3796,10 @@
       "name": "boAt Aavante Prime 5.1 5000D",
       "domain": "boat-lifestyle.com",
       "storedPrice": 34990,
-      "livePrice": 11499,
+      "livePrice": 12999,
       "liveMrp": 34990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-prime-5-1-5000d-bluetooth-soundbar",
-      "deltaPct": 67.1,
+      "deltaPct": 62.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3784,10 +3818,10 @@
       "name": "boAt Aavante 2.1 1550 Plus",
       "domain": "boat-lifestyle.com",
       "storedPrice": 21990,
-      "livePrice": 4999,
+      "livePrice": 6999,
       "liveMrp": 21990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-1550-plus-2-1-channel-soundbar",
-      "deltaPct": 77.3,
+      "deltaPct": 68.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3806,10 +3840,10 @@
       "name": "boAt Aavante Prime 5.1 5000DA",
       "domain": "boat-lifestyle.com",
       "storedPrice": 37990,
-      "livePrice": 12299,
+      "livePrice": 13799,
       "liveMrp": 37990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-aavante-prime-5-1_5000_da_500w_bluetooth-soundbar",
-      "deltaPct": 67.6,
+      "deltaPct": 63.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3850,10 +3884,10 @@
       "name": "boAt Aavante 2.1 2000",
       "domain": "boat-lifestyle.com",
       "storedPrice": 24490,
-      "livePrice": 5499,
+      "livePrice": 6999,
       "liveMrp": 24490,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-2-1-2000-bluetooth-soundbar",
-      "deltaPct": 77.5,
+      "deltaPct": 71.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3861,10 +3895,10 @@
       "name": "boAt Aavante Bar 485",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 799,
+      "livePrice": 1099,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-485-bluetooth-soundbar",
-      "deltaPct": 77.1,
+      "deltaPct": 68.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3872,10 +3906,10 @@
       "name": "boAt PartyPal 600",
       "domain": "boat-lifestyle.com",
       "storedPrice": 44990,
-      "livePrice": 18499,
+      "livePrice": 22499,
       "liveMrp": 44990,
       "sourceUrl": "https://boat-lifestyle.com/products/party-pal-600-bluetooth-speaker",
-      "deltaPct": 58.9,
+      "deltaPct": 50.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3883,10 +3917,10 @@
       "name": "boAt Aavante Bar 950",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7990,
-      "livePrice": 1999,
+      "livePrice": 2999,
       "liveMrp": 7990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-950-bluetooth-soundbar",
-      "deltaPct": 75.0,
+      "deltaPct": 62.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3905,10 +3939,10 @@
       "name": "boAt Aavante Bar 2400 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 24990,
-      "livePrice": 6999,
+      "livePrice": 8999,
       "liveMrp": 24990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-2400-pro-bluetooth-soundbar",
-      "deltaPct": 72.0,
+      "deltaPct": 64.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3916,10 +3950,10 @@
       "name": "boAt Stone 358 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1899,
+      "livePrice": 2099,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-358-pro-portable-bluetooth-speaker-with-14w-boat-signature-sound-rgb-led-design-12-hours-playback",
-      "deltaPct": 61.9,
+      "deltaPct": 57.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3927,10 +3961,10 @@
       "name": "boAt Stone 350 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4990,
-      "livePrice": 1999,
+      "livePrice": 2199,
       "liveMrp": 4990,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350-pro-portable-speaker",
-      "deltaPct": 59.9,
+      "deltaPct": 55.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3938,10 +3972,10 @@
       "name": "boAt Stone Lumos",
       "domain": "boat-lifestyle.com",
       "storedPrice": 14990,
-      "livePrice": 4499,
+      "livePrice": 6499,
       "liveMrp": 14990,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-lumos",
-      "deltaPct": 70.0,
+      "deltaPct": 56.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3949,10 +3983,10 @@
       "name": "boAt Stone 190 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2990,
-      "livePrice": 799,
+      "livePrice": 999,
       "liveMrp": 2990,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-190-pro-bluetooth-speaker",
-      "deltaPct": 73.3,
+      "deltaPct": 66.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3971,10 +4005,10 @@
       "name": "boAt Aavante Bar A1040",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9990,
-      "livePrice": 3499,
+      "livePrice": 3999,
       "liveMrp": 9990,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-a1040-bluetooth-soundbar",
-      "deltaPct": 65.0,
+      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3982,10 +4016,10 @@
       "name": "boAt Aavante Bar 490",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 799,
+      "livePrice": 1049,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-490-bluetooth-soundbar",
-      "deltaPct": 77.1,
+      "deltaPct": 69.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -3993,10 +4027,10 @@
       "name": "boAt Party Pal 390",
       "domain": "boat-lifestyle.com",
       "storedPrice": 34990,
-      "livePrice": 12999,
+      "livePrice": 15999,
       "liveMrp": 34990,
       "sourceUrl": "https://boat-lifestyle.com/products/party-pal-390-bluetooth-party-speaker",
-      "deltaPct": 62.8,
+      "deltaPct": 54.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4004,10 +4038,10 @@
       "name": "boAt Aavante Bar 480",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 799,
+      "livePrice": 1049,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/aavante-bar-480-10w-bluetooth-soundbar",
-      "deltaPct": 77.1,
+      "deltaPct": 69.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4081,10 +4115,10 @@
       "name": "Stone 352",
       "domain": "boat-lifestyle.com",
       "storedPrice": 3490,
-      "livePrice": 1199,
+      "livePrice": 1499,
       "liveMrp": 3490,
       "sourceUrl": "https://boat-lifestyle.com/products/stone-352",
-      "deltaPct": 65.6,
+      "deltaPct": 57.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4103,10 +4137,10 @@
       "name": "boAt Energyshroom PB300 Neo",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2499,
-      "livePrice": 899,
+      "livePrice": 1099,
       "liveMrp": 2499,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-energyshroom-pb300-neo",
-      "deltaPct": 64.0,
+      "deltaPct": 56.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4114,10 +4148,21 @@
       "name": "Energyshroom PB330 Pro Magnacharge",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7999,
-      "livePrice": 2799,
+      "livePrice": 2999,
       "liveMrp": 7999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-energyshroom-pb330-pro-magnacharge",
-      "deltaPct": 65.0,
+      "deltaPct": 62.5,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-721",
+      "name": "Energyshroom PB600",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 5499,
+      "livePrice": 2599,
+      "liveMrp": 5499,
+      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb600-power-bank",
+      "deltaPct": 52.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4125,10 +4170,10 @@
       "name": "boAt Energyshroom PB665 Turbo X",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9999,
-      "livePrice": 3699,
+      "livePrice": 4199,
       "liveMrp": 9999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-energyshroom-pb665-turbo-x",
-      "deltaPct": 63.0,
+      "deltaPct": 58.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4136,10 +4181,10 @@
       "name": "boAt Energyshroom PB465 Turbo X",
       "domain": "boat-lifestyle.com",
       "storedPrice": 7999,
-      "livePrice": 3499,
+      "livePrice": 3699,
       "liveMrp": 7999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-energyshroom-pb465-turbo-x",
-      "deltaPct": 56.3,
+      "deltaPct": 53.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4147,10 +4192,10 @@
       "name": "100W GaN Charger",
       "domain": "boat-lifestyle.com",
       "storedPrice": 9999,
-      "livePrice": 3499,
+      "livePrice": 3999,
       "liveMrp": 9999,
       "sourceUrl": "https://boat-lifestyle.com/products/100w-gan-charger",
-      "deltaPct": 65.0,
+      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4158,21 +4203,10 @@
       "name": "boAt 83W Fast Car Charger",
       "domain": "boat-lifestyle.com",
       "storedPrice": 1999,
-      "livePrice": 899,
+      "livePrice": 1099,
       "liveMrp": 1999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-car-charger-83w",
-      "deltaPct": 55.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-726",
-      "name": "EnergyShroom PB300 SS Edition",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 2999,
-      "livePrice": 2049,
-      "liveMrp": 2999,
-      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-powerbank",
-      "deltaPct": 31.7,
+      "deltaPct": 45.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4180,10 +4214,10 @@
       "name": "Energyshroom PB300 SPL (Naruto Edition)",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 899,
+      "livePrice": 1199,
       "liveMrp": 2999,
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-spl-10000mah-power-bank",
-      "deltaPct": 70.0,
+      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4191,10 +4225,10 @@
       "name": "boAt Type C to C 65W Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 799,
-      "livePrice": 179,
+      "livePrice": 199,
       "liveMrp": 799,
       "sourceUrl": "https://boat-lifestyle.com/products/type-c-to-c-65w-cable",
-      "deltaPct": 77.6,
+      "deltaPct": 75.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4202,10 +4236,10 @@
       "name": "boAt Type C to C 100W Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 999,
-      "livePrice": 299,
+      "livePrice": 349,
       "liveMrp": 999,
       "sourceUrl": "https://boat-lifestyle.com/products/type-c-to-c-100w-cable",
-      "deltaPct": 70.1,
+      "deltaPct": 65.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4213,10 +4247,10 @@
       "name": "boAt Universal Adapter C10",
       "domain": "boat-lifestyle.com",
       "storedPrice": 1999,
-      "livePrice": 599,
+      "livePrice": 699,
       "liveMrp": 1999,
       "sourceUrl": "https://boat-lifestyle.com/products/universal-adaptor-c10-fast-charger",
-      "deltaPct": 70.0,
+      "deltaPct": 65.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4224,10 +4258,10 @@
       "name": "boAt 25W PD Charger",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2199,
-      "livePrice": 599,
+      "livePrice": 699,
       "liveMrp": 2199,
       "sourceUrl": "https://boat-lifestyle.com/products/25w-pd-charger-45w-fast-charger",
-      "deltaPct": 72.8,
+      "deltaPct": 68.2,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4242,25 +4276,14 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "electronics-734",
-      "name": "Energyshroom PB331 Magnacharge",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 4499,
-      "livePrice": 1399,
-      "liveMrp": 4499,
-      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb331-magnacharge-10000mah-power-bank",
-      "deltaPct": 68.9,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "electronics-735",
       "name": "Energyshroom PB435 Turbo",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5499,
-      "livePrice": 1799,
+      "livePrice": 2199,
       "liveMrp": 5499,
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb435-turbo-20000mah-power-bank",
-      "deltaPct": 67.3,
+      "deltaPct": 60.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4268,10 +4291,10 @@
       "name": "Energyshroom PB300 Activ",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2499,
-      "livePrice": 899,
+      "livePrice": 1099,
       "liveMrp": 2499,
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-activ-10000mah-power-bank",
-      "deltaPct": 64.0,
+      "deltaPct": 56.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4279,10 +4302,10 @@
       "name": "boAt Type C C800 Magna Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 399,
+      "livePrice": 499,
       "liveMrp": 2999,
       "sourceUrl": "https://boat-lifestyle.com/products/type-c-c800-magna-cable",
-      "deltaPct": 86.7,
+      "deltaPct": 83.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4290,10 +4313,10 @@
       "name": "boAt Flexicharge 400",
       "domain": "boat-lifestyle.com",
       "storedPrice": 1999,
-      "livePrice": 399,
+      "livePrice": 499,
       "liveMrp": 1999,
       "sourceUrl": "https://boat-lifestyle.com/products/flexicharge-400-fast-charging-cable",
-      "deltaPct": 80.0,
+      "deltaPct": 75.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4301,10 +4324,10 @@
       "name": "35W GAN Charger",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2499,
-      "livePrice": 699,
+      "livePrice": 799,
       "liveMrp": 2499,
       "sourceUrl": "https://boat-lifestyle.com/products/35w-gan-charger",
-      "deltaPct": 72.0,
+      "deltaPct": 68.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4312,10 +4335,10 @@
       "name": "boAt C300 Fast Charging Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 199,
+      "livePrice": 249,
       "liveMrp": 2999,
       "sourceUrl": "https://boat-lifestyle.com/products/c-300-fast-charging-cable",
-      "deltaPct": 93.4,
+      "deltaPct": 91.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4323,10 +4346,10 @@
       "name": "boAt Energyshroom PB400 Pro",
       "domain": "boat-lifestyle.com",
       "storedPrice": 4999,
-      "livePrice": 1899,
+      "livePrice": 2199,
       "liveMrp": 4999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-energyshroom-pb400-pro-20000-mah-powerbank",
-      "deltaPct": 62.0,
+      "deltaPct": 56.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4345,10 +4368,10 @@
       "name": "boAt WCD 20W PD Wall Charger",
       "domain": "boat-lifestyle.com",
       "storedPrice": 1990,
-      "livePrice": 449,
+      "livePrice": 499,
       "liveMrp": 1990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wcd-20w-pd-wall-charger",
-      "deltaPct": 77.4,
+      "deltaPct": 74.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4367,10 +4390,10 @@
       "name": "boAt 18w WCD QC3.0 Fast Charger Adaptor with Type C Cable",
       "domain": "boat-lifestyle.com",
       "storedPrice": 999,
-      "livePrice": 369,
+      "livePrice": 399,
       "liveMrp": 999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wcd-3-1a-fast-charging-adapter",
-      "deltaPct": 63.1,
+      "deltaPct": 60.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4389,32 +4412,10 @@
       "name": "boAt Slazer K100 Trimmer",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2499,
-      "livePrice": 1499,
+      "livePrice": 1799,
       "liveMrp": 2499,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100",
-      "deltaPct": 40.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-751",
-      "name": "boAt Slazer K100+",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 2999,
-      "livePrice": 1799,
-      "liveMrp": 2999,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer",
-      "deltaPct": 40.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-752",
-      "name": "boAt Slazer S100",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 1499,
-      "livePrice": 799,
-      "liveMrp": 1499,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-s100-trimmer",
-      "deltaPct": 46.7,
+      "deltaPct": 28.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4433,10 +4434,10 @@
       "name": "boAt HIVE Dashcam M1",
       "domain": "boat-lifestyle.com",
       "storedPrice": 10999,
-      "livePrice": 4499,
+      "livePrice": 4999,
       "liveMrp": 10999,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-hive-dashcam-m1",
-      "deltaPct": 59.1,
+      "deltaPct": 54.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4444,10 +4445,10 @@
       "name": "boAt HIVE Dashcam E1",
       "domain": "boat-lifestyle.com",
       "storedPrice": 6499,
-      "livePrice": 2799,
+      "livePrice": 2999,
       "liveMrp": 6499,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-hive-dashcam-e1",
-      "deltaPct": 56.9,
+      "deltaPct": 53.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -4510,10 +4511,10 @@
       "name": "Campus Annie",
       "domain": "www.campusshoes.com",
       "storedPrice": 1399,
-      "livePrice": 824,
+      "livePrice": 774,
       "liveMrp": 1399,
       "sourceUrl": "https://www.campusshoes.com/products/annie-rose-pink-women-running-shoes",
-      "deltaPct": 41.1,
+      "deltaPct": 44.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -5345,7 +5346,8 @@
       "variantCount": 8,
       "variantPrices": [
         2999,
-        3499
+        3999,
+        4499
       ],
       "sourceUrl": "https://gonoise.com/products/noise-colorfit-pro-5-max-smartwatch"
     },
@@ -5495,8 +5497,9 @@
       "variantCount": 4,
       "variantPrices": [
         7499,
+        7999,
         8999,
-        12999
+        13499
       ],
       "sourceUrl": "https://www.solara.in/products/air-fryer-oven"
     },
@@ -5518,11 +5521,22 @@
       "domain": "www.solara.in",
       "variantCount": 4,
       "variantPrices": [
-        7499,
+        7999,
         8999,
         12999
       ],
       "sourceUrl": "https://www.solara.in/products/cold-press-juicer"
+    },
+    {
+      "id": "electronics-404",
+      "name": "boAt Rockerz 255 Pro+",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 5,
+      "variantPrices": [
+        1099,
+        1199
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus"
     },
     {
       "id": "electronics-405",
@@ -5530,8 +5544,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1199,
-        1399
+        1399,
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
     },
@@ -5548,24 +5562,14 @@
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-104"
     },
     {
-      "id": "electronics-407",
-      "name": "boAt Airdopes 141",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 13,
-      "variantPrices": [
-        799,
-        828
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141"
-    },
-    {
       "id": "electronics-408",
       "name": "Noise ColorFit Pro 5 Max Smartwatch",
       "domain": "gonoise.com",
       "variantCount": 8,
       "variantPrices": [
         2999,
-        3499
+        3999,
+        4499
       ],
       "sourceUrl": "https://gonoise.com/products/noise-colorfit-pro-5-max-smartwatch"
     },
@@ -5576,8 +5580,7 @@
       "variantCount": 14,
       "variantPrices": [
         799,
-        899,
-        928,
+        999,
         1028
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131"
@@ -5588,7 +5591,7 @@
       "domain": "gonoise.com",
       "variantCount": 2,
       "variantPrices": [
-        3499,
+        3799,
         4499
       ],
       "sourceUrl": "https://gonoise.com/products/noisefit-halo-2-smart-watch"
@@ -5610,8 +5613,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        199,
-        219
+        219,
+        239
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/type-a-to-c-65w-cable"
     },
@@ -5638,14 +5641,25 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-155-long-playback-earbuds"
     },
     {
+      "id": "electronics-426",
+      "name": "boAt Airdopes 181 Pro SS Edition",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 4,
+      "variantPrices": [
+        1599,
+        1899
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-181-pro-wireless-earbuds"
+    },
+    {
       "id": "electronics-429",
       "name": "boAt Ultima Regal",
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        2099,
-        2599,
-        2899
+        2299,
+        2799,
+        3099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-regal-smartwatch"
     },
@@ -5656,7 +5670,8 @@
       "variantCount": 8,
       "variantPrices": [
         1199,
-        1349
+        1499,
+        1649
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call-3-smartwatch"
     },
@@ -5677,8 +5692,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        2149,
-        2199
+        2199,
+        2449
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-nirvana-space-wireless-earbuds-with-anc"
     },
@@ -5699,8 +5714,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        3949,
-        3978
+        5449,
+        5478
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ivy-pro-wireless-earbuds"
     },
@@ -5721,8 +5736,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1399,
-        1799
+        1599,
+        1999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-800d"
     },
@@ -5732,8 +5747,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1099,
-        1299
+        1299,
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-430-headphone"
     },
@@ -5743,8 +5758,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1799,
-        1949
+        1899,
+        2049
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-vista-round-hd-display-smartwatch"
     },
@@ -5754,9 +5769,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1799,
-        1899,
-        2499
+        1999,
+        2099,
+        2699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-ascend-hd-display-smartwatch"
     },
@@ -5785,26 +5800,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/immortal-katana-2-0-blade-gaming-earbuds"
     },
     {
-      "id": "electronics-476",
-      "name": "boAt Wave Call 3",
+      "id": "electronics-471",
+      "name": "boAt Stone 900",
       "domain": "boat-lifestyle.com",
-      "variantCount": 5,
+      "variantCount": 2,
       "variantPrices": [
-        1099,
-        1299
+        6499,
+        6799
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
-    },
-    {
-      "id": "electronics-478",
-      "name": "boAt Airdopes Plus 223",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        999,
-        1099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-223"
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-900"
     },
     {
       "id": "electronics-481",
@@ -5836,10 +5840,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        3599,
-        3899
+        3799,
+        4599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
+    },
+    {
+      "id": "electronics-494",
+      "name": "boAt Airdopes 161 (Metallic)",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        899,
+        1199
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-161-metallic"
     },
     {
       "id": "electronics-496",
@@ -5847,8 +5862,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        5899,
-        6399
+        6399,
+        6899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-valour-watch-1-gps-smartwatch-with-inbuilt-gps"
     },
@@ -5899,37 +5914,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/wave-sigma-smartwatch"
     },
     {
-      "id": "electronics-509",
-      "name": "boAt Airdopes Plus 224",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        999,
-        1099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-224"
-    },
-    {
       "id": "electronics-519",
       "name": "boAt Rockerz Trendz",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1299,
+        1399,
         2499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-trendz-wireless-headphones"
-    },
-    {
-      "id": "electronics-522",
-      "name": "boAt Airdopes Prime 512",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1099,
-        1199
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-512"
     },
     {
       "id": "electronics-528",
@@ -5943,15 +5936,37 @@
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-noise-cancelling-headphone"
     },
     {
-      "id": "electronics-538",
-      "name": "boAt Rockerz 371",
+      "id": "electronics-547",
+      "name": "boAt Airdopes 212",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        999,
+        899,
         1099
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-371"
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-212-wireless-earbuds"
+    },
+    {
+      "id": "electronics-553",
+      "name": "boAt Rockerz 113",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        799,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-113-wireless-neckband-with-beast™-mode"
+    },
+    {
+      "id": "electronics-559",
+      "name": "boAt Airdopes Alpha",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 7,
+      "variantPrices": [
+        799,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds"
     },
     {
       "id": "electronics-560",
@@ -5960,7 +5975,7 @@
       "variantCount": 3,
       "variantPrices": [
         3799,
-        3949
+        4449
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-pro-wireless-headphone"
     },
@@ -5974,6 +5989,17 @@
         2499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-118-earbuds-with-13mm-drivers-beast™-mode-for-gamers-enx™-technology"
+    },
+    {
+      "id": "electronics-563",
+      "name": "boAt Rockerz 480",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        1799,
+        1899
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-480-wireless-headphone"
     },
     {
       "id": "electronics-564",
@@ -5994,8 +6020,8 @@
       "variantPrices": [
         1999,
         2028,
-        2199,
-        2228
+        2299,
+        2328
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ivy-wireless-earbuds"
     },
@@ -6009,6 +6035,28 @@
         1899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-261-pro"
+    },
+    {
+      "id": "electronics-573",
+      "name": "boAt Airdopes 121 Pro Plus",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        1649,
+        1949
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-121-pro-plus-earbuds"
+    },
+    {
+      "id": "electronics-574",
+      "name": "boAt Airdopes 181 Pro",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 4,
+      "variantPrices": [
+        1199,
+        1499
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-181-pro-bluetooth-earbuds"
     },
     {
       "id": "electronics-576",
@@ -6031,6 +6079,17 @@
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ultra-plus-large-playback-earbuds"
+    },
+    {
+      "id": "electronics-583",
+      "name": "boAt Rockerz 110",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        799,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-110"
     },
     {
       "id": "electronics-587",
@@ -6105,8 +6164,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1599,
-        1628
+        1799,
+        1828
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds"
     },
@@ -6150,10 +6209,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1299,
-        1328,
-        1399,
-        1428
+        1599,
+        1628
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-163-wireless-earbuds"
     },
@@ -6240,10 +6297,12 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 10,
       "variantPrices": [
-        799,
-        828,
         899,
-        928
+        928,
+        999,
+        1028,
+        1099,
+        1128
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-161"
     },
@@ -6264,9 +6323,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 14,
       "variantPrices": [
-        1349,
+        1449,
         1499,
-        1528
+        1528,
+        1628
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-138-wireless-earbuds-1"
     },
@@ -6276,7 +6336,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        849,
+        899,
         999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-110"
@@ -6287,23 +6347,14 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1228,
-        1249,
         1299,
-        1328
+        1328,
+        1428,
+        1449,
+        1499,
+        1528
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-148"
-    },
-    {
-      "id": "electronics-614",
-      "name": "boAt Bassheads 105",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 5,
-      "variantPrices": [
-        799,
-        899
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-105"
     },
     {
       "id": "electronics-615",
@@ -6323,8 +6374,8 @@
       "variantCount": 6,
       "variantPrices": [
         699,
-        899,
-        999
+        999,
+        1099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-220"
     },
@@ -6352,24 +6403,13 @@
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-103"
     },
     {
-      "id": "electronics-619",
-      "name": "boAt Bassheads 900",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        828,
-        1099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-900"
-    },
-    {
       "id": "electronics-620",
       "name": "Bassheads 225",
       "domain": "boat-lifestyle.com",
       "variantCount": 9,
       "variantPrices": [
-        399,
-        499
+        499,
+        599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-225"
     },
@@ -6379,8 +6419,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        287,
-        299
+        299,
+        449
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-100"
     },
@@ -6401,8 +6441,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1799,
-        2099
+        2099,
+        2399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-ultima-ember-2"
     },
@@ -6412,8 +6452,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1299,
-        1499
+        1599,
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -6423,8 +6463,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1299,
-        1499
+        1599,
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wave-sigma-3-curv"
     },
@@ -6445,8 +6485,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        4399,
-        4899
+        4899,
+        5399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-valour-watch-1r"
     },
@@ -6491,8 +6531,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1399
+        1599,
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -6513,8 +6553,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        3499,
-        3999
+        3999,
+        4499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-endeavour-amoled-display-smartwatch"
     },
@@ -6557,8 +6597,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 18,
       "variantPrices": [
-        2299,
-        3499,
+        2799,
         3999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/smart-ring-active-plus"
@@ -6581,8 +6620,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2899,
-        3199
+        3399,
+        3499,
+        3599,
+        3799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -6603,9 +6644,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1599,
         1899,
-        1999
+        2199,
+        2299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-prime-amoled-display-smartwatch"
     },
@@ -6639,7 +6680,7 @@
       "variantCount": 3,
       "variantPrices": [
         2999,
-        3299
+        3599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-gem-amoled-display-smartwatch"
     },
@@ -6649,9 +6690,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        899,
-        1299,
-        1849
+        1199,
+        1599,
+        2149
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-2-plus-bluetooth-calling-smartwatch"
     },
@@ -6674,8 +6715,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1299,
-        1499
+        1799,
+        1999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -6707,9 +6748,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1199,
-        1349,
-        1399
+        1499,
+        1649,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call3-plus-smartwatch"
     },
@@ -6719,7 +6760,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        4499,
+        4999,
         5999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wanderer-smart-4g-sim-smartwatch-for-kids-with-wifi-connectivity"
@@ -6730,8 +6771,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 18,
       "variantPrices": [
-        2299,
-        2999
+        3099,
+        3799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/smart-ring-active"
     },
@@ -6752,8 +6793,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1099,
-        1249
+        1499,
+        1649
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
@@ -6763,7 +6804,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1449,
+        1649,
         1999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-193-portable-speaker"
@@ -6802,15 +6843,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/stone-190"
     },
     {
-      "id": "electronics-721",
-      "name": "Energyshroom PB600",
+      "id": "electronics-734",
+      "name": "Energyshroom PB331 Magnacharge",
       "domain": "boat-lifestyle.com",
-      "variantCount": 2,
+      "variantCount": 4,
       "variantPrices": [
-        2199,
-        2599
+        1699,
+        1799
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb600-power-bank"
+      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb331-magnacharge-10000mah-power-bank"
     },
     {
       "id": "electronics-743",
@@ -6818,8 +6859,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        1299,
-        1328
+        1799,
+        1828
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb400-powerbank-with-20000mah-battery-capacity-with-smart-ic-protection"
     },
@@ -6831,10 +6872,32 @@
       "variantPrices": [
         1099,
         1128,
-        1199,
-        1228
+        1299,
+        1328
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-10000mah-power-bank"
+    },
+    {
+      "id": "electronics-751",
+      "name": "boAt Slazer K100+",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        1999,
+        2099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer"
+    },
+    {
+      "id": "electronics-752",
+      "name": "boAt Slazer S100",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        799,
+        899
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-s100-trimmer"
     },
     {
       "id": "electronics-758",
@@ -7011,6 +7074,18 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "healthPersonalCare-24",
+      "name": "Lifelong LLKWS09 Weight Machine for Kitchen with Measuring Spoons",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "healthPersonalCare-25",
+      "name": "Lifelong LLM765 Rechargeable Head, Scalp Full Body Pain Relief Massager",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "apparel-60",
       "name": "Scott Organic Polo T-shirt",
       "domain": "www.globallinker.com",
@@ -7029,20 +7104,38 @@
       "error": "not JSON (content-type=text/html; charset=UTF-8)"
     },
     {
+      "id": "electronics-124",
+      "name": "Portronics Muffs M5 Bluetooth Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-126",
+      "name": "Portronics Muffs M2 Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "electronics-338",
       "name": "Xech Mini Chef Electronic Multi Cooker",
       "domain": "xech.com",
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-343",
-      "name": "Xech Blend (Portable Blender)",
+      "id": "electronics-346",
+      "name": "Xech Pulse II Wireless Charger With Smart Handset",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": "electronics-344",
-      "name": "Xech Hot Box II Rapid Heating Electric Lunch box",
+      "id": "electronics-347",
+      "name": "Xech powerbase Fast Wireless Charger",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-348",
+      "name": "Xech Powerbase lite Fast Wireless Charger",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
@@ -7053,14 +7146,20 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-472",
-      "name": "boAt Rockerz 238 Pro",
+      "id": "electronics-474",
+      "name": "boAt EnergyShroom PB310 Wireless Pro",
       "domain": "boat-lifestyle.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": "electronics-473",
-      "name": "boAt Rockerz 650 Pro",
+      "id": "electronics-475",
+      "name": "boAt Aavante Prime 5.1.2 5050DA",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-476",
+      "name": "boAt Wave Call 3",
       "domain": "boat-lifestyle.com",
       "error": "HTTP Error 429: Too Many Requests"
     }
