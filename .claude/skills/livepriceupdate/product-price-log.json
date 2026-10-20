@@ -1,5 +1,5 @@
 {
-  "_description": "Per-product price-sourcing log for the Tier A/B/C live price system. An entry here means a human/agent had to actually research THIS specific product (Tier C search+verify, or a Tier B/A product with a product-specific story like a wrong sourceUrl). Plain Tier A (Shopify) and plain Tier B (known-domain) products do NOT get an entry -- their method is uniform and already documented in SKILL.md, not product-specific. Before re-researching any product from scratch, check here first.",
+  "_description": "Per-product price-sourcing log for the Tier A/B/C live price system. An entry here means a human/agent had to actually research THIS specific product (Tier C search+verify, or a Tier B/A product with a product-specific story like a wrong sourceUrl). Plain Tier A (Shopify) and plain Tier B (known-domain) products do NOT get an entry -- their method is uniform and already documented in SKILL.md, not product-specific. Before re-researching any product from scratch, check here first. Owner standing rule (2026-10-20): EVERY product the owner hands over gets an entry recording where its info/price came from -- a PDF, a live site, or stated directly -- via sourceType. A PDF-sourced product stays marked sourceType=pdf until the owner explicitly asks for an online check; that check is its own logged event (how and where), never a silent edit.",
   "_schema": {
     "name": "product name as stored in products.json",
     "brand": "brand name",
@@ -12,9 +12,12 @@
     "confidence": "free text, e.g. \"high\", \"medium\", \"match: high, price: low\"",
     "caveats": "anything a future session should know before trusting this record at face value",
     "batch": "which pilot batch / investigation this came from, for cross-referencing codex-briefing.md",
-    "lastUpdated": "date of the most recent research on this product"
+    "lastUpdated": "date of the most recent research on this product",
+    "sourceType": "pdf | online | owner-provided -- REQUIRED for every entry going forward. pdf = info/price came from a PDF the owner provided (see pdfName). online = found/verified via a live web source (see sourceUrl, method). owner-provided = owner stated the info/price directly, no document or web source.",
+    "pdfName": "Which PDF this came from, when sourceType=pdf (e.g. the catalog filename). null otherwise.",
+    "priceAtEntry": "The price as recorded at this entry's last update (from the PDF, the online check, or as stated) -- this is the log's own record, separate from (and to be cross-checked against) products.json's own price field."
   },
-  "_usage": "When asked to update or re-verify a product's price: look it up by id here FIRST. If an entry exists, repeat its method/sourceUrl rather than re-searching from scratch, and update lastUpdated + add a note if anything changed. If no entry exists, it's either a plain Tier A/B product (follow SKILL.md's generic method) or genuinely new Tier C work (do the research, then ADD an entry here so the next session does not have to repeat it).",
+  "_usage": "When asked to update or re-verify a product's price: look it up by id here FIRST. If an entry exists, repeat its method/sourceUrl rather than re-searching from scratch, and update lastUpdated + add a note if anything changed. If no entry exists, it's either a plain Tier A/B product (follow SKILL.md's generic method) or genuinely new Tier C work (do the research, then ADD an entry here so the next session does not have to repeat it). Owner rule: use `python3 scripts/product_price_log.py add PRODUCT_ID --source-type pdf --pdf-name \"...\"` for any product the owner hands over from a PDF (or --source-type owner-provided / online for other ways a product is given). When later asked to check a product online, use `recheck-online PRODUCT_ID --source-url ... --method ...` -- this logs exactly how and where the check was done and flips sourceType to online, keeping the PDF provenance visible in history. Never silently overwrite a PDF-sourced entry's price without going through recheck-online.",
   "apparel-112": {
     "batch": "tier-c-pilot-1",
     "brand": "Marks & Spencer's",
@@ -27,7 +30,9 @@
     "priceBasis": "sale-price-flagged",
     "sourceUrl": "https://joytreeglobal.com/products/ms-tipping-polo-t-shirt-premium-corporate-apparel",
     "tier": "C",
-    "verification": "image-confirmed (tipping-stripe pattern on collar+cuffs, Navy Blue variant listed)"
+    "verification": "image-confirmed (tipping-stripe pattern on collar+cuffs, Navy Blue variant listed)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-113": {
     "batch": "tier-c-pilot-1",
@@ -40,7 +45,9 @@
     "priceBasis": "sale-price-flagged",
     "sourceUrl": "https://joytreeglobal.com/products/ms-sweatshirt-premium-corporate-apparel",
     "tier": "C",
-    "verification": "image-confirmed (same model/pose stock photo, denim-blue zip bomber)"
+    "verification": "image-confirmed (same model/pose stock photo, denim-blue zip bomber)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-114": {
     "batch": "tier-c-pilot-2b",
@@ -54,7 +61,9 @@
     "priceBasis": "no-mrp-field",
     "sourceUrl": "https://in.puma.com/in/en/pd/essentials-mens-jacquard-collar-slim-fit-polo/695647",
     "tier": "C (incomplete)",
-    "verification": "image-confirmed (photo-identical), price NOT available"
+    "verification": "image-confirmed (photo-identical), price NOT available",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-122": {
     "batch": "tier-c-pilot-2b",
@@ -68,7 +77,9 @@
     "priceBasis": "wholesale-estimate-flagged",
     "sourceUrl": null,
     "tier": "C (held, NOT applied)",
-    "verification": "image-confirmed, price NOT trustworthy"
+    "verification": "image-confirmed, price NOT trustworthy",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-128": {
     "batch": "tier-c-pilot-2b",
@@ -82,7 +93,9 @@
     "priceBasis": "wholesale-estimate-flagged",
     "sourceUrl": null,
     "tier": "C (held, NOT applied)",
-    "verification": "image-confirmed, price NOT trustworthy"
+    "verification": "image-confirmed, price NOT trustworthy",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-37": {
     "batch": "tier-c-pilot-1",
@@ -96,7 +109,9 @@
     "priceBasis": "sale-price-flagged",
     "sourceUrl": "https://www.amazon.ae/Scott-International-Regular-Sweatshirt-1-1_sshz8_S/dp/B012GCK9CS",
     "tier": "C",
-    "verification": "image-confirmed (black hoodie, kangaroo pocket, drawcord)"
+    "verification": "image-confirmed (black hoodie, kangaroo pocket, drawcord)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-65": {
     "batch": "tier-c-pilot-1",
@@ -109,7 +124,9 @@
     "priceBasis": "sale-price-flagged",
     "sourceUrl": "https://www.amazon.in/dp/B0DT7QBMFF",
     "tier": "C",
-    "verification": "image-confirmed + spec-sheet text match"
+    "verification": "image-confirmed + spec-sheet text match",
+    "sourceType": "online",
+    "pdfName": null
   },
   "apparel-66": {
     "batch": "tier-c-pilot-1",
@@ -122,7 +139,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.indiamart.com/proddetail/puma-training-cap-2853519597555.html",
     "tier": "C",
-    "verification": "image-confirmed (pixel-identical catalog sheet)"
+    "verification": "image-confirmed (pixel-identical catalog sheet)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "bagsLuggageTravel-159": {
     "batch": "bad-sourceurl-fix",
@@ -136,7 +155,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.nykaafashion.com/tommy-hilfiger-marshall-textured-hard-luggage-cabin/p/8428329",
     "tier": "B",
-    "verification": "dual-source-mrp-confirmed: live MRP (8999) exactly matches this catalog's own stored brand-poster image's printed MRP (8999, Style Code 8903496161038)"
+    "verification": "dual-source-mrp-confirmed: live MRP (8999) exactly matches this catalog's own stored brand-poster image's printed MRP (8999, Style Code 8903496161038)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "bagsLuggageTravel-163": {
     "batch": "bad-sourceurl-fix",
@@ -150,7 +171,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://luxury.tatacliq.com/tommy-hilfiger-navy-unisex-monett-business-case/p-mp000000025220967",
     "tier": "B",
-    "verification": "dual-source-mrp-confirmed: found a separate `\"mrpPrice\":{...,\"doubleValue\":6499}` field on the page (distinct from JSON-LD offers.price, which is the sale price 3249) -- 6499 matches this catalog's own stored brand-poster MRP exactly"
+    "verification": "dual-source-mrp-confirmed: found a separate `\"mrpPrice\":{...,\"doubleValue\":6499}` field on the page (distinct from JSON-LD offers.price, which is the sale price 3249) -- 6499 matches this catalog's own stored brand-poster MRP exactly",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-118": {
     "batch": "coconut-tier-a-pass-2",
@@ -164,7 +187,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/22hda-22-inch-full-hd-frameless-ips-monitor",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-123": {
     "batch": "coconut-tier-a-pass-2",
@@ -178,7 +203,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/24hd-24-inch-monitor",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-126": {
     "batch": "coconut-tier-a-pass-2",
@@ -192,7 +219,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/e900-sm50-900w-high-efficiency-computer-power-supply",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-130": {
     "batch": "coconut-tier-a-pass-2",
@@ -206,7 +235,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/type-c-to-1000mbps-giga-lan-with-hub-3-3-0-usb-ports-plug-play-portable-design",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-131": {
     "batch": "coconut-tier-a-pass-2",
@@ -220,7 +251,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/glm-02-c",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-14": {
     "batch": "tier-c-pilot-2a",
@@ -233,7 +266,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/coconut-ax01-3-5mm-aux-cable-male-to-male-gold-plated-premium-aluminium-allloy-connectors-tpe-1m",
     "tier": "A (reclassified from C)",
-    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed"
+    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-145": {
     "batch": "coconut-tier-a-pass-2",
@@ -247,7 +282,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/glp06c-type-c-to-gigabit-lan-adapter-1000-mbps",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-151": {
     "batch": "coconut-tier-a-pass-2",
@@ -261,7 +298,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/dp-to-hdmi",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-152": {
     "batch": "coconut-tier-a-pass-2",
@@ -275,7 +314,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/dp-to-hdmi-vga-dvi-01",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-165": {
     "batch": "coconut-tier-a-pass-2",
@@ -289,7 +330,9 @@
     "priceBasis": "n/a",
     "sourceUrl": null,
     "tier": "C (held, NOT applied)",
-    "verification": "image-confirmed, price data UNTRUSTWORTHY"
+    "verification": "image-confirmed, price data UNTRUSTWORTHY",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-173": {
     "batch": "coconut-tier-a-pass-2",
@@ -303,7 +346,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/mini-dp-to-hdmi-vga-dvi-01",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-176": {
     "batch": "coconut-tier-a-pass-2",
@@ -317,7 +362,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-vga-01",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-178": {
     "batch": "coconut-tier-a-pass-2",
@@ -331,7 +378,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-dvi-01",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-184": {
     "batch": "coconut-tier-a-pass-2",
@@ -345,7 +394,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-mini-dp-01",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-188": {
     "batch": "coconut-tier-a-pass-2",
@@ -359,7 +410,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/usb-c-to-dp-01",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-192": {
     "batch": "coconut-tier-a-pass-2",
@@ -373,7 +426,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/vga-to-hdmi-converter-vga-male-to-hdmi-female-with-3-5mm-audio-jack",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-198": {
     "batch": "coconut-tier-a-pass-2",
@@ -387,7 +442,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/hdmi-to-vga-with-premium-chipset-2m-cable",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-199": {
     "batch": "coconut-tier-a-pass-2",
@@ -401,7 +458,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/ul02-c-usb-c-hub-lan-ethernet-adapter-3x-usb-2-0-ports",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-208": {
     "batch": "coconut-tier-a-pass-2",
@@ -415,7 +474,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/stand-1-barcode-scanner-stand",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-233": {
     "batch": "coconut-tier-a-pass-2",
@@ -429,7 +490,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/folow-11-laptop-cooler-pad",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-280": {
     "batch": "coconut-tier-a-pass-2",
@@ -443,7 +506,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/mobi-2-mobile",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-35": {
     "batch": "tier-c-pilot-2a",
@@ -456,7 +521,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/coconut-stark-z9-glass-argb-atx-mid-tower-gaming-cabinet-black",
     "tier": "A (reclassified from C)",
-    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed"
+    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-36": {
     "batch": "tier-c-pilot-2a",
@@ -469,7 +536,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/rampage-elite",
     "tier": "A (reclassified from C)",
-    "verification": "byte-identical-image + MRP corrected (14999->11999)"
+    "verification": "byte-identical-image + MRP corrected (14999->11999)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-41": {
     "batch": "tier-c-pilot-2a",
@@ -482,7 +551,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/rampage-2000d-gaming-cabinet-black-e-atx",
     "tier": "A (reclassified from C)",
-    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed"
+    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-53": {
     "batch": "tier-c-pilot-2a",
@@ -495,7 +566,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/dp-to-vga",
     "tier": "A (reclassified from C)",
-    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed"
+    "verification": "byte-identical-image + MRP already matched stored exactly, no change needed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "coconut-55": {
     "batch": "coconut-tier-a-pass-2",
@@ -509,7 +582,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.coconutlife.in/products/gold-wireless-gaming-mouse",
     "tier": "A (reclassified from C)",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "comboSets-1": {
     "batch": "bad-sourceurl-fix",
@@ -523,7 +598,9 @@
     "priceBasis": "n/a",
     "sourceUrl": null,
     "tier": "C (unresolved, re-classified)",
-    "verification": "image confirmed correct; sourceUrl could not be determined"
+    "verification": "image confirmed correct; sourceUrl could not be determined",
+    "sourceType": "online",
+    "pdfName": null
   },
   "computerAccessories-1": {
     "batch": "tier-c-pilot-2a",
@@ -537,7 +614,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=175",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "drinkware-2": {
     "batch": "tier-c-pilot-2a",
@@ -551,7 +630,9 @@
     "priceBasis": "no-mrp-field",
     "sourceUrl": "https://www.flipkart.com/tamta-tura-earth-vein-copper-pot-950-ml-bottle/p/itm187e4cffc76c0",
     "tier": "C (incomplete)",
-    "verification": "image-confirmed, price NOT extractable"
+    "verification": "image-confirmed, price NOT extractable",
+    "sourceType": "online",
+    "pdfName": null
   },
   "drinkware-3": {
     "batch": "tier-c-pilot-2a",
@@ -565,7 +646,9 @@
     "priceBasis": "no-mrp-field",
     "sourceUrl": "https://www.flipkart.com/tamta-tura-earth-vein-copper-bottle-elegant-gloss-v008-950-ml/p/itmd12487a981fd8",
     "tier": "C (incomplete)",
-    "verification": "image-confirmed, price NOT extractable"
+    "verification": "image-confirmed, price NOT extractable",
+    "sourceType": "online",
+    "pdfName": null
   },
   "edible-2": {
     "batch": "tier-c-pilot-1",
@@ -578,7 +661,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://loyka.co/products/assorted-3-pcs-box",
     "tier": "C",
-    "verification": "image-confirmed (identical box photography, '40% ALMONDS', '3 PIECES' text)"
+    "verification": "image-confirmed (identical box photography, '40% ALMONDS', '3 PIECES' text)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "kitchenAppliances-1": {
     "batch": "tier-c-pilot-1",
@@ -592,7 +677,9 @@
     "priceBasis": "sale-price-flagged",
     "sourceUrl": "https://www.flipkart.com/rico-isi-certified-18-monhts-replacement-warranty-400-w-juicer-mixer-grinder/p/itmdaf3d63156449?pid=MIXGVQAGRY5HRHNK",
     "tier": "C",
-    "verification": "image-confirmed (jar/lid/blade/motor-base shape pixel-matched)"
+    "verification": "image-confirmed (jar/lid/blade/motor-base shape pixel-matched)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "kitchenAppliances-7": {
     "batch": "tier-c-pilot-2b",
@@ -606,7 +693,9 @@
     "priceBasis": "sale-price-flagged",
     "sourceUrl": "https://www.amazon.in/dp/B0GL8BGQ7S",
     "tier": "C",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalAccessories-10": {
     "batch": "tier-c-pilot-2a",
@@ -620,7 +709,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=182",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalAccessories-5": {
     "batch": "tier-c-pilot-2a",
@@ -634,7 +725,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=71",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalAccessories-6": {
     "batch": "tier-c-pilot-2a",
@@ -648,7 +741,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/offikraft-ring-key-chain",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalAccessories-7": {
     "batch": "tier-c-pilot-2a",
@@ -662,7 +757,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=73",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalAccessories-8": {
     "batch": "tier-c-pilot-2a",
@@ -676,7 +773,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=78",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalAccessories-9": {
     "batch": "tier-c-pilot-2a",
@@ -690,7 +789,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=183",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalLifestyle-1": {
     "batch": "tier-c-pilot-1",
@@ -704,7 +805,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.decathlon.in/p/8584432",
     "tier": "C->B",
-    "verification": "image-confirmed (same blue-petrol/orange-trim towel)"
+    "verification": "image-confirmed (same blue-petrol/orange-trim towel)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "personalLifestyle-2": {
     "batch": "tier-c-pilot-1",
@@ -718,7 +821,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://www.decathlon.in/p/8584433",
     "tier": "C->B",
-    "verification": "image-confirmed"
+    "verification": "image-confirmed",
+    "sourceType": "online",
+    "pdfName": null
   },
   "travelAccessories-10": {
     "batch": "tier-c-pilot-1",
@@ -732,7 +837,9 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://remaxx.in/products/remaxx-rechargeble-u-shaped-travel-neck-massage-pillow",
     "tier": "C",
-    "verification": "image-confirmed (near-identical photo)"
+    "verification": "image-confirmed (near-identical photo)",
+    "sourceType": "online",
+    "pdfName": null
   },
   "travelAccessories-9": {
     "batch": "tier-c-pilot-2a",
@@ -746,6 +853,8 @@
     "priceBasis": "mrp",
     "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=184",
     "tier": "C",
-    "verification": "image-confirmed (same source marketing graphic, cropped/resized)"
+    "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
+    "sourceType": "online",
+    "pdfName": null
   }
 }

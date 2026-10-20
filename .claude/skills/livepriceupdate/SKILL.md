@@ -389,6 +389,26 @@ protocol: look a product up there before researching it fresh, and
 **always add an entry for any new product you research** (or update an
 existing one) so the next session doesn't repeat the work.
 
+**Owner's standing rule (2026-10-20): every product the owner hands
+over gets a log entry recording where its info/price came from —
+not just the ones from a Tier C batch.** `sourceType` is `pdf` /
+`online` / `owner-provided`:
+- A product the owner gives from a **PDF** gets `python3 scripts/
+  product_price_log.py add <id> --source-type pdf --pdf-name "<the
+  PDF's name>" ...` — it stays marked `pdf` indefinitely. Never
+  silently treat a PDF-sourced price as current; it's a snapshot from
+  whenever that PDF was made.
+- When the owner later **asks you to check that product online** (to
+  refresh/confirm it), that's its own logged event, not a silent edit:
+  `python3 scripts/product_price_log.py recheck-online <id>
+  --source-url <url> --method "<how you found/verified it>" [--price
+  <new price>]`. This flips `sourceType` to `online`, records the
+  check's method/URL, and keeps the original PDF provenance visible in
+  the entry's `history` — so the record always shows both "where this
+  started" and "how it was last confirmed."
+- A product the owner just tells you about with no document and no web
+  source yet is `--source-type owner-provided`.
+
 **An entry's `lastUpdated` age matters — a confirmed match doesn't mean
 the PRICE is still accurate months later** (same "sale prices are
 snapshots" rule as everywhere else in this system). `scripts/
