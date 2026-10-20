@@ -4,8 +4,20 @@
 For every product whose sourceUrl looks like a Shopify product page
 (".../products/<handle>"), fetches that supplier's own
 "<handle>.json" endpoint -- a free, structured, no-scraping Shopify
-feature -- and compares the live price/compare_at_price against what's
-stored in data/products.json.
+feature -- and compares the live price against what's stored in
+data/products.json.
+
+The number applied is the real MRP: Shopify's `compare_at_price` when
+the supplier has one set (i.e. a discount is currently active), falling
+back to plain `price` only when no compare_at_price exists at all (no
+discount active, so price already IS the MRP). NOT the raw `price`
+field alone -- that's the current SELLING price when a discount is
+active, and applying it as if it were MRP was a real bug that shipped
+with this script on 2026-10-14 and ran undetected on the daily cron for
+about a week before being caught 2026-10-20 (same bug class as the
+Tier B decathlon.in/havells.com fix the same day). See
+data/price_check_escalation_queue.json and codex-briefing.md for the
+cleanup of what it affected historically.
 
 - Small changes (<= AUTO_APPLY_THRESHOLD_PCT) are applied automatically.
 - Bigger changes are left untouched and written to the report instead,
@@ -161,32 +173,47 @@ def main():
 
         # Every variant (colour/size/etc.) shares the same price, so there's
         # no real ambiguity -- treat it like a single-variant product.
-        live_price = variant_prices.pop()
+        live_price = to_number(variant_prices.pop())
         compare_ats = {v.get("compare_at_price") for v in variants if v.get("compare_at_price")}
         live_mrp = to_number(sorted(compare_ats)[0]) if compare_ats else None
+
+        # CONFIRMED BUG, fixed 2026-10-20: this used to apply `live_price`
+        # (Shopify's variants[].price -- the current SELLING price) to
+        # products.json, even though `live_mrp` (compare_at_price, the
+        # real MRP) was already being computed and reported right above.
+        # Same bug class as the Tier B decathlon.in/havells.com fix the
+        # same day -- "a price field parsed" was never evidence it was
+        # the RIGHT field, and this one had been live on the daily cron
+        # since 2026-10-14, applying sale price as if it were MRP on
+        # every discounted Shopify product it touched. Target price is
+        # now the real MRP when Shopify reports one (compare_at_price
+        # set, i.e. a discount is active); only falls back to the plain
+        # price when no compare_at_price exists at all (no discount
+        # active, so price IS the MRP already).
+        target_price = live_mrp if live_mrp is not None else live_price
 
         stored_price = p.get("price")
         record = {
             "id": p["id"], "name": p["name"], "domain": domain,
-            "storedPrice": stored_price, "livePrice": to_number(live_price), "liveMrp": live_mrp,
+            "storedPrice": stored_price, "livePrice": live_price, "liveMrp": live_mrp,
             "sourceUrl": p.get("sourceUrl"),
         }
 
         if stored_price is None:
-            p["price"] = to_number(live_price)
+            p["price"] = target_price
             record["action"] = "applied (no prior stored price)"
             applied.append(record)
             continue
 
-        if stored_price == live_price:
+        if stored_price == target_price:
             unchanged_count += 1
             continue
 
-        delta_pct = abs(live_price - stored_price) / stored_price * 100 if stored_price else 100.0
+        delta_pct = abs(target_price - stored_price) / stored_price * 100 if stored_price else 100.0
         record["deltaPct"] = round(delta_pct, 1)
 
         if delta_pct <= AUTO_APPLY_THRESHOLD_PCT:
-            p["price"] = to_number(live_price)
+            p["price"] = target_price
             record["action"] = "applied"
             applied.append(record)
         else:
