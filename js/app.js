@@ -6,6 +6,7 @@
     client: "wa-catalog:client-info",
     seenWelcome: "wa-catalog:seen-welcome",
     recentlyViewed: "wa-catalog:recently-viewed",
+    discoverCollapsed: "wa-catalog:discover-collapsed",
   };
 
   /** @type {{config: any, categories: any[], products: any[], visibleCategories: any[], visibleProducts: any[]}} */
@@ -28,7 +29,7 @@
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
     kits: [], // curated multi-product kits (from data/kits.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
-    pagination: { page: 1, pageSize: 24, sort: "newest" },
+    pagination: { page: 1, pageSize: 24, sort: "price-low" },
   };
 
   const BUDGET_PRESETS = {
@@ -1679,6 +1680,8 @@
     els.kitRow = qs("kit-row");
     els.brandChips = qs("brand-chips");
     els.moreBrandsBtn = qs("more-brands-btn");
+    els.discoverToggle = qs("discover-toggle");
+    els.discoverToggleLabel = els.discoverToggle && els.discoverToggle.querySelector(".discover-toggle-label");
     els.sidebarCategories = qs("sidebar-categories");
     els.desktopCartBtn = qs("desktop-cart-btn");
     els.desktopCartBadge = qs("desktop-cart-badge");
@@ -1817,6 +1820,24 @@
       state.pagination.page = 1;
       renderProducts();
     });
+    // Brand row + Continue Browsing collapse together under one toggle --
+    // persisted across visits since Continue Browsing is a returning-
+    // visitor feature anyway.
+    if (els.discoverToggle) {
+      const setDiscoverCollapsed = (collapsed) => {
+        document.body.classList.toggle("discover-collapsed", collapsed);
+        els.discoverToggle.setAttribute("aria-expanded", String(!collapsed));
+        if (els.discoverToggleLabel) els.discoverToggleLabel.textContent = collapsed ? "Show" : "Hide";
+      };
+      let storedCollapsed = false;
+      try { storedCollapsed = localStorage.getItem(STORAGE_KEYS.discoverCollapsed) === "1"; } catch (_) { /* storage may be unavailable */ }
+      setDiscoverCollapsed(storedCollapsed);
+      els.discoverToggle.addEventListener("click", () => {
+        const next = !document.body.classList.contains("discover-collapsed");
+        setDiscoverCollapsed(next);
+        try { localStorage.setItem(STORAGE_KEYS.discoverCollapsed, next ? "1" : "0"); } catch (_) { /* storage may be unavailable */ }
+      });
+    }
     els.pagerPrev.addEventListener("click", () => {
       if (state.pagination.page > 1) goToPage(state.pagination.page - 1);
     });

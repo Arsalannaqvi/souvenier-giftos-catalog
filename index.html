@@ -23,7 +23,7 @@
      changes, so a plain phone reload (no "hard refresh" gesture on
      mobile) always picks up the new version immediately instead of
      possibly reusing a stale cached copy for up to 10 minutes. -->
-<link rel="stylesheet" href="css/styles.css?v=202610131230">
+<link rel="stylesheet" href="css/styles.css?v=202610211200">
 </head>
 <body class="shop home-active">
 
@@ -92,10 +92,15 @@
     <div id="kit-row" class="kit-row-scroll"></div>
   </div>
   <div class="quick-row quick-row--brand">
-    <span class="quick-label">Brand</span>
+    <div class="quick-row-head">
+      <span class="quick-label">Brand</span>
+      <button id="discover-toggle" class="discover-toggle" type="button" aria-expanded="true" aria-controls="brand-chips recently-viewed-section">
+        <span class="discover-toggle-label">Hide</span>
+        <svg class="discover-toggle-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+    </div>
     <div id="brand-chips" class="chip-row chip-row--nowrap brand-slider">
       <button class="chip brand-tile" type="button" data-brand="" aria-pressed="true">
-        <span class="brand-tile-mono">All</span>
         <span class="brand-tile-name">All Brands</span>
       </button>
       <button class="chip brand-tile" type="button" data-brand="boAt" style="--brand-accent:#fb7185; --brand-accent-2:#fb923c;">
@@ -192,8 +197,8 @@
           <option value="96">96 / page</option>
         </select>
         <select id="sort-select" class="toolbar-select" aria-label="Sort products">
-          <option value="newest" selected>Newest First</option>
-          <option value="price-low">Price: Low to High</option>
+          <option value="newest">Newest First</option>
+          <option value="price-low" selected>Price: Low to High</option>
           <option value="price-high">Price: High to Low</option>
           <option value="name">Name: A to Z</option>
         </select>
@@ -474,7 +479,7 @@
   </div>
 </div>
 
-<script src="js/app.js?v=202610111700" defer></script>
+<script src="js/app.js?v=202610211200" defer></script>
 <script src="js/logo-editor.js?v=202610111700" defer></script>
 </body>
 </html>
