@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T07:58:18.545869+00:00",
+  "checkedAt": "2026-10-22T07:55:37.231776+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1424,
@@ -8015,17 +8015,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "coconut-241",
-      "name": "Enigma Gaming Headset (True RGB)",
-      "domain": "coconutlife.in",
-      "storedPrice": 1259,
-      "livePrice": 1259,
-      "liveMrp": 2099,
-      "sourceUrl": "https://coconutlife.in/products/coconut-gh1-enigma-gaming-headphones-for-pc-laptop-headset-50mm-drivers-2-2m-cable",
-      "deltaPct": 66.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "coconut-242",
       "name": "ACCO 20W Wall Charger",
       "domain": "coconutlife.in",
@@ -8616,8 +8605,8 @@
       "domain": "tintbox.in",
       "variantCount": 6,
       "variantPrices": [
-        999,
-        1969
+        1049,
+        2000
       ],
       "sourceUrl": "https://tintbox.in/products/tintbox-sipper-water-bottle"
     },
@@ -8627,8 +8616,8 @@
       "domain": "tintbox.in",
       "variantCount": 7,
       "variantPrices": [
-        869,
-        1699
+        949,
+        1840
       ],
       "sourceUrl": "https://tintbox.in/products/glass-water-bottle-online"
     },
@@ -9534,17 +9523,6 @@
         1099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-125-wireless-earbuds"
-    },
-    {
-      "id": "electronics-594",
-      "name": "boAt Airdopes Atom 81",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1199,
-        1599
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-atom-81-long-playback-earbuds"
     },
     {
       "id": "electronics-595",
@@ -10523,6 +10501,18 @@
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "electronics-594",
+      "name": "boAt Airdopes Atom 81",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-241",
+      "name": "Enigma Gaming Headset (True RGB)",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
