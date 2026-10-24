@@ -218,6 +218,14 @@
     Array.from(row.children).forEach((btn, i) => {
       btn.addEventListener("click", () => applyColour(colours[i], i));
     });
+
+    // The swatch row and "Colour: <name>" label both default to the
+    // first colour, but initGallery() (called earlier in init()) just
+    // renders product.images as-is -- the product's generic base photo,
+    // not necessarily that first colour's own images. Sync the gallery
+    // to match on load, so the labeled colour and the displayed photo
+    // never start out disagreeing.
+    applyColour(colours[0], 0);
   }
 
   // ---------- "You might also like" suggestion row ----------
