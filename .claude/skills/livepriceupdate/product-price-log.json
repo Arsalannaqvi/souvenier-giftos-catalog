@@ -856,5 +856,1265 @@
     "verification": "image-confirmed (same source marketing graphic, cropped/resized)",
     "sourceType": "online",
     "pdfName": null
+  },
+  "edible-4": {
+    "name": "Almond Brittle Coffee Pack (3pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/3-piece-coffee-almond-brittle-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 130.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-5": {
+    "name": "Almond Brittle Brownie Pack (3pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/almond-brittle-brownie-3-pcs",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 130.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-6": {
+    "name": "Almond Brittle Brownie Box (4pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/almond-brittle-brownie-4-pcs-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 190.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-7": {
+    "name": "Almond Brittle Gold Pack (3pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/3-piece-almond-brittle-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 130.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-8": {
+    "name": "Almond Brittle Gold Box (4pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle-classic-4-pc-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 190.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-9": {
+    "name": "Almond Caramel Gourmet Dates Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-caramel-almond",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 290.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-11": {
+    "name": "Almond Brittle Gourmet Dates Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle-dates-12-piece-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 280.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "Loyka's own page 1st image is mismatched (shows Almond Caramel pouch) -- matched on 2nd gallery image instead",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-13": {
+    "name": "Loyka Select Best Seller Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-select-best-seller-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 235.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "photographed box is printed 'Select Gourmet Indulgence,' not 'Best Seller' -- Loyka appears to reuse one generic box photo across Select SKUs",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-14": {
+    "name": "Almond Brittle Assorted Box (8pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/almond-brittle-assorted-7-pcs-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 340.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-15": {
+    "name": "Almond Brittle Gold Box (8pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/almond-brittle-7-piece-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 340.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-17": {
+    "name": "Almond Cookies (No Maida) (16pcs) Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-cookies-box-no-maida-12-pieces-216-grams",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 360.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "page title/handle says 12 pcs -- trusted the printed pack count on the photo instead",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-18": {
+    "name": "Sunset Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/sunset-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-21": {
+    "name": "Almond Brittle Assorted Box (14pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle-assorted",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-22": {
+    "name": "Almond Brittle Coffee Box (14pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-coffee-almond-brittle-12-piece-classic-box-200-grams",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-23": {
+    "name": "Almond Brittle Brownie Box (14pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle-brownie-12-piece-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-24": {
+    "name": "Almond Brittle Gold Box (14pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-31": {
+    "name": "Almond Brittle Assorted Box (28pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle-assorted-24-piece-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 949.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "handle says '24-piece,' title/photo say 28 -- trusted title/photo",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-32": {
+    "name": "Almond Brittle Gold Box (28pcs)",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/almond-brittle-jumbo-gift-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 949.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-33": {
+    "name": "Royal Peach Darwaza Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/royal-peach-2-jar-box-card",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 975.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-34": {
+    "name": "Select Regal Tin Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-select-regal-tin-reusable-box-1",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 1100.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "same generic-box-label issue as edible-13 -- photographed lid text doesn't say 'Regal Tin'",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-40": {
+    "name": "Safarnama Box",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/safarnama-box",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 2350.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-45": {
+    "name": "Almond Brittle Dark Chocolate",
+    "brand": "Loyka",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://loyka.co/products/loyka-almond-brittle-luxe-dark-chocolate-box-12-piece",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (loyka.co), matched locally against our stored product name/image",
+    "priceAtEntry": 560.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-58": {
+    "name": "Assorted Mixed Nuts 200g",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/rosted-aassorted-nutsnd-salted",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 400.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-60": {
+    "name": "Cashews Roasted and Salted",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/roasted-salted-cashew",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 600.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "our name has no size; assumed the 250g variant -- flag for owner to confirm weight",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-61": {
+    "name": "Almond Roasted and Salted 250gms",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/salted-almonds",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 600.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-63": {
+    "name": "Classic Cashew Nuts 250g",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/cashew",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 500.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-64": {
+    "name": "Classic American Almond 250g",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/california-almonds",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 400.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "site titles it 'California Almonds' -- same physical SKU, American/California almonds are the same retail product in India",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-65": {
+    "name": "Dried Strawberry 250gms",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/dried-strawberry",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 400.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-66": {
+    "name": "Dried Cranberry Slice 250gms",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/cranberry-slice",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 300.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-67": {
+    "name": "Dried Blueberries 250gms",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/copy-of-cranberry-slice-1",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 650.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "live page handle is a 'copy-of-cranberry-slice' duplicate, titled 'Dried Blueberry' -- Notty Nuts' own site quirk, not ours",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-68": {
+    "name": "Dried Mixed Fruit 250g",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/dried-mix-fruit",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 350.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-69": {
+    "name": "Dried Kiwi 250gms",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/dried-kiwi",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 250.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-79": {
+    "name": "Peri Peri Cashews 100g",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/peri-peri-cashew",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 220.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "page's 'Pack of 1' variant has no stated grams; ₹220 vs our stored ₹221 is close enough to be confident it's the same 100g pack",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "edible-82": {
+    "name": "Protein Bomb 200gms",
+    "brand": "Notty Nuts",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://nottynuts.in/products/notty-nuts-nutritious-snack-protein-bombs-healthy-protein-bars-enriched-with-natural-fibers-no-added-sugar-high-protein-instant-energy-bar-replacement-pack-of-1-200-gm",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): found brand's own Shopify storefront (nottynuts.in), matched locally against our stored product name/image",
+    "priceAtEntry": 360.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "site shows price=320 (sale) / compare_at_price=360 (MRP) -- used MRP 360 per this project's MRP-over-sale-price rule",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "officeSupplies-4": {
+    "name": "EO Priority Board Magnetic Things To Do Planner",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/priority-board",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical 5-panel magnetic whiteboard design, eo logo visible",
+    "priceAtEntry": 1999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (629) is 3.18x lower than this live MRP (1999), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "outdoorLiving-2": {
+    "name": "EO Terrarium Sustainable Self Watering Plant Pot",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/terrarium-self-watering-plant-pot",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same shape/mechanism; our stored photo's colorway not in current live gallery",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "color variant (cream/white) not independently confirmed on live listing -- same product line/price | Price NOT applied to products.json -- stored price (274) is 3.28x lower than this live MRP (899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "outdoorLiving-3": {
+    "name": "EO Terrarium Self Watering Plant Pot",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/terrarium-self-watering-plant-pot",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same shape/mechanism as live listing",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (274) is 3.28x lower than this live MRP (899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "outdoorLiving-4": {
+    "name": "EO Terra Sustainable Eco-Smart Design",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): exploded-parts diagram with eo logo confirms brand/mechanism",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "stone/beige color variant not independently confirmed -- same product/price | Price NOT applied to products.json -- stored price (134) is 2.98x lower than this live MRP (399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "outdoorLiving-5": {
+    "name": "EO Terra Self Watering Plant Pot",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): exploded-parts diagram with eo logo confirms brand/mechanism",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "white marble color variant not independently confirmed -- same product/price | Price NOT applied to products.json -- stored price (134) is 2.98x lower than this live MRP (399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "outdoorLiving-6": {
+    "name": "EO Terra Self Watering Plant Pot",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): exact color match (black) to hero photo",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (134) is 2.98x lower than this live MRP (399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "personalLifestyle-7": {
+    "name": "EO Tech Pouch Water Resistant Organiser",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/tech-pouch",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Green variant photo byte-matches stored photo",
+    "priceAtEntry": 1899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (597) is 3.18x lower than this live MRP (1899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "personalLifestyle-8": {
+    "name": "EO Tech Pouch Water Resistant Organiser",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/tech-pouch",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Black variant photo byte-matches stored photo",
+    "priceAtEntry": 1899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (597) is 3.18x lower than this live MRP (1899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "personalLifestyle-9": {
+    "name": "EO Tech Pouch Mini Pocket-Sized Carry Case",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Brown variant photo matches stored photo (flat-lay desk shot)",
+    "priceAtEntry": 1299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (334) is 3.89x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "personalLifestyle-10": {
+    "name": "EO Tech Pouch Mini Pocket-Sized Carry Case",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Black variant photo matches stored photo",
+    "priceAtEntry": 1299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (334) is 3.89x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "personalLifestyle-11": {
+    "name": "EO Tech Pouch Mini Pocket-Sized Carry Case",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Green variant photo matches stored photo",
+    "priceAtEntry": 1299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (334) is 3.89x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "personalLifestyle-12": {
+    "name": "EO Alpha Tech Pouch with Hard EVA Case",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/hard-shell-organiser-tech-pouch-alpha",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical black honeycomb hard EVA case with maroon strap",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (629) is 4.77x lower than this live MRP (2999), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "deskAccessories-10": {
+    "name": "EO Spin Fluted Swivel Desk Organiser",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/fluted-swivel-pen-stand-spin",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical fluted S-curve speckled-marble design, eo logo visible",
+    "priceAtEntry": 1199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (428) is 2.80x lower than this live MRP (1199), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "deskAccessories-11": {
+    "name": "EO Fluted Swivel Desk Organiser Spin Marble",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/fluted-swivel-pen-stand-spin",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical fluted S-curve speckled-marble design",
+    "priceAtEntry": 1199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (428) is 2.80x lower than this live MRP (1199), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "homeDecor-16": {
+    "name": "EO Clockwise Multifunctional Digital Clock",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/digital-alarm-clock-clockwise",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical white wireless-charging clock dock, eo logo visible",
+    "priceAtEntry": 1799.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (558) is 3.22x lower than this live MRP (1799), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "homeDecor-17": {
+    "name": "EO Decider Multifunctional Digital Clock",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/decider",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical DECIDE button clock, black colorway",
+    "priceAtEntry": 1499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (513) is 2.92x lower than this live MRP (1499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "homeDecor-18": {
+    "name": "EO Decider Multifunctional Digital Clock",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/decider-decision-making-clock-with-alarm",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical device, white colorway, separate listing",
+    "priceAtEntry": 1499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (513) is 2.92x lower than this live MRP (1499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "stationary-4": {
+    "name": "EO Prakriti Corn Husk Eco Friendly Notebook",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/corn-husk-diary-100-recycled-pages-undated-a5-journal",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical CORN HUSK labeled Prakriti notebook sleeve",
+    "priceAtEntry": 699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (205) is 3.41x lower than this live MRP (699), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "stationary-5": {
+    "name": "EO Prakriti Sustainable Flax Linen Notebooks",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/flax-linen-diary-cotton-rag-pages-undated-a5-premium-journal",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical FLAX LINEN labeled sleeve",
+    "priceAtEntry": 1299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (359) is 3.62x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "stationary-6": {
+    "name": "EO Prakriti Eco Friendly Notebooks",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/sugarcane-bagasse-diary-wheat-straw-pages-undated-a5-journal",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored photo's own label reads SUGARCANE, disambiguated from image itself",
+    "priceAtEntry": 699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (205) is 3.41x lower than this live MRP (699), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-537": {
+    "name": "EO Time Board Pomodoro Timer with Mini Whiteboard",
+    "brand": "Everyday Organisers (EO)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.everydayorganisers.com/products/timer-clock-for-study-with-mini-whiteboard",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical white Pomodoro timer/whiteboard combo device",
+    "priceAtEntry": 1399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (505) is 2.77x lower than this live MRP (1399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "homeDecor-20": {
+    "name": "Remaxx I-Square Wireless Charger Digital Alarm Clock",
+    "brand": "Remaxx",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://remaxx.in/products/remaxx-digital-alarm-clock-i-square",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored image is Remaxx's own spec sheet (SKU RE1029), identical to live product photos",
+    "priceAtEntry": 5999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (812) is 7.39x lower than this live MRP (5999), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "healthPersonalCare-64": {
+    "name": "Remaxx Bliss Smart Scalp Massager",
+    "brand": "Remaxx",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://remaxx.in/products/remaxx-bliss-smart-scalp-massager",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored image is Remaxx's own spec sheet (SKU RE1047), exact match to live photos",
+    "priceAtEntry": 3499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (723) is 4.84x lower than this live MRP (3499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "apparel-64": {
+    "name": "Scott 300/ Hoodie with Zip",
+    "brand": "Scott International",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.amazon.in/dp/B0DGTXJY63",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same model/pose/red-drawcord photo as stored catalog sheet (SKU SSLZ-BL)",
+    "priceAtEntry": 2499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "brand's own catalog-sheet prints a LOWER MRP (Rs 1499) than this live Amazon listing (Rs 2499) -- used live per Tier C's prefer-live principle, but flagging the discrepancy | Price NOT applied to products.json -- stored price (588) is 4.25x lower than this live MRP (2499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "apparel-9": {
+    "name": "Decathlon Men's Short-Sleeved Golf Polo T-shirt",
+    "brand": "Decathlon",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.decathlon.in/p/8788051/mens-golf-100-cotton-short-sleeve-polo-shirt-mw100-white",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored spec sheet's own model code 'MW100 White' matches this live listing's title exactly",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "stored sheet's printed MRP (899) is stale vs current live MRP (999) -- minor drift | Price NOT applied to products.json -- stored price (659) vs live MRP (999), ratio 1.52x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "sportsFitnessOutdoor-4": {
+    "name": "Decathlon DE-67 Wrist Band",
+    "brand": "Decathlon",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.decathlon.in/p/8022237/tennis-wristband-tp-100-black",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): image-confirmed: same wristband pair (oval V-logo + KUIKMA text, charcoal-black) worn on both wrists in both photos",
+    "priceAtEntry": 299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "live price (299) is PER SINGLE wristband; stored catalog image shows a pair -- if this SKU represents the pair, real MRP would be ~598, not 299. Flagging for owner to confirm which this SKU represents. | Price NOT applied to products.json -- stored price (239) vs live MRP (299), ratio 1.25x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "apparel-117": {
+    "name": "Puma Woven Track Jacket",
+    "brand": "Puma (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/puma-woven-track-jacket-windproof-full-zip-outerwear/",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): candidate's 3rd gallery image is the same stock photo as stored image (same model/pose/sunglasses/white jeans)",
+    "priceAtEntry": 3699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "price IS in INR on this listing (unlike most other JoyTree Puma items) and matches the stored spec sheet's own printed MRP exactly -- joytreeglobal.com confirmed as this catalog's original Puma data source, not a Tier A/B-proven domain so won't be auto-rechecked by existing scripts | Price NOT applied to products.json -- stored price (1624) vs live MRP (3699), ratio 2.28x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-168": {
+    "name": "Puma Gym duffle Bag",
+    "brand": "Puma (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/puma-cr-gym-bag-heavy-duty-420d-ripstop-cinch-sack/",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): image-confirmed: same black/red barrel duffel, same PUMA wordmark and color-block split, color matches via page's own structured data",
+    "priceAtEntry": 964.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "only one price (964 INR) shown on page, no separate MRP found -- stored sheet's own printed MRP was 1599, so 964 may be a sale price rather than true MRP; genuinely uncertain which is right | Price NOT applied to products.json -- stored price (653) vs live MRP (964), ratio 1.48x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "electronics-289": {
+    "name": "Xech Solaris (Kitty) Digital Clock From The Future",
+    "brand": "Xech",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://xech.com/products/digital-wall-clock-for-home-solaris-plus-kitty-cat",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical artwork (same cat illustrations, same floral print) to stored image; MRP exact match to stored spec sheet",
+    "priceAtEntry": 5999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (1987) vs live MRP (5999), ratio 3.02x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "electronics-290": {
+    "name": "Xech Solaris (Archer) Digital Clock From The Future",
+    "brand": "Xech",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://xech.com/products/digital-wall-clock-for-home-solaris-plus-archer",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical artwork (archer silhouette, orange gradient); MRP exact match to stored spec sheet",
+    "priceAtEntry": 5999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Price NOT applied to products.json -- stored price (1987) vs live MRP (5999), ratio 3.02x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "electronics-296": {
+    "name": "Xech Solaris X (Customised) Desktop clock Speaker",
+    "brand": "Xech",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://xech.com/products/digital-clock-with-speaker-earth-solarisx",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same round-disc-on-stand hardware form and XECH logo placement; MRP exact match to stored spec sheet",
+    "priceAtEntry": 4499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "matched on hardware/price family (5 interchangeable print variants, all identically priced), not a literal single SKU -- 'Customised' orders (buyer-supplied artwork) have no single product URL | Price NOT applied to products.json -- stored price (1526) vs live MRP (4499), ratio 2.95x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "electronics-328": {
+    "name": "Xech Solaris X Neo (Customised) Digital Clock with Pen Stand",
+    "brand": "Xech",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://xech.com/products/digital-alarm-clock-solaris-x-neo-moon",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same pen-stand round-disc hardware form as stored image; price exact match to stored spec sheet (listed as 'regular price', no separate higher MRP shown)",
+    "priceAtEntry": 4199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "price-family match, not a literal Customised SKU page, same as electronics-296 | Price NOT applied to products.json -- stored price (1112) vs live MRP (4199), ratio 3.78x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "electronics-324": {
+    "name": "Xech Solaris X Lite (Customised) Digital Clock With Pen Stand",
+    "brand": "Xech",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://xech.com/products/digital-alarm-clock-solaris-x-lite-earth",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same pen-stand hardware form as stored image",
+    "priceAtEntry": 4199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "PRICE CORRECTION, not just a hold: stored spec sheet's printed 'MRP: 3,499' is actually this live listing's SALE price -- the live site's real MRP (compare-at) is 4,199. Using 4,199 per the prefer-MRP rule, flagging the sheet's own MRP label was wrong. | Price NOT applied to products.json -- stored price (948) vs live MRP (4199), ratio 4.43x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "apparel-121": {
+    "name": "Puma Ess Archieve Polo Tshirts",
+    "brand": "Puma (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/puma-ess-archive-polo-classic-cotton-blend-pique-polo/",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): image-confirmed (grey/M.Grey Heather polo, same cut, small Puma logo near sleeve). Live price shown: $13.40 USD (was $22.79)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree quotes this item in USD wholesale, not INR retail -- same known trap already in this log for apparel-122/apparel-128 (UCB/M&S). Not applying any price; logged for reference only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "apparel-115": {
+    "name": "Puma Hoodies",
+    "brand": "Puma (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/puma-hoodie-premium-jet-black-fleece-pullover-hoodie/",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): uncertain -- stored image shows a BLACK zip hoodie, but every gallery photo on this listing shows grey/navy, even though Black is listed as an available color option. Live price shown: $28.70 USD (was $53.99)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "USD wholesale quote (same trap as apparel-121) AND colorway not visually confirmed -- double uncertainty, not applying anything",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-169": {
+    "name": "Puma Duffle Bag",
+    "brand": "Puma (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/puma-proline-duffel-executive-business-travel-duffel-bag/",
+    "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): image-confirmed (same black barrel duffel, same PUMA logo placement and padded-strap style; SKU name matches stored sheet's 'Puma Proline Duffel - Black' exactly). Live price shown: $47.81 USD",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "USD wholesale quote, same trap as above -- not applying any price",
+    "lastUpdated": "2026-10-24",
+    "history": [
+      "2026-10-24 added (source: online)"
+    ]
   }
 }
