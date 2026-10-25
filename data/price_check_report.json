@@ -1,11 +1,308 @@
 {
-  "checkedAt": "2026-10-24T07:36:53.707793+00:00",
+  "checkedAt": "2026-10-25T07:50:23.238029+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
-  "candidates": 1424,
-  "unchanged": 1236,
+  "candidates": 1488,
+  "unchanged": 1257,
   "applied": [],
   "flagged": [
+    {
+      "id": "officeSupplies-4",
+      "name": "EO Priority Board Magnetic Things To Do Planner",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 629,
+      "livePrice": 999,
+      "liveMrp": 1999,
+      "sourceUrl": "https://www.everydayorganisers.com/products/priority-board",
+      "deltaPct": 217.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "outdoorLiving-2",
+      "name": "EO Terrarium Sustainable Self Watering Plant Pot",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 274,
+      "livePrice": 599,
+      "liveMrp": 899,
+      "sourceUrl": "https://www.everydayorganisers.com/products/terrarium-self-watering-plant-pot",
+      "deltaPct": 228.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "outdoorLiving-3",
+      "name": "EO Terrarium Self Watering Plant Pot",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 274,
+      "livePrice": 599,
+      "liveMrp": 899,
+      "sourceUrl": "https://www.everydayorganisers.com/products/terrarium-self-watering-plant-pot",
+      "deltaPct": 228.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "outdoorLiving-4",
+      "name": "EO Terra Sustainable Eco-Smart Design",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 134,
+      "livePrice": 299,
+      "liveMrp": 399,
+      "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
+      "deltaPct": 197.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "outdoorLiving-5",
+      "name": "EO Terra Self Watering Plant Pot",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 134,
+      "livePrice": 299,
+      "liveMrp": 399,
+      "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
+      "deltaPct": 197.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "outdoorLiving-6",
+      "name": "EO Terra Self Watering Plant Pot",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 134,
+      "livePrice": 299,
+      "liveMrp": 399,
+      "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
+      "deltaPct": 197.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "personalLifestyle-7",
+      "name": "EO Tech Pouch Water Resistant Organiser",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 597,
+      "livePrice": 899,
+      "liveMrp": 1899,
+      "sourceUrl": "https://www.everydayorganisers.com/products/tech-pouch",
+      "deltaPct": 218.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "personalLifestyle-8",
+      "name": "EO Tech Pouch Water Resistant Organiser",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 597,
+      "livePrice": 899,
+      "liveMrp": 1899,
+      "sourceUrl": "https://www.everydayorganisers.com/products/tech-pouch",
+      "deltaPct": 218.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "personalLifestyle-9",
+      "name": "EO Tech Pouch Mini Pocket-Sized Carry Case",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 334,
+      "livePrice": 499,
+      "liveMrp": 1299,
+      "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
+      "deltaPct": 288.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "personalLifestyle-10",
+      "name": "EO Tech Pouch Mini Pocket-Sized Carry Case",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 334,
+      "livePrice": 499,
+      "liveMrp": 1299,
+      "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
+      "deltaPct": 288.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "personalLifestyle-11",
+      "name": "EO Tech Pouch Mini Pocket-Sized Carry Case",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 334,
+      "livePrice": 499,
+      "liveMrp": 1299,
+      "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
+      "deltaPct": 288.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "personalLifestyle-12",
+      "name": "EO Alpha Tech Pouch with Hard EVA Case",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 629,
+      "livePrice": 999,
+      "liveMrp": 2999,
+      "sourceUrl": "https://www.everydayorganisers.com/products/hard-shell-organiser-tech-pouch-alpha",
+      "deltaPct": 376.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "deskAccessories-10",
+      "name": "EO Spin Fluted Swivel Desk Organiser",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 428,
+      "livePrice": 1199,
+      "liveMrp": 1199,
+      "sourceUrl": "https://www.everydayorganisers.com/products/fluted-swivel-pen-stand-spin",
+      "deltaPct": 180.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "deskAccessories-11",
+      "name": "EO Fluted Swivel Desk Organiser Spin Marble",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 428,
+      "livePrice": 1199,
+      "liveMrp": 1199,
+      "sourceUrl": "https://www.everydayorganisers.com/products/fluted-swivel-pen-stand-spin",
+      "deltaPct": 180.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-16",
+      "name": "EO Clockwise Multifunctional Digital Clock",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 558,
+      "livePrice": 999,
+      "liveMrp": 1799,
+      "sourceUrl": "https://www.everydayorganisers.com/products/digital-alarm-clock-clockwise",
+      "deltaPct": 222.4,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-17",
+      "name": "EO Decider Multifunctional Digital Clock",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 513,
+      "livePrice": 899,
+      "liveMrp": 1499,
+      "sourceUrl": "https://www.everydayorganisers.com/products/decider",
+      "deltaPct": 192.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-18",
+      "name": "EO Decider Multifunctional Digital Clock",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 513,
+      "livePrice": 899,
+      "liveMrp": 1499,
+      "sourceUrl": "https://www.everydayorganisers.com/products/decider-decision-making-clock-with-alarm",
+      "deltaPct": 192.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-20",
+      "name": "Remaxx I-Square Wireless Charger Digital Alarm Clock",
+      "domain": "remaxx.in",
+      "storedPrice": 812,
+      "livePrice": 1499,
+      "liveMrp": 5999,
+      "sourceUrl": "https://remaxx.in/products/remaxx-digital-alarm-clock-i-square",
+      "deltaPct": 638.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "stationary-4",
+      "name": "EO Prakriti Corn Husk Eco Friendly Notebook",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 205,
+      "livePrice": 399,
+      "liveMrp": 699,
+      "sourceUrl": "https://www.everydayorganisers.com/products/corn-husk-diary-100-recycled-pages-undated-a5-journal",
+      "deltaPct": 241.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "stationary-5",
+      "name": "EO Prakriti Sustainable Flax Linen Notebooks",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 359,
+      "livePrice": 499,
+      "liveMrp": 1299,
+      "sourceUrl": "https://www.everydayorganisers.com/products/flax-linen-diary-cotton-rag-pages-undated-a5-premium-journal",
+      "deltaPct": 261.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "stationary-6",
+      "name": "EO Prakriti Eco Friendly Notebooks",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 205,
+      "livePrice": 399,
+      "liveMrp": 699,
+      "sourceUrl": "https://www.everydayorganisers.com/products/sugarcane-bagasse-diary-wheat-straw-pages-undated-a5-journal",
+      "deltaPct": 241.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "healthPersonalCare-64",
+      "name": "Remaxx Bliss Smart Scalp Massager",
+      "domain": "remaxx.in",
+      "storedPrice": 723,
+      "livePrice": 849,
+      "liveMrp": 3499,
+      "sourceUrl": "https://remaxx.in/products/remaxx-bliss-smart-scalp-massager",
+      "deltaPct": 384.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-289",
+      "name": "Xech Solaris (Kitty) Digital Clock From The Future",
+      "domain": "xech.com",
+      "storedPrice": 1987,
+      "livePrice": 3299,
+      "liveMrp": 5999,
+      "sourceUrl": "https://xech.com/products/digital-wall-clock-for-home-solaris-plus-kitty-cat",
+      "deltaPct": 201.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-290",
+      "name": "Xech Solaris (Archer) Digital Clock From The Future",
+      "domain": "xech.com",
+      "storedPrice": 1987,
+      "livePrice": 3299,
+      "liveMrp": 5999,
+      "sourceUrl": "https://xech.com/products/digital-wall-clock-for-home-solaris-plus-archer",
+      "deltaPct": 201.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-296",
+      "name": "Xech Solaris X (Customised) Desktop clock Speaker",
+      "domain": "xech.com",
+      "storedPrice": 1526,
+      "livePrice": 2499,
+      "liveMrp": 4499,
+      "sourceUrl": "https://xech.com/products/digital-clock-with-speaker-earth-solarisx",
+      "deltaPct": 194.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-324",
+      "name": "Xech Solaris X Lite (Customised) Digital Clock With Pen Stand",
+      "domain": "xech.com",
+      "storedPrice": 948,
+      "livePrice": 3499,
+      "liveMrp": 4199,
+      "sourceUrl": "https://xech.com/products/digital-alarm-clock-solaris-x-lite-earth",
+      "deltaPct": 342.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-328",
+      "name": "Xech Solaris X Neo (Customised) Digital Clock with Pen Stand",
+      "domain": "xech.com",
+      "storedPrice": 1112,
+      "livePrice": 4199,
+      "liveMrp": 4199,
+      "sourceUrl": "https://xech.com/products/digital-alarm-clock-solaris-x-neo-moon",
+      "deltaPct": 277.6,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
     {
       "id": "homeKitchenAppliances-48",
       "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner",
@@ -26,6 +323,17 @@
       "liveMrp": 0,
       "sourceUrl": "https://www.sunflame.com/products/ch-genial-75-ac-gc",
       "deltaPct": 100.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeKitchenAppliances-537",
+      "name": "EO Time Board Pomodoro Timer with Mini Whiteboard",
+      "domain": "www.everydayorganisers.com",
+      "storedPrice": 505,
+      "livePrice": 699,
+      "liveMrp": 1399,
+      "sourceUrl": "https://www.everydayorganisers.com/products/timer-clock-for-study-with-mini-whiteboard",
+      "deltaPct": 177.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -73,6 +381,147 @@
         2999
       ],
       "sourceUrl": "https://xech.com/products/x-ray-viewing-board-a4-size"
+    },
+    {
+      "id": "edible-58",
+      "name": "Notty Nuts Assorted Mixed Nuts 200g",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        400,
+        800,
+        1200,
+        1600
+      ],
+      "sourceUrl": "https://nottynuts.in/products/rosted-aassorted-nutsnd-salted"
+    },
+    {
+      "id": "edible-60",
+      "name": "Notty Nuts Cashews Roasted and Salted",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        600,
+        1200,
+        1700,
+        2300
+      ],
+      "sourceUrl": "https://nottynuts.in/products/roasted-salted-cashew"
+    },
+    {
+      "id": "edible-61",
+      "name": "Notty Nuts Almond Roasted and Salted 250gms",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        600,
+        1200,
+        1800,
+        2400
+      ],
+      "sourceUrl": "https://nottynuts.in/products/salted-almonds"
+    },
+    {
+      "id": "edible-63",
+      "name": "Notty Nuts Classic Cashew Nuts 250g",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        500,
+        1000,
+        1500,
+        2000
+      ],
+      "sourceUrl": "https://nottynuts.in/products/cashew"
+    },
+    {
+      "id": "edible-64",
+      "name": "Notty Nuts Classic American Almond 250g",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        400,
+        800,
+        1100,
+        1400
+      ],
+      "sourceUrl": "https://nottynuts.in/products/california-almonds"
+    },
+    {
+      "id": "edible-65",
+      "name": "Notty Nuts Dried Strawberry 250gms",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        400,
+        800,
+        1200,
+        1600
+      ],
+      "sourceUrl": "https://nottynuts.in/products/dried-strawberry"
+    },
+    {
+      "id": "edible-66",
+      "name": "Notty Nuts Dried Cranberry Slice 250gms",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "sourceUrl": "https://nottynuts.in/products/cranberry-slice"
+    },
+    {
+      "id": "edible-67",
+      "name": "Notty Nuts Dried Blueberries 250gms",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        650,
+        1300,
+        1950,
+        2600
+      ],
+      "sourceUrl": "https://nottynuts.in/products/copy-of-cranberry-slice-1"
+    },
+    {
+      "id": "edible-68",
+      "name": "Notty Nuts Dried Mixed Fruit 250g",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        350,
+        700,
+        1050,
+        1400
+      ],
+      "sourceUrl": "https://nottynuts.in/products/dried-mix-fruit"
+    },
+    {
+      "id": "edible-69",
+      "name": "Notty Nuts Dried Kiwi 250gms",
+      "domain": "nottynuts.in",
+      "variantCount": 4,
+      "variantPrices": [
+        250,
+        500,
+        750,
+        1000
+      ],
+      "sourceUrl": "https://nottynuts.in/products/dried-kiwi"
+    },
+    {
+      "id": "edible-79",
+      "name": "Notty Nuts Peri Peri Cashews 100g",
+      "domain": "nottynuts.in",
+      "variantCount": 2,
+      "variantPrices": [
+        220,
+        400
+      ],
+      "sourceUrl": "https://nottynuts.in/products/peri-peri-cashew"
     },
     {
       "id": "drinkware-123",
@@ -1093,17 +1542,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-joy-wireless-earbuds"
     },
     {
-      "id": "electronics-590",
-      "name": "boAt Rockerz 109",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        999,
-        1249
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-109-wireless-earphone"
-    },
-    {
       "id": "electronics-591",
       "name": "boAt Airdopes Crude",
       "domain": "boat-lifestyle.com",
@@ -1900,10 +2338,32 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
+        1699,
+        1799
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer"
+    },
+    {
+      "id": "apparel-155",
+      "name": "Campus Promote",
+      "domain": "www.campusshoes.com",
+      "variantCount": 7,
+      "variantPrices": [
+        1539,
+        1899
+      ],
+      "sourceUrl": "https://www.campusshoes.com/products/promote-m-blu-golden-mens-sports-shoes"
+    },
+    {
+      "id": "apparel-156",
+      "name": "Campus Level",
+      "domain": "www.campusshoes.com",
+      "variantCount": 9,
+      "variantPrices": [
         1799,
         1899
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer"
+      "sourceUrl": "https://www.campusshoes.com/products/level-wht-gry-mens-sneakers"
     },
     {
       "id": "electronics-758",
@@ -2110,6 +2570,18 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "apparel-117",
+      "name": "Puma Woven Track Jacket",
+      "domain": "joytreeglobal.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "bagsLuggageTravel-168",
+      "name": "Puma Gym duffle Bag",
+      "domain": "joytreeglobal.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "electronics-338",
       "name": "Xech Mini Chef Electronic Multi Cooker",
       "domain": "xech.com",
@@ -2120,10 +2592,16 @@
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "electronics-590",
+      "name": "boAt Rockerz 109",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
-    "noSourceUrl": 956,
-    "nonShopifyOrNonProductUrl": 579
+    "noSourceUrl": 889,
+    "nonShopifyOrNonProductUrl": 582
   }
 }
