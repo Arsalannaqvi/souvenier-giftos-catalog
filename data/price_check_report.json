@@ -1,10 +1,22 @@
 {
-  "checkedAt": "2026-10-25T07:50:23.238029+00:00",
+  "checkedAt": "2026-10-26T08:06:16.664777+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1488,
-  "unchanged": 1257,
-  "applied": [],
+  "unchanged": 1259,
+  "applied": [
+    {
+      "id": "edible-13",
+      "name": "Loyka Select Best Seller Box",
+      "domain": "loyka.co",
+      "storedPrice": 235,
+      "livePrice": 260,
+      "liveMrp": null,
+      "sourceUrl": "https://loyka.co/products/loyka-select-best-seller-box",
+      "deltaPct": 10.6,
+      "action": "applied"
+    }
+  ],
   "flagged": [
     {
       "id": "officeSupplies-4",
@@ -883,17 +895,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus"
     },
     {
-      "id": "electronics-405",
-      "name": "boAt Stone 350",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1099,
-        1399
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
-    },
-    {
       "id": "electronics-406",
       "name": "boAt Bassheads 104",
       "domain": "boat-lifestyle.com",
@@ -973,7 +974,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
-        1999,
+        2299,
         2499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-spinx-pro-bluetooth-speaker"
@@ -1006,9 +1007,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        2099,
-        2599,
-        2899
+        2299,
+        2799,
+        3099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-regal-smartwatch"
     },
@@ -1019,7 +1020,8 @@
       "variantCount": 8,
       "variantPrices": [
         1199,
-        1349
+        1399,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call-3-smartwatch"
     },
@@ -1198,8 +1200,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1399
+        1399,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
     },
@@ -1245,7 +1247,7 @@
       "variantCount": 5,
       "variantPrices": [
         3799,
-        4099
+        4299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
     },
@@ -1255,8 +1257,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        5899,
-        6399
+        6399,
+        6899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-valour-watch-1-gps-smartwatch-with-inbuilt-gps"
     },
@@ -1508,17 +1510,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ultra-plus-large-playback-earbuds"
     },
     {
-      "id": "electronics-586",
-      "name": "boAt Airdopes Ace",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1249,
-        1349
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace"
-    },
-    {
       "id": "electronics-587",
       "name": "boAt Airdopes 161 ANC",
       "domain": "boat-lifestyle.com",
@@ -1531,15 +1522,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-161-anc-wireless-earbuds"
     },
     {
-      "id": "electronics-589",
-      "name": "boAt Airdopes Joy",
+      "id": "electronics-590",
+      "name": "boAt Rockerz 109",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1699,
-        1799
+        999,
+        1249
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-joy-wireless-earbuds"
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-109-wireless-earphone"
     },
     {
       "id": "electronics-591",
@@ -1876,8 +1867,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1799,
-        2099
+        2099,
+        2399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-ultima-ember-2"
     },
@@ -1887,8 +1878,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1399,
-        1599
+        1599,
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -1898,8 +1889,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1399,
-        1599
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wave-sigma-3-curv"
     },
@@ -1932,8 +1923,7 @@
       "variantCount": 4,
       "variantPrices": [
         4799,
-        5299,
-        7299
+        5299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-ivory-amoled-display-smartwatch"
     },
@@ -1966,8 +1956,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1299,
-        1499
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -1988,8 +1978,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        3499,
-        3999
+        3799,
+        4299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-endeavour-amoled-display-smartwatch"
     },
@@ -1999,7 +1989,6 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1599,
         1699,
         1899
       ],
@@ -2034,7 +2023,6 @@
       "variantCount": 18,
       "variantPrices": [
         2299,
-        3499,
         3999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/smart-ring-active-plus"
@@ -2057,8 +2045,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2999,
-        3299
+        3299,
+        3599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -2079,8 +2067,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1699,
-        1999
+        1899,
+        2199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-prime-amoled-display-smartwatch"
     },
@@ -2113,8 +2101,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        3099,
-        3399
+        3399,
+        3699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-gem-amoled-display-smartwatch"
     },
@@ -2124,9 +2112,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        999,
-        1399,
-        1549
+        1199,
+        1599,
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-2-plus-bluetooth-calling-smartwatch"
     },
@@ -2136,8 +2124,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1899,
-        2099
+        2899,
+        3199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch"
     },
@@ -2147,8 +2135,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1399,
-        1549
+        1599,
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -2180,10 +2168,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1299,
-        1399,
         1499,
-        1549
+        1599,
+        1649
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call3-plus-smartwatch"
     },
@@ -2205,7 +2192,7 @@
       "variantCount": 18,
       "variantPrices": [
         2299,
-        2999
+        3799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/smart-ring-active"
     },
@@ -2226,8 +2213,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1349
+        1399,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
@@ -2248,10 +2235,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1899,
-        1999
+        1999,
+        2199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350-pro-portable-speaker"
+    },
+    {
+      "id": "electronics-701",
+      "name": "boAt Stone 190 Pro",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        929,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/stone-190-pro-bluetooth-speaker"
     },
     {
       "id": "electronics-713",
@@ -2298,24 +2296,13 @@
       "sourceUrl": "https://boat-lifestyle.com/products/stone-190"
     },
     {
-      "id": "electronics-721",
-      "name": "Energyshroom PB600",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        2199,
-        2599
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb600-power-bank"
-    },
-    {
       "id": "electronics-743",
       "name": "boAt Energyshroom PB400",
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        1399,
-        1428
+        1799,
+        1828
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb400-powerbank-with-20000mah-battery-capacity-with-smart-ic-protection"
     },
@@ -2327,8 +2314,8 @@
       "variantPrices": [
         1099,
         1128,
-        1199,
-        1228
+        1299,
+        1328
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-10000mah-power-bank"
     },
@@ -2592,12 +2579,6 @@
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "id": "electronics-590",
-      "name": "boAt Rockerz 109",
-      "domain": "boat-lifestyle.com",
-      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
