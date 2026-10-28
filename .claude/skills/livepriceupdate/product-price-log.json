@@ -1477,11 +1477,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/priority-board",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical 5-panel magnetic whiteboard design, eo logo visible",
-    "priceAtEntry": 1999.0,
+    "priceAtEntry": 1999,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (629) is 3.18x lower than this live MRP (1999), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1495,11 +1495,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/terrarium-self-watering-plant-pot",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same shape/mechanism; our stored photo's colorway not in current live gallery",
-    "priceAtEntry": 899.0,
+    "priceAtEntry": 899,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "medium",
-    "caveats": "color variant (cream/white) not independently confirmed on live listing -- same product line/price | Price NOT applied to products.json -- stored price (274) is 3.28x lower than this live MRP (899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": "color variant (cream/white) not independently confirmed on live listing -- same product line/price",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1513,11 +1513,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/terrarium-self-watering-plant-pot",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same shape/mechanism as live listing",
-    "priceAtEntry": 899.0,
+    "priceAtEntry": 899,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (274) is 3.28x lower than this live MRP (899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1531,11 +1531,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): exploded-parts diagram with eo logo confirms brand/mechanism",
-    "priceAtEntry": 399.0,
+    "priceAtEntry": 399,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "medium",
-    "caveats": "stone/beige color variant not independently confirmed -- same product/price | Price NOT applied to products.json -- stored price (134) is 2.98x lower than this live MRP (399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": "stone/beige color variant not independently confirmed -- same product/price",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1549,11 +1549,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): exploded-parts diagram with eo logo confirms brand/mechanism",
-    "priceAtEntry": 399.0,
+    "priceAtEntry": 399,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "medium",
-    "caveats": "white marble color variant not independently confirmed -- same product/price | Price NOT applied to products.json -- stored price (134) is 2.98x lower than this live MRP (399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": "white marble color variant not independently confirmed -- same product/price",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1567,11 +1567,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/terra-self-watering-plant-pot",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): exact color match (black) to hero photo",
-    "priceAtEntry": 399.0,
+    "priceAtEntry": 399,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (134) is 2.98x lower than this live MRP (399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1585,11 +1585,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/tech-pouch",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Green variant photo byte-matches stored photo",
-    "priceAtEntry": 1899.0,
+    "priceAtEntry": 1899,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (597) is 3.18x lower than this live MRP (1899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1603,11 +1603,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/tech-pouch",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Black variant photo byte-matches stored photo",
-    "priceAtEntry": 1899.0,
+    "priceAtEntry": 1899,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (597) is 3.18x lower than this live MRP (1899), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1621,11 +1621,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Brown variant photo matches stored photo (flat-lay desk shot)",
-    "priceAtEntry": 1299.0,
+    "priceAtEntry": 1299,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (334) is 3.89x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1639,11 +1639,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Black variant photo matches stored photo",
-    "priceAtEntry": 1299.0,
+    "priceAtEntry": 1299,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (334) is 3.89x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1657,11 +1657,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/mini-travel-organiser-pouch",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): Green variant photo matches stored photo",
-    "priceAtEntry": 1299.0,
+    "priceAtEntry": 1299,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (334) is 3.89x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1675,11 +1675,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/hard-shell-organiser-tech-pouch-alpha",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical black honeycomb hard EVA case with maroon strap",
-    "priceAtEntry": 2999.0,
+    "priceAtEntry": 2999,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (629) is 4.77x lower than this live MRP (2999), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1693,11 +1693,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/fluted-swivel-pen-stand-spin",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical fluted S-curve speckled-marble design, eo logo visible",
-    "priceAtEntry": 1199.0,
+    "priceAtEntry": 1199,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (428) is 2.80x lower than this live MRP (1199), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1711,11 +1711,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/fluted-swivel-pen-stand-spin",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical fluted S-curve speckled-marble design",
-    "priceAtEntry": 1199.0,
+    "priceAtEntry": 1199,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (428) is 2.80x lower than this live MRP (1199), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1729,11 +1729,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/digital-alarm-clock-clockwise",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical white wireless-charging clock dock, eo logo visible",
-    "priceAtEntry": 1799.0,
+    "priceAtEntry": 1799,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (558) is 3.22x lower than this live MRP (1799), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1747,11 +1747,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/decider",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical DECIDE button clock, black colorway",
-    "priceAtEntry": 1499.0,
+    "priceAtEntry": 1499,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (513) is 2.92x lower than this live MRP (1499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1765,11 +1765,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/decider-decision-making-clock-with-alarm",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical device, white colorway, separate listing",
-    "priceAtEntry": 1499.0,
+    "priceAtEntry": 1499,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (513) is 2.92x lower than this live MRP (1499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1783,11 +1783,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/corn-husk-diary-100-recycled-pages-undated-a5-journal",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical CORN HUSK labeled Prakriti notebook sleeve",
-    "priceAtEntry": 699.0,
+    "priceAtEntry": 699,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (205) is 3.41x lower than this live MRP (699), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1801,11 +1801,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/flax-linen-diary-cotton-rag-pages-undated-a5-premium-journal",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical FLAX LINEN labeled sleeve",
-    "priceAtEntry": 1299.0,
+    "priceAtEntry": 1299,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (359) is 3.62x lower than this live MRP (1299), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1819,11 +1819,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/sugarcane-bagasse-diary-wheat-straw-pages-undated-a5-journal",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored photo's own label reads SUGARCANE, disambiguated from image itself",
-    "priceAtEntry": 699.0,
+    "priceAtEntry": 699,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (205) is 3.41x lower than this live MRP (699), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1837,11 +1837,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.everydayorganisers.com/products/timer-clock-for-study-with-mini-whiteboard",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): identical white Pomodoro timer/whiteboard combo device",
-    "priceAtEntry": 1399.0,
+    "priceAtEntry": 1399,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (505) is 2.77x lower than this live MRP (1399), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1855,11 +1855,11 @@
     "pdfName": null,
     "sourceUrl": "https://remaxx.in/products/remaxx-digital-alarm-clock-i-square",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored image is Remaxx's own spec sheet (SKU RE1029), identical to live product photos",
-    "priceAtEntry": 5999.0,
+    "priceAtEntry": 5999,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (812) is 7.39x lower than this live MRP (5999), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1873,11 +1873,11 @@
     "pdfName": null,
     "sourceUrl": "https://remaxx.in/products/remaxx-bliss-smart-scalp-massager",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored image is Remaxx's own spec sheet (SKU RE1047), exact match to live photos",
-    "priceAtEntry": 3499.0,
+    "priceAtEntry": 3499,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (723) is 4.84x lower than this live MRP (3499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1891,11 +1891,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.amazon.in/dp/B0DGTXJY63",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same model/pose/red-drawcord photo as stored catalog sheet (SKU SSLZ-BL)",
-    "priceAtEntry": 2499.0,
+    "priceAtEntry": 2499,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "brand's own catalog-sheet prints a LOWER MRP (Rs 1499) than this live Amazon listing (Rs 2499) -- used live per Tier C's prefer-live principle, but flagging the discrepancy | Price NOT applied to products.json -- stored price (588) is 4.25x lower than this live MRP (2499), a systematic pattern across this whole brand batch (not an isolated stale-price case), which could mean the stored price is an intentional bulk/wholesale rate for this corporate-gifting catalog rather than stale retail data. Holding for owner decision before overwriting a long-standing price this big a jump. sourceUrl added so the existing Tier A/B delta-gating (auto-applies <=25%% deltas, flags bigger ones) picks this up going forward.",
+    "caveats": "brand's own catalog-sheet prints a LOWER MRP (Rs 1499) than this live Amazon listing (Rs 2499) -- used live per Tier C's prefer-live principle, but flagging the discrepancy",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1909,11 +1909,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.decathlon.in/p/8788051/mens-golf-100-cotton-short-sleeve-polo-shirt-mw100-white",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): stored spec sheet's own model code 'MW100 White' matches this live listing's title exactly",
-    "priceAtEntry": 999.0,
+    "priceAtEntry": 999,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "stored sheet's printed MRP (899) is stale vs current live MRP (999) -- minor drift | Price NOT applied to products.json -- stored price (659) vs live MRP (999), ratio 1.52x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "stored sheet's printed MRP (899) is stale vs current live MRP (999) -- minor drift",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1927,11 +1927,11 @@
     "pdfName": null,
     "sourceUrl": "https://www.decathlon.in/p/8022237/tennis-wristband-tp-100-black",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): image-confirmed: same wristband pair (oval V-logo + KUIKMA text, charcoal-black) worn on both wrists in both photos",
-    "priceAtEntry": 299.0,
+    "priceAtEntry": 299,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "live price (299) is PER SINGLE wristband; stored catalog image shows a pair -- if this SKU represents the pair, real MRP would be ~598, not 299. Flagging for owner to confirm which this SKU represents. | Price NOT applied to products.json -- stored price (239) vs live MRP (299), ratio 1.25x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "live price (299) is PER SINGLE wristband; stored catalog image shows a pair -- if this SKU represents the pair, real MRP would be ~598, not 299. Flagging for owner to confirm which this SKU represents.",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1945,11 +1945,11 @@
     "pdfName": null,
     "sourceUrl": "https://joytreeglobal.com/products/puma-woven-track-jacket-windproof-full-zip-outerwear/",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): candidate's 3rd gallery image is the same stock photo as stored image (same model/pose/sunglasses/white jeans)",
-    "priceAtEntry": 3699.0,
+    "priceAtEntry": 3699,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "price IS in INR on this listing (unlike most other JoyTree Puma items) and matches the stored spec sheet's own printed MRP exactly -- joytreeglobal.com confirmed as this catalog's original Puma data source, not a Tier A/B-proven domain so won't be auto-rechecked by existing scripts | Price NOT applied to products.json -- stored price (1624) vs live MRP (3699), ratio 2.28x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "price IS in INR on this listing (unlike most other JoyTree Puma items) and matches the stored spec sheet's own printed MRP exactly -- joytreeglobal.com confirmed as this catalog's original Puma data source, not a Tier A/B-proven domain so won't be auto-rechecked by existing scripts",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1963,11 +1963,11 @@
     "pdfName": null,
     "sourceUrl": "https://joytreeglobal.com/products/puma-cr-gym-bag-heavy-duty-420d-ripstop-cinch-sack/",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): image-confirmed: same black/red barrel duffel, same PUMA wordmark and color-block split, color matches via page's own structured data",
-    "priceAtEntry": 964.0,
+    "priceAtEntry": 964,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "only one price (964 INR) shown on page, no separate MRP found -- stored sheet's own printed MRP was 1599, so 964 may be a sale price rather than true MRP; genuinely uncertain which is right | Price NOT applied to products.json -- stored price (653) vs live MRP (964), ratio 1.48x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "only one price (964 INR) shown on page, no separate MRP found -- stored sheet's own printed MRP was 1599, so 964 may be a sale price rather than true MRP; genuinely uncertain which is right",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1981,11 +1981,11 @@
     "pdfName": null,
     "sourceUrl": "https://xech.com/products/digital-wall-clock-for-home-solaris-plus-kitty-cat",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical artwork (same cat illustrations, same floral print) to stored image; MRP exact match to stored spec sheet",
-    "priceAtEntry": 5999.0,
+    "priceAtEntry": 5999,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (1987) vs live MRP (5999), ratio 3.02x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -1999,11 +1999,11 @@
     "pdfName": null,
     "sourceUrl": "https://xech.com/products/digital-wall-clock-for-home-solaris-plus-archer",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): pixel-identical artwork (archer silhouette, orange gradient); MRP exact match to stored spec sheet",
-    "priceAtEntry": 5999.0,
+    "priceAtEntry": 5999,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "Price NOT applied to products.json -- stored price (1987) vs live MRP (5999), ratio 3.02x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": null,
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -2017,11 +2017,11 @@
     "pdfName": null,
     "sourceUrl": "https://xech.com/products/digital-clock-with-speaker-earth-solarisx",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same round-disc-on-stand hardware form and XECH logo placement; MRP exact match to stored spec sheet",
-    "priceAtEntry": 4499.0,
+    "priceAtEntry": 4499,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "matched on hardware/price family (5 interchangeable print variants, all identically priced), not a literal single SKU -- 'Customised' orders (buyer-supplied artwork) have no single product URL | Price NOT applied to products.json -- stored price (1526) vs live MRP (4499), ratio 2.95x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "matched on hardware/price family (5 interchangeable print variants, all identically priced), not a literal single SKU -- 'Customised' orders (buyer-supplied artwork) have no single product URL",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -2035,11 +2035,11 @@
     "pdfName": null,
     "sourceUrl": "https://xech.com/products/digital-alarm-clock-solaris-x-neo-moon",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same pen-stand round-disc hardware form as stored image; price exact match to stored spec sheet (listed as 'regular price', no separate higher MRP shown)",
-    "priceAtEntry": 4199.0,
+    "priceAtEntry": 4199,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "price-family match, not a literal Customised SKU page, same as electronics-296 | Price NOT applied to products.json -- stored price (1112) vs live MRP (4199), ratio 3.78x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "price-family match, not a literal Customised SKU page, same as electronics-296",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
@@ -2053,11 +2053,11 @@
     "pdfName": null,
     "sourceUrl": "https://xech.com/products/digital-alarm-clock-solaris-x-lite-earth",
     "method": "Tier C batch (2026-10-24, 956-no-sourceUrl pass): same pen-stand hardware form as stored image",
-    "priceAtEntry": 4199.0,
+    "priceAtEntry": 4199,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": "PRICE CORRECTION, not just a hold: stored spec sheet's printed 'MRP: 3,499' is actually this live listing's SALE price -- the live site's real MRP (compare-at) is 4,199. Using 4,199 per the prefer-MRP rule, flagging the sheet's own MRP label was wrong. | Price NOT applied to products.json -- stored price (948) vs live MRP (4199), ratio 4.43x. Same systematic bulk/wholesale-pricing pattern flagged in wave 2 (EO/Remaxx/Scott) -- holding for owner decision before overwriting.",
+    "caveats": "PRICE CORRECTION, not just a hold: stored spec sheet's printed 'MRP: 3,499' is actually this live listing's SALE price -- the live site's real MRP (compare-at) is 4,199. Using 4,199 per the prefer-MRP rule, flagging the sheet's own MRP label was wrong.",
     "lastUpdated": "2026-10-24",
     "history": [
       "2026-10-24 added (source: online)"
