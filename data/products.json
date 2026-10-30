@@ -242,7 +242,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLVC20_copy_3_74aeac7d-5b87-4bef-b062-82486fe6f63d.jpg?v=1752837831",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLVC20_copy_2f185594-4cff-42c5-9172-b97c112bd924.jpg?v=1752837832",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLVC20_a723cdeb-7c13-44f6-b439-42bd65561ef9.jpg?v=1752837832"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-3",
@@ -266,7 +267,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/716lPmfw8mL._SX679.jpg?v=1758178325",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/71W_IJuok4L._SX679.jpg?v=1758178325",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/71jJNtlOAdL._SX679.jpg?v=1758178325"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-4",
@@ -290,7 +292,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Artboard5_ef2630c8-0e37-4f07-a026-98660c820b5f.jpg?v=1790665784",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Artboard6_f657ecd3-6125-49ee-9a88-d9ad43c606a0.jpg?v=1790665784",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Artboard7_c9cd5360-bd56-4963-84ef-7c5159cfb099.jpg?v=1790665784"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-5",
@@ -305,7 +308,8 @@
       "images": [
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/Artboard_1_1b75b2c1-4cf9-4915-bd3a-ae74afc20d63.jpg?v=1752144762",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/2_82fb4593-749b-4435-8a98-4a7a60045614.jpg?v=1752144762"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-6",
@@ -329,7 +333,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/71F7zHnR19L._SL1500.jpg?v=1775109705",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/71T5VQEXdeL._SL1500.jpg?v=1775109705",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/71wly9O2LUL._SL1500.jpg?v=1775109705"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-7",
@@ -373,7 +378,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLHS202.jpg?v=1754561658",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/7_7a404d8a-0803-4833-b34f-ea5807d1029b.jpg?v=1754561658",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/6_549c2b05-4624-4402-ab74-940776662ab9.jpg?v=1754561658"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-9",
@@ -389,7 +395,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/2-2025-07-19T154119.859.jpg?v=1752919901",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/1-2025-07-19T154116.908.jpg?v=1752919900"
       ],
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/34l-digital-home-safe"
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/34l-digital-home-safe",
+      "hideFromCatalog": true
     },
     {
       "id": "homeImprovement-10",
@@ -410,7 +417,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/3._Sturdy_Steel_Construction_b32f5669-96eb-4b74-b724-91c54cacac05.jpg?v=1752144872",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/4._Product_Dimension_1_6b11f822-aa64-4bce-8fb7-a072895a7aee.jpg?v=1752144872",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/5._5mm_Thickness_1368904f-b29d-4d9d-9ea1-456e45733062.jpg?v=1752144872"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "personalAccessories-1",
@@ -598,7 +606,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/5_3_05604d07-e65b-4a61-ba55-eccf8e675d8b.jpg?v=1754555631",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/6_3_c102d410-3037-4d68-bebb-b0e657229130.jpg?v=1754555631"
       ],
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/lf45-fit-pro-spin-fitness-bike-with-6kg-flywheel-adjustable-resistance-lcd-monitor-and-heart-rate-sensor-for-fitness-at-home-home-workouts"
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/lf45-fit-pro-spin-fitness-bike-with-6kg-flywheel-adjustable-resistance-lcd-monitor-and-heart-rate-sensor-for-fitness-at-home-home-workouts",
+      "hideFromCatalog": true
     },
     {
       "id": "sportsFitnessOutdooors-4",
@@ -3064,7 +3073,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLTM185-07.jpg?v=1765869694",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLTM185-08.jpg?v=1765869694"
       ],
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-walking-pad-treadmill-4-hp-motor-foldable-handle"
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-walking-pad-treadmill-4-hp-motor-foldable-handle",
+      "hideFromCatalog": true
     },
     {
       "id": "sportsFitnessOutdoor-22",
@@ -3101,7 +3111,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLTM09Treadmill_06copy.jpg?v=1765185301",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/LLTM09ADTreadmillV2Red_2__2copy3.jpg?v=1765185301"
       ],
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/lltm09a"
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/lltm09a",
+      "hideFromCatalog": true
     },
     {
       "id": "sportsFitnessOutdoor-24",
@@ -3125,7 +3136,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/71n6yw3eY-L._SL1500.jpg?v=1758707882",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/81gXR3N8A6L._SL1500.jpg?v=1758707882",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/51s7YcNeAhL.jpg?v=1758707882"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "sportsFitnessOutdoor-25",
@@ -4258,7 +4270,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/2_62_c3cded8f-3f0a-4ade-8868-aded2bc43139.jpg?v=1752144905",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/4-_15_c90412f2-c8e8-425d-bf00-8d23e8f9942f.jpg?v=1752144905",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/5-_13_0e4d7849-f505-478a-93a9-bfd661d5a17a.jpg?v=1752144905"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "healthPersonalCare-12",
@@ -4280,7 +4293,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/3_-_2024-10-21T171054.383_c3348920-0f3f-4f93-bd41-662300d835f3.jpg?v=1752144911",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/4_-_2024-10-21T171103.766_42b2f556-3ed9-474c-a898-60aab5864eef.jpg?v=1752144911",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/5_-_2024-10-21T171108.267_6b2eaf1f-86af-4ddf-a86a-19ab7e980c4a.jpg?v=1752144911"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "healthPersonalCare-13",
@@ -4302,7 +4316,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/61gjGr8M4wL._SX679.jpg?v=1758706973",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/61nlgkNqa-L._SX679.jpg?v=1758706973",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/61tIOijwnoL._SX679.jpg?v=1758706973"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "healthPersonalCare-14",
@@ -4954,7 +4969,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/4_7_073f6853-d096-44c0-b7f3-8e05beed7fb7.jpg?v=1758524270",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/5_7_6c1e84a0-e82d-4258-9d09-d0448212f4d2.jpg?v=1758524271"
       ],
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/calf-foot-leg-massager"
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/calf-foot-leg-massager",
+      "hideFromCatalog": true
     },
     {
       "id": "healthPersonalCare-48",
@@ -4972,7 +4988,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/5_63_ca987eaf-772d-4667-8b7a-7b73160c9267.jpg?v=1752144908",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/7_12_d9ffa21a-85f2-4a2e-acd9-0ddbb0a5e3f7.jpg?v=1752144908"
       ],
-      "sourceUrl": "https://www.lifelongindiaonline.com/products/foot-massager-with-heat-kneading-function"
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/foot-massager-with-heat-kneading-function",
+      "hideFromCatalog": true
     },
     {
       "id": "healthPersonalCare-49",
@@ -30560,7 +30577,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Pico_14_Smart_LED_Projector_for_home_entertainment.jpg?v=1758614527",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Pico_14_Mini_Projector_online_at_best_price.jpg?v=1758614557"
       ],
-      "warranty": "lay; no installation required Warranty - 12 Months Importer/Manufacturer/Packer : Portronics Digit"
+      "warranty": "lay; no installation required Warranty - 12 Months Importer/Manufacturer/Packer : Portronics Digit",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-89",
@@ -30583,7 +30601,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Smart_projector_portronics_pico_13_at_best_price.jpg?v=1732691885",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_pico_13_smart_led_projector.png?v=1732692023"
       ],
-      "dimensions": "Model: Pico 13"
+      "dimensions": "Model: Pico 13",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-90",
@@ -30637,7 +30656,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_540_Smart_LED_Projector_for_home_with_android.jpg?v=1749109097"
       ],
       "dimensions": "Model Name: Beem 540",
-      "warranty": "Warranty : 12 Months Importer/Manufacturer/Packer : Portronics Digit"
+      "warranty": "Warranty : 12 Months Importer/Manufacturer/Packer : Portronics Digit",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-92",
@@ -30662,7 +30682,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_530_Projector_for_home.jpg?v=1742283414",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_530_4K-ready_Smart_LED_Projector_with_auto_keystone.jpg?v=1742283444",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_530_Mini_Home_Projector.jpg?v=1742283798"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-93",
@@ -30712,7 +30733,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_510_portable_projector_with_wireless_connectivity.jpg?v=1736426145",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_portable_wireless_projector_Beem_510_with_best_picture_quality.jpg?v=1736426415"
       ],
-      "dimensions": "Model Name: Beem 510"
+      "dimensions": "Model Name: Beem 510",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-95",
@@ -30739,7 +30761,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Beem_500_smart_android_led_projector.jpg?v=1733393093"
       ],
       "dimensions": "Model Name: Beem 500",
-      "warranty": "Warranty - 12 Months Importer/Manufacturer/Packer : Portronics Digit"
+      "warranty": "Warranty - 12 Months Importer/Manufacturer/Packer : Portronics Digit",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-97",
@@ -30764,7 +30787,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/portronics_beem_480_dual_wireless_connectivity_portable_projector.jpg?v=1729073444",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/portronics_beem_480_smart_bluetooth_projector_with_speaker.jpg?v=1729073602",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_480_android_mini_projector.jpg?v=1729073785"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-98",
@@ -30812,7 +30836,8 @@
       ],
       "dimensions": "Model Name: Beem 470",
       "sourceUrl": "https://www.portronics.com/products/beem-470",
-      "warranty": "Warranty - 12 Months Importer/Manufacturer/Packer : Portronics Digit"
+      "warranty": "Warranty - 12 Months Importer/Manufacturer/Packer : Portronics Digit",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-100",
@@ -30839,7 +30864,8 @@
       "dimensions": "Model Name: beem 460",
       "webColours": [
         "Black"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-101",
@@ -30863,7 +30889,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_450_Full_HD_LED_projector_for_movie.jpg?v=1768563204",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Beem_450_Portable_android_Projector.jpg?v=1768563243"
       ],
-      "dimensions": "Model Name: Beem 450"
+      "dimensions": "Model Name: Beem 450",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-102",
@@ -33024,7 +33051,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Sound_Slick_X1_5.1_Channel_Soundbar_with_dolby_sound.jpg?v=1766466573"
       ],
       "dimensions": "Model: Sound Slick X1",
-      "warranty": "12 Months' Warranty Importer/Manufacturer/Packer : Portronics Digital Private L"
+      "warranty": "12 Months' Warranty Importer/Manufacturer/Packer : Portronics Digital Private L",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-143",
@@ -33402,7 +33430,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/Portronics_Iron_Beats_5_Prime_Bluetooth_Party_Speaker.jpg?v=1765356407"
       ],
       "dimensions": "Model: Iron Beats 5 Prime",
-      "warranty": "12 Months warranty Importer/Manufacturer/Packer : Portronics Digital Private L"
+      "warranty": "12 Months warranty Importer/Manufacturer/Packer : Portronics Digital Private L",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-160",
@@ -33452,7 +33481,8 @@
         "https://cdn.shopify.com/s/files/1/1603/9553/files/8_bdd59e32-cafe-4082-8a60-3df9eb586ce3.jpg?v=1738323690",
         "https://cdn.shopify.com/s/files/1/1603/9553/files/9_f33da263-ccc3-427e-b95e-ed2c2d0b2ce1.jpg?v=1738323690"
       ],
-      "dimensions": "Model: Iron Beats II"
+      "dimensions": "Model: Iron Beats II",
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-162",
@@ -34583,7 +34613,8 @@
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/8B_3.jpg?v=1784179283",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/9_6_501d02e3-13ca-4da3-937f-cd27dbe5321e.jpg?v=1784179279",
         "https://cdn.shopify.com/s/files/1/0197/1503/1102/files/10_6_ca88f22f-35ef-409b-a28d-5995e3b107f7.jpg?v=1784179346"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-194",
@@ -35828,7 +35859,8 @@
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/Rave_eCom_5.jpg?v=1774445802",
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/Rave-eCom-7.png?v=1774445802",
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/Rave_eCom_8A.jpg?v=1774445802"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-260",
@@ -38219,7 +38251,8 @@
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/eCom6_ee32e8c8-6284-41d7-bbc4-01de5924dff0.jpg?v=1772257725",
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/eCom7_90d1c845-ce0d-494c-a85e-1229781823ab.jpg?v=1772257725",
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/IBIZA_Comparison_2.png?v=1774273975"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-361",
@@ -38670,7 +38703,8 @@
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/eCom6_aed04721-ee7a-454f-b4a0-625a4847403b.jpg?v=1769079582",
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/eCom7.jpg?v=1769079582",
         "https://cdn.shopify.com/s/files/1/0458/9938/2938/files/eCom8.jpg?v=1769079582"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "electronics-368",
@@ -42996,7 +43030,8 @@
         "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/01-05-20240242_2.png?v=1781196006"
       ],
       "dimensions": "width: 75 cm; suction: 1300 m³/h; burner_capacity: up to 5 burners",
-      "warranty": "12 years on motor"
+      "warranty": "12 years on motor",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-86",
@@ -43015,7 +43050,8 @@
       "sourceUrl": "https://www.sunflame.com/products/ch-nova-60-bk",
       "images": [
         "https://cdn.shopify.com/s/files/1/0902/7908/4324/files/1000-x-1000_3007251.png?v=1750927076"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-87",
@@ -43542,7 +43578,8 @@
       ],
       "dimensions": "Item Weight: 12 kg",
       "warranty": "7-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/black-diamond-90"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/black-diamond-90",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-140",
@@ -43672,7 +43709,8 @@
         "https://stovekraft.com/storage/products/gallery/V0wdIxMDUUNVSmf2WowqtoDQHUhFIFc3PTT6vMuA.webp",
         "https://stovekraft.com/storage/products/gallery/DrJhIpgEHksPIy9T1Dm8uV75vGmTIq6aqm9wQL7k.webp"
       ],
-      "dimensions": "Material: Glass"
+      "dimensions": "Material: Glass",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-146",
@@ -43696,7 +43734,8 @@
       ],
       "dimensions": "Product Dimensions: 760 W x 450 H millimeter; Material: Glass",
       "warranty": "5-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-xl-linea"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-xl-linea",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-147",
@@ -43721,7 +43760,8 @@
       ],
       "dimensions": "Product Dimensions: 650 W x 520 H millimeter; Material: Glass",
       "warranty": "5-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-linea"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-linea",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-148",
@@ -43745,7 +43785,8 @@
       ],
       "dimensions": "Product Dimensions: 760 W x 450 H millimeter; Material: Glass",
       "warranty": "5-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-3-burner-linea"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-3-burner-linea",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-149",
@@ -43768,7 +43809,8 @@
       ],
       "dimensions": "Product Dimensions: 880 W x 525 H millimeters; Material: Stainless Steel",
       "warranty": "5-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-xl-slender"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-xl-slender",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-150",
@@ -43796,7 +43838,8 @@
       ],
       "dimensions": "Product Dimensions: 600 W x 525 H millimeters; Material: Stainless Steel",
       "warranty": "5-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-slender"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-4-burner-slender",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-151",
@@ -43823,7 +43866,8 @@
       ],
       "dimensions": "Material: Stainless Steel",
       "warranty": "5-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-3-burner-slender"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/hobs/pigeon-hob-3-burner-slender",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-152",
@@ -46473,7 +46517,8 @@
       ],
       "dimensions": "Item Weight: 11 kg",
       "warranty": "7-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/black-diamond-60"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/black-diamond-60",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-297",
@@ -46502,7 +46547,8 @@
         "https://stovekraft.com/storage/products/gallery/12Wz2jXnjoHFJSR2KxCJtS5Rg1iB4KiMKRm9Sh3N.webp",
         "https://stovekraft.com/storage/products/gallery/ipSEW7O8z9tFSFLCozyaRvmDPXql2ECgDg05Lq9o.webp",
         "https://stovekraft.com/storage/products/gallery/MaBXYnoE6ylrXmCOLzr8UhFVTsA2upqj75GJCijY.webp"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-298",
@@ -46524,7 +46570,8 @@
       ],
       "dimensions": "Item Weight: 18400 Grams",
       "warranty": "7-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/xtreme-dlx-75"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/xtreme-dlx-75",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-299",
@@ -46552,7 +46599,8 @@
         "https://stovekraft.com/storage/products/gallery/yDfzTNglRQYV4NxFGGpTwVRun3GNYmQkf2R2rzMu.webp",
         "https://stovekraft.com/storage/products/gallery/RGxf2f6EId2deimAszxtoWkc4zmZmWLjoYBi6FHM.webp",
         "https://stovekraft.com/storage/products/gallery/Ncp2EkuqwVlKdylIonkOmmtWmCRskjtOvazxUf6y.webp"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-300",
@@ -46578,7 +46626,8 @@
         "https://stovekraft.com/storage/products/gallery/CQ0meadlxUC7LAKnPOGhHRtXQcby4kKlmXgBqW5N.webp"
       ],
       "dimensions": "Item Weight: 11 kg 500 g",
-      "warranty": "7-Years Warranty"
+      "warranty": "7-Years Warranty",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-301",
@@ -46603,7 +46652,8 @@
         "https://stovekraft.com/storage/products/gallery/nMey9pmDEOJZn3ix2OAZCBpWUCwqTY5OvvtbDPdu.webp"
       ],
       "warranty": "7-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/atmos-75-cm"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/atmos-75-cm",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-302",
@@ -46629,7 +46679,8 @@
       ],
       "dimensions": "Item Weight: 11 kg 500 g",
       "warranty": "7-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/atmos-60-cm"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/atmos-60-cm",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-303",
@@ -46655,7 +46706,8 @@
       ],
       "dimensions": "Item Weight: 12 kg",
       "warranty": "7-Years Warranty",
-      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/black-diamond-90"
+      "sourceUrl": "https://stovekraft.com/pigeon/category/cooking/chimneys/black-diamond-90",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-304",
@@ -46684,7 +46736,8 @@
         "https://stovekraft.com/storage/products/gallery/FCwf2rmTHZSkvNERI3wGKJVEjZO8DJ50bd7Ze7cr.webp",
         "https://stovekraft.com/storage/products/gallery/6G7stjHfP4sFbkjwkNkCfvcM7oOFEPi9LiYWrthA.webp"
       ],
-      "dimensions": "Item Weight: 11 kg"
+      "dimensions": "Item Weight: 11 kg",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-305",
@@ -49679,7 +49732,8 @@
         "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/P5A9896.jpg?v=1722925901",
         "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/P5A9891.jpg?v=1722925901",
         "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/P5A9905.jpg?v=1722925901"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-460",
@@ -49700,7 +49754,8 @@
       "sourceUrl": "https://faberindia.com/products/cooktop-shine-400-ct",
       "description": "The Faber Cooktop SHINE 400 CT is a 4-burner gas cooktop with a small/small/medium/medium burner layout, brass burners, a matte steel (MS) powder-coated finish and matching pan supports, and non-auto ignition. Made in India.",
       "dimensions": "585 x 500 x 133 mm (W x D x H, per features table) / 640 x 595 x 150 mm (L x W x H, per spec table); Net weight 6.5 kg, Gross weight 7.5 kg",
-      "warranty": "2 years comprehensive"
+      "warranty": "2 years comprehensive",
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-462",
@@ -49723,7 +49778,8 @@
         "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/Shine300ct_30e1b5fd-5931-432b-849f-885842fffdb3.jpg?v=1706776713",
         "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/ShineBurner_b7019d6c-7789-48cc-8c0c-f8ba6d8b512b.jpg?v=1706776713",
         "https://cdn.shopify.com/s/files/1/0561/3450/0492/files/ShineKnob_f8ba9eec-d079-4a18-8aaa-f2528397807c.jpg?v=1706776714"
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "homeKitchenAppliances-463",
@@ -104236,7 +104292,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/porto2_2.webp?v=1709534344",
       "subcategory": "Networking",
       "description": "4G speed up to 150Mbps.",
-      "sourceUrl": "https://coconutlife.in/products/porto2-wireless-4g-router-with-lan"
+      "sourceUrl": "https://coconutlife.in/products/porto2-wireless-4g-router-with-lan",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-5",
@@ -105911,7 +105968,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/sefrws.jpg?v=1740725708",
       "subcategory": "Audio",
       "description": "150W soundbar + 150W woofer, 10 inch subwoofer, RGB light. Gifting Essentials Collection 06 (Sound Unleashed), item 30.",
-      "sourceUrl": "https://coconutlife.in/products/taylor-300w-rgb-sound-bar-with-10-woofer"
+      "sourceUrl": "https://coconutlife.in/products/taylor-300w-rgb-sound-bar-with-10-woofer",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-197",
@@ -106388,7 +106446,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/porto4_2.webp?v=1660813052",
       "subcategory": "Networking",
       "description": "Up to 9 devices, 4G up to 150Mbps, supports DVR, WPS technology, LAN port.",
-      "sourceUrl": "https://coconutlife.in/products/porto-4-4g-wireless-router-with-lan-port-type-c-port"
+      "sourceUrl": "https://coconutlife.in/products/porto-4-4g-wireless-router-with-lan-port-type-c-port",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-251",
@@ -106760,7 +106819,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_porto5white.png?v=1702640900",
       "subcategory": "Networking",
       "description": "India's only dual band router, up to 8 devices, 4G 150Mbps, supports 5G SIM card.",
-      "sourceUrl": "https://coconutlife.in/products/porto-5-5g-wireless-router-built-in-2100mah-battery"
+      "sourceUrl": "https://coconutlife.in/products/porto-5-5g-wireless-router-built-in-2100mah-battery",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-294",
