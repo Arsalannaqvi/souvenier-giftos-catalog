@@ -182,13 +182,39 @@ DOMAIN_MRP_PATTERNS = {
     "havells.com": re.compile(r'"pricing":\{"regularPrice":(\d+(?:\.\d+)?)'),
     "www.havells.com": re.compile(r'"pricing":\{"regularPrice":(\d+(?:\.\d+)?)'),
     "luxury.tatacliq.com": re.compile(r'"mrpPrice":\{[^}]*?"doubleValue":(\d+(?:\.\d+)?)'),
+    # offikraft.in (OpenCart, 109 products -- by far the largest single Tier B
+    # domain): same bug shape as decathlon.in/havells.com, confirmed by hand
+    # 2026-10-30 on 2 live pages (product_id=175 and =71). The page has TWO
+    # price spans -- <span class="price-old">₹1,999.00</span> (the real MRP)
+    # and <span class="price-new" itemprop="price">₹1,399.00 (the discounted
+    # selling price) -- and it's price-new, not price-old, that carries the
+    # itemprop="price" microdata tag the generic MICRODATA_PRICE_RE fallback
+    # looks for. Without this pattern, every offikraft.in product would have
+    # silently tracked its sale price as if it were MRP. Confirmed against
+    # this catalog's own stored price for computerAccessories-1 (Offikraft
+    # Caspian Executive Bag): stored 1999 matches price-old, not price-new's
+    # 1399.
+    # IMPORTANT: must anchor to the price-old immediately followed by the
+    # itemprop="price" span, not a bare "price-old" class search -- a first
+    # attempt at this pattern matched a cross-sell/related-product widget's
+    # price-old instead of the main product's (449.00 instead of 1999.00 on
+    # the same page), the exact "not the page's own product" trap this
+    # project's own decathlon.in/havells.com notes above already warn about.
+    # The adjacent-pair anchor is unique to the real schema.org Offer block;
+    # cross-sell widgets on this theme carry no itemprop="price" markup.
+    # If a product has no active discount, price-old is presumably absent
+    # and this pattern won't match -- falls through to the generic
+    # extractor, which then correctly reads the single itemprop="price"
+    # value (not a bug in that case, since there's only one real price).
+    "offikraft.in": re.compile(r'class="price-old">₹([\d,]+\.\d{2})</span>\s*<span class="price-new" itemprop="price"'),
+    "www.offikraft.in": re.compile(r'class="price-old">₹([\d,]+\.\d{2})</span>\s*<span class="price-new" itemprop="price"'),
 }
 
 RETRYABLE_HTTP_STATUS = {429, 502, 503}
 
 
 def to_number(x):
-    f = float(x)
+    f = float(str(x).replace(",", ""))
     return int(f) if f.is_integer() else f
 
 
