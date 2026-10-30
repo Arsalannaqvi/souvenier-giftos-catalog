@@ -81,6 +81,7 @@ on which sites are reachable:
 Run from the repo root: python3 scripts/check_live_prices_tier_b_jsonld.py
 Exits 0 always; the caller (CI) decides what to do with any diff.
 """
+import http.client
 import json
 import re
 import sys
@@ -357,7 +358,7 @@ def main():
 
         try:
             html = fetch_html(url)
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as e:
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, http.client.HTTPException) as e:
             unreachable.append({"id": p["id"], "name": p["name"], "domain": domain, "sourceUrl": url, "error": str(e)})
             continue
 

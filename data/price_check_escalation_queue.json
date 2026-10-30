@@ -1,4 +1,28 @@
 {
+  "apparel-1": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912442+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912445+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912444+00:00",
+    "level": "yellow",
+    "name": "Decathlon Short Sleeve Polo Shirt WW500",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-10": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912478+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912481+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912480+00:00",
+    "level": "yellow",
+    "name": "Decathlon Men's Golf 100% Cotton Short Sleeve Polo T-Shirt",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "apparel-112": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780265+00:00",
     "history": [
@@ -23,6 +47,174 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "apparel-114": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912586+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912589+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912588+00:00",
+    "level": "yellow",
+    "name": "Puma Jacquard Polo Tshirts",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-118": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912593+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912596+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912594+00:00",
+    "level": "yellow",
+    "name": "Puma Ess Pique Tipping Polo Tshirts",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-119": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912599+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912602+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912600+00:00",
+    "level": "yellow",
+    "name": "Puma Dry Cell Ess Tee",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-12": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912485+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912488+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912486+00:00",
+    "level": "yellow",
+    "name": "Decathlon Men Running T-Shirt Breathable, Quick Dry, Kiprun 100",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-149": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912608+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912611+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912610+00:00",
+    "level": "yellow",
+    "name": "PUMA ESS PIQUE TIPPING POLO T-SHIRT",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-17": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912540+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912547+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912545+00:00",
+    "level": "yellow",
+    "name": "Decathlon Womens Waterproof hiking jacket -10°C NH500",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-2": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912448+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912451+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912449+00:00",
+    "level": "yellow",
+    "name": "Decathlon IN Polo SS MW500",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-20": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912551+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912555+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912553+00:00",
+    "level": "yellow",
+    "name": "Decathlon Training Jacket 100",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-22": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912562+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912568+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912567+00:00",
+    "level": "yellow",
+    "name": "Decathlon Tracksuit Jacket 100M",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-23": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912571+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912576+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912574+00:00",
+    "level": "yellow",
+    "name": "Decathlon Synth JKT MT50",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-3": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912454+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912457+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912456+00:00",
+    "level": "yellow",
+    "name": "Decathlon Men's Golf Cotton Short Sleeve Polo Shirt MW500",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-33": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913177+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913180+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913178+00:00",
+    "level": "yellow",
+    "name": "Adidas Dryfit Cap",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-37": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913182+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913185+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913184+00:00",
+    "level": "yellow",
+    "name": "Scott 400/ Hoodie with Zip",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-5": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912460+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912463+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912462+00:00",
+    "level": "yellow",
+    "name": "Decathlon Polo WW500 T-Shirt",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "apparel-60": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780253+00:00",
     "history": [
@@ -34,6 +226,66 @@
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "apparel-64": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913189+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913194+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913191+00:00",
+    "level": "yellow",
+    "name": "Scott 300/ Hoodie with Zip",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-65": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913198+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913206+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913203+00:00",
+    "level": "yellow",
+    "name": "Puma Poly Polo T Shirt",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-66": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913209+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913216+00:00 green->yellow: HTTP Error 429: Too Many Requests"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913213+00:00",
+    "level": "yellow",
+    "name": "Puma Training Cap",
+    "reason": "HTTP Error 429: Too Many Requests",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-7": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912466+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912469+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912468+00:00",
+    "level": "yellow",
+    "name": "Decathlon Men Golf Polo T-Shirt 500",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-72": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912580+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912583+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912581+00:00",
+    "level": "yellow",
+    "name": "Scott Formal Shirts",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "apparel-76": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780257+00:00",
@@ -59,6 +311,30 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "apparel-8": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912472+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912475+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912474+00:00",
+    "level": "yellow",
+    "name": "Decathlon SS Polo Shirt MW500",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "apparel-80": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913220+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913224+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913222+00:00",
+    "level": "yellow",
+    "name": "Scott-Denim Shirt",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "bagsLuggageTravel-120": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779518+00:00",
     "history": [
@@ -70,6 +346,438 @@
     "reason": "unresolved",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "bagsLuggageTravel-136": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913353+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913358+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913355+00:00",
+    "level": "yellow",
+    "name": "HRX Transit Laptop Cabin Luggage Bag",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-137": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913363+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913367+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913365+00:00",
+    "level": "yellow",
+    "name": "HRX Force Urban 2.0 Twill Cabin Luggage Bag",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-138": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913371+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913377+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913374+00:00",
+    "level": "yellow",
+    "name": "HRX Force Cabin Luggage Bag",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-141": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913381+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913385+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913383+00:00",
+    "level": "yellow",
+    "name": "HRX Helium Cabin Trolley",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-142": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913389+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913394+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913392+00:00",
+    "level": "yellow",
+    "name": "HRX Kyoto Cabin Luggage Bag",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-155": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913398+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913402+00:00 green->yellow: got more than 100 headers"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913400+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Grayling Toiletry Case",
+    "reason": "got more than 100 headers",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-158": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913411+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913414+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913412+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Wyoming Hard Luggage",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-159": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912706+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912709+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912708+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Marshal Hard Luggage",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-161": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913416+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913419+00:00 green->yellow: got more than 100 headers"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913418+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Lingon Duffle Bag",
+    "reason": "got more than 100 headers",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-164": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912712+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912715+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912714+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Brockport Belt & Wallet Combo",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-165": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912718+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912721+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912720+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Herkimer Belt & Wallet Combo",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-167": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912724+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912727+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912725+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Nicobar Bagpack",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-170": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912729+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912732+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912731+00:00",
+    "level": "yellow",
+    "name": "Puma Pu-Laptop Backpack",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-19": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912640+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912643+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912641+00:00",
+    "level": "yellow",
+    "name": "Decathlon Compact Backpack Travel 10 Litre",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-22": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912645+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912648+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912647+00:00",
+    "level": "yellow",
+    "name": "Decathlon Hiking Backpack 20 Litre",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-233": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913422+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913427+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913425+00:00",
+    "level": "yellow",
+    "name": "HRX Helium Cabin Trolley",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-24": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912651+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912657+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912655+00:00",
+    "level": "yellow",
+    "name": "Decathlon Backpack 17 Litre ULLP",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-25": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913337+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913342+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913340+00:00",
+    "level": "yellow",
+    "name": "Decathlon Travel Bum Bag 2L",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-28": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912660+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912663+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912662+00:00",
+    "level": "yellow",
+    "name": "Decathlon Large travel wallet, Travel XL Organiser",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-282": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913430+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913433+00:00 green->yellow: got more than 100 headers"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913432+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Wickford Toiletry Case",
+    "reason": "got more than 100 headers",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-283": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912738+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912741+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912739+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Vitreous Business Case",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-284": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912743+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912746+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912745+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Urbana Backpack",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-285": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912749+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912752+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912750+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Sunbury Reporter",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-286": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912754+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912757+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912756+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Pittsburg Reporter",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-287": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912759+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912762+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912761+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Montreal Bagpack",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-288": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912765+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912768+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912766+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Mikhail Business Case",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-289": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912773+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912776+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912775+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Greenbelt Waist Pouch",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-29": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912667+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912670+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912668+00:00",
+    "level": "yellow",
+    "name": "Decathlon Multicompartment Pock",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-290": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913436+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913439+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913437+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Hobart Business Case",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-291": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913442+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913445+00:00 green->yellow: got more than 100 headers"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913443+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Grenada Laptop Sleeve",
+    "reason": "got more than 100 headers",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-292": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912778+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912781+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912780+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Livonia Toiletry Case",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-293": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913448+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913450+00:00 green->yellow: got more than 100 headers"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913449+00:00",
+    "level": "yellow",
+    "name": "Tommy Hilfiger Grayling Toiletry Case",
+    "reason": "got more than 100 headers",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-299": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913984+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913987+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913985+00:00",
+    "level": "yellow",
+    "name": "Ivory - Olive Commute Messenger Bag - Large",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-3": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912634+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912637+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912636+00:00",
+    "level": "yellow",
+    "name": "Fuzo Feather Lite Anti-Theft Laptop Backpack",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-300": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912902+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912905+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912904+00:00",
+    "level": "yellow",
+    "name": "Midnight Blue City Compact Fleet Messenger Bag",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-34": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912673+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912677+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912675+00:00",
+    "level": "yellow",
+    "name": "Decathlon Hiking Baqckpack 30 Litre",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "bagsLuggageTravel-360": {
     "firstFlaggedAt": "2026-10-20T09:07:06.778495+00:00",
@@ -106,6 +814,30 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "bagsLuggageTravel-377": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914090+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914092+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914091+00:00",
+    "level": "yellow",
+    "name": "Mi Business Casual Backpack Blue",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-378": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914095+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914098+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914096+00:00",
+    "level": "yellow",
+    "name": "Mi Casual Backpack Black",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "bagsLuggageTravel-40": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779495+00:00",
@@ -178,6 +910,66 @@
     "reason": "unresolved",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "bagsLuggageTravel-57": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912679+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912682+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912681+00:00",
+    "level": "yellow",
+    "name": "Samsonite Vectura Briefcase",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-59": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912685+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912688+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912686+00:00",
+    "level": "yellow",
+    "name": "Samsonite Vectura Rolling Tote Bag",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-61": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913345+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913349+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913347+00:00",
+    "level": "yellow",
+    "name": "Samsonite Tech ICT Rolling Tote Bag",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-66": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912690+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912693+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912692+00:00",
+    "level": "yellow",
+    "name": "Samsonite Lite Geo",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "bagsLuggageTravel-68": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912696+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912699+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912698+00:00",
+    "level": "yellow",
+    "name": "Samsonite Myton Cabin Size Trolley Bag",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "coconut-153": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780202+00:00",
@@ -299,6 +1091,102 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "comboSets-7": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912376+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912379+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912378+00:00",
+    "level": "yellow",
+    "name": "Offikraft Duo Gift Set",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-114": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912615+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912618+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912617+00:00",
+    "level": "yellow",
+    "name": "Decathlon BPA Free Plastic Water Bottle with Handle - 0.75 Litre",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-115": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913245+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913251+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913248+00:00",
+    "level": "yellow",
+    "name": "Power Plus Coffee Mug/ Sipper (Steel)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-116": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913255+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913259+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913257+00:00",
+    "level": "yellow",
+    "name": "Power Plus Tall Sipper",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-117": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913263+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913268+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913265+00:00",
+    "level": "yellow",
+    "name": "Power Plus Steel Bottle Flast Hot & Cold",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-118": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913276+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913281+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913279+00:00",
+    "level": "yellow",
+    "name": "Power Plus Lincoln 2 Tone Magic Suction Mug",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-119": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913295+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913300+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913298+00:00",
+    "level": "yellow",
+    "name": "Power Plus Flash - Stainless Steel Coffee Mug",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-120": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912621+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912625+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912623+00:00",
+    "level": "yellow",
+    "name": "Decathlon DE-75 Isothermal Hiking Flask 1L",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "drinkware-123": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779467+00:00",
     "history": [
@@ -335,6 +1223,54 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "drinkware-126": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913304+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913310+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913306+00:00",
+    "level": "yellow",
+    "name": "Aquaminder Volga 770ml Bottle",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-128": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913318+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913323+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913321+00:00",
+    "level": "yellow",
+    "name": "Aquaminder Volga+ 770ml Bottle",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-129": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913326+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913333+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913329+00:00",
+    "level": "yellow",
+    "name": "Aquaminder Thames +600ml Bottle",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "drinkware-149": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912628+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912631+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912629+00:00",
+    "level": "yellow",
+    "name": "Puma Sipper",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "drinkware-156": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779481+00:00",
     "history": [
@@ -359,6 +1295,18 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "drinkware-2": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913228+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913233+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913230+00:00",
+    "level": "yellow",
+    "name": "Tamta Tura #V009 950ml Bottle",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "drinkware-201": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779489+00:00",
     "history": [
@@ -370,6 +1318,90 @@
     "reason": "unresolved",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "drinkware-3": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913236+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913241+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913239+00:00",
+    "level": "yellow",
+    "name": "Tamta Tura #V008 950ml Bottle",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "edible-49": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913143+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913146+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913145+00:00",
+    "level": "yellow",
+    "name": "Ferrero Rocher T32",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "edible-50": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913149+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913152+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913150+00:00",
+    "level": "yellow",
+    "name": "Ferrero Rocher T16",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "edible-51": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913154+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913157+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913156+00:00",
+    "level": "yellow",
+    "name": "Ferrero Rocher T4",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "edible-52": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913160+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913163+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913161+00:00",
+    "level": "yellow",
+    "name": "Ferrero Rocher T8",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "edible-53": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913165+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913168+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913166+00:00",
+    "level": "yellow",
+    "name": "Ferrero Rocher T16",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "edible-54": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913170+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913173+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913172+00:00",
+    "level": "yellow",
+    "name": "Ferrero Rocher T24",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "electronics-1": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779522+00:00",
@@ -393,6 +1425,390 @@
     "name": "Pigeon Fantastic 75 Watt Pedestal Fan",
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_b_stovekraft",
+    "tier": "B"
+  },
+  "electronics-19": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913456+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913459+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913458+00:00",
+    "level": "yellow",
+    "name": "Orbit HY-128 Handy Garment Steamer",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-20": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913462+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913465+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913463+00:00",
+    "level": "yellow",
+    "name": "Orbit DI-370 Dry Iron",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-205": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913736+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913740+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913739+00:00",
+    "level": "yellow",
+    "name": "RICO Black Bldc Ceiling Fan (Model-CF2501)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-210": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913743+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913746+00:00 green->yellow: The read operation timed out"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913745+00:00",
+    "level": "yellow",
+    "name": "RICO Solar Lantern (Model-SEL1006)",
+    "reason": "The read operation timed out",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-214": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913749+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913752+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913750+00:00",
+    "level": "yellow",
+    "name": "RICO Hand Blender (Model-HBCJ)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-216": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912784+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912787+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912786+00:00",
+    "level": "yellow",
+    "name": "RICO Heavy weight Automatic Dry Iron (Model-AI14)",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-217": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912789+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912792+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912791+00:00",
+    "level": "yellow",
+    "name": "RICO Heavy weight Automatic Dry Iron (Model-AI13)",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-218": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913754+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913757+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913755+00:00",
+    "level": "yellow",
+    "name": "RICO Heavy weight Automatic Dry Iron (Model-AI11)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-219": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913759+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913762+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913761+00:00",
+    "level": "yellow",
+    "name": "RICO Light Weight Dry Iron (Model-AI08)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-22": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913482+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913485+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913484+00:00",
+    "level": "yellow",
+    "name": "Orbit Mini Air Cooler – 12 litres",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-220": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913764+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913767+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913766+00:00",
+    "level": "yellow",
+    "name": "RICO Steam Iron Model-SI03)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-221": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913770+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913773+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913771+00:00",
+    "level": "yellow",
+    "name": "RICO Magic Iron (Model-SI2110)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-222": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912795+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912798+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912797+00:00",
+    "level": "yellow",
+    "name": "RICO Immersion Rod (Model-IR1410)",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-226": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912801+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912804+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912802+00:00",
+    "level": "yellow",
+    "name": "Wayona 3 in 1 Wireless Charger For iPhone / iWatch / Airpod",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-227": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912806+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912809+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912808+00:00",
+    "level": "yellow",
+    "name": "Wayona GaNOVA 65W Ultra Slim PD Charger",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-229": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913779+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913782+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913780+00:00",
+    "level": "yellow",
+    "name": "Wayona Mag Pro Trio 3 in 1 Wireless Charger With Auto Rotation",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-23": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913488+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913529+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913523+00:00",
+    "level": "yellow",
+    "name": "Orbit RF-9 Oscillating Rechargeable Table Fan with LED Light",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-230": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912812+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912814+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912813+00:00",
+    "level": "yellow",
+    "name": "Wayona 4 in 1 OTG Camera Memory Card",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-231": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912817+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912820+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912818+00:00",
+    "level": "yellow",
+    "name": "Wayona 4 in 1 OTG Memory Card Reader",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-233": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912822+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912825+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912823+00:00",
+    "level": "yellow",
+    "name": "Wayona Beat Box Aura Wireless Charging Speaker",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-24": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913535+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913550+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913544+00:00",
+    "level": "yellow",
+    "name": "Orbit Hercules Stand Fan",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-241": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912827+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912833+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912829+00:00",
+    "level": "yellow",
+    "name": "Wayona Magnevo Pro Power Bank",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-243": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912836+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912838+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912837+00:00",
+    "level": "yellow",
+    "name": "Wayona ZapCube 6 in 1 Extension Cord",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-246": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912841+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912844+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912842+00:00",
+    "level": "yellow",
+    "name": "Wayona World Tag Global Smart Finder",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-258": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912849+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912852+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912851+00:00",
+    "level": "yellow",
+    "name": "Blaupunkt SBA Standalone Soundbar Speaker",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-306": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912855+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912858+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912856+00:00",
+    "level": "yellow",
+    "name": "Wayona Aura Dock Wireless Charging Induction Speaker Stand",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-307": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912860+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912863+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912862+00:00",
+    "level": "yellow",
+    "name": "Wayona Zap Charge 63W Fast Car Charger",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-308": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912865+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912868+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912867+00:00",
+    "level": "yellow",
+    "name": "Wayona Mini Boom Wireless Travel Speaker",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-309": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912871+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912873+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912872+00:00",
+    "level": "yellow",
+    "name": "Wayona 3in 1  Rectractable Fast Charging Cable",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-313": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912876+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912879+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912877+00:00",
+    "level": "yellow",
+    "name": "Wayona Clear Charge Rechargeable Transparent Wireless Mouse",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-316": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912884+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912887+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912886+00:00",
+    "level": "yellow",
+    "name": "Wayona Flexi Reel 100W Retractable Data Cable",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-317": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912890+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912893+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912892+00:00",
+    "level": "yellow",
+    "name": "Wayona Retracto Case Cable Set & Mobile Holder",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
     "tier": "B"
   },
   "electronics-332": {
@@ -2039,6 +3455,234 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "electronics-805": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913989+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913992+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913990+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Crusher Evo Wireless Headphones",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-806": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913994+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913997+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913996+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Dime 3 True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-807": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913999+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914002+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914001+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Jib True 2 Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-808": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914004+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914007+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914006+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Rail ANC True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-809": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914009+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914012+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914011+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Push Play Active True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-810": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914014+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914017+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914016+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Riff On-Ear Wired Headphones",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-811": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914023+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914026+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914025+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Grom Wireless Kids Headphones",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-812": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914029+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914031+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914030+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Sesh ANC Active True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-813": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914034+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914036+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914035+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Dime Evo True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-814": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914039+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914042+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914040+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Ink'd ANC True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-815": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914044+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914046+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914045+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Uproar ANC True Wireless Earbuds",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-816": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914049+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914052+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914050+00:00",
+    "level": "yellow",
+    "name": "Skullcandy Crusher Wireless Headphones",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-817": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914054+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914057+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914055+00:00",
+    "level": "yellow",
+    "name": "Redmi Buds 5C",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-818": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914064+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914067+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914066+00:00",
+    "level": "yellow",
+    "name": "Mi Earphones Basic (with in-built mic)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-819": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914069+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914072+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914071+00:00",
+    "level": "yellow",
+    "name": "Redmi Watch 5 Lite",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-820": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914074+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914077+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914076+00:00",
+    "level": "yellow",
+    "name": "Redmi Watch 5 Active",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-822": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914079+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914082+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914081+00:00",
+    "level": "yellow",
+    "name": "Xiaomi Power Bank 4i 20000mAh 33W Sonic Charge",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "electronics-823": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.914085+00:00",
+    "history": [
+      "2026-10-30T21:16:49.914087+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.914086+00:00",
+    "level": "yellow",
+    "name": "Mi Boost Pro Power Bank 30000mAh 18W",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-4": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913112+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913115+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913113+00:00",
+    "level": "yellow",
+    "name": "Orbit 2in1 Mini Hair Straightener cum Curler",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "healthPersonalCare-45": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779459+00:00",
     "history": [
@@ -2050,6 +3694,42 @@
     "reason": "unresolved",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "healthPersonalCare-5": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913117+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913120+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913119+00:00",
+    "level": "yellow",
+    "name": "Orbit RSW 3 Head Shaver with Floating Blades",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-6": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913129+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913132+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913131+00:00",
+    "level": "yellow",
+    "name": "Orbit Conquest Rechargeable 2 Hair Shaver for Men",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-7": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913137+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913140+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913139+00:00",
+    "level": "yellow",
+    "name": "Orbit Century Rechargeable Hair  Trimmer for Men",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "healthPersonalCare-70": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780225+00:00",
@@ -2099,6 +3779,210 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "healthPersonalCare-81": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912908+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912911+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912910+00:00",
+    "level": "yellow",
+    "name": "HD5161 3 in 1 Styling Hair Dryer",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-82": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912914+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912917+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912915+00:00",
+    "level": "yellow",
+    "name": "BT4441 Beard Trimmer MII",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-83": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912919+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912928+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912927+00:00",
+    "level": "yellow",
+    "name": "GS4409 9 in 1 Digital Grooming Kit",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-84": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912931+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912934+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912932+00:00",
+    "level": "yellow",
+    "name": "HS4101V Hair Straightener",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-85": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912936+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912939+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912937+00:00",
+    "level": "yellow",
+    "name": "HD1845 Hair Dryer",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-86": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912941+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912944+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912943+00:00",
+    "level": "yellow",
+    "name": "HS4222 Hair Straightener",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "healthPersonalCare-87": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912947+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912950+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912948+00:00",
+    "level": "yellow",
+    "name": "BT4001 2 in 1 Trimmer",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliances-27": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913071+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913073+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913072+00:00",
+    "level": "yellow",
+    "name": "Orbit MC-666 5in1 Chopper",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliances-28": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913077+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913080+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913078+00:00",
+    "level": "yellow",
+    "name": "Orbit Silver Cloud Roti/Khakhra Maker",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliances-37": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913082+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913085+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913084+00:00",
+    "level": "yellow",
+    "name": "RICO Automatic Roti Maker (Model-RM1408)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliances-40": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913088+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913091+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913089+00:00",
+    "level": "yellow",
+    "name": "RICO Room Heater (Model-RH1502)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliancesDecor-41": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913031+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913034+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913033+00:00",
+    "level": "yellow",
+    "name": "Lucento Table Lamp 4.5 W",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliancesDecor-42": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913037+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913040+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913038+00:00",
+    "level": "yellow",
+    "name": "LTS Moderna Plus Desktop",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeAppliancesDecor-43": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913042+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913045+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913043+00:00",
+    "level": "yellow",
+    "name": "LTS Moderna Plus 3 IN 1",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeDecor-1": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913053+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913056+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913055+00:00",
+    "level": "yellow",
+    "name": "Power Plus Time Wave Ultra Display Clock",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeDecor-2": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913060+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913062+00:00 green->yellow: HTTP Error 429: Too Many Requests"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913061+00:00",
+    "level": "yellow",
+    "name": "Power Plus Backlit Table Clock",
+    "reason": "HTTP Error 429: Too Many Requests",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeDecor-3": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913065+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913068+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913066+00:00",
+    "level": "yellow",
+    "name": "Power Plus Flag Style Photo Frame - Large Clock with Photo Frame and Tumbler",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "homeKitchenAppliances-186": {
     "firstFlaggedAt": "2026-10-20T09:06:07.541911+00:00",
     "history": [
@@ -2122,6 +4006,402 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "homeKitchenAppliances-306": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913784+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913787+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913785+00:00",
+    "level": "yellow",
+    "name": "Orbit Electric Lunch Box Hott 2",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-307": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913789+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913792+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913791+00:00",
+    "level": "yellow",
+    "name": "Orbit Electric Lunch Box Softline",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-308": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913795+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913798+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913796+00:00",
+    "level": "yellow",
+    "name": "Orbit OIR-01 Infrared Induction Cooker",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-309": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913800+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913803+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913802+00:00",
+    "level": "yellow",
+    "name": "Orbit OIC-12 Induction Cooker",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-310": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913805+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913808+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913806+00:00",
+    "level": "yellow",
+    "name": "Orbit OIC-10 Induction Cooker",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-313": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913810+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913813+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913812+00:00",
+    "level": "yellow",
+    "name": "Orbit HG-2811 Electric Juicer Extractor",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-314": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913815+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913818+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913817+00:00",
+    "level": "yellow",
+    "name": "Orbit OJ-111 Juicer 800 Watt",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-315": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913820+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913823+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913822+00:00",
+    "level": "yellow",
+    "name": "Orbit OJ-333 Juicer 800 Watt",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-316": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913825+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913828+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913827+00:00",
+    "level": "yellow",
+    "name": "Orbit Bullet 3 Jar Sipper Mixer Grinder",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-319": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913833+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913836+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913834+00:00",
+    "level": "yellow",
+    "name": "Orbit Magnite/Volvo 550Watt 3 Jar Mixer Grinder",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-320": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913838+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913841+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913839+00:00",
+    "level": "yellow",
+    "name": "Orbit Boss Metallic 750 Watt HP1 4 Jar Mixer Grinder",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-321": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913843+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913846+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913845+00:00",
+    "level": "yellow",
+    "name": "Orbit 6629 Electric Hand Mixer",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-322": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913848+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913852+00:00 green->yellow: HTTP Error 500: Internal Server Error"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913850+00:00",
+    "level": "yellow",
+    "name": "Orbit 2 in 1 Hand Mixer HM 1510",
+    "reason": "HTTP Error 500: Internal Server Error",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-323": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913857+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913860+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913858+00:00",
+    "level": "yellow",
+    "name": "Orbit Louis 2 Hand Blender",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-325": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913862+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913865+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913864+00:00",
+    "level": "yellow",
+    "name": "Orbit TH 312 Meat Mincer (Grinder)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-326": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913867+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913870+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913869+00:00",
+    "level": "yellow",
+    "name": "Orbit Rivo 3 1.5 Litre Multipurpose Kettle",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-327": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913872+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913875+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913873+00:00",
+    "level": "yellow",
+    "name": "Orbit Rivo 1 1.5 Litre Multipurpose Kettle",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-328": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913877+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913880+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913878+00:00",
+    "level": "yellow",
+    "name": "Orbit Magix Multi-purpose Cooker",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-330": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913882+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913885+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913883+00:00",
+    "level": "yellow",
+    "name": "Orbit ChefPro CPK-810 1 Litre Electric Rechargeable Kettle",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-331": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913888+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913890+00:00 green->yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913889+00:00",
+    "level": "yellow",
+    "name": "Orbit 1.8 Litre KET-8024 Electric Kettle",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-332": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913893+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913895+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913894+00:00",
+    "level": "yellow",
+    "name": "Orbit 4-Slice Pop-up Toaster",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-335": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913898+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913901+00:00 green->yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913899+00:00",
+    "level": "yellow",
+    "name": "Orbit Neo 18 Litre 1200 Watt Electric Convection OTG",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-336": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913903+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913906+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913905+00:00",
+    "level": "yellow",
+    "name": "Orbit Classic Sandwich Griller",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-337": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913908+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913911+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913910+00:00",
+    "level": "yellow",
+    "name": "Orbit Classic Sandwich Toaster",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-339": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913913+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913916+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913915+00:00",
+    "level": "yellow",
+    "name": "Orbit HG 2682 Panini Grill",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-340": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913918+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913928+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913920+00:00",
+    "level": "yellow",
+    "name": "Orbit EO 81 30 Litre Electric Oven",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-341": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913930+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913933+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913932+00:00",
+    "level": "yellow",
+    "name": "Orbit EO 91 – 23 Litre 1500 Watt OTG Convection",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-342": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913935+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913941+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913940+00:00",
+    "level": "yellow",
+    "name": "Orbit Electric Barbeque Grill BG 7001",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-343": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913948+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913951+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913950+00:00",
+    "level": "yellow",
+    "name": "Orbit Electric Deep Fryer DF2000 2 Litre",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-344": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913954+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913956+00:00 green->yellow: HTTP Error 403: Forbidden"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913955+00:00",
+    "level": "yellow",
+    "name": "Orbit Deep Fryer DF30 3.5 Litre",
+    "reason": "HTTP Error 403: Forbidden",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-345": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913959+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913961+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913960+00:00",
+    "level": "yellow",
+    "name": "Orbit Airfryer Manual",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-346": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913964+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913967+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913965+00:00",
+    "level": "yellow",
+    "name": "Orbit Air Fryer with OTG 10 Litre",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "homeKitchenAppliances-348": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912896+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912899+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912898+00:00",
+    "level": "yellow",
+    "name": "Orbit Air Fryer Digital",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "homeKitchenAppliances-406": {
     "firstFlaggedAt": "2026-10-20T09:06:07.541917+00:00",
@@ -2158,6 +4438,18 @@
     "reason": "HTTP Error 404: Not Found",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "homeKitchenAppliances-498": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913971+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913974+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913973+00:00",
+    "level": "yellow",
+    "name": "Franke Faber Air fryer OTG, FAO 25L 15F BK, Qish",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "homeKitchenAppliances-538": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779533+00:00",
@@ -2303,6 +4595,18 @@
     "source": "tier_a_shopify",
     "tier": "A"
   },
+  "homeKitchenAppliances-593": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913976+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913979+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913978+00:00",
+    "level": "yellow",
+    "name": "Remaxx Vacuum Cleaner",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
   "homeKitchenAppliances-85": {
     "firstFlaggedAt": "2026-10-20T09:07:06.777904+00:00",
     "history": [
@@ -2314,6 +4618,174 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "kitchenAppliances-611": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912952+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912955+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912953+00:00",
+    "level": "yellow",
+    "name": "Prolife Neo Air Fryer",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "kitchenAppliances-612": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912957+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912960+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912959+00:00",
+    "level": "yellow",
+    "name": "Edge 500 W Mixer Grinder",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "kitchenAppliances-613": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912987+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912996+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912994+00:00",
+    "level": "yellow",
+    "name": "Nutri Insta Blend 350 W Mixer Grinder",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "kitchenAppliances-614": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913002+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913006+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913004+00:00",
+    "level": "yellow",
+    "name": "Coolbuddy BLDC Clip Rechargeable Personal Fan (White)",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "kitchenAppliances-615": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913019+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913023+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913022+00:00",
+    "level": "yellow",
+    "name": "Breezo Personal Fan (White)",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "kitchenAppliances-616": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913026+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913029+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913027+00:00",
+    "level": "yellow",
+    "name": "Swing LX Table Fan (White)",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "kitchenAppliances-7": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913047+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913050+00:00 green->yellow: no JSON-LD offers.price found"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913049+00:00",
+    "level": "yellow",
+    "name": "RICO Food Processor (Model-FP101)",
+    "reason": "no JSON-LD offers.price found",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "personalAccessories-4": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912317+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912337+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912334+00:00",
+    "level": "yellow",
+    "name": "Wayona MagHold MagSafe Wallet",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "personalLifestyle-1": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912349+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912354+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912351+00:00",
+    "level": "yellow",
+    "name": "Decathlon DE-65 | Micro-Fibre Towel",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "personalLifestyle-2": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912358+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912364+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912362+00:00",
+    "level": "yellow",
+    "name": "Decathlon DE-64 | Micro-Fibre Towel",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "personalLifestyle-4": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912368+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912372+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912370+00:00",
+    "level": "yellow",
+    "name": "Decathlon Micro-fiber Towel Dark Blue",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "sportsFitnessOutdoor-13": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912407+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912410+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912408+00:00",
+    "level": "yellow",
+    "name": "Decathlon Skipping Rope JR100",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "sportsFitnessOutdoor-14": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912418+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912422+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912420+00:00",
+    "level": "yellow",
+    "name": "Decathlon Mini Pilates Band x3",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "sportsFitnessOutdoor-15": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912426+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912432+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912429+00:00",
+    "level": "yellow",
+    "name": "Decathlon Pilates Band Light",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   },
   "sportsFitnessOutdoor-25": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780244+00:00",
@@ -2338,5 +4810,89 @@
     "reason": "HTTP Error 404: Not Found",
     "source": "tier_a_shopify",
     "tier": "A"
+  },
+  "sportsFitnessOutdoor-5": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912383+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912387+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912385+00:00",
+    "level": "yellow",
+    "name": "Decathlon Training Ball Size 5",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "sportsFitnessOutdoor-7": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912390+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912394+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912392+00:00",
+    "level": "yellow",
+    "name": "Decathlon Club Ball Resist Size 5",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "sportsFitnessOutdoor-8": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912400+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912404+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912402+00:00",
+    "level": "yellow",
+    "name": "Football Mini Sunny 300, Size 1",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "stationary-23": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.912435+00:00",
+    "history": [
+      "2026-10-30T21:16:49.912439+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.912437+00:00",
+    "level": "yellow",
+    "name": "Offikraft Stylo Metal Pen",
+    "reason": "flagged (exceeds threshold, not applied)",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "stationary-25": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913094+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913097+00:00 green->yellow: unparseable price '₹ 699/Piece'"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913095+00:00",
+    "level": "yellow",
+    "name": "Offikraft Writo Notebook",
+    "reason": "unparseable price '₹ 699/Piece'",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "stationary-30": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913100+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913103+00:00 green->yellow: unparseable price '₹ 699/Piece'"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913101+00:00",
+    "level": "yellow",
+    "name": "Offikraft Lining Notebook",
+    "reason": "unparseable price '₹ 699/Piece'",
+    "source": "tier_b_jsonld",
+    "tier": "B"
+  },
+  "stationary-34": {
+    "firstFlaggedAt": "2026-10-30T21:16:49.913106+00:00",
+    "history": [
+      "2026-10-30T21:16:49.913109+00:00 green->yellow: unparseable price '₹ 699/Piece'"
+    ],
+    "lastSeenAt": "2026-10-30T21:16:49.913107+00:00",
+    "level": "yellow",
+    "name": "Offikraft Grace Notebook",
+    "reason": "unparseable price '₹ 699/Piece'",
+    "source": "tier_b_jsonld",
+    "tier": "B"
   }
 }
