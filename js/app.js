@@ -7,7 +7,36 @@
     seenWelcome: "wa-catalog:seen-welcome",
     recentlyViewed: "wa-catalog:recently-viewed",
     discoverCollapsed: "wa-catalog:discover-collapsed",
+    enquirySrc: "wa-catalog:enquiry-src",
   };
+
+  // Enquiry source attribution: a catalog link shared with a `?src=` query
+  // param (e.g. .../?src=instagram-bio or .../brand/coconut/?src=email-
+  // newsletter) gets captured into localStorage here -- and in the matching
+  // code in product.js/brand.js, since those are separate static pages, not
+  // SPA routes -- so the eventual WhatsApp enquiry can be tagged with which
+  // channel brought the client in. Last tagged click wins (overwrites any
+  // earlier value) and it expires after a week so an enquiry sent long after
+  // the last tagged click doesn't misattribute to a stale channel.
+  const ENQUIRY_SRC_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+
+  function captureEnquirySource() {
+    try {
+      const src = (new URLSearchParams(window.location.search).get("src") || "").trim();
+      if (!src) return;
+      localStorage.setItem(STORAGE_KEYS.enquirySrc, JSON.stringify({ src, capturedAt: Date.now() }));
+    } catch (_) { /* no query param, or storage unavailable */ }
+  }
+
+  function getEnquirySource() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEYS.enquirySrc);
+      if (!raw) return null;
+      const { src, capturedAt } = JSON.parse(raw);
+      if (!src || !capturedAt || Date.now() - capturedAt > ENQUIRY_SRC_MAX_AGE_MS) return null;
+      return src;
+    } catch (_) { return null; }
+  }
 
   /** @type {{config: any, categories: any[], products: any[], visibleCategories: any[], visibleProducts: any[]}} */
   const state = {
@@ -1563,7 +1592,8 @@
     if (notes) lines.push(`Notes: ${notes}`);
 
     lines.push("");
-    lines.push(`— via ${state.config.businessName} catalog`);
+    const enquirySource = getEnquirySource();
+    lines.push(`— via ${state.config.businessName} catalog${enquirySource ? ` (src: ${enquirySource})` : ""}`);
 
     return lines.join("\n");
   }
@@ -1686,6 +1716,8 @@
     els.desktopCartBtn = qs("desktop-cart-btn");
     els.desktopCartBadge = qs("desktop-cart-badge");
     els.searchSuggest = qs("search-suggest");
+
+    captureEnquirySource();
 
     // Armed before the data fetch below, not after — see the comment on
     // armWelcomeDismissal for why.

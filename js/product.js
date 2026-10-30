@@ -4,12 +4,24 @@
   const STORAGE_KEYS = {
     shortlist: "wa-catalog:shortlist",
     recentlyViewed: "wa-catalog:recently-viewed",
+    enquirySrc: "wa-catalog:enquiry-src",
   };
 
   const product = window.__PRODUCT__;
   if (!product) return;
 
   function qs(id) { return document.getElementById(id); }
+
+  // See the matching block in app.js for why this exists -- captured here
+  // too since a product page can be the client's first external click
+  // (e.g. a direct product link shared with ?src=...).
+  function captureEnquirySource() {
+    try {
+      const src = (new URLSearchParams(window.location.search).get("src") || "").trim();
+      if (!src) return;
+      localStorage.setItem(STORAGE_KEYS.enquirySrc, JSON.stringify({ src, capturedAt: Date.now() }));
+    } catch (_) { /* no query param, or storage unavailable */ }
+  }
 
   // ---------- Recently viewed (shared with the homepage via localStorage) ----------
   function recordRecentlyViewed() {
@@ -376,6 +388,7 @@
   }
 
   function init() {
+    captureEnquirySource();
     initGallery();
     initActions();
     initSizeOptions();

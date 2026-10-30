@@ -3,12 +3,24 @@
 
   const STORAGE_KEYS = {
     shortlist: "wa-catalog:shortlist",
+    enquirySrc: "wa-catalog:enquiry-src",
   };
 
   const brand = window.__BRAND__;
   if (!brand) return;
 
   function qs(id) { return document.getElementById(id); }
+
+  // See the matching block in app.js for why this exists -- captured here
+  // too since a brand page is often the client's first external click
+  // (e.g. a brand-specific link shared with ?src=...).
+  function captureEnquirySource() {
+    try {
+      const src = (new URLSearchParams(window.location.search).get("src") || "").trim();
+      if (!src) return;
+      localStorage.setItem(STORAGE_KEYS.enquirySrc, JSON.stringify({ src, capturedAt: Date.now() }));
+    } catch (_) { /* no query param, or storage unavailable */ }
+  }
 
   const state = {
     categoryId: "", // "" = all categories
@@ -241,6 +253,7 @@
   }
 
   function init() {
+    captureEnquirySource();
     renderCategoryRail();
     initFilters();
     render();

@@ -101,7 +101,7 @@ PAGE_TEMPLATE = """<!doctype html>
 </a>
 
 <script>window.__PRODUCT__ = {product_json};</script>
-<script src="../../js/product.js?v=202610241200" defer></script>
+<script src="../../js/product.js?v=202610301200" defer></script>
 </body>
 </html>
 """

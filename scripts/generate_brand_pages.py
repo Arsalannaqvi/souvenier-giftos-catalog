@@ -118,7 +118,7 @@ PAGE_TEMPLATE = """<!doctype html>
 </a>
 
 <script>window.__BRAND__ = {brand_json};</script>
-<script src="../../js/brand.js" defer></script>
+<script src="../../js/brand.js?v=202610301200" defer></script>
 </body>
 </html>
 """
