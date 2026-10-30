@@ -2116,5 +2116,1787 @@
     "history": [
       "2026-10-24 added (source: online)"
     ]
+  },
+  "comboSets-2": {
+    "name": "Offikraft Joy Box Pro 3.0",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-joy-box-3.0",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 94 matches stored card exactly",
+    "priceAtEntry": 1499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "live site titles it 'Joy Box 3.0' / 'GRANDJOY BOX PRO 3.0' in its own description -- same product",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-3": {
+    "name": "Offikraft Slot Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=119",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 86 match",
+    "priceAtEntry": 599.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-4": {
+    "name": "Offikraft Chase Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-chase-gift-set",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 85 match",
+    "priceAtEntry": 1099.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-5": {
+    "name": "Offikraft Quest Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-quest-gift-set",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 84 match",
+    "priceAtEntry": 1199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-6": {
+    "name": "Offikraft Stroll Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=124",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 83 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-9": {
+    "name": "Offikraft Cove Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=107",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 65 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-10": {
+    "name": "Offikraft Delta Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=114",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 49 match",
+    "priceAtEntry": 449.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-13": {
+    "name": "Offikraft Coral Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=101",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 31 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-14": {
+    "name": "Offikraft Jade Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-jade-gift-set",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 29 match",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-15": {
+    "name": "Offikarft Joining Kit 05",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=358",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 219 match",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-16": {
+    "name": "Offikarft Joining Kit 04",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=356",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 217 match",
+    "priceAtEntry": 3399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-17": {
+    "name": "Offikarft Joining Kit 03",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=355",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 216 match",
+    "priceAtEntry": 3399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-18": {
+    "name": "Offikarft Joining Kit 02",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=354",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 215 match",
+    "priceAtEntry": 3499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-19": {
+    "name": "Offikarft Joining Kit 01",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=353",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 214 match",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-20": {
+    "name": "Offikraft Emerald 4.0 Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=352",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 210 match",
+    "priceAtEntry": 1799.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-21": {
+    "name": "Offikraft Emerald 3.0 Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=351",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 209 match",
+    "priceAtEntry": 1799.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-22": {
+    "name": "Offikraft Emerald 2.0 Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=350",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 208 match",
+    "priceAtEntry": 1799.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-23": {
+    "name": "Offikraft Joy Box 4.0 Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=369",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): name, box/bottle/notebook layout and price band all match",
+    "priceAtEntry": 3999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "TCH code not legible at thumbnail resolution -- medium-high confidence, not a pixel-exact TCH match like most others",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-24": {
+    "name": "Offikraft Joy Pro Box",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-joy-pro-box",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 20 match",
+    "priceAtEntry": 1599.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-25": {
+    "name": "Offikraft Ruby Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=122",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 19 match",
+    "priceAtEntry": 649.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-27": {
+    "name": "Offikraft Premium Travel Kit",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=267",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 146 match",
+    "priceAtEntry": 3499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-28": {
+    "name": "Offikraft Joy Box",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=263",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 14 match",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-29": {
+    "name": "Offikraft Emerald Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=120",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 13 match",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-30": {
+    "name": "Offikraft Maple Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=167",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 125 match",
+    "priceAtEntry": 2399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-32": {
+    "name": "Offikraft Oscar Gift Set",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=367",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 123 match",
+    "priceAtEntry": 2299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "site has a duplicate older listing at product_id=166 with a byte-identical marketing image -- same product, newer URL used",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "comboSets-33": {
+    "name": "Offikraft Coral Gift Set 2.0",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=162",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 113 match",
+    "priceAtEntry": 349.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-7": {
+    "name": "Offikraft Mars Metal Pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=212",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 074 match",
+    "priceAtEntry": 99.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "live listing calls it 'Mars Pen'; 4 color SKUs all same TCH/price",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-9": {
+    "name": "Offikraft Beta Pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/Pens/offikraft-beta-pen",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 038 match",
+    "priceAtEntry": 99.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-10": {
+    "name": "Offikraft Riva Metal Pen with Bamboo Pusher",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=327",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 203 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-11": {
+    "name": "Offikraft Edge Aluminum pen with Bamboo Grip",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=332",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 202 match",
+    "priceAtEntry": 299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-12": {
+    "name": "Offikraft Vega pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=333",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 189 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-13": {
+    "name": "Offikraft Ignis pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=331",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 188 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-14": {
+    "name": "Offikraft Aurum Metal Pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=319",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 187 match",
+    "priceAtEntry": 599.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-15": {
+    "name": "Offikraft Glowrite Bamboo pen with LED Light",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=330",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 184 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-16": {
+    "name": "Offikraft Glide Roller Pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=342",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 183 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-17": {
+    "name": "Offikraft Viro Bamboo Metal pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=329",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 182 match",
+    "priceAtEntry": 299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-18": {
+    "name": "Offikraft Tick Eco Friendly Pen with Measuring Scale",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=340",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 181 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-19": {
+    "name": "Offikraft Play Metal Pen with Wooden Spinner",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=341",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 180 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-20": {
+    "name": "Offikraft Point Metal Pen with Stylus Sleek",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=160",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 112 match",
+    "priceAtEntry": 199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "catalog has a DUPLICATE entry for this exact SKU -- see stationary-50, same TCH code/product_id",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-21": {
+    "name": "Offikraft Cling Magnetic Matt Finish Pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=161",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 111 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-22": {
+    "name": "Offikraft Sleeko Pen",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/Pens/offikraft-sleeko-pen",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 007 match",
+    "priceAtEntry": 149.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-24": {
+    "name": "Offikraft Softy Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=219",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 069 match",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-26": {
+    "name": "Offikraft Voila Notebook with Magnetic Closure",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-voila-notebook",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 064 match",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-27": {
+    "name": "Offikraft Grand Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=186",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 026 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-28": {
+    "name": "Offikarft Opus Diary",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=359",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 199 match",
+    "priceAtEntry": 799.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-29": {
+    "name": "Offikraft Writo 2.0 Notebook with Pen Loop",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=306",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 197 match",
+    "priceAtEntry": 599.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-31": {
+    "name": "Offikraft Ashen Notebook with Metal Pin Bookmark",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=336",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 179 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-32": {
+    "name": "Offikraft Eco Lure Notebook with Bamboo Fiber",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=339",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 178 match",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-33": {
+    "name": "Offikraft Focus Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=292",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 177 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-35": {
+    "name": "Offikraft Eco Cane Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=318",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 175 match",
+    "priceAtEntry": 899.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-37": {
+    "name": "Offikraft Bamboo Eco Friendly Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=316",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 173 match",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-38": {
+    "name": "Offikraft Notura Eco Friendly Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=315",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 172 match",
+    "priceAtEntry": 699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-41": {
+    "name": "Offikraft Span Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=270",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 128 match",
+    "priceAtEntry": 599.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-42": {
+    "name": "Offikraft Lark Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=159",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 122 match",
+    "priceAtEntry": 799.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-43": {
+    "name": "Offikraft Treo Notebook with Wooden Hardcover",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=149",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 116 match, cards essentially byte-identical",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "live title is 'Offikraft Treo Dairy' (sic, typo for Diary) -- same product",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-44": {
+    "name": "Offikraft Dusky Notebook",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=204",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 004 match",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "stationary-50": {
+    "name": "Offikraft Point Pen TCH 112",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=160",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): TCH 112 confirmed directly off product detail page",
+    "priceAtEntry": 199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "DUPLICATE catalog entry -- identical SKU to stationary-20 above (same product_id/TCH code)",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeDecor-19": {
+    "name": "Offikarft Atom Digital Clock",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=365",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): pixel-identical sell-sheet (ATOM DIGITAL CLOCK TCH 207)",
+    "priceAtEntry": 2499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-378": {
+    "name": "Offikraft Desky Mobile Stand 2.0",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=326",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (DESKY MOBILE STAND 2.0 TCH 201)",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-379": {
+    "name": "Offikraft Mag Fix Phone Holder",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=335",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (MAG FIX PHONE HOLDER TCH 195)",
+    "priceAtEntry": 1199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-380": {
+    "name": "Offikraft Desk Pro Wireless Charger with Phone & Stationary Stand",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=320",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (DESK PRO TCH 101)",
+    "priceAtEntry": 1999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "single integrated multi-function unit (charger+pen holder+phone stand), not a multi-item bundle",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-171": {
+    "name": "Offikraft Sporty Stainless-Steel Bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/Drinkware/Bottles/offikraft-sporty-bottle",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (SPORTY BOTTLE TCH 72)",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-172": {
+    "name": "Offikraft Sensor Steel Bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=214",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (SENSOR BOTTLE TCH 05)",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-173": {
+    "name": "Offikraft Brew Mug 2.0",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=254",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (OFFIKRAFT BREW MUG 2.0 TCH 129)",
+    "priceAtEntry": 1099.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-175": {
+    "name": "Offikraft Brew Insulated Mug",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=157",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (BREW INSULATED MUG TCH 088)",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-177": {
+    "name": "Offikraft Bistro Vaccum Insulated Bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=361",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (BISTRO BOTTLE TCH 212)",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-178": {
+    "name": "Offikraft Clark Bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=360",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (CLARK BOTTLE TCH 211)",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-179": {
+    "name": "Offikraft Kairo Eco Friendly Glass Bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=334",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (KAIRO BOTTLE TCH 171)",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-180": {
+    "name": "Offikraft Breeze 2.0 Stainless Steel bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=251",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (BREEZE 2.0 BOTTLE TCH 167)",
+    "priceAtEntry": 749.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-181": {
+    "name": "Offikraft Stainless Steel Sip",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=247",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (STEEL SIP TCH 166)",
+    "priceAtEntry": 749.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-182": {
+    "name": "Offikraft Dexter Stainless Steel Mug",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=243",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (DEXTER MUG TCH 165)",
+    "priceAtEntry": 699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-184": {
+    "name": "Offikraft Eco Cork",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=241",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): stored image byte-identical crop of live sell-sheet (ECO CORK TCH 147)",
+    "priceAtEntry": 649.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-185": {
+    "name": "Offikraft Aqua Bottle",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=181",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (AQUA BOTTLE TCH 120)",
+    "priceAtEntry": 1399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "not found via name search or linked from live Bottles category page, only via the site's own search box -- may be semi-delisted but still directly reachable",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-186": {
+    "name": "Offikraft Blaze 2.0 Vaccum Mug",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=321",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): pixel-identical sell-sheet",
+    "priceAtEntry": 1299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "site lists it as 'Blaze Mug' (no '2.0', TCH 119) -- version-number discrepancy, image match is exact so treating as same SKU",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-189": {
+    "name": "Offikraft Micro Steel Mug",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/mugs-coffee-steel",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (MICRO STEEL MUG TCH 008)",
+    "priceAtEntry": 299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-192": {
+    "name": "Offikraft Amigo Backpack",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=148",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (AMIGO BAGPACK TCH 099)",
+    "priceAtEntry": 2499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-193": {
+    "name": "Offikraft Canva Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/offikraft-canva-bags",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (CANVA BAG TCH 045)",
+    "priceAtEntry": 249.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-194": {
+    "name": "Offikraft Neem Jute Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=349",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (NEEM JUTE BAG TCH 224)",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-195": {
+    "name": "Offikraft Nomad Multi utility",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=363",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (NOMAD MULTI UTILITY TCH 226)",
+    "priceAtEntry": 4999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-196": {
+    "name": "Offikraft Chestnut Jute Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=348",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (CHESTNUT JUTE BAG TCH 225)",
+    "priceAtEntry": 599.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-197": {
+    "name": "Offikraft Oak Small Jute Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=347",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (OAK SMALL JUTE BAG TCH 223)",
+    "priceAtEntry": 449.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-198": {
+    "name": "Offikarft Oak Jute Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=346",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (OAK JUTE BAG TCH 222), confirmed distinct larger bag vs Oak Small by image proportions/dimensions",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-199": {
+    "name": "Offikraft Sunray Backpack",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=345",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (SUNRAY BACKPACK TCH 213)",
+    "priceAtEntry": 2499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-200": {
+    "name": "Offikraft Omega Bagpack 2.0",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=344",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (OMEGA 2.0 BACKPACK TCH 198)",
+    "priceAtEntry": 5999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-201": {
+    "name": "Offikraft Omega Bagpack",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=290",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (OMEGA BACKPACK TCH 192)",
+    "priceAtEntry": 4999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "sell-sheet image itself prints 'MRP 4500' but OpenCart's live price-old field shows 4999 -- used live field per live-data-over-static-asset precedent",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-202": {
+    "name": "Offikraft Rumble Duffle Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=233",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (RUMBLE DUFFLE BAG TCH 191)",
+    "priceAtEntry": 3999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-203": {
+    "name": "Offikraft Matrix Bagpack",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=325",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (MATRIX BACKPACK TCH 190)",
+    "priceAtEntry": 3499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-204": {
+    "name": "Offikraft Fury Duffle Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=337",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (FURY DUFFLE BAG TCH 186)",
+    "priceAtEntry": 2499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-205": {
+    "name": "Offikraft Lite Laptop Sleeve",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/Bags/Laptop%20sleeve/Offikraft%20-%20Laptop%20-%20%20Lite%20-%20%20sleeve",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (LITE LAPTOP SLEEVE TCH 139)",
+    "priceAtEntry": 499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-206": {
+    "name": "Offikraft Bay Sling Bag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=228",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (BAY SLING BAG TCH 137)",
+    "priceAtEntry": 1499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-209": {
+    "name": "Offikraft Nik Laptop Sleeve",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=208",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (NIK LAPTOP SLEEVE TCH 110)",
+    "priceAtEntry": 1499.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-210": {
+    "name": "Offikraft Felt Bag Small",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=205",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (FELT BAG SMALL TCH 103)",
+    "priceAtEntry": 99.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-211": {
+    "name": "Offikraft Felt Bag Big",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=188",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (FELT BAG BIG TCH 102)",
+    "priceAtEntry": 199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-212": {
+    "name": "Offikraft Atlas Bagpack",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=147",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (ATLAS BACKPACK TCH 100)",
+    "priceAtEntry": 1999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-213": {
+    "name": "Offikraft Wander Passport Holder",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=99",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (WANDER PASSPORT HOLDER TCH 081)",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-214": {
+    "name": "Offikraft Voyage Passport Holder",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=97",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (VOYAGE PASSPORT HOLDER TCH 080)",
+    "priceAtEntry": 699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-215": {
+    "name": "Offikraft Case Card Holder",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=90",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (CASE CARD HOLDER TCH 079)",
+    "priceAtEntry": 399.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-234": {
+    "name": "Offikraft Rover Luggage Tag",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=86",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (ROVER LUGGAGE TAG TCH 075)",
+    "priceAtEntry": 299.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-235": {
+    "name": "Offikraft Cardy - Card Holder",
+    "brand": "Offikraft",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://offikraft.in/index.php?route=product/product&product_id=89",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, Offikraft wave): identical sell-sheet (CARDY TCH 022)",
+    "priceAtEntry": 199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
   }
 }
