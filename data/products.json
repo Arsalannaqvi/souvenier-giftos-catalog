@@ -12736,10 +12736,11 @@
       "id": "drinkware-16",
       "category": "drinkware",
       "name": "Tamta Tivra #T017 950ml Glass",
-      "price": 397,
+      "price": 999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/bae9bcad-fbf3-414d-b3ac-4996035105f4.jpeg",
       "href": "/product/2856",
-      "subcategory": "Copper Glass"
+      "subcategory": "Copper Glass",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-h016-pure-copper-glass-copy"
     },
     {
       "id": "drinkware-17",
@@ -12808,10 +12809,11 @@
       "id": "drinkware-24",
       "category": "drinkware",
       "name": "Tamta Tivra #T009 950ml Bottle",
-      "price": 1029,
+      "price": 3298,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/c45d7b62-e782-4ce0-9df5-b9d001e7de25.jpeg",
       "href": "/product/2848",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tivra-classic-matte-copper-bottle-teal"
     },
     {
       "id": "drinkware-25",
@@ -12961,10 +12963,11 @@
       "id": "drinkware-41",
       "category": "drinkware",
       "name": "Tamta Surai #S007 300ml Vessel",
-      "price": 1013,
+      "price": 3398,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/e8b04e80-614c-4515-b90a-00464cc2c019.jpeg",
       "href": "/product/2831",
-      "subcategory": "Copper Vessel"
+      "subcategory": "Copper Vessel",
+      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-s003"
     },
     {
       "id": "drinkware-42",
@@ -13006,37 +13009,41 @@
       "id": "drinkware-46",
       "category": "drinkware",
       "name": "Tamta Surai #S002 250ml Vessel",
-      "price": 656,
+      "price": 2698,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/a4efe795-75a2-42dc-9298-f4ae24c2c637.jpeg",
       "href": "/product/2826",
-      "subcategory": "Copper Vessel"
+      "subcategory": "Copper Vessel",
+      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-400-ml-s002-स्वास्थ्य"
     },
     {
       "id": "drinkware-47",
       "category": "drinkware",
       "name": "Tamta Surai #S001 300ml Vessel",
-      "price": 883,
+      "price": 3198,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/23ad1530-d7eb-4c84-933e-bf9308efcf14.jpeg",
       "href": "/product/2825",
-      "subcategory": "Copper Vessel"
+      "subcategory": "Copper Vessel",
+      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka"
     },
     {
       "id": "drinkware-48",
       "category": "drinkware",
       "name": "Tamta Tamra #P007 950ml Bottle",
-      "price": 726,
+      "price": 2798,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/3043cc43-8e92-471d-b845-18a88039ffc9.jpeg",
       "href": "/product/2824",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tamra-compact-copper-bottle-matte-finish"
     },
     {
       "id": "drinkware-49",
       "category": "drinkware",
       "name": "Tamta Tamra #P006  950ml Bottle",
-      "price": 953,
+      "price": 3298,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/2aa37701-b6e4-4fa2-aed4-e580a68b37db.jpeg",
       "href": "/product/2823",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tamtaware-tamra-pure-copper-water-bottle-950-ml-matte-finish-leak-proof"
     },
     {
       "id": "drinkware-50",
@@ -13078,10 +13085,11 @@
       "id": "drinkware-54",
       "category": "drinkware",
       "name": "Tamta Tamra #P001 950ml Bottle",
-      "price": 898,
+      "price": 3398,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/429d07bc-9f30-4f39-8f0a-e6bfd2428a2c.jpg",
       "href": "/product/2818",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tamtaware-handcrafted-pure-copper-water-bottle-950-ml-brushed-satin-matte-bottle"
     },
     {
       "id": "drinkware-55",
@@ -13123,28 +13131,31 @@
       "id": "drinkware-59",
       "category": "drinkware",
       "name": "Tamta Tatva #H016 950ml Glass",
-      "price": 359,
+      "price": 999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/f626eb6c-6bf4-4925-b831-fb2e6883db4e.jpeg",
       "href": "/product/2813",
-      "subcategory": "Copper Glass"
+      "subcategory": "Copper Glass",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-h016-pure-copper-glass"
     },
     {
       "id": "drinkware-60",
       "category": "drinkware",
       "name": "Tamta Tatva #H015 950ml Glass",
-      "price": 359,
+      "price": 874,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/69e94273-64ff-488c-9848-34e7cb0625e2.jpeg",
       "href": "/product/2812",
-      "subcategory": "Copper Glass"
+      "subcategory": "Copper Glass",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-h015-pure-copper-glass-copy"
     },
     {
       "id": "drinkware-61",
       "category": "drinkware",
       "name": "Tamta Tatva #H013  950ml Bottle",
-      "price": 1216,
+      "price": 3998,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/b6dffd2f-ad50-4268-a718-ffb43d9a58c8.jpeg",
       "href": "/product/2811",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-copper-pot-model-h013-950-ml-matte-finish"
     },
     {
       "id": "drinkware-62",
@@ -13159,10 +13170,11 @@
       "id": "drinkware-63",
       "category": "drinkware",
       "name": "Tamta Tatva #H011 950ml Bottle",
-      "price": 1193,
+      "price": 3498,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/2ac2034f-c640-4c97-b07b-4bbaf972f64b.jpeg",
       "href": "/product/2809",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-hammered-copper-bottle-model-h011-950-ml"
     },
     {
       "id": "drinkware-64",
@@ -13177,19 +13189,21 @@
       "id": "drinkware-65",
       "category": "drinkware",
       "name": "Tamta Tatva #H009 950ml Bottle",
-      "price": 1468,
+      "price": 4198,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/4a76ef1f-bfeb-4df9-a5de-d26f24debaf0.jpeg",
       "href": "/product/2807",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-handcrafted-copper-bottle-model-h009-950-ml"
     },
     {
       "id": "drinkware-66",
       "category": "drinkware",
       "name": "Tamta Tatva #H008 950ml Bottle",
-      "price": 1101,
+      "price": 3398,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/85a368e2-bb21-4c93-a3bb-1ae67ce18cff.jpeg",
       "href": "/product/2804",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/pure-copper-water-bottle-tatva-h008-hammered-finish-1100-ml-विरासत"
     },
     {
       "id": "drinkware-67",
@@ -13240,19 +13254,21 @@
       "id": "drinkware-72",
       "category": "drinkware",
       "name": "Tamta Tatva #H002 950ml Bottle",
-      "price": 953,
+      "price": 3798,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/f0c85889-3cad-4fa6-9878-bbf1b886b1c5.jpeg",
       "href": "/product/2798",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-hand-crafted-copper-bottle-half-hammered"
     },
     {
       "id": "drinkware-73",
       "category": "drinkware",
       "name": "Tamta Tatva #H001 950ml Bottle",
-      "price": 1115,
+      "price": 3398,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/199b7a22-58ff-4d9d-82b0-65cda70a7262.jpeg",
       "href": "/product/2797",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tamtaware-handcrafted-pure-copper-water-bottle-950-ml-full-hammered-ayurvedic-flask"
     },
     {
       "id": "drinkware-74",
@@ -13285,19 +13301,21 @@
       "id": "drinkware-77",
       "category": "drinkware",
       "name": "Tamta Etching #E012 8000ml Water Dispenser",
-      "price": 4404,
+      "price": 9989,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/93af5e06-77ea-4930-954a-5dfc38d94036.jpeg",
       "href": "/product/2793",
-      "subcategory": "Water Dispenser"
+      "subcategory": "Water Dispenser",
+      "sourceUrl": "https://tamtaware.co.in/products/etching-heritage-copper-water-dispenser-model-e012-8-litres"
     },
     {
       "id": "drinkware-78",
       "category": "drinkware",
       "name": "Tamta Etching #E011 8000ml Water Dispenser",
-      "price": 4404,
+      "price": 9989,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/7e0c74fa-4763-4c53-b3d8-343cb9994505.jpeg",
       "href": "/product/2792",
-      "subcategory": "Water Dispenser"
+      "subcategory": "Water Dispenser",
+      "sourceUrl": "https://tamtaware.co.in/products/etching-heritage-copper-water-dispenser-model-e011-8-litres"
     },
     {
       "id": "drinkware-79",
@@ -13393,10 +13411,11 @@
       "id": "drinkware-89",
       "category": "drinkware",
       "name": "Tamta Tanmaya #C014 950ml Bottle Set",
-      "price": 1950,
+      "price": 2599,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/bad77c51-7d8a-46c4-97d4-26beb4d6acb6.jpeg",
       "href": "/product/2781",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tanmaya-copper-combo-set-model-c014-950-ml"
     },
     {
       "id": "drinkware-90",
@@ -13447,19 +13466,21 @@
       "id": "drinkware-95",
       "category": "drinkware",
       "name": "Tamta Tanmaya #C008 950ml Bottle Set",
-      "price": 5504,
+      "price": 5999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/140d20bb-e62c-4ddd-a5e6-5698abe2c01d.jpeg",
       "href": "/product/2775",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tanmaya-copper-gift-set-model-c008-950-ml"
     },
     {
       "id": "drinkware-96",
       "category": "drinkware",
       "name": "Tamta Tanmaya #C007 500ml Bottle Set",
-      "price": 1973,
+      "price": 2599,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/373ddfbd-1165-4a84-9892-746c58fd7608.jpeg",
       "href": "/product/2774",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tanmaya-copper-set-model-c007-950-ml"
     },
     {
       "id": "drinkware-97",
@@ -13492,10 +13513,11 @@
       "id": "drinkware-100",
       "category": "drinkware",
       "name": "Tamta Tanmaya #C003 950ml Bottle Set",
-      "price": 1835,
+      "price": 2499,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/67c4a178-9df5-487e-b43f-e153cc3f40f4.jpeg",
       "href": "/product/2770",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tanmaya-copper-gift-set-model-c003-950-ml"
     },
     {
       "id": "drinkware-101",
@@ -13564,10 +13586,11 @@
       "id": "drinkware-108",
       "category": "drinkware",
       "name": "Tamta Tavya #A005 Copper 900ml Bottle",
-      "price": 1023,
+      "price": 3798,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/8fba3f99-4aa1-4442-98f1-bbd356c4e84b.jpeg",
       "href": "/product/2762",
-      "subcategory": "Copper bottle"
+      "subcategory": "Copper bottle",
+      "sourceUrl": "https://tamtaware.co.in/products/tavya-antique-copper-bottle-matte-finish-1"
     },
     {
       "id": "drinkware-109",
