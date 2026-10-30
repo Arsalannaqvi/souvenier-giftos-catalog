@@ -2,16 +2,116 @@
   {
     "id": "joining-kit",
     "name": "Joining Kit",
-    "productIds": ["stationary-25", "drinkware-178", "bagsLuggageTravel-192"]
+    "productIds": [
+      "stationary-25",
+      "drinkware-178",
+      "bagsLuggageTravel-192"
+    ]
   },
   {
     "id": "festive-hamper",
     "name": "Festive Hamper",
-    "productIds": ["edible-77", "edible-8", "drinkware-174"]
+    "productIds": [
+      "edible-77",
+      "edible-8",
+      "drinkware-174"
+    ]
   },
   {
     "id": "recognition-kit",
     "name": "Recognition Kit",
-    "productIds": ["trophiesMedalsAwards-260", "stationary-14", "stationary-27"]
+    "productIds": [
+      "trophiesMedalsAwards-260",
+      "stationary-14",
+      "stationary-27"
+    ]
+  },
+  {
+    "id": "desk-essentials-kit",
+    "name": "Desk Essentials Kit",
+    "productIds": [
+      "deskAccessories-6",
+      "stationary-4",
+      "drinkware-192"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "work-from-home-kit",
+    "name": "Work From Home Kit",
+    "productIds": [
+      "coconut-173",
+      "drinkware-9",
+      "healthPersonalCare-51"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "wellness-kit",
+    "name": "Wellness Kit",
+    "productIds": [
+      "healthPersonalCare-63",
+      "drinkware-126",
+      "sportsFitnessOutdoor-39"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "travel-ready-kit",
+    "name": "Travel Ready Kit",
+    "productIds": [
+      "bagsLuggageTravel-373",
+      "drinkware-117",
+      "electronics-431"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "tech-starter-kit",
+    "name": "Tech Starter Kit",
+    "productIds": [
+      "electronics-227",
+      "computerAccessories-1",
+      "deskAccessories-13"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "festive-sweets-hamper",
+    "name": "Festive Sweets Hamper",
+    "productIds": [
+      "diwaliHampers-73",
+      "edible-25",
+      "drinkware-193"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "budget-starter-kit",
+    "name": "Budget Starter Kit",
+    "productIds": [
+      "stationary-23",
+      "edible-76",
+      "personalAccessories-1"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
+  },
+  {
+    "id": "recognition-plus-kit",
+    "name": "Recognition Plus Kit",
+    "productIds": [
+      "trophiesMedalsAwards-152",
+      "comboSets-6",
+      "stationary-15"
+    ],
+    "auto": true,
+    "generatedAt": "2026-10-30"
   }
 ]
