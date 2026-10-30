@@ -4068,5 +4068,617 @@
     "history": [
       "2026-10-30 added (source: online)"
     ]
+  },
+  "kitchenAppliances-2": {
+    "name": "RICO Mixer Grinder (Model-MG123B)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/mixer-grinder-550-watt-with-3-jars-mg123-black",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): pixel-identical image; B suffix = Black variant confirmed via handle",
+    "priceAtEntry": 5500.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-3": {
+    "name": "RICO Mixer Grinder (Model-MG2304)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-mixer-grinder-801-watt-powerful-motor-3-unbreakable-jar-japanese-technology-2-year-6-months-replacement-warranty",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): pixel-identical image",
+    "priceAtEntry": 9000.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-6": {
+    "name": "RICO Electric Rice Cooker (Model-RC907)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/electric-rice-cooker-1-8-litres-rc907-white",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image (white, Cook/Warm buttons, glass lid)",
+    "priceAtEntry": 3000.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-9": {
+    "name": "RICO Centrifugal Juicer (Model-JE1401B)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/electric-centrifugal-juicer-for-fruits-and-vegetables-350-watts-je1401b-black",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image; B = Black variant confirmed via handle",
+    "priceAtEntry": 3500.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-11": {
+    "name": "RICO 3 Litre Chopper (Model-CH2510)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-300w-3l-electric-chopper-transparent-bowl",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image (FOOD CHOPPER jug, clear bowl)",
+    "priceAtEntry": 5000.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-12": {
+    "name": "RICO 3 Litre Chopper (Model-CH2509)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-300w-electric-chopper-3l-india",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): jug unit pixel-identical",
+    "priceAtEntry": 5000.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "candidate's steel bowl shows newer Meat Max embossing not visible in our stored shot -- same product line, likely a packaging update",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-14": {
+    "name": "RICO Mini Electric Rechargeable Chopper (Model-CH2113)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/electric-mini-garlic-chopper-for-mincing-garlic-ginger-onion-vegetable-meat-nuts-250-ml-model-ch2113",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image, matches White variant in our stored 4-color family shot",
+    "priceAtEntry": 1775.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeAppliances-39": {
+    "name": "RICO Water Purifire",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-japanese-technology-wp200-water-purifier-20-litters-white",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical two-tier dispenser design (model WP200)",
+    "priceAtEntry": 2470.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-201": {
+    "name": "RICO Ceiling Fan (Model-CF2307)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-ceiling-fan-cf2307",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 3250.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-202": {
+    "name": "RICO Ceiling Fan (Model-CF809 Ivory)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/bee-3-star-rating-aluminum-3-blade-1400mm-ceiling-fan-cf809-white",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 3325.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-203": {
+    "name": "RICO Ceiling Fan (Model-CF808 Brown)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-oric-1200mm-48-bee-3-star-rating-ceiling-fan-cf808-brown",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 3250.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-204": {
+    "name": "RICO Ceiling Fan (Model-CF807)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-oric-1200mm-48-bee-3-star-rating-ceiling-fan-cf807-ivory",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 3000.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-206": {
+    "name": "RICO Grey Bldc Ceiling Fan (Model-CF2502)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-oric-cf2502-starlight-grey-decorative-bldc-ceiling-fan-48-inches-5-star",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 5300.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-211": {
+    "name": "RICO Rechargeable Emergency Light (Model-EL906)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-japanese-technology-el-906-4500mah-rechargeable-emergency-light-red",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical red lantern",
+    "priceAtEntry": 2150.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-213": {
+    "name": "RICO Rechargeable Torch (Model-RT1525)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rechargeable-portable-pocket-size-led-torch-0-5-watts-rt1525-red-black",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): consistent image (red lens cone, black body, red oval branding)",
+    "priceAtEntry": 400.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-223": {
+    "name": "RICO Water Heater With Thermal Cutout Immersion Rod (Model-IR2309)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-immersion-rod-with-thermostat-1500-watts-model-ir2309",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 1200.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-212": {
+    "name": "RICO Rechargeable Torch (Model-RT1526)",
+    "brand": "RICO",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rechargeable-led-torch-flashlight-3-watts-rt1526-red-black",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): model code and color scheme match",
+    "priceAtEntry": 700.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "candidate photo is a 3/4 rear angle, not a full silhouette comparison like RT1525 -- moderate rather than high confidence",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeAppliances-27": {
+    "name": "Orbit MC-666 5in1 Chopper",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/9e6580ea-7e21-4d18-aefe-6b16d3bddf73",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image; ORBIT MC-666 text visible on unit in both photos",
+    "priceAtEntry": 1290.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "healthPersonalCare-4": {
+    "name": "Orbit 2in1 Mini Hair Straightener cum Curler",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/fb1c83c1-6793-4ccb-8c11-ebf29463fa9f",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical black curling/straightening iron",
+    "priceAtEntry": 999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "healthPersonalCare-6": {
+    "name": "Orbit Conquest Rechargeable 2 Hair Shaver for Men",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/b739369f-3e24-4e04-8d6b-50bcf79e3adb",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical blue/silver foil shaver",
+    "priceAtEntry": 2000.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "healthPersonalCare-7": {
+    "name": "Orbit Century Rechargeable Hair  Trimmer for Men",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/e5d87598-a033-46ba-ac17-ae2827edb83a",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image",
+    "priceAtEntry": 1800.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-315": {
+    "name": "Orbit OJ-333 Juicer 800 Watt",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/e02ca49d-79bf-40eb-ac70-f7a40d3e433c",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image; wattage matches exactly (800W both)",
+    "priceAtEntry": 4900.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-323": {
+    "name": "Orbit Louis 2 Hand Blender",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/05361611-1256-4b2f-bd7c-b6a3fce7d32b",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): pixel-identical (LOUIS-2 branding visible)",
+    "priceAtEntry": 1999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-326": {
+    "name": "Orbit Rivo 3 1.5 Litre Multipurpose Kettle",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/edf43d42-58a7-42a2-874f-c107b45ad169",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image (Rivo-3 variant)",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-327": {
+    "name": "Orbit Rivo 1 1.5 Litre Multipurpose Kettle",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/edf43d42-58a7-42a2-874f-c107b45ad169",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): identical image, same base photo as Rivo-3 (Rivo-1 variant on same page)",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-314": {
+    "name": "Orbit OJ-111 Juicer 800 Watt",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/18b5fa05-a577-4304-b069-696481af1b63",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): pixel-identical image (cream/blue juicer, jug, dial) -- very high confidence on product identity",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "SPEC MISMATCH, not a price one: official listing states 400W, our catalog name says 800W. Image match is strong enough that this is very likely a wattage typo somewhere upstream, not a different product -- applying price, flagging spec for awareness.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-10": {
+    "name": "RICO Slow Berry Juicer (Model- SJ2508)",
+    "brand": "RICO",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-slow-juicer-model-sj2508",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): image matches (dark grey slow juicer, same hopper/handle/spout shape). Live price if applied would be: 8499",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. site shows sale price Rs 8499 vs MRP Rs 26000 -- a 67% markdown, much steeper than every other RICO item checked (all flat-MRP or modest discounts). This looks like a possibly-inflated anchor MRP rather than a genuine original price; the sale price (8499) is much closer to our stored 7650 and more plausible as the real transactable value. Held rather than applying the literal MRP -- needs a judgment call, not a data problem.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "kitchenAppliances-4": {
+    "name": "RICO Mixer Grinder (Model-MG2409)",
+    "brand": "RICO",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/mixer-grinder-1000-watts-with-4-jars-mg2409-red",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): model code, wattage (1000W), jar count (4), and color (red) all match exactly. Live price if applied would be: 6999",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. candidate's photographed unit has a visibly different physical design (round dial WHIP/OFF/I/II/III control vs our stored image's lever-style switch, different motor-housing shape). Could be a product-line redesign under the same SKU or a genuine mismatch -- held per the mandatory image-verification rule rather than trusting the code match alone.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-207": {
+    "name": "RICO Airswift Rechargeable Table Fan",
+    "brand": "RICO",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.rico.in/products/rico-airswift-rechargeable-table-fan-model-rf2503",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): image matches our stored photo well (white pedestal fan, grey blades, Rico logo). Live price if applied would be: 5000",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. rico.in sells TWO Airswift fans sharing the identical product photo (RF2503 flat Rs 5000, RF2512 Rs 5499/MRP Rs 8500) -- our stored name has no model code to disambiguate which one this actually is. Held rather than guessing; RF2503's flat price is closer to our stored 5426 if a pick is needed.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-329": {
+    "name": "Orbit ChefPro CPK-862 1.5 Litre  Electric Kettle",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/44c9d572-5373-4172-8a41-86b3b033a22a",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): pixel-identical image (red/white flower-pattern Chef Pro kettle). Live price if applied would be: 1695",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. live listing names it CCK862 (not CPK-862) and 1.2L (not 1.5L) -- likely the same product with a code/spec variance across sources, but the page itself says 'Product no longer available.' Held: applying a price from a discontinued listing to a currently-sold catalog entry doesn't fit what a live price check is for.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-21": {
+    "name": "Orbit Mini Tower Fan",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/96458378-7921-44c0-8e68-12caa349e888",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): same distinctive mold (grille, orange accent stripe, dual round knobs, pedestal base). Live price if applied would be: 3000",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. candidate photo is White-bodied, our stored image is Black-bodied -- color variant not independently confirmed. Listing also shows Out of Stock. Held on both grounds.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-26": {
+    "name": "Orbit Portable Washing Machine – Single Tub",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/559be4eb-f759-4dde-8c0c-ff7bdefd71e6",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): blue/white body, 3kg capacity consistent with our stored control-panel close-up (3.0KG dual-dial). Live price if applied would be: 8999",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. overall blue/white body ratio looks slightly different between the two photos (possibly a back-view vs front-view difference) -- moderate confidence. Listing also shows Out of Stock. Held on both grounds.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-317": {
+    "name": "Orbit Bullet 2 Jar Mixer Grinder",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/ae7a6f04-59f7-4429-bc48-f628592087af",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): same floral-pattern bullet blender design and 2-jar configuration. Live price if applied would be: 3330",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. candidate's listed color is Grey, our stored image shows Black -- same mold/pattern, different color. Held rather than assuming cross-color price parity.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-333": {
+    "name": "Orbit Takara Griller",
+    "brand": "Orbit",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.indiaorbit.in/product/716e6acd-a4da-4781-9ef5-bc656dcee389",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, RICO/Orbit wave): matches on product category (sandwich/grill press), brand, and price range. Live price if applied would be: 1500",
+    "priceAtEntry": 0.0,
+    "priceBasis": "n/a",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "NOT APPLIED. our stored photo shows the unit open (grill plates visible), candidate shows it closed with Takara branding -- could not directly compare the same angle, so this is a category-consistent match, not a confirmed logo/photo match. Held.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
   }
 }
