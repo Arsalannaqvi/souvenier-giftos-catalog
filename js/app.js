@@ -1709,7 +1709,7 @@
 
     state.config = config;
     state.categories = data.categories || [];
-    state.products = data.products || [];
+    state.products = (data.products || []).filter((p) => !p.hideFromCatalog);
     updateWelcomeText();
 
     try {

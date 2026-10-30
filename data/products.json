@@ -104200,7 +104200,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf05_c610a293-0917-4e46-8eab-cd100ea7ac68.jpg?v=1693402538",
       "subcategory": "Cooling",
       "description": "Screw type, 3 pin connect, 170g, copper coated base, supports 115x/1200.",
-      "sourceUrl": "https://coconutlife.in/products/cf05-cooling-fan"
+      "sourceUrl": "https://coconutlife.in/products/cf05-cooling-fan",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-2",
@@ -104214,7 +104215,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/core-100m-gaming-cabinet-black-mid-atx"
+      "sourceUrl": "https://coconutlife.in/products/core-100m-gaming-cabinet-black-mid-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-3",
@@ -104248,7 +104250,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/stark-z3-panoramic-glass-argb-atx-mid-tower-gaming-cabinet"
+      "sourceUrl": "https://coconutlife.in/products/stark-z3-panoramic-glass-argb-atx-mid-tower-gaming-cabinet",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-6",
@@ -104278,7 +104281,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X11_2_1.png?v=1730480768",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, premium quality ABS, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x11-2-5-inch-usb-3-0-hdd-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x11-2-5-inch-usb-3-0-hdd-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-9",
@@ -104362,7 +104366,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsAppImage2025-07-17at11.55.55AM.jpg?v=1759338398",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, plastic body, Micro B to USB A, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x21-2-5-inch-usb-3-0-ssd-hdd-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x21-2-5-inch-usb-3-0-ssd-hdd-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-18",
@@ -104376,7 +104381,8 @@
         "Black",
         "Silver"
       ],
-      "sourceUrl": "https://coconutlife.in/products/sm45-smps"
+      "sourceUrl": "https://coconutlife.in/products/sm45-smps",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-19",
@@ -104399,7 +104405,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/27qhd-27-inch-qhd-ips-frameless-led-monitor"
+      "sourceUrl": "https://coconutlife.in/products/27qhd-27-inch-qhd-ips-frameless-led-monitor",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-21",
@@ -104467,7 +104474,8 @@
           ],
           "colorHex": "#1a1a1a"
         }
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-24",
@@ -104487,7 +104495,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.57_AM.jpg?v=1759338394",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, transparent body, USB A to Micro, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x27-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x27-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-26",
@@ -104530,7 +104539,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/32xc-32-inch-curved-qhd-frameless-led-monitor"
+      "sourceUrl": "https://coconutlife.in/products/32xc-32-inch-curved-qhd-frameless-led-monitor",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-30",
@@ -104570,7 +104580,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.11_AM.jpg?v=1759338395",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, transparent body, USB A to Micro, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x22-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x22-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-34",
@@ -104580,7 +104591,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-08_at_5.07.15_PM.jpg?v=1759338396",
       "subcategory": null,
       "description": "Premium case, Micro ATX, 4 PCI slots, with handle, 1x Type-C + 1x USB 3.0, without PSU.",
-      "sourceUrl": "https://coconutlife.in/products/vault-x4-office-cabinet"
+      "sourceUrl": "https://coconutlife.in/products/vault-x4-office-cabinet",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-37",
@@ -104594,7 +104606,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/nova-221"
+      "sourceUrl": "https://coconutlife.in/products/nova-221",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-38",
@@ -104694,7 +104707,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_6.png?v=1748797489",
       "subcategory": null,
       "description": "Wired barcode scanner, supports 1D & 2D.",
-      "sourceUrl": "https://coconutlife.in/products/scanny-2-wireless-1d-2d-2-4g-bsc01"
+      "sourceUrl": "https://coconutlife.in/products/scanny-2-wireless-1d-2d-2-4g-bsc01",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-49",
@@ -104778,7 +104792,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/stark-z7-premium-gaming-cabinet-with-argb-fans"
+      "sourceUrl": "https://coconutlife.in/products/stark-z7-premium-gaming-cabinet-with-argb-fans",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-60",
@@ -104858,7 +104873,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-02-04_at_11.56.08_1.jpg?v=1770186886",
       "subcategory": "Cables & Adapters",
       "description": "True 550W, 120mm silent fan, flat cable, up to 85% efficient, OVP/UVP/SCP/OPP/OCP protection.",
-      "sourceUrl": "https://coconutlife.in/products/x550-550w-80-plus-bronze-smps-power-supply"
+      "sourceUrl": "https://coconutlife.in/products/x550-550w-80-plus-bronze-smps-power-supply",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-73",
@@ -104872,7 +104888,8 @@
         "White",
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/27-led-frameless-ultra-slim-hd-monitor-75hz-refresh-rate-1080p"
+      "sourceUrl": "https://coconutlife.in/products/27-led-frameless-ultra-slim-hd-monitor-75hz-refresh-rate-1080p",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-74",
@@ -105124,7 +105141,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.43_AM.jpg?v=1759338396",
       "subcategory": "Storage & SSD Cases",
       "description": "NVMe, USB and Type-C 2-in-1, OTG function, USB 3.1 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x25-nvme-ssd-tool-free-enclosure-with-usb-3-1"
+      "sourceUrl": "https://coconutlife.in/products/x25-nvme-ssd-tool-free-enclosure-with-usb-3-1",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-103",
@@ -105174,7 +105192,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.34_AM.jpg?v=1759338396",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, plastic body, Micro B to USB A, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x24-2-5-inch-usb-3-0-ssd-hdd-premium-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x24-2-5-inch-usb-3-0-ssd-hdd-premium-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-109",
@@ -105194,7 +105213,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X15.png?v=1730480768",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5/3.5 inch HDD/SSD, ABS body, up to 5 Gbps, USB 3.0 B to USB A.",
-      "sourceUrl": "https://coconutlife.in/products/dx11-dual-ssd-hdd-docking-station-with-clone-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/dx11-dual-ssd-hdd-docking-station-with-clone-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-112",
@@ -105214,7 +105234,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/VAULTX3.jpg?v=1742631463",
       "subcategory": null,
       "description": "Premium case, Micro ATX, 4 PCI slots, 1x Type-C + 1x USB 3.0, without PSU.",
-      "sourceUrl": "https://coconutlife.in/products/vault-x3-premium-office-pc-cabinet"
+      "sourceUrl": "https://coconutlife.in/products/vault-x3-premium-office-pc-cabinet",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-115",
@@ -105314,7 +105335,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X12.png?v=1730480768",
       "subcategory": "Storage & SSD Cases",
       "description": "Premium metal body, up to 10 Gbps, USB 3.2 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x12-m-2-dual-protocol-ssd-enclosure-ssd-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x12-m-2-dual-protocol-ssd-enclosure-ssd-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-128",
@@ -105327,7 +105349,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/atom-v200-gaming-cabinet"
+      "sourceUrl": "https://coconutlife.in/products/atom-v200-gaming-cabinet",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-129",
@@ -105337,7 +105360,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_5.png?v=1748797489",
       "subcategory": null,
       "description": "Wireless barcode scanner, supports 1D & 2D.",
-      "sourceUrl": "https://coconutlife.in/products/scanny-1-wireless-1d-2d-2-4g-bsc01"
+      "sourceUrl": "https://coconutlife.in/products/scanny-1-wireless-1d-2d-2-4g-bsc01",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-132",
@@ -105347,7 +105371,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf02_f6a2f7bc-318c-409c-86ba-8bc1f35ae41b.jpg?v=1693402375",
       "subcategory": "Cooling",
       "description": "Clip type, 4 pin connect, 170g, black coated base, supports 775/115x/1200.",
-      "sourceUrl": "https://coconutlife.in/products/cf02-cooler-fan"
+      "sourceUrl": "https://coconutlife.in/products/cf02-cooler-fan",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-134",
@@ -105381,7 +105406,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/nova-220"
+      "sourceUrl": "https://coconutlife.in/products/nova-220",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-137",
@@ -105391,7 +105417,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf04_01efdfe1-546a-4c3b-a462-8d83bf4799ec.jpg?v=1693402485",
       "subcategory": "Cooling",
       "description": "Screw type, 3 pin connect, 170g, supports 115x/1200.",
-      "sourceUrl": "https://coconutlife.in/products/cf04-cooling-fan"
+      "sourceUrl": "https://coconutlife.in/products/cf04-cooling-fan",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-139",
@@ -105455,7 +105482,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/core-200m-gaming-cabinet-black-mid-atx"
+      "sourceUrl": "https://coconutlife.in/products/core-200m-gaming-cabinet-black-mid-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-146",
@@ -105489,7 +105517,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/rampage-5000d-gaming-cabinet-e-atx-motherboard-support-black"
+      "sourceUrl": "https://coconutlife.in/products/rampage-5000d-gaming-cabinet-e-atx-motherboard-support-black",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-150",
@@ -105523,7 +105552,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/core-300m-gaming-cabinet-black-mid-atx"
+      "sourceUrl": "https://coconutlife.in/products/core-300m-gaming-cabinet-black-mid-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-155",
@@ -105546,7 +105576,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/rampage-1000d-gaming-cabinet-black-e-atx"
+      "sourceUrl": "https://coconutlife.in/products/rampage-1000d-gaming-cabinet-black-e-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-157",
@@ -105606,7 +105637,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.50_AM.jpg?v=1759338397",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, plastic body, USB A to Micro, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x26-2-5-inch-usb-3-0-ssd-hdd-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x26-2-5-inch-usb-3-0-ssd-hdd-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-163",
@@ -105636,7 +105668,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/products/IMG00017copy.webp?v=1660813018",
       "subcategory": "Networking",
       "description": "4G up to 150Mbps, WiFi up to 300Mbps, 500mAh battery, LAN port.",
-      "sourceUrl": "https://coconutlife.in/products/porto-1-4g-wireless-cpe-router-with-lan-port-4000-mah-battery"
+      "sourceUrl": "https://coconutlife.in/products/porto-1-4g-wireless-cpe-router-with-lan-port-4000-mah-battery",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-167",
@@ -105680,7 +105713,8 @@
         "White",
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/24hde-24-inch-curved-led-monitor-with-75hz"
+      "sourceUrl": "https://coconutlife.in/products/24hde-24-inch-curved-led-monitor-with-75hz",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-171",
@@ -105764,7 +105798,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/rampage-3000d-gaming-cabinet-eatx-black"
+      "sourceUrl": "https://coconutlife.in/products/rampage-3000d-gaming-cabinet-eatx-black",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-182",
@@ -105814,7 +105849,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/VAULTX2.jpg?v=1742631326",
       "subcategory": "Networking",
       "description": "Premium case, Micro ATX, front stylish RGB strip + RGB switch, 1x Type-C + 1x USB 3.0, without PSU.",
-      "sourceUrl": "https://coconutlife.in/products/vault-x2-premium-rgb-pc-case"
+      "sourceUrl": "https://coconutlife.in/products/vault-x2-premium-rgb-pc-case",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-189",
@@ -105864,7 +105900,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X15_1_1.png?v=1728388930",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch, free OTG, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x15-rgb-sata-casing-2-5inch-ssd-hdd-usb3-0-casing-type-c-connectivity"
+      "sourceUrl": "https://coconutlife.in/products/x15-rgb-sata-casing-2-5inch-ssd-hdd-usb3-0-casing-type-c-connectivity",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-196",
@@ -105908,7 +105945,8 @@
         "White",
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/27hdxc-plus-27-curved-led-monitor"
+      "sourceUrl": "https://coconutlife.in/products/27hdxc-plus-27-curved-led-monitor",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-202",
@@ -105918,7 +105956,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf01.jpg?v=1693402303",
       "subcategory": "Cooling",
       "description": "Clip type, 4 pin connect, 150g, silver coated base clip, supports 775/115x/1200.",
-      "sourceUrl": "https://coconutlife.in/products/cf01-cooler-fan"
+      "sourceUrl": "https://coconutlife.in/products/cf01-cooler-fan",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-203",
@@ -105928,7 +105967,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/front_silver_7.png?v=1748797489",
       "subcategory": "Hubs & Docks",
       "description": "Wireless + BT barcode scanner with dock, 2D.",
-      "sourceUrl": "https://coconutlife.in/products/scanny-3-wireless-1d-2d-2-4-bluetooth-bsc03"
+      "sourceUrl": "https://coconutlife.in/products/scanny-3-wireless-1d-2d-2-4-bluetooth-bsc03",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-205",
@@ -105941,7 +105981,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/nova-550-premium-rgb-gaming-cabinet-atx-mesh-360mm-cooling"
+      "sourceUrl": "https://coconutlife.in/products/nova-550-premium-rgb-gaming-cabinet-atx-mesh-360mm-cooling",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-206",
@@ -105961,7 +106002,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2026-02-04_at_11.56.09_1.jpg?v=1770186636",
       "subcategory": "Cables & Adapters",
       "description": "True 650W, 120mm silent fan, flat cable, up to 85% efficient, OVP/UVP/SCP/OPP/OCP protection.",
-      "sourceUrl": "https://coconutlife.in/products/x650-true-watt-650w-80-plus-bronze-smps"
+      "sourceUrl": "https://coconutlife.in/products/x650-true-watt-650w-80-plus-bronze-smps",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-209",
@@ -106031,7 +106073,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.57.12_AM.jpg?v=1759338396",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, transparent body, USB A to Type C, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x29-2-5-inch-usb-3-1-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x29-2-5-inch-usb-3-1-ssd-hdd-transparent-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-219",
@@ -106061,7 +106104,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/X1.png?v=1730480768",
       "subcategory": "Storage & SSD Cases",
       "description": "Premium metal body, up to 10 Gbps, USB 3.2 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x13-m-2-dual-protocol-ssd-enclosure-ssd-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x13-m-2-dual-protocol-ssd-enclosure-ssd-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-222",
@@ -106157,7 +106201,8 @@
           ],
           "colorHex": "#1a1a1a"
         }
-      ]
+      ],
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-229",
@@ -106217,7 +106262,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/VAULTX1.jpg?v=1742631282",
       "subcategory": null,
       "description": "Premium case, Micro ATX, 4 PCI slots, 1x Type-C + 1x USB 3.0, without PSU.",
-      "sourceUrl": "https://coconutlife.in/products/vault-x1-premium-mini-atx-case-with-type-c"
+      "sourceUrl": "https://coconutlife.in/products/vault-x1-premium-mini-atx-case-with-type-c",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-236",
@@ -106301,7 +106347,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/core-300m-gaming-cabinet-white-mid-atx"
+      "sourceUrl": "https://coconutlife.in/products/core-300m-gaming-cabinet-white-mid-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-246",
@@ -106371,7 +106418,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/WhatsApp_Image_2025-07-17_at_11.56.26_AM.jpg?v=1759338396",
       "subcategory": "Storage & SSD Cases",
       "description": "2.5 inch screwless, transparent body, USB A to Type C, USB 3.0 speed, 2 years warranty.",
-      "sourceUrl": "https://coconutlife.in/products/x23-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series"
+      "sourceUrl": "https://coconutlife.in/products/x23-2-5-inch-usb-3-0-ssd-hdd-transparent-enclosure-sata-casing-pro-series",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-254",
@@ -106385,7 +106433,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/rampage-5000d-gaming-cabinet-e-atx-motherboard-support-white"
+      "sourceUrl": "https://coconutlife.in/products/rampage-5000d-gaming-cabinet-e-atx-motherboard-support-white",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-255",
@@ -106506,7 +106555,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/nova-110"
+      "sourceUrl": "https://coconutlife.in/products/nova-110",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-270",
@@ -106546,7 +106596,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/cf03_5bac7e6e-f572-4c75-8fe6-53796eb3c026.jpg?v=1693402429",
       "subcategory": "Cooling",
       "description": "Clip type, 4 pin connect, 170g, copper coated base, supports 775/115x/1200.",
-      "sourceUrl": "https://coconutlife.in/products/cf03-cooling-fan"
+      "sourceUrl": "https://coconutlife.in/products/cf03-cooling-fan",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-274",
@@ -106609,7 +106660,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/27-xcg-curved-fhd-frameless-gaming-monitor-180hz"
+      "sourceUrl": "https://coconutlife.in/products/27-xcg-curved-fhd-frameless-gaming-monitor-180hz",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-284",
@@ -106632,7 +106684,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/nova-660-rgb-gaming-cabinet-geometric-mesh-front-280mm-liquid-cooling"
+      "sourceUrl": "https://coconutlife.in/products/nova-660-rgb-gaming-cabinet-geometric-mesh-front-280mm-liquid-cooling",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-286",
@@ -106686,7 +106739,8 @@
         "Black",
         "White"
       ],
-      "sourceUrl": "https://coconutlife.in/products/core-200m-gaming-cabinet-white-mid-atx"
+      "sourceUrl": "https://coconutlife.in/products/core-200m-gaming-cabinet-white-mid-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-291",
@@ -106729,7 +106783,8 @@
       "webColours": [
         "Black"
       ],
-      "sourceUrl": "https://coconutlife.in/products/atom-v100-rgb-gaming-cabinet-mesh-atx-usb-3-0"
+      "sourceUrl": "https://coconutlife.in/products/atom-v100-rgb-gaming-cabinet-mesh-atx-usb-3-0",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-297",
@@ -106759,7 +106814,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/StarkZ9Black.jpg?v=1742985048",
       "subcategory": "Gaming Cabinets",
       "description": "Pro series. ATX/M-ATX/ITX, tempered glass panoramic, 4x120mm Infinity ARGB fans, VGA up to 390mm.",
-      "sourceUrl": "https://www.coconutlife.in/products/coconut-stark-z9-glass-argb-atx-mid-tower-gaming-cabinet-black"
+      "sourceUrl": "https://www.coconutlife.in/products/coconut-stark-z9-glass-argb-atx-mid-tower-gaming-cabinet-black",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-36",
@@ -106769,7 +106825,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/RampageEliteBlack.jpg?v=1742985243",
       "subcategory": "Gaming Cabinets",
       "description": "Pro series. ATX (M-ATX/ITX boards), hinge glass door, 4x120mm RGB fans, Type-C, 5 PCI slots, VGA up to 400mm.",
-      "sourceUrl": "https://www.coconutlife.in/products/rampage-elite"
+      "sourceUrl": "https://www.coconutlife.in/products/rampage-elite",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-41",
@@ -106779,7 +106836,8 @@
       "image": "https://cdn.shopify.com/s/files/1/0608/0600/4886/files/jpeg-optimizer_2205-_.2126.jpg?v=1701434772",
       "subcategory": "Gaming Cabinets",
       "description": "Pro series. E-ATX, hinge glass door, 4x120mm ARGB fans, Type-C, 7 PCI slots, VGA up to 383mm.",
-      "sourceUrl": "https://www.coconutlife.in/products/rampage-2000d-gaming-cabinet-black-e-atx"
+      "sourceUrl": "https://www.coconutlife.in/products/rampage-2000d-gaming-cabinet-black-e-atx",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-53",
@@ -106808,7 +106866,8 @@
       "price": 3499,
       "image": "assets/products/coconut/nexus.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-63",
@@ -106817,7 +106876,8 @@
       "price": 3999,
       "image": "assets/products/coconut/triton.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-66",
@@ -106826,7 +106886,8 @@
       "price": 4999,
       "image": "assets/products/coconut/almond.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS."
+      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-67",
@@ -106835,7 +106896,8 @@
       "price": 3499,
       "image": "assets/products/coconut/atlas.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-68",
@@ -106844,7 +106906,8 @@
       "price": 3999,
       "image": "assets/products/coconut/zeal.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-71",
@@ -106853,7 +106916,8 @@
       "price": 3499,
       "image": "assets/products/coconut/prima.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-81",
@@ -106862,7 +106926,8 @@
       "price": 4999,
       "image": "assets/products/coconut/cashew.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS."
+      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-83",
@@ -106871,7 +106936,8 @@
       "price": 4999,
       "image": "assets/products/coconut/berry.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS."
+      "description": "'The King of All Office Cases'. 1x USB 3.0, mesh side panel, pre-loaded 80mm fan, black inner coating, pre-loaded with SM45 SMPS.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-93",
@@ -106880,7 +106946,8 @@
       "price": 3999,
       "image": "assets/products/coconut/solar.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Micro ATX, front stylish RGB strip, RGB switch button, pre-loaded with SM45 SMPS."
+      "description": "Micro ATX, front stylish RGB strip, RGB switch button, pre-loaded with SM45 SMPS.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-94",
@@ -106889,7 +106956,8 @@
       "price": 3499,
       "image": "assets/products/coconut/calvin.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-95",
@@ -106898,7 +106966,8 @@
       "price": 3999,
       "image": "assets/products/coconut/saga.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-100",
@@ -106907,7 +106976,8 @@
       "price": 3499,
       "image": "assets/products/coconut/lily.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-102",
@@ -106916,7 +106986,8 @@
       "price": 3499,
       "image": "assets/products/coconut/boston.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-104",
@@ -106925,7 +106996,8 @@
       "price": 3499,
       "image": "assets/products/coconut/astro.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-111",
@@ -106934,7 +107006,8 @@
       "price": 3999,
       "image": "assets/products/coconut/vesta.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-114",
@@ -106943,7 +107016,8 @@
       "price": 3499,
       "image": "assets/products/coconut/iris.jpg",
       "subcategory": "Gaming Cabinets",
-      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots."
+      "description": "Value series. Mini ATX/Micro ATX, 2 USB + 2 audio, 4 PCI slots.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-118",
@@ -106953,7 +107027,8 @@
       "image": "assets/products/coconut/22hda-monitor.jpg",
       "subcategory": "Monitors",
       "description": "Frameless IPS, A+ grade BOE panel, 120Hz, HDMI + VGA, 6.5ms, 99% sRGB, 250 nits. 3 years warranty.",
-      "sourceUrl": "https://www.coconutlife.in/products/22hda-22-inch-full-hd-frameless-ips-monitor"
+      "sourceUrl": "https://www.coconutlife.in/products/22hda-22-inch-full-hd-frameless-ips-monitor",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-123",
@@ -106963,7 +107038,8 @@
       "image": "assets/products/coconut/24hd-monitor.jpg",
       "subcategory": "Monitors",
       "description": "Frameless IPS, A+ grade, 100Hz, HDMI + VGA, 5ms, 94% sRGB, 250 nits, in-built speakers. 3 years warranty.",
-      "sourceUrl": "https://www.coconutlife.in/products/24hd-24-inch-monitor"
+      "sourceUrl": "https://www.coconutlife.in/products/24hd-24-inch-monitor",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-126",
@@ -106973,7 +107049,8 @@
       "image": "assets/products/coconut/sm50-psu.jpg",
       "subcategory": "Cables & Adapters",
       "description": "120mm fan, black powder coated, on/off switch, original Molex connectors.",
-      "sourceUrl": "https://www.coconutlife.in/products/e900-sm50-900w-high-efficiency-computer-power-supply"
+      "sourceUrl": "https://www.coconutlife.in/products/e900-sm50-900w-high-efficiency-computer-power-supply",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-130",
@@ -107167,7 +107244,8 @@
       "price": 999,
       "image": "assets/products/coconut/standy01.jpg",
       "description": "Barcode scanner stand.",
-      "sourceUrl": "https://www.coconutlife.in/products/stand-1-barcode-scanner-stand"
+      "sourceUrl": "https://www.coconutlife.in/products/stand-1-barcode-scanner-stand",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-213",
@@ -107228,7 +107306,8 @@
       "price": 3499,
       "image": "assets/products/coconut/sc16.jpg",
       "subcategory": "Storage & SSD Cases",
-      "description": "NVMe + NGFF, up to 4TB, USB and Type-C 2-in-1, USB 3.1 speed."
+      "description": "NVMe + NGFF, up to 4TB, USB and Type-C 2-in-1, USB 3.1 speed.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-249",
@@ -107327,7 +107406,8 @@
       "price": 2999,
       "image": "assets/products/coconut/cat6-cable.jpg",
       "subcategory": "Networking",
-      "description": "100% virgin material, CCA cable, 100M."
+      "description": "100% virgin material, CCA cable, 100M.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-298",
@@ -107336,7 +107416,8 @@
       "price": 9999,
       "image": "assets/products/coconut/cat6-cable.jpg",
       "subcategory": "Networking",
-      "description": "100% virgin material, CCA cable, 305M."
+      "description": "100% virgin material, CCA cable, 305M.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-299",
@@ -107345,7 +107426,8 @@
       "price": 1499,
       "image": "assets/products/coconut/rj45-plastic.jpg",
       "subcategory": "Networking",
-      "description": "Pass through RJ45 connectors, plastic, pack of 100."
+      "description": "Pass through RJ45 connectors, plastic, pack of 100.",
+      "hideFromCatalog": true
     },
     {
       "id": "coconut-300",
@@ -107354,7 +107436,8 @@
       "price": 1499,
       "image": "assets/products/coconut/rj45-metal.jpg",
       "subcategory": "Networking",
-      "description": "Pass through RJ45 connectors, metal, pack of 100."
+      "description": "Pass through RJ45 connectors, metal, pack of 100.",
+      "hideFromCatalog": true
     },
     {
       "id": "kitchenAppliances-596",

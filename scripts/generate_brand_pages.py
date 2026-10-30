@@ -175,6 +175,8 @@ def main():
         p = products_by_id.get(pid)
         if not p:
             continue  # brands.json entry for a product no longer in the catalog
+        if p.get("hideFromCatalog"):
+            continue
         products_by_brand.setdefault(brand_name, []).append(p)
 
     used_slugs = {}
