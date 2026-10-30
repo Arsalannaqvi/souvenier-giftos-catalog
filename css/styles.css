@@ -464,6 +464,7 @@ body.discover-collapsed #recently-viewed-section { display: none; }
 }
 .price-range-inputs input {
   flex: 1;
+  min-width: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
@@ -993,7 +994,8 @@ body.discover-collapsed #recently-viewed-section { display: none; }
 }
 
 .field { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--text-muted); }
-.field em { color: var(--danger); font-style: normal; }
+.field em { color: var(--text-muted); font-style: normal; }
+.field em.field-required { color: var(--danger); }
 
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 @media (max-width: 480px) { .field-row { grid-template-columns: 1fr; } }
