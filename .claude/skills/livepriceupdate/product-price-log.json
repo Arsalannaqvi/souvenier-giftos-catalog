@@ -68,34 +68,42 @@
   "apparel-122": {
     "batch": "tier-c-pilot-2b",
     "brand": "Marks & Spencer's",
-    "caveats": "NOT APPLIED. Same USD-wholesale-quote issue as apparel-128 ($16.18). Stored price (851) left untouched.",
+    "caveats": "Applied: sourceUrl + price (1699) written to products.json, stored price was 851.",
     "confidence": "match: high, price: low",
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-30",
     "markupApplied": "none",
-    "method": "Web search -> joytreeglobal.com/products/ms-solid-polo-t-shirt-premium-corporate-apparel/ (SKU JTMS003), image-confirmed (Sea Blue variant matches).",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass): re-fetched this exact URL, logged 2026-10-20 as USD-held -- today it shows INR (MRP 1699/sale 1348), matching our stored image's own printed MRP exactly. Confirmed this is isolated to this one SKU (8 other JoyTree pages checked same day are still genuinely USD), not a site-wide currency switch.",
     "name": "M&S Plain Polo T-shirt",
-    "priceBasis": "wholesale-estimate-flagged",
-    "sourceUrl": null,
-    "tier": "C (held, NOT applied)",
-    "verification": "image-confirmed, price NOT trustworthy",
+    "priceBasis": "mrp",
+    "sourceUrl": "https://joytreeglobal.com/products/ms-solid-polo-t-shirt-premium-corporate-apparel/",
+    "tier": "C",
+    "verification": "image-confirmed on joytreeglobal.com; MRP independently corroborated against our own stored catalog image's printed MRP (exact match, Rs 1699) -- price APPLIED to products.json this time (previous 2026-10-20 entry held it as USD, now confirmed INR)",
     "sourceType": "online",
-    "pdfName": null
+    "pdfName": null,
+    "priceAtEntry": 1699.0,
+    "history": [
+      "2026-10-30 checked online (was online) via https://joytreeglobal.com/products/ms-solid-polo-t-shirt-premium-corporate-apparel/ -- method: Tier C batch (2026-10-30, 956-no-sourceUrl pass): re-fetched this exact URL, logged 2026-10-20 as USD-held -- today it shows INR (MRP 1699/sale 1348), matching our stored image's own printed MRP exactly. Confirmed this is isolated to this one SKU (8 other JoyTree pages checked same day are still genuinely USD), not a site-wide currency switch. -- Applied: sourceUrl + price (1699) written to products.json, stored price was 851."
+    ]
   },
   "apparel-128": {
     "batch": "tier-c-pilot-2b",
     "brand": "UCB",
     "caveats": "NOT APPLIED. joytreeglobal quotes this in USD wholesale/quote figures ($18.59), not INR retail -- a rough FX conversion is not a verified retail comparison. Stored price (1024) left untouched. If re-checking, look for an INR retail source instead of this reseller's quote price.",
     "confidence": "match: high, price: low",
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-30",
     "markupApplied": "none",
-    "method": "Web search -> joytreeglobal.com/products/track-upper-full-sleeve/ (SKU JTUCB009), image-confirmed.",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass): re-confirmed, image-matched, still USD ($18.59, was $35.99) -- held, no change to products.json.",
     "name": "UCB Track Upper Full Sleeve Jacket",
     "priceBasis": "wholesale-estimate-flagged",
-    "sourceUrl": null,
+    "sourceUrl": "https://joytreeglobal.com/products/track-upper-full-sleeve/",
     "tier": "C (held, NOT applied)",
     "verification": "image-confirmed, price NOT trustworthy",
     "sourceType": "online",
-    "pdfName": null
+    "pdfName": null,
+    "priceAtEntry": 0.0,
+    "history": [
+      "2026-10-30 checked online (was online) via https://joytreeglobal.com/products/track-upper-full-sleeve/ -- method: Tier C batch (2026-10-30, 956-no-sourceUrl pass): re-confirmed, image-matched, still USD ($18.59, was $35.99) -- held, no change to products.json."
+    ]
   },
   "apparel-37": {
     "batch": "tier-c-pilot-1",
@@ -3894,6 +3902,168 @@
     "markupApplied": "none",
     "confidence": "high",
     "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-131": {
+    "name": "M&S Plain Polo T-shirt",
+    "brand": "Mark & Spencer (M&S, via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-solid-polo-t-shirt-premium-corporate-apparel/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): image-confirmed match on joytreeglobal.com (SKU JTMS003); independently re-fetched 2026-10-30 and confirmed this specific page currently shows INR (MRP 1699/sale 1348), unlike 8 other JoyTree pages checked the same day which are still genuinely USD -- this is a real, isolated anomaly on this one SKU, not a site-wide currency switch. MRP matches our own stored catalog image's printed MRP (Rs. 1699.00) exactly, corroborating it independently.",
+    "priceAtEntry": 1699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-150": {
+    "name": "M&S Plain Polo T-shirt",
+    "brand": "Mark & Spencer (M&S, via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-solid-polo-t-shirt-premium-corporate-apparel/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): image-confirmed match on joytreeglobal.com (SKU JTMS003); independently re-fetched 2026-10-30 and confirmed this specific page currently shows INR (MRP 1699/sale 1348), unlike 8 other JoyTree pages checked the same day which are still genuinely USD -- this is a real, isolated anomaly on this one SKU, not a site-wide currency switch. MRP matches our own stored catalog image's printed MRP (Rs. 1699.00) exactly, corroborating it independently.",
+    "priceAtEntry": 1699.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-120": {
+    "name": "M&S Round Neck T-shirt",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-round-neck-t-shirt-premium-corporate-apparel/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): candidate image returned was Olive/Green, not our stored Black -- color not independently confirmed, plus USD pricing. Live price shown: $10.85 USD (was $15.59)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-123": {
+    "name": "M&S Jacquard Polo T-shirt",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-jacquard-polo-t-shirt-premium-corporate-apparel/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): candidate image returned was Navy, not our stored Black -- color not independently confirmed, plus USD pricing. Live price shown: $16.79 USD (was $22.79)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-125": {
+    "name": "M&S Hoodie",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-hoodie-jacket/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): strong image match (model, cut, hood lining, drawstrings, Charcoal Grey all consistent) -- only USD pricing blocks this one. Live price shown: $36.46 USD (was $47.99)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-126": {
+    "name": "M&S Formal Shirts",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-formal-shirt/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): candidate image returned was White, not our stored Sky Blue (Light Blue is a listed color option but not independently confirmed), plus USD pricing. Live price shown: $23.93 USD (was $35.99)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-129": {
+    "name": "UCB Round Neck T-shirt",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/bio-wash-round-neck-t-shirt/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): candidate image returned was Navy Blue, not our stored Black -- color not independently confirmed, plus USD pricing. Live price shown: $10.00 USD (was $14.39)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-132": {
+    "name": "UCB Hoodie With Zip",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/hoodie-with-zip/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): good image match (hood, kangaroo pocket, zip-pull color all match Grey Melange) -- only USD pricing blocks this one. Live price shown: $36.02 USD (was $47.99)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-133": {
+    "name": "UCB High Neck Jacket",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/high-neck-jacket/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, UCB/TTH/M&S wave): good image match (Navy Blue, high-neck collar/zip/side-pocket silhouette) -- only USD pricing blocks this one. Live price shown: $33.56 USD (was $44.39)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "JoyTree Global quotes this SKU in USD wholesale, not INR retail -- same known trap already logged for other UCB/M&S/Puma items. No price applied, log-only, no sourceUrl written to products.json.",
     "lastUpdated": "2026-10-30",
     "history": [
       "2026-10-30 added (source: online)"
