@@ -8181,7 +8181,7 @@
       "id": "apparel-33",
       "category": "apparel",
       "name": "Adidas Dryfit Cap",
-      "price": 532,
+      "price": 1199,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/aaf9865d-2a7d-4b0f-af65-1f595c4d2c6f.jpeg",
       "href": "/product/2360",
       "subcategory": "Caps & Hats",
@@ -8212,7 +8212,8 @@
         "https://d39bd3o2tztcvw.cloudfront.net/6fec73a3-d1c8-46d5-a825-13ce517711f6.jpg",
         "https://d39bd3o2tztcvw.cloudfront.net/aaf9865d-2a7d-4b0f-af65-1f595c4d2c6f.jpeg",
         "https://d39bd3o2tztcvw.cloudfront.net/9b6b7813-e3fa-4776-ad38-874bf1e50b66.jpeg"
-      ]
+      ],
+      "sourceUrl": "https://www.amazon.in/Adidas-Mens-Cap-IL6983_Black-White/dp/B0BVRBWBGQ"
     },
     {
       "id": "apparel-34",
@@ -13678,10 +13679,11 @@
       "id": "drinkware-115",
       "category": "drinkware",
       "name": "Power Plus Coffee Mug/ Sipper (Steel)",
-      "price": 502,
+      "price": 829,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/d42dfaca-fe6a-4588-ba18-500c578e5e67.PNG",
       "href": "/product/2689",
-      "subcategory": "Mugs"
+      "subcategory": "Mugs",
+      "sourceUrl": "https://powerpl.us/product/sunset-magic-suction-mug-with-stainless-steel-inside-spill-proof-design-leak-proof-lid-bpa-free-capacity-360-ml-approx/"
     },
     {
       "id": "drinkware-116",
@@ -13697,10 +13699,11 @@
       "id": "drinkware-117",
       "category": "drinkware",
       "name": "Power Plus Steel Bottle Flast Hot & Cold",
-      "price": 719,
+      "price": 1789,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/1bfe189a-1332-4cad-9736-16990e92eef9.PNG",
       "href": "/product/2687",
-      "subcategory": "Flask"
+      "subcategory": "Flask",
+      "sourceUrl": "https://powerpl.us/product/heatvault-infuse-900-ml-vacuum-flask-with-infuser-lid-304-steel-inside-outside-18-hours-hot-cold/"
     },
     {
       "id": "drinkware-118",
@@ -20661,10 +20664,11 @@
       "id": "drinkware-200",
       "category": "drinkware",
       "name": "House Of Quirk 1200ml",
-      "price": 1115,
+      "price": 1999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/86c224e9-7660-4d80-b198-e46216e94418.jpg",
       "href": "/product/83",
-      "subcategory": "Tumbler"
+      "subcategory": "Tumbler",
+      "sourceUrl": "https://www.houseofquirk.com/products/tumbler-with-handle-simple-flip-straw-car-cup-holder-1200ml"
     },
     {
       "id": "drinkware-201",
@@ -35800,10 +35804,11 @@
       "id": "electronics-258",
       "category": "electronics",
       "name": "Blaupunkt SBA Standalone Soundbar Speaker",
-      "price": 1207,
+      "price": 2999,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/1a672a64-2242-4a8a-a1a6-689486631276.PNG",
       "href": "/product/828",
-      "subcategory": "Soundbar"
+      "subcategory": "Soundbar",
+      "sourceUrl": "https://www.myntra.com/speakers/blaupunkt/blaupunkt-wireless-sba-series-standalone-soundbar/21524888/buy"
     },
     {
       "id": "electronics-259",
@@ -50488,10 +50493,11 @@
       "id": "homeKitchenAppliances-496",
       "category": "kitchenAppliances",
       "name": "Franke Faber FWK 1.8L GL BK Kettle",
-      "price": 1572,
+      "price": 2990,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/24299ff4-216f-4b85-92da-3a902ee8e952.PNG",
       "href": "/product/1849",
-      "subcategory": "Electric Kettle"
+      "subcategory": "Electric Kettle",
+      "sourceUrl": "https://faberindia.com/products/fwk-1-8l-timon-bk"
     },
     {
       "id": "homeKitchenAppliances-497",
@@ -52678,10 +52684,11 @@
       "id": "homeKitchenAppliances-595",
       "category": "kitchenAppliances",
       "name": "Borosil Blender",
-      "price": 3574,
+      "price": 4540,
       "image": "https://d39bd3o2tztcvw.cloudfront.net/066f63d9-021e-4d04-9ef2-cc759e4e7326.jpeg",
       "href": "/product/246",
-      "subcategory": "Blender"
+      "subcategory": "Blender",
+      "sourceUrl": "https://myborosil.com/products/borosil-nutrifresh-nb04"
     },
     {
       "id": "electronics-404",
@@ -107118,10 +107125,11 @@
       "id": "coconut-194",
       "category": "computerAccessories",
       "name": "HDMI to VGA 2M Cable with Chipset",
-      "price": 799,
+      "price": 1049,
       "image": "assets/products/coconut/hdmi-vga-2m-chipset.jpg",
       "subcategory": "Cables & Adapters",
-      "description": "2M cable with chipset."
+      "description": "2M cable with chipset.",
+      "sourceUrl": "https://coconutlife.in/products/hdmi-to-vga-with-premium-chipset-2m-cable"
     },
     {
       "id": "coconut-198",

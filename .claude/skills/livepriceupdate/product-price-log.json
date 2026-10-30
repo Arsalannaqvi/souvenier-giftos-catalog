@@ -331,16 +331,20 @@
     "brand": "Coconut",
     "caveats": "NOT APPLIED. This exact live listing's own price (559) is HIGHER than its own compare_at_price (399) -- a data anomaly on coconutlife.in's own site, not a trustworthy MRP signal either way. Re-check the live listing directly before trusting any number from it.",
     "confidence": "match: high, price: untrustworthy",
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-30",
     "markupApplied": "none",
-    "method": "Candidate found (coconutlife.in/products/mini-dp-to-hdmi), image-matched.",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave): re-checked, same anomaly persists 10 days later -- live price (559) still higher than compare_at_price (399), backwards/untrustworthy data on coconutlife.in's own site. Held, not applied, consistent with the 2026-10-20 finding.",
     "name": "Mini DP to HDMI Adapter",
     "priceBasis": "n/a",
-    "sourceUrl": null,
+    "sourceUrl": "https://coconutlife.in/products/mini-dp-to-hdmi",
     "tier": "C (held, NOT applied)",
     "verification": "image-confirmed, price data UNTRUSTWORTHY",
     "sourceType": "online",
-    "pdfName": null
+    "pdfName": null,
+    "priceAtEntry": 0.0,
+    "history": [
+      "2026-10-30 checked online (was online) via https://coconutlife.in/products/mini-dp-to-hdmi -- method: Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave): re-checked, same anomaly persists 10 days later -- live price (559) still higher than compare_at_price (399), backwards/untrustworthy data on coconutlife.in's own site. Held, not applied, consistent with the 2026-10-20 finding."
+    ]
   },
   "coconut-173": {
     "batch": "coconut-tier-a-pass-2",
@@ -5090,6 +5094,186 @@
     "markupApplied": "none",
     "confidence": "high",
     "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "coconut-194": {
+    "name": "HDMI to VGA 2M Cable with Chipset",
+    "brand": "Coconut",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://coconutlife.in/products/hdmi-to-vga-with-premium-chipset-2m-cable",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): stored image shows HDMI-to-VGA coiled cable with gunmetal connector heads and coconut branding, matching candidate exactly",
+    "priceAtEntry": 1049.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-115": {
+    "name": "Power Plus Coffee Mug/ Sipper (Steel)",
+    "brand": "Power Plus",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://powerpl.us/product/sunset-magic-suction-mug-with-stainless-steel-inside-spill-proof-design-leak-proof-lid-bpa-free-capacity-360-ml-approx/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): exact SKU match (H280 printed on our stored sell-sheet matches live SKU H280); genuine Power Plus branding visible on both",
+    "priceAtEntry": 829.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-117": {
+    "name": "Power Plus Steel Bottle Flast Hot & Cold",
+    "brand": "Power Plus",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://powerpl.us/product/heatvault-infuse-900-ml-vacuum-flask-with-infuser-lid-304-steel-inside-outside-18-hours-hot-cold/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): exact SKU match (H303 printed on our stored sell-sheet matches live SKU H303)",
+    "priceAtEntry": 1789.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "live listing currently shows Out of Stock",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-595": {
+    "name": "Borosil Blender",
+    "brand": "Borosil",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://myborosil.com/products/borosil-nutrifresh-nb04",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): same black body shape, same BOROSIL logo placement, same P-0-1 dial layout and tapered clear jar design as stored image (Nutrifresh NB04 Blender Grinder, Black)",
+    "priceAtEntry": 4540.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-33": {
+    "name": "Adidas Dryfit Cap",
+    "brand": "Adidas",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.amazon.in/Adidas-Mens-Cap-IL6983_Black-White/dp/B0BVRBWBGQ",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): exact style-number match (IL6983) between our stored sell-sheet and the live Amazon listing, Black/White colorway matches",
+    "priceAtEntry": 1199.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "sell-sheet's own printed MRP (999) is stale vs live MRP (1199) -- minor drift",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-258": {
+    "name": "Blaupunkt SBA Standalone Soundbar Speaker",
+    "brand": "Blaupunkt",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.myntra.com/speakers/blaupunkt/blaupunkt-wireless-sba-series-standalone-soundbar/21524888/buy",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): exact name match (BLAUPUNKT Wireless SBA Series Standalone Soundbar) to our stored product name; genuine Blaupunkt branding visible on stored image",
+    "priceAtEntry": 2999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "homeKitchenAppliances-496": {
+    "name": "Franke Faber FWK 1.8L GL BK Kettle",
+    "brand": "Faber (Franke)",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://faberindia.com/products/fwk-1-8l-timon-bk",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): model-code match (FWK 1.8L prefix) and matching glass-body 1.8L kettle design; MRP corroborated by 3 independent sources (Flipkart, Amazon.in, Nikshan) all showing the same Rs 2,990 for 'Faber 1.8L Electric Glass Kettle / FWK 1.8L GL BK'",
+    "priceAtEntry": 2990.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium-high",
+    "caveats": "live product's own name says 'TIMON' not literally 'GL BK' -- GL in our catalog's name likely just describes the glass material, not a separate SKU suffix",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "drinkware-200": {
+    "name": "House Of Quirk 1200ml",
+    "brand": "House of Quirk",
+    "tier": "A",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.houseofquirk.com/products/tumbler-with-handle-simple-flip-straw-car-cup-holder-1200ml",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): exact capacity match (1200ml), exact color match (Black), matching flip-straw-with-handle tumbler design and House of Quirk logo placement",
+    "priceAtEntry": 1999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": null,
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-86": {
+    "name": "UCB- Hoodie with Zip Grey Melange",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/hoodie-with-zip/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave): same Grey Melange UCB zip hoodie already image-matched for apparel-132 (JTUCB011) -- this is a duplicate catalog entry for the same product/color. Live price shown: $36.02 USD (was $47.99)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "USD wholesale quote, same unresolved pricing issue as apparel-132. No price applied.",
+    "lastUpdated": "2026-10-30",
+    "history": [
+      "2026-10-30 added (source: online)"
+    ]
+  },
+  "apparel-148": {
+    "name": "Marks And Spencers Round Neck T- Shirt",
+    "brand": "UCB/M&S (via JoyTree Global reseller)",
+    "tier": "C",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://joytreeglobal.com/products/ms-round-neck-t-shirt-premium-corporate-apparel/",
+    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave): same Black M&S round neck t-shirt already researched for apparel-120 (JTMS004) -- this is a duplicate catalog entry for the same product/color (both explicitly Black). Live price shown: $10.85 USD (was $15.59)",
+    "priceAtEntry": 0.0,
+    "priceBasis": "wholesale-estimate-flagged",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "USD wholesale quote AND JoyTree's own gallery photos for this SKU show Olive/Green, not Black -- color still not independently confirmed on either entry. No price applied.",
     "lastUpdated": "2026-10-30",
     "history": [
       "2026-10-30 added (source: online)"
