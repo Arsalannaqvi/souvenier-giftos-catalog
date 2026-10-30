@@ -1,11 +1,22 @@
 {
-  "checkedAt": "2026-10-29T08:50:36.478662+00:00",
+  "checkedAt": "2026-10-30T09:03:53.915989+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1488,
   "unchanged": 1291,
   "applied": [],
   "flagged": [
+    {
+      "id": "electronics-338",
+      "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "storedPrice": 1526,
+      "livePrice": 1999,
+      "liveMrp": 4299,
+      "sourceUrl": "https://xech.com/products/multipurpose-kettle-with-steamer-mini-chef",
+      "deltaPct": 181.7,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
     {
       "id": "homeKitchenAppliances-48",
       "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner",
@@ -44,7 +55,7 @@
       "name": "NoiseFit Halo 2 Smartwatch",
       "domain": "gonoise.com",
       "storedPrice": 3999,
-      "livePrice": 3999,
+      "livePrice": 4299,
       "liveMrp": 6999,
       "sourceUrl": "https://gonoise.com/products/noisefit-halo-2-smart-watch",
       "deltaPct": 75.0,
@@ -69,17 +80,6 @@
       "livePrice": 3599,
       "liveMrp": 2159,
       "sourceUrl": "https://coconutlife.in/products/8-in-1-dock-a-type-c-multiport-hub",
-      "deltaPct": 40.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "coconut-207",
-      "name": "X650 Premium Power Supply (80 Plus Bronze)",
-      "domain": "coconutlife.in",
-      "storedPrice": 6499,
-      "livePrice": 6499,
-      "liveMrp": 3899,
-      "sourceUrl": "https://coconutlife.in/products/x650-true-watt-650w-80-plus-bronze-smps",
       "deltaPct": 40.0,
       "action": "flagged (exceeds threshold, not applied)"
     }
@@ -1976,7 +1976,7 @@
       "domain": "www.campusshoes.com",
       "variantCount": 7,
       "variantPrices": [
-        1539,
+        1559,
         1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/promote-m-blu-golden-mens-sports-shoes"
@@ -2220,20 +2220,20 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-338",
-      "name": "Xech Mini Chef Electronic Multi Cooker",
-      "domain": "xech.com",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "id": "homeKitchenAppliances-486",
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "coconut-207",
+      "name": "X650 Premium Power Supply (80 Plus Bronze)",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
-    "noSourceUrl": 889,
-    "nonShopifyOrNonProductUrl": 582
+    "noSourceUrl": 790,
+    "nonShopifyOrNonProductUrl": 681
   }
 }

@@ -1,21 +1,10 @@
 {
-  "checkedAt": "2026-10-29T09:03:21.333571+00:00",
+  "checkedAt": "2026-10-30T09:15:42.568694+00:00",
   "tier": "B (stovekraft.com, regex over plain HTML)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 269,
-  "unchanged": 265,
-  "applied": [
-    {
-      "id": "homeKitchenAppliances-439",
-      "name": "Pigeon Healthifry + Digital AirFryer - GT EX",
-      "domain": "stovekraft.com",
-      "storedPrice": 12995,
-      "livePrice": 10995,
-      "sourceUrl": "https://stovekraft.com/pigeon/category/food-preparation/airfryer/digital-airfryer-ivo-healthifry",
-      "deltaPct": 15.4,
-      "action": "applied"
-    }
-  ],
+  "unchanged": 266,
+  "applied": [],
   "flagged": [
     {
       "id": "electronics-14",
