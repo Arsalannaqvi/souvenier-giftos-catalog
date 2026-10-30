@@ -208,6 +208,36 @@ DOMAIN_MRP_PATTERNS = {
     # value (not a bug in that case, since there's only one real price).
     "offikraft.in": re.compile(r'class="price-old">₹([\d,]+\.\d{2})</span>\s*<span class="price-new" itemprop="price"'),
     "www.offikraft.in": re.compile(r'class="price-old">₹([\d,]+\.\d{2})</span>\s*<span class="price-new" itemprop="price"'),
+    # wayona.in (WooCommerce, 17 products): different shape again, confirmed
+    # by hand 2026-10-30 -- the top-level offer.price (what extract_offer_price
+    # would read) is the current/sale price; the real MRP sits inside a
+    # nested priceSpecification entry explicitly tagged
+    # "priceType":"https://schema.org/ListPrice" -- an unambiguous schema.org
+    # semantic marker, not a CSS-class heuristic like offikraft.in's. Example
+    # (personalAccessories-4): top-level price "499.00", ListPrice-tagged
+    # entry "1499.00". This catalog's own stored price (513) is close to the
+    # SALE price, not the ListPrice -- meaning this product's record has
+    # likely been tracking the wrong field already; the resulting ~192%
+    # delta is well above the 25% auto-apply threshold, so it's reported for
+    # manual review, not auto-applied, same as any large delta.
+    "wayona.in": re.compile(r'"price":"([\d.]+)"[^{}]*"priceType":"https://schema\.org/ListPrice"'),
+    "www.wayona.in": re.compile(r'"price":"([\d.]+)"[^{}]*"priceType":"https://schema\.org/ListPrice"'),
+    # www.indiaorbit.in (Next.js headless storefront, 16 products): TRIED
+    # and REJECTED 2026-10-30, not fixed. No JSON-LD/microdata at all, but
+    # the __NEXT_DATA__ script tag embeds real props with an unambiguous
+    # "mrp" key (confirmed against this catalog's own stored price for
+    # homeAppliances-27: stored 1290 matches mrp, not sellingPrice 799).
+    # A "first mrp occurrence in the HTML" regex worked on the one sample
+    # page tested, but failed on a full 16-product run: 6 of 16 products
+    # returned the exact same value (7300) -- a featured/cross-sell
+    # product's mrp, not the page's own product, confirming the
+    # featured-products block isn't consistently positioned after the
+    # main product's data across pages. This needs real JSON parsing of
+    # __NEXT_DATA__ down to props.pageProps.catalog.variantsDetails[0]
+    # .variantAttributes.price.mrp specifically, not a regex -- not built
+    # here. Do not add a domain entry for this until that's done; the
+    # generic extractor correctly falls through to "no price found"
+    # (reported as unreachable) in the meantime, which is safe.
 }
 
 RETRYABLE_HTTP_STATUS = {429, 502, 503}
