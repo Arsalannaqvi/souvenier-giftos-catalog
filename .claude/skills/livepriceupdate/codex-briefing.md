@@ -77,9 +77,10 @@ are the same value).
 `data/price_check_report_tier_b_jsonld.json`):
 - Before: candidates 425, unchanged 175, applied 37, flagged 93,
   unreachable 120.
-- After: see the run notes committed alongside this file for the exact
-  numbers — update this line if re-reading after a later run moves
-  them further.
+- After: unchanged 224, applied 5, flagged 104, unreachable 92 (applied
+  dropped from 37 because most of the previous run's applied deltas are
+  now baked into `products.json` and read back as `unchanged` this
+  time, not a regression).
 
 **Not done, left for a future session:** the ~190 remaining
 catalog-wide Tier B candidates across the rest of its domains
