@@ -1,452 +1,69 @@
 {
-  "checkedAt": "2026-10-30T21:16:49.886370+00:00",
+  "checkedAt": "2026-10-31T03:48:38.697013+00:00",
   "tier": "B (generic JSON-LD, non-stovekraft)",
   "autoApplyThresholdPct": 25.0,
   "marketplaceMarkupPct": 10.0,
   "candidates": 425,
-  "unchanged": 175,
+  "unchanged": 224,
   "applied": [
     {
-      "id": "kitchenAppliances-1",
-      "name": "RICO Nutri Pro (Model-MG2203)",
-      "domain": "www.flipkart.com",
-      "storedPrice": 4126,
-      "livePrice": 4538.6,
+      "id": "apparel-66",
+      "name": "Puma Training Cap",
+      "domain": "www.indiamart.com",
+      "storedPrice": 443,
+      "livePrice": 423.50000000000006,
       "priceSource": "offers.price (generic -- unverified MRP vs sale)",
       "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.flipkart.com/rico-isi-certified-18-monhts-replacement-warranty-400-w-juicer-mixer-grinder/p/itmdaf3d63156449?pid=MIXGVQAGRY5HRHNK",
-      "deltaPct": 10.0,
+      "sourceUrl": "https://www.indiamart.com/proddetail/puma-training-cap-2853519597555.html",
+      "deltaPct": 4.4,
       "action": "applied"
     },
     {
-      "id": "homeDecor-5",
-      "name": "Timalfi bellara crafted In Real Bambo",
-      "domain": "www.pepperfry.com",
-      "storedPrice": 1220,
-      "livePrice": 1263.9,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.pepperfry.com/product/aesthetic-table-lamp-with-detachable-lampshade-decorative-pleated-fabric-and-ca-2306328.html",
-      "deltaPct": 3.6,
-      "action": "applied"
-    },
-    {
-      "id": "homeDecor-6",
-      "name": "Timalfi Gold Crystal Designed To dazzle",
-      "domain": "www.pepperfry.com",
-      "storedPrice": 1419,
-      "livePrice": 1428.9,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.pepperfry.com/product/table-lamp-with-glass-hemisphere-premium-gold-finish-usb-c-rechargeable-touch-2306331.html",
-      "deltaPct": 0.7,
-      "action": "applied"
-    },
-    {
-      "id": "homeDecor-8",
-      "name": "Timalfi Garat Crystal Inspired Desgin",
-      "domain": "www.pepperfry.com",
-      "storedPrice": 789,
-      "livePrice": 768.9000000000001,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.pepperfry.com/product/crystal-table-lamp-usb-c-rechargeable-touch-sensor-dimmable-3-color-lighting-2306325.html",
-      "deltaPct": 2.5,
-      "action": "applied"
-    },
-    {
-      "id": "apparel-68",
-      "name": "Scott Men's I-Dry Jacket",
-      "domain": "www.paisawapas.com",
-      "storedPrice": 588,
-      "livePrice": 658.9000000000001,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.paisawapas.com/p-scott-international-idry-jacket-ultra-lightweight-mens-jacket-foldable-water-repellent-compact-perfect-for-any-adventure-hiking-sports-biking-13290880",
-      "deltaPct": 12.1,
-      "action": "applied"
-    },
-    {
-      "id": "apparel-85",
-      "name": "Scott- I Dry Jackets",
-      "domain": "www.paisawapas.com",
-      "storedPrice": 588,
-      "livePrice": 658.9000000000001,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.paisawapas.com/p-scott-international-idry-jacket-ultra-lightweight-mens-jacket-foldable-water-repellent-compact-perfect-for-any-adventure-hiking-sports-biking-13290880",
-      "deltaPct": 12.1,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-58",
-      "name": "Samsonite Toiis C Rolling Tote Bag",
-      "domain": "www.samsonite.in",
-      "storedPrice": 14831,
-      "livePrice": 12400,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.samsonite.in/samsonite-red/toiis-c/rolling-tote/ss-147683-0540.html",
-      "deltaPct": 16.4,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-62",
-      "name": "Samsonite Openroad 2.0",
-      "domain": "www.samsonite.in",
-      "storedPrice": null,
-      "livePrice": 13200,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.samsonite.in/samsonite/openroad-2/laptop-backpack-15.6%22/ss-137208-1041.html",
-      "action": "applied (no prior stored price)"
-    },
-    {
-      "id": "bagsLuggageTravel-67",
-      "name": "Samsonite Zipprix Cabin Size Trolley Bag",
-      "domain": "www.samsonite.in",
-      "storedPrice": 18419,
-      "livePrice": 15400,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.samsonite.in/samsonite/zipprix-ft/spinner-55/20-exp-ft/ss-154681-1422.html",
-      "deltaPct": 16.4,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-69",
-      "name": "Samsonite Octolite Neo Cabin Size Trolley Bag",
-      "domain": "www.samsonite.in",
-      "storedPrice": 10166,
-      "livePrice": 8500,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.samsonite.in/octolite-neo/spinner-55-20-exp-in/ss-159798-1388.html",
-      "deltaPct": 16.4,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-73",
-      "name": "Samsonite S'cure Sport Cabin Size Trolley Bag",
-      "domain": "www.samsonite.in",
-      "storedPrice": 15608,
-      "livePrice": 13050,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.samsonite.in/samsonite/s%27cure-sport/spinner-55/20/ss-LQ50001-11.html",
-      "deltaPct": 16.4,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-74",
-      "name": "Samsonite S'cure Cabin Size Trolley Bag",
-      "domain": "www.samsonite.in",
-      "storedPrice": 15608,
-      "livePrice": 13050,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.samsonite.in/samsonite/s%27cure/spinner-55/20/ss-145879-1012.html",
-      "deltaPct": 16.4,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-140",
-      "name": "HRX Parabola Cabin Luggage Bag",
-      "domain": "www.myntra.com",
-      "storedPrice": 1756,
-      "livePrice": 1868.9,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.myntra.com/trolley-bag/hrx/hrx-parabola-textured-hard-sided-360-degree-water-resistant-cabin-trolley-bag-49l/46279585/buy",
-      "deltaPct": 6.4,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-143",
-      "name": "HRX Zanzibar Luggage Bag",
-      "domain": "www.flipkart.com",
-      "storedPrice": 1756,
-      "livePrice": 2033.9,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.flipkart.com/hrx-hrithik-roshan-zanzibar-cabin-suitcase-8-wheels-22-inch/p/itmb696df82c86bf",
-      "deltaPct": 15.8,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-145",
-      "name": "Snitch Rubik Laptop Cabin Bag with Additional Laptop Compartment",
-      "domain": "www.snitch.com",
-      "storedPrice": 3030,
-      "livePrice": 3499,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.snitch.com/men-luggage/rubik-laptop-grey-hard-travel-suitcase-copy/9272698929314/buy",
-      "deltaPct": 15.5,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-146",
-      "name": "Snitch Blink Cabin Luggage Bag",
-      "domain": "www.snitch.com",
-      "storedPrice": 2140,
-      "livePrice": 2199,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.snitch.com/men-luggage/snitch-blink-silver-hard-travel-suitcase/9273024282786/buy",
-      "deltaPct": 2.8,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-162",
-      "name": "Tommy Hilfiger Freeman Duffle Bag",
-      "domain": "www.nykaafashion.com",
-      "storedPrice": 2212,
-      "livePrice": 2200,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.nykaafashion.com/tommy-hilfiger-unisex-freeman-duffle-bag-navy/p/15966316",
-      "deltaPct": 0.5,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-163",
-      "name": "Tommy Hilfiger Monett-Business Case",
-      "domain": "luxury.tatacliq.com",
-      "storedPrice": 6499,
-      "livePrice": 7148.900000000001,
-      "priceSource": "mrp",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://luxury.tatacliq.com/tommy-hilfiger-navy-unisex-monett-business-case/p-mp000000025220967",
-      "deltaPct": 10.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-227",
-      "name": "Goblin Terra Wallet",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 627,
-      "livePrice": 626.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/terra-wallet",
-      "deltaPct": 0.1,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-230",
-      "name": "Goblin Travel Organiser Kit Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 429,
-      "livePrice": 429.3,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/travel-organiser-kit",
-      "deltaPct": 0.1,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-241",
-      "name": "Goblin Matrix Pro Office Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 1747,
-      "livePrice": 1746.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/office-bag-matrix-pro",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-243",
-      "name": "Goblin Terra Office Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 1628,
-      "livePrice": 1627.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/terra-office-bag-brown",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-246",
-      "name": "Goblin Arcade Duffle Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 1397,
-      "livePrice": 1396.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/arcade-duffle",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-250",
-      "name": "Goblin Terra Duffle Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 2097,
-      "livePrice": 2096.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/wayfare-collection-terra-duffle",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-252",
-      "name": "Goblin Arcade Trolley Duffle Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 2797,
-      "livePrice": 2796.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/arcade-duffle-trolley",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-254",
-      "name": "Goblin Double Decker Trolley Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 4757,
-      "livePrice": 4756.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/double-decker",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-255",
-      "name": "Tommy Hilfiger Joshua Backpack",
-      "domain": "www.nykaafashion.com",
-      "storedPrice": 1853,
-      "livePrice": 2112,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.nykaafashion.com/tommy-hilfiger-black-joshua-laptop-backpack/p/1527879",
-      "deltaPct": 14.0,
-      "action": "applied"
-    },
-    {
-      "id": "bagsLuggageTravel-256",
-      "name": "Goblin Double Decker Gold Duffle Bag",
-      "domain": "www.goblinindia.com",
-      "storedPrice": 3357,
-      "livePrice": 3356.5,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.goblinindia.com/product-page/double-decker-gold",
-      "deltaPct": 0.0,
-      "action": "applied"
-    },
-    {
-      "id": "electronics-25",
-      "name": "Orbit Tiffany Vacuum Cleaner 800 Watt",
-      "domain": "pricee.com",
-      "storedPrice": 2132,
-      "livePrice": 2638.9,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://pricee.com/orbit-tiffany-mini-dry-vacuum-cleaner-53936",
-      "deltaPct": 23.8,
-      "action": "applied"
-    },
-    {
-      "id": "electronics-27",
-      "name": "Artis BT45 Retro BT Speaker",
-      "domain": "www.flipkart.com",
-      "storedPrice": 2210,
-      "livePrice": 2090,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.flipkart.com/artis-bt45-14-w-bluetooth-speaker/p/itmfgswje3bahzps",
-      "deltaPct": 5.4,
-      "action": "applied"
-    },
-    {
-      "id": "electronics-375",
-      "name": "Artis MS301 Wireless Bluetooth Speaker",
-      "domain": "pricehistoryapp.com",
-      "storedPrice": 1611,
-      "livePrice": 1419,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://pricehistoryapp.com/product/artis-ms301-wireless-bluetooth-portable-party-speaker-with-rgb-glow-lights-wired-mic-remote-control-fm-radio-aux-in-usb-tf-card-reader-input-20-w-bluetooth-speaker-black-2-0-channel",
-      "deltaPct": 11.9,
-      "action": "applied"
-    },
-    {
-      "id": "electronics-385",
-      "name": "Noise 3",
-      "domain": "pricehistoryapp.com",
-      "storedPrice": 2008,
-      "livePrice": 1998,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://pricehistoryapp.com/product/noise-three-wireless-on-ear-headphones-with-70h-playtime-40mm-driver-low-latency-up-to-45ms-dual-pairing-bt-v5-3-jet-black",
-      "deltaPct": 0.5,
-      "action": "applied"
-    },
-    {
-      "id": "homeKitchenAppliances-305",
-      "name": "Orbit Rider Steam Iron",
-      "domain": "www.paisawapas.com",
-      "storedPrice": 940,
-      "livePrice": 929.5000000000001,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.paisawapas.com/p-orbit-rider-steam-ironwhite-blue-1015060",
-      "deltaPct": 1.1,
-      "action": "applied"
-    },
-    {
-      "id": "homeKitchenAppliances-324",
-      "name": "Orbit BN 100 Hand Blender",
-      "domain": "www.moglix.com",
-      "storedPrice": 836,
-      "livePrice": 801,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.moglix.com/orbit-300w-white-hand-blender-bn-0100/mp/msn2vow4rzdd37",
-      "deltaPct": 4.2,
-      "action": "applied"
-    },
-    {
-      "id": "homeKitchenAppliances-334",
-      "name": "Orbit Takara Toaster",
-      "domain": "www.paisawapas.com",
+      "id": "bagsLuggageTravel-155",
+      "name": "Tommy Hilfiger Grayling Toiletry Case",
+      "domain": "www.nykaa.com",
       "storedPrice": 1112,
       "livePrice": 1318.9,
       "priceSource": "offers.price (generic -- unverified MRP vs sale)",
       "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.paisawapas.com/p-orbit-takara-sandwich-maker-toastblack-silver-10795196",
+      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-grayling-polyester-toiletry-travel-pouch-black/p/17405645",
       "deltaPct": 18.6,
       "action": "applied"
     },
     {
-      "id": "homeKitchenAppliances-338",
-      "name": "Orbit Elda 2in1 Toaster and Griller Sandwich / Waffle Maker",
-      "domain": "www.pepperfry.com",
-      "storedPrice": 2033,
-      "livePrice": 1980.0000000000002,
+      "id": "bagsLuggageTravel-161",
+      "name": "Tommy Hilfiger Lingon Duffle Bag",
+      "domain": "www.nykaa.com",
+      "storedPrice": 2657,
+      "livePrice": 2638.9,
       "priceSource": "offers.price (generic -- unverified MRP vs sale)",
       "marketplaceMarkupApplied": true,
-      "sourceUrl": "https://www.pepperfry.com/orbit-elda-2-in-1-sandwich-maker-1348669.html",
-      "deltaPct": 2.6,
+      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-lingon-polyester-navy-blue-duffle-bag-with-detachable-strap/p/24483757",
+      "deltaPct": 0.7,
       "action": "applied"
     },
     {
-      "id": "kitchenAppliances-630",
-      "name": "Prestige PIC 6.1 V3 2200 Watts Induction Cooktop (Indian Menu Options, Dual Heat Sensor)",
-      "domain": "shop.ttkprestige.com",
-      "storedPrice": 4930,
-      "livePrice": 5285,
+      "id": "bagsLuggageTravel-291",
+      "name": "Tommy Hilfiger Grenada Laptop Sleeve",
+      "domain": "www.nykaa.com",
+      "storedPrice": 1648,
+      "livePrice": 1925.0000000000002,
       "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://shop.ttkprestige.com/prestige-pic-6-1-v3-2200-watts-indian-menu-options-induction-cooktop.html",
-      "deltaPct": 7.2,
+      "marketplaceMarkupApplied": true,
+      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-grenada-polyester-14-inch-laptop-business-case-black/p/17405635",
+      "deltaPct": 16.8,
+      "action": "applied"
+    },
+    {
+      "id": "bagsLuggageTravel-293",
+      "name": "Tommy Hilfiger Grayling Toiletry Case",
+      "domain": "www.nykaa.com",
+      "storedPrice": 1112,
+      "livePrice": 1318.9,
+      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
+      "marketplaceMarkupApplied": true,
+      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-grayling-polyester-toiletry-travel-pouch-black/p/17405645",
+      "deltaPct": 18.6,
       "action": "applied"
     }
   ],
@@ -497,6 +114,42 @@
       "marketplaceMarkupApplied": false,
       "sourceUrl": "https://www.decathlon.in/p/8857684/ultra-soft-microfibre-towel-size-l-80-x-130-cm-blue",
       "deltaPct": 51.1,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-1",
+      "name": "Power Plus Time Wave Ultra Display Clock",
+      "domain": "powerpl.us",
+      "storedPrice": 1126,
+      "livePrice": 1839,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://powerpl.us/product/timewave-ultra-large-clock-with-bluetooth-speaker-mobile-stand-rgb-lights-mirror-finish-display-fm-tf-card-reader-1200-mah-battery/",
+      "deltaPct": 63.3,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-2",
+      "name": "Power Plus Backlit Table Clock",
+      "domain": "m.indiamart.com",
+      "storedPrice": 366,
+      "livePrice": 495.00000000000006,
+      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
+      "marketplaceMarkupApplied": true,
+      "sourceUrl": "https://m.indiamart.com/proddetail/power-plus-white-flip-display-clock-with-touch-light-size-dimension-7-4-x-13-4-x-7-cm-24552389962.html",
+      "deltaPct": 35.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeDecor-3",
+      "name": "Power Plus Flag Style Photo Frame - Large Clock with Photo Frame and Tumbler",
+      "domain": "powerpl.us",
+      "storedPrice": 299,
+      "livePrice": 499,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://powerpl.us/product/large-clock-with-photo-frame-and-tumbler/",
+      "deltaPct": 66.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -809,6 +462,42 @@
       "marketplaceMarkupApplied": false,
       "sourceUrl": "https://www.decathlon.in/p/8331855/bpa-free-plastic-water-bottle-with-handle-0-75-litre-blue",
       "deltaPct": 76.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-116",
+      "name": "Power Plus Tall Sipper",
+      "domain": "powerpl.us",
+      "storedPrice": 361,
+      "livePrice": 909,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://powerpl.us/product/tall-sipper-mug-304-grade-stainless-steel-inside-capacity-400ml-approx/",
+      "deltaPct": 151.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-118",
+      "name": "Power Plus Lincoln 2 Tone Magic Suction Mug",
+      "domain": "powerpl.us",
+      "storedPrice": 299,
+      "livePrice": 819,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://powerpl.us/product/lincoln-2-tone-magic-suction-mug-with-stainless-inside-leak-proof-bpa-free-capacity-300-ml-approx/",
+      "deltaPct": 173.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-119",
+      "name": "Power Plus Flash - Stainless Steel Coffee Mug",
+      "domain": "powerpl.us",
+      "storedPrice": 299,
+      "livePrice": 609,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://powerpl.us/product/flash-stainless-steel-coffee-mug-4-panel-design-leakproof-capacity-350ml-approx/",
+      "deltaPct": 103.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1148,6 +837,18 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
+      "id": "electronics-219",
+      "name": "RICO Light Weight Dry Iron (Model-AI08)",
+      "domain": "www.dealsmagnet.com",
+      "storedPrice": 667,
+      "livePrice": 929.5000000000001,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": true,
+      "sourceUrl": "https://www.dealsmagnet.com/deal/rico-ai08-1000-watts-dry-iron-easy-gliding-white-18gw18n3",
+      "deltaPct": 39.4,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
       "id": "electronics-222",
       "name": "RICO Immersion Rod (Model-IR1410)",
       "domain": "pricee.com",
@@ -1364,15 +1065,15 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "bagsLuggageTravel-300",
-      "name": "Midnight Blue City Compact Fleet Messenger Bag",
-      "domain": "www.dailyobjects.com",
-      "storedPrice": 4687,
-      "livePrice": 3099,
-      "priceSource": "offers.price (generic -- unverified MRP vs sale)",
-      "marketplaceMarkupApplied": false,
-      "sourceUrl": "https://www.dailyobjects.com/midnight-blue-city-compact-messenger-bag/dp?f=pid~MIDNYT-BLUE-CIT-CMPT-MSG-BAG",
-      "deltaPct": 33.9,
+      "id": "homeKitchenAppliances-593",
+      "name": "Remaxx Vacuum Cleaner",
+      "domain": "www.dealsmagnet.com",
+      "storedPrice": 370,
+      "livePrice": 2528.9,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": true,
+      "sourceUrl": "https://www.dealsmagnet.com/deal/remaxx-mini-portable-desktop-vacuum-cleaner-cordle-18W6XpkW",
+      "deltaPct": 583.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -1566,6 +1267,54 @@
       "sourceUrl": "https://havells.com/lighting/portable-lighting/lts-moderna-plus-3-in-1-lhexbzpncn1r006.html",
       "deltaPct": 80.1,
       "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-806",
+      "name": "Skullcandy Dime 3 True Wireless Earbuds",
+      "domain": "www.skullcandy.in",
+      "storedPrice": 2499,
+      "livePrice": 3999,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://www.skullcandy.in/shop/dime-3-true-wireless-earbuds",
+      "deltaPct": 60.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-809",
+      "name": "Skullcandy Push Play Active True Wireless Earbuds",
+      "domain": "www.skullcandy.in",
+      "storedPrice": 4999,
+      "livePrice": 7999,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://www.skullcandy.in/shop/push-play-active",
+      "deltaPct": 60.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-810",
+      "name": "Skullcandy Riff On-Ear Wired Headphones",
+      "domain": "www.skullcandy.in",
+      "storedPrice": 1999,
+      "livePrice": 2999,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://www.skullcandy.in/shop/riff-on-ear-headphone",
+      "deltaPct": 50.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-812",
+      "name": "Skullcandy Sesh ANC Active True Wireless Earbuds",
+      "domain": "www.skullcandy.in",
+      "storedPrice": 4999,
+      "livePrice": 29999,
+      "priceSource": "mrp",
+      "marketplaceMarkupApplied": false,
+      "sourceUrl": "https://www.skullcandy.in/shop/sesh-anc-active",
+      "deltaPct": 500.1,
+      "action": "flagged (exceeds threshold, not applied)"
     }
   ],
   "unreachable": [
@@ -1574,27 +1323,6 @@
       "name": "RICO Food Processor (Model-FP101)",
       "domain": "www.amazon.in",
       "sourceUrl": "https://www.amazon.in/dp/B0GL8BGQ7S",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "homeDecor-1",
-      "name": "Power Plus Time Wave Ultra Display Clock",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/timewave-ultra-large-clock-with-bluetooth-speaker-mobile-stand-rgb-lights-mirror-finish-display-fm-tf-card-reader-1200-mah-battery/",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "homeDecor-2",
-      "name": "Power Plus Backlit Table Clock",
-      "domain": "m.indiamart.com",
-      "sourceUrl": "https://m.indiamart.com/proddetail/power-plus-white-flip-display-clock-with-touch-light-size-dimension-7-4-x-13-4-x-7-cm-24552389962.html",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "homeDecor-3",
-      "name": "Power Plus Flag Style Photo Frame - Large Clock with Photo Frame and Tumbler",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/large-clock-with-photo-frame-and-tumbler/",
       "error": "no JSON-LD offers.price found"
     },
     {
@@ -1745,13 +1473,6 @@
       "error": "no JSON-LD offers.price found"
     },
     {
-      "id": "apparel-66",
-      "name": "Puma Training Cap",
-      "domain": "www.indiamart.com",
-      "sourceUrl": "https://www.indiamart.com/proddetail/puma-training-cap-2853519597555.html",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "apparel-80",
       "name": "Scott-Denim Shirt",
       "domain": "www.gopaisa.com",
@@ -1770,41 +1491,6 @@
       "name": "Tamta Tura #V008 950ml Bottle",
       "domain": "www.flipkart.com",
       "sourceUrl": "https://www.flipkart.com/tamta-tura-earth-vein-copper-bottle-elegant-gloss-v008-950-ml/p/itmd12487a981fd8",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "drinkware-115",
-      "name": "Power Plus Coffee Mug/ Sipper (Steel)",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/sunset-magic-suction-mug-with-stainless-steel-inside-spill-proof-design-leak-proof-lid-bpa-free-capacity-360-ml-approx/",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "drinkware-116",
-      "name": "Power Plus Tall Sipper",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/tall-sipper-mug-304-grade-stainless-steel-inside-capacity-400ml-approx/",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "drinkware-117",
-      "name": "Power Plus Steel Bottle Flast Hot & Cold",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/heatvault-infuse-900-ml-vacuum-flask-with-infuser-lid-304-steel-inside-outside-18-hours-hot-cold/",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "drinkware-118",
-      "name": "Power Plus Lincoln 2 Tone Magic Suction Mug",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/lincoln-2-tone-magic-suction-mug-with-stainless-inside-leak-proof-bpa-free-capacity-300-ml-approx/",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "drinkware-119",
-      "name": "Power Plus Flash - Stainless Steel Coffee Mug",
-      "domain": "powerpl.us",
-      "sourceUrl": "https://powerpl.us/product/flash-stainless-steel-coffee-mug-4-panel-design-leakproof-capacity-350ml-approx/",
       "error": "no JSON-LD offers.price found"
     },
     {
@@ -1878,25 +1564,11 @@
       "error": "no JSON-LD offers.price found"
     },
     {
-      "id": "bagsLuggageTravel-155",
-      "name": "Tommy Hilfiger Grayling Toiletry Case",
-      "domain": "www.nykaa.com",
-      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-grayling-polyester-toiletry-travel-pouch-black/p/17405645",
-      "error": "got more than 100 headers"
-    },
-    {
       "id": "bagsLuggageTravel-158",
       "name": "Tommy Hilfiger Wyoming Hard Luggage",
       "domain": "www.myntra.com",
       "sourceUrl": "https://www.myntra.com/trolley-bag/tommyhilfiger/tommy-hilfiger-wyoming-hard-luggage-luggage/29981738/buy",
       "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "bagsLuggageTravel-161",
-      "name": "Tommy Hilfiger Lingon Duffle Bag",
-      "domain": "www.nykaa.com",
-      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-lingon-polyester-navy-blue-duffle-bag-with-detachable-strap/p/24483757",
-      "error": "got more than 100 headers"
     },
     {
       "id": "bagsLuggageTravel-233",
@@ -1918,20 +1590,6 @@
       "domain": "www.tatacliq.com",
       "sourceUrl": "https://www.tatacliq.com/tommy-hilfiger-hobart-black-polyester-laptop-messenger-bag/p-mp000000025245264",
       "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "bagsLuggageTravel-291",
-      "name": "Tommy Hilfiger Grenada Laptop Sleeve",
-      "domain": "www.nykaa.com",
-      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-grenada-polyester-14-inch-laptop-business-case-black/p/17405635",
-      "error": "got more than 100 headers"
-    },
-    {
-      "id": "bagsLuggageTravel-293",
-      "name": "Tommy Hilfiger Grayling Toiletry Case",
-      "domain": "www.nykaa.com",
-      "sourceUrl": "https://www.nykaa.com/tommy-hilfiger-unisex-grayling-polyester-toiletry-travel-pouch-black/p/17405645",
-      "error": "got more than 100 headers"
     },
     {
       "id": "electronics-19",
@@ -1994,13 +1652,6 @@
       "name": "RICO Heavy weight Automatic Dry Iron (Model-AI11)",
       "domain": "www.croma.com",
       "sourceUrl": "https://www.croma.com/rico-ai11-1000-watts-dry-iron-gold-plated-dupont-coating-white-ivory-/p/240373",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-219",
-      "name": "RICO Light Weight Dry Iron (Model-AI08)",
-      "domain": "www.dealsmagnet.com",
-      "sourceUrl": "https://www.dealsmagnet.com/deal/rico-ai08-1000-watts-dry-iron-easy-gliding-white-18gw18n3",
       "error": "no JSON-LD offers.price found"
     },
     {
@@ -2253,104 +1904,6 @@
       "name": "Franke Faber Air fryer OTG, FAO 25L 15F BK, Qish",
       "domain": "www.gascare.in",
       "sourceUrl": "https://www.gascare.in/reviews/air-fryer-reviews/faber-air-fryer-oven-25l-fao-15f-bk-review/",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "homeKitchenAppliances-593",
-      "name": "Remaxx Vacuum Cleaner",
-      "domain": "www.dealsmagnet.com",
-      "sourceUrl": "https://www.dealsmagnet.com/deal/remaxx-mini-portable-desktop-vacuum-cleaner-cordle-18W6XpkW",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "bagsLuggageTravel-299",
-      "name": "Ivory - Olive Commute Messenger Bag - Large",
-      "domain": "www.dailyobjects.com",
-      "sourceUrl": "https://www.dailyobjects.com/ivory-olive-commute-messenger-large/dp?f=pid~IVORY-OLIV-CMUTE-MSG-LARGE",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-805",
-      "name": "Skullcandy Crusher Evo Wireless Headphones",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/crusher-evo-wireless-headphone",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-806",
-      "name": "Skullcandy Dime 3 True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/dime-3-true-wireless-earbuds",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-807",
-      "name": "Skullcandy Jib True 2 Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/jib-true-2-true-wireless-earbuds",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-808",
-      "name": "Skullcandy Rail ANC True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/rail-anc-true-wireless-earbuds",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-809",
-      "name": "Skullcandy Push Play Active True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/push-play-active",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-810",
-      "name": "Skullcandy Riff On-Ear Wired Headphones",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/riff-on-ear-headphone",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-811",
-      "name": "Skullcandy Grom Wireless Kids Headphones",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/grom-wireless-kids-headphones",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-812",
-      "name": "Skullcandy Sesh ANC Active True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/sesh-anc-active",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-813",
-      "name": "Skullcandy Dime Evo True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/dime-evo-true-wireless-earbuds",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-814",
-      "name": "Skullcandy Ink'd ANC True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/ink-d-anc",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-815",
-      "name": "Skullcandy Uproar ANC True Wireless Earbuds",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/uproar-anc",
-      "error": "no JSON-LD offers.price found"
-    },
-    {
-      "id": "electronics-816",
-      "name": "Skullcandy Crusher Wireless Headphones",
-      "domain": "www.skullcandy.in",
-      "sourceUrl": "https://www.skullcandy.in/shop/crusher-wireless-headphone",
       "error": "no JSON-LD offers.price found"
     },
     {
