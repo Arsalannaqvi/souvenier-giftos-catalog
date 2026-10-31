@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T09:03:53.915989+00:00",
+  "checkedAt": "2026-10-31T08:45:17.195437+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
-  "candidates": 1488,
-  "unchanged": 1291,
+  "candidates": 1535,
+  "unchanged": 1329,
   "applied": [],
   "flagged": [
     {
@@ -81,6 +81,28 @@
       "liveMrp": 2159,
       "sourceUrl": "https://coconutlife.in/products/8-in-1-dock-a-type-c-multiport-hub",
       "deltaPct": 40.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "coconut-207",
+      "name": "X650 Premium Power Supply (80 Plus Bronze)",
+      "domain": "coconutlife.in",
+      "storedPrice": 6499,
+      "livePrice": 6499,
+      "liveMrp": 3899,
+      "sourceUrl": "https://coconutlife.in/products/x650-true-watt-650w-80-plus-bronze-smps",
+      "deltaPct": 40.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "coconut-194",
+      "name": "HDMI to VGA 2M Cable with Chipset",
+      "domain": "coconutlife.in",
+      "storedPrice": 1049,
+      "livePrice": 1049,
+      "liveMrp": 1499,
+      "sourceUrl": "https://coconutlife.in/products/hdmi-to-vga-with-premium-chipset-2m-cable",
+      "deltaPct": 42.9,
       "action": "flagged (exceeds threshold, not applied)"
     }
   ],
@@ -295,6 +317,17 @@
         1999
       ],
       "sourceUrl": "https://www.solara.in/products/solara-vacuum-insulated-water-bottle"
+    },
+    {
+      "id": "drinkware-200",
+      "name": "House Of Quirk 1200ml",
+      "domain": "www.houseofquirk.com",
+      "variantCount": 20,
+      "variantPrices": [
+        1349,
+        1399
+      ],
+      "sourceUrl": "https://www.houseofquirk.com/products/tumbler-with-handle-simple-flip-straw-car-cup-holder-1200ml"
     },
     {
       "id": "drinkware-201",
@@ -889,8 +922,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1399
+        1099,
+        1299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
     },
@@ -924,8 +957,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        3799,
-        4099
+        3599,
+        3899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
     },
@@ -1538,8 +1571,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1499,
-        1699
+        1399,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -1616,8 +1649,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1299,
-        1499
+        1099,
+        1299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -1649,7 +1682,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1599,
+        1499,
         1699,
         1899
       ],
@@ -1706,8 +1739,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2999,
-        3299
+        2899,
+        3199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -1796,8 +1829,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1399,
-        1549
+        1199,
+        1299,
+        1449
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -1864,8 +1898,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1349
+        1099,
+        1249
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
@@ -1965,8 +1999,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
-        1899,
-        1999
+        1799,
+        1899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer"
     },
@@ -2178,6 +2212,12 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "edible-33",
+      "name": "Loyka Royal Peach Darwaza Box",
+      "domain": "loyka.co",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "apparel-60",
       "name": "Scott Organic Polo T-shirt",
       "domain": "www.globallinker.com",
@@ -2214,6 +2254,42 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "apparel-122",
+      "name": "M&S Plain Polo T-shirt",
+      "domain": "joytreeglobal.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "apparel-131",
+      "name": "M&S Plain Polo T-shirt",
+      "domain": "joytreeglobal.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "apparel-150",
+      "name": "M&S Plain Polo T-shirt",
+      "domain": "joytreeglobal.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-49",
+      "name": "Tamta Tamra #P006  950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-54",
+      "name": "Tamta Tamra #P001 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-73",
+      "name": "Tamta Tatva #H001 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "bagsLuggageTravel-168",
       "name": "Puma Gym duffle Bag",
       "domain": "joytreeglobal.com",
@@ -2224,16 +2300,10 @@
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "id": "coconut-207",
-      "name": "X650 Premium Power Supply (80 Plus Bronze)",
-      "domain": "coconutlife.in",
-      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
-    "noSourceUrl": 790,
-    "nonShopifyOrNonProductUrl": 681
+    "noSourceUrl": 730,
+    "nonShopifyOrNonProductUrl": 694
   }
 }
