@@ -239,6 +239,198 @@ DOMAIN_MRP_PATTERNS = {
     # here. Do not add a domain entry for this until that's done; the
     # generic extractor correctly falls through to "no price found"
     # (reported as unreachable) in the meantime, which is safe.
+
+    # --- Hand-verified 2026-10-31, domain-discovery sweep of the yellow
+    # escalation queue's remaining "no JSON-LD offers.price found" domains ---
+
+    # www.skullcandy.in (12 products): no JSON-LD/microdata at all, but a
+    # consistent server-rendered `<div class="sp-price">` block. Confirmed by
+    # hand on two live pages: electronics-805 (crusher-evo-wireless-headphone,
+    # no active discount) renders ONE price
+    # (`<span><i class="fa fa-rupee"></i>19999</span>`), which exactly matches
+    # this catalog's stored price (19999) -- group 1 below. push-play-active
+    # (NOT one of this catalog's listed examples, checked only to see a
+    # discounted page) renders a SECOND, later number wrapped in `<s>...</s>`
+    # (strikethrough) -- `<span>4999</span><s>7999</s><span
+    # class="discount">(38% OFF)</span>` -- and that strikethrough number,
+    # not the plain span, is the real MRP -- group 2 below, only present when
+    # a discount is active. IMPORTANT: the page's own `<div class="mrp-tx">
+    # <span>MRP(Inclusive of all taxes)</span></div>` directly below sp-price
+    # is generic legal boilerplate that renders unconditionally regardless of
+    # which number (sale or MRP) sp-price is currently showing -- do NOT treat
+    # that text as proof the group-1 span is specifically "the MRP one"; it
+    # is only true by coincidence when no discount is active. Only one
+    # `sp-price` div exists per page (confirmed, not a cross-sell trap).
+    "www.skullcandy.in": re.compile(
+        r'<div class="sp-price"><span>.*?(\d[\d,]*\.?\d*)</span>(?:<s>.*?(\d[\d,]*\.?\d*)</s>)?'
+    ),
+
+    # powerpl.us / www.powerpl.us (7 products, WordPress WPSSO plugin): HAS a
+    # `<script type="application/ld+json">` Product block with a real
+    # `offers` object -- but that Offer carries NO top-level `price` field at
+    # all, only a `priceSpecification` array
+    # (`[{"@type":"UnitPriceSpecification","price":"829.00",...}]`), which is
+    # exactly why the generic `extract_offer_price()` walker (which only
+    # checks `offer.price` / `offer.lowPrice`) reports "no JSON-LD offers.price
+    # found" despite there being real, valid JSON-LD on the page. Confirmed by
+    # hand on two live pages: drinkware-115 (829 -> 829.00) and drinkware-117
+    # (1789 -> 1789.00), both exact matches to this catalog's own stored
+    # price, and both pages have exactly one `priceSpecification` occurrence
+    # (no cross-sell block uses this shape here) with no `<del>`/`<ins>`
+    # WooCommerce discount markup present -- there's no separate sale price
+    # to confuse this with on any page checked.
+    "powerpl.us": re.compile(r'"priceSpecification":\s*\[\s*\{[^}]*?"price":\s*"(\d+(?:\.\d+)?)"'),
+    "www.powerpl.us": re.compile(r'"priceSpecification":\s*\[\s*\{[^}]*?"price":\s*"(\d+(?:\.\d+)?)"'),
+
+    # www.dealsmagnet.com (2 products, already in MARKETPLACE_DOMAINS -- this
+    # only fixes extraction, the +10% markup still applies on top as normal):
+    # no JSON-LD Product/Offer block at all (its one `<script
+    # type="application/ld+json">` is just sitewide WebSite/Organization
+    # schema), but the page's own deal-description prose spells MRP out in
+    # plain English and labels it explicitly: "...available online in India
+    # at an offer price of ₹254 (70% discount from MRP) on Croma.
+    # Discounted Price: ₹254. MRP: 845. Savings: ₹591." Confirmed by
+    # hand on two live pages: electronics-219 ("MRP: 845", vs. stored 667 --
+    # a real ~27% delta, above the 25% auto-apply threshold, so this will be
+    # FLAGGED not auto-applied, which is correct -- a genuine price move or
+    # bad original intake, a human call, not an extraction bug) and
+    # homeKitchenAppliances-593 ("MRP: 2299" vs. stored 370, an even larger
+    # delta, same "flagged not applied" outcome). The literal digits-required
+    # `[\d,]+` in the pattern is deliberate -- some unrelated page sections
+    # also emit a bare "MRP: " with no number (a template placeholder for
+    # other deal cards on the same page); requiring at least one digit skips
+    # those automatically rather than matching the first (empty) occurrence.
+    "www.dealsmagnet.com": re.compile(r"MRP:\s*([\d,]+)"),
+
+    # www.dailyobjects.com (1 product): no JSON-LD Product/Offer (its one
+    # `<script type="application/ld+json">` is just a BreadcrumbList), but an
+    # embedded page-state JS object explicitly tags both numbers:
+    # `"price":{"text":"₹3499"},"mrp":{"text":"₹6093",...}`, next to
+    # `"priceDescription":{"text":"MRP Inclusive of all taxes"}` -- an
+    # unambiguous "mrp" key, not a CSS-class guess. Confirmed against
+    # bagsLuggageTravel-299 (stored 6093, matches "mrp" exactly, not "price"
+    # 3499). CAUTION, confirmed by hand: this exact page also renders several
+    # OTHER products' "mrp" fields later in the same script block (a
+    # "recommended for you" carousel) -- e.g. this page also has "mrp":
+    # 1405/1499/1874/1999/2499/999 blocks further down. The pattern below
+    # relies on `.search()` returning the FIRST match, and confirmed (by
+    # checking each match's byte offset) that the page's own product is
+    # always the first "mrp" key to appear, immediately preceded by a
+    # "subtitle" matching the URL's own product-id slug -- the carousel's
+    # entries all come later in the document. Only verified on this one
+    # product/page; if a future dailyobjects.com product ever turns up with
+    # the wrong number, re-check this ordering assumption before trusting it
+    # blindly on a new product.
+    "www.dailyobjects.com": re.compile(r'"mrp":\{"text":"₹([\d,]+)"'),
+
+    # www.amazon.ae (1 product, apparel-37): unlike www.amazon.in (see "Known
+    # gaps" below -- blocked outright, both plain fetch AND one Apify
+    # rag-web-browser attempt served the same "click the button below to
+    # continue shopping" bot-block page), a plain fetch of this specific
+    # amazon.ae product page was NOT blocked and returned the real,
+    # full product page (no JSON-LD on it, but Amazon's own embedded pricing
+    # JSON is). `"priceAmount":86.00` appears exactly once on the page
+    # (the "priceToPay" price block), and no separate "basisPrice"/List-Price
+    # markup renders on this page (no active discount), so this is the full
+    # price, not a sale price hidden alongside a bigger MRP. CAUTION: this
+    # catalog's own stored price for apparel-37 is 604 -- not a plausible
+    # AED-to-INR conversion of 86 at any real-world rate (604/86 =~ 7.02,
+    # while the real AED->INR rate is roughly 22-23). Checked
+    # product-price-log.json's existing Tier C entry for this product
+    # BEFORE assuming that's a new currency bug: 604 was never derived from
+    # this amazon.ae listing at all -- this exact listing was "Currently
+    # unavailable" during the original Tier C pilot (2026-10-20), so 604
+    # came from a same-SKU-family amazon.in sponsored ad in a different
+    # size instead. The two numbers were never expected to reconcile; this
+    # is a pre-existing "which size/source is the right one" open question
+    # from that Tier C entry, not a new extraction bug. Logged as an
+    # updated recheck-online event rather than silently reconciled; this
+    # delta will also show up FLAGGED in this script's own report, which is
+    # the correct, safe outcome either way. Amazon's own bot-defense is
+    # known to be inconsistent run-to-run (see the amazon.in note below) --
+    # a future run hitting this same product could still get blocked even
+    # though this one didn't; that's expected, not a regression.
+    "www.amazon.ae": re.compile(r'"priceAmount":([\d.]+)'),
+
+    # www.mi.com AND store.mi.com (8 products combined): TRIED and REJECTED
+    # 2026-10-31. Both domains serve the EXACT same generic React/Redux SPA
+    # shell regardless of item ID in the URL -- confirmed on
+    # bagsLuggageTravel-377 (mi.com/in/item/3201100017/) and electronics-818
+    # (store.mi.com/in/item/3194500001): both responses carry an identical,
+    # item-agnostic `window.__PRELOADED_STATE__` (`"pagedata":{...,
+    # "product_list":null,"group_list":null,"data":null}`, generic title
+    # "Item - Mi Xiaomi India", canonical/og:url collapsed to the bare
+    # "https://www.mi.com/in/item/" with no id). The real per-product data is
+    # fetched client-side via an API call after JS executes -- there is
+    # nothing server-rendered to regex, not even an obfuscated one. Needs a
+    # genuine browser-rendered fetch (Apify) to get real data, which this
+    # per-domain sweep intentionally did not spend on a non-Amazon domain
+    # (see task method: only Amazon gets an Apify attempt at this cost tier).
+    # Do not add a domain entry until that's actually tried and verified.
+
+    # www.ferrerorocher.com (6 products): TRIED and REJECTED 2026-10-31. This
+    # is Ferrero's own brand/marketing site, not a retailer -- confirmed on
+    # edible-49 (pack-32-pieces): its only JSON-LD is a BreadcrumbList plus an
+    # unrelated Recipe schema (a cupcake recipe using the product as an
+    # ingredient), and there is no currency symbol, no "price"/"MRP" text,
+    # and no `itemprop="price"` anywhere on the page at all -- just a generic
+    # "Buy Now" icon/button with no visible destination URL in the static
+    # HTML (presumably a JS-driven retailer-picker modal). A genuine
+    # structural dead end, not a missing pattern -- there is no price on this
+    # page to extract by any method short of following wherever "Buy Now"
+    # goes, which is Tier C work (a different retailer URL per product), not
+    # a Tier B extractor fix.
+
+    # www.hunarsetu.com (3 products): TRIED and REJECTED 2026-10-31. Pure
+    # client-rendered Vue 3 SPA ("mystore" platform) -- confirmed on
+    # homeKitchenAppliances-316 (orbit-bullet-mixer-grinder...): the entire
+    # server-rendered response is `<div id="body"></div>`, completely empty,
+    # with only `<script>` tags loading Vue/Vue Router/axios and the store's
+    # own JS bundles. No JSON-LD, no microdata, no embedded page-state object
+    # of any kind -- genuinely nothing server-rendered to read, same category
+    # as Flipkart/Croma, confirmed the same way (reading the actual response
+    # body, not assuming from a bot-block status code; this one was a clean
+    # HTTP 200, just an empty shell).
+
+    # www.gopaisa.com (1 product, apparel-80): TRIED and REJECTED 2026-10-31.
+    # A React SPA with a real `window.__PRELOADED_STATE__` object (unlike
+    # hunarsetu's empty shell) -- but for this specific deal-page URL, that
+    # state is the generic homepage/navigation shell
+    # (`"seoData":null,"homeData":{}`, empty `retailerReducer`/
+    # `categoryReducer`, only sitewide nav menu data) with no deal-specific
+    # price data server-rendered at all. The only JSON-LD on the page is
+    # sitewide WebSite/Organization schema. The actual deal content (price,
+    # MRP, savings) is fetched client-side after the initial page load, same
+    # failure mode as mi.com above -- confirmed by reading the full decoded
+    # state object, not assumed from an empty-looking page.
+
+    # www.tatacliq.com (NOT luxury.tatacliq.com -- that one already has its
+    # own pattern above) (1 product, bagsLuggageTravel-290): RE-CONFIRMED
+    # 2026-10-31, matches this script's own top-of-file docstring note
+    # ("plain tatacliq.com (non-luxury): empty React shell via both methods,
+    # no data to extract either way"). Checked by hand on the actual example
+    # product (tommy-hilfiger-hobart.../p-mp000000025245264): the response is
+    # a 14KB React app shell whose only JSON-LD is sitewide WebSite/
+    # Organization schema, and the product ID from the URL
+    # ("mp000000025245264") does not appear anywhere in the response body at
+    # all. No change needed -- already correctly documented, this just
+    # re-verifies it's still true rather than silently assuming so.
+
+    # www.amazon.in (4 products): TRIED and REJECTED 2026-10-31, the SAME
+    # outcome via BOTH methods this task's method calls for trying on Amazon
+    # specifically. Plain fetch (apparel-33,
+    # Adidas-Mens-Cap-IL6983_Black-White/dp/B0BVRBWBGQ): served Amazon's
+    # "Click the button below to continue shopping" bot-interstitial, not the
+    # real product page. ONE Apify `rag-web-browser` call at the same URL
+    # (per the task's "don't burn more than one attempt" instruction):
+    # SUCCEEDED as an Apify run, but the content it actually scraped was the
+    # exact same "Click the button below to continue shopping" interstitial
+    # -- confirming the block isn't a plain-urllib-specific fingerprint, it's
+    # IP/fleet-level bot defense that caught Apify's browser too this time.
+    # Same disposition as myntra.com: not viably scrapable right now by
+    # either route tried. (Contrast with www.amazon.ae above, which was NOT
+    # blocked on its one example product -- Amazon's bot-defense is evidently
+    # inconsistent across domains/requests, not a blanket rule.)
 }
 
 RETRYABLE_HTTP_STATUS = {429, 502, 503}
@@ -368,8 +560,17 @@ def main():
         if mrp_pattern is not None:
             m = mrp_pattern.search(html)
             if m:
-                raw_price = m.group(1)
-                used_mrp_extractor = True
+                # Some domain patterns need >1 capturing group (skullcandy.in:
+                # group 1 is the single on-page price when there's no active
+                # discount, group 2 is the real strikethrough MRP that only
+                # appears when there IS a discount -- see the comment by that
+                # pattern below). Take the LAST group that actually matched,
+                # not always group(1), so a pattern can write its fallback
+                # group first and its more-specific MRP-override group after.
+                # Every pre-existing single-group pattern is unaffected: with
+                # one group, "last non-None" and "group(1)" are the same thing.
+                raw_price = next((g for g in reversed(m.groups()) if g is not None), None)
+                used_mrp_extractor = raw_price is not None
         if raw_price is None:
             raw_price = extract_offer_price(html)
         if raw_price is None:

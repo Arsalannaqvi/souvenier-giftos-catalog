@@ -323,6 +323,98 @@ Re-verified Oct 2026 with both methods, domain by domain:
   plain `offers.price`).
 - **pricebefore.com, offikraft.in** (OpenCart) — need the microdata
   fallback, no `<script type="application/ld+json">` block at all.
+- **2026-10-31 domain-discovery sweep** (the yellow-queue's remaining
+  "no JSON-LD offers.price found" domains, priority-ordered by affected
+  product count — full reasoning and hand-verification notes are in the
+  script's own `DOMAIN_MRP_PATTERNS` comment blocks, this is the
+  summary):
+  - **www.skullcandy.in** (12 products) — fixed. No JSON-LD at all, but
+    a consistent `<div class="sp-price">` block: one `<span>` price
+    always, plus an optional `<s>...</s>` strikethrough MRP that only
+    renders when a discount is active. The page's "MRP(Inclusive of all
+    taxes)" text is generic legal boilerplate, NOT a reliable per-item
+    label of which number is MRP — it renders unconditionally whether
+    or not a discount is showing. Confirmed: no-discount page
+    (crusher-evo) → the single span matches stored price exactly;
+    discounted page (push-play-active, not a catalog example, checked
+    only to see the discount case) → the `<s>` strikethrough is the
+    real MRP, not the plain span (which is the sale price).
+  - **powerpl.us / www.powerpl.us** (7 products) — fixed. HAS JSON-LD
+    with a real `offers` object, but the generic extractor still missed
+    it: the price lives in `offers.priceSpecification[0].price`, not
+    `offers.price`/`offers.lowPrice` (the only two shapes the generic
+    walker checks). No separate sale price on any page checked.
+  - **www.dealsmagnet.com** (2 products, already in
+    `MARKETPLACE_DOMAINS`) — fixed. No Product JSON-LD at all, but the
+    page's own deal-description prose spells it out in plain English:
+    "Discounted Price: ₹254. MRP: 845. Savings: ₹591." A bare `MRP: `
+    with no digits also appears elsewhere on the page as a template
+    placeholder — the pattern requires at least one digit so it can't
+    match that empty occurrence.
+  - **www.dailyobjects.com** (1 product) — fixed. No Product JSON-LD,
+    but an embedded page-state object explicitly tags
+    `"price":{"text":"₹3499"},"mrp":{"text":"₹6093"}` — an unambiguous
+    "mrp" key. CAUTION: the same page also renders several *other*
+    products' "mrp" fields further down (a recommendation carousel) —
+    confirmed by byte offset that the page's own product is always the
+    first "mrp" occurrence, immediately after a "subtitle" matching the
+    URL's own product slug, with the carousel entries all appearing
+    later. Only verified on this one product/page.
+  - **www.amazon.ae** (1 product, apparel-37) — fixed. Not blocked by a
+    plain fetch (unlike amazon.in, see below) — Amazon's own
+    `"priceAmount":86.00` JSON appears once on the page, no active
+    discount. CAUTION: this catalog's stored price (604) is not a
+    plausible AED→INR conversion of 86 at any real rate — but checking
+    the EXISTING Tier C entry for this product in
+    `product-price-log.json` before assuming a new currency bug showed
+    604 was never derived from this amazon.ae listing at all: it's a
+    same-SKU-family amazon.in price in a different size, logged back
+    in 2026-10-20 because this exact amazon.ae listing was "Currently
+    unavailable" at the time. Pre-existing "which size/source is
+    right" question, not a new extraction bug; will still surface as a
+    large flagged delta in the script's own report either way. Amazon's
+    bot-defense is inconsistent run-to-run (see amazon.in immediately
+    below, same domain family, opposite outcome) — don't assume this
+    stays unblocked forever.
+  - **www.mi.com + store.mi.com** (8 products combined) — dead end,
+    TRIED and REJECTED. Both domains serve an identical, item-ID-
+    agnostic React/Redux SPA shell (`window.__PRELOADED_STATE__` with
+    `"product_list":null,"group_list":null,"data":null"` regardless of
+    which item URL is requested) — the real product data loads via a
+    client-side API call after JS executes. Nothing server-rendered to
+    regex. Not escalated to Apify per this task's cost-control rule
+    (only Amazon gets an Apify attempt at this price point).
+  - **www.ferrerorocher.com** (6 products) — dead end, TRIED and
+    REJECTED. The brand's own marketing site, not a retailer — its only
+    JSON-LD is a BreadcrumbList plus an unrelated Recipe schema; zero
+    currency symbols, zero price/MRP text anywhere on the page. A real
+    structural dead end (no price exists on this page to extract), not
+    a missing pattern — the actual retailer is behind a JS-driven "Buy
+    Now" picker with no static destination URL.
+  - **www.hunarsetu.com** (3 products) — dead end, TRIED and REJECTED.
+    Pure client-rendered Vue 3 SPA — the entire server response is a
+    literal empty `<div id="body"></div>`, no JSON-LD/microdata/embedded
+    state of any kind. Same category as Flipkart/Croma, confirmed by
+    reading the actual (HTTP 200) response body, not inferred from a
+    block.
+  - **www.gopaisa.com** (1 product, apparel-80) — dead end, TRIED and
+    REJECTED. Has a real `window.__PRELOADED_STATE__` (unlike
+    hunarsetu), but for a deal-page URL it's the generic homepage/nav
+    shell with no deal-specific data — the actual deal content loads
+    client-side after the page loads. Same failure mode as mi.com.
+  - **www.tatacliq.com** (non-luxury, 1 product) — re-confirmed, no
+    change needed. Matches this file's own earlier note below almost
+    word for word: empty React shell, product ID from the URL doesn't
+    appear anywhere in the response at all.
+  - **www.amazon.in** (4 products) — dead end, TRIED and REJECTED via
+    BOTH methods this task calls for on Amazon specifically: a plain
+    fetch got the "Click the button below to continue shopping"
+    bot-interstitial, and ONE Apify `rag-web-browser` call at the same
+    URL got the *exact same* interstitial back (Apify's run itself
+    "succeeded" — it just successfully scraped the block page). Same
+    disposition as myntra.com. Notably the OPPOSITE outcome from
+    amazon.ae above on the same site family — Amazon's bot-defense is
+    evidently inconsistent per-domain/per-request, not a blanket rule.
 
 ### Marketplace markup rule
 
@@ -340,14 +432,26 @@ price being hand-applied once, not this script's automated markup).
 ### Known gaps (Tier B)
 
 - 🔴 The generic script's fix is only hand-verified for decathlon.in,
-  havells.com, and luxury.tatacliq.com. The other ~190 catalog-wide
-  Tier B candidates across ~30 domains (ttkprestige, wayona, marshall,
-  samsonite, mi.com, puma, ferrerorocher, etc.) have NOT been checked
-  for the same MRP-vs-sale split — don't assume any of them are safe to
-  bulk-apply without checking by hand first. This domain-by-domain
-  discovery work is exactly the 🔴 "pricey" Tier B item in the cost
-  ladder above — batch it into the Saturday schedule rather than doing
-  it piecemeal mid-week.
+  havells.com, luxury.tatacliq.com, offikraft.in, wayona.in,
+  skullcandy.in, powerpl.us, dealsmagnet.com, dailyobjects.com, and
+  amazon.ae (see the domain-discovery sweep above for the last 5,
+  2026-10-31). The remaining catalog-wide Tier B candidates across the
+  rest of its ~30 domains (ttkprestige, marshall, samsonite, puma, etc.)
+  have NOT been checked for the same MRP-vs-sale split — don't assume
+  any of them are safe to bulk-apply without checking by hand first.
+  This domain-by-domain discovery work is exactly the 🔴 "pricey" Tier B
+  item in the cost ladder above — batch it into the Saturday schedule
+  rather than doing it piecemeal mid-week.
+- mi.com, store.mi.com, ferrerorocher.com, hunarsetu.com, gopaisa.com,
+  and amazon.in (non-.ae) are confirmed genuine dead ends as of
+  2026-10-31 (client-rendered with no server-side data, a
+  non-storefront marketing site, or Amazon bot-defense) — see the
+  domain-discovery sweep above and the matching comment blocks in
+  `check_live_prices_tier_b_jsonld.py`. mi.com/store.mi.com and
+  gopaisa.com specifically would need an Apify browser-rendered fetch
+  (not tried, deliberately, per this task's cost control for non-Amazon
+  domains) to go any further — that's a 🟡/🔴 decision for a future
+  session, not a re-investigation of what was already found here.
 - Not wired into the daily cron — every run so far has been manual/
   on-demand, scoped to specific domains, never the full catalog-wide
   288 candidates in one go. Don't wire the FULL generic script into the

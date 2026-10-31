@@ -108,18 +108,21 @@
   "apparel-37": {
     "batch": "tier-c-pilot-1",
     "brand": "Scott International",
-    "caveats": "KNOWN CAVEAT: price (604) is a same-SKU-family proxy from a different size, not the exact listing (which was 'Currently unavailable'). Applied anyway per owner's 'rest of them just update it' directive -- worth a fresh check if this product looks off.",
+    "caveats": "RESOLVES the earlier 'mismatch' concern raised when first fixing this domain: live AED86.00 doesn't convert to the stored 604 at any real AED->INR rate (604/86 ~7.02 vs real ~22-23) -- but per this entry's existing caveat, 604 was NEVER derived from this amazon.ae AED listing in the first place; it came from a same-SKU-family amazon.in sponsored ad in a different size (this exact amazon.ae listing was 'Currently unavailable' during the original Tier C pilot). So the two numbers were never expected to reconcile -- not a new data problem, just two different source prices for the same SKU family, as already documented above. This domain's extraction now works; whether 604 (INR, different size) or ~86 AED x conversion is the 'right' number to store remains the pre-existing open question from the Tier C entry above, not something this Tier B fix resolves.",
     "confidence": "medium",
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-31",
     "markupApplied": "none",
-    "method": "Web search -> Amazon.ae listing matched by manufacturer ref 1.1_sshz8; India price taken from a sponsored ad for the same SKU family on amazon.in (different size).",
+    "method": "Tier B DOMAIN_MRP_PATTERNS discovery (2026-10-31): plain fetch of this exact amazon.ae URL was NOT blocked this time (contrast with amazon.in, confirmed blocked on this same sweep) and returned a real page. Amazon's own embedded priceAmount:86.00 JSON (AED) appears once, no active discount -- added a DOMAIN_MRP_PATTERNS entry (www.amazon.ae) so future Tier B runs extract this automatically.",
     "name": "Scott 400/ Hoodie with Zip",
-    "priceBasis": "sale-price-flagged",
+    "priceBasis": "n/a",
     "sourceUrl": "https://www.amazon.ae/Scott-International-Regular-Sweatshirt-1-1_sshz8_S/dp/B012GCK9CS",
     "tier": "C",
     "verification": "image-confirmed (black hoodie, kangaroo pocket, drawcord)",
     "sourceType": "online",
-    "pdfName": null
+    "pdfName": null,
+    "history": [
+      "2026-10-31 checked online (was online) via https://www.amazon.ae/Scott-International-Regular-Sweatshirt-1-1_sshz8_S/dp/B012GCK9CS -- method: Tier B DOMAIN_MRP_PATTERNS discovery (2026-10-31): plain fetch of this exact amazon.ae URL was NOT blocked this time (contrast with amazon.in, confirmed blocked on this same sweep) and returned a real page. Amazon's own embedded priceAmount:86.00 JSON (AED) appears once, no active discount -- added a DOMAIN_MRP_PATTERNS entry (www.amazon.ae) so future Tier B runs extract this automatically. -- RESOLVES the earlier 'mismatch' concern raised when first fixing this domain: live AED86.00 doesn't convert to the stored 604 at any real AED->INR rate (604/86 ~7.02 vs real ~22-23) -- but per this entry's existing caveat, 604 was NEVER derived from this amazon.ae AED listing in the first place; it came from a same-SKU-family amazon.in sponsored ad in a different size (this exact amazon.ae listing was 'Currently unavailable' during the original Tier C pilot). So the two numbers were never expected to reconcile -- not a new data problem, just two different source prices for the same SKU family, as already documented above. This domain's extraction now works; whether 604 (INR, different size) or ~86 AED x conversion is the 'right' number to store remains the pre-existing open question from the Tier C entry above, not something this Tier B fix resolves."
+    ]
   },
   "apparel-65": {
     "batch": "tier-c-pilot-1",
@@ -5124,15 +5127,16 @@
     "sourceType": "online",
     "pdfName": null,
     "sourceUrl": "https://powerpl.us/product/sunset-magic-suction-mug-with-stainless-steel-inside-spill-proof-design-leak-proof-lid-bpa-free-capacity-360-ml-approx/",
-    "method": "Tier C batch (2026-10-30, 956-no-sourceUrl pass, long-tail wave, direct research not subagent): exact SKU match (H280 printed on our stored sell-sheet matches live SKU H280); genuine Power Plus branding visible on both",
+    "method": "Tier B DOMAIN_MRP_PATTERNS discovery (2026-10-31): confirmed the same price (829) via a different, now-automated field -- JSON-LD offers.priceSpecification[0].price (829.00), not offers.price/lowPrice which the generic extractor checks and which this page doesn't populate. Added a powerpl.us DOMAIN_MRP_PATTERNS entry so future Tier B runs extract this automatically without needing a fresh Tier C search.",
     "priceAtEntry": 829.0,
     "priceBasis": "mrp",
     "markupApplied": "none",
     "confidence": "high",
-    "caveats": null,
-    "lastUpdated": "2026-10-30",
+    "caveats": "Also confirmed the same JSON-LD field on drinkware-117 (1789 exact match) to rule out coincidence.",
+    "lastUpdated": "2026-10-31",
     "history": [
-      "2026-10-30 added (source: online)"
+      "2026-10-30 added (source: online)",
+      "2026-10-31 checked online (was online) via https://powerpl.us/product/sunset-magic-suction-mug-with-stainless-steel-inside-spill-proof-design-leak-proof-lid-bpa-free-capacity-360-ml-approx/ -- method: Tier B DOMAIN_MRP_PATTERNS discovery (2026-10-31): confirmed the same price (829) via a different, now-automated field -- JSON-LD offers.priceSpecification[0].price (829.00), not offers.price/lowPrice which the generic extractor checks and which this page doesn't populate. Added a powerpl.us DOMAIN_MRP_PATTERNS entry so future Tier B runs extract this automatically without needing a fresh Tier C search. -- Also confirmed the same JSON-LD field on drinkware-117 (1789 exact match) to rule out coincidence."
     ]
   },
   "drinkware-117": {
@@ -5277,6 +5281,60 @@
     "lastUpdated": "2026-10-30",
     "history": [
       "2026-10-30 added (source: online)"
+    ]
+  },
+  "electronics-805": {
+    "name": "Skullcandy Crusher Evo Wireless Headphones",
+    "brand": "Skullcandy",
+    "tier": "B",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.skullcandy.in/shop/crusher-evo-wireless-headphone",
+    "method": "Hand-verified live page structure to resolve Tier B 'no JSON-LD offers.price found': no JSON-LD/microdata on skullcandy.in at all, but a consistent <div class=\"sp-price\"> block. This product has no active discount, so the single on-page price (19999) is the full MRP, exact match to stored price. Confirmed by also checking a discounted skullcandy.in product (push-play-active, not in catalog) where the real MRP is a separate <s> strikethrough value, not the plain span -- added as a DOMAIN_MRP_PATTERNS entry so future runs extract this automatically.",
+    "priceAtEntry": 19999.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "high",
+    "caveats": "Page's own 'MRP(Inclusive of all taxes)' text is generic boilerplate, not a reliable per-item label of which number is MRP -- only coincidentally true here because no discount is active.",
+    "lastUpdated": "2026-10-31",
+    "history": [
+      "2026-10-31 added (source: online)"
+    ]
+  },
+  "electronics-219": {
+    "name": "RICO Light Weight Dry Iron (Model-AI08)",
+    "brand": "RICO",
+    "tier": "B",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.dealsmagnet.com/deal/rico-ai08-1000-watts-dry-iron-easy-gliding-white-18gw18n3",
+    "method": "Hand-verified to resolve Tier B 'no JSON-LD offers.price found': dealsmagnet.com has no Product JSON-LD, but its own deal-description prose spells out 'Discounted Price: Rs254. MRP: 845. Savings: Rs591.' explicitly. Added a DOMAIN_MRP_PATTERNS entry (MRP:\\s*([\\d,]+)) so future runs extract this automatically; dealsmagnet.com is already in MARKETPLACE_DOMAINS so the +10% markup still applies on top as normal.",
+    "priceAtEntry": 667.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "Live MRP (845) vs this catalog's stored price (667) is a ~27% delta, above the 25% auto-apply threshold -- will be FLAGGED by the script, not auto-applied. Real price move vs. a bad original intake price is a human call, not resolved here.",
+    "lastUpdated": "2026-10-31",
+    "history": [
+      "2026-10-31 added (source: online)"
+    ]
+  },
+  "bagsLuggageTravel-299": {
+    "name": "Ivory - Olive Commute Messenger Bag - Large",
+    "brand": "DailyObjects",
+    "tier": "B",
+    "sourceType": "online",
+    "pdfName": null,
+    "sourceUrl": "https://www.dailyobjects.com/ivory-olive-commute-messenger-large/dp?f=pid~IVORY-OLIV-CMUTE-MSG-LARGE",
+    "method": "Hand-verified to resolve Tier B 'no JSON-LD offers.price found': no Product JSON-LD, but an embedded page-state object explicitly tags both numbers (\"price\":{\"text\":\"Rs3499\"},\"mrp\":{\"text\":\"Rs6093\"}) next to \"MRP Inclusive of all taxes\". 6093 is an exact match to stored price. Added a DOMAIN_MRP_PATTERNS entry (www.dailyobjects.com) so future runs extract this automatically.",
+    "priceAtEntry": 6093.0,
+    "priceBasis": "mrp",
+    "markupApplied": "none",
+    "confidence": "medium",
+    "caveats": "Page also renders several OTHER products' 'mrp' fields further down (a recommendation carousel) -- confirmed by byte offset that this product's own mrp is always the FIRST occurrence (subtitle matches the URL's product slug), carousel entries all come later. Only verified on this one product/page; re-check the ordering assumption before trusting blindly on a second dailyobjects.com product.",
+    "lastUpdated": "2026-10-31",
+    "history": [
+      "2026-10-31 added (source: online)"
     ]
   }
 }
