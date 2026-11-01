@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T08:45:17.195437+00:00",
+  "checkedAt": "2026-11-01T09:36:18.984201+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1329,
+  "unchanged": 1328,
   "applied": [],
   "flagged": [
     {
@@ -922,8 +922,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1099,
-        1299
+        1199,
+        1399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
     },
@@ -957,8 +957,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        3599,
-        3899
+        3799,
+        4099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
     },
@@ -1274,7 +1274,11 @@
         1508,
         1599,
         1608,
-        1999
+        1609,
+        1799,
+        1809,
+        1999,
+        2199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds"
     },
@@ -1408,8 +1412,6 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 10,
       "variantPrices": [
-        799,
-        808,
         899,
         908,
         999,
@@ -1571,8 +1573,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1399,
-        1599
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -1649,8 +1651,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1099,
-        1299
+        1299,
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -1682,7 +1684,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1499,
+        1599,
         1699,
         1899
       ],
@@ -1739,8 +1741,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2899,
-        3199
+        2999,
+        3299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -1829,9 +1831,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1199,
-        1299,
-        1449
+        1399,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -1898,8 +1899,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1099,
-        1249
+        1199,
+        1349
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
@@ -2005,12 +2006,23 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer"
     },
     {
+      "id": "electronics-752",
+      "name": "boAt Slazer S100",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        749,
+        799
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-s100-trimmer"
+    },
+    {
       "id": "apparel-155",
       "name": "Campus Promote",
       "domain": "www.campusshoes.com",
       "variantCount": 7,
       "variantPrices": [
-        1559,
+        1549,
         1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/promote-m-blu-golden-mens-sports-shoes"
