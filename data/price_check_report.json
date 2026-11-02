@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-01T09:36:18.984201+00:00",
+  "checkedAt": "2026-11-02T09:50:56.060684+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1328,
+  "unchanged": 1329,
   "applied": [],
   "flagged": [
     {
@@ -550,8 +550,8 @@
       "domain": "www.solara.in",
       "variantCount": 2,
       "variantPrices": [
-        1149,
-        2899
+        1299,
+        2999
       ],
       "sourceUrl": "https://www.solara.in/products/cast-iron-paniyaram"
     },
@@ -922,8 +922,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1399
+        1399,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
     },
@@ -958,7 +958,7 @@
       "variantCount": 5,
       "variantPrices": [
         3799,
-        4099
+        4299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
     },
@@ -968,8 +968,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        5899,
-        6399
+        6399,
+        6899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-valour-watch-1-gps-smartwatch-with-inbuilt-gps"
     },
@@ -1562,8 +1562,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1799,
-        2099
+        2099,
+        2399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-ultima-ember-2"
     },
@@ -1573,8 +1573,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1499,
-        1699
+        1599,
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -1584,8 +1584,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1399,
-        1599
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wave-sigma-3-curv"
     },
@@ -1618,7 +1618,8 @@
       "variantCount": 4,
       "variantPrices": [
         4799,
-        5299
+        5299,
+        6999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-ivory-amoled-display-smartwatch"
     },
@@ -1651,8 +1652,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1299,
-        1499
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -1673,8 +1674,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        3499,
-        3999
+        3799,
+        4299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-endeavour-amoled-display-smartwatch"
     },
@@ -1684,7 +1685,6 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1599,
         1699,
         1899
       ],
@@ -1741,8 +1741,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2999,
-        3299
+        3299,
+        3599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -1810,7 +1810,7 @@
       "variantPrices": [
         999,
         1399,
-        1549
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-2-plus-bluetooth-calling-smartwatch"
     },
@@ -1821,7 +1821,8 @@
       "variantCount": 6,
       "variantPrices": [
         1899,
-        2099
+        2899,
+        3199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch"
     },
@@ -1831,8 +1832,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1399,
-        1549
+        1599,
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -1866,8 +1867,8 @@
       "variantPrices": [
         1299,
         1399,
-        1499,
-        1549
+        1549,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call3-plus-smartwatch"
     },
@@ -1899,8 +1900,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1349
+        1399,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
@@ -2000,21 +2001,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
-        1799,
-        1899
+        1899,
+        1999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-k100-plus-trimmer"
-    },
-    {
-      "id": "electronics-752",
-      "name": "boAt Slazer S100",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        749,
-        799
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-slazer-s100-trimmer"
     },
     {
       "id": "apparel-155",
