@@ -1,22 +1,11 @@
 {
-  "checkedAt": "2026-11-02T09:50:56.060684+00:00",
+  "checkedAt": "2026-11-03T10:03:12.196679+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1329,
+  "unchanged": 1322,
   "applied": [],
   "flagged": [
-    {
-      "id": "electronics-338",
-      "name": "Xech Mini Chef Electronic Multi Cooker",
-      "domain": "xech.com",
-      "storedPrice": 1526,
-      "livePrice": 1999,
-      "liveMrp": 4299,
-      "sourceUrl": "https://xech.com/products/multipurpose-kettle-with-steamer-mini-chef",
-      "deltaPct": 181.7,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
     {
       "id": "homeKitchenAppliances-48",
       "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner",
@@ -472,7 +461,7 @@
       "variantCount": 2,
       "variantPrices": [
         2199,
-        7999
+        8999
       ],
       "sourceUrl": "https://www.solara.in/products/blendkwik-portable-blender-pro"
     },
@@ -617,17 +606,6 @@
         13499
       ],
       "sourceUrl": "https://www.solara.in/products/cold-press-juicer"
-    },
-    {
-      "id": "electronics-405",
-      "name": "boAt Stone 350",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1299,
-        1399
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
     },
     {
       "id": "electronics-406",
@@ -2298,10 +2276,64 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "electronics-119",
+      "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-120",
+      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-121",
+      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-338",
+      "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-339",
+      "name": "Xech Hydroboil Pro Portable Electric Kettle",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "homeKitchenAppliances-486",
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "electronics-469",
+      "name": "boAt Aavante Bar Joy",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-471",
+      "name": "boAt Stone 900",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-73",
+      "name": "27HDX LED Monitor",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-74",
+      "name": "Walton Soundbar with Woofer 160W",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "outOfScope": {
