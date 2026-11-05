@@ -1,11 +1,33 @@
 {
-  "checkedAt": "2026-11-04T09:50:08.613826+00:00",
+  "checkedAt": "2026-11-05T09:57:11.334642+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1324,
+  "unchanged": 1322,
   "applied": [],
   "flagged": [
+    {
+      "id": "drinkware-124",
+      "name": "TintBox Glass Sipper 1ltr Bottle",
+      "domain": "tintbox.in",
+      "storedPrice": 946,
+      "livePrice": 1199,
+      "liveMrp": 1999,
+      "sourceUrl": "https://tintbox.in/products/tintbox-sipper-water-bottle",
+      "deltaPct": 111.3,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-125",
+      "name": "TintBox Borosilicate 750 ml Bottle",
+      "domain": "tintbox.in",
+      "storedPrice": 757,
+      "livePrice": 960,
+      "liveMrp": 1599,
+      "sourceUrl": "https://tintbox.in/products/glass-water-bottle-online",
+      "deltaPct": 111.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
     {
       "id": "homeKitchenAppliances-48",
       "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner",
@@ -258,28 +280,6 @@
         1779
       ],
       "sourceUrl": "https://tintbox.in/products/coffee-cup"
-    },
-    {
-      "id": "drinkware-124",
-      "name": "TintBox Glass Sipper 1ltr Bottle",
-      "domain": "tintbox.in",
-      "variantCount": 6,
-      "variantPrices": [
-        1049,
-        2000
-      ],
-      "sourceUrl": "https://tintbox.in/products/tintbox-sipper-water-bottle"
-    },
-    {
-      "id": "drinkware-125",
-      "name": "TintBox Borosilicate 750 ml Bottle",
-      "domain": "tintbox.in",
-      "variantCount": 7,
-      "variantPrices": [
-        949,
-        1840
-      ],
-      "sourceUrl": "https://tintbox.in/products/glass-water-bottle-online"
     },
     {
       "id": "drinkware-156",
@@ -2187,6 +2187,18 @@
       "name": "Lifelong LLPB02 Pull Up Bar",
       "domain": "www.lifelongindiaonline.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "healthPersonalCare-21",
+      "name": "Lifelong LLM180 Electric Body Massager Machine",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "edible-33",
