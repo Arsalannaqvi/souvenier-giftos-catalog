@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T09:57:11.334642+00:00",
+  "checkedAt": "2026-11-06T09:52:11.093538+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
@@ -55,7 +55,7 @@
       "name": "boAt Rockerz 255 Pro+",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 999,
+      "livePrice": 899,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
       "deltaPct": 33.0,
@@ -608,6 +608,17 @@
       "sourceUrl": "https://www.solara.in/products/cold-press-juicer"
     },
     {
+      "id": "electronics-405",
+      "name": "boAt Stone 350",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1199,
+        1399
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
+    },
+    {
       "id": "electronics-406",
       "name": "boAt Bassheads 104",
       "domain": "boat-lifestyle.com",
@@ -656,6 +667,17 @@
         908
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131"
+    },
+    {
+      "id": "electronics-414",
+      "name": "boAt Airdopes 219",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        899,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-219-wireless-earbuds"
     },
     {
       "id": "electronics-416",
@@ -1139,17 +1161,6 @@
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-120-wireless-earbuds"
-    },
-    {
-      "id": "electronics-579",
-      "name": "boAt Airdopes Supreme",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 6,
-      "variantPrices": [
-        1099,
-        1299
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-supreme-long-playback-earbuds"
     },
     {
       "id": "electronics-580",
@@ -2311,12 +2322,6 @@
     {
       "id": "electronics-468",
       "name": "boAt Rockerz 103 Pro",
-      "domain": "boat-lifestyle.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-469",
-      "name": "boAt Aavante Bar Joy",
       "domain": "boat-lifestyle.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
