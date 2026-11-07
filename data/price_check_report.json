@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-06T09:52:11.093538+00:00",
+  "checkedAt": "2026-11-07T09:15:08.839419+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1322,
+  "unchanged": 1324,
   "applied": [],
   "flagged": [
     {
@@ -306,17 +306,6 @@
         1999
       ],
       "sourceUrl": "https://www.solara.in/products/solara-vacuum-insulated-water-bottle"
-    },
-    {
-      "id": "drinkware-200",
-      "name": "House Of Quirk 1200ml",
-      "domain": "www.houseofquirk.com",
-      "variantCount": 20,
-      "variantPrices": [
-        1349,
-        1399
-      ],
-      "sourceUrl": "https://www.houseofquirk.com/products/tumbler-with-handle-simple-flip-straw-car-cup-holder-1200ml"
     },
     {
       "id": "drinkware-201",
@@ -909,8 +898,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1399
+        1399,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
     },
@@ -945,7 +934,7 @@
       "variantCount": 5,
       "variantPrices": [
         3799,
-        4099
+        4299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
     },
@@ -955,8 +944,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        5899,
-        6399
+        6399,
+        6899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-valour-watch-1-gps-smartwatch-with-inbuilt-gps"
     },
@@ -1537,8 +1526,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1799,
-        2099
+        2099,
+        2399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-ultima-ember-2"
     },
@@ -1548,8 +1537,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1499,
-        1699
+        1599,
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -1559,8 +1548,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1399,
-        1599
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wave-sigma-3-curv"
     },
@@ -1627,8 +1616,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1299,
-        1499
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -1649,8 +1638,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        3499,
-        3999
+        3799,
+        4299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-endeavour-amoled-display-smartwatch"
     },
@@ -1660,7 +1649,6 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1599,
         1699,
         1899
       ],
@@ -1717,8 +1705,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2999,
-        3299
+        3299,
+        3599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -1786,7 +1774,7 @@
       "variantPrices": [
         999,
         1399,
-        1549
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-2-plus-bluetooth-calling-smartwatch"
     },
@@ -1797,7 +1785,8 @@
       "variantCount": 6,
       "variantPrices": [
         1899,
-        2099
+        2899,
+        3199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch"
     },
@@ -1807,8 +1796,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1399,
-        1549
+        1599,
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -1842,8 +1831,8 @@
       "variantPrices": [
         1299,
         1399,
-        1499,
-        1549
+        1549,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call3-plus-smartwatch"
     },
@@ -1875,8 +1864,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1199,
-        1349
+        1399,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
@@ -2200,18 +2189,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "healthPersonalCare-21",
-      "name": "Lifelong LLM180 Electric Body Massager Machine",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2322,6 +2299,12 @@
     {
       "id": "electronics-468",
       "name": "boAt Rockerz 103 Pro",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-469",
+      "name": "boAt Aavante Bar Joy",
       "domain": "boat-lifestyle.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
