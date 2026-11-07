@@ -9,6 +9,59 @@ in `check_live_prices_tier_b_jsonld.py`'s own `DOMAIN_MRP_PATTERNS`
 comment blocks; this file is the index of what happened, not the
 reasoning itself.
 
+## 2026-11-07 — Tier A multiVariant false-positive fix (reconciled branch, 3 fixes in one script)
+
+Branch `tier-b-offikraft-mrp-fix` (merged `origin/main` and
+`add-brand-catalog-audit-skill` into it first — see below). Picked Tier A
+"re-discovery work" this week: 163 of 195 yellow `tier_a_shopify` items
+were generic `"unresolved"`, all really `multiVariant` entries. Root
+cause: `check_live_prices.py` flagged a product as ambiguous whenever its
+variants' **selling** price disagreed (colour/engraving options), even
+when every variant agreed on the exact same `compare_at_price` (the real
+MRP this script stores). 121 of 178 multiVariant flags were
+`boat-lifestyle.com` alone — e.g. "Airdopes 141" sells at 4 different
+colour/engraving prices but all 4 share one `compare_at_price` (4490),
+so there was never a real MRP ambiguity.
+
+**Fix 1** — check `compare_at_price` agreement instead of selling-price
+agreement. Still correctly flags genuine ambiguity: `compare_at_price`
+itself disagreeing across variants (e.g. `storm-call-3-smartwatch`, 2
+variants, MRP 8499 vs 8999), or no `compare_at_price` anywhere AND
+selling price varies (e.g. `nottynuts.in`'s weight-based variants, no
+MRP concept at all, 200g/400g/600g/800g at 4 real prices — stays
+flagged, correctly, needs a human to match the catalog's stated weight
+to the right variant).
+**Fix 2** — a store can report `compare_at_price: "0.00"` instead of
+leaving it null (`sunflame.com`); that string is truthy in Python, so a
+naive filter treated "no MRP set" as "MRP is ₹0." Excluded non-positive
+values explicitly.
+**Fix 3** — an MRP can't legitimately be *below* the current selling
+price. When it is anyway (`coconutlife.in`'s "Type C Dock 8 in 1 A",
+"X650 Premium Power Supply", "MP03 Mouse Pad" — all three already
+resolved once manually on the Notion Catalog Staging side 2026-10-31 for
+this exact reason), fall back to the live selling price instead of
+re-flagging the same known-bad `compare_at_price` every week.
+
+**Result**: multiVariant 178 → 83 (95 were false positives, now resolved
+— the vast majority landed on "unchanged" since the stored price was
+already correct, confirming these were flagging noise, not a real price
+problem). 3 applied (electronics-569, electronics-614, coconut-263 —
+all ≤25% deltas), 9 genuinely flagged for human review (real deltas,
+mostly >100% jumps worth an actual look — TintBox, Xech Mini Chef,
+Sunflame Chimney, boAt Rockerz 255 Pro+, NoiseFit Halo 2, temptindia Mag
+Mount, coconut-27 C32 cable). 83 still correctly held as genuine
+multi-variant ambiguity, unchanged behavior for those.
+
+**Branch reconciliation, same session**: `tier-b-offikraft-mrp-fix` had
+drifted from `main` for 2+ weeks while the daily Tier A cron kept
+committing directly to `main` on its own schedule. Merged
+`origin/main` and `origin/add-brand-catalog-audit-skill` into this
+branch (both clean, no conflicts) before starting this week's work, to
+stop the two from diverging further. Not yet merged back into `main` —
+flagged to the owner as a separate decision (this branch's price-data
+fixes are customer-visible, so didn't push straight to `main` without
+asking first, per this repo's branch discipline).
+
 ## 2026-10-31 — Tier B domain-discovery sweep (yellow-queue "no JSON-LD offers.price found")
 
 Branch `tier-b-offikraft-mrp-fix`. Worked the priority-ordered list of

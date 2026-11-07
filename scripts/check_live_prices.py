@@ -159,22 +159,61 @@ def main():
             unreachable.append({"id": p["id"], "name": p["name"], "domain": domain, "error": "variant price missing/invalid"})
             continue
 
-        if len(variant_prices) > 1:
-            # Variants genuinely differ in price (e.g. size-based pricing) --
-            # which one matches our single stored price is ambiguous, so
-            # this needs a human to pick rather than a silent guess.
+        # A Shopify store can report compare_at_price as the literal string
+        # "0.00" instead of leaving it null (confirmed on sunflame.com) --
+        # that string is truthy in Python, so a naive `if v.get(...)` filter
+        # treats "no MRP set" as "MRP is zero." Exclude non-positive values
+        # explicitly, not just falsy ones.
+        compare_ats = {
+            v.get("compare_at_price") for v in variants
+            if v.get("compare_at_price") and float(v["compare_at_price"]) > 0
+        }
+
+        # CONFIRMED BUG, fixed 2026-11-07: a product whose variants (colour,
+        # engraving, etc.) have slightly different SELLING prices used to be
+        # flagged multiVariant outright, even when every single variant
+        # agreed on the same compare_at_price -- i.e. the real MRP (what
+        # this script actually stores as "price", see the note below) was
+        # NOT ambiguous at all. Confirmed on boat-lifestyle.com: e.g.
+        # "Airdopes 141" has 4 variants selling at 999/1008/1199/1208 (colour
+        # + engraving combos) but EVERY variant's compare_at_price is the
+        # same 4490 -- there was only ever one real MRP, the script just
+        # never checked. 121 of 178 multiVariant flags were this domain
+        # alone. Real MRP disagreement across variants does still exist
+        # (e.g. storm-call-3-smartwatch: 2 variants, compare_at 8499 vs
+        # 8999) and must still be flagged -- so the check is now on
+        # compare_at agreement, not selling-price agreement. When no
+        # variant has a compare_at_price at all (store runs no strikethrough
+        # pricing), selling price IS the de facto MRP, same as the
+        # single-variant path below -- so a genuine selling-price spread
+        # with no compare_at anywhere (e.g. nottynuts.in's weight-based
+        # variants, 200g/400g/600g/800g at 4 different prices, no MRP
+        # concept at all) is still real ambiguity and stays flagged.
+        if len(compare_ats) > 1:
             multi_variant.append({
                 "id": p["id"], "name": p["name"], "domain": domain,
                 "variantCount": len(variants),
                 "variantPrices": [to_number(v) for v in sorted(variant_prices)],
+                "variantCompareAts": [to_number(v) for v in sorted(compare_ats)],
+                "reason": "compare_at_price disagrees across variants",
                 "sourceUrl": p.get("sourceUrl"),
             })
             continue
 
-        # Every variant (colour/size/etc.) shares the same price, so there's
-        # no real ambiguity -- treat it like a single-variant product.
-        live_price = to_number(variant_prices.pop())
-        compare_ats = {v.get("compare_at_price") for v in variants if v.get("compare_at_price")}
+        if len(compare_ats) == 0 and len(variant_prices) > 1:
+            multi_variant.append({
+                "id": p["id"], "name": p["name"], "domain": domain,
+                "variantCount": len(variants),
+                "variantPrices": [to_number(v) for v in sorted(variant_prices)],
+                "reason": "no compare_at_price on any variant and selling price disagrees",
+                "sourceUrl": p.get("sourceUrl"),
+            })
+            continue
+
+        # Either every variant shares one price (no compare_at needed), or
+        # selling prices differ (colour/engraving) but every variant agrees
+        # on the one real compare_at_price -- no real ambiguity either way.
+        live_price = to_number(min(variant_prices))
         live_mrp = to_number(sorted(compare_ats)[0]) if compare_ats else None
 
         # CONFIRMED BUG, fixed 2026-10-20: this used to apply `live_price`
@@ -190,7 +229,17 @@ def main():
         # set, i.e. a discount is active); only falls back to the plain
         # price when no compare_at_price exists at all (no discount
         # active, so price IS the MRP already).
-        target_price = live_mrp if live_mrp is not None else live_price
+        # A real MRP can never be below the current selling price -- that's
+        # what "compare_at" means. When it is anyway (confirmed on
+        # coconutlife.in: "Type C Dock 8 in 1 A" and "X650 Premium Power
+        # Supply" both show a compare_at_price below their own live price,
+        # a stale/wrong value on the supplier's own site, not a discount),
+        # it's not a trustworthy MRP -- fall back to the live selling price
+        # instead of repeatedly flagging the same known-bad compare_at every
+        # run. Resolved manually for these two exact products once already
+        # (2026-10-31, in the Notion Catalog Staging side of this business);
+        # this is the same fix, permanent, on the website-catalog side.
+        target_price = live_mrp if (live_mrp is not None and live_mrp >= live_price) else live_price
 
         stored_price = p.get("price")
         record = {

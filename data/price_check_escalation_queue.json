@@ -28,9 +28,12 @@
   "apparel-112": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780265+00:00",
     "history": [
-      "2026-10-20T09:07:06.780267+00:00 green->yellow: HTTP Error 404: Not Found"
+      "2026-10-20T09:07:06.780267+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:27:20.684441+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056054+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410890+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780266+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410890+00:00",
     "level": "yellow",
     "name": "M&S Tipping Polo T-shirt",
     "reason": "HTTP Error 404: Not Found",
@@ -40,9 +43,12 @@
   "apparel-113": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780269+00:00",
     "history": [
-      "2026-10-20T09:07:06.780271+00:00 green->yellow: HTTP Error 404: Not Found"
+      "2026-10-20T09:07:06.780271+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:27:20.684443+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056057+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410893+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780270+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410892+00:00",
     "level": "yellow",
     "name": "M&S Sweatshirt",
     "reason": "HTTP Error 404: Not Found",
@@ -61,6 +67,20 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_b_jsonld",
     "tier": "B"
+  },
+  "apparel-117": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684445+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684446+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056059+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410937+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410934+00:00",
+    "level": "yellow",
+    "name": "Puma Woven Track Jacket",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
   },
   "apparel-118": {
     "firstFlaggedAt": "2026-10-30T21:16:49.912593+00:00",
@@ -101,6 +121,34 @@
     "source": "tier_b_jsonld",
     "tier": "B"
   },
+  "apparel-122": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684448+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684449+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056061+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410939+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410938+00:00",
+    "level": "yellow",
+    "name": "M&S Plain Polo T-shirt",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "apparel-131": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684451+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684453+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056063+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410942+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410941+00:00",
+    "level": "yellow",
+    "name": "M&S Plain Polo T-shirt",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
   "apparel-149": {
     "firstFlaggedAt": "2026-10-30T21:16:49.912608+00:00",
     "history": [
@@ -113,6 +161,62 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_b_jsonld",
     "tier": "B"
+  },
+  "apparel-150": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684454+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684456+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056065+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410944+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410943+00:00",
+    "level": "yellow",
+    "name": "M&S Plain Polo T-shirt",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "apparel-155": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684388+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684389+00:00 green->yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056007+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410846+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410845+00:00",
+    "level": "yellow",
+    "name": "Campus Promote",
+    "reason": "compare_at_price disagrees across variants",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "apparel-156": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684390+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684392+00:00 green->yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056009+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410848+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410847+00:00",
+    "level": "yellow",
+    "name": "Campus Level",
+    "reason": "compare_at_price disagrees across variants",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "apparel-158": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684394+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684395+00:00 green->yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056011+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410851+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410849+00:00",
+    "level": "yellow",
+    "name": "Campus Bonus",
+    "reason": "compare_at_price disagrees across variants",
+    "source": "tier_a_shopify",
+    "tier": "A"
   },
   "apparel-17": {
     "firstFlaggedAt": "2026-10-30T21:16:49.912540+00:00",
@@ -234,9 +338,12 @@
   "apparel-60": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780253+00:00",
     "history": [
-      "2026-10-20T09:07:06.780255+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)"
+      "2026-10-20T09:07:06.780255+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:27:20.684435+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:35:03.056047+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:42:39.410884+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780254+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410883+00:00",
     "level": "yellow",
     "name": "Scott Organic Polo T-shirt",
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
@@ -298,9 +405,12 @@
   "apparel-76": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780257+00:00",
     "history": [
-      "2026-10-20T09:07:06.780259+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)"
+      "2026-10-20T09:07:06.780259+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:27:20.684437+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:35:03.056050+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:42:39.410886+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780258+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410885+00:00",
     "level": "yellow",
     "name": "Scott -Organic Polo T-shirt Women",
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
@@ -310,9 +420,12 @@
   "apparel-79": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780261+00:00",
     "history": [
-      "2026-10-20T09:07:06.780263+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)"
+      "2026-10-20T09:07:06.780263+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:27:20.684439+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:35:03.056052+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-07T03:42:39.410888+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780262+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410887+00:00",
     "level": "yellow",
     "name": "Scott Basic Round Neck T-shirt",
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
@@ -348,12 +461,15 @@
   "bagsLuggageTravel-120": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779518+00:00",
     "history": [
-      "2026-10-20T09:07:06.779520+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779520+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684284+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055890+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410748+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779519+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410747+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC07 The Wayfarer",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -486,6 +602,20 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_b_jsonld",
     "tier": "B"
+  },
+  "bagsLuggageTravel-168": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684470+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684472+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056074+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410955+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410954+00:00",
+    "level": "yellow",
+    "name": "Puma Gym duffle Bag",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
   },
   "bagsLuggageTravel-170": {
     "firstFlaggedAt": "2026-10-30T21:16:49.912729+00:00",
@@ -747,42 +877,6 @@
     "source": "tier_b_jsonld",
     "tier": "B"
   },
-  "bagsLuggageTravel-360": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.778495+00:00",
-    "history": [
-      "2026-10-20T09:07:06.778497+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.778496+00:00",
-    "level": "yellow",
-    "name": "Levl Alphatech Pro Laptop Backpack",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "bagsLuggageTravel-361": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.778499+00:00",
-    "history": [
-      "2026-10-20T09:07:06.778503+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.778502+00:00",
-    "level": "yellow",
-    "name": "Edge Alphatech Pro Laptop Backpack",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "bagsLuggageTravel-362": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.778505+00:00",
-    "history": [
-      "2026-10-20T09:07:06.778507+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.778506+00:00",
-    "level": "yellow",
-    "name": "Vortex Alphatech Pro Laptop Backpack",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
   "bagsLuggageTravel-377": {
     "firstFlaggedAt": "2026-10-30T21:16:49.914090+00:00",
     "history": [
@@ -812,72 +906,90 @@
   "bagsLuggageTravel-40": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779495+00:00",
     "history": [
-      "2026-10-20T09:07:06.779497+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779497+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684272+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055875+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410734+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779496+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410733+00:00",
     "level": "yellow",
     "name": "Fur Jaden The Voyager SC05 Small",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "bagsLuggageTravel-41": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779499+00:00",
     "history": [
-      "2026-10-20T09:07:06.779501+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779501+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684274+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055877+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410737+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779500+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410736+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC05 The Voyager Medium",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "bagsLuggageTravel-44": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779503+00:00",
     "history": [
-      "2026-10-20T09:07:06.779505+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779505+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684275+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055880+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410739+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779504+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410738+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC14 The Puffer Pop",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "bagsLuggageTravel-47": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779507+00:00",
     "history": [
-      "2026-10-20T09:07:06.779509+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779509+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684277+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055882+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410741+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779508+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410740+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC09 Pro Laptop Trolley Bag",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "bagsLuggageTravel-48": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779511+00:00",
     "history": [
-      "2026-10-20T09:07:06.779513+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779513+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684279+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055884+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410744+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779512+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410742+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC09 The Aviator",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "bagsLuggageTravel-49": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779515+00:00",
     "history": [
-      "2026-10-20T09:07:06.779517+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779517+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684282+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055888+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410746+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779516+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410745+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC07 Laptop",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -949,35 +1061,43 @@
   "coconut-153": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780202+00:00",
     "history": [
-      "2026-10-20T09:07:06.780204+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780204+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684400+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056017+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410855+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780203+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410854+00:00",
     "level": "yellow",
     "name": "Troy Laptop Sleeve (14 / 16 inch)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "coconut-161": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780205+00:00",
     "history": [
-      "2026-10-20T09:07:06.780207+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780207+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684402+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056019+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410857+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780206+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410856+00:00",
     "level": "yellow",
     "name": "WA03 USB Bluetooth Adapter (BT 5.0)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
-  "coconut-172": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779033+00:00",
+  "coconut-194": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684209+00:00",
     "history": [
-      "2026-10-20T09:07:06.779035+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:27:20.684212+00:00 green->yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055780+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410694+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779034+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410693+00:00",
     "level": "yellow",
-    "name": "Type C Dock 8 in 1 A",
+    "name": "HDMI to VGA 2M Cable with Chipset",
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
@@ -985,84 +1105,104 @@
   "coconut-197": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780209+00:00",
     "history": [
-      "2026-10-20T09:07:06.780211+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780211+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684404+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056021+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410859+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780210+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410858+00:00",
     "level": "yellow",
     "name": "AC02 Lightning to AUX Adapter",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "coconut-207": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779131+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779133+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779132+00:00",
-    "level": "yellow",
-    "name": "X650 Premium Power Supply (80 Plus Bronze)",
-    "reason": "flagged (exceeds threshold, not applied)",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "coconut-217": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780213+00:00",
     "history": [
-      "2026-10-20T09:07:06.780215+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780215+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684406+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056023+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410861+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780214+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410860+00:00",
     "level": "yellow",
     "name": "Vista Laptop Bag (14 / 16 inch)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "coconut-219": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780217+00:00",
     "history": [
-      "2026-10-20T09:07:06.780219+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780219+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684408+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056025+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410863+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780218+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410862+00:00",
     "level": "yellow",
     "name": "Armour Laptop Bag (14 / 16 inch)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "coconut-231": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684410+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684411+00:00 green->yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056027+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410865+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410864+00:00",
+    "level": "yellow",
+    "name": "Elvis Bluetooth Speaker",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "coconut-244": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780221+00:00",
     "history": [
-      "2026-10-20T09:07:06.780223+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780223+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684414+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056029+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410867+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780222+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410866+00:00",
     "level": "yellow",
     "name": "AC01 Type C to AUX Adapter",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "coconut-27": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780194+00:00",
     "history": [
-      "2026-10-20T09:07:06.780196+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780196+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684202+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055773+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410691+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780195+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410689+00:00",
     "level": "yellow",
     "name": "C32 Type C to Type C Cable (Nylon Braided)",
-    "reason": "unresolved",
+    "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "coconut-56": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780198+00:00",
     "history": [
-      "2026-10-20T09:07:06.780200+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780200+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684398+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056013+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410853+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780199+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410852+00:00",
     "level": "yellow",
     "name": "WA04 USB WiFi Adapter (150 Mbps)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -1147,36 +1287,45 @@
   "drinkware-123": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779467+00:00",
     "history": [
-      "2026-10-20T09:07:06.779472+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779472+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684263+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055866+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410723+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779471+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410722+00:00",
     "level": "yellow",
     "name": "Tintbox Borosilicate Glass Brew Cup with Silicon Lid & Grip 350ml",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "drinkware-124": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779473+00:00",
     "history": [
-      "2026-10-20T09:07:06.779476+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779476+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684168+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055748+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410666+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779475+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410651+00:00",
     "level": "yellow",
     "name": "TintBox Glass Sipper 1ltr Bottle",
-    "reason": "unresolved",
+    "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "drinkware-125": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779477+00:00",
     "history": [
-      "2026-10-20T09:07:06.779480+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779480+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684173+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055753+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410671+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779479+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410669+00:00",
     "level": "yellow",
     "name": "TintBox Borosilicate 750 ml Bottle",
-    "reason": "unresolved",
+    "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -1235,24 +1384,30 @@
   "drinkware-156": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779481+00:00",
     "history": [
-      "2026-10-20T09:07:06.779483+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779483+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684265+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055868+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410725+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779482+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410724+00:00",
     "level": "yellow",
     "name": "Solara Insulated water bottles",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "drinkware-162": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779485+00:00",
     "history": [
-      "2026-10-20T09:07:06.779487+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779487+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684268+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055870+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410729+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779486+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410728+00:00",
     "level": "yellow",
     "name": "Solara Insulated water bottles 1 Ltr",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -1272,12 +1427,15 @@
   "drinkware-201": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779489+00:00",
     "history": [
-      "2026-10-20T09:07:06.779491+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779491+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684270+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055872+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410732+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779490+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410731+00:00",
     "level": "yellow",
     "name": "Milton Thermosteel Insulated Coffee Mug",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -1293,6 +1451,62 @@
     "reason": "no JSON-LD offers.price found",
     "source": "tier_b_jsonld",
     "tier": "B"
+  },
+  "drinkware-49": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684457+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684459+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056067+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410946+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410945+00:00",
+    "level": "yellow",
+    "name": "Tamta Tamra #P006  950ml Bottle",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "drinkware-54": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684461+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684464+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056069+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410948+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410947+00:00",
+    "level": "yellow",
+    "name": "Tamta Tamra #P001 950ml Bottle",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "drinkware-73": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684466+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684468+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056072+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410950+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410949+00:00",
+    "level": "yellow",
+    "name": "Tamta Tatva #H001 950ml Bottle",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-33": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684429+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684431+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056045+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410882+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410881+00:00",
+    "level": "yellow",
+    "name": "Loyka Royal Peach Darwaza Box",
+    "reason": "HTTP Error 404: Not Found",
+    "source": "tier_a_shopify",
+    "tier": "A"
   },
   "edible-49": {
     "firstFlaggedAt": "2026-10-30T21:16:49.913143+00:00",
@@ -1372,15 +1586,172 @@
     "source": "tier_b_jsonld",
     "tier": "B"
   },
+  "edible-58": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684218+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684222+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055785+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410700+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410698+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Assorted Mixed Nuts 200g",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-60": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684224+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684226+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055842+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410702+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410701+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Cashews Roasted and Salted",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-61": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684227+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684229+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055845+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410704+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410703+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Almond Roasted and Salted 250gms",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-63": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684231+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684233+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055847+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410707+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410706+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Classic Cashew Nuts 250g",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-64": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684234+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684236+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055850+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410708+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410708+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Classic American Almond 250g",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-65": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684238+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684240+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055852+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410710+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410710+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Dried Strawberry 250gms",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-66": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684241+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684244+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055855+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410712+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410711+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Dried Cranberry Slice 250gms",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-67": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684247+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684249+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055857+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410714+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410713+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Dried Blueberries 250gms",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-68": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684250+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684253+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055859+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410717+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410716+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Dried Mixed Fruit 250g",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-69": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684254+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684256+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055861+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410718+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410718+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Dried Kiwi 250gms",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
+  "edible-79": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684258+00:00",
+    "history": [
+      "2026-11-07T03:27:20.684260+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:35:03.055863+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-07T03:42:39.410721+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+    ],
+    "lastSeenAt": "2026-11-07T03:42:39.410720+00:00",
+    "level": "yellow",
+    "name": "Notty Nuts Peri Peri Cashews 100g",
+    "reason": "no compare_at_price on any variant and selling price disagrees",
+    "source": "tier_a_shopify",
+    "tier": "A"
+  },
   "electronics-1": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779522+00:00",
     "history": [
-      "2026-10-20T09:07:06.779524+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779524+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684286+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055892+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410750+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779523+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410749+00:00",
     "level": "yellow",
     "name": "Noise ColorFit Pro 5 Max Smart Watch",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -1815,143 +2186,44 @@
   "electronics-332": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779526+00:00",
     "history": [
-      "2026-10-20T09:07:06.779528+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779528+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684288+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055894+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410753+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779527+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410752+00:00",
     "level": "yellow",
     "name": "Xech iSoothe Eye Massager With Wireless Speaker",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-333": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779530+00:00",
     "history": [
-      "2026-10-20T09:07:06.779532+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779532+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684290+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055911+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410755+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779531+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410754+00:00",
     "level": "yellow",
     "name": "Xech iSoothe (Chrome) Eye Massager With Wireless Speaker",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-338": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780273+00:00",
     "history": [
-      "2026-10-20T09:07:06.780275+00:00 green->yellow: HTTP Error 404: Not Found"
+      "2026-10-20T09:07:06.780275+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:27:20.684176+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055757+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410673+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780274+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410672+00:00",
     "level": "yellow",
     "name": "Xech Mini Chef Electronic Multi Cooker",
-    "reason": "HTTP Error 404: Not Found",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-359": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777536+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777538+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777537+00:00",
-    "level": "yellow",
-    "name": "Blaupunkt Rock & Roll Ibiza Party Speaker",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-376": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777590+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777592+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777591+00:00",
-    "level": "yellow",
-    "name": "Noise Pure Pods",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-383": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777593+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777595+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777594+00:00",
-    "level": "yellow",
-    "name": "Noise Airwave Max 6",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-384": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777597+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777599+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777598+00:00",
-    "level": "yellow",
-    "name": "Noise Airwave Max 3",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-386": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777600+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777602+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777601+00:00",
-    "level": "yellow",
-    "name": "Noise Masterbuds Max",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-391": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777611+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777613+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777612+00:00",
-    "level": "yellow",
-    "name": "Noise Airwave Max XR",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-392": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777614+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777616+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777615+00:00",
-    "level": "yellow",
-    "name": "Noise N2 Pro",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-399": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777647+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777720+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777717+00:00",
-    "level": "yellow",
-    "name": "Noise Master Buds",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-4": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.776594+00:00",
-    "history": [
-      "2026-10-20T09:07:06.776596+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.776595+00:00",
-    "level": "yellow",
-    "name": "Pebble Quro View wellness Band",
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
@@ -1959,1500 +2231,494 @@
   "electronics-404": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779603+00:00",
     "history": [
-      "2026-10-20T09:07:06.779605+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779605+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684188+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055763+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410681+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779604+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410680+00:00",
     "level": "yellow",
     "name": "boAt Rockerz 255 Pro+",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-405": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779607+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779609+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779608+00:00",
-    "level": "yellow",
-    "name": "boAt Stone 350",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-406": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779611+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779613+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779612+00:00",
-    "level": "yellow",
-    "name": "boAt Bassheads 104",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-407": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779615+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779617+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779616+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 141",
-    "reason": "unresolved",
+    "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-408": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779618+00:00",
     "history": [
-      "2026-10-20T09:07:06.779622+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779622+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684322+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055944+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410781+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779621+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410780+00:00",
     "level": "yellow",
     "name": "Noise ColorFit Pro 5 Max Smartwatch",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-409": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779624+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779626+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779625+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 131",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-411": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779628+00:00",
     "history": [
-      "2026-10-20T09:07:06.779630+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779630+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684190+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055766+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410683+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779629+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410682+00:00",
     "level": "yellow",
     "name": "NoiseFit Halo 2 Smartwatch",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-416": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779632+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779634+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779633+00:00",
-    "level": "yellow",
-    "name": "Para-Armour Type-C Cable 1.5M",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-420": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779636+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779638+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779637+00:00",
-    "level": "yellow",
-    "name": "boAt Type A to C 65W Cable",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-422": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779640+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779642+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779641+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 131 Pro Buds",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-425": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779643+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779645+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779644+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 155",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-429": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779647+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779649+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779648+00:00",
-    "level": "yellow",
-    "name": "boAt Ultima Regal",
-    "reason": "unresolved",
+    "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-432": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779651+00:00",
     "history": [
-      "2026-10-20T09:07:06.779653+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779653+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684324+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055946+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410784+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779652+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410783+00:00",
     "level": "yellow",
     "name": "boAt Storm Call 3",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-440": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779655+00:00",
     "history": [
-      "2026-10-20T09:07:06.779657+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779657+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684326+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055949+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410788+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779656+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410787+00:00",
     "level": "yellow",
     "name": "boAt Ultima Aeris",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-443": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779660+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779663+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779662+00:00",
-    "level": "yellow",
-    "name": "boAt Nirvana Space",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-446": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779664+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779666+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779665+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 181",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-447": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779668+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779670+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779669+00:00",
-    "level": "yellow",
-    "name": "boAt Nirvana Ivy Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-452": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779673+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779676+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779675+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 101v2",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-453": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779678+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779680+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779679+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 281 Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-461": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779681+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779684+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779683+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 411",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-463": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779685+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779687+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779686+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Prime 800D",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-466": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779689+00:00",
     "history": [
-      "2026-10-20T09:07:06.779691+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779691+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684328+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055951+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410790+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779690+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410789+00:00",
     "level": "yellow",
     "name": "boAt Lunar Vista",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-467": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779693+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779695+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779694+00:00",
-    "level": "yellow",
-    "name": "boAt Enigma Ascend",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-468": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779696+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779698+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779697+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 103 Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-470": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779700+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779702+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779701+00:00",
-    "level": "yellow",
-    "name": "boAt Immortal katana Blade 2.0",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-471": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779704+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779706+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779705+00:00",
-    "level": "yellow",
-    "name": "boAt Stone 900",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-476": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779707+00:00",
     "history": [
-      "2026-10-20T09:07:06.779709+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779709+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684330+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055953+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410792+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779708+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410791+00:00",
     "level": "yellow",
     "name": "boAt Wave Call 3",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-481": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779711+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779713+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779712+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 131 PRO",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-482": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779715+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779717+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779716+00:00",
-    "level": "yellow",
-    "name": "boAt Stone 1508",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-487": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.778431+00:00",
-    "history": [
-      "2026-10-20T09:07:06.778433+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.778432+00:00",
-    "level": "yellow",
-    "name": "boAt Cinehead F1 Pro",
-    "reason": "flagged (exceeds threshold, not applied)",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-489": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779719+00:00",
     "history": [
-      "2026-10-20T09:07:06.779721+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779721+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684333+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055956+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410794+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779720+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410793+00:00",
     "level": "yellow",
     "name": "boAt Chrome Iris",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-496": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779722+00:00",
     "history": [
-      "2026-10-20T09:07:06.779724+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779724+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684335+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055958+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410797+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779723+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410796+00:00",
     "level": "yellow",
     "name": "boAt Valour Watch 1 GPS",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-497": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779726+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779728+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779727+00:00",
-    "level": "yellow",
-    "name": "Bassheads 102",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-501": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779730+00:00",
     "history": [
-      "2026-10-20T09:07:06.779732+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779732+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684337+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055960+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410799+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779731+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410798+00:00",
     "level": "yellow",
     "name": "boAt Wave Astra 4",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-503": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779734+00:00",
     "history": [
-      "2026-10-20T09:07:06.779736+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779736+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684339+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055962+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410801+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779735+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410800+00:00",
     "level": "yellow",
     "name": "boAt Wave Sigma 3",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-519": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779737+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779739+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779738+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz Trendz",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-528": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779741+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779745+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779742+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 551ANC",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-538": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779747+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779751+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779749+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 371",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-548": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779754+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779756+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779755+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 412",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-559": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779758+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779760+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779759+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Alpha",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-560": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779761+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779764+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779763+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 551 ANC Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-562": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779765+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779767+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779766+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 118 Wrogn Edition",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-564": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779769+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779771+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779770+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 280 ANC",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-569": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779773+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779775+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779774+00:00",
-    "level": "yellow",
-    "name": "boAt Nirvana Ivy",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-570": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779777+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779779+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779778+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 261 Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-575": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779780+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779783+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779782+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 300",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-576": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779784+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779786+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779785+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 120",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-580": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779788+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779790+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779789+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Ultra Plus",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-587": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779792+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779794+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779793+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 161 ANC",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-590": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779796+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779798+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779797+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 109",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-591": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779800+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779802+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779801+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Crude",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-592": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779803+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779805+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779804+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Sonik",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-593": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779807+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779809+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779808+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 125",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-594": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779811+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779813+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779812+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Atom 81",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-595": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779814+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779817+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779816+00:00",
-    "level": "yellow",
-    "name": "boAt Nirvana Ion",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-596": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779818+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779820+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779819+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 138 PRO",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-597": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779822+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779824+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779823+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 378",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-598": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779827+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779829+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779828+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes Atom 83",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-599": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779833+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779835+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779834+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 163",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-600": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779837+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779839+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779838+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 330",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-601": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779840+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779842+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779841+00:00",
-    "level": "yellow",
-    "name": "Rockerz 255 ARC",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-602": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779844+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779846+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779845+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 183",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-603": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779848+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779850+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779849+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 190",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-604": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779851+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779855+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779853+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 235 V2",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-605": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779857+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779860+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779858+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 245 Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-606": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779861+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779863+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779862+00:00",
-    "level": "yellow",
-    "name": "Bassheads 180",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-607": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779865+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779867+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779866+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 161",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-608": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779869+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779871+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779870+00:00",
-    "level": "yellow",
-    "name": "boAt Bassheads 200",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-609": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779873+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779875+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779874+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 138",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-610": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779877+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779881+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779880+00:00",
-    "level": "yellow",
-    "name": "Bassheads 110",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-611": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779883+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779885+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779884+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 148",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-614": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779887+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779889+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779888+00:00",
-    "level": "yellow",
-    "name": "boAt Bassheads 105",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-615": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779891+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779893+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779892+00:00",
-    "level": "yellow",
-    "name": "boAt Airdopes 171",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-616": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779894+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779896+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779895+00:00",
-    "level": "yellow",
-    "name": "Bassheads 220",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-617": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779898+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779900+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779899+00:00",
-    "level": "yellow",
-    "name": "boAt Rockerz 255 Pro",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-618": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779902+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779904+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779903+00:00",
-    "level": "yellow",
-    "name": "Bassheads 103",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-619": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779906+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779908+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779907+00:00",
-    "level": "yellow",
-    "name": "boAt Bassheads 900",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-621": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779911+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779914+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779912+00:00",
-    "level": "yellow",
-    "name": "Bassheads 100",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-622": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779915+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779917+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779916+00:00",
-    "level": "yellow",
-    "name": "boAt Bassheads 152",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-623": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779921+00:00",
     "history": [
-      "2026-10-20T09:07:06.779923+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779923+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684341+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055965+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410803+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779922+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410802+00:00",
     "level": "yellow",
     "name": "boAt Ultima Ember 2",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-624": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779925+00:00",
     "history": [
-      "2026-10-20T09:07:06.779927+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779927+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684343+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055968+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410805+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779926+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410804+00:00",
     "level": "yellow",
     "name": "boAt Storm Call 4",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-625": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779928+00:00",
     "history": [
-      "2026-10-20T09:07:06.779930+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779930+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684346+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055970+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410807+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779929+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410806+00:00",
     "level": "yellow",
     "name": "boAt Wave Sigma 3 Curv",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-626": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779932+00:00",
     "history": [
-      "2026-10-20T09:07:06.779934+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779934+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684348+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055972+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410809+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779933+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410808+00:00",
     "level": "yellow",
     "name": "boAt Lunar Orbit 2",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-628": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779938+00:00",
     "history": [
-      "2026-10-20T09:07:06.779940+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779940+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684350+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055974+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410811+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779939+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410810+00:00",
     "level": "yellow",
     "name": "boAt Valour Watch 1R",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-629": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779942+00:00",
     "history": [
-      "2026-10-20T09:07:06.779944+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779944+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684354+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055976+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410813+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779943+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410812+00:00",
     "level": "yellow",
     "name": "boAt Chrome Ivory",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-632": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779946+00:00",
     "history": [
-      "2026-10-20T09:07:06.779948+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779948+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684356+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055978+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410815+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779947+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410814+00:00",
     "level": "yellow",
     "name": "boAt Storm Verge",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-634": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779950+00:00",
     "history": [
-      "2026-10-20T09:07:06.779952+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779952+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684359+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055980+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410817+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779951+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410816+00:00",
     "level": "yellow",
     "name": "boAt Ultima Summit",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-636": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779953+00:00",
     "history": [
-      "2026-10-20T09:07:06.779956+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779956+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684361+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055982+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410819+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779955+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410818+00:00",
     "level": "yellow",
     "name": "boAt Lunar Discovery Neo",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-637": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779957+00:00",
     "history": [
-      "2026-10-20T09:07:06.779959+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779959+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684363+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055984+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410821+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779958+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410820+00:00",
     "level": "yellow",
     "name": "boAt Chrome Eon",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-638": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779961+00:00",
     "history": [
-      "2026-10-20T09:07:06.779965+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779965+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684365+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055986+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410823+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779963+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410822+00:00",
     "level": "yellow",
     "name": "boAt Chrome Endeavour",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-639": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779967+00:00",
     "history": [
-      "2026-10-20T09:07:06.779972+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779972+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684367+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055987+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410825+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779969+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410824+00:00",
     "level": "yellow",
     "name": "boAt Lunar Discovery Pro",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-640": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779974+00:00",
     "history": [
-      "2026-10-20T09:07:06.779978+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779978+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684370+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055989+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410827+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779976+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410826+00:00",
     "level": "yellow",
     "name": "boAt Storm Infinity Max",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-641": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.779980+00:00",
-    "history": [
-      "2026-10-20T09:07:06.779984+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.779982+00:00",
-    "level": "yellow",
-    "name": "boAt Lunar Connect Ace",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-642": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780016+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780022+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780019+00:00",
-    "level": "yellow",
-    "name": "Smart Ring Active Plus",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-644": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780025+00:00",
     "history": [
-      "2026-10-20T09:07:06.780029+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780029+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684372+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055991+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410829+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780027+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410828+00:00",
     "level": "yellow",
     "name": "boAt Storm Infinity Plus",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-645": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780031+00:00",
     "history": [
-      "2026-10-20T09:07:06.780033+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780033+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684374+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055993+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410831+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780032+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410830+00:00",
     "level": "yellow",
     "name": "boAt Chrome Horizon",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-646": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780038+00:00",
     "history": [
-      "2026-10-20T09:07:06.780040+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780040+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684376+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055995+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410833+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780039+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410832+00:00",
     "level": "yellow",
     "name": "boAt Storm Infinity",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-647": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780042+00:00",
     "history": [
-      "2026-10-20T09:07:06.780044+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780044+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684378+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055997+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410835+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780043+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410834+00:00",
     "level": "yellow",
     "name": "boAt Ultima Prime",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-648": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780046+00:00",
     "history": [
-      "2026-10-20T09:07:06.780048+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780048+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684380+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055999+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410837+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780047+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410837+00:00",
     "level": "yellow",
     "name": "boAt Ultima Ember",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-649": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780050+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780052+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780051+00:00",
-    "level": "yellow",
-    "name": "boAt Enigma Daze",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-650": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780055+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780058+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780057+00:00",
-    "level": "yellow",
-    "name": "boAt Enigma Gem",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-651": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780061+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780064+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780063+00:00",
-    "level": "yellow",
-    "name": "boAt Wave Call 2 Plus",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-652": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780065+00:00",
     "history": [
-      "2026-10-20T09:07:06.780068+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780068+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684382+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056001+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410840+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780066+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410839+00:00",
     "level": "yellow",
     "name": "boAt Lunar Orbit",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-653": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780070+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780072+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780071+00:00",
-    "level": "yellow",
-    "name": "boAt Lunar Discovery",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-654": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780074+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780076+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780075+00:00",
-    "level": "yellow",
-    "name": "boAt Enigma Orion",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-655": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780077+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780080+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780079+00:00",
-    "level": "yellow",
-    "name": "boAt Enigma Radiant",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-656": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780081+00:00",
     "history": [
-      "2026-10-20T09:07:06.780083+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780083+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684384+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056002+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410842+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780082+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410841+00:00",
     "level": "yellow",
     "name": "boAt Storm Call 3 Plus",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-657": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780085+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780087+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780086+00:00",
-    "level": "yellow",
-    "name": "boAt Wanderer Smart",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-658": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780089+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780091+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780090+00:00",
-    "level": "yellow",
-    "name": "boAt Smart Ring Active",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-659": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780093+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780095+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780094+00:00",
-    "level": "yellow",
-    "name": "boAt Lunar Oasis",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "electronics-660": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780097+00:00",
     "history": [
-      "2026-10-20T09:07:06.780099+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780099+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684386+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056005+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410844+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780098+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410843+00:00",
     "level": "yellow",
     "name": "boAt Wave Fury",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
-  "electronics-713": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780101+00:00",
+  "electronics-780": {
+    "firstFlaggedAt": "2026-11-07T03:27:20.684195+00:00",
     "history": [
-      "2026-10-20T09:07:06.780103+00:00 green->yellow: unresolved"
+      "2026-11-07T03:27:20.684197+00:00 green->yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055768+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410686+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780102+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410685+00:00",
     "level": "yellow",
-    "name": "boAt Stone 193",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-714": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780105+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780107+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780106+00:00",
-    "level": "yellow",
-    "name": "Stone 1500",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-716": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780108+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780144+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780109+00:00",
-    "level": "yellow",
-    "name": "boAt Stone 1200",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-718": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780148+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780152+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780150+00:00",
-    "level": "yellow",
-    "name": "boAt Stone 190",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-721": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780155+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780157+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780156+00:00",
-    "level": "yellow",
-    "name": "Energyshroom PB600",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-726": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.778437+00:00",
-    "history": [
-      "2026-10-20T09:07:06.778439+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.778438+00:00",
-    "level": "yellow",
-    "name": "EnergyShroom PB300 SS Edition",
+    "name": "Mag Mount",
     "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-734": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780162+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780164+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780163+00:00",
-    "level": "yellow",
-    "name": "Energyshroom PB331 Magnacharge",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-743": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780166+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780168+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780167+00:00",
-    "level": "yellow",
-    "name": "boAt Energyshroom PB400",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-744": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780170+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780172+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780171+00:00",
-    "level": "yellow",
-    "name": "EnergyShroom PB300",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-750": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.778441+00:00",
-    "history": [
-      "2026-10-20T09:07:06.778443+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.778442+00:00",
-    "level": "yellow",
-    "name": "boAt Cinehead F1",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-751": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780174+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780176+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780175+00:00",
-    "level": "yellow",
-    "name": "boAt Slazer K100+",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-752": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780178+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780181+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780180+00:00",
-    "level": "yellow",
-    "name": "boAt Slazer S100",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-758": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780185+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780189+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780186+00:00",
-    "level": "yellow",
-    "name": "Dots",
-    "reason": "unresolved",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
-  "electronics-785": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.780191+00:00",
-    "history": [
-      "2026-10-20T09:07:06.780193+00:00 green->yellow: unresolved"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.780192+00:00",
-    "level": "yellow",
-    "name": "Cameo",
-    "reason": "unresolved",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -3602,12 +2868,15 @@
   "healthPersonalCare-45": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779459+00:00",
     "history": [
-      "2026-10-20T09:07:06.779462+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779462+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684215+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055782+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410697+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779461+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410696+00:00",
     "level": "yellow",
     "name": "Xech X-Board Pro A3 Size Led Backlit Board",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -3653,48 +2922,60 @@
   "healthPersonalCare-70": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780225+00:00",
     "history": [
-      "2026-10-20T09:07:06.780227+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780227+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684416+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056031+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410869+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780226+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410868+00:00",
     "level": "yellow",
     "name": "Godfather Beard Oil",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "healthPersonalCare-75": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780229+00:00",
     "history": [
-      "2026-10-20T09:07:06.780231+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780231+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684418+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056033+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410871+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780230+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410870+00:00",
     "level": "yellow",
     "name": "Ultraglow Face Cream (SPF-30)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "healthPersonalCare-78": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780234+00:00",
     "history": [
-      "2026-10-20T09:07:06.780237+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780237+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684421+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056036+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410873+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780236+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410872+00:00",
     "level": "yellow",
     "name": "Dandruff Control Sulphate Free Shampoo",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "healthPersonalCare-79": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780238+00:00",
     "history": [
-      "2026-10-20T09:07:06.780241+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.780241+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684423+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.056038+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410875+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780239+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410874+00:00",
     "level": "yellow",
     "name": "Activated Charcoal Face Scrub",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -3930,18 +3211,6 @@
     "reason": "flagged (exceeds threshold, not applied)",
     "source": "tier_b_stovekraft",
     "tier": "B"
-  },
-  "homeKitchenAppliances-2": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777754+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777757+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777756+00:00",
-    "level": "yellow",
-    "name": "Wonderchef Evita Digital Air Fryer",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
   },
   "homeKitchenAppliances-306": {
     "firstFlaggedAt": "2026-10-30T21:16:49.913784+00:00",
@@ -4384,24 +3653,15 @@
     "source": "tier_b_stovekraft",
     "tier": "B"
   },
-  "homeKitchenAppliances-48": {
-    "firstFlaggedAt": "2026-10-20T09:07:06.777830+00:00",
-    "history": [
-      "2026-10-20T09:07:06.777834+00:00 green->yellow: flagged (exceeds threshold, not applied)"
-    ],
-    "lastSeenAt": "2026-10-20T09:07:06.777832+00:00",
-    "level": "yellow",
-    "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner",
-    "reason": "flagged (exceeds threshold, not applied)",
-    "source": "tier_a_shopify",
-    "tier": "A"
-  },
   "homeKitchenAppliances-486": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780279+00:00",
     "history": [
-      "2026-10-20T09:07:06.780281+00:00 green->yellow: HTTP Error 404: Not Found"
+      "2026-10-20T09:07:06.780281+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:27:20.684474+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056076+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410958+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780280+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410956+00:00",
     "level": "yellow",
     "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
     "reason": "HTTP Error 404: Not Found",
@@ -4424,144 +3684,180 @@
   "homeKitchenAppliances-538": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779533+00:00",
     "history": [
-      "2026-10-20T09:07:06.779535+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779535+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684292+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055916+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410757+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779534+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410756+00:00",
     "level": "yellow",
     "name": "Solara Hand Blender Portable (Blend Kwik Pro)",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-541": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779537+00:00",
     "history": [
-      "2026-10-20T09:07:06.779539+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779539+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684296+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055919+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410759+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779538+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410758+00:00",
     "level": "yellow",
     "name": "Solara Sterra - Triply Cookware Fry Pan",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-542": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779541+00:00",
     "history": [
-      "2026-10-20T09:07:06.779543+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779543+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684298+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055922+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410761+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779542+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410760+00:00",
     "level": "yellow",
     "name": "Solara Montclaire Fry Pan",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-543": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779545+00:00",
     "history": [
-      "2026-10-20T09:07:06.779547+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779547+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684300+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055924+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410764+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779546+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410763+00:00",
     "level": "yellow",
     "name": "Solara Montclaire Kadai",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-544": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779549+00:00",
     "history": [
-      "2026-10-20T09:07:06.779551+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779551+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684303+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055927+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410765+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779550+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410765+00:00",
     "level": "yellow",
     "name": "Solara Ceremic Cookware - Fry Pan",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-545": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779574+00:00",
     "history": [
-      "2026-10-20T09:07:06.779577+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779577+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684305+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055929+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410767+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779576+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410767+00:00",
     "level": "yellow",
     "name": "Solara Ceremic Cookware - Kadai with Lid",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-546": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779579+00:00",
     "history": [
-      "2026-10-20T09:07:06.779581+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779581+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684307+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055931+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410769+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779580+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410769+00:00",
     "level": "yellow",
     "name": "Solara Cast Iron-Paniyaram Pan",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-547": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779582+00:00",
     "history": [
-      "2026-10-20T09:07:06.779585+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779585+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684309+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055933+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410771+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779584+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410770+00:00",
     "level": "yellow",
     "name": "Solara Cast Iron Kadhai- 10 Inch",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-548": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779586+00:00",
     "history": [
-      "2026-10-20T09:07:06.779588+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779588+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684312+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055935+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410773+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779587+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410772+00:00",
     "level": "yellow",
     "name": "Solara Crownstone Cast Iron Dosa Tawa 12 inch",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-549": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779590+00:00",
     "history": [
-      "2026-10-20T09:07:06.779592+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779592+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684315+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055938+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410775+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779591+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410774+00:00",
     "level": "yellow",
     "name": "Solara Airfryer Oven 12 L",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-550": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779595+00:00",
     "history": [
-      "2026-10-20T09:07:06.779598+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779598+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684317+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055940+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410777+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779597+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410776+00:00",
     "level": "yellow",
     "name": "Solara Airfryer Oven 4.5 L",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
   "homeKitchenAppliances-552": {
     "firstFlaggedAt": "2026-10-20T09:07:06.779600+00:00",
     "history": [
-      "2026-10-20T09:07:06.779602+00:00 green->yellow: unresolved"
+      "2026-10-20T09:07:06.779602+00:00 green->yellow: unresolved",
+      "2026-11-07T03:27:20.684319+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:35:03.055942+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-07T03:42:39.410779+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.779601+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410778+00:00",
     "level": "yellow",
     "name": "Solara Cold Press Juicer",
-    "reason": "unresolved",
+    "reason": "compare_at_price disagrees across variants",
     "source": "tier_a_shopify",
     "tier": "A"
   },
@@ -4581,9 +3877,12 @@
   "homeKitchenAppliances-85": {
     "firstFlaggedAt": "2026-10-20T09:07:06.777904+00:00",
     "history": [
-      "2026-10-20T09:07:06.777906+00:00 green->yellow: flagged (exceeds threshold, not applied)"
+      "2026-10-20T09:07:06.777906+00:00 green->yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:27:20.684185+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:35:03.055760+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-07T03:42:39.410678+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.777905+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410675+00:00",
     "level": "yellow",
     "name": "Sunflame Genial 75cm Wall Mounted Chimney",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -4775,9 +4074,12 @@
   "sportsFitnessOutdoor-25": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780244+00:00",
     "history": [
-      "2026-10-20T09:07:06.780247+00:00 green->yellow: HTTP Error 404: Not Found"
+      "2026-10-20T09:07:06.780247+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:27:20.684426+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056040+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410877+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780245+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410876+00:00",
     "level": "yellow",
     "name": "Lifelong LLTM183 Fit Pro Manual Incline Walking Machine",
     "reason": "HTTP Error 404: Not Found",
@@ -4787,9 +4089,12 @@
   "sportsFitnessOutdoor-31": {
     "firstFlaggedAt": "2026-10-20T09:07:06.780248+00:00",
     "history": [
-      "2026-10-20T09:07:06.780251+00:00 green->yellow: HTTP Error 404: Not Found"
+      "2026-10-20T09:07:06.780251+00:00 green->yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:27:20.684428+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:35:03.056042+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-07T03:42:39.410879+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-10-20T09:07:06.780250+00:00",
+    "lastSeenAt": "2026-11-07T03:42:39.410878+00:00",
     "level": "yellow",
     "name": "Lifelong LLPB02 Pull Up Bar",
     "reason": "HTTP Error 404: Not Found",

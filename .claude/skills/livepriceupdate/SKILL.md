@@ -179,6 +179,23 @@ runs itself daily on a cron regardless of whether this skill is invoked.
 
 ### Calibration log — what's actually been tested and fixed
 
+- **2026-11-07 — multiVariant false positives: checked selling-price
+  agreement, not `compare_at_price` agreement.** A product was flagged
+  ambiguous whenever variants' selling prices disagreed (colour/
+  engraving options), even when every variant agreed on the same real
+  MRP (`compare_at_price`). 121 of 178 multiVariant flags were
+  `boat-lifestyle.com` alone for exactly this reason. Fixed to check
+  `compare_at_price` agreement instead — genuine ambiguity (MRP itself
+  disagrees across variants, or no MRP concept exists anywhere and
+  selling price varies by weight/size) still correctly stays flagged.
+  Two related fixes same day: a store can report `compare_at_price:
+  "0.00"` instead of null (truthy string, was read as "MRP is ₹0";
+  `sunflame.com`), and an MRP below the current selling price is never
+  trustworthy (`coconutlife.in`'s backwards-MRP products — same fix
+  already applied once manually on the Notion Catalog Staging side).
+  Cut the stuck "unresolved" yellow-queue bucket from 178 to 83; most of
+  the 95 resolved were already-correct prices that had simply never
+  been allowed to confirm themselves.
 - **2026-10-14 — crash on `to_number()`.** `int(x)` was called directly
   on Shopify's raw decimal string (`"7999.00"`), which Python's `int()`
   can't parse — needs `float()` first. Passed a syntax check but was
