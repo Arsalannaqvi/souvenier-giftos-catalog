@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-07T09:15:08.839419+00:00",
+  "checkedAt": "2026-11-08T09:32:09.896255+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
@@ -602,8 +602,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1199,
-        1399
+        1399,
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
     },
