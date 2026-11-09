@@ -31,9 +31,10 @@
       "2026-10-20T09:07:06.780267+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:27:20.684441+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056054+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410890+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410890+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713091+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410890+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713089+00:00",
     "level": "yellow",
     "name": "M&S Tipping Polo T-shirt",
     "reason": "HTTP Error 404: Not Found",
@@ -46,9 +47,10 @@
       "2026-10-20T09:07:06.780271+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:27:20.684443+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056057+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410893+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410893+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713095+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410892+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713093+00:00",
     "level": "yellow",
     "name": "M&S Sweatshirt",
     "reason": "HTTP Error 404: Not Found",
@@ -73,9 +75,10 @@
     "history": [
       "2026-11-07T03:27:20.684446+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056059+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410937+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410937+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713098+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410934+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713097+00:00",
     "level": "yellow",
     "name": "Puma Woven Track Jacket",
     "reason": "HTTP Error 404: Not Found",
@@ -126,9 +129,10 @@
     "history": [
       "2026-11-07T03:27:20.684449+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056061+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410939+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410939+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713101+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410938+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713100+00:00",
     "level": "yellow",
     "name": "M&S Plain Polo T-shirt",
     "reason": "HTTP Error 404: Not Found",
@@ -140,9 +144,10 @@
     "history": [
       "2026-11-07T03:27:20.684453+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056063+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410942+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410942+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713104+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410941+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713103+00:00",
     "level": "yellow",
     "name": "M&S Plain Polo T-shirt",
     "reason": "HTTP Error 404: Not Found",
@@ -167,9 +172,10 @@
     "history": [
       "2026-11-07T03:27:20.684456+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056065+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410944+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410944+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713107+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410943+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713106+00:00",
     "level": "yellow",
     "name": "M&S Plain Polo T-shirt",
     "reason": "HTTP Error 404: Not Found",
@@ -181,9 +187,10 @@
     "history": [
       "2026-11-07T03:27:20.684389+00:00 green->yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056007+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410846+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410846+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713026+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410845+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713025+00:00",
     "level": "yellow",
     "name": "Campus Promote",
     "reason": "compare_at_price disagrees across variants",
@@ -195,9 +202,10 @@
     "history": [
       "2026-11-07T03:27:20.684392+00:00 green->yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056009+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410848+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410848+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713029+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410847+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713028+00:00",
     "level": "yellow",
     "name": "Campus Level",
     "reason": "compare_at_price disagrees across variants",
@@ -209,9 +217,10 @@
     "history": [
       "2026-11-07T03:27:20.684395+00:00 green->yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056011+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410851+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410851+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713032+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410849+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713031+00:00",
     "level": "yellow",
     "name": "Campus Bonus",
     "reason": "compare_at_price disagrees across variants",
@@ -341,9 +350,10 @@
       "2026-10-20T09:07:06.780255+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)",
       "2026-11-07T03:27:20.684435+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
       "2026-11-07T03:35:03.056047+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
-      "2026-11-07T03:42:39.410884+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
+      "2026-11-07T03:42:39.410884+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-09T15:58:39.713081+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410883+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713080+00:00",
     "level": "yellow",
     "name": "Scott Organic Polo T-shirt",
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
@@ -408,9 +418,10 @@
       "2026-10-20T09:07:06.780259+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)",
       "2026-11-07T03:27:20.684437+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
       "2026-11-07T03:35:03.056050+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
-      "2026-11-07T03:42:39.410886+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
+      "2026-11-07T03:42:39.410886+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-09T15:58:39.713085+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410885+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713083+00:00",
     "level": "yellow",
     "name": "Scott -Organic Polo T-shirt Women",
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
@@ -423,9 +434,10 @@
       "2026-10-20T09:07:06.780263+00:00 green->yellow: not JSON (content-type=text/html; charset=UTF-8)",
       "2026-11-07T03:27:20.684439+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
       "2026-11-07T03:35:03.056052+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
-      "2026-11-07T03:42:39.410888+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
+      "2026-11-07T03:42:39.410888+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)",
+      "2026-11-09T15:58:39.713088+00:00 still unresolved at yellow: not JSON (content-type=text/html; charset=UTF-8)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410887+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713086+00:00",
     "level": "yellow",
     "name": "Scott Basic Round Neck T-shirt",
     "reason": "not JSON (content-type=text/html; charset=UTF-8)",
@@ -464,9 +476,10 @@
       "2026-10-20T09:07:06.779520+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684284+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055890+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410748+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410748+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712865+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410747+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712863+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC07 The Wayfarer",
     "reason": "compare_at_price disagrees across variants",
@@ -608,9 +621,10 @@
     "history": [
       "2026-11-07T03:27:20.684472+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056074+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410955+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410955+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713119+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410954+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713117+00:00",
     "level": "yellow",
     "name": "Puma Gym duffle Bag",
     "reason": "HTTP Error 404: Not Found",
@@ -909,9 +923,10 @@
       "2026-10-20T09:07:06.779497+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684272+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055875+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410734+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410734+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712847+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410733+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712845+00:00",
     "level": "yellow",
     "name": "Fur Jaden The Voyager SC05 Small",
     "reason": "compare_at_price disagrees across variants",
@@ -924,9 +939,10 @@
       "2026-10-20T09:07:06.779501+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684274+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055877+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410737+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410737+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712850+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410736+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712849+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC05 The Voyager Medium",
     "reason": "compare_at_price disagrees across variants",
@@ -939,9 +955,10 @@
       "2026-10-20T09:07:06.779505+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684275+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055880+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410739+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410739+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712853+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410738+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712852+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC14 The Puffer Pop",
     "reason": "compare_at_price disagrees across variants",
@@ -954,9 +971,10 @@
       "2026-10-20T09:07:06.779509+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684277+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055882+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410741+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410741+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712856+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410740+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712854+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC09 Pro Laptop Trolley Bag",
     "reason": "compare_at_price disagrees across variants",
@@ -969,9 +987,10 @@
       "2026-10-20T09:07:06.779513+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684279+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055884+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410744+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410744+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712859+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410742+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712857+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC09 The Aviator",
     "reason": "compare_at_price disagrees across variants",
@@ -984,9 +1003,10 @@
       "2026-10-20T09:07:06.779517+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684282+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055888+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410746+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410746+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712862+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410745+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712860+00:00",
     "level": "yellow",
     "name": "Fur Jaden SC07 Laptop",
     "reason": "compare_at_price disagrees across variants",
@@ -1064,9 +1084,10 @@
       "2026-10-20T09:07:06.780204+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684400+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056017+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410855+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410855+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713038+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410854+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713037+00:00",
     "level": "yellow",
     "name": "Troy Laptop Sleeve (14 / 16 inch)",
     "reason": "compare_at_price disagrees across variants",
@@ -1079,9 +1100,10 @@
       "2026-10-20T09:07:06.780207+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684402+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056019+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410857+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410857+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713041+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410856+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713040+00:00",
     "level": "yellow",
     "name": "WA03 USB Bluetooth Adapter (BT 5.0)",
     "reason": "compare_at_price disagrees across variants",
@@ -1093,9 +1115,10 @@
     "history": [
       "2026-11-07T03:27:20.684212+00:00 green->yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055780+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410694+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410694+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712767+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410693+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712765+00:00",
     "level": "yellow",
     "name": "HDMI to VGA 2M Cable with Chipset",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -1108,9 +1131,10 @@
       "2026-10-20T09:07:06.780211+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684404+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056021+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410859+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410859+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713044+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410858+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713043+00:00",
     "level": "yellow",
     "name": "AC02 Lightning to AUX Adapter",
     "reason": "compare_at_price disagrees across variants",
@@ -1123,9 +1147,10 @@
       "2026-10-20T09:07:06.780215+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684406+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056023+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410861+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410861+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713047+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410860+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713046+00:00",
     "level": "yellow",
     "name": "Vista Laptop Bag (14 / 16 inch)",
     "reason": "compare_at_price disagrees across variants",
@@ -1138,9 +1163,10 @@
       "2026-10-20T09:07:06.780219+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684408+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056025+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410863+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410863+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713050+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410862+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713049+00:00",
     "level": "yellow",
     "name": "Armour Laptop Bag (14 / 16 inch)",
     "reason": "compare_at_price disagrees across variants",
@@ -1152,9 +1178,10 @@
     "history": [
       "2026-11-07T03:27:20.684411+00:00 green->yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056027+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410865+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410865+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713053+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410864+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713052+00:00",
     "level": "yellow",
     "name": "Elvis Bluetooth Speaker",
     "reason": "compare_at_price disagrees across variants",
@@ -1167,9 +1194,10 @@
       "2026-10-20T09:07:06.780223+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684414+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056029+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410867+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410867+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713056+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410866+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713055+00:00",
     "level": "yellow",
     "name": "AC01 Type C to AUX Adapter",
     "reason": "compare_at_price disagrees across variants",
@@ -1182,9 +1210,10 @@
       "2026-10-20T09:07:06.780196+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684202+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055773+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410691+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410691+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712762+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410689+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712760+00:00",
     "level": "yellow",
     "name": "C32 Type C to Type C Cable (Nylon Braided)",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -1197,9 +1226,10 @@
       "2026-10-20T09:07:06.780200+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684398+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056013+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410853+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410853+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713035+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410852+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713034+00:00",
     "level": "yellow",
     "name": "WA04 USB WiFi Adapter (150 Mbps)",
     "reason": "compare_at_price disagrees across variants",
@@ -1290,9 +1320,10 @@
       "2026-10-20T09:07:06.779472+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684263+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055866+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410723+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410723+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712833+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410722+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712831+00:00",
     "level": "yellow",
     "name": "Tintbox Borosilicate Glass Brew Cup with Silicon Lid & Grip 350ml",
     "reason": "compare_at_price disagrees across variants",
@@ -1305,9 +1336,10 @@
       "2026-10-20T09:07:06.779476+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684168+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055748+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410666+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410666+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712726+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410651+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712708+00:00",
     "level": "yellow",
     "name": "TintBox Glass Sipper 1ltr Bottle",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -1320,9 +1352,10 @@
       "2026-10-20T09:07:06.779480+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684173+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055753+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410671+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410671+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712732+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410669+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712730+00:00",
     "level": "yellow",
     "name": "TintBox Borosilicate 750 ml Bottle",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -1387,9 +1420,10 @@
       "2026-10-20T09:07:06.779483+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684265+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055868+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410725+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410725+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712837+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410724+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712835+00:00",
     "level": "yellow",
     "name": "Solara Insulated water bottles",
     "reason": "compare_at_price disagrees across variants",
@@ -1402,9 +1436,10 @@
       "2026-10-20T09:07:06.779487+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684268+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055870+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410729+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410729+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712840+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410728+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712839+00:00",
     "level": "yellow",
     "name": "Solara Insulated water bottles 1 Ltr",
     "reason": "compare_at_price disagrees across variants",
@@ -1430,9 +1465,10 @@
       "2026-10-20T09:07:06.779491+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684270+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055872+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410732+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410732+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712843+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410731+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712842+00:00",
     "level": "yellow",
     "name": "Milton Thermosteel Insulated Coffee Mug",
     "reason": "compare_at_price disagrees across variants",
@@ -1457,9 +1493,10 @@
     "history": [
       "2026-11-07T03:27:20.684459+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056067+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410946+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410946+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713110+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410945+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713109+00:00",
     "level": "yellow",
     "name": "Tamta Tamra #P006  950ml Bottle",
     "reason": "HTTP Error 404: Not Found",
@@ -1471,9 +1508,10 @@
     "history": [
       "2026-11-07T03:27:20.684464+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056069+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410948+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410948+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713113+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410947+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713112+00:00",
     "level": "yellow",
     "name": "Tamta Tamra #P001 950ml Bottle",
     "reason": "HTTP Error 404: Not Found",
@@ -1485,9 +1523,10 @@
     "history": [
       "2026-11-07T03:27:20.684468+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056072+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410950+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410950+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713116+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410949+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713115+00:00",
     "level": "yellow",
     "name": "Tamta Tatva #H001 950ml Bottle",
     "reason": "HTTP Error 404: Not Found",
@@ -1499,9 +1538,10 @@
     "history": [
       "2026-11-07T03:27:20.684431+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056045+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410882+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410882+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713078+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410881+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713076+00:00",
     "level": "yellow",
     "name": "Loyka Royal Peach Darwaza Box",
     "reason": "HTTP Error 404: Not Found",
@@ -1591,9 +1631,10 @@
     "history": [
       "2026-11-07T03:27:20.684222+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055785+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410700+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410700+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712776+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410698+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712774+00:00",
     "level": "yellow",
     "name": "Notty Nuts Assorted Mixed Nuts 200g",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1605,9 +1646,10 @@
     "history": [
       "2026-11-07T03:27:20.684226+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055842+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410702+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410702+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712779+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410701+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712778+00:00",
     "level": "yellow",
     "name": "Notty Nuts Cashews Roasted and Salted",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1619,9 +1661,10 @@
     "history": [
       "2026-11-07T03:27:20.684229+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055845+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410704+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410704+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712782+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410703+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712781+00:00",
     "level": "yellow",
     "name": "Notty Nuts Almond Roasted and Salted 250gms",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1633,9 +1676,10 @@
     "history": [
       "2026-11-07T03:27:20.684233+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055847+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410707+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410707+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712785+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410706+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712784+00:00",
     "level": "yellow",
     "name": "Notty Nuts Classic Cashew Nuts 250g",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1647,9 +1691,10 @@
     "history": [
       "2026-11-07T03:27:20.684236+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055850+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410708+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410708+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712789+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410708+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712787+00:00",
     "level": "yellow",
     "name": "Notty Nuts Classic American Almond 250g",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1661,9 +1706,10 @@
     "history": [
       "2026-11-07T03:27:20.684240+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055852+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410710+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410710+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712791+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410710+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712790+00:00",
     "level": "yellow",
     "name": "Notty Nuts Dried Strawberry 250gms",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1675,9 +1721,10 @@
     "history": [
       "2026-11-07T03:27:20.684244+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055855+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410712+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410712+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712794+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410711+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712793+00:00",
     "level": "yellow",
     "name": "Notty Nuts Dried Cranberry Slice 250gms",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1689,9 +1736,10 @@
     "history": [
       "2026-11-07T03:27:20.684249+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055857+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410714+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410714+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712797+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410713+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712796+00:00",
     "level": "yellow",
     "name": "Notty Nuts Dried Blueberries 250gms",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1703,9 +1751,10 @@
     "history": [
       "2026-11-07T03:27:20.684253+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055859+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410717+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410717+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712800+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410716+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712799+00:00",
     "level": "yellow",
     "name": "Notty Nuts Dried Mixed Fruit 250g",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1717,9 +1766,10 @@
     "history": [
       "2026-11-07T03:27:20.684256+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055861+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410718+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410718+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712804+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410718+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712802+00:00",
     "level": "yellow",
     "name": "Notty Nuts Dried Kiwi 250gms",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1731,9 +1781,10 @@
     "history": [
       "2026-11-07T03:27:20.684260+00:00 green->yellow: no compare_at_price on any variant and selling price disagrees",
       "2026-11-07T03:35:03.055863+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
-      "2026-11-07T03:42:39.410721+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
+      "2026-11-07T03:42:39.410721+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees",
+      "2026-11-09T15:58:39.712807+00:00 still unresolved at yellow: no compare_at_price on any variant and selling price disagrees"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410720+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712805+00:00",
     "level": "yellow",
     "name": "Notty Nuts Peri Peri Cashews 100g",
     "reason": "no compare_at_price on any variant and selling price disagrees",
@@ -1746,9 +1797,10 @@
       "2026-10-20T09:07:06.779524+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684286+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055892+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410750+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410750+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712870+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410749+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712867+00:00",
     "level": "yellow",
     "name": "Noise ColorFit Pro 5 Max Smart Watch",
     "reason": "compare_at_price disagrees across variants",
@@ -2189,9 +2241,10 @@
       "2026-10-20T09:07:06.779528+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684288+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055894+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410753+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410753+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712874+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410752+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712872+00:00",
     "level": "yellow",
     "name": "Xech iSoothe Eye Massager With Wireless Speaker",
     "reason": "compare_at_price disagrees across variants",
@@ -2204,9 +2257,10 @@
       "2026-10-20T09:07:06.779532+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684290+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055911+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410755+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410755+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712877+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410754+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712875+00:00",
     "level": "yellow",
     "name": "Xech iSoothe (Chrome) Eye Massager With Wireless Speaker",
     "reason": "compare_at_price disagrees across variants",
@@ -2219,9 +2273,10 @@
       "2026-10-20T09:07:06.780275+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:27:20.684176+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055757+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410673+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410673+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712736+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410672+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712734+00:00",
     "level": "yellow",
     "name": "Xech Mini Chef Electronic Multi Cooker",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -2234,9 +2289,10 @@
       "2026-10-20T09:07:06.779605+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684188+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055763+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410681+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410681+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712747+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410680+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712745+00:00",
     "level": "yellow",
     "name": "boAt Rockerz 255 Pro+",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -2249,9 +2305,10 @@
       "2026-10-20T09:07:06.779622+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684322+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055944+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410781+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410781+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712915+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410780+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712913+00:00",
     "level": "yellow",
     "name": "Noise ColorFit Pro 5 Max Smartwatch",
     "reason": "compare_at_price disagrees across variants",
@@ -2264,9 +2321,10 @@
       "2026-10-20T09:07:06.779630+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684190+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055766+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410683+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410683+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712751+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410682+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712749+00:00",
     "level": "yellow",
     "name": "NoiseFit Halo 2 Smartwatch",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -2279,9 +2337,10 @@
       "2026-10-20T09:07:06.779653+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684324+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055946+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410784+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410784+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712918+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410783+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712917+00:00",
     "level": "yellow",
     "name": "boAt Storm Call 3",
     "reason": "compare_at_price disagrees across variants",
@@ -2294,9 +2353,10 @@
       "2026-10-20T09:07:06.779657+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684326+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055949+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410788+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410788+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712921+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410787+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712920+00:00",
     "level": "yellow",
     "name": "boAt Ultima Aeris",
     "reason": "compare_at_price disagrees across variants",
@@ -2309,9 +2369,10 @@
       "2026-10-20T09:07:06.779691+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684328+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055951+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410790+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410790+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712924+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410789+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712923+00:00",
     "level": "yellow",
     "name": "boAt Lunar Vista",
     "reason": "compare_at_price disagrees across variants",
@@ -2324,9 +2385,10 @@
       "2026-10-20T09:07:06.779709+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684330+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055953+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410792+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410792+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712927+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410791+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712926+00:00",
     "level": "yellow",
     "name": "boAt Wave Call 3",
     "reason": "compare_at_price disagrees across variants",
@@ -2339,9 +2401,10 @@
       "2026-10-20T09:07:06.779721+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684333+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055956+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410794+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410794+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712930+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410793+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712929+00:00",
     "level": "yellow",
     "name": "boAt Chrome Iris",
     "reason": "compare_at_price disagrees across variants",
@@ -2354,9 +2417,10 @@
       "2026-10-20T09:07:06.779724+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684335+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055958+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410797+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410797+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712933+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410796+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712931+00:00",
     "level": "yellow",
     "name": "boAt Valour Watch 1 GPS",
     "reason": "compare_at_price disagrees across variants",
@@ -2369,9 +2433,10 @@
       "2026-10-20T09:07:06.779732+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684337+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055960+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410799+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410799+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712936+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410798+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712935+00:00",
     "level": "yellow",
     "name": "boAt Wave Astra 4",
     "reason": "compare_at_price disagrees across variants",
@@ -2384,9 +2449,10 @@
       "2026-10-20T09:07:06.779736+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684339+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055962+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410801+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410801+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712939+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410800+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712938+00:00",
     "level": "yellow",
     "name": "boAt Wave Sigma 3",
     "reason": "compare_at_price disagrees across variants",
@@ -2399,9 +2465,10 @@
       "2026-10-20T09:07:06.779923+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684341+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055965+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410803+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410803+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712942+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410802+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712941+00:00",
     "level": "yellow",
     "name": "boAt Ultima Ember 2",
     "reason": "compare_at_price disagrees across variants",
@@ -2414,9 +2481,10 @@
       "2026-10-20T09:07:06.779927+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684343+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055968+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410805+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410805+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712945+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410804+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712943+00:00",
     "level": "yellow",
     "name": "boAt Storm Call 4",
     "reason": "compare_at_price disagrees across variants",
@@ -2429,9 +2497,10 @@
       "2026-10-20T09:07:06.779930+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684346+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055970+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410807+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410807+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712948+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410806+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712946+00:00",
     "level": "yellow",
     "name": "boAt Wave Sigma 3 Curv",
     "reason": "compare_at_price disagrees across variants",
@@ -2444,9 +2513,10 @@
       "2026-10-20T09:07:06.779934+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684348+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055972+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410809+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410809+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712950+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410808+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712949+00:00",
     "level": "yellow",
     "name": "boAt Lunar Orbit 2",
     "reason": "compare_at_price disagrees across variants",
@@ -2459,9 +2529,10 @@
       "2026-10-20T09:07:06.779940+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684350+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055974+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410811+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410811+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712953+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410810+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712952+00:00",
     "level": "yellow",
     "name": "boAt Valour Watch 1R",
     "reason": "compare_at_price disagrees across variants",
@@ -2474,9 +2545,10 @@
       "2026-10-20T09:07:06.779944+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684354+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055976+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410813+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410813+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712956+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410812+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712955+00:00",
     "level": "yellow",
     "name": "boAt Chrome Ivory",
     "reason": "compare_at_price disagrees across variants",
@@ -2489,9 +2561,10 @@
       "2026-10-20T09:07:06.779948+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684356+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055978+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410815+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410815+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712959+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410814+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712958+00:00",
     "level": "yellow",
     "name": "boAt Storm Verge",
     "reason": "compare_at_price disagrees across variants",
@@ -2504,9 +2577,10 @@
       "2026-10-20T09:07:06.779952+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684359+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055980+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410817+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410817+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712981+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410816+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712961+00:00",
     "level": "yellow",
     "name": "boAt Ultima Summit",
     "reason": "compare_at_price disagrees across variants",
@@ -2519,9 +2593,10 @@
       "2026-10-20T09:07:06.779956+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684361+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055982+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410819+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410819+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712985+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410818+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712984+00:00",
     "level": "yellow",
     "name": "boAt Lunar Discovery Neo",
     "reason": "compare_at_price disagrees across variants",
@@ -2534,9 +2609,10 @@
       "2026-10-20T09:07:06.779959+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684363+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055984+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410821+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410821+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712988+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410820+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712987+00:00",
     "level": "yellow",
     "name": "boAt Chrome Eon",
     "reason": "compare_at_price disagrees across variants",
@@ -2549,9 +2625,10 @@
       "2026-10-20T09:07:06.779965+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684365+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055986+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410823+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410823+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712991+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410822+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712990+00:00",
     "level": "yellow",
     "name": "boAt Chrome Endeavour",
     "reason": "compare_at_price disagrees across variants",
@@ -2564,9 +2641,10 @@
       "2026-10-20T09:07:06.779972+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684367+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055987+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410825+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410825+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712994+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410824+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712993+00:00",
     "level": "yellow",
     "name": "boAt Lunar Discovery Pro",
     "reason": "compare_at_price disagrees across variants",
@@ -2579,9 +2657,10 @@
       "2026-10-20T09:07:06.779978+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684370+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055989+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410827+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410827+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712997+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410826+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712996+00:00",
     "level": "yellow",
     "name": "boAt Storm Infinity Max",
     "reason": "compare_at_price disagrees across variants",
@@ -2594,9 +2673,10 @@
       "2026-10-20T09:07:06.780029+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684372+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055991+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410829+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410829+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713000+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410828+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712999+00:00",
     "level": "yellow",
     "name": "boAt Storm Infinity Plus",
     "reason": "compare_at_price disagrees across variants",
@@ -2609,9 +2689,10 @@
       "2026-10-20T09:07:06.780033+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684374+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055993+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410831+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410831+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713003+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410830+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713002+00:00",
     "level": "yellow",
     "name": "boAt Chrome Horizon",
     "reason": "compare_at_price disagrees across variants",
@@ -2624,9 +2705,10 @@
       "2026-10-20T09:07:06.780040+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684376+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055995+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410833+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410833+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713008+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410832+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713006+00:00",
     "level": "yellow",
     "name": "boAt Storm Infinity",
     "reason": "compare_at_price disagrees across variants",
@@ -2639,9 +2721,10 @@
       "2026-10-20T09:07:06.780044+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684378+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055997+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410835+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410835+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713011+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410834+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713010+00:00",
     "level": "yellow",
     "name": "boAt Ultima Prime",
     "reason": "compare_at_price disagrees across variants",
@@ -2654,9 +2737,10 @@
       "2026-10-20T09:07:06.780048+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684380+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055999+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410837+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410837+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713014+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410837+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713013+00:00",
     "level": "yellow",
     "name": "boAt Ultima Ember",
     "reason": "compare_at_price disagrees across variants",
@@ -2669,9 +2753,10 @@
       "2026-10-20T09:07:06.780068+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684382+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056001+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410840+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410840+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713017+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410839+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713016+00:00",
     "level": "yellow",
     "name": "boAt Lunar Orbit",
     "reason": "compare_at_price disagrees across variants",
@@ -2684,9 +2769,10 @@
       "2026-10-20T09:07:06.780083+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684384+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056002+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410842+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410842+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713020+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410841+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713019+00:00",
     "level": "yellow",
     "name": "boAt Storm Call 3 Plus",
     "reason": "compare_at_price disagrees across variants",
@@ -2699,9 +2785,10 @@
       "2026-10-20T09:07:06.780099+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684386+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056005+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410844+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410844+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713023+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410843+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713022+00:00",
     "level": "yellow",
     "name": "boAt Wave Fury",
     "reason": "compare_at_price disagrees across variants",
@@ -2713,9 +2800,10 @@
     "history": [
       "2026-11-07T03:27:20.684197+00:00 green->yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055768+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410686+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410686+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712755+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410685+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712753+00:00",
     "level": "yellow",
     "name": "Mag Mount",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -2871,9 +2959,10 @@
       "2026-10-20T09:07:06.779462+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684215+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055782+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410697+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410697+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712772+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410696+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712771+00:00",
     "level": "yellow",
     "name": "Xech X-Board Pro A3 Size Led Backlit Board",
     "reason": "compare_at_price disagrees across variants",
@@ -2925,9 +3014,10 @@
       "2026-10-20T09:07:06.780227+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684416+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056031+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410869+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410869+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713059+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410868+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713058+00:00",
     "level": "yellow",
     "name": "Godfather Beard Oil",
     "reason": "compare_at_price disagrees across variants",
@@ -2940,9 +3030,10 @@
       "2026-10-20T09:07:06.780231+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684418+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056033+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410871+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410871+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713062+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410870+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713061+00:00",
     "level": "yellow",
     "name": "Ultraglow Face Cream (SPF-30)",
     "reason": "compare_at_price disagrees across variants",
@@ -2955,9 +3046,10 @@
       "2026-10-20T09:07:06.780237+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684421+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056036+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410873+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410873+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713065+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410872+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713064+00:00",
     "level": "yellow",
     "name": "Dandruff Control Sulphate Free Shampoo",
     "reason": "compare_at_price disagrees across variants",
@@ -2970,9 +3062,10 @@
       "2026-10-20T09:07:06.780241+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684423+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.056038+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410875+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410875+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.713068+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410874+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713067+00:00",
     "level": "yellow",
     "name": "Activated Charcoal Face Scrub",
     "reason": "compare_at_price disagrees across variants",
@@ -3659,9 +3752,10 @@
       "2026-10-20T09:07:06.780281+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:27:20.684474+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056076+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410958+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410958+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713122+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410956+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713120+00:00",
     "level": "yellow",
     "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
     "reason": "HTTP Error 404: Not Found",
@@ -3687,9 +3781,10 @@
       "2026-10-20T09:07:06.779535+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684292+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055916+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410757+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410757+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712879+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410756+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712878+00:00",
     "level": "yellow",
     "name": "Solara Hand Blender Portable (Blend Kwik Pro)",
     "reason": "compare_at_price disagrees across variants",
@@ -3702,9 +3797,10 @@
       "2026-10-20T09:07:06.779539+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684296+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055919+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410759+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410759+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712882+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410758+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712881+00:00",
     "level": "yellow",
     "name": "Solara Sterra - Triply Cookware Fry Pan",
     "reason": "compare_at_price disagrees across variants",
@@ -3717,9 +3813,10 @@
       "2026-10-20T09:07:06.779543+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684298+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055922+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410761+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410761+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712885+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410760+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712884+00:00",
     "level": "yellow",
     "name": "Solara Montclaire Fry Pan",
     "reason": "compare_at_price disagrees across variants",
@@ -3732,9 +3829,10 @@
       "2026-10-20T09:07:06.779547+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684300+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055924+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410764+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410764+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712888+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410763+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712887+00:00",
     "level": "yellow",
     "name": "Solara Montclaire Kadai",
     "reason": "compare_at_price disagrees across variants",
@@ -3747,9 +3845,10 @@
       "2026-10-20T09:07:06.779551+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684303+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055927+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410765+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410765+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712891+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410765+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712890+00:00",
     "level": "yellow",
     "name": "Solara Ceremic Cookware - Fry Pan",
     "reason": "compare_at_price disagrees across variants",
@@ -3762,9 +3861,10 @@
       "2026-10-20T09:07:06.779577+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684305+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055929+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410767+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410767+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712894+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410767+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712893+00:00",
     "level": "yellow",
     "name": "Solara Ceremic Cookware - Kadai with Lid",
     "reason": "compare_at_price disagrees across variants",
@@ -3777,9 +3877,10 @@
       "2026-10-20T09:07:06.779581+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684307+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055931+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410769+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410769+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712897+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410769+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712895+00:00",
     "level": "yellow",
     "name": "Solara Cast Iron-Paniyaram Pan",
     "reason": "compare_at_price disagrees across variants",
@@ -3792,9 +3893,10 @@
       "2026-10-20T09:07:06.779585+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684309+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055933+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410771+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410771+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712899+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410770+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712898+00:00",
     "level": "yellow",
     "name": "Solara Cast Iron Kadhai- 10 Inch",
     "reason": "compare_at_price disagrees across variants",
@@ -3807,9 +3909,10 @@
       "2026-10-20T09:07:06.779588+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684312+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055935+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410773+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410773+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712902+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410772+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712901+00:00",
     "level": "yellow",
     "name": "Solara Crownstone Cast Iron Dosa Tawa 12 inch",
     "reason": "compare_at_price disagrees across variants",
@@ -3822,9 +3925,10 @@
       "2026-10-20T09:07:06.779592+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684315+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055938+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410775+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410775+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712904+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410774+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712903+00:00",
     "level": "yellow",
     "name": "Solara Airfryer Oven 12 L",
     "reason": "compare_at_price disagrees across variants",
@@ -3837,9 +3941,10 @@
       "2026-10-20T09:07:06.779598+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684317+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055940+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410777+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410777+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712909+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410776+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712907+00:00",
     "level": "yellow",
     "name": "Solara Airfryer Oven 4.5 L",
     "reason": "compare_at_price disagrees across variants",
@@ -3852,9 +3957,10 @@
       "2026-10-20T09:07:06.779602+00:00 green->yellow: unresolved",
       "2026-11-07T03:27:20.684319+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
       "2026-11-07T03:35:03.055942+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
-      "2026-11-07T03:42:39.410779+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
+      "2026-11-07T03:42:39.410779+00:00 still unresolved at yellow: compare_at_price disagrees across variants",
+      "2026-11-09T15:58:39.712912+00:00 still unresolved at yellow: compare_at_price disagrees across variants"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410778+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712910+00:00",
     "level": "yellow",
     "name": "Solara Cold Press Juicer",
     "reason": "compare_at_price disagrees across variants",
@@ -3880,9 +3986,10 @@
       "2026-10-20T09:07:06.777906+00:00 green->yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:27:20.684185+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
       "2026-11-07T03:35:03.055760+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
-      "2026-11-07T03:42:39.410678+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
+      "2026-11-07T03:42:39.410678+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)",
+      "2026-11-09T15:58:39.712742+00:00 still unresolved at yellow: flagged (exceeds threshold, not applied)"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410675+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.712739+00:00",
     "level": "yellow",
     "name": "Sunflame Genial 75cm Wall Mounted Chimney",
     "reason": "flagged (exceeds threshold, not applied)",
@@ -4077,9 +4184,10 @@
       "2026-10-20T09:07:06.780247+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:27:20.684426+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056040+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410877+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410877+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713071+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410876+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713070+00:00",
     "level": "yellow",
     "name": "Lifelong LLTM183 Fit Pro Manual Incline Walking Machine",
     "reason": "HTTP Error 404: Not Found",
@@ -4092,9 +4200,10 @@
       "2026-10-20T09:07:06.780251+00:00 green->yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:27:20.684428+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
       "2026-11-07T03:35:03.056042+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
-      "2026-11-07T03:42:39.410879+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
+      "2026-11-07T03:42:39.410879+00:00 still unresolved at yellow: HTTP Error 404: Not Found",
+      "2026-11-09T15:58:39.713074+00:00 still unresolved at yellow: HTTP Error 404: Not Found"
     ],
-    "lastSeenAt": "2026-11-07T03:42:39.410878+00:00",
+    "lastSeenAt": "2026-11-09T15:58:39.713073+00:00",
     "level": "yellow",
     "name": "Lifelong LLPB02 Pull Up Bar",
     "reason": "HTTP Error 404: Not Found",

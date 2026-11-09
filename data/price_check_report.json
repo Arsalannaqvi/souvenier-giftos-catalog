@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-11-07T03:42:39.403055+00:00",
+  "checkedAt": "2026-11-09T15:58:39.703781+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
   "unchanged": 1425,
   "applied": [
     {
-      "id": "coconut-263",
-      "name": "MP03 Mouse Pad",
-      "domain": "coconutlife.in",
-      "storedPrice": 299,
-      "livePrice": 359,
-      "liveMrp": 299,
-      "sourceUrl": "https://coconutlife.in/products/mp03-5mm-mouse-pad",
-      "deltaPct": 20.1,
+      "id": "electronics-535",
+      "name": "boAt Airdopes Ace Gen 2",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 5990,
+      "livePrice": 6090,
+      "liveMrp": 5990,
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace-gen-2-true-wireless-earbuds",
+      "deltaPct": 1.7,
       "action": "applied"
     }
   ],
@@ -67,7 +67,7 @@
       "name": "boAt Rockerz 255 Pro+",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 899,
+      "livePrice": 1199,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
       "deltaPct": 33.0,
