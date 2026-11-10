@@ -1,22 +1,10 @@
 {
-  "checkedAt": "2026-11-09T10:15:09.103454+00:00",
+  "checkedAt": "2026-11-10T10:26:11.596367+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1315,
-  "applied": [
-    {
-      "id": "electronics-614",
-      "name": "boAt Bassheads 105",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 899,
-      "livePrice": 899,
-      "liveMrp": 999,
-      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-105",
-      "deltaPct": 11.1,
-      "action": "applied"
-    }
-  ],
+  "unchanged": 1316,
+  "applied": [],
   "flagged": [
     {
       "id": "drinkware-124",
@@ -2028,24 +2016,13 @@
       "sourceUrl": "https://boat-lifestyle.com/products/stone-190"
     },
     {
-      "id": "electronics-721",
-      "name": "Energyshroom PB600",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        2199,
-        2599
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb600-power-bank"
-    },
-    {
       "id": "electronics-735",
       "name": "Energyshroom PB435 Turbo",
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1799,
-        1868
+        2199,
+        2268
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb435-turbo-20000mah-power-bank"
     },
@@ -2055,8 +2032,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        1399,
-        1468
+        1799,
+        1868
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb400-powerbank-with-20000mah-battery-capacity-with-smart-ic-protection"
     },
@@ -2068,8 +2045,8 @@
       "variantPrices": [
         1099,
         1108,
-        1199,
-        1268
+        1299,
+        1368
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/energyshroom-pb300-10000mah-power-bank"
     },
@@ -2290,6 +2267,12 @@
       "name": "Lifelong LLPB02 Pull Up Bar",
       "domain": "www.lifelongindiaonline.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "edible-33",
