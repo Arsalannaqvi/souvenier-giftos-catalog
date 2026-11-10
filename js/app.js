@@ -58,6 +58,9 @@
     brandByProduct: {}, // productId -> brand name (from data/brands.json, optional)
     kits: [], // curated multi-product kits (from data/kits.json, optional)
     filters: { minPrice: null, maxPrice: null, brands: new Set() },
+    gfOccasion: null, // Gift Finder quiz: selected occasion key
+    gfBudgetKey: null, // Gift Finder quiz: selected budget key
+    gfResultProducts: [], // Gift Finder quiz: last computed product matches
     pagination: { page: 1, pageSize: 24, sort: "price-low" },
   };
 
@@ -66,6 +69,18 @@
     low: { min: null, max: 500 },
     mid: { min: 500, max: 2000 },
     high: { min: 2000, max: null },
+  };
+
+  // Gift Finder quiz: which category ids are relevant to each occasion.
+  // Deliberately loose/overlapping (a fit is "plausible," not "exact") --
+  // this is a discovery shortcut, not a strict filter, so it's fine for
+  // drinkware/apparel to show up under more than one occasion.
+  const GIFT_FINDER_OCCASIONS = {
+    joiner: ["bagsLuggageTravel", "stationary", "drinkware", "electronics"],
+    festive: ["diwaliHampers", "edible", "drinkware"],
+    recognition: ["trophiesMedalsAwards", "stationary", "drinkware"],
+    client: ["electronics", "drinkware", "apparel", "kitchenAppliances"],
+    team: ["apparel", "drinkware", "sportsLifestyle", "edible"],
   };
 
   const els = {};
@@ -401,6 +416,114 @@
       node.addEventListener("click", () => openCategory(cat.id));
       els.categoryGrid.appendChild(node);
     });
+  }
+
+  // ---------- Gift Finder quiz (occasion + budget -> instant shortlist) ----------
+  let gfLastFocused = null;
+
+  function priceInBudget(price, budgetKey) {
+    const preset = BUDGET_PRESETS[budgetKey] || BUDGET_PRESETS.all;
+    const p = price || 0;
+    if (preset.min != null && p < preset.min) return false;
+    if (preset.max != null && p > preset.max) return false;
+    return true;
+  }
+
+  function openGiftFinder() {
+    gfLastFocused = document.activeElement;
+    state.gfOccasion = null;
+    state.gfBudgetKey = null;
+    gfShowStep("occasion");
+    els.giftFinderOverlay.hidden = false;
+    els.giftFinderSheet.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeGiftFinder() {
+    els.giftFinderOverlay.hidden = true;
+    els.giftFinderSheet.hidden = true;
+    document.body.style.overflow = "";
+    if (gfLastFocused && document.contains(gfLastFocused)) gfLastFocused.focus();
+  }
+
+  function gfShowStep(step) {
+    els.gfStepOccasion.hidden = step !== "occasion";
+    els.gfStepBudget.hidden = step !== "budget";
+    els.gfStepResults.hidden = step !== "results";
+    els.gfResultsFooter.hidden = step !== "results";
+  }
+
+  function gfSelectOccasion(occasion) {
+    state.gfOccasion = occasion;
+    gfShowStep("budget");
+  }
+
+  function gfSelectBudget(budgetKey) {
+    state.gfBudgetKey = budgetKey;
+    gfComputeAndShowResults();
+  }
+
+  function gfComputeAndShowResults() {
+    const cats = GIFT_FINDER_OCCASIONS[state.gfOccasion] || [];
+    const pool = state.products.filter(
+      (p) => !p.hideFromCatalog && cats.includes(p.category) && priceInBudget(p.price, state.gfBudgetKey)
+    );
+    const sorted = pool.slice().sort((a, b) => (a.price || 0) - (b.price || 0));
+
+    // Lead with a spread across categories before filling in -- a results
+    // grid that's 6 variants of one category reads as "we only have one
+    // thing," which defeats the point of a personalised pick.
+    const picks = [];
+    const seenCat = new Set();
+    for (const p of sorted) {
+      if (picks.length >= 6) break;
+      if (!seenCat.has(p.category)) { picks.push(p); seenCat.add(p.category); }
+    }
+    for (const p of sorted) {
+      if (picks.length >= 6) break;
+      if (!picks.includes(p)) picks.push(p);
+    }
+    state.gfResultProducts = picks;
+
+    const matchingKits = state.kits.filter((kit) => {
+      const items = kit.productIds.map((pid) => state.products.find((p) => p.id === pid)).filter(Boolean);
+      if (items.length === 0) return false;
+      const avg = items.reduce((sum, p) => sum + (p.price || 0), 0) / items.length;
+      return priceInBudget(avg, state.gfBudgetKey);
+    });
+
+    const occasionLabel = {
+      joiner: "a new joiner", festive: "a festive hamper", recognition: "employee recognition",
+      client: "a client or VIP", team: "a team event",
+    }[state.gfOccasion] || "this";
+    els.gfResultsSummary.textContent = picks.length
+      ? `Good fits for ${occasionLabel}:`
+      : "";
+    els.gfResultsEmpty.hidden = picks.length > 0 || matchingKits.length > 0;
+
+    els.gfResultsKits.innerHTML = matchingKits.map(kitCardHTML).join("");
+    els.gfResultsKits.hidden = matchingKits.length === 0;
+    els.gfResultsKitsCaption.hidden = matchingKits.length === 0;
+
+    els.gfResultsGrid.innerHTML = "";
+    picks.forEach((p) => els.gfResultsGrid.appendChild(buildProductCardNode(p, true)));
+
+    gfShowStep("results");
+  }
+
+  function gfAddAllToShortlist() {
+    state.gfResultProducts.forEach((p) => {
+      const current = state.shortlist.get(p.id) || 0;
+      setQty(p.id, current + 1, true);
+    });
+    updateStickyBar();
+    showToast(`Added ${state.gfResultProducts.length} item${state.gfResultProducts.length === 1 ? "" : "s"} to your shortlist`);
+  }
+
+  function gfRestart() {
+    state.gfOccasion = null;
+    state.gfBudgetKey = null;
+    gfShowStep("occasion");
   }
 
   // ---------- Gifting Selection Room (?room=id1,id2,...) ----------
@@ -1661,6 +1784,22 @@
     els.cbpPrice = qs("cbp-price");
     els.categoryView = qs("category-view");
     els.categoryGrid = qs("category-grid");
+    els.giftFinderOpenBtn = qs("gift-finder-open-btn");
+    els.giftFinderOverlay = qs("gift-finder-overlay");
+    els.giftFinderSheet = qs("gift-finder-sheet");
+    els.giftFinderCloseBtn = qs("gift-finder-close-btn");
+    els.gfStepOccasion = qs("gf-step-occasion");
+    els.gfStepBudget = qs("gf-step-budget");
+    els.gfStepResults = qs("gf-step-results");
+    els.gfBackToOccasionBtn = qs("gf-back-to-occasion-btn");
+    els.gfResultsSummary = qs("gf-results-summary");
+    els.gfResultsKits = qs("gf-results-kits");
+    els.gfResultsKitsCaption = qs("gf-results-kits-caption");
+    els.gfResultsGrid = qs("gf-results-grid");
+    els.gfResultsEmpty = qs("gf-results-empty");
+    els.gfResultsFooter = qs("gf-results-footer");
+    els.gfAddAllBtn = qs("gf-add-all-btn");
+    els.gfRestartBtn = qs("gf-restart-btn");
     els.roomSection = qs("room-section");
     els.roomGrid = qs("room-grid");
     els.roomDismissBtn = qs("room-dismiss-btn");
@@ -1842,6 +1981,28 @@
     qs("close-filter-sheet-btn").addEventListener("click", closeFilterSheet);
     qs("apply-filters-btn").addEventListener("click", applyFilters);
     qs("clear-filters-btn").addEventListener("click", clearFilters);
+
+    els.giftFinderOpenBtn.addEventListener("click", openGiftFinder);
+    els.giftFinderCloseBtn.addEventListener("click", closeGiftFinder);
+    els.giftFinderOverlay.addEventListener("click", closeGiftFinder);
+    els.gfBackToOccasionBtn.addEventListener("click", () => gfShowStep("occasion"));
+    els.gfAddAllBtn.addEventListener("click", gfAddAllToShortlist);
+    els.gfRestartBtn.addEventListener("click", gfRestart);
+    els.gfStepOccasion.addEventListener("click", (e) => {
+      const btn = e.target.closest(".gf-option-btn");
+      if (btn) gfSelectOccasion(btn.dataset.occasion);
+    });
+    els.gfStepBudget.addEventListener("click", (e) => {
+      const btn = e.target.closest(".gf-option-btn");
+      if (btn) gfSelectBudget(btn.dataset.gfbudget);
+    });
+    els.gfResultsKits.addEventListener("click", (e) => {
+      const btn = e.target.closest(".kit-add-btn");
+      if (!btn) return;
+      const kitCard = btn.closest(".kit-card");
+      addKitToShortlist(kitCard.dataset.kitId);
+      showToast("Kit added to your shortlist");
+    });
     els.pageSizeSelect.addEventListener("change", () => {
       state.pagination.pageSize = Number(els.pageSizeSelect.value);
       state.pagination.page = 1;

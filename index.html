@@ -23,7 +23,7 @@
      changes, so a plain phone reload (no "hard refresh" gesture on
      mobile) always picks up the new version immediately instead of
      possibly reusing a stale cached copy for up to 10 minutes. -->
-<link rel="stylesheet" href="css/styles.css?v=202610211200">
+<link rel="stylesheet" href="css/styles.css?v=202611101200">
 </head>
 <body class="shop home-active">
 
@@ -72,6 +72,18 @@
   </div>
   <ul id="search-suggest" class="search-suggest" hidden role="listbox"></ul>
 </div>
+
+<section id="gift-finder-cta" class="gift-finder-cta">
+  <div class="gift-finder-cta-glow" aria-hidden="true"></div>
+  <div class="gift-finder-cta-text">
+    <p class="gift-finder-cta-eyebrow">✨ New — takes 20 seconds</p>
+    <h2 class="gift-finder-cta-title">Not sure what to pick?</h2>
+    <p class="gift-finder-cta-sub">Tell us who it's for and your budget — we'll build a personalised shortlist instantly.</p>
+  </div>
+  <button id="gift-finder-open-btn" class="gift-finder-cta-btn" type="button">
+    Find My Gift <span aria-hidden="true">→</span>
+  </button>
+</section>
 
 <div id="discovery-bar" class="discovery-bar discovery-bar--home">
   <div class="quick-row sidebar-only" id="sidebar-categories-row">
@@ -428,6 +440,52 @@
   </div>
 </div>
 
+<div id="gift-finder-overlay" class="sheet-overlay" hidden></div>
+<div id="gift-finder-sheet" class="sheet gift-finder-sheet" hidden role="dialog" aria-modal="true" aria-labelledby="gift-finder-title">
+  <div class="sheet-handle" aria-hidden="true"></div>
+  <div class="sheet-header">
+    <h2 id="gift-finder-title">Find My Gift</h2>
+    <button id="gift-finder-close-btn" class="icon-btn" type="button" aria-label="Close">✕</button>
+  </div>
+
+  <div class="sheet-body">
+    <div id="gf-step-occasion" class="gf-step">
+      <p class="gf-step-label">Step 1 of 2 — Who's this for?</p>
+      <div class="gf-option-grid">
+        <button class="gf-option-btn" type="button" data-occasion="joiner"><span class="gf-option-emoji">🎒</span>New Joiner</button>
+        <button class="gf-option-btn" type="button" data-occasion="festive"><span class="gf-option-emoji">🪔</span>Festive / Diwali</button>
+        <button class="gf-option-btn" type="button" data-occasion="recognition"><span class="gf-option-emoji">🏆</span>Recognition</button>
+        <button class="gf-option-btn" type="button" data-occasion="client"><span class="gf-option-emoji">🤝</span>Client / VIP</button>
+        <button class="gf-option-btn" type="button" data-occasion="team"><span class="gf-option-emoji">🎉</span>Team Event</button>
+      </div>
+    </div>
+
+    <div id="gf-step-budget" class="gf-step" hidden>
+      <p class="gf-step-label">Step 2 of 2 — Budget per person?</p>
+      <div class="gf-option-grid">
+        <button class="gf-option-btn" type="button" data-gfbudget="low">Under ₹500</button>
+        <button class="gf-option-btn" type="button" data-gfbudget="mid">₹500–2,000</button>
+        <button class="gf-option-btn" type="button" data-gfbudget="high">₹2,000+</button>
+        <button class="gf-option-btn" type="button" data-gfbudget="all">Not sure / Any</button>
+      </div>
+      <button id="gf-back-to-occasion-btn" class="gf-back-btn" type="button">← Back</button>
+    </div>
+
+    <div id="gf-step-results" class="gf-step" hidden>
+      <p id="gf-results-summary" class="gf-step-label"></p>
+      <p id="gf-results-kits-caption" class="gf-kits-caption" hidden>Kits below are priced as a set — each item in them averages within your budget</p>
+      <div id="gf-results-kits" class="kit-row-scroll gf-results-kits" hidden></div>
+      <div id="gf-results-grid" class="product-grid gf-results-grid"></div>
+      <p id="gf-results-empty" class="gf-results-empty" hidden>No exact matches for that combo yet — try a different budget, or browse the full catalogue below.</p>
+    </div>
+  </div>
+
+  <div class="sheet-footer" id="gf-results-footer" hidden>
+    <button id="gf-add-all-btn" class="send-btn" type="button">Add all to shortlist</button>
+    <button id="gf-restart-btn" class="send-btn send-btn--secondary" type="button">Start over</button>
+  </div>
+</div>
+
 <div id="logo-editor-overlay" class="logo-editor-overlay" hidden role="dialog" aria-modal="true" aria-label="Logo placement editor">
   <div class="logo-editor-header">
     <button id="logo-editor-close" class="icon-btn" type="button" aria-label="Close editor">✕</button>
@@ -479,7 +537,7 @@
   </div>
 </div>
 
-<script src="js/app.js?v=202610301200" defer></script>
+<script src="js/app.js?v=202611101200" defer></script>
 <script src="js/logo-editor.js?v=202610111700" defer></script>
 </body>
 </html>

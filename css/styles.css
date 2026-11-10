@@ -116,6 +116,98 @@ button {
 main { padding: 16px; max-width: 720px; margin: 0 auto; }
 .section-title { font-size: 15px; font-weight: 600; margin: 4px 0 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em; }
 
+/* Gift Finder CTA -- a deliberately bold entry point placed right under
+   the search bar (above the budget/kit/brand discovery bar, not buried
+   below it) so a first-time visitor sees a guided path before anything
+   else. Gradient + glow are intentionally louder than the rest of this
+   otherwise-quiet dark UI, to read as "start here." Home-page only --
+   hidden while browsing a category/search results, same signal
+   (body.home-active) the discovery bar itself already uses. */
+body.shop:not(.home-active) .gift-finder-cta { display: none; }
+.gift-finder-cta {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 22px 20px;
+  margin: 10px 16px 18px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  box-shadow: 0 8px 28px -8px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+.gift-finder-cta-glow {
+  position: absolute;
+  inset: -40% -20% auto auto;
+  width: 220px; height: 220px;
+  background: radial-gradient(circle, rgba(255,255,255,0.35), transparent 70%);
+  pointer-events: none;
+}
+.gift-finder-cta-eyebrow {
+  margin: 0 0 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+}
+.gift-finder-cta-title { margin: 0 0 6px; font-size: 20px; font-weight: 700; color: #fff; }
+.gift-finder-cta-sub { margin: 0; font-size: 13.5px; color: rgba(255,255,255,0.88); line-height: 1.4; max-width: 46ch; }
+.gift-finder-cta-btn {
+  position: relative;
+  z-index: 1;
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 20px;
+  height: var(--tap);
+  border: none;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--accent);
+  font-size: 14.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gift-finder-cta-btn:active { transform: scale(0.97); }
+@media (min-width: 720px) {
+  .gift-finder-cta { flex-direction: row; align-items: center; justify-content: space-between; padding: 26px 32px; }
+  .gift-finder-cta-text { max-width: 60%; }
+  .gift-finder-cta-btn { align-self: center; }
+}
+
+/* Gift Finder quiz sheet */
+.gf-step-label { font-size: 13px; font-weight: 600; color: var(--text-muted); margin: 0 0 12px; }
+.gf-option-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+.gf-option-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--tap);
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.gf-option-btn:active { border-color: var(--accent); }
+.gf-option-emoji { font-size: 17px; }
+.gf-back-btn {
+  background: none; border: none; color: var(--text-muted);
+  font-size: 13px; font-weight: 600; padding: 6px 0; cursor: pointer;
+}
+.gf-kits-caption { font-size: 11.5px; color: var(--text-muted); margin: -6px 0 8px; }
+.gf-results-kits { margin-bottom: 14px; }
+.gf-results-kits[hidden] { display: none; }
+.gf-results-grid { grid-template-columns: repeat(2, 1fr); }
+.gf-results-empty { font-size: 13px; color: var(--text-muted); text-align: center; padding: 20px 0; }
+.gift-finder-sheet .sheet-body { padding-top: 16px; }
+
 /* Category grid: 2 columns on phones */
 .category-grid {
   display: grid;
@@ -2039,9 +2131,11 @@ body.discover-collapsed #recently-viewed-section { display: none; }
       "header"
       "banner"
       "search"
+      "giftfinder"
       "discovery"
       "main";
   }
+  body.shop.home-active .gift-finder-cta { grid-area: giftfinder; margin: 0 28px 4px; }
 
   /* Sidebar reads as one self-contained card/tile (background + border +
      radius) instead of a bare column with just a divider line, so it
