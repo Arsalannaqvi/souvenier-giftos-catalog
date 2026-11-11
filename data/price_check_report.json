@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T10:26:11.596367+00:00",
+  "checkedAt": "2026-11-11T09:56:10.695295+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
@@ -55,7 +55,7 @@
       "name": "boAt Rockerz 255 Pro+",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 1199,
+      "livePrice": 899,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
       "deltaPct": 33.0,
@@ -659,15 +659,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131"
     },
     {
-      "id": "electronics-415",
-      "name": "boAt Airdopes 141 Gen 2",
+      "id": "electronics-414",
+      "name": "boAt Airdopes 219",
       "domain": "boat-lifestyle.com",
-      "variantCount": 5,
+      "variantCount": 3,
       "variantPrices": [
-        999,
+        899,
         1099
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-gen2-wireless-earbuds"
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-219-wireless-earbuds"
     },
     {
       "id": "electronics-416",
@@ -780,6 +780,17 @@
         5568
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ivy-pro-wireless-earbuds"
+    },
+    {
+      "id": "electronics-452",
+      "name": "boAt Airdopes 101v2",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        799,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-101v2-wireless-earbuds"
     },
     {
       "id": "electronics-453",
@@ -1052,17 +1063,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-noise-cancelling-headphone"
     },
     {
-      "id": "electronics-534",
-      "name": "boAt Rockerz Plus 550 ANC",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        2799,
-        3299
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-plus-550-anc"
-    },
-    {
       "id": "electronics-537",
       "name": "boAt Airdopes Prime 513 ANC",
       "domain": "boat-lifestyle.com",
@@ -1083,6 +1083,17 @@
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-301-anc"
+    },
+    {
+      "id": "electronics-545",
+      "name": "boAt Rockerz 200",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        1149,
+        1449
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-200"
     },
     {
       "id": "electronics-548",
@@ -1107,23 +1118,13 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-413-wireless-headphones"
     },
     {
-      "id": "electronics-559",
-      "name": "boAt Airdopes Alpha",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 7,
-      "variantPrices": [
-        799,
-        1099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds"
-    },
-    {
       "id": "electronics-560",
       "name": "boAt Rockerz 551 ANC Pro",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
         3799,
+        3999,
         4449
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-pro-wireless-headphone"
@@ -1198,6 +1199,17 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-elite-anc-earbuds"
     },
     {
+      "id": "electronics-575",
+      "name": "boAt Airdopes 300",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        1099,
+        1499
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-300-large-playback-earbuds"
+    },
+    {
       "id": "electronics-576",
       "name": "boAt Airdopes 120",
       "domain": "boat-lifestyle.com",
@@ -1240,17 +1252,6 @@
         999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-71-long-playback-earbuds"
-    },
-    {
-      "id": "electronics-583",
-      "name": "boAt Rockerz 110",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        899,
-        999
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-110"
     },
     {
       "id": "electronics-587",
@@ -1494,17 +1495,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-138-wireless-earbuds-1"
     },
     {
-      "id": "electronics-610",
-      "name": "Bassheads 110",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 4,
-      "variantPrices": [
-        899,
-        999
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-110"
-    },
-    {
       "id": "electronics-611",
       "name": "boAt Airdopes 148",
       "domain": "boat-lifestyle.com",
@@ -1540,18 +1530,6 @@
         1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-171"
-    },
-    {
-      "id": "electronics-616",
-      "name": "Bassheads 220",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 6,
-      "variantPrices": [
-        699,
-        999,
-        1099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-220"
     },
     {
       "id": "electronics-617",
@@ -1972,6 +1950,17 @@
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
     {
+      "id": "electronics-699",
+      "name": "boAt Stone 350 Pro",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1699,
+        2099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/stone-350-pro-portable-speaker"
+    },
+    {
       "id": "electronics-713",
       "name": "boAt Stone 193",
       "domain": "boat-lifestyle.com",
@@ -2271,6 +2260,12 @@
     {
       "id": "healthPersonalCare-20",
       "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "healthPersonalCare-21",
+      "name": "Lifelong LLM180 Electric Body Massager Machine",
       "domain": "www.lifelongindiaonline.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
