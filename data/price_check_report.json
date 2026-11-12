@@ -1,11 +1,88 @@
 {
-  "checkedAt": "2026-11-11T09:56:10.695295+00:00",
+  "checkedAt": "2026-11-12T10:16:10.172342+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1316,
+  "unchanged": 1310,
   "applied": [],
   "flagged": [
+    {
+      "id": "drinkware-41",
+      "name": "Tamta Surai #S007 300ml Vessel",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3398,
+      "livePrice": 1199,
+      "liveMrp": 1999,
+      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-s003",
+      "deltaPct": 41.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-46",
+      "name": "Tamta Surai #S002 250ml Vessel",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 2698,
+      "livePrice": 849,
+      "liveMrp": 1415,
+      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-400-ml-s002-स्वास्थ्य",
+      "deltaPct": 47.6,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-47",
+      "name": "Tamta Surai #S001 300ml Vessel",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3198,
+      "livePrice": 1099,
+      "liveMrp": 1832,
+      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka",
+      "deltaPct": 42.7,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-61",
+      "name": "Tamta Tatva #H013  950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3998,
+      "livePrice": 1499,
+      "liveMrp": 2499,
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-copper-pot-model-h013-950-ml-matte-finish",
+      "deltaPct": 37.5,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-63",
+      "name": "Tamta Tatva #H011 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3498,
+      "livePrice": 1249,
+      "liveMrp": 2082,
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-hammered-copper-bottle-model-h011-950-ml",
+      "deltaPct": 40.5,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-65",
+      "name": "Tamta Tatva #H009 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 4198,
+      "livePrice": 1599,
+      "liveMrp": 2665,
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-handcrafted-copper-bottle-model-h009-950-ml",
+      "deltaPct": 36.5,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-66",
+      "name": "Tamta Tatva #H008 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3398,
+      "livePrice": 1199,
+      "liveMrp": 1999,
+      "sourceUrl": "https://tamtaware.co.in/products/pure-copper-water-bottle-tatva-h008-hammered-finish-1100-ml-विरासत",
+      "deltaPct": 41.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
     {
       "id": "drinkware-124",
       "name": "TintBox Glass Sipper 1ltr Bottle",
@@ -55,7 +132,7 @@
       "name": "boAt Rockerz 255 Pro+",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 899,
+      "livePrice": 1199,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
       "deltaPct": 33.0,
@@ -659,15 +736,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131"
     },
     {
-      "id": "electronics-414",
-      "name": "boAt Airdopes 219",
+      "id": "electronics-415",
+      "name": "boAt Airdopes 141 Gen 2",
       "domain": "boat-lifestyle.com",
-      "variantCount": 3,
+      "variantCount": 5,
       "variantPrices": [
-        899,
+        999,
         1099
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-219-wireless-earbuds"
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-gen2-wireless-earbuds"
     },
     {
       "id": "electronics-416",
@@ -780,17 +857,6 @@
         5568
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ivy-pro-wireless-earbuds"
-    },
-    {
-      "id": "electronics-452",
-      "name": "boAt Airdopes 101v2",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        799,
-        999
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-101v2-wireless-earbuds"
     },
     {
       "id": "electronics-453",
@@ -1085,17 +1151,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-301-anc"
     },
     {
-      "id": "electronics-545",
-      "name": "boAt Rockerz 200",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        1149,
-        1449
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-200"
-    },
-    {
       "id": "electronics-548",
       "name": "boAt Rockerz 412",
       "domain": "boat-lifestyle.com",
@@ -1116,6 +1171,17 @@
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-413-wireless-headphones"
+    },
+    {
+      "id": "electronics-559",
+      "name": "boAt Airdopes Alpha",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 7,
+      "variantPrices": [
+        799,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds"
     },
     {
       "id": "electronics-560",
@@ -1199,17 +1265,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-elite-anc-earbuds"
     },
     {
-      "id": "electronics-575",
-      "name": "boAt Airdopes 300",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        1099,
-        1499
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-300-large-playback-earbuds"
-    },
-    {
       "id": "electronics-576",
       "name": "boAt Airdopes 120",
       "domain": "boat-lifestyle.com",
@@ -1252,6 +1307,17 @@
         999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-71-long-playback-earbuds"
+    },
+    {
+      "id": "electronics-583",
+      "name": "boAt Rockerz 110",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        899,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-110"
     },
     {
       "id": "electronics-587",
@@ -2258,18 +2324,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "healthPersonalCare-21",
-      "name": "Lifelong LLM180 Electric Body Massager Machine",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2356,6 +2410,18 @@
     {
       "id": "electronics-119",
       "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-120",
+      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-121",
+      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
       "domain": "www.portronics.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
