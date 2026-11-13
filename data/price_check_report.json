@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-12T10:16:10.172342+00:00",
+  "checkedAt": "2026-11-13T10:04:08.808041+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1310,
+  "unchanged": 1311,
   "applied": [],
   "flagged": [
     {
@@ -125,17 +125,6 @@
       "liveMrp": 0,
       "sourceUrl": "https://www.sunflame.com/products/ch-genial-75-ac-gc",
       "deltaPct": 100.0,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-404",
-      "name": "boAt Rockerz 255 Pro+",
-      "domain": "boat-lifestyle.com",
-      "storedPrice": 2999,
-      "livePrice": 1199,
-      "liveMrp": 3990,
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
-      "deltaPct": 33.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -655,9 +644,9 @@
       "domain": "www.solara.in",
       "variantCount": 3,
       "variantPrices": [
-        3499,
         3999,
-        8999
+        4499,
+        9499
       ],
       "sourceUrl": "https://www.solara.in/products/airfryer-4-5l-see-through-window-10-preset-menus"
     },
@@ -672,6 +661,17 @@
         13499
       ],
       "sourceUrl": "https://www.solara.in/products/cold-press-juicer"
+    },
+    {
+      "id": "electronics-404",
+      "name": "boAt Rockerz 255 Pro+",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 5,
+      "variantPrices": [
+        899,
+        1199
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus"
     },
     {
       "id": "electronics-405",
@@ -2324,6 +2324,12 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2410,18 +2416,6 @@
     {
       "id": "electronics-119",
       "name": "Portronics Ravn",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-120",
-      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-121",
-      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
       "domain": "www.portronics.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
