@@ -1,11 +1,22 @@
 {
-  "checkedAt": "2026-11-13T10:04:08.808041+00:00",
+  "checkedAt": "2026-11-14T09:27:10.719235+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1311,
+  "unchanged": 1309,
   "applied": [],
   "flagged": [
+    {
+      "id": "drinkware-24",
+      "name": "Tamta Tivra #T009 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3298,
+      "livePrice": 1149,
+      "liveMrp": 1915,
+      "sourceUrl": "https://tamtaware.co.in/products/tivra-classic-matte-copper-bottle-teal",
+      "deltaPct": 41.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
     {
       "id": "drinkware-41",
       "name": "Tamta Surai #S007 300ml Vessel",
@@ -37,6 +48,17 @@
       "liveMrp": 1832,
       "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka",
       "deltaPct": 42.7,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-48",
+      "name": "Tamta Tamra #P007 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 2798,
+      "livePrice": 899,
+      "liveMrp": 1498,
+      "sourceUrl": "https://tamtaware.co.in/products/tamra-compact-copper-bottle-matte-finish",
+      "deltaPct": 46.5,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -81,6 +103,28 @@
       "liveMrp": 1999,
       "sourceUrl": "https://tamtaware.co.in/products/pure-copper-water-bottle-tatva-h008-hammered-finish-1100-ml-विरासत",
       "deltaPct": 41.2,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-72",
+      "name": "Tamta Tatva #H002 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3798,
+      "livePrice": 1399,
+      "liveMrp": 2332,
+      "sourceUrl": "https://tamtaware.co.in/products/tatva-hand-crafted-copper-bottle-half-hammered",
+      "deltaPct": 38.6,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "drinkware-108",
+      "name": "Tamta Tavya #A005 Copper 900ml Bottle",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 3798,
+      "livePrice": 1399,
+      "liveMrp": 2332,
+      "sourceUrl": "https://tamtaware.co.in/products/tavya-antique-copper-bottle-matte-finish-1",
+      "deltaPct": 38.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -2016,17 +2060,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
     },
     {
-      "id": "electronics-699",
-      "name": "boAt Stone 350 Pro",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1699,
-        2099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/stone-350-pro-portable-speaker"
-    },
-    {
       "id": "electronics-713",
       "name": "boAt Stone 193",
       "domain": "boat-lifestyle.com",
@@ -2322,12 +2355,6 @@
       "name": "Lifelong LLPB02 Pull Up Bar",
       "domain": "www.lifelongindiaonline.com",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "edible-33",
