@@ -1,11 +1,45 @@
 {
-  "checkedAt": "2026-11-16T10:14:09.738999+00:00",
+  "checkedAt": "2026-11-17T11:11:08.851337+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1308,
-  "applied": [],
+  "unchanged": 1291,
+  "applied": [
+    {
+      "id": "homeKitchenAppliances-468",
+      "name": "Franke Faber FIP ZION 1600W BK Induction",
+      "domain": "faberindia.com",
+      "storedPrice": 4999,
+      "livePrice": 2499,
+      "liveMrp": 5999,
+      "sourceUrl": "https://faberindia.com/products/induction-fip-zion-1600w-bk",
+      "deltaPct": 20.0,
+      "action": "applied"
+    }
+  ],
   "flagged": [
+    {
+      "id": "healthPersonalCare-51",
+      "name": "Lifelong LLM225 Rechargeable Full Body Pain Relief Massager",
+      "domain": "www.lifelongindiaonline.com",
+      "storedPrice": 1199,
+      "livePrice": 1449,
+      "liveMrp": 6000,
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/rechargeable-head-and-scalp-massager",
+      "deltaPct": 400.4,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "healthPersonalCare-57",
+      "name": "Lifelong LLWS27 Digital Weighing Scale",
+      "domain": "www.lifelongindiaonline.com",
+      "storedPrice": 399,
+      "livePrice": 549,
+      "liveMrp": 1899,
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/digital-glass-weighing-scale-blue",
+      "deltaPct": 375.9,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
     {
       "id": "drinkware-24",
       "name": "Tamta Tivra #T009 950ml Bottle",
@@ -26,17 +60,6 @@
       "liveMrp": 1999,
       "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-s003",
       "deltaPct": 41.2,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "drinkware-46",
-      "name": "Tamta Surai #S002 250ml Vessel",
-      "domain": "tamtaware.co.in",
-      "storedPrice": 2698,
-      "livePrice": 849,
-      "liveMrp": 1415,
-      "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-400-ml-s002-स्वास्थ्य",
-      "deltaPct": 47.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -95,17 +118,6 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
-      "id": "drinkware-66",
-      "name": "Tamta Tatva #H008 950ml Bottle",
-      "domain": "tamtaware.co.in",
-      "storedPrice": 3398,
-      "livePrice": 1199,
-      "liveMrp": 1999,
-      "sourceUrl": "https://tamtaware.co.in/products/pure-copper-water-bottle-tatva-h008-hammered-finish-1100-ml-विरासत",
-      "deltaPct": 41.2,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
       "id": "drinkware-72",
       "name": "Tamta Tatva #H002 950ml Bottle",
       "domain": "tamtaware.co.in",
@@ -150,6 +162,17 @@
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
+      "id": "electronics-209",
+      "name": "Lifelong LLUSBCF03 Portable Mini USB Fan with 3 Speeds",
+      "domain": "www.lifelongindiaonline.com",
+      "storedPrice": 799,
+      "livePrice": 799,
+      "liveMrp": 1149,
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-portable-usb-fan-with-3-speeds-up-to-5-hours-battery-backup",
+      "deltaPct": 43.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
       "id": "homeKitchenAppliances-48",
       "name": "Sunflame Stainless Steel LPG Stove Star 2 Burner",
       "domain": "www.sunflame.com",
@@ -169,6 +192,17 @@
       "liveMrp": 0,
       "sourceUrl": "https://www.sunflame.com/products/ch-genial-75-ac-gc",
       "deltaPct": 100.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "homeKitchenAppliances-514",
+      "name": "Lifelong LLEPB02 Portable Blender 650ml Portable Juicer Mixer for Smoothies & Juice",
+      "domain": "www.lifelongindiaonline.com",
+      "storedPrice": 2999,
+      "livePrice": 2799,
+      "liveMrp": 10999,
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-portable-blender-650ml-portable-juicer-mixer-for-smoothies-juice-4000mah-usb-rechargeable-6-stainless-steel-blades-durable-abs-build-detachable-build-for-easy-clean-carry-handle",
+      "deltaPct": 266.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -959,15 +993,17 @@
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-ascend-hd-display-smartwatch"
     },
     {
-      "id": "electronics-470",
-      "name": "boAt Immortal katana Blade 2.0",
+      "id": "electronics-468",
+      "name": "boAt Rockerz 103 Pro",
       "domain": "boat-lifestyle.com",
-      "variantCount": 2,
+      "variantCount": 4,
       "variantPrices": [
-        1899,
-        1999
+        659,
+        1059,
+        1099,
+        1119
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/immortal-katana-2-0-blade-gaming-earbuds"
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-103-pro-in-ear-wireless-earphones"
     },
     {
       "id": "electronics-472",
@@ -1423,7 +1459,7 @@
       "id": "electronics-595",
       "name": "boAt Nirvana Ion",
       "domain": "boat-lifestyle.com",
-      "variantCount": 12,
+      "variantCount": 14,
       "variantPrices": [
         1799,
         1868,
@@ -2155,7 +2191,7 @@
       "variantCount": 9,
       "variantPrices": [
         1799,
-        1899
+        1829
       ],
       "sourceUrl": "https://www.campusshoes.com/products/level-wht-gry-mens-sneakers"
     },
@@ -2345,6 +2381,12 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "sportsFitnessOutdoor-47",
+      "name": "Lifelong LLPVCHD01 PVC Hex Fixed Dumbbells",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2405,6 +2447,18 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "drinkware-16",
+      "name": "Tamta Tivra #T017 950ml Glass",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-46",
+      "name": "Tamta Surai #S002 250ml Vessel",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "drinkware-49",
       "name": "Tamta Tamra #P006  950ml Bottle",
       "domain": "tamtaware.co.in",
@@ -2417,8 +2471,50 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "drinkware-59",
+      "name": "Tamta Tatva #H016 950ml Glass",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-60",
+      "name": "Tamta Tatva #H015 950ml Glass",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-66",
+      "name": "Tamta Tatva #H008 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "drinkware-73",
       "name": "Tamta Tatva #H001 950ml Bottle",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-89",
+      "name": "Tamta Tanmaya #C014 950ml Bottle Set",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-95",
+      "name": "Tamta Tanmaya #C008 950ml Bottle Set",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-96",
+      "name": "Tamta Tanmaya #C007 500ml Bottle Set",
+      "domain": "tamtaware.co.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "drinkware-100",
+      "name": "Tamta Tanmaya #C003 950ml Bottle Set",
       "domain": "tamtaware.co.in",
       "error": "HTTP Error 404: Not Found"
     },
@@ -2435,26 +2531,50 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "bagsLuggageTravel-53",
+      "name": "Fur Jaden MW66 Crossbody",
+      "domain": "www.furjaden.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "bagsLuggageTravel-85",
+      "name": "Fur Jaden MW65 Crossbody Sling Bag",
+      "domain": "www.furjaden.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "bagsLuggageTravel-87",
+      "name": "Fur Jaden MW54 Cruelty Free Vegan Leather Crossbody",
+      "domain": "www.furjaden.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "bagsLuggageTravel-101",
+      "name": "Fur Jaden BM185 The Explorer",
+      "domain": "www.furjaden.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "bagsLuggageTravel-168",
       "name": "Puma Gym duffle Bag",
       "domain": "joytreeglobal.com",
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-119",
-      "name": "Portronics Ravn",
+      "id": "electronics-120",
+      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
       "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-337",
-      "name": "Xech V Gun Pro Cordless Vacuum With Blower",
-      "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "electronics-338",
       "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-339",
+      "name": "Xech Hydroboil Pro Portable Electric Kettle",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
@@ -2465,26 +2585,26 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-468",
-      "name": "boAt Rockerz 103 Pro",
+      "id": "electronics-470",
+      "name": "boAt Immortal katana Blade 2.0",
       "domain": "boat-lifestyle.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": "electronics-469",
-      "name": "boAt Aavante Bar Joy",
+      "id": "electronics-471",
+      "name": "boAt Stone 900",
       "domain": "boat-lifestyle.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "coconut-73",
-      "name": "27HDX LED Monitor",
-      "domain": "coconutlife.in",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "coconut-74",
       "name": "Walton Soundbar with Woofer 160W",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-75",
+      "name": "US02 USB Speakers",
       "domain": "coconutlife.in",
       "error": "HTTP Error 429: Too Many Requests"
     }
