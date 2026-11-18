@@ -1,22 +1,10 @@
 {
-  "checkedAt": "2026-11-17T11:11:08.851337+00:00",
+  "checkedAt": "2026-11-18T10:42:08.666035+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1291,
-  "applied": [
-    {
-      "id": "homeKitchenAppliances-468",
-      "name": "Franke Faber FIP ZION 1600W BK Induction",
-      "domain": "faberindia.com",
-      "storedPrice": 4999,
-      "livePrice": 2499,
-      "liveMrp": 5999,
-      "sourceUrl": "https://faberindia.com/products/induction-fip-zion-1600w-bk",
-      "deltaPct": 20.0,
-      "action": "applied"
-    }
-  ],
+  "unchanged": 1292,
+  "applied": [],
   "flagged": [
     {
       "id": "healthPersonalCare-51",
@@ -170,6 +158,17 @@
       "liveMrp": 1149,
       "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-portable-usb-fan-with-3-speeds-up-to-5-hours-battery-backup",
       "deltaPct": 43.8,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-338",
+      "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "storedPrice": 1526,
+      "livePrice": 1999,
+      "liveMrp": 4299,
+      "sourceUrl": "https://xech.com/products/multipurpose-kettle-with-steamer-mini-chef",
+      "deltaPct": 181.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -758,7 +757,7 @@
       "variantCount": 3,
       "variantPrices": [
         1399,
-        1499
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
     },
@@ -1004,6 +1003,17 @@
         1119
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-103-pro-in-ear-wireless-earphones"
+    },
+    {
+      "id": "electronics-470",
+      "name": "boAt Immortal katana Blade 2.0",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        1899,
+        1999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/immortal-katana-2-0-blade-gaming-earbuds"
     },
     {
       "id": "electronics-472",
@@ -2179,7 +2189,7 @@
       "domain": "www.campusshoes.com",
       "variantCount": 7,
       "variantPrices": [
-        1549,
+        1489,
         1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/promote-m-blu-golden-mens-sports-shoes"
@@ -2205,6 +2215,17 @@
         1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/bonus-l-gry-r-slate-mens-sports-shoes"
+    },
+    {
+      "id": "apparel-163",
+      "name": "Campus Davis",
+      "domain": "www.campusshoes.com",
+      "variantCount": 7,
+      "variantPrices": [
+        1264,
+        1349
+      ],
+      "sourceUrl": "https://www.campusshoes.com/products/davis-wht-l-gry-mens-running-shoes"
     },
     {
       "id": "electronics-758",
@@ -2387,6 +2408,18 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "healthPersonalCare-21",
+      "name": "Lifelong LLM180 Electric Body Massager Machine",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2561,50 +2594,20 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-120",
-      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-338",
-      "name": "Xech Mini Chef Electronic Multi Cooker",
-      "domain": "xech.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-339",
-      "name": "Xech Hydroboil Pro Portable Electric Kettle",
-      "domain": "xech.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "homeKitchenAppliances-486",
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-470",
-      "name": "boAt Immortal katana Blade 2.0",
-      "domain": "boat-lifestyle.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-471",
-      "name": "boAt Stone 900",
-      "domain": "boat-lifestyle.com",
+      "id": "coconut-73",
+      "name": "27HDX LED Monitor",
+      "domain": "coconutlife.in",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "coconut-74",
       "name": "Walton Soundbar with Woofer 160W",
-      "domain": "coconutlife.in",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "coconut-75",
-      "name": "US02 USB Speakers",
       "domain": "coconutlife.in",
       "error": "HTTP Error 429: Too Many Requests"
     }
