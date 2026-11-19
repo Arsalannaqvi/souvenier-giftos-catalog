@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-18T10:42:08.666035+00:00",
+  "checkedAt": "2026-11-19T10:49:09.622644+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1292,
+  "unchanged": 1290,
   "applied": [],
   "flagged": [
     {
@@ -158,17 +158,6 @@
       "liveMrp": 1149,
       "sourceUrl": "https://www.lifelongindiaonline.com/products/lifelong-portable-usb-fan-with-3-speeds-up-to-5-hours-battery-backup",
       "deltaPct": 43.8,
-      "action": "flagged (exceeds threshold, not applied)"
-    },
-    {
-      "id": "electronics-338",
-      "name": "Xech Mini Chef Electronic Multi Cooker",
-      "domain": "xech.com",
-      "storedPrice": 1526,
-      "livePrice": 1999,
-      "liveMrp": 4299,
-      "sourceUrl": "https://xech.com/products/multipurpose-kettle-with-steamer-mini-chef",
-      "deltaPct": 181.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -720,7 +709,8 @@
       "domain": "www.solara.in",
       "variantCount": 4,
       "variantPrices": [
-        7999,
+        8199,
+        8299,
         8999,
         13499
       ],
@@ -990,19 +980,6 @@
         2699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-ascend-hd-display-smartwatch"
-    },
-    {
-      "id": "electronics-468",
-      "name": "boAt Rockerz 103 Pro",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 4,
-      "variantPrices": [
-        659,
-        1059,
-        1099,
-        1119
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-103-pro-in-ear-wireless-earphones"
     },
     {
       "id": "electronics-470",
@@ -1905,7 +1882,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 18,
       "variantPrices": [
-        1999,
+        1699,
         2199,
         3999
       ],
@@ -2092,6 +2069,17 @@
         1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
+    },
+    {
+      "id": "electronics-698",
+      "name": "boAt Stone 358 Pro",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        2099,
+        2499
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-358-pro-portable-bluetooth-speaker-with-14w-boat-signature-sound-rgb-led-design-12-hours-playback"
     },
     {
       "id": "electronics-713",
@@ -2408,18 +2396,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "healthPersonalCare-21",
-      "name": "Lifelong LLM180 Electric Body Massager Machine",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2594,10 +2570,40 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "electronics-119",
+      "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-337",
+      "name": "Xech V Gun Pro Cordless Vacuum With Blower",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-338",
+      "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "homeKitchenAppliances-486",
       "name": "Franke Faber FCM 0.6L SS BK Coffee Machine",
       "domain": "faberindia.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "electronics-468",
+      "name": "boAt Rockerz 103 Pro",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-469",
+      "name": "boAt Aavante Bar Joy",
+      "domain": "boat-lifestyle.com",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "coconut-73",
