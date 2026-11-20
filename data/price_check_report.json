@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-19T10:49:09.622644+00:00",
+  "checkedAt": "2026-11-20T10:31:08.634013+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1290,
+  "unchanged": 1288,
   "applied": [],
   "flagged": [
     {
@@ -33,7 +33,7 @@
       "name": "Tamta Tivra #T009 950ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 3298,
-      "livePrice": 1149,
+      "livePrice": 1819,
       "liveMrp": 1915,
       "sourceUrl": "https://tamtaware.co.in/products/tivra-classic-matte-copper-bottle-teal",
       "deltaPct": 41.9,
@@ -44,7 +44,7 @@
       "name": "Tamta Surai #S007 300ml Vessel",
       "domain": "tamtaware.co.in",
       "storedPrice": 3398,
-      "livePrice": 1199,
+      "livePrice": 2049,
       "liveMrp": 1999,
       "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-s003",
       "deltaPct": 41.2,
@@ -55,7 +55,7 @@
       "name": "Tamta Surai #S001 300ml Vessel",
       "domain": "tamtaware.co.in",
       "storedPrice": 3198,
-      "livePrice": 1099,
+      "livePrice": 1749,
       "liveMrp": 1832,
       "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka",
       "deltaPct": 42.7,
@@ -66,7 +66,7 @@
       "name": "Tamta Tamra #P007 950ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 2798,
-      "livePrice": 899,
+      "livePrice": 1323,
       "liveMrp": 1498,
       "sourceUrl": "https://tamtaware.co.in/products/tamra-compact-copper-bottle-matte-finish",
       "deltaPct": 46.5,
@@ -77,7 +77,7 @@
       "name": "Tamta Tatva #H013  950ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 3998,
-      "livePrice": 1499,
+      "livePrice": 2400,
       "liveMrp": 2499,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-copper-pot-model-h013-950-ml-matte-finish",
       "deltaPct": 37.5,
@@ -88,7 +88,7 @@
       "name": "Tamta Tatva #H011 950ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 3498,
-      "livePrice": 1249,
+      "livePrice": 2199,
       "liveMrp": 2082,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-hammered-copper-bottle-model-h011-950-ml",
       "deltaPct": 40.5,
@@ -99,7 +99,7 @@
       "name": "Tamta Tatva #H009 950ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 4198,
-      "livePrice": 1599,
+      "livePrice": 2609,
       "liveMrp": 2665,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-handcrafted-copper-bottle-model-h009-950-ml",
       "deltaPct": 36.5,
@@ -110,7 +110,7 @@
       "name": "Tamta Tatva #H002 950ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 3798,
-      "livePrice": 1399,
+      "livePrice": 1869,
       "liveMrp": 2332,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-hand-crafted-copper-bottle-half-hammered",
       "deltaPct": 38.6,
@@ -121,7 +121,7 @@
       "name": "Tamta Tavya #A005 Copper 900ml Bottle",
       "domain": "tamtaware.co.in",
       "storedPrice": 3798,
-      "livePrice": 1399,
+      "livePrice": 1839,
       "liveMrp": 2332,
       "sourceUrl": "https://tamtaware.co.in/products/tavya-antique-copper-bottle-matte-finish-1",
       "deltaPct": 38.6,
@@ -747,6 +747,7 @@
       "variantCount": 3,
       "variantPrices": [
         1399,
+        1499,
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
@@ -2394,6 +2395,18 @@
       "name": "Lifelong LLPVCHD01 PVC Hex Fixed Dumbbells",
       "domain": "www.lifelongindiaonline.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "healthPersonalCare-21",
+      "name": "Lifelong LLM180 Electric Body Massager Machine",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "edible-33",
