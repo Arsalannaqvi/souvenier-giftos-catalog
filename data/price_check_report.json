@@ -1,10 +1,22 @@
 {
-  "checkedAt": "2026-11-20T10:31:08.634013+00:00",
+  "checkedAt": "2026-11-21T10:16:09.374112+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1288,
-  "applied": [],
+  "unchanged": 1290,
+  "applied": [
+    {
+      "id": "drinkware-78",
+      "name": "Tamta Etching #E011 8000ml Water Dispenser",
+      "domain": "tamtaware.co.in",
+      "storedPrice": 9989,
+      "livePrice": 7869,
+      "liveMrp": 7869,
+      "sourceUrl": "https://tamtaware.co.in/products/etching-heritage-copper-water-dispenser-model-e011-8-litres",
+      "deltaPct": 21.2,
+      "action": "applied"
+    }
+  ],
   "flagged": [
     {
       "id": "healthPersonalCare-51",
@@ -34,9 +46,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3298,
       "livePrice": 1819,
-      "liveMrp": 1915,
+      "liveMrp": 1819,
       "sourceUrl": "https://tamtaware.co.in/products/tivra-classic-matte-copper-bottle-teal",
-      "deltaPct": 41.9,
+      "deltaPct": 44.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -45,9 +57,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3398,
       "livePrice": 2049,
-      "liveMrp": 1999,
+      "liveMrp": 2049,
       "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka-s003",
-      "deltaPct": 41.2,
+      "deltaPct": 39.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -56,9 +68,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3198,
       "livePrice": 1749,
-      "liveMrp": 1832,
+      "liveMrp": 1749,
       "sourceUrl": "https://tamtaware.co.in/products/surai-handcrafted-matka",
-      "deltaPct": 42.7,
+      "deltaPct": 45.3,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -67,9 +79,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 2798,
       "livePrice": 1323,
-      "liveMrp": 1498,
+      "liveMrp": 1323,
       "sourceUrl": "https://tamtaware.co.in/products/tamra-compact-copper-bottle-matte-finish",
-      "deltaPct": 46.5,
+      "deltaPct": 52.7,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -78,9 +90,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3998,
       "livePrice": 2400,
-      "liveMrp": 2499,
+      "liveMrp": 2400,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-copper-pot-model-h013-950-ml-matte-finish",
-      "deltaPct": 37.5,
+      "deltaPct": 40.0,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -89,9 +101,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3498,
       "livePrice": 2199,
-      "liveMrp": 2082,
+      "liveMrp": 2199,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-hammered-copper-bottle-model-h011-950-ml",
-      "deltaPct": 40.5,
+      "deltaPct": 37.1,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -100,9 +112,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 4198,
       "livePrice": 2609,
-      "liveMrp": 2665,
+      "liveMrp": 2609,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-handcrafted-copper-bottle-model-h009-950-ml",
-      "deltaPct": 36.5,
+      "deltaPct": 37.9,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -111,9 +123,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3798,
       "livePrice": 1869,
-      "liveMrp": 2332,
+      "liveMrp": 1869,
       "sourceUrl": "https://tamtaware.co.in/products/tatva-hand-crafted-copper-bottle-half-hammered",
-      "deltaPct": 38.6,
+      "deltaPct": 50.8,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -122,9 +134,9 @@
       "domain": "tamtaware.co.in",
       "storedPrice": 3798,
       "livePrice": 1839,
-      "liveMrp": 2332,
+      "liveMrp": 1839,
       "sourceUrl": "https://tamtaware.co.in/products/tavya-antique-copper-bottle-matte-finish-1",
-      "deltaPct": 38.6,
+      "deltaPct": 51.6,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -213,6 +225,17 @@
       "liveMrp": 6999,
       "sourceUrl": "https://gonoise.com/products/noisefit-halo-2-smart-watch",
       "deltaPct": 75.0,
+      "action": "flagged (exceeds threshold, not applied)"
+    },
+    {
+      "id": "electronics-535",
+      "name": "boAt Airdopes Ace Gen 2",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 5990,
+      "livePrice": 3990,
+      "liveMrp": 3990,
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace-gen-2-true-wireless-earbuds",
+      "deltaPct": 33.4,
       "action": "flagged (exceeds threshold, not applied)"
     },
     {
@@ -771,10 +794,9 @@
       "variantCount": 13,
       "variantPrices": [
         999,
-        1008,
         1068,
         1199,
-        1208
+        1268
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141"
     },
@@ -1197,17 +1219,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-noise-cancelling-headphone"
     },
     {
-      "id": "electronics-537",
-      "name": "boAt Airdopes Prime 513 ANC",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        1599,
-        1699
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-prime-513-anc-wireless-earbuds"
-    },
-    {
       "id": "electronics-539",
       "name": "boAt Rockerz 301 ANC",
       "domain": "boat-lifestyle.com",
@@ -1246,9 +1257,9 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
+        3499,
         3799,
-        3999,
-        4449
+        3999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-pro-wireless-headphone"
     },
@@ -1309,17 +1320,6 @@
         1899
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-261-pro"
-    },
-    {
-      "id": "electronics-572",
-      "name": "boAt Airdopes 131 Elite ANC",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 4,
-      "variantPrices": [
-        1399,
-        1499
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-elite-anc-earbuds"
     },
     {
       "id": "electronics-576",
@@ -1452,6 +1452,7 @@
         1799,
         1868,
         1899,
+        1968,
         1999,
         2068,
         2199
@@ -2397,18 +2398,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "healthPersonalCare-21",
-      "name": "Lifelong LLM180 Electric Body Massager Machine",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2583,12 +2572,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-119",
-      "name": "Portronics Ravn",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "electronics-337",
       "name": "Xech V Gun Pro Cordless Vacuum With Blower",
       "domain": "xech.com",
@@ -2597,6 +2580,12 @@
     {
       "id": "electronics-338",
       "name": "Xech Mini Chef Electronic Multi Cooker",
+      "domain": "xech.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-339",
+      "name": "Xech Hydroboil Pro Portable Electric Kettle",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
