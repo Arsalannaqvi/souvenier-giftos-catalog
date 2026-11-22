@@ -1,22 +1,10 @@
 {
-  "checkedAt": "2026-11-21T10:16:09.374112+00:00",
+  "checkedAt": "2026-11-22T10:16:09.076638+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1290,
-  "applied": [
-    {
-      "id": "drinkware-78",
-      "name": "Tamta Etching #E011 8000ml Water Dispenser",
-      "domain": "tamtaware.co.in",
-      "storedPrice": 9989,
-      "livePrice": 7869,
-      "liveMrp": 7869,
-      "sourceUrl": "https://tamtaware.co.in/products/etching-heritage-copper-water-dispenser-model-e011-8-litres",
-      "deltaPct": 21.2,
-      "action": "applied"
-    }
-  ],
+  "unchanged": 1288,
+  "applied": [],
   "flagged": [
     {
       "id": "healthPersonalCare-51",
@@ -1252,6 +1240,17 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-413-wireless-headphones"
     },
     {
+      "id": "electronics-559",
+      "name": "boAt Airdopes Alpha",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 7,
+      "variantPrices": [
+        899,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds"
+    },
+    {
       "id": "electronics-560",
       "name": "boAt Rockerz 551 ANC Pro",
       "domain": "boat-lifestyle.com",
@@ -1371,6 +1370,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
+        799,
         899,
         999
       ],
@@ -2144,6 +2144,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
+        1599,
         1799,
         1868
       ],
@@ -2572,6 +2573,24 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "electronics-119",
+      "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-120",
+      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "electronics-121",
+      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "electronics-337",
       "name": "Xech V Gun Pro Cordless Vacuum With Blower",
       "domain": "xech.com",
@@ -2580,12 +2599,6 @@
     {
       "id": "electronics-338",
       "name": "Xech Mini Chef Electronic Multi Cooker",
-      "domain": "xech.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-339",
-      "name": "Xech Hydroboil Pro Portable Electric Kettle",
       "domain": "xech.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
