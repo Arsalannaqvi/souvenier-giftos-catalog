@@ -1,10 +1,22 @@
 {
-  "checkedAt": "2026-11-22T10:16:09.076638+00:00",
+  "checkedAt": "2026-11-23T11:14:10.135045+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1288,
-  "applied": [],
+  "unchanged": 1290,
+  "applied": [
+    {
+      "id": "healthPersonalCare-11",
+      "name": "Lifelong LLM360 Foot Massager",
+      "domain": "www.lifelongindiaonline.com",
+      "storedPrice": 4749,
+      "livePrice": 5299,
+      "liveMrp": null,
+      "sourceUrl": "https://www.lifelongindiaonline.com/products/foot-massager-with-kneading-function",
+      "deltaPct": 11.6,
+      "action": "applied"
+    }
+  ],
   "flagged": [
     {
       "id": "healthPersonalCare-51",
@@ -442,8 +454,8 @@
       "variantCount": 21,
       "variantPrices": [
         1199,
-        1299,
         1499,
+        1599,
         1999
       ],
       "sourceUrl": "https://www.solara.in/products/solara-vacuum-insulated-water-bottle"
@@ -455,8 +467,8 @@
       "variantCount": 21,
       "variantPrices": [
         1199,
-        1299,
         1499,
+        1599,
         1999
       ],
       "sourceUrl": "https://www.solara.in/products/solara-vacuum-insulated-water-bottle"
@@ -708,7 +720,7 @@
       "domain": "www.solara.in",
       "variantCount": 3,
       "variantPrices": [
-        1199,
+        1649,
         2799,
         3499
       ],
@@ -902,17 +914,6 @@
         2499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-nirvana-space-wireless-earbuds-with-anc"
-    },
-    {
-      "id": "electronics-444",
-      "name": "boAt Airdopes 141 ANC",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1399,
-        1499
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-anc-earbuds"
     },
     {
       "id": "electronics-446",
@@ -1151,17 +1152,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-plus-450-anc"
     },
     {
-      "id": "electronics-519",
-      "name": "boAt Rockerz Trendz",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 3,
-      "variantPrices": [
-        1099,
-        2499
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-trendz-wireless-headphones"
-    },
-    {
       "id": "electronics-522",
       "name": "boAt Airdopes Prime 512",
       "domain": "boat-lifestyle.com",
@@ -1370,7 +1360,6 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        799,
         899,
         999
       ],
@@ -2399,6 +2388,12 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2575,18 +2570,6 @@
     {
       "id": "electronics-119",
       "name": "Portronics Ravn",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-120",
-      "name": "Portronics Muffs A3 Environmental Noise Cancellation (Enc) Wireless Headphone",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": "electronics-121",
-      "name": "Portronics Muffs M8 Active Noise Cancellation (Anc) Wireless Headphone",
       "domain": "www.portronics.com",
       "error": "HTTP Error 429: Too Many Requests"
     },
