@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T11:47:10.665503+00:00",
+  "checkedAt": "2026-11-26T11:29:09.283659+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
@@ -757,6 +757,7 @@
       "variantCount": 3,
       "variantPrices": [
         1399,
+        1499,
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
@@ -1247,17 +1248,6 @@
         1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-413-wireless-headphones"
-    },
-    {
-      "id": "electronics-559",
-      "name": "boAt Airdopes Alpha",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 7,
-      "variantPrices": [
-        899,
-        1099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds"
     },
     {
       "id": "electronics-560",
@@ -2427,6 +2417,12 @@
       "name": "Lifelong LLPVCHD01 PVC Hex Fixed Dumbbells",
       "domain": "www.lifelongindiaonline.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "edible-33",
