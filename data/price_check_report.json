@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-26T11:29:09.283659+00:00",
+  "checkedAt": "2026-11-27T11:21:09.345353+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
-  "unchanged": 1287,
+  "unchanged": 1270,
   "applied": [],
   "flagged": [
     {
@@ -198,7 +198,7 @@
       "name": "boAt Rockerz 255 Pro+",
       "domain": "boat-lifestyle.com",
       "storedPrice": 2999,
-      "livePrice": 1199,
+      "livePrice": 999,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-255-pro-plus",
       "deltaPct": 33.0,
@@ -220,7 +220,7 @@
       "name": "boAt Airdopes Ace Gen 2",
       "domain": "boat-lifestyle.com",
       "storedPrice": 5990,
-      "livePrice": 3990,
+      "livePrice": 3790,
       "liveMrp": 3990,
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace-gen-2-true-wireless-earbuds",
       "deltaPct": 33.4,
@@ -757,8 +757,7 @@
       "variantCount": 3,
       "variantPrices": [
         1399,
-        1499,
-        1599
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-350"
     },
@@ -780,6 +779,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 13,
       "variantPrices": [
+        799,
+        868,
         999,
         1068,
         1199,
@@ -807,8 +808,8 @@
       "variantPrices": [
         799,
         808,
-        999,
-        1068
+        899,
+        968
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131"
     },
@@ -818,8 +819,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        999,
-        1099
+        799,
+        999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-gen2-wireless-earbuds"
     },
@@ -874,8 +875,8 @@
       "variantCount": 5,
       "variantPrices": [
         2099,
-        2599,
-        2899
+        2399,
+        2699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-regal-smartwatch"
     },
@@ -885,10 +886,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        1199,
-        1349
+        1149,
+        1199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call-3-smartwatch"
+    },
+    {
+      "id": "electronics-439",
+      "name": "boAt Airdopes 213",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1948,
+        2148
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-213-wireless-earbuds"
     },
     {
       "id": "electronics-440",
@@ -908,10 +920,21 @@
       "variantCount": 5,
       "variantPrices": [
         2199,
-        2449,
-        2499
+        2249,
+        2299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-nirvana-space-wireless-earbuds-with-anc"
+    },
+    {
+      "id": "electronics-444",
+      "name": "boAt Airdopes 141 ANC",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1199,
+        1399
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-141-anc-earbuds"
     },
     {
       "id": "electronics-446",
@@ -930,10 +953,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        5449,
-        5568
+        4249,
+        4368
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ivy-pro-wireless-earbuds"
+    },
+    {
+      "id": "electronics-452",
+      "name": "boAt Airdopes 101v2",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        799,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-101v2-wireless-earbuds"
     },
     {
       "id": "electronics-453",
@@ -947,15 +981,38 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-281-pro"
     },
     {
+      "id": "electronics-462",
+      "name": "boAt Airdopes 131 Gen 2",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        899,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-gen-2-true-wireless-earbuds"
+    },
+    {
       "id": "electronics-463",
       "name": "boAt Airdopes Prime 800D",
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
+        1399,
         1599,
-        1999
+        1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-800d"
+    },
+    {
+      "id": "electronics-464",
+      "name": "boAt Airdopes Alpha Gen 2",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        899,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-alpha-gen-2-true-wireless-earbuds"
     },
     {
       "id": "electronics-465",
@@ -964,7 +1021,7 @@
       "variantCount": 4,
       "variantPrices": [
         1299,
-        1499
+        1399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-430-headphone"
     },
@@ -1019,8 +1076,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 8,
       "variantPrices": [
-        3099,
-        3499
+        2699,
+        3099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-650-pro"
     },
@@ -1030,10 +1087,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1399,
-        1599
+        1199,
+        1399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-3-bluetooth-calling-smartwatch"
+    },
+    {
+      "id": "electronics-478",
+      "name": "boAt Airdopes Plus 223",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        999,
+        1199
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-223"
     },
     {
       "id": "electronics-481",
@@ -1066,7 +1134,7 @@
       "variantCount": 5,
       "variantPrices": [
         3799,
-        4299
+        4099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-chrome-iris"
     },
@@ -1076,8 +1144,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
-        1699,
-        1799
+        1599,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/stone-580-bluetooth-speaker"
     },
@@ -1087,8 +1155,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        6399,
-        6899
+        5899,
+        6399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-valour-watch-1-gps-smartwatch-with-inbuilt-gps"
     },
@@ -1102,17 +1170,6 @@
         699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-102"
-    },
-    {
-      "id": "electronics-498",
-      "name": "boAt Airdopes 111v2",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        1699,
-        1899
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-111v2-wireless-earbuds"
     },
     {
       "id": "electronics-501",
@@ -1139,37 +1196,48 @@
       "sourceUrl": "https://boat-lifestyle.com/products/wave-sigma-smartwatch"
     },
     {
+      "id": "electronics-506",
+      "name": "boAt Airdopes Plus 421 ANC",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1399,
+        1599
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-421-anc"
+    },
+    {
       "id": "electronics-507",
       "name": "boAt Nirvana Zenith Pro SS Edition",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        3649,
-        3699
+        3149,
+        3199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-nirvana-zenith-pro-ss-edition"
     },
     {
-      "id": "electronics-516",
-      "name": "boAt Rockerz Plus 450 ANC",
+      "id": "electronics-509",
+      "name": "boAt Airdopes Plus 224",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        2999,
-        3099
+        999,
+        1199
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-plus-450-anc"
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-224"
     },
     {
-      "id": "electronics-519",
-      "name": "boAt Rockerz Trendz",
+      "id": "electronics-510",
+      "name": "boAt Airdopes Plus 222",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1499,
-        2499
+        899,
+        1099
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-trendz-wireless-headphones"
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-plus-222"
     },
     {
       "id": "electronics-522",
@@ -1177,8 +1245,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        1499,
-        1599
+        1299,
+        1399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-prime-512"
     },
@@ -1188,10 +1256,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1849,
-        1899
+        1649,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-301"
+    },
+    {
+      "id": "electronics-526",
+      "name": "boAt Airdopes 138 Gen 2",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 2,
+      "variantPrices": [
+        899,
+        999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-138-gen-2"
     },
     {
       "id": "electronics-527",
@@ -1200,8 +1279,7 @@
       "variantCount": 6,
       "variantPrices": [
         2199,
-        2799,
-        2999
+        2599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-crown-tws-earbuds"
     },
@@ -1217,15 +1295,59 @@
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-noise-cancelling-headphone"
     },
     {
-      "id": "electronics-539",
-      "name": "boAt Rockerz 301 ANC",
+      "id": "electronics-534",
+      "name": "boAt Rockerz Plus 550 ANC",
       "domain": "boat-lifestyle.com",
-      "variantCount": 2,
+      "variantCount": 3,
       "variantPrices": [
-        1499,
-        1599
+        2699,
+        3199
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-301-anc"
+      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-plus-550-anc"
+    },
+    {
+      "id": "electronics-538",
+      "name": "boAt Rockerz 371",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        899,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-371"
+    },
+    {
+      "id": "electronics-542",
+      "name": "boAt Airdopes Prime 511",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1299,
+        1399
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-prime-511-wireless-earbuds"
+    },
+    {
+      "id": "electronics-546",
+      "name": "boAt Rockerz 421",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1199,
+        1399
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-421-wireless-headphones"
+    },
+    {
+      "id": "electronics-547",
+      "name": "boAt Airdopes 212",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        899,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-212-wireless-earbuds"
     },
     {
       "id": "electronics-548",
@@ -1233,8 +1355,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
-        1299,
-        1599
+        1199,
+        1299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-412-wireless-headphones"
     },
@@ -1245,9 +1367,20 @@
       "variantCount": 4,
       "variantPrices": [
         1099,
-        1599
+        1199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-rockerz-413-wireless-headphones"
+    },
+    {
+      "id": "electronics-559",
+      "name": "boAt Airdopes Alpha",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 7,
+      "variantPrices": [
+        799,
+        1099
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds"
     },
     {
       "id": "electronics-560",
@@ -1255,8 +1388,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
+        3399,
         3499,
-        3799,
         3999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-551-anc-pro-wireless-headphone"
@@ -1290,9 +1423,20 @@
       "variantCount": 2,
       "variantPrices": [
         3499,
-        3899
+        3699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-iris-anc-earbuds"
+    },
+    {
+      "id": "electronics-566",
+      "name": "boAt Airdopes Loop",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1579,
+        1949
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-loop"
     },
     {
       "id": "electronics-569",
@@ -1320,6 +1464,17 @@
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-261-pro"
     },
     {
+      "id": "electronics-572",
+      "name": "boAt Airdopes 131 Elite ANC",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 4,
+      "variantPrices": [
+        1399,
+        1499
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-131-elite-anc-earbuds"
+    },
+    {
       "id": "electronics-576",
       "name": "boAt Airdopes 120",
       "domain": "boat-lifestyle.com",
@@ -1337,7 +1492,8 @@
       "variantCount": 6,
       "variantPrices": [
         1099,
-        1499
+        1199,
+        1399
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-supreme-long-playback-earbuds"
     },
@@ -1364,15 +1520,15 @@
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-71-long-playback-earbuds"
     },
     {
-      "id": "electronics-583",
-      "name": "boAt Rockerz 110",
+      "id": "electronics-586",
+      "name": "boAt Airdopes Ace",
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        899,
-        999
+        1249,
+        1549
       ],
-      "sourceUrl": "https://boat-lifestyle.com/products/rockerz-110"
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-ace"
     },
     {
       "id": "electronics-587",
@@ -1385,6 +1541,17 @@
         1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-161-anc-wireless-earbuds"
+    },
+    {
+      "id": "electronics-589",
+      "name": "boAt Airdopes Joy",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 3,
+      "variantPrices": [
+        1699,
+        1999
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/airdopes-joy-wireless-earbuds"
     },
     {
       "id": "electronics-590",
@@ -1447,12 +1614,12 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 14,
       "variantPrices": [
+        1599,
+        1668,
+        1699,
+        1768,
         1799,
         1868,
-        1899,
-        1968,
-        1999,
-        2068,
         2199
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds"
@@ -1497,9 +1664,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
+        1399,
+        1468,
         1499,
-        1508,
-        1568
+        1508
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-163-wireless-earbuds"
     },
@@ -1586,9 +1754,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 10,
       "variantPrices": [
+        899,
         908,
-        1099,
-        1168
+        968,
+        1099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-161"
     },
@@ -1609,11 +1778,23 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 14,
       "variantPrices": [
+        1299,
+        1368,
         1499,
-        1508,
-        1568
+        1508
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-airdopes-138-wireless-earbuds-1"
+    },
+    {
+      "id": "electronics-610",
+      "name": "Bassheads 110",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 4,
+      "variantPrices": [
+        499,
+        599
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-110"
     },
     {
       "id": "electronics-611",
@@ -1636,10 +1817,21 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
-        1749,
-        1849
+        1649,
+        1749
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/rockerz-425-wireless-bluetooth-headphone"
+    },
+    {
+      "id": "electronics-614",
+      "name": "boAt Bassheads 105",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 5,
+      "variantPrices": [
+        849,
+        899
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-105"
     },
     {
       "id": "electronics-615",
@@ -1651,6 +1843,17 @@
         1799
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/airdopes-171"
+    },
+    {
+      "id": "electronics-616",
+      "name": "Bassheads 220",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 6,
+      "variantPrices": [
+        699,
+        799
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-220"
     },
     {
       "id": "electronics-617",
@@ -1681,21 +1884,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 2,
       "variantPrices": [
-        999,
+        899,
         1099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-900"
-    },
-    {
-      "id": "electronics-620",
-      "name": "Bassheads 225",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 9,
-      "variantPrices": [
-        499,
-        599
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/bassheads-225"
     },
     {
       "id": "electronics-621",
@@ -1704,8 +1896,7 @@
       "variantCount": 4,
       "variantPrices": [
         299,
-        399,
-        449
+        349
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/bassheads-100"
     },
@@ -1726,8 +1917,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        2099,
-        2399
+        1799,
+        2099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-ultima-ember-2"
     },
@@ -1737,8 +1928,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1599,
-        1799
+        1499,
+        1699
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-storm-call-4"
     },
@@ -1748,8 +1939,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        1499,
-        1699
+        1399,
+        1599
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-wave-sigma-3-curv"
     },
@@ -1816,8 +2007,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1499,
-        1699
+        1299,
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-neo-bluetooth-calling-smartwatch"
     },
@@ -1838,8 +2029,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        3799,
-        4299
+        3499,
+        3999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-endeavour-amoled-display-smartwatch"
     },
@@ -1849,6 +2040,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 7,
       "variantPrices": [
+        1599,
         1699,
         1899
       ],
@@ -1906,8 +2098,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 4,
       "variantPrices": [
-        3299,
-        3599
+        2999,
+        3299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/chrome-horizon-amoled-display-smartwatch"
     },
@@ -1928,8 +2120,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1999,
-        2299
+        1799,
+        2099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-prime-amoled-display-smartwatch"
     },
@@ -1962,7 +2154,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        3099,
+        2799,
+        2999,
         3299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-gem-amoled-display-smartwatch"
@@ -1974,8 +2167,8 @@
       "variantCount": 5,
       "variantPrices": [
         999,
-        1399,
-        1749
+        1199,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-2-plus-bluetooth-calling-smartwatch"
     },
@@ -1986,8 +2179,7 @@
       "variantCount": 6,
       "variantPrices": [
         1899,
-        2899,
-        3199
+        2099
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch"
     },
@@ -1997,8 +2189,8 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 6,
       "variantPrices": [
-        1599,
-        1749
+        1399,
+        1549
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-discovery-hd-display-smartwatch"
     },
@@ -2031,9 +2223,8 @@
       "variantCount": 7,
       "variantPrices": [
         1299,
-        1399,
-        1549,
-        1599
+        1449,
+        1499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/storm-call3-plus-smartwatch"
     },
@@ -2047,6 +2238,17 @@
         5999
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wanderer-smart-4g-sim-smartwatch-for-kids-with-wifi-connectivity"
+    },
+    {
+      "id": "electronics-658",
+      "name": "boAt Smart Ring Active",
+      "domain": "boat-lifestyle.com",
+      "variantCount": 18,
+      "variantPrices": [
+        899,
+        1699
+      ],
+      "sourceUrl": "https://boat-lifestyle.com/products/smart-ring-active"
     },
     {
       "id": "electronics-659",
@@ -2065,21 +2267,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 5,
       "variantPrices": [
-        1399,
-        1549
+        1199,
+        1349
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/wave-fury-bluetooth-smartwatch"
-    },
-    {
-      "id": "electronics-673",
-      "name": "boAt Stone 1200 Pro",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        4799,
-        5999
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/stone-1200-pro-bluetooth-speaker"
     },
     {
       "id": "electronics-698",
@@ -2087,21 +2278,10 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
-        2099,
-        2499
+        1899,
+        2299
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/boat-stone-358-pro-portable-bluetooth-speaker-with-14w-boat-signature-sound-rgb-led-design-12-hours-playback"
-    },
-    {
-      "id": "electronics-701",
-      "name": "boAt Stone 190 Pro",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 2,
-      "variantPrices": [
-        999,
-        1299
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/stone-190-pro-bluetooth-speaker"
     },
     {
       "id": "electronics-713",
@@ -2200,7 +2380,7 @@
       "domain": "www.campusshoes.com",
       "variantCount": 7,
       "variantPrices": [
-        1489,
+        1787,
         1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/promote-m-blu-golden-mens-sports-shoes"
@@ -2212,7 +2392,7 @@
       "variantCount": 9,
       "variantPrices": [
         1799,
-        1829
+        1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/level-wht-gry-mens-sneakers"
     },
@@ -2233,7 +2413,7 @@
       "domain": "www.campusshoes.com",
       "variantCount": 7,
       "variantPrices": [
-        1264,
+        1284,
         1349
       ],
       "sourceUrl": "https://www.campusshoes.com/products/davis-wht-l-gry-mens-running-shoes"
@@ -2419,12 +2599,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "healthPersonalCare-20",
-      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
-      "domain": "www.lifelongindiaonline.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2599,12 +2773,6 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
-      "id": "electronics-119",
-      "name": "Portronics Ravn",
-      "domain": "www.portronics.com",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "id": "electronics-337",
       "name": "Xech V Gun Pro Cordless Vacuum With Blower",
       "domain": "xech.com",
@@ -2635,6 +2803,18 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
+      "id": "coconut-16",
+      "name": "EB01 Extension Board",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "coconut-43",
+      "name": "EB02 Extension Board",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
       "id": "coconut-73",
       "name": "27HDX LED Monitor",
       "domain": "coconutlife.in",
@@ -2645,6 +2825,12 @@
       "name": "Walton Soundbar with Woofer 160W",
       "domain": "coconutlife.in",
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "coconut-122",
+      "name": "EB03 Extension Board",
+      "domain": "coconutlife.in",
+      "error": "HTTP Error 404: Not Found"
     }
   ],
   "outOfScope": {
