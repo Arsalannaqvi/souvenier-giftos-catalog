@@ -1,10 +1,33 @@
 {
-  "checkedAt": "2026-11-27T11:21:09.345353+00:00",
+  "checkedAt": "2026-11-28T10:57:09.244763+00:00",
   "tier": "A (Shopify products.json endpoint)",
   "autoApplyThresholdPct": 25.0,
   "candidates": 1535,
   "unchanged": 1270,
-  "applied": [],
+  "applied": [
+    {
+      "id": "electronics-432",
+      "name": "boAt Storm Call 3",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 8999,
+      "livePrice": 1099,
+      "liveMrp": 8499,
+      "sourceUrl": "https://boat-lifestyle.com/products/storm-call-3-smartwatch",
+      "deltaPct": 5.6,
+      "action": "applied"
+    },
+    {
+      "id": "electronics-652",
+      "name": "boAt Lunar Orbit",
+      "domain": "boat-lifestyle.com",
+      "storedPrice": 8999,
+      "livePrice": 1299,
+      "liveMrp": 8499,
+      "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch",
+      "deltaPct": 5.6,
+      "action": "applied"
+    }
+  ],
   "flagged": [
     {
       "id": "healthPersonalCare-51",
@@ -881,17 +904,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/ultima-regal-smartwatch"
     },
     {
-      "id": "electronics-432",
-      "name": "boAt Storm Call 3",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 8,
-      "variantPrices": [
-        1149,
-        1199
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/storm-call-3-smartwatch"
-    },
-    {
       "id": "electronics-439",
       "name": "boAt Airdopes 213",
       "domain": "boat-lifestyle.com",
@@ -1190,6 +1202,7 @@
       "variantPrices": [
         1099,
         1199,
+        1299,
         1499,
         1649
       ],
@@ -2069,18 +2082,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/lunar-connect-ace-round-display-smartwatch"
     },
     {
-      "id": "electronics-642",
-      "name": "Smart Ring Active Plus",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 18,
-      "variantPrices": [
-        1699,
-        2199,
-        3999
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/smart-ring-active-plus"
-    },
-    {
       "id": "electronics-644",
       "name": "boAt Storm Infinity Plus",
       "domain": "boat-lifestyle.com",
@@ -2173,17 +2174,6 @@
       "sourceUrl": "https://boat-lifestyle.com/products/wave-call-2-plus-bluetooth-calling-smartwatch"
     },
     {
-      "id": "electronics-652",
-      "name": "boAt Lunar Orbit",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 6,
-      "variantPrices": [
-        1899,
-        2099
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/boat-lunar-orbit-premium-smartwatch"
-    },
-    {
       "id": "electronics-653",
       "name": "boAt Lunar Discovery",
       "domain": "boat-lifestyle.com",
@@ -2204,17 +2194,6 @@
         2499
       ],
       "sourceUrl": "https://boat-lifestyle.com/products/enigma-orion-hd-display-smartwatch"
-    },
-    {
-      "id": "electronics-655",
-      "name": "boAt Enigma Radiant",
-      "domain": "boat-lifestyle.com",
-      "variantCount": 4,
-      "variantPrices": [
-        2999,
-        3299
-      ],
-      "sourceUrl": "https://boat-lifestyle.com/products/enigma-radient-amoled-display-smartwatch"
     },
     {
       "id": "electronics-656",
@@ -2256,6 +2235,7 @@
       "domain": "boat-lifestyle.com",
       "variantCount": 3,
       "variantPrices": [
+        2499,
         2899,
         3799
       ],
@@ -2380,7 +2360,7 @@
       "domain": "www.campusshoes.com",
       "variantCount": 7,
       "variantPrices": [
-        1787,
+        1799,
         1899
       ],
       "sourceUrl": "https://www.campusshoes.com/products/promote-m-blu-golden-mens-sports-shoes"
@@ -2599,6 +2579,12 @@
       "error": "HTTP Error 404: Not Found"
     },
     {
+      "id": "healthPersonalCare-20",
+      "name": "Lifelong LLHC18 Electric Hot Water Bag with Digital Temperature Control",
+      "domain": "www.lifelongindiaonline.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": "edible-33",
       "name": "Loyka Royal Peach Darwaza Box",
       "domain": "loyka.co",
@@ -2771,6 +2757,12 @@
       "name": "Puma Gym duffle Bag",
       "domain": "joytreeglobal.com",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "electronics-119",
+      "name": "Portronics Ravn",
+      "domain": "www.portronics.com",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "electronics-337",
